@@ -499,6 +499,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Caderno de Questões - Simulado de Estudos Interativo</title>
+<link rel="icon" type="image/svg+xml" href="src/favicon.svg">
 <style>
     :root {{
         --primary: #1e40af;
@@ -1055,12 +1056,559 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
             justify-content: center;
         }}
     }}
+
+    /* Modal Ko-fi */
+    .kofi-modal-overlay {{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(15, 23, 42, 0.75);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        z-index: 9999;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        opacity: 0;
+        transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }}
+    .kofi-modal-overlay.active {{
+        display: flex;
+        opacity: 1;
+    }}
+    .kofi-modal-card {{
+        background: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);
+        width: 100%;
+        max-width: 520px;
+        max-height: 92vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transform: scale(0.95) translateY(10px);
+        transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }}
+    .kofi-modal-overlay.active .kofi-modal-card {{
+        transform: scale(1) translateY(0);
+    }}
+    [data-theme='dark'] .kofi-modal-card {{
+        background: #1e293b;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.1);
+    }}
+    .kofi-modal-header {{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 20px;
+        background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+        color: #ffffff;
+    }}
+    .kofi-modal-header-title {{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 700;
+        font-size: 16px;
+    }}
+    .kofi-modal-logo {{
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+    }}
+    .kofi-modal-close {{
+        background: rgba(255, 255, 255, 0.15);
+        border: none;
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 1;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
+    }}
+    .kofi-modal-close:hover {{
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.1);
+    }}
+    .kofi-modal-body {{
+        padding: 12px;
+        background: #f8fafc;
+        overflow-y: auto;
+        display: flex;
+        justify-content: center;
+    }}
+    [data-theme='dark'] .kofi-modal-body {{
+        background: #0f172a;
+    }}
+    .kofi-modal-body iframe {{
+        border-radius: 12px;
+        max-width: 100%;
+    }}
+
+    /* Modal de Aviso sobre IA e Gabarito */
+    .aviso-modal-overlay {{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(15, 23, 42, 0.75);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        z-index: 10000;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        opacity: 0;
+        transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }}
+    .aviso-modal-overlay.active {{
+        display: flex;
+        opacity: 1;
+    }}
+    .aviso-modal-card {{
+        background: var(--card-bg, #ffffff);
+        border: 1px solid var(--border-color, #e2e8f0);
+        border-radius: 20px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        max-width: 550px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transform: scale(0.95) translateY(10px);
+        transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }}
+    .aviso-modal-overlay.active .aviso-modal-card {{
+        transform: scale(1) translateY(0);
+    }}
+    .aviso-modal-header {{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 22px;
+        background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+        color: #ffffff;
+    }}
+    .aviso-modal-header-title {{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: -0.2px;
+    }}
+    .aviso-modal-close {{
+        background: rgba(255, 255, 255, 0.15);
+        border: none;
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 1;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
+    }}
+    .aviso-modal-close:hover {{
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.1);
+    }}
+    .aviso-modal-body {{
+        padding: 22px 22px 16px 22px;
+        color: var(--text-main, #1e293b);
+        font-size: 14.5px;
+        line-height: 1.65;
+    }}
+    .aviso-alert-box {{
+        background: #fef2f2;
+        border-left: 4px solid #ef4444;
+        border-radius: 8px;
+        padding: 14px 16px;
+        margin-bottom: 16px;
+        color: #991b1b;
+        font-size: 13.5px;
+        line-height: 1.55;
+    }}
+    [data-theme='dark'] .aviso-alert-box {{
+        background: #450a0a;
+        border-left-color: #f87171;
+        color: #fecaca;
+    }}
+    .aviso-info-box {{
+        background: #ecfdf5;
+        border-left: 4px solid #10b981;
+        border-radius: 8px;
+        padding: 14px 16px;
+        color: #065f46;
+        font-size: 13.5px;
+        line-height: 1.55;
+    }}
+    [data-theme='dark'] .aviso-info-box {{
+        background: #064e3b;
+        border-left-color: #34d399;
+        color: #d1fae5;
+    }}
+    .aviso-modal-footer {{
+        padding: 14px 22px 18px 22px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        border-top: 1px solid var(--border-color, #e2e8f0);
+        background: var(--bg-main, #f8fafc);
+    }}
+    .btn-aviso-ok {{
+        background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+        color: #ffffff;
+        border: none;
+        padding: 10px 24px;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+        transition: all 0.2s ease;
+    }}
+    .btn-aviso-ok:hover {{
+        background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px rgba(37, 99, 235, 0.4);
+    }}
+    .top-bar-title {{
+        font-weight: 700;
+        font-size: 15px;
+        color: #1e3a8a;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        user-select: none;
+        transition: all 0.2s ease;
+    }}
+    [data-theme='dark'] .top-bar-title {{
+        color: var(--primary-light, #93c5fd);
+    }}
+    .top-bar-title:hover {{
+        color: var(--primary-light, #3b82f6);
+        transform: translateY(-1px);
+    }}
+    .btn-icon-topbar {{
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        width: 38px;
+        height: 38px;
+        padding: 0;
+        border-radius: 50%;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    }}
+    .btn-icon-topbar:hover {{
+        border-color: var(--primary-light);
+        transform: translateY(-2px) scale(1.08);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    }}
+    .aviso-icon-img {{
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        transition: filter 0.3s ease, transform 0.3s ease;
+    }}
+    .btn-icon-topbar:hover .aviso-icon-img {{
+        transform: scale(1.1);
+    }}
+    [data-theme="dark"] .aviso-icon-img {{
+        filter: invert(1) brightness(1.3);
+    }}
+
+    /* Modal de Confirmação para Limpar Respostas */
+    .confirm-modal-overlay {{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(15, 23, 42, 0.75);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        z-index: 10000;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        opacity: 0;
+        transition: opacity 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }}
+    .confirm-modal-overlay.active {{
+        display: flex;
+        opacity: 1;
+    }}
+    .confirm-modal-card {{
+        background: var(--card-bg, #ffffff);
+        border: 1px solid var(--border-color, #e2e8f0);
+        border-radius: 20px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+        width: 100%;
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        transform: scale(0.95) translateY(10px);
+        transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }}
+    .confirm-modal-overlay.active .confirm-modal-card {{
+        transform: scale(1) translateY(0);
+    }}
+    .confirm-modal-header {{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 20px;
+        background: linear-gradient(135deg, #991b1b 0%, #dc2626 100%);
+        color: #ffffff;
+    }}
+    .confirm-modal-title {{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 700;
+        font-size: 16px;
+    }}
+    .confirm-modal-close {{
+        background: rgba(255, 255, 255, 0.15);
+        border: none;
+        color: #ffffff;
+        font-size: 18px;
+        line-height: 1;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s ease;
+    }}
+    .confirm-modal-close:hover {{
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.1);
+    }}
+    .confirm-modal-body {{
+        padding: 22px 20px;
+        color: var(--text-main, #1e293b);
+        font-size: 14.5px;
+        line-height: 1.6;
+    }}
+    .confirm-modal-warning {{
+        margin-top: 12px;
+        padding: 10px 14px;
+        background: #fef2f2;
+        border-radius: 8px;
+        color: #991b1b;
+        font-size: 13px;
+        font-weight: 500;
+    }}
+    [data-theme='dark'] .confirm-modal-warning {{
+        background: #450a0a;
+        color: #fecaca;
+    }}
+    .confirm-modal-footer {{
+        padding: 14px 20px 18px 20px;
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
+        border-top: 1px solid var(--border-color, #e2e8f0);
+        background: var(--bg-main, #f8fafc);
+    }}
+    .btn-confirm-cancel {{
+        background: var(--btn-reset-bg, #f1f5f9);
+        color: var(--text-main, #334155);
+        border: 1px solid var(--border-color, #cbd5e1);
+        padding: 9px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }}
+    .btn-confirm-cancel:hover {{
+        background: var(--alt-hover-bg, #e2e8f0);
+    }}
+    .btn-confirm-proceed {{
+        background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+        color: #ffffff;
+        border: none;
+        padding: 9px 22px;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 8px;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(220, 38, 38, 0.3);
+        transition: all 0.2s ease;
+    }}
+    .btn-confirm-proceed:hover {{
+        background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%);
+        transform: translateY(-1px);
+        box-shadow: 0 6px 16px rgba(220, 38, 38, 0.4);
+    }}
+    .modal-header-icon {{
+        width: 22px;
+        height: 22px;
+        object-fit: contain;
+        filter: brightness(0) invert(1);
+    }}
+    .inline-icon {{
+        width: 16px;
+        height: 16px;
+        object-fit: contain;
+        vertical-align: -2.5px;
+        margin-right: 5px;
+        transition: filter 0.3s ease;
+    }}
+    [data-theme="dark"] .inline-icon {{
+        filter: invert(1) brightness(1.2);
+    }}
+
+    /* Painel de Desempenho e Estatísticas */
+    .stats-panel-card {{
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 16px;
+        padding: 24px 20px;
+        margin: 36px 0 20px 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+        transition: all 0.3s ease;
+    }}
+    .stats-panel-header {{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 20px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid var(--border-color);
+    }}
+    .stats-panel-title {{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--hero-h1);
+    }}
+    .stats-title-icon {{
+        width: 20px;
+        height: 20px;
+        color: var(--primary);
+    }}
+    .stats-panel-subtitle {{
+        font-size: 13px;
+        color: var(--text-muted);
+    }}
+    .stats-grid {{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 16px;
+    }}
+    .stat-card {{
+        background: var(--alt-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 16px 18px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        transition: all 0.25s ease;
+    }}
+    .stat-card:hover {{
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }}
+    .stat-icon-wrap {{
+        width: 42px;
+        height: 42px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }}
+    .stat-icon-svg {{
+        width: 20px;
+        height: 20px;
+    }}
+    .stat-info {{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+    }}
+    .stat-value {{
+        font-size: 20px;
+        font-weight: 800;
+        color: var(--text-main);
+        line-height: 1.2;
+    }}
+    .stat-label {{
+        font-size: 12px;
+        font-weight: 600;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }}
+    .stat-icon-acertos {{
+        background: #ecfdf5;
+        color: #10b981;
+    }}
+    [data-theme='dark'] .stat-icon-acertos {{
+        background: #064e3b;
+        color: #34d399;
+    }}
+    .stat-icon-erros {{
+        background: #fef2f2;
+        color: #ef4444;
+    }}
+    [data-theme='dark'] .stat-icon-erros {{
+        background: #450a0a;
+        color: #f87171;
+    }}
+    .stat-icon-taxa {{
+        background: #eff6ff;
+        color: #3b82f6;
+    }}
+    [data-theme='dark'] .stat-icon-taxa {{
+        background: #1e3a8a;
+        color: #93c5fd;
+    }}
+    .stat-icon-total {{
+        background: #f8fafc;
+        color: #64748b;
+    }}
+    [data-theme='dark'] .stat-icon-total {{
+        background: #334155;
+        color: #cbd5e1;
+    }}
 </style>
 </head>
 <body>
 
 <div class="top-bar">
-    <div style="font-weight: 700; font-size: 15px; color: #1e3a8a;">
+    <div class="top-bar-title" onclick="window.scrollTo({{ top: 0, behavior: 'smooth' }})" title="Clique para voltar ao topo">
         🩺 Simulado Residência Médica
     </div>
     <div class="progress-container">
@@ -1073,10 +1621,13 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
         </div>
     </div>
     <div style="display: flex; gap: 8px; align-items: center;">
+        <button type="button" class="btn-icon-topbar" id="btn-aviso-toggle" onclick="abrirAvisoModal()" title="Aviso sobre IA e Gabarito">
+            <img src="src/aviso.png" alt="Aviso" class="aviso-icon-img">
+        </button>
         <button class="btn-theme-toggle" id="theme-toggle-btn" onclick="toggleTheme()" title="Alternar Modo Escuro / Modo Claro">
             <img src="src/dark-mode.png" alt="Alternar Tema" id="theme-icon-img" class="theme-icon-img">
         </button>
-        <button class="btn-reset" onclick="limparRespostas()">✖ Limpar Respostas</button>
+        <button type="button" class="btn-reset" onclick="abrirConfirmResetModal()">✖ Limpar Respostas</button>
     </div>
 </div>
 
@@ -1101,10 +1652,75 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
             </div>
         </div>
         <div class="kofi-btn-container">
-            <a href="https://ko-fi.com" target="_blank" rel="noopener noreferrer" class="kofi-btn">
+            <button type="button" class="kofi-btn" onclick="abrirKofiModal()">
                 <img src="src/logomarkLogo.png" alt="Ko-fi Logo" class="kofi-icon-img">
                 <span>Pagar um Café no Ko-fi</span>
-            </a>
+            </button>
+        </div>
+    </div>
+
+    <!-- Modal Ko-fi de Apoio -->
+    <div id="kofi-modal-overlay" class="kofi-modal-overlay" onclick="fecharKofiModal(event)">
+        <div class="kofi-modal-card" onclick="event.stopPropagation()">
+            <div class="kofi-modal-header">
+                <div class="kofi-modal-header-title">
+                    <img src="src/logomarkLogo.png" alt="Ko-fi Logo" class="kofi-modal-logo">
+                    <span>Apoiar Projeto no Ko-fi</span>
+                </div>
+                <button type="button" class="kofi-modal-close" onclick="fecharKofiModal()" title="Fechar (Esc)">&times;</button>
+            </div>
+            <div class="kofi-modal-body">
+                <iframe id='kofiframe' src='https://ko-fi.com/allsz/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;border-radius:12px;' height='712' title='allsz'></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Aviso IA & Gabarito Oficial -->
+    <div id="aviso-modal-overlay" class="aviso-modal-overlay" onclick="fecharAvisoModal(event)">
+        <div class="aviso-modal-card" onclick="event.stopPropagation()">
+            <div class="aviso-modal-header">
+                <div class="aviso-modal-header-title">
+                    <img src="src/lampada.png" alt="Aviso" class="modal-header-icon">
+                    <span>Aviso Importante</span>
+                </div>
+                <button type="button" class="aviso-modal-close" onclick="fecharAvisoModal()" title="Fechar (Esc)">&times;</button>
+            </div>
+            <div class="aviso-modal-body">
+                <div class="aviso-alert-box">
+                    <strong><img src="src/atenção.png" alt="Atenção" class="inline-icon"> Comentários da IA:</strong><br>
+                    Este simulado contém comentários de IA sobre a questão, elas não devem ser levadas como verdade absoluta pois a mesma pode cometer erros.
+                </div>
+                <div class="aviso-info-box">
+                    <strong><img src="src/check.png" alt="Check" class="inline-icon"> Gabarito Oficial:</strong><br>
+                    Contudo o Gabarito Oficial indicado é fornecido pelos realizadores das questões, portanto as leve em consideração!
+                </div>
+            </div>
+            <div class="aviso-modal-footer">
+                <button type="button" class="btn-aviso-ok" onclick="fecharAvisoModal()">Okay</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Confirmação de Limpar Respostas -->
+    <div id="confirm-reset-modal-overlay" class="confirm-modal-overlay" onclick="fecharConfirmResetModal(event)">
+        <div class="confirm-modal-card" onclick="event.stopPropagation()">
+            <div class="confirm-modal-header">
+                <div class="confirm-modal-title">
+                    <img src="src/lixeira.png" alt="Lixeira" class="modal-header-icon">
+                    <span>Limpar Todas as Respostas?</span>
+                </div>
+                <button type="button" class="confirm-modal-close" onclick="fecharConfirmResetModal()" title="Fechar (Esc)">&times;</button>
+            </div>
+            <div class="confirm-modal-body">
+                <p style="margin: 0 0 10px 0;">Tem certeza de que deseja apagar todas as respostas e recomeçar o simulado?</p>
+                <div class="confirm-modal-warning">
+                    <img src="src/atenção.png" alt="Atenção" class="inline-icon"> Esta ação não pode ser desfeita e todas as questões voltarão ao estado inicial.
+                </div>
+            </div>
+            <div class="confirm-modal-footer">
+                <button type="button" class="btn-confirm-cancel" onclick="fecharConfirmResetModal()">Não</button>
+                <button type="button" class="btn-confirm-proceed" onclick="executarLimparRespostas()">Sim</button>
+            </div>
         </div>
     </div>
 """
@@ -1176,6 +1792,79 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
                     html += f"</div>\n"
 
     html += f"""
+    <!-- Painel de Desempenho e Estatísticas -->
+    <div class="stats-panel-card">
+        <div class="stats-panel-header">
+            <div class="stats-panel-title">
+                <svg class="stats-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                </svg>
+                <span>Resumo de Desempenho</span>
+            </div>
+            <span class="stats-panel-subtitle">Estatísticas calculadas em tempo real com base no gabarito</span>
+        </div>
+        <div class="stats-grid">
+            <!-- Card Acertos -->
+            <div class="stat-card">
+                <div class="stat-icon-wrap stat-icon-acertos">
+                    <svg class="stat-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <span class="stat-value" id="stat-acertos">0</span>
+                    <span class="stat-label">Acertos</span>
+                </div>
+            </div>
+
+            <!-- Card Erros -->
+            <div class="stat-card">
+                <div class="stat-icon-wrap stat-icon-erros">
+                    <svg class="stat-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <span class="stat-value" id="stat-erros">0</span>
+                    <span class="stat-label">Erros</span>
+                </div>
+            </div>
+
+            <!-- Card Taxa de Sucesso -->
+            <div class="stat-card">
+                <div class="stat-icon-wrap stat-icon-taxa">
+                    <svg class="stat-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 2a10 10 0 0 1 10 10"></path>
+                        <path d="M12 12l4-4"></path>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <span class="stat-value" id="stat-taxa">0%</span>
+                    <span class="stat-label">Taxa de Sucesso</span>
+                </div>
+            </div>
+
+            <!-- Card Respondidas -->
+            <div class="stat-card">
+                <div class="stat-icon-wrap stat-icon-total">
+                    <svg class="stat-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <span class="stat-value" id="stat-respondidas">0 / {total_questoes_com_alt}</span>
+                    <span class="stat-label">Respondidas</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
@@ -1193,6 +1882,41 @@ function atualizarBarra(qtd) {{
     if (bar) {{
         bar.style.width = `${{pct}}%`;
     }}
+}}
+
+function atualizarEstatisticas() {{
+    const dados = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{{}}');
+    let acertos = 0;
+    let erros = 0;
+    let avaliadas = 0;
+
+    for (const [qId, valor] of Object.entries(dados)) {{
+        const radio = document.querySelector(`input[name="${{qId}}"]`);
+        if (radio) {{
+            const gabarito = radio.getAttribute('data-gabarito');
+            if (gabarito && gabarito !== 'N/A' && gabarito !== 'ANULADA') {{
+                avaliadas++;
+                if (valor === gabarito) {{
+                    acertos++;
+                }} else {{
+                    erros++;
+                }}
+            }}
+        }}
+    }}
+
+    const totalRespondidas = Object.keys(dados).length;
+    const taxa = avaliadas > 0 ? Math.round((acertos / avaliadas) * 100) : 0;
+
+    const elAcertos = document.getElementById('stat-acertos');
+    const elErros = document.getElementById('stat-erros');
+    const elTaxa = document.getElementById('stat-taxa');
+    const elResp = document.getElementById('stat-respondidas');
+
+    if (elAcertos) elAcertos.textContent = acertos;
+    if (elErros) elErros.textContent = erros;
+    if (elTaxa) elTaxa.textContent = taxa + '%';
+    if (elResp) elResp.textContent = `${{totalRespondidas}} / ${{TOTAL_QUESTOES}}`;
 }}
 
 function toggleResposta(qId) {{
@@ -1220,6 +1944,7 @@ function carregarRespostas() {{
         }}
     }}
     atualizarBarra(respondidas);
+    atualizarEstatisticas();
 }}
 
 function salvarResposta(qId, valor, gabarito) {{
@@ -1229,6 +1954,7 @@ function salvarResposta(qId, valor, gabarito) {{
     
     atualizarEstiloQuestao(qId, valor, gabarito);
     atualizarBarra(Object.keys(dados).length);
+    atualizarEstatisticas();
 }}
 
 function atualizarEstiloQuestao(qId, valor, gabarito) {{
@@ -1270,15 +1996,33 @@ function revelarFeedbackGabarito(qId) {{
     }}
 }}
 
-function limparRespostas() {{
-    if (confirm('Tem certeza que deseja apagar todas as respostas e recomeçar o simulado?')) {{
-        localStorage.removeItem(STORAGE_KEY);
-        document.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
-        document.querySelectorAll('.card-questao').forEach(c => c.classList.remove('answered'));
-        document.querySelectorAll('.alternativa').forEach(l => l.classList.remove('selected', 'correct', 'incorrect'));
-        document.querySelectorAll('.gabarito-box').forEach(b => b.style.display = 'none');
-        atualizarBarra(0);
+function abrirConfirmResetModal() {{
+    const modal = document.getElementById('confirm-reset-modal-overlay');
+    if (modal) {{
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
     }}
+}}
+
+function fecharConfirmResetModal(e) {{
+    if (!e || e.target.id === 'confirm-reset-modal-overlay' || e.target.closest('.confirm-modal-close') || e.target.closest('.btn-confirm-cancel')) {{
+        const modal = document.getElementById('confirm-reset-modal-overlay');
+        if (modal) {{
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }}
+    }}
+}}
+
+function executarLimparRespostas() {{
+    localStorage.removeItem(STORAGE_KEY);
+    document.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
+    document.querySelectorAll('.card-questao').forEach(c => c.classList.remove('answered'));
+    document.querySelectorAll('.alternativa').forEach(l => l.classList.remove('selected', 'correct', 'incorrect'));
+    document.querySelectorAll('.gabarito-box').forEach(b => b.style.display = 'none');
+    atualizarBarra(0);
+    atualizarEstatisticas();
+    fecharConfirmResetModal();
 }}
 
 // Lógica de Alternância de Tema (Modo Escuro / Modo Claro)
@@ -1310,9 +2054,66 @@ function toggleTheme() {{
     setTheme(isDark ? 'light' : 'dark');
 }}
 
+// Funções do Modal Ko-fi
+function abrirKofiModal() {{
+    const modal = document.getElementById('kofi-modal-overlay');
+    if (modal) {{
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }}
+}}
+
+function fecharKofiModal(e) {{
+    if (!e || e.target.id === 'kofi-modal-overlay' || e.target.closest('.kofi-modal-close')) {{
+        const modal = document.getElementById('kofi-modal-overlay');
+        if (modal) {{
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }}
+    }}
+}}
+
+// Funções do Modal de Aviso sobre IA e Gabarito
+function abrirAvisoModal() {{
+    const modal = document.getElementById('aviso-modal-overlay');
+    if (modal) {{
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }}
+}}
+
+function fecharAvisoModal(e) {{
+    if (!e || e.target.id === 'aviso-modal-overlay' || e.target.closest('.aviso-modal-close') || e.target.closest('.btn-aviso-ok')) {{
+        const modal = document.getElementById('aviso-modal-overlay');
+        if (modal) {{
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }}
+    }}
+}}
+
+document.addEventListener('keydown', function(e) {{
+    if (e.key === 'Escape') {{
+        const kofiModal = document.getElementById('kofi-modal-overlay');
+        if (kofiModal && kofiModal.classList.contains('active')) {{
+            fecharKofiModal();
+        }}
+        const avisoModal = document.getElementById('aviso-modal-overlay');
+        if (avisoModal && avisoModal.classList.contains('active')) {{
+            fecharAvisoModal();
+        }}
+        const confirmModal = document.getElementById('confirm-reset-modal-overlay');
+        if (confirmModal && confirmModal.classList.contains('active')) {{
+            fecharConfirmResetModal();
+        }}
+    }}
+}});
+
 // Inicializa o tema e carrega as respostas ao abrir a página
 initTheme();
-window.addEventListener('DOMContentLoaded', carregarRespostas);
+window.addEventListener('DOMContentLoaded', () => {{
+    carregarRespostas();
+}});
 </script>
 
 </body>
