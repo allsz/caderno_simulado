@@ -4,12 +4,45 @@ import asyncio
 import io
 import json
 import time
+import base64
 from pathlib import Path
 import pymupdf
 import winocr
 from PIL import Image
 import sys
 sys.stdout.reconfigure(encoding='utf-8')
+
+
+def obter_base64_imagem(caminho_relativo):
+    """Converte uma imagem local em data URI Base64 para embutimento direto e autônomo no HTML."""
+    if not caminho_relativo:
+        return ""
+    base_dir = Path(__file__).parent
+    p_name = Path(caminho_relativo).name
+    cand_paths = [
+        base_dir / caminho_relativo,
+        base_dir / "saida" / caminho_relativo,
+        base_dir / "src" / p_name,
+        base_dir / "saida" / "src" / p_name,
+    ]
+    for p in cand_paths:
+        if p.exists():
+            try:
+                ext = p.suffix.lower().lstrip('.')
+                mime_map = {
+                    "png": "image/png",
+                    "jpg": "image/jpeg",
+                    "jpeg": "image/jpeg",
+                    "gif": "image/gif",
+                    "svg": "image/svg+xml",
+                    "webp": "image/webp"
+                }
+                mime = mime_map.get(ext, "image/png")
+                encoded = base64.b64encode(p.read_bytes()).decode('utf-8')
+                return f"data:{mime};base64,{encoded}"
+            except Exception:
+                pass
+    return caminho_relativo
 
 
 def extrair_gabarito_pdf(caminho_pdf):
@@ -492,6 +525,13 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
                 for q in banco_questoes[esp][tema][subtema]:
                     if q['alternativas']:
                         total_questoes_com_alt += 1
+
+    img_dark_b64 = obter_base64_imagem("src/dark-mode.png")
+    img_claro_b64 = obter_base64_imagem("src/icons8-modo-claro-78.png")
+    img_kofi_badge_b64 = obter_base64_imagem("src/ffbe___cloud_strife_gif_3_by_zerolympiustrife_dbuxzfm.gif")
+    img_kofi_logo_b64 = obter_base64_imagem("src/logomarkLogo.png")
+    img_aviso_b64 = obter_base64_imagem("src/aviso.png")
+    img_lampada_b64 = obter_base64_imagem("src/lampada.png")
 
     html = f"""<!DOCTYPE html>
 <html lang="pt-BR">
@@ -1622,10 +1662,10 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
     </div>
     <div style="display: flex; gap: 8px; align-items: center;">
         <button type="button" class="btn-icon-topbar" id="btn-aviso-toggle" onclick="abrirAvisoModal()" title="Aviso sobre IA e Gabarito">
-            <img src="src/aviso.png" alt="Aviso" class="aviso-icon-img">
+            <img src="{img_aviso_b64}" alt="Aviso" class="aviso-icon-img">
         </button>
         <button class="btn-theme-toggle" id="theme-toggle-btn" onclick="toggleTheme()" title="Alternar Modo Escuro / Modo Claro">
-            <img src="src/dark-mode.png" alt="Alternar Tema" id="theme-icon-img" class="theme-icon-img">
+            <img src="{img_dark_b64}" alt="Alternar Tema" id="theme-icon-img" class="theme-icon-img">
         </button>
         <button type="button" class="btn-reset" onclick="abrirConfirmResetModal()">✖ Limpar Respostas</button>
     </div>
@@ -1644,7 +1684,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
     <div class="kofi-banner">
         <div class="kofi-content">
             <div class="kofi-header">
-                <img src="src/ffbe___cloud_strife_gif_3_by_zerolympiustrife_dbuxzfm.gif" alt="FFBE Icon" class="kofi-badge-img">
+                <img src="{img_kofi_badge_b64}" alt="FFBE Icon" class="kofi-badge-img">
                 <span>Gostou do Simulado? Me apoie!</span>
             </div>
             <div class="kofi-desc">
@@ -1653,7 +1693,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
         </div>
         <div class="kofi-btn-container">
             <button type="button" class="kofi-btn" onclick="abrirKofiModal()">
-                <img src="src/logomarkLogo.png" alt="Ko-fi Logo" class="kofi-icon-img">
+                <img src="{img_kofi_logo_b64}" alt="Ko-fi Logo" class="kofi-icon-img">
                 <span>Pagar um Café no Ko-fi</span>
             </button>
         </div>
@@ -1664,7 +1704,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
         <div class="kofi-modal-card" onclick="event.stopPropagation()">
             <div class="kofi-modal-header">
                 <div class="kofi-modal-header-title">
-                    <img src="src/logomarkLogo.png" alt="Ko-fi Logo" class="kofi-modal-logo">
+                    <img src="{img_kofi_logo_b64}" alt="Ko-fi Logo" class="kofi-modal-logo">
                     <span>Apoiar Projeto no Ko-fi</span>
                 </div>
                 <button type="button" class="kofi-modal-close" onclick="fecharKofiModal()" title="Fechar (Esc)">&times;</button>
@@ -1680,7 +1720,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
         <div class="aviso-modal-card" onclick="event.stopPropagation()">
             <div class="aviso-modal-header">
                 <div class="aviso-modal-header-title">
-                    <img src="src/lampada.png" alt="Aviso" class="modal-header-icon">
+                    <img src="{img_lampada_b64}" alt="Aviso" class="modal-header-icon">
                     <span>Aviso Importante</span>
                 </div>
                 <button type="button" class="aviso-modal-close" onclick="fecharAvisoModal()" title="Fechar (Esc)">&times;</button>
@@ -2036,13 +2076,13 @@ function setTheme(theme) {{
     if (theme === 'dark') {{
         document.documentElement.setAttribute('data-theme', 'dark');
         if (img) {{
-            img.src = 'src/icons8-modo-claro-78.png';
+            img.src = '{img_claro_b64}';
             img.alt = 'Alternar para Modo Claro';
         }}
     }} else {{
         document.documentElement.removeAttribute('data-theme');
         if (img) {{
-            img.src = 'src/dark-mode.png';
+            img.src = '{img_dark_b64}';
             img.alt = 'Alternar para Modo Escuro';
         }}
     }}
