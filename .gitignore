@@ -1,0 +1,16 @@
+# Segredos e Chaves de API
+.env
+
+# Ambientes Virtuais Python
+.venv/
+env/
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Arquivos temporários e IDE
+.idea/
+.vscode/
+*.log
