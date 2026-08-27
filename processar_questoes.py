@@ -586,6 +586,18 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
 <title>Caderno de Questões - Simulado de Estudos Interativo</title>
 <link rel="icon" type="image/svg+xml" href="{favicon_b64}">
 
+<!-- Inicializador Instantâneo de Tema (Evita Flash de Tela Branca) -->
+<script>
+  (function() {{
+    try {{
+      const savedTheme = localStorage.getItem('simulado_theme_preference') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      if (savedTheme === 'dark') {{
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }}
+    }} catch(e) {{}}
+  }})();
+</script>
+
 <!-- Google tag (gtag.js) - Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBHG2JMQW2"></script>
 <script>
@@ -838,7 +850,13 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
         border-radius: 10px;
         padding: 20px;
         margin-bottom: 18px;
-        transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.2s;
+        transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s;
+        content-visibility: auto;
+        contain-intrinsic-size: 1px 320px;
+    }}
+    .disable-transitions,
+    .disable-transitions * {{
+        transition: none !important;
     }}
     .card-questao.answered {{
         border-left: 5px solid var(--accent);
@@ -1869,7 +1887,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
                         for img_src in imgs:
                             num_q = q["numero"]
                             img_b64 = obter_base64_imagem(img_src)
-                            html_parts.append(f"  <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao'>\n")
+                            html_parts.append(f"  <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao' loading='lazy' decoding='async'>\n")
                         html_parts.append("</div>\n")
                     
                     if q['alternativas']:
@@ -2130,13 +2148,16 @@ function executarLimparRespostas() {{
     fecharConfirmResetModal();
 }}
 
-// Lógica de Alternância de Tema (Modo Escuro / Modo Claro)
+// Lógica de Alternância de Tema Instantânea (Zero Lag / Zero Flash)
 function initTheme() {{
     const savedTheme = localStorage.getItem('simulado_theme_preference') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    setTheme(savedTheme);
+    setTheme(savedTheme, false);
 }}
 
-function setTheme(theme) {{
+function setTheme(theme, skipTransition = true) {{
+    if (skipTransition) {{
+        document.documentElement.classList.add('disable-transitions');
+    }}
     const img = document.getElementById('theme-icon-img');
     if (theme === 'dark') {{
         document.documentElement.setAttribute('data-theme', 'dark');
@@ -2152,11 +2173,18 @@ function setTheme(theme) {{
         }}
     }}
     localStorage.setItem('simulado_theme_preference', theme);
+    if (skipTransition) {{
+        requestAnimationFrame(() => {{
+            requestAnimationFrame(() => {{
+                document.documentElement.classList.remove('disable-transitions');
+            }});
+        }});
+    }}
 }}
 
 function toggleTheme() {{
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-    setTheme(isDark ? 'light' : 'dark');
+    setTheme(isDark ? 'light' : 'dark', true);
 }}
 
 // Funções do Modal Ko-fi
