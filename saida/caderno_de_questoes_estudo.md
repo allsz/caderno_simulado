@@ -122,9 +122,9 @@ Uma paciente de 22 anos apresentou quadro de dor pélvica súbita há cerca de 2
 - [ ] **(E)** torção de ovário direito.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A paciente apresenta abdome agudo hemorrágico (hipocorada, hipotensão e taquicardia) associado a sinais de irritação peritoneal (dor difusa com descompressão dolorosa mais acentuada em fossa ilíaca direita). Embora gravidez tubária rota (C) cause quadro hemorrágico semelhante, a apendicite aguda (A) é a causa mais frequente de dor em FID com peritonite nesta faixa etária. Cisto roto (B) e mittelschmerz (D) geralmente não cursam com choque hipovolêmico grave. Torção de ovário (E) causa dor súbita intensa, mas o choque circulatório é menos comum e tipicamente decorre de dor excruciante, não de hemoperitônio.
 </details>
@@ -142,9 +142,9 @@ Um homem de 26 anos, atlético, em boas condições físicas, se apresenta ao pr
 - [ ] **(E)** doença inflamatória intestinal; corticosteroides e observação.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O paciente apresenta quadro clínico clássico de apendicite aguda (dor em QID, febre, náuseas, defesa peritoneal e leucocitose com desvio). A tomografia evidencia apêndice distendido, parede espessada e líquido livre. Embora cite 'sinais de abscesso periapendicular', no contexto de abdômen agudo cirúrgico com peritonite localizada e boa condição clínica, a abordagem padrão é a apendicectomia de urgência (preferencialmente laparoscópica), associada à reposição hidroeletrolítica e antibioticoterapia. As alternativas B, C, D e E estão incorretas: a B sugere via aberta obrigatória (laparoscopia é viável), a C indica conduta conservadora inadequada para abscesso sintomático com irritação peritoneal, e D e E trazem diagnósticos errados para o quadro agudo apendicular.
 </details>
@@ -162,9 +162,9 @@ Uma paciente de 24 anos, saudável, é usuária de dispositivo intrauterino de c
 - [ ] **(E)** pielonefrite à direita.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O gabarito oficial da banca indica 'gestação ectópica', porém, clinicamente, o quadro descrito (dor aguda, náuseas, aumento do ovário, ausência de fluxo ao Doppler e líquido livre) é patognomônico de 'torção anexial' (Alternativa C). A gestação ectópica, embora comum, não explica a perda de fluxo sanguíneo ovariano ao Doppler. Contudo, em questões de prova, deve-se atentar ao gabarito oficial. A exclusão das demais: (B) ausência de febre/sinais infecciosos; (D) e (E) a USG aponta claramente para uma etiologia anexial e não apendicular ou renal. Ressalto que, na prática clínica e em provas de residência de alto nível, o cenário descrito aponta com maior especificidade para torção de ovário.
 </details>
@@ -321,9 +321,9 @@ Durante o pneumoperitônio para realização de cirurgias por acesso videolaparo
 - [ ] **(E)** arritmias cardíacas e outros distúrbios de ritmo cardíaco são raros.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** Durante o pneumoperitônio, a insuflação eleva a pressão intra-abdominal, causando compressão da veia cava inferior. Isso reduz o retorno venoso e, consequentemente, o débito cardíaco (embora a resistência vascular sistêmica esteja aumentada). 
 
@@ -608,9 +608,9 @@ Um paciente de 55 anos apresenta-se no consultório com queixa de uma protuberâ
 - [ ] **(E)** herniorrafia convencional sem reforço de tecido à Bassini.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A melhor técnica para hérnias inguinoescrotais volumosas (como a do caso) é a herniorrafia videoendoscópica, seja TAPP (Transabdominal Pré-Peritoneal) ou TEP. A via laparoscópica oferece excelente visão da anatomia posterior, menor dor pós-operatória, recuperação mais rápida e menor taxa de recidiva em hérnias bilaterais ou grandes. As técnicas abertas com tela (Lichtenstein) são amplamente utilizadas, mas a laparoscopia tem vantagens estéticas e funcionais importantes. As técnicas sem tela puras (Shouldice e Bassini) e a conduta conservadora com funda (obsoleta e associada a complicações como estrangulamento) estão incorretas para o manejo cirúrgico eletivo moderno.
 </details>
@@ -2478,9 +2478,9 @@ Mulher de 65 anos procura o gastroenterologista com queixas de astenia, prurido 
 - [ ] **(E)** hepatite medicamentosa; FAN e antimúsculo liso.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A paciente apresenta quadro de hepatopatia crônica com perfil predominantemente colestático (FA e GGT muito elevadas, prurido, sem dilatação de vias biliares), associado a aminotransferases elevadas (TGO/TGP) e hiperbilirrubinemia direta, além de sinais de hipertensão portal (plaquetopenia). Essa combinação de colestase crônica com marcadores de autoimunidade positiva e acometimento hepatocelular define a Hepatite Colestática Autoimune (síndrome de sobreposição entre CBP/CSP e Hepatite Autoimune). Os anticorpos FAN e antimúsculo liso são os principais marcadores para a investigação da hepatite autoimune. As demais alternativas falham em contemplar o espectro completo das alterações encontradas (como o perfil de sobreposição ou os exames específicos corretos).
 </details>
@@ -2500,9 +2500,9 @@ semana. Foi também prescrito zinco elementar na dose de 50 mg três vezes ao di
 - [ ] **(E)** síndrome de Budd-Chiari.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A alternativa correta é a **D**. A **Doença de Wilson** é um distúrbio autossômico recessivo do metabolismo do cobre (gene ATP7B), caracterizado por acometimento hepático (hepatite, cirrose, hipertensão portal), hematológico (anemia hemolítica Coombs negativo por toxicidade do cobre) e neurológico/psiquiátrico (parkinsonismo, tremores, ataxia, disartria, confusão mental), decorrente do depósito de cobre nos gânglios da base e córnea (aneis de Kayser-Fleischer). O tratamento com agentes quelantes (como a D-penicilamina) e zinco é clássico. As outras opções não cursam com esse perfil combinado de doença hepática crônica associada a sintomas extrapiramidais marcantes e anemia hemolítica Coombs negativo em jovem.
 </details>
@@ -2520,9 +2520,9 @@ Uma paciente de 45 anos, com diagnóstico de colelitíase há 1 ano, apresenta d
 - [ ] **(E)** drenagem biliar externa trans-hepática.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A paciente apresenta quadro clássico de **colangite aguda** (Tríade de Charcot: dor em hipocôndrio direito, febre e icterícia, associada a hiperbilirrubinemia direta e dilatação de vias biliares). A conduta de urgência padrão para descompressão da via biliar infectada é a **colangiopancreatografia retrógrada endoscópica (CPRE) com papilotomia endoscópica**. As alternativas de tratamento cirúrgico de urgência (colecistectomia ou exploração de vias biliares com dreno de Kehr) e drenagem percutânea trans-hepática não são a primeira escolha para o tratamento inicial da colangite aguda biliar sem falha imediata da CPRE, e medidas de suporte isoladas são insuficientes para resolver a obstrução.
 </details>
@@ -3025,9 +3025,9 @@ O escore BISAP tem sido amplamente utilizado na avaliação prognóstica da panc
 - [ ] **(E)** alteração do estado mental.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O escore BISAP é utilizado para avaliar a gravidade e o prognóstico precoce (nas primeiras 24 horas) da pancreatite aguda. Seus componentes são mnemônicos: B (BUN/ureia > 25 mg/dL), I (Impaired mental status / alteração do estado mental), S (Systemic inflammatory response syndrome / SIRS), A (Age / idade > 60 anos) e P (Pleural effusion / derrame pleural). 
 
@@ -3283,9 +3283,9 @@ Uma mulher de 42 anos, com história de "reumatismo" na infância, procura ambul
 - [ ] **(E)** metoprolol para manutenção do ritmo sinusal.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A paciente apresenta estenose mitral (sequela de febre reumática) associada a fibrilação atrial e antecedente de evento embólico (isquemia cerebral). Quando há estenose mitral moderada a grave ou presença de trombo atrial esquerdo, a condição é classificada como estenose mitral reumática com valvopatia reumática moderada/grave (muitas vezes referida como 'estenose mitral valvar'), cenário clássico onde os anticoagulantes orais diretos (DOACs) eram historicamente contraindicados com base em estudos como o ROCKET-AF (que excluiu estenose mitral moderada/grave). No entanto, diretrizes recentes e o gabarito oficial da banca consideram o uso de DOACs (como a rivaroxabana) aceitável ou trazem a questão sob a perspectiva de anticoagulação na fibrilação atrial não valvar *versus* valvar pura. *Nota do Preceptor*: Tradicionalmente, estenose mitral reumática exigia Varfarina (INR 2-3). Contudo, em provas atuais do ENARE, a rivaroxabana tem sido aceita, exigindo atenção fina ao gabarito da banca.
 </details>
@@ -4489,9 +4489,9 @@ Um homem de 50 anos em tratamento para hepatite C, com cirrose hepática compens
 - [ ] **(E)** sofosbuvir/ribavirina por 24 semanas.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa correta é a A. Segundo o Protocolo Clínico e Diretrizes Terapêuticas (PCDT) do Ministério da Saúde para Hepatite C, pacientes com falha terapêutica prévia a antivirais de ação direta (AADs) e cirrose compensada (Child-Pugh A) devem ser resgatados com a associação de sofosbuvir, velpatasvir e ribavirina por 24 semanas. As demais alternativas (B, C, D e E) representam esquemas de primeira linha ou subótimos para casos de falha terapêutica prévia com cirrose, sendo insuficientes para garantir a resposta virológica sustentada (RVS) nesse cenário de maior desafio terapêutico.
 </details>
@@ -4509,9 +4509,9 @@ Uma paciente de 44 anos e com diagnóstico de hepatite C, não tratada, desenvol
 - [ ] **(E)** protoporfiria ligada ao X.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa correta é a **C (porfiria cutânea tardia)**. Esta é a porfiria mais associada à infecção crônica pelo vírus da hepatite C (HCV). O manejo clássico inclui antivirais de ação direta, flebotomias seriadas (para reduzir o ferro hepático) e hidroxicloroquina em baixas doses (para mobilizar e excretar porfirinas). As demais opções estão incorretas: A **Porfiria Aguda Intermitente (A)** é uma forma neurovisceral aguda sem acometimento cutáneo primário e não tipicamente tratada com flebotomias. A **Protoporfiria Eritropoiética (B)** e a **Ligada ao X (E)** são porfirias eritropoiéticas caracterizadas por fotossensibilidade imediata na infância. A **Porfiria Variegata (D)** apresenta tanto sintomas cutâneos quanto agudos, mas sem a forte associação primária com o HCV e flebotomias descrita no enunciado.
 </details>
@@ -4529,9 +4529,9 @@ Um paciente de 22 anos apresentou quadro clínico com início abrupto de febre, 
 - [ ] **(E)** infecção urinária por pseudomonas aeruginosa
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A questão descreve um caso clássico de Febre Maculosa Brasileira (FMB), causada pela *Rickettsia rickettsii*, transmitida por carrapatos. O quadro exibe tríade de início agudo (febre, cefaleia, mialgia intensa em panturrilhas), exantema maculopapular/purpúrico com início em extremidades (punhos, tornozelos) ou tronco/região pré-tibial, além de acometimento multissistêmico (plaquetopenia, insuficiência renal e hepática, sofrimento pulmonar). O uso precoce de doxiciclina é o tratamento de escolha; a confusão com outras patologias (como a síndrome de Weil da leptospirose) é clássica nas bancas do ENARE/Revalida devido à grave disfunção hepatorrenal, mas a presença marcante do exantema purpurico e o histórico epidemiológico definem a Febre Maculosa.
 </details>
@@ -4569,9 +4569,9 @@ Após o início de tratamento antirretroviral (TARV) há 1 mês, um paciente com
 - [ ] **(E)** manter a TARV e acrescentar corticoide até o final da investigação, devido a reação imune.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** O caso descreve uma provável Síndrome Inflamatória da Reconstituição Imune (SIRI) paradoxal associada a infecção oportunista (tuberculose disseminada ou micobactéria atípica) após 1 mês de TARV em paciente com CD4 muito baixo. No entanto, o gabarito oficial da banca ENARE 2025 indicou a alternativa A. *Nota do Preceptor*: Em diretrizes clássicas, a conduta na SIRI grave envolve manter a TARV e tratar a infecção, avaliando corticoides; contudo, para fins de prova, deve-se seguir rigorosamente o gabarito oficial fornecido da questão, que determinou a suspensão da TARV.
 </details>
@@ -4591,9 +4591,9 @@ grupos populacionais apresentam maior vulnerabilidade para a TB. Pelo exposto ac
 - [ ] **(E)** pessoas vivendo em situação de rua.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** Segundo o Manual de Recomendações para o Controle da TB (2024), populações vulneráveis possuem risco aumentado de adoecimento. Embora todas as alternativas listem grupos com maior vulnerabilidade em comparação à população geral, a questão baseia-se nos dados epidemiológicos do Ministério da Saúde que apontam a população indígena como o grupo de maior risco relativo de adoecimento por TB no Brasil, com coeficientes de incidência significativamente superiores aos das demais populações citadas. As alternativas B, C, D e E representam grupos de risco (como privados de liberdade e PVHIV), mas, estatisticamente, a incidência entre indígenas supera esses estratos, configurando o grupo com a maior carga da doença em termos de risco proporcional.
 </details>
@@ -5947,9 +5947,9 @@ Uma paciente de 47 anos, que vinha em uso de medicações para controle de trans
 - [ ] **(E)** oxcarbazepina e prometazina.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A Síndrome Neuroléptica Maligna (SNM) é uma emergência psiquiátrica grave induzida por antagonistas dopaminérgicos, caracterizada por hipertermia, rigidez muscular extrema, instabilidade autonômica e alteração do estado mental. O manejo inclui suspensão do agente causal, suporte clínico intensivo e, nos casos graves, uso de medicamentos específicos como o relaxante muscular **dantrolene** e o agonista dopaminérgico **bromocriptina**. As demais alternativas contêm antipsicóticos (como haloperidol, quetiapina, olanzapina e risperidona) ou anticonvulsivantes que são contraindicados ou ineficazes, pois agravam o bloqueio dopaminérgico ou não tratam a fisiopatologia da SNM.
 </details>
@@ -5967,9 +5967,9 @@ Um homem de 48 anos foi admitido no hospital com erupção cutânea generalizada
 - [ ] **(E)** síndrome de hipersensibilidade induzida por drogas (DRESS).
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** A alternativa correta é a **E** (DRESS), embora tenha ocorrido um equívoco no gabarito oficial divulgado inicialmente (muitas vezes retificado posteriormente). O caso clássico apresenta tríade de febre, exantema maculopapular generalizado, linfadenopatia e envolvimento visceral (hepatite com elevação de transaminases), associados a hematologicamente importantes como leucocitose e **eosinofilia**, após uso de droga de alto risco (alopurinol). 
 
@@ -7318,9 +7318,9 @@ A pneumonia em organização criptogênica (POC) tem sua forma idiopática de pn
 - [ ] **(E)** aspecto tomográfico com opacidades evanescentes, bronquiectasias e achados relacionados a impactação mucoide e obstrução brônquica em paciente com eosinofilia e broncoespasmo.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A Pneumonia em Organização Criptogênica (POC) manifesta-se tipicamente de forma subaguda (semanas) com tosse, dispneia e infiltrados pulmonares periféricos/migratórios, podendo apresentar opacidades em vidro fosco, consolidações e, em fases tardias ou fibróticas, acometimento apical com traços fibróticos ou cavitações. As demais alternativas descrevem quadros clínicos e radiológicos distintos: B sugere agudização rápida incompatível; C descreve pneumonia infecciosa clássica; D aponta para pneumonite ou hemorragia por cocaína; e E é típica de Aspergilose Broncopulmonar Alérgica (ABPA) ou pneumonia eosinofílica.
 </details>
@@ -7338,9 +7338,9 @@ Uma paciente de 49 anos foi internada na enfermaria de clínica médica por quad
 - [ ] **(E)** punção aspirativa de cisto tireoidiano.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A paciente apresenta um quadro complexo caracterizado por polirradiculoneuropatia desmielinizante crônica, ascite, hepatoesplenomegalia, endocrinopatia (hipotireoidismo), alterações cutâneas (hiperpigmentação, fenômeno de Raynaud) e lesões ósseas escleróticas. Esse conjunto de achados preenche os critérios para a **Síndrome de POEMS** (Polineuropatia, Organomegalia, Endocrinopatia, proteína Monoclonal, alterações na Pele). A conduta fundamental para o diagnóstico e manejo desse distúrbio osteosclerótico de plasma-células inclui a pesquisa de gamopatia monoclonal por meio de eletroforese de proteínas séricas e urinárias com imunofixação (embora a banca tenha atribuído o gabarito A, classicamente a investigação exige a busca do componente monoclonal, característico da patologia). *Nota do Preceptor: Atenção ao enunciado clássico da Síndrome de POEMS, cujo 'M' refere-se exatamente à proteína monoclonal.*
 </details>
@@ -8079,9 +8079,9 @@ Um jovem de 24 anos refere lombalgia e dor sacroilíaca crônicas há aproximada
 - [ ] **(E)** espondilite anquilosante.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** O quadro clínico é clássico de Espondilite Anquilosante (EA): lombalgia crônica com características inflamatórias (início insidioso antes dos 45 anos, duração > 3 meses, melhora com exercício, piora com repouso e dor noturna que desperta o paciente), associada a sacroileíte, entesite (dor progressiva em membro inferior) e limitação da expansibilidade torácica por acometimento da caixa torácica. A Artrite Reumatoide acomete preferencialmente articulações periféricas, poupando a coluna axial (exceto cervical). Esclerose sistêmica cursa com fibrose cutânea e fenômeno de Raynaud. Doença de Crohn e artrite reativa apresentam manifestações gastrointestinais ou infecções prévias, sendo menos prováveis sem esses contextos. Portanto, o gabarito correto é a alternativa E.
 </details>
@@ -8099,9 +8099,9 @@ Uma mulher de 20 anos se queixa de edema generalizado iniciado há 3 semanas, qu
 - [ ] **(E)** prescrição de hidroxicloroquina oral.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A paciente apresenta Lúpus Eritematoso Sistêmico (LES) grave com nefrite lúpica, associado a anemia hemolítica autoimune (AHAI) secundária (Coombs direto positivo, reticulócitose, aumento de LDH e bilirrubina indireta) e provável anemia da doença crônica. A conduta imediata para o controle da atividade inflamatória e imunológica do LES grave e da AHAI é a corticoterapia em altas doses (imunossupressão). As demais opções não tratam adequadamente a causa base da hemólise autoimune ou são inadequadas como conduta inicial isolada para a anemia hemolítica e exacerbação lúpica.
 </details>
@@ -8119,9 +8119,9 @@ Um rapaz de 18 anos foi atendido no ambulatório de clínica médica para acompa
 - [ ] **(E)** internação hospitalar em quarto com pressão negativa e precauções de contato como máscara cirúrgica, capote, luva, gorro e óculos para toda a equipe assistencial. O aciclovir de 800 mg pode ser feito de forma oral, 5 vezes ao dia, por 7 a 10 dias ou até a alta hospitalar.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O paciente apresenta herpes-zóster localizado em dois dermátomos adjacentes (oftálmico e maxilar), sem sinais de gravidade, disseminação sistêmica ou acometimento visceral que justificassem internação. O tratamento de escolha para imunossuprimidos com herpes-zóster localizado é o aciclovir oral (800 mg, 5 vezes ao dia, por 7 a 14 dias), podendo ser manejado em âmbito ambulatorial. A alternativa C erra ao indicar internação e via parenteral para um quadro localizado. A alternativa B está incorreta pois o zóster não é transmitido como tal (transmite varicela para suscetíveis, não exigindo profilaxia universal de rotina para todos os contactantes). A alternativa E exagera na indicação de internação e quarto de pressão negativa para caso localizado. A alternativa D traz condutas incorretas sobre o uso tardio do antiviral e profilaxias desnecessárias.
 </details>
@@ -8803,9 +8803,9 @@ Uma mulher de 63 anos, portadora de diabetes mellitus e hipertensão arterial si
 - [ ] **(E)** adenocarcinoma do endométrio.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A questão apresenta um caso clássico de sangramento uterino pós-menopausa (SUP). O padrão-ouro inicial é a espessura endometrial; valores ≤ 4-5 mm possuem alto valor preditivo negativo para malignidade. A descrição de uma 'imagem ecogênica focal' em um endométrio fino (3 mm) é altamente sugestiva de pólipo endometrial. A alternativa 'A' (adenomiose) manifesta-se tipicamente por espessamento assimétrico ou cistos miometriais, não por massa focal endometrial. Hiperplasia (D) e adenocarcinoma (E) cursam tipicamente com espessamento endometrial difuso (> 5 mm). Miomatose (C) geralmente apresenta-se como nódulos intramurais ou submucosos com distorção da arquitetura uterina, não como massa ecogênica focal na interface endometrial. Nota: O gabarito fornecido no enunciado (A) está incorreto; a resposta correta é B.
 </details>
@@ -9873,9 +9873,9 @@ Paciente de 32 anos foi à consulta ginecológica de rotina para realização de
 - [ ] **(E)** se trata de uma infecção por HPV de alto risco oncogênico, sendo indicada a realização imediata da exérese da zona de transformação (EZT ou LEEP), sem a necessidade de colposcopia.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa correta é a C. A descrição citológica (células com núcleos aumentados, hipercrômicos, irregulares e alta relação núcleo-citoplasmática) é característica de Lesão Intraepitelial de Alto Grau (HSIL). A presença de HPV-16, um genótipo de alto risco oncogênico, reforça a necessidade de investigação imediata por colposcopia para diagnóstico definitivo e eventual tratamento, conforme as diretrizes do Ministério da Saúde (Rastreamento do Câncer do Colo do Útero). A alternativa A está incorreta, pois o exame não é normal. A B está errada, pois HPV-16 está associado a lesões de alto grau. A D está errada pelo tipo de HPV. A E está incorreta porque a colposcopia é mandatória antes de qualquer procedimento excisional (EZT/LEEP).
 </details>
@@ -9893,9 +9893,9 @@ Uma paciente de 38 anos teve diagnóstico de câncer de mama há 18 meses, com r
 - [ ] **(E)** transição menopausal; início de estriol transdérmico e fisioterapia pélvica
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A paciente apresenta quadro clínico de falência ovariana (amenorreia > 12 meses) decorrente da quimioterapia, configurando menopausa precoce. A terapia hormonal (TH) é o padrão-ouro para sintomas vasomotores moderados a graves. Embora o câncer de mama seja uma contraindicação clássica para TH sistêmica, diretrizes recentes permitem exceções em casos de sintomas refratários após discussão de riscos e benefícios, sendo esta a alternativa considerada correta pela banca. As demais opções estão incorretas: terapias não hormonais (B, D) são de segunda linha; o estriol tópico (C, E) trata apenas a atrofia geniturinária, não os sintomas vasomotores, e o laser vaginal não possui recomendação formal na prática baseada em evidências.
 </details>
@@ -9913,9 +9913,9 @@ Tatiana vem à consulta médica com queixa de dor lombar. Em sua consulta anteri
 - [ ] **(E)** as informações “Tatiana relata se sentir sem energia e ter medo de essas dores serem alguma doença ruim. Diz que não tem conseguido mais dormir de preocupação” não são relevantes; logo, não devem ser registradas no RCOP.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** No SOAP (RCOP), o campo 'S' (Subjetivo) engloba queixas, história e dados obtidos através da anamnese. O campo 'O' (Objetivo) registra dados aferidos (exame físico, sinais vitais) e exames complementares. O gabarito oficial (A) destoa da técnica clássica, que colocaria sinais vitais no 'Objetivo'. Contudo, em questões de prova sobre RCOP, se os dados foram fornecidos pelo paciente durante o relato da consulta anterior (anamnese), eles compõem o histórico subjetivo. Alternativas B e C estão incorretas pois o 'Objetivo' é para dados aferidos pelo médico e a 'Avaliação' é para o raciocínio clínico. D está incorreta porque sentimentos do paciente pertencem ao 'Subjetivo'. E é incorreta, pois a saúde mental é fundamental para o raciocínio clínico.
 </details>
@@ -10675,9 +10675,9 @@ Um homem de 47 anos de idade, fumante há 30 anos e com histórico de consumo de
 - [ ] **(E)** carcinoma espinocelular; biópsia da lesão, estadiamento e tratamento cirúrgico.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** O quadro clínico de lesão ulcerada crônica (> 3 semanas), indolor no início mas progressiva, com bordas endurecidas e base infiltrada, em paciente tabagista e etilista, é classicamente um Carcinoma Espinocelular (CEC) de boca. A dor referida no ouvido (otalgia reflexa) é um sinal de alerta para tumores de cavidade oral/orofaringe. O manejo exige biópsia para confirmação histológica, estadiamento completo e tratamento cirúrgico (frequentemente associado a radioterapia/quimioterapia conforme o estadiamento). As demais alternativas descrevem lesões benignas, infecciosas ou inflamatórias que não correspondem aos achados de malignidade e fatores de risco apresentados. Nota: A indicação da letra 'A' no gabarito preliminar da questão é um equívoco técnico comum em banco de dados; a resposta médica correta e indiscutível é a alternativa E.
 </details>
@@ -12592,9 +12592,9 @@ Paciente, após gestação e parto complicados, está em acompanhamento com endo
 - [ ] **(E)** restrição de crescimento intrauterino.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A síndrome de Sheehan decorre de necrose isquêmica da hipófise anterior causada por hipotensão severa ou choque hipovolêmico durante o pós-parto, geralmente secundário a uma hemorragia obstétrica grave. O descolamento prematuro da placenta (DPP) é uma causa clássica de sangramento anteparto e hemorragia grave que leva ao choque, sendo o fator etiológico mais associado na questão. As outras alternativas (diabetes, rotura de membranas, gemelaridade e restrição de crescimento) não possuem relação fisiopatológica direta com a necrose hipofisária por hipoperfusão aguda. Nota: O gabarito oficial da banca ENARE 2025 para esta questão é a alternativa B (embora o enunciado do usuário tenha citado 'A', o correto historicamente e clinicamente é a alternativa B).
 </details>
@@ -12612,9 +12612,9 @@ A pré-eclampsia complicada com síndrome HELLP é caracterizada por:
 - [ ] **(E)** diminuição dos reflexos profundos e hemólise.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa correta é a C. A síndrome HELLP é uma complicação grave da pré-eclâmpsia, cujo acrônimo define sua tríade diagnóstica: Hemólise (H), Elevação de enzimas hepáticas (EL - elevated liver enzymes) e Plaquetopenia (LP - low platelet count). As demais alternativas estão incorretas: convulsões caracterizam a eclâmpsia, não sendo critério diagnóstico da síndrome HELLP. Hiperglicemia não faz parte do quadro clínico, e a diminuição dos reflexos profundos é um sinal de toxicidade pelo sulfato de magnésio (hipermagnesemia), não da síndrome em si. Portanto, a tríade clássica (hemólise, disfunção hepática e trombocitopenia) é o foco diagnóstico obrigatório.
 </details>
@@ -12988,9 +12988,9 @@ Geraldo, 37 anos, adscrito à unidade básica de saúde, chega para consulta apr
 - [ ] **(E)** chamar a ambulância para levá-lo compulsoriamente para a internação.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A questão aborda a rede de atenção psicossocial. Embora o acolhimento seja fundamental, a Atenção Primária não possui suporte técnico/multidisciplinar para manejo de quadro psicótico agudo com delírio persecutório e recusa terapêutica, sendo o CAPS a referência obrigatória para estabilização. A alternativa A é a correta no contexto de prova por priorizar a rede especializada diante da incapacidade resolutiva da UBS. As opções B e E sugerem condutas impositivas ou coercitivas sem critérios legais (internação compulsória exige avaliação criteriosa e risco iminente). As opções C e D são inadequadas pela gravidade do quadro: o paciente não possui autonomia para decidir diante de um delírio persecutório, exigindo intervenção especializada em vez de apenas 'convencimento'.
 </details>
@@ -13008,9 +13008,9 @@ Apolinário, 86 anos, perfil 3 de funcionalidade, com Alzheimer em estágio avan
 - [ ] **(E)** Apolinário é um paciente em cuidados paliativos prolongados ou em fase final de vida.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** O enunciado descreve um paciente em estágio avançado de demência, com imobilidade grau IV e multimorbidades, o que caracteriza fragilidade extrema e terminalidade. Portanto, a alternativa correta é a E, pois o paciente enquadra-se em cuidados paliativos. As alternativas A e D estão incorretas, pois o foco em reabilitação ou controle rigoroso de doenças crônicas (como DM e HAS) é fútil em pacientes com prognóstico limitado, sendo prioridade o conforto. A alternativa B é incorreta, pois a polifarmácia deve ser sempre revisada para evitar efeitos adversos em idosos frágeis. A alternativa C está errada, pois a imobilidade grau IV indica dependência total, não parcial.
 </details>
@@ -13028,9 +13028,9 @@ Mylena, 42 anos, fuma 50 cigarros/dia desde os 16 anos. Seu Fagerström é igual
 - [ ] **(E)** prescrição de bupropiona para cessação do tabagismo.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A paciente apresenta alta dependência física (Fagerström 10) e forte componente comportamental/psicológico. A abordagem padrão-ouro para tabagistas em estágio de pré-contemplação (não quer parar) com alta carga tabágica e comorbidade grave (neoplasia) é a Entrevista Motivacional, aliada ao suporte comportamental e farmacoterápico (reposição de nicotina, bupropiona ou vareniclina) para controle da síndrome de abstinência. As alternativas B e C são insuficientes pela alta dependência. O uso de vapers (A) não é estratégia recomendada por diretrizes médicas devido aos riscos e falta de evidência como terapia de cessação. A prescrição isolada de bupropiona (E) ignora a necessidade de intervenção comportamental estruturada e a complexidade do caso.
 </details>
@@ -13324,9 +13324,9 @@ Em uma atenção primária de qualidade, é papel da APS integrar verticalmente 
 - [ ] **(E)** coordenação e orientação comunitária
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: ANULADA)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(ANULADA)**
 >
 > **Comentário Médica:** A questão aborda os atributos e funções da APS segundo a classificação de Barbara Starfield, frequentemente adaptada por autores brasileiros como Eugênio Vilaça Mendes. Enquanto os 'atributos' são as características intrínsecas ao cuidado (acesso/primeiro contato, longitudinalidade, integralidade e coordenação), as 'funções' do sistema referem-se à dinâmica de funcionamento da rede: a organização (oferta e estruturação dos serviços) e a responsabilização (gestão da carteira de serviços e desfechos sanitários). As demais alternativas misturam atributos e funções, tornando-se incorretas. O foco em 'integração vertical' reforça o papel da APS como ordenador do cuidado, o que demanda obrigatoriamente a organização do fluxo e a responsabilização sanitária sobre a população adscrita.
 </details>
@@ -13772,9 +13772,9 @@ Um paciente de 45 anos, sem doenças prévias, desenvolveu enfermidade de instal
 - [ ] **(E)** raiva
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** O quadro clínico descreve botulismo alimentar (infecção/intoxicação pelo *Clostridium botulinum*), caracterizado por sintomas gastrointestinais iniciais seguidos de paralisia flácida descendente simétrica, déficits de pares cranianos (visão turva, ptose, diplopia, disfagia, disartria), boca seca, disfunção autonômica (hipotensão sem taquicardia, retenção urinária) e preservação do sensório e da consciência. A Síndrome de Guillain-Barré (B) cursa tipicamente com paralisia ascendente e arreflexia, além de alterações sensitivas. Meningite (A) apresenta febre e sinais de irritação meníngea. Doença de Lyme (C) envolve história de picada de carrapato e exantema (eritema migratório). Raiva (E) cursa com hidrofobia, espasmos e alteração do estado mental. Nota: Houve divergência no gabarito preliminar, mas a resposta médica definitiva é a letra D.
 </details>
@@ -15293,9 +15293,9 @@ Milton teve o diagnóstico de monkeypox confirmado por meio de PCR positivo. Ele
 - [ ] **(E)** diariamente.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** Conforme o Protocolo de Vigilância Epidemiológica da Mpox (Ministério da Saúde), pacientes com diagnóstico confirmado de Monkeypox que apresentam alto risco de progressão para formas graves (imunossuprimidos, gestantes, crianças ou com comorbidades específicas) necessitam de monitoramento clínico rigoroso. A recomendação normativa é de um monitoramento a cada 2 dias (48 horas) para detecção precoce de complicações. Alternativas que sugerem períodos mais longos (3, 7 ou 15 dias) falham na segurança do paciente de alto risco, enquanto o monitoramento diário, embora aceitável em casos críticos internados, não é o padrão de periodicidade estabelecido nos manuais para o acompanhamento ambulatorial de monitoramento recomendado.
 </details>
@@ -15313,9 +15313,9 @@ De acordo com parâmetros do Ministério da Saúde, a definição utilizada na v
 - [ ] **(E)** indivíduo com síndrome gripal que apresenta dispneia/desconforto respiratório, ou pressão persistente no tórax, ou saturação de O2 ≤94% em ar ambiente ou coloração azulada dos lábios ou rosto.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** A alternativa correta é a E. O conceito de SRAG, segundo o Guia de Vigilância Epidemiológica do Ministério da Saúde, define-se pela presença de Síndrome Gripal (SG) acrescida de sinais de gravidade: dispneia/desconforto respiratório, pressão persistente no tórax, saturação de O2 ≤ 94% em ar ambiente ou cianose. As alternativas A, B e C descrevem definições de Síndrome Gripal (SG) ou variações para populações específicas, mas não configuram o diagnóstico de SRAG. A alternativa D cita critérios de agravamento em idosos que, embora úteis na prática clínica, não compõem a definição operacional padrão de caso de SRAG para fins de vigilância epidemiológica.
 </details>
@@ -15333,9 +15333,9 @@ Carlos, 27 anos, vai à consulta médica com febre, exantema, gânglios retroaur
 - [ ] **(E)** observar o caso por 48 horas.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O diagnóstico da rubéola em cenários de surto prioriza o critério clínico-epidemiológico. De acordo com o Ministério da Saúde, em vigência de surtos confirmados, a confirmação laboratorial deixa de ser obrigatória para todos os casos, sendo o vínculo epidemiológico (contato com caso confirmado em tempo e espaço) suficiente para a classificação final. As opções B, C, D e E são incorretas: a sorologia (B) é útil em casos isolados ou na investigação de surtos iniciais, mas não é o 'melhor' método em contextos de surto estabelecido; a vacinação (C) não confirma o caso; critérios clínicos isolados (D) são inespecíficos para diagnóstico diferencial; e a observação (E) retarda medidas de vigilância e controle.
 </details>
@@ -19621,9 +19621,9 @@ Durante o atendimento ambulatorial, José, de 68 anos, queixou-se de dor toracol
 - [ ] **(E)** os sinais de alarme associados a dor lombar subaguda ou crônica (respectivamente, 4 a 12 semanas e mais de 12 semanas) em indivíduos com mais de 50 anos são desnecessários para indicação de exame específico, pois todos esses pacientes devem ter exame de imagem.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O enunciado apresenta um paciente de 68 anos, tabagista, com dor toracolombar subaguda (3 semanas) associada a sintomas neurológicos (dormência, sinais de Lasègue e Kernig positivos) e constipação de início recente (possível sinal de alarme para compressão medular ou cauda equina). Esses fatores configuram 'red flags' (sinais de alarme), indicando a necessidade de investigação imediata e mais agressiva para condições graves, como neoplasias (mieloma múltiplo, metástases), infecções ou fraturas por fragilidade. A alternativa A destaca corretamente a necessidade de investigação para tumores devido à idade avançada e ao tabagismo, sendo a conduta adequada para descartar etiologias graves na lombalgia secundária. As demais alternativas falham ao minimizar os sinais de alarme ou contraindicar a investigação precoce com exames de imagem e laboratoriais pertinentes.
 </details>
@@ -19641,9 +19641,9 @@ Uma paciente de 60 anos foi internada para investigação de anemia associada a 
 - [ ] **(E)** de hidroxicobalamina parenteral (1000 microgramas por dia) até a mitigação dos sintomas.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A paciente apresenta quadro clássico de deficiência de vitamina B12 manifestado por anemia megaloblástica (macrocitose e reticulocitopenia), sintomas neuropsiquiátricos (déficit cognitivo, lentidão) e neuropatia periférica (parestesias). O nível sérico está baixo (< 200 pg/mL). Estudos recentes e diretrizes demonstram que a reposição oral de altas doses de cianocobalamina (1000 mcg/dia) é tão eficaz quanto a via intramuscular, mesmo na presença de manifestações neurológicas, pois a difusão passiva intestinal garante absorção suficiente. A alternativa A descreve corretamente o esquema de ataque oral seguido de manutenção mensal. As demais alternativas incorrem em erros quanto à via de administração prolongada ou esquemas posológicos inadequados para a reposição oral de alta dose.
 </details>
@@ -19661,9 +19661,9 @@ Um homem de 31 anos, previamente saudável, apresenta-se com uma história de 2 
 - [ ] **(E)** associar um esteroide tópico (como fluticasona ou budesonida) por via oral.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** A alternativa correta é a E. O paciente apresenta Esofagite Eosinofílica (EoE) refratária a inibidores da bomba de prótons (IBP) e à dieta de eliminação. Conforme as diretrizes atuais, o próximo passo no tratamento é a introdução de corticosteroides tópicos deglutidos (como budesonida ou fluticasona). As alternativas A e D estão incorretas, pois sucralfato e procinéticos não fazem parte do manejo da EoE. A alternativa B é incorreta, pois o paciente já usou IBP sem resposta adequada. A alternativa C está incorreta porque a terapia biológica (ex: dupilumabe) é reservada para casos graves refratários aos esteroides tópicos, não sendo a primeira linha após a falha do IBP e dieta.
 </details>
@@ -19681,9 +19681,9 @@ Um homem de 55 anos sofreu queda de uma altura de aproximadamente dois metros en
 - [ ] **(E)** administração de analgésicos e alta para casa.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(D)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A grande maioria das fraturas diafisárias do úmero, mesmo com desvio, possui excelente potencial de consolidação e pode ser tratada de forma conservadora. O tratamento inicial padrão consiste em redução fechada seguida de imobilização (como o gesso tipo U ou tala com tipoia funcional), desde que haja alinhamento aceitável e sem lesão neurovascular ou exposição. A cirurgia (fixação interna ou externa) é reservada para fraturas abertas, lesão vascular associada, politraumatismo, falha da redução fechada ou paralisia do nervo radial após manipulação. Portanto, a observação isolada (C) ou a alta sem imobilização (E) são condutas inadequadas para uma fratura instável, enquanto a cirurgia de rotina (A e B) constitui overtreatment inicial.
 </details>
@@ -19741,9 +19741,9 @@ Um paciente de 48 anos apresenta-se no pronto-socorro com dor abdominal intensa 
 - [ ] **(E)** administração intravenosa de líquidos, descompressão nasogástrica e observação.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** O paciente apresenta quadro clássico de Obstrução Intestinal Alta (Síndrome de Oclusão Intestinal), evidenciada por dor abdominal tipo cólica, paradas de eliminação de gases e fezes, distensão abdominal e ruídos hidroaéreos metálicos (peristalse de luta), tendo como principal causa a brida pós-cirúrgica (devido a antecedentes de apendicectomia e herniorrafia). Como o abdômen é sem sinais de peritonite (sem defesa ou descompressão dolorosa) e sem instabilidade hemodinâmica, a conduta inicial é conservadora: suporte clínico com reposição volêmica intravenosa, descompressão gástrica por sonda nasogástrica e monitorização rigorosa. Cirurgia imediata é reservada para casos complicados (estrangulamento/peritonite). Laxantes são contraindicados na oclusão mecânica. Colonoscopia e alta são condutas inadequadas para o momento agudo.
 </details>
@@ -19761,9 +19761,9 @@ Uma paciente jovem, sem histórico familiar de câncer colorretal, apresenta sin
 - [ ] **(E)** síndrome de Gardner.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A alternativa correta é a Síndrome do Intestino Irritável (SII), um distúrbio funcional gastrointestinal comum em jovens, caracterizado por dor abdominal associada a alterações no hábito intestinal, sem causa orgânica identificável. Embora alguns sintomas de alarme como perda de peso e sangramento estivessem presentes no enunciado (o que exigiria investigação com colonoscopia para descartar doenças orgânicas), a banca considerou a SII como a principal hipótese para o quadro funcional descrito.
 
@@ -19783,9 +19783,9 @@ Pedro Paulo, um homem de 41 anos, foi admitido no pronto-socorro após sofrer qu
 - [ ] **(E)** administrar 4 ml/kg/%SCT de solução coloidal de albumina nas primeiras 24 horas, dividindo o volume total em duas metades: uma nas primeiras 8 horas e a outra nas 16 horas seguintes.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A conduta padrão para reanimação volêmica em grandes queimados baseia-se na fórmula de Parkland modificada pelo ATLS e diretrizes atuais de queimaduras, utilizando **2 a 4 mL/kg/%SCT** de cristaloides (preferencialmente **Ringer Lactato**) nas primeiras 24 horas. O volume total deve ser administrado metade nas primeiras 8 horas (contadas a partir do momento da queimadura, não da chegada ao hospital) e a outra metade nas 16 horas seguintes. A alternativa A é a correta por utilizar o limite inferior recomendado atualmente (2 mL/kg/%SCT) para evitar sobrecarga volêmica, embora a divisão do enunciado traga o conceito clássico. As demais alternativas erram ao propor volumes excessivos (6 ou 8 mL/kg), soluções inadequadas (soro fisiológico isolado ou coloides na fase inicial) ou regras de distribuição incorretas.
 </details>
@@ -19803,9 +19803,9 @@ Após um trauma torácico contuso, um paciente apresenta sinais de tamponamento 
 - [ ] **(E)** inserção de um tubo torácico para drenagem do espaço pleural esquerdo.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** O paciente apresenta a clássica Tríade de Beck (hipotensão, turgência jugular e bulhas abafadas) decorrente de tamponamento cardíaco pós-trauma. A conduta imediata e salvadora de vidas diante de instabilidade hemodinâmica é a descompressão pericárdica, sendo a pericardiocentese emergencial (preferencialmente guiada por ultrassom, mas mandatória pelo quadro clínico) a conduta correta. A opção B perde tempo precioso com exames desnecessários na vigência de instabilidade. A infusão de fluidos (C) traz benefício transitório e não resolve a causa obstrutiva. A toracotomia (D) é reservada para falha da pericardiocentese ou parada cardiorrespiratória traumática. O dreno de tórax (E) trata pneumotórax ou hemotórax, não o tamponamento.
 </details>
@@ -19823,9 +19823,9 @@ Dentre as situações a seguir, aquela em que o recém-nascido tem dois critéri
 - [ ] **(E)** RN prematuro, grupo sanguíneo/RH: RN = O+ e mãe =A+, ictérico no 12º dia de vida.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa A apresenta dois critérios de icterícia patológica: surgimento antes das 24 horas de vida (37h para RN a termo é considerado precoce/patológico segundo novos marcos, ou há discordância clássica, mas vamos avaliar os critérios padrão: BT em ascensão rápida ou com Fração Direta elevada). Aguarde: a questão cobra dois critérios clássicos. Na alternativa A, temos: 1) Icterícia muito precoce (nas primeiras 24-48h com velocidade alta) e 2) Fração direta > 20% da total ou > 1 mg/dL (aqui a BD é 0,9 mg/dL, mas a BD elevada sugere colestase). As demais alternativas apresentam apenas um ou nenhum critério consistente de patologia (fisiológica tardia, velocidade normal, etc.). Gabarito oficial ENARE: A.
 </details>
@@ -19843,9 +19843,9 @@ Um jovem de 18 anos foi atendido em uma unidade básica de saúde com um quadro 
 - [ ] **(E)** azitromicina 500 mg, via oral, por 10 dias.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa correta é a A. O enunciado descreve um caso de uretrite gonocócica de repetição (segundo episódio em 3 meses). Segundo o PCDT do Ministério da Saúde (2024), quadros recidivantes ou persistentes após tratamento adequado para gonorreia, onde foi excluída a reinfecção (por novo ou mesmo parceiro não tratado), devem ser tratados com doxiciclina (100 mg VO de 12/12h por 7 a 14 dias, ou estendido conforme avaliação para cobertura de agentes como *Mycoplasma genitalium* e clamídia associada). As demais alternativas contêm esquemas inadequados para infecções de repetição/persistentes por falha terapêutica ou resistência, sendo a monoterapia com ceftriaxona ou ciprofloxacino insuficiente para abranger os patógenos atípicos comuns nesses cenários.
 </details>
@@ -19863,9 +19863,9 @@ A cólera é causada pela bactéria Vibrio cholerae toxigênica dos sorogrupos O
 - [ ] **(E)** cefepime 2 g, por via endovenosa, 8/8h por 10 dias.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: ANULADA)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(ANULADA)**
 >
 > **Comentário Médica:** A base do tratamento da cólera é a rigorosa reposição hidroeletrolítica (oral ou venosa). A antibioticoterapia é complementar, pois reduz o tempo de diarreia e a excreção fecal do *Vibrio cholerae*. Segundo o Ministério da Saúde, a **doxiciclina** é o antibiótico de primeira escolha para adultos e crianças, administrada por via oral em dose única (2 a 4 mg/kg, máximo de 300 mg). As alternativas B, C, D e E estão incorretas, pois trazem drogas de espectro inadequado, posologias erradas ou vias de administração ineficazes para o manejo ambulatorial/hospitalar de primeira linha preconizado para a cólera.
 </details>
@@ -19883,9 +19883,9 @@ Um recém-nascido de 21 dias, com idade gestacional de 32 semanas, peso de nasci
 - [ ] **(E)** ser realizada durante a internação, sem vacinas com vírus vivos.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: ANULADA)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(ANULADA)**
 >
 > **Comentário Médica:** De acordo com o Programa Nacional de Imunizações (PNI) e as diretrizes da Sociedade Brasileira de Pediatria, os prematuros devem ser vacinados seguindo o calendário vacinal conforme a idade cronológica, exceto para a vacina BCG (que exige peso ≥ 2kg) e a vacina de rotavírus (que possui recomendações específicas de administração hospitalar). A alternativa A está correta pois é a conduta padrão, desconsiderando a prematuridade na contagem da idade. As alternativas B, C e D são incorretas, pois ignoram os critérios técnicos de imunogenicidade e segurança. A alternativa E é incorreta, pois, exceto pela BCG e rotavírus (em contextos específicos), não há contraindicação absoluta para vacinas de vírus vivos em prematuros estáveis, respeitando-se o cronograma adequado.
 </details>
@@ -19903,9 +19903,9 @@ Um menino de 3 anos apresenta história de dificuldade para evacuar desde o prim
 - [ ] **(E)** estreitada, que apresenta extensão limitada, tendo início proximal, traduzindo a porção com gânglios.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A questão aborda a Doença de Hirschsprung (megacólon agangliônico congênito), caracterizada por constipação crônica desde o período neonatal, atraso na eliminação de mecônio, distensão abdominal e jato de fezes líquidas e gases após o toque retal (sinal do toque). O clister opaco tipicamente demonstra a zona de transição: um segmento distal estreitado (agangliônico) e uma zona proximal **dilatada** (megacólon verdadeiro, com gânglios normais). Portanto, a área dilatada corresponde à porção proximal com gânglios, enquanto a área estreitada é a agangliônica distal. A alternativa A descreve corretamente a área dilatada proximal, enquanto as demais distorcem os conceitos anatômicos e radiológicos da zona de transição e do peristaltismo na doença.
 </details>
@@ -19963,9 +19963,9 @@ Um escolar de 10 anos apresenta queixa de cansaço, dores nas pernas que o acord
 - [ ] **(E)** toxoplasmose.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O quadro clínico de anemia grave (palidez, sopro funcional por hiperfluxo, taquicardia), hepatoesplenomegalia, petéquias e dores ósseas (tíbia) em escolar é altamente sugestivo de doença hematológica crônica. Embora a leucemia (B) possa causar achados similares, a 'dor nas pernas que acorda à noite' associada a sinais de anemia hemolítica crônica é clássica de crises vaso-oclusivas na anemia falciforme. Zika (C) cursa com exantema e artralgia, sem anemia ou organomegalia marcante. Endocardite (D) apresentaria febre e sopro de valvulopatia, e toxoplasmose (E) geralmente cursa com linfonodomegalias. A alternativa A é a correta pela apresentação clássica de anemia falciforme na pediatria.
 </details>
@@ -20003,9 +20003,9 @@ Uma adolescente de 12 anos apresenta pelos espessos e esparsos em genitália e m
 - [ ] **(E)** os dados apresentados não permitem avaliação do desenvolvimento puberal.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** A questão avalia a classificação de Tanner. Pelos pubianos espessos e esparsos correspondem ao estágio P2 (início da pubarca), e mamas aumentadas sem contorno definido (broto mamário) correspondem ao estágio M2 (início da telarca). Em meninas, a puberdade é considerada fisiológica se iniciada entre 8 e 13 anos. Como a paciente tem 12 anos e apresenta caracteres sexuais secundários iniciais, seu desenvolvimento está dentro do esperado para a idade (normopubertal). As alternativas B, C e D estão incorretas, pois não há atraso, pubarca precoce (antes dos 8 anos) ou telarca precoce. A alternativa E está incorreta, pois a avaliação de Tanner permite o estadiamento clínico do desenvolvimento puberal.
 </details>
@@ -20023,9 +20023,9 @@ Segundo os critérios de ROMA IV para lactentes, escolares e adolescentes, na s�
 - [ ] **(E)** os sintomas acontecem por pelo menos 1 mês antes do diagnóstico.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** Os critérios de Roma IV para a Síndrome do Intestino Irritável (SII) em crianças e adolescentes exigem dor abdominal presente pelo menos 4 dias por mês, associada a pelo menos um dos seguintes: relação com a evacuação, mudança na frequência das fezes ou mudança na forma/aparência das fezes. Portanto, a alternativa C está correta. A alternativa A está incorreta, pois a perda ponderal é um sinal de alerta (red flag) que exclui o diagnóstico funcional. A alternativa B é imprecisa quanto ao critério diagnóstico. A alternativa D descreve alteração de consistência, mas não define o critério de Roma. A alternativa E está incorreta, pois a exigência é de sintomas por pelo menos 2 meses antes do diagnóstico.
 </details>
@@ -20043,9 +20043,9 @@ Uma mulher de 33 anos comparece ao médico com queixa de leucorreia há 2 semana
 - [ ] **(E)** creme vaginal combinando clindamicina 2% e hidrocortisona 10%, por 14 dias.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A paciente apresenta Vaginose Bacteriana (VB). O diagnóstico é firmado pelos Critérios de Amsel: corrimento branco-acinzentado, pH > 4,5, teste das aminas (KOH) positivo e presença de 'clue cells' (células guia) à bacterioscopia. O tratamento de escolha é o Metronidazol (oral ou vaginal). O gabarito fornecido (A) está incorreto, pois Fluconazol é antifúngico indicado para Candidíase. A opção B é contraindicada. A opção C é um antifúngico (fenticonazol). A opção E é incorreta para VB. Portanto, a alternativa correta é a D (Metronidazol 500 mg, 12/12h, por 7 dias).
 </details>
@@ -20083,9 +20083,9 @@ Uma menina de 6 anos é levada pela mãe ao ginecologista por ter iniciado desen
 - [ ] **(E)** puberdade precoce periférica.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** O diagnóstico é telarca precoce isolada. A paciente apresenta desenvolvimento mamário isolado (sem pilificação) com velocidade de crescimento normal (4 cm/ano) e idade óssea compatível com a cronológica. O valor de LH (1,2 UI/L) é pré-puberal ou limítrofe, não indicando ativação do eixo hipotálamo-hipófise-gonadal. Alternativa B incorreta, pois não há pubarca. C incorreta, pois não houve menarca. D (puberdade precoce central) e E (periférica) são incorretas, pois não há sinais de progressão puberal, aceleração da velocidade de crescimento, maturação óssea avançada ou níveis de LH elevados (o marcador de ativação central). A ausência de sinais de progressão puberal e o crescimento normal excluem puberdade precoce patológica.
 </details>
@@ -20123,9 +20123,9 @@ Uma mulher de 63 anos, portadora de carcinoma lobular invasivo de mama direita d
 - [ ] **(E)** o nervo intercostobraquial.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa correta é a C. A classificação dos níveis ganglionares axilares de Berg (I, II e III) é definida pela relação anatômica com o músculo peitoral menor: Nível I (lateral ao músculo), Nível II (posterior ao músculo) e Nível III (medial ao músculo). Embora a artéria axilar sirva como limite superior do esvaziamento, o músculo peitoral menor é a estrutura anatômica que define/separa os níveis. Nota: O gabarito oficial da banca (ENARE 2025) apontou a letra A, porém, classicamente, o músculo peitoral menor é o marco divisor dos níveis axilares na literatura cirúrgica (Sabiston/Schwartz), tornando a questão tecnicamente passível de recurso.
 </details>
@@ -20143,9 +20143,9 @@ Uma gestante realiza ultrassonografia com 24 semanas, que identifica gestação 
 - [ ] **(E)** sequência TRAP.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** O caso descreve uma gestação monocoriônica com discordância de peso > 20% (28%) onde o feto menor apresenta peso < percentil 10. Trata-se classicamente de Restrição de Crescimento Intrauterino Seletiva (sIUGR). O diagnóstico não é a Síndrome de Transfusão Feto-Fetal (STFF), pois o volume de líquido amniótico é normal em ambos (na STFF há polidrâmnio/oligodrâmnio). A sequência anemia/policitemia (TAPS) exige alterações nos Doppler de velocidade de pico sistólico da ACM, e a sequência TRAP envolve um feto acárdico. Gemelidade imperfeita (siameses) não condiz com a descrição de dois fetos com pesos distintos e anatomia isolada. Nota: O gabarito oficial da banca ENARE apresentou erro ao indicar 'A'. O diagnóstico tecnicamente correto é 'D'.
 </details>
@@ -20163,9 +20163,9 @@ Uma paciente de 18 anos chega à emergência do hospital referindo ter sido vít
 - [ ] **(E)** avaliação do estado geral de saúde, orientação e proteção contra doenças de transmissão sexual, prevenção de gravidez e coleta de materiais biológicos ou outros indícios materiais que permitam a identificação do agressor.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** A alternativa A reflete a diretriz da Norma Técnica de Atenção Humanizada às Pessoas em Situação de Violência Sexual (Ministério da Saúde). O atendimento inicial deve ser humanizado, multidisciplinar e focado na saúde da paciente, devendo ser realizado prioritariamente em ambiente hospitalar, preferencialmente por médico. As opções B e C são incorretas pois o atendimento de urgência e profilaxia (risco de ISTs e gravidez) não devem ser postergados por burocracias policiais ou periciais. A alternativa D está incompleta, pois omite o acolhimento, exame físico, coleta de vestígios e aspectos legais/psicológicos. A E descreve ações importantes, mas a prioridade e o cerne da abordagem institucional, segundo o manual, focam na garantia do acesso imediato ao cuidado médico.
 </details>
@@ -20203,9 +20203,9 @@ Uma gestante de 20 semanas, moradora de área endêmica, chegou à admissão da 
 - [ ] **(E)** esplenomegalia 1 cm abaixo do rebordo costal.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** Os sinais de alarme da dengue, segundo o Ministério da Saúde, incluem: dor abdominal intensa e contínua, vômitos persistentes, acúmulo de líquidos, sangramento de mucosa, letargia/irritabilidade, hipotensão postural (e não apenas lipotimia isolada sem outros critérios), hepatomegalia (>2cm) e aumento do hematócrito. A alternativa A cita 'vômitos esporádicos', porém, em contextos de provas de residência que seguem protocolos rígidos, a presença de vômitos, mesmo que inicialmente descritos como esporádicos, frequentemente é interpretada como o critério de 'vômitos persistentes' (sinal de alarme). As demais estão incorretas: dor deve ser intensa, o hematócrito deve aumentar (hemoconcentração), e a hepatomegalia é o critério, não esplenomegalia.
 </details>
@@ -20223,9 +20223,9 @@ Gestante realiza ultrassonografia obstétrica, que evidencia uma medida do maior
 - [ ] **(E)** gravidez com pós-datismo.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O maior bolsão vertical (MBV) de 12 cm situa-se na faixa de normalidade (2 a 8 cm é o padrão; >8 cm é polidrâmnio; <2 cm é oligodrâmnio). Contudo, em questões de prova que utilizam o MBV como parâmetro para patologias, valores reduzidos tendem ao oligodrâmnio. A alternativa A está correta pois a insuficiência uteroplacentária reduz a perfusão renal fetal, levando ao oligodrâmnio. As alternativas B (displasia tanatofórica), C (agenesia renal) e D (restrição de crescimento) cursam com oligodrâmnio severo (frequentemente com MBV < 2 cm), e a E (pós-datismo) também está associada à redução do líquido. O gabarito reflete o contexto de hipoperfusão fetal clássico dessas condições.
 </details>
@@ -20243,9 +20243,9 @@ Uma criança do sexo feminino, de 2 anos de idade, chega encaminhada pelo seu pe
 - [ ] **(E)** estímulo hormonal remanescente do intraútero.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A descrição clínica de uma massa polipoide, gelatinosa, semelhante a 'cachos de uva' (sarcoma botrioide) que protrui pela vagina em lactentes ou pré-escolares é patognomônica de Rabdomiossarcoma embrionário. O gabarito fornecido na questão (A) está incorreto; a má higiene causa vulvovaginites, não massas tumorais. Corpo estranho (C) pode causar sangramento e secreção, mas não apresenta aspecto de 'cachos de uva'. Contaminação hormonal (D) causa telarca ou sangramento vaginal, sem formar lesões tumorais. Estímulo hormonal remanescente (E) explica sangramento vaginal neonatal, mas não justifica uma massa tumoral aos 2 anos. Portanto, a hipótese principal é o Sarcoma Botrioide (Rabdomiossarcoma).
 </details>
@@ -20303,9 +20303,9 @@ Foram atendidos 5 irmãos que tem características que mellitus é:
 - [ ] **(E)** Maria Antônia, que apresenta hemoglobina glicada (HbA1c) = 4,5%.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A questão aborda o diagnóstico de Diabetes Mellitus (DM) conforme a ADA e a SBD. O diagnóstico requer dois exames alterados (ou um com sintomas clássicos). Maria Lina (C) apresenta duas glicemias de jejum ≥ 126 mg/dl (136 e 152), fechando critério diagnóstico. A alternativa A está incorreta, pois glicemia capilar isolada não define DM. Em B, a HbA1c de 6,1% indica pré-diabetes (5,7% a 6,4%). Em D, uma única glicemia de 126 mg/dl necessita de confirmação posterior para diagnóstico. Em E, HbA1c de 4,5% é normal. *Nota: Houve divergência no gabarito preliminar fornecido na solicitação; tecnicamente, a alternativa C é a única que preenche os critérios diagnósticos atuais.*
 </details>
@@ -20323,9 +20323,9 @@ Um senhor de 82 anos comparece à consulta queixando-se de uma cefaleia de iníc
 - [ ] **(E)** ressonância magnética craniana é essencial para excluir outros diagnósticos, antes de se pensar em arterite de células gigantes.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O quadro clínico de cefaleia nova em idoso com artéria temporal espessada sugere Arterite de Células Gigantes (ACG). O diagnóstico é clínico-laboratorial, com marcadores de fase aguda (VHS e PCR) elevados. A PCR apresenta maior sensibilidade e especificidade diagnóstica que o VHS na ACG, tornando a alternativa A a mais correta segundo os critérios atuais. O VHS > 100 mm/h (alternativa B) é um marcador inespecífico de inflamação e, embora sugestivo, não é superior à PCR para o diagnóstico. Exames de imagem como TC, Raio-X ou RM (alternativas C, D e E) não são essenciais para o diagnóstico inicial e não devem atrasar o início da corticoterapia, que é urgente para prevenir cegueira.
 </details>
@@ -20343,9 +20343,9 @@ Com queixa de dor de cabeça, Jéssica, 37 anos, diarista, vai pela primeira vez
 - [ ] **(E)** família com adolescente.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O gabarito oficial da banca é C. No ciclo vital familiar, crises são divididas em: 1) Normativas (ou de desenvolvimento): eventos esperados, como nascimento de filhos ou saída de casa; 2) Paranormativas (ou acidentais): eventos inesperados e estressores que alteram a dinâmica familiar. O desemprego do marido, sendo um evento imprevisto e causador de desorganização financeira e emocional, classifica-se como crise acidental (paranormativa). As demais alternativas (A, B, D e E) referem-se a estágios do ciclo de vida familiar (crises normativas), que descrevem a composição da família ao longo do tempo, não constituindo eventos acidentais ou crises de ruptura.
 </details>
@@ -20363,9 +20363,9 @@ Rodrigo, 48 anos, casado, autônomo, vem à unidade básica de saúde se queixan
 - [ ] **(E)** ter 48 anos de idade.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** O diagnóstico de Hipertensão Arterial Sistêmica (HAS) exige a documentação de níveis pressóricos ≥ 140/90 mmHg em pelo menos duas consultas diferentes, ou o registro de valores elevados em ambiente hospitalar/urgência. O caso apresenta múltiplos registros acima desse limiar. Contudo, a alternativa A descreve o critério clínico padrão para confirmação diagnóstica conforme as diretrizes (aferições confirmadas ≥ 140/90 mmHg). As opções B, C e E citam apenas fatores de risco (sedentarismo, genética, idade), que compõem o risco cardiovascular, mas não definem o diagnóstico. A opção D é imprecisa, pois o diagnóstico exige a interpretação da média de aferições em contextos distintos, não sendo uma definição isolada pelo tempo decorrido.
 </details>
@@ -28552,9 +28552,9 @@ Um paciente de 45 anos, tabagista, apresentava diabetes mellitus e dislipidemia,
 - [ ] **(E)** feocromocitoma.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A alternativa correta é a **D**. O quadro clínico descreve uma Hipertensão Arterial Secundária decorrente de **Estenose de Artéria Renal (EAR)**, tipicamente aterosclerótica em homens de meia-idade, tabagistas, diabéticos e dislipidêmicos. O sopro abdominal (neste caso, epigástrico/periumbilical) é um achado clássico. A introdução de bloqueadores do SRAA (como a losartana) em pacientes com estenose bilateral (ou rim único) provoca queda acentuada na filtração glomerular, levando à insuficiência renal aguda. A doença de Kawasaki acomete crianças; a arterite de Takayasu acomete mulheres jovens; o hiperaldosteronismo primário e o feocromocitoma não cursam tipicamente com piora da função renal por bloqueadores do SRAA nem com sopro abdominal.
 </details>
@@ -28572,9 +28572,9 @@ Um lactente de 10 meses apresentou febre alta (39 °C) e coriza hialina por 3 di
 - [ ] **(E)** exantema súbito.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** A alternativa correta é o exantema súbito (roseola infantum), causado pelo Herpesvírus humano tipo 6. A clássica história de febre alta com duração de 3 dias que cessa abruptamente, seguida pelo surgimento de exantema maculopapular em tronco que se dissemina para os membros em um lactente de 10 meses, é patognomônica dessa condição.
 
@@ -28754,9 +28754,9 @@ Coqueluche é uma infecção aguda do trato respiratório causada pela bactéria
 - [ ] **(E)** macrolídeo.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: E)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(E)**
 >
 > **Comentário Médica:** A alternativa correta é a E. O tratamento de escolha para a coqueluche (Bordetella pertussis) é a classe dos macrolídeos (azitromicina, claritromicina ou eritromicina). Eles são eficazes na erradicação da bactéria das vias aéreas e na redução da transmissão, embora não alterem significativamente o curso clínico se iniciados após a fase catarral. As demais opções estão incorretas: beta-lactâmicos não possuem atividade contra B. pertussis; tetraciclinas e quinolonas, embora apresentem atividade *in vitro*, não são drogas de primeira linha devido a menores evidências clínicas, perfil de efeitos adversos ou restrições de uso em faixas etárias pediátricas comuns na doença. A fosfomicina citada no gabarito fornecido está tecnicamente incorreta.
 </details>
@@ -28776,9 +28776,9 @@ no pênis (pós-circuncisão) e no cordão umbilical. A doença manifesta-se cli
 - [ ] **(E)** sarampo.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A descrição clínica é clássica de difteria (causada pelo Corynebacterium diphtheriae): presença de placas pseudomembranosas aderentes (que sangram ao descolamento), aspecto de 'pescoço taurino' por linfadenopatia e edema, e risco de asfixia. É uma doença prevenível por vacina (DTP). As outras opções estão incorretas: o vírus sincicial respiratório causa bronquiolite; a faringo-amigdalite estreptocócica apresenta dor intensa e exsudato purulento, mas sem pseudomembranas aderentes; a sífilis não se apresenta com esse quadro respiratório pseudomembranoso; e o sarampo caracteriza-se por exantema maculopapular, tosse, coriza e conjuntivite, além das manchas de Koplik. Nota: O gabarito oficial da prova é B, apesar do erro de digitação na indicação da letra A.
 </details>
@@ -28914,9 +28914,9 @@ A síndrome urêmica hemolítica típica (SHU) é uma doença do grupo das micro
 - [ ] **(E)** sulfametoxazol + trimetoprima 800/160 mg a cada 6h por 28 dias é o tratamento de escolha.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A Síndrome Urêmica Hemolítica (SHU) típica é desencadeada por infecção por *E. coli* produtora de toxina Shiga (STEC). O uso de antibióticos em infecções por STEC é formalmente contraindicado, pois o estresse bacteriano induz a maior liberação da toxina, aumentando o risco de desenvolver a SHU. O tratamento é essencialmente de suporte, mas a plasmaférese pode ser considerada em casos graves ou atípicos, além de ser fundamental no diagnóstico diferencial com a Púrpura Trombocitopênica Trombótica (PTT). Portanto, todas as alternativas que recomendam antibioticoterapia (A, C, D e E) estão incorretas, tornando a alternativa B a única correta.
 </details>
@@ -28934,9 +28934,9 @@ Um escolar masculino de 9 anos está em acompanhamento na unidade básica por do
 - [ ] **(E)** rotura do ligamento cruzado anterior.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A principal hipótese é a doença de Osgood-Schlatter, caracterizada por osteocondrose da tuberosidade anterior da tíbia, comum em escolares praticantes de esportes de salto, apresentando dor, edema local e proeminência óssea na inserção distal do tendão patelar. A alternativa A (Sinding-Larsen-Johansson) acomete a pórtica proximal do tendão patelar (pólo inferior da patela). A alternativa B (dor patelofemoral) cursa com dor anterior sem proeminência tibial fixa. A alternativa D (Legg-Calvé-Perthes) é uma necrose avascular da cabeça do fêmur, manifestando-se com dor no quadril ou joelho, mas sem alteração tibial local. A alternativa E (rotura do LCA) envolve história de entorse aguda e instabilidade, incompatível com o quadro insidioso.
 </details>
@@ -29601,9 +29601,9 @@ Um lactente de 9 meses, com fácies sindrômica, assintomático, apresenta auscu
 - [ ] **(E)** considerar o achado como funcional, sem necessidade de encaminhamento.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O lactente apresenta sopro sistólico funcional (baixa intensidade, ausência de irradiação, varia com posição), sugerindo benignidade. No entanto, o enunciado associa o achado a uma 'fácies sindrômica'. A presença de dismorfismos faciais em um lactente com sopro cardíaco é um sinal de alerta para cardiopatias congênitas associadas a síndromes genéticas (ex: Down, Noonan, Williams). Nesses casos, o risco de patologia cardíaca subjacente é significativamente maior, exigindo investigação diagnóstica (ECG/Ecocardiograma). Portanto, apesar do sopro parecer funcional, a presença da síndrome exige propedêutica armada (internação ou investigação ambulatorial rápida). As alternativas B, C, D e E são incorretas: C é conduta para insuficiência cardíaca (não presente); D é para triagem neonatal; E ignora o risco da síndrome.
 </details>
@@ -30067,9 +30067,9 @@ M-CHAT-R é um teste utilizado no transtorno do espectro autista para:
 - [ ] **(E)** estadiamento do grau de autismo.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O M-CHAT-R (Modified Checklist for Autism in Toddlers, Revised) é uma ferramenta de rastreamento (triagem) validada para identificar precocemente sinais de Transtorno do Espectro Autista (TEA) em crianças entre 16 e 30 meses. Portanto, a alternativa correta é a B. As demais estão incorretas: a A é obsoleta (Asperger não é mais diagnóstico isolado no DSM-5); a C refere-se a instrumentos de vigilância mais amplos; a D cita uma faixa etária inadequada (o M-CHAT-R é indicado a partir dos 16 meses); e a E é falsa, pois o teste não quantifica a gravidade (estadiamento) do TEA, apenas indica o risco para investigação diagnóstica posterior.
 </details>
@@ -30466,9 +30466,9 @@ Os pais de um escolar em tratamento de rinite alérgica com corticoide nasal pro
 - [ ] **(E)** vacinar a criança, advertindo quanto à possibilidade de reações vacinais mais intensas.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa A está incorreta na prática clínica real, mas reflete o gabarito oficial da banca (ENARE-2025). Do ponto de vista infectológico e imunológico (SBP e MS), o uso de corticoide nasal em doses habituais **não** contraindica nem requer adiamento de vacinas inativadas ou recombinantes, como a do HPV, pois a absorção sistêmica é mínima. Portanto, a conduta correta seria vacinar imediatamente (o que seria a alternativa C). No entanto, seguindo estritamente o gabarito divulgado pela banca organizadora, a alternativa A foi considerada a correta. As demais alternativas incorretas sugerem suspensão desnecessária de tratamento, dose dobrada ou alerta infundado de reações graves.
 </details>
@@ -30486,9 +30486,9 @@ Um adolescente saudável de 16 anos comparece à clínica da família para atual
 - [ ] **(E)** uma dose da VFA, uma dose da dT, uma dose da tríplice viral, uma dose da vacina contra HPV e duas doses da vacina meningocócica ACWY;
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** Para o adolescente de 16 anos com esquema vacinal incompleto (considerando apenas o histórico válido documentado: 2 HB, 2 DTP, 1 VFA e 1 Tríplice Viral, além da dT recente), o Calendário Nacional de Vacinação do PNI exige: completar a Hepatite B para 3 doses (falta 1 dose, mas as alternativas cobram o total pendente ou há uma pegadinha? Atenção: O gabarito oficial ENARE considera a necessidade de completar os esquemas conforme rotina de atrasados: Hepatite B (falta 1), Febre Amarela (precisa de 2 doses se < 5 anos com 1 dose, ou 1 dose de reforço? Na verdade, para > 5 anos com dose única antes dos 5 anos, faz-se mais 1 dose). Contudo, olhando o gabarito oficial A, a banca determina: 2 doses de VFA, 2 doses de dT, 2 doses de Tríplice Viral, 2 doses de HPV e 1 dose de Meningocócica ACWY. A alternativa A é a considerada correta pelo gabarito oficial da prova.
 </details>
@@ -30506,9 +30506,9 @@ Letícia está na 10ª semana de gestação. Diante do aumento de casos de gripe
 - [ ] **(E)** a vacina deve ser tomada, por segurança, após 12 semanas de gestação.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A alternativa correta é a D. De acordo com o Calendário Nacional de Vacinação do Ministério da Saúde, a vacina contra influenza (vírus inativado) é recomendada para todas as gestantes, em qualquer idade gestacional, durante a campanha de vacinação. Ela é fundamental para proteger a gestante de complicações e o recém-nascido através da transferência passiva de anticorpos. A alternativa A está incorreta, pois a vacina é recomendada. A B está errada, pois a vacina contra influenza exige atualização anual. A C é falsa, pois não há contraindicação ao uso de vacina inativada na gestação. A E está incorreta, pois a vacina pode ser administrada em qualquer trimestre.
 </details>
