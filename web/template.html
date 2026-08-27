@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caderno de Questões - Simulado de Estudos Interativo</title>
+    <link rel="icon" type="image/svg+xml" href="{{FAVICON_B64}}">
+
+    <!-- Inicializador Instantâneo de Tema (Evita Flash de Tela Branca) -->
+    <script>
+        (function () {
+            try {
+                const savedTheme = localStorage.getItem('simulado_theme_preference') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+                if (savedTheme === 'dark') {
+                    document.documentElement.setAttribute('data-theme', 'dark');
+                }
+            } catch (e) { }
+        })();
+    </script>
+
+    <!-- Google tag (gtag.js) - Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBHG2JMQW2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BBHG2JMQW2');
+    </script>
+
+    <style>
+        {
+                {
+                CSS_CONTENT
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-bar">
+        <div class="top-bar-title" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+            title="Clique para voltar ao topo">
+            🩺 Simulado Residência Médica
+        </div>
+        <div class="progress-container" onclick="irParaEstatisticas()"
+            title="Clique para ir direto ao Resumo de Desempenho e Estatísticas">
+            <div class="progress-labels">
+                <span>Progresso:</span>
+                <span id="progress-text">0 de {{TOTAL_QUESTOES}} respondidas (0%)</span>
+            </div>
+            <div class="progress-bar-bg">
+                <div class="progress-bar-fill" id="progress-bar"></div>
+            </div>
+        </div>
+        <div style="display: flex; gap: 8px; align-items: center;">
+            <button type="button" class="btn-icon-topbar" id="btn-aviso-toggle" onclick="abrirAvisoModal()"
+                title="Aviso sobre IA e Gabarito">
+                <img src="{{IMG_AVISO_B64}}" alt="Aviso" class="aviso-icon-img">
+            </button>
+            <button class="btn-theme-toggle" id="theme-toggle-btn" onclick="toggleTheme()"
+                title="Alternar Modo Escuro / Modo Claro">
+                <img src="{{IMG_DARK_B64}}" alt="Alternar Tema" id="theme-icon-img" class="theme-icon-img">
+            </button>
+            <button type="button" class="btn-reset" onclick="abrirConfirmResetModal()">✖ Limpar Respostas</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header-hero">
+            <h1>Caderno de Questões - Simulado Interativo</h1>
+            <p>Questões oficiais de bancas categorizadas com Gabarito Oficial e Explicações Médicas.</p>
+            <div class="badge-persistence">
+                <span>💾</span> Respostas salvas automaticamente no navegador
+            </div>
+        </div>
+
+        <!-- Container Ko-fi de Doações -->
+        <div class="kofi-banner">
+            <div class="kofi-content">
+                <div class="kofi-header">
+                    <img src="{{IMG_KOFI_BADGE_B64}}" alt="FFBE Icon" class="kofi-badge-img">
+                    <span>Oi, me chamo Mateus e sou um estudante de sistemas.</span>
+                </div>
+                <div class="kofi-desc">
+                    Fiz este caderno com 1.500+ questões oficiais, imagens médicas curadas e justificativas clínicas por
+                    IA que é mantido de forma 100% gratuita. Se este material está te ajudando nos estudos, considere me
+                    comprar um café no Ko-fi!
+                </div>
+            </div>
+            <div class="kofi-btn-container">
+                <button type="button" class="kofi-btn" onclick="abrirApoioModal()">
+                    <img src="{{IMG_KOFI_LOGO_B64}}" alt="Pix" class="kofi-icon-img">
+                    <span>Pagar um Café</span>
+                </button>
+            </div>
+        </div>
+
+        {{QUESTOES_HTML}}
+
+        <!-- Painel de Desempenho e Estatísticas -->
+        <div class="stats-panel-card" id="painel-estatisticas">
+            <div class="stats-panel-header">
+                <div class="stats-panel-title">
+                    <svg class="stats-title-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                        </path>
+                    </svg>
+                    Resumo Geral de Desempenho
+                </div>
+                <div class="stats-panel-subtitle">Atualizado em tempo real com base nas suas respostas</div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon-wrap stat-icon-acertos">
+                        <svg class="stat-icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="stat-acertos">0</span>
+                        <span class="stat-label">Acertos</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon-wrap stat-icon-erros">
+                        <svg class="stat-icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="stat-erros">0</span>
+                        <span class="stat-label">Erros</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon-wrap stat-icon-taxa">
+                        <svg class="stat-icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="stat-taxa">0%</span>
+                        <span class="stat-label">Taxa de Acerto</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon-wrap stat-icon-total">
+                        <svg class="stat-icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-value" id="stat-respondidas">0 / {{TOTAL_QUESTOES}}</span>
+                        <span class="stat-label">Respondidas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Apoio / Pix -->
+    <div class="kofi-modal-overlay" id="apoio-modal-overlay" onclick="fecharApoioModal(event)">
+        <div class="kofi-modal-card" onclick="event.stopPropagation()">
+            <div class="kofi-modal-header">
+                <div class="kofi-modal-header-title">
+                    <img src="{{IMG_KOFI_LOGO_B64}}" alt="Café" class="kofi-modal-logo">
+                    <span>Me pague um café</span>
+                </div>
+                <button type="button" class="kofi-modal-close" onclick="fecharApoioModal()">&times;</button>
+            </div>
+            <div class="aviso-modal-body" style="padding-bottom: 8px;">
+                <p style="margin: 0 0 10px 0; font-size: 14px; color: var(--text-main);">
+                    Este simulado é <strong>100% gratuito e sem anúncios</strong>. Se o material está te ajudando nos
+                    seus estudos, qualquer valor de café incentiva a manter o banco de questões e o site sempre
+                    atualizados!
+                </p>
+                <div class="pix-box-container">
+                    <span class="pix-badge-tag"><img src="{{IMG_PIX_B64}}" alt="Ícone Pix" class="pix-icon">Pix Copia e Cola / QR Code (R$ 5,00)</span>
+
+                    <div class="pix-qr-wrapper">
+                        <img src="{{IMG_QRCODE_B64}}" alt="QR Code Pix R$ 5,00" class="pix-qr-img">
+                    </div>
+
+                    <div class="pix-copy-group">
+                        <input type="text" readonly
+                            value="00020126360014br.gov.bcb.pix0114+551194243700652040000530398654045.005802BR5914Mateus Almeida6009Sao Paulo62230519daqr1832891424829346304D583"
+                            id="pix-key-input" class="pix-key-input" title="Pix Copia e Cola">
+                        <button type="button" class="btn-pix-copy" id="btn-pix-copy" onclick="copiarChavePix()">
+                            <span>Copiar Chave</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="pix-alt-kofi">
+                    Prefere doar com Cartão Internacional / PayPal? <br>
+                    <a href="https://ko-fi.com/matthewos" target="_blank" rel="noopener noreferrer"
+                        onclick="registrarCliqueKofi()">Abrir Página do Ko-fi ➔</a>
+                </div>
+            </div>
+            <div class="aviso-modal-footer">
+                <button type="button" class="btn-aviso-ok" onclick="fecharApoioModal()">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Aviso sobre IA e Gabarito -->
+    <div class="aviso-modal-overlay" id="aviso-modal-overlay" onclick="fecharAvisoModal(event)">
+        <div class="aviso-modal-card" onclick="event.stopPropagation()">
+            <div class="aviso-modal-header">
+                <div class="aviso-modal-header-title">
+                    <img src="{{IMG_AVISO_B64}}" alt="Aviso" class="modal-header-icon">
+                    <span>Aviso sobre as Questões e Comentários</span>
+                </div>
+                <button type="button" class="aviso-modal-close" onclick="fecharAvisoModal()">&times;</button>
+            </div>
+            <div class="aviso-modal-body">
+                <div class="aviso-alert-box">
+                    <strong><img src="{{IMG_ATENCAO_B64}}" alt="Atenção" class="inline-icon"> Atenção
+                        Estudante:</strong><br>
+                    Todas as questões possuem o <strong>gabarito oficial das bancas examinadoras</strong>. No entanto,
+                    as <strong>explicações e justificativas clínicas detalhadas foram geradas por Inteligência
+                        Artificial (Google Gemini)</strong>.
+                </div>
+                <div class="aviso-info-box">
+                    <strong><img src="{{IMG_CHECK_B64}}" alt="Check" class="inline-icon"> Uso Recomendado:</strong><br>
+                    Utilize as explicações como um guia prático de revisão e raciocínio clínico para consolidar seus
+                    estudos. Sempre confirme condutas em diretrizes médicas oficiais e literatura de referência.
+                </div>
+            </div>
+            <div class="aviso-modal-footer">
+                <button type="button" class="btn-aviso-ok" onclick="fecharAvisoModal()">Entendi, continuar
+                    estudando</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Confirmação para Limpar Respostas -->
+    <div class="confirm-modal-overlay" id="confirm-reset-modal-overlay" onclick="fecharConfirmResetModal(event)">
+        <div class="confirm-modal-card" onclick="event.stopPropagation()">
+            <div class="confirm-modal-header">
+                <div class="confirm-modal-title">
+                    <img src="{{IMG_LIXEIRA_B64}}" alt="Lixeira" class="modal-header-icon">
+                    <span>Limpar Todas as Respostas?</span>
+                </div>
+                <button type="button" class="confirm-modal-close" onclick="fecharConfirmResetModal()">&times;</button>
+            </div>
+            <div class="confirm-modal-body">
+                Você tem certeza de que deseja <strong>apagar todas as alternativas marcadas</strong> e reiniciar seu
+                progresso do simulado?
+                <div class="confirm-modal-warning">
+                    ⚠️ <strong>Atenção:</strong> Esta ação é irreversível e resetará suas estatísticas e respostas
+                    salvas no navegador.
+                </div>
+            </div>
+            <div class="confirm-modal-footer">
+                <button type="button" class="btn-confirm-cancel" onclick="fecharConfirmResetModal()">Cancelar</button>
+                <button type="button" class="btn-confirm-proceed" onclick="executarLimparRespostas()">Sim, limpar
+                    tudo</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.TOTAL_QUESTOES = {{ TOTAL_QUESTOES }};
+        window.IMG_DARK_B64 = "{{IMG_DARK_B64}}";
+        window.IMG_CLARO_B64 = "{{IMG_CLARO_B64}}";
+
+        { { JS_CONTENT } }
+    </script>
+
+</body>
+
+</html>
