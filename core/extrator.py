@@ -287,6 +287,19 @@ def extrair_alternativas(bloco_limpo):
     return bloco_limpo, {}
 
 
+CORRECOES_MANUAIS_QUESTOES = {
+    "REVALIDA-2022_PV_objetiva_1_100": {
+        "enunciado": "Uma mulher com 32 anos de idade comparece à consulta médica agendada na Unidade Básica de Saúde levando o resultado de exame citopatológico do colo uterino coletado há 1 mês. A paciente, muito nervosa, confessa que havia lido o resultado do exame e que pesquisou na internet sobre o tema. Ressaltou que segue corretamente às orientações do seu médico e que, aos 29 anos de idade, realizou o mesmo exame, com resultado normal. O resultado do exame citopatológico do colo uterino realizado no último mês apresentou amostra satisfatória, representatividade da junção escamo colunar, presença de células escamosas e glandulares e presença de ASCUS – (células escamosas atípicas de significado indeterminado).\n\nConsiderando o caso apresentado, após explicar à paciente que há presença de um exame com alteração, o médico de família deve",
+        "alternativas": {
+            "A": "repetir o exame citopatológico do colo uterino no momento da consulta.",
+            "B": "solicitar novo exame citopatológico do colo uterino em 12 meses e, caso a alteração permaneça, avaliar indicação de cirurgia.",
+            "C": "encaminhar a paciente para o serviço especializado de Ginecologia para realização de um novo exame mais detalhado, a colposcopia.",
+            "D": "solicitar novo exame citopatológico do colo uterino em 6 meses e, caso a alteração permaneça, solicitar a realização de um exame mais detalhado, a colposcopia."
+        }
+    }
+}
+
+
 def extrair_questoes_do_texto(texto_bruto, nome_arquivo):
     """Identifica blocos de questões e separa enunciado de alternativas."""
     padrao_questao = re.compile(r'(?:^|\n|\b)(?:QUEST[ÃAÁO0-9\?]+|QUEST[ÃA]O)\s*(\d+)[\.\s-]*', re.IGNORECASE)
@@ -296,6 +309,7 @@ def extrair_questoes_do_texto(texto_bruto, nome_arquivo):
         return []
 
     questoes_processadas = []
+    nome_origem = nome_arquivo.replace(".pdf", "")
     
     for i in range(len(matches)):
         inicio = matches[i].start()
@@ -303,7 +317,22 @@ def extrair_questoes_do_texto(texto_bruto, nome_arquivo):
         bloco = texto_bruto[inicio:fim].strip()
         
         num_q = matches[i].group(1)
+        chave_q = f"{nome_origem}_{num_q}"
         
+        if chave_q in CORRECOES_MANUAIS_QUESTOES:
+            corr = CORRECOES_MANUAIS_QUESTOES[chave_q]
+            especialidade, tema, subtema = classificar_questao(corr["enunciado"])
+            questoes_processadas.append({
+                "origem": nome_origem,
+                "numero": num_q,
+                "especialidade": especialidade,
+                "tema": tema,
+                "subtema": subtema,
+                "enunciado": corr["enunciado"],
+                "alternativas": corr["alternativas"]
+            })
+            continue
+
         # Limpeza de cabeçalhos repetitivos
         bloco_limpo = re.sub(r'Medway\s*-\s*[A-Z0-9\s-]+\n+Páginas\s+\d+/\d+', '', bloco)
         bloco_limpo = re.sub(r'Revalida\s*\d{4}', '', bloco_limpo)
@@ -316,7 +345,7 @@ def extrair_questoes_do_texto(texto_bruto, nome_arquivo):
         if len(enunciado) > 20:
             especialidade, tema, subtema = classificar_questao(bloco_limpo)
             questoes_processadas.append({
-                "origem": nome_arquivo.replace(".pdf", ""),
+                "origem": nome_origem,
                 "numero": num_q,
                 "especialidade": especialidade,
                 "tema": tema,

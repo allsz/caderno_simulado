@@ -10192,14 +10192,14 @@ Uma paciente com 42 anos de idade, gesta: 4, para: 3, aborto: 1, que fez laquead
 
 #### **[REVALIDA-2022_PV_objetiva_1 | Questão 100]**
 
-Uma mulher com 32 anos de idade comparece à consulta médica exame citopatológico do colo uterino coletado há 1 mês. A pacient e que pesquisou na internet sobre o tema. Ressaltou que segue co idade, realizou o mesmo exame, com resultado normal.
+Uma mulher com 32 anos de idade comparece à consulta médica agendada na Unidade Básica de Saúde levando o resultado de exame citopatológico do colo uterino coletado há 1 mês. A paciente, muito nervosa, confessa que havia lido o resultado do exame e que pesquisou na internet sobre o tema. Ressaltou que segue corretamente às orientações do seu médico e que, aos 29 anos de idade, realizou o mesmo exame, com resultado normal. O resultado do exame citopatológico do colo uterino realizado no último mês apresentou amostra satisfatória, representatividade da junção escamo colunar, presença de células escamosas e glandulares e presença de ASCUS – (células escamosas atípicas de significado indeterminado).
 
-- [ ] **(A)** resultat mês apresentou amostra satisfatória, representatividade da junçãc presença de ASCUS — (células escamosas atípicas de significado ind Considerando o caso apresentado, após explicar à paciente que há O repetir o exame citopatológico do colo uterino no momento solicitar novo exame citopatológico do colo uterino em 12 mes encaminhar a paciente para o serviço especializado de Gine colposcopia
-- [ ] **(B)** solicitar novo exame citopatológico do colo uterino em 6 um exame mais detalhado, a colposcopia
-- [ ] **(C)** Espaço livre
+Considerando o caso apresentado, após explicar à paciente que há presença de um exame com alteração, o médico de família deve
 
-Na2022 ica agendada na Unidade Básica de Saúde levando o resultado de ente, muito nervosa, confessa que havia lido o resultado do exame corretamente às orientações do seu médico e que, aos 29 anos de tado do exame citopatológico do colo uterino realizado no último :ão escamo colunar, presença de células escamosas e glandulares e ndeterminado)
-- [ ] **(D)** há presença de um exame com alteração, o médico de família deve da consulta leses e, caso a alteração permaneça, avaliar indicação de cirurgia necologia para realização de um novo exame mais detalhado, a meses e, caso a alteração permaneça, solicitar a realização de
+- [ ] **(A)** repetir o exame citopatológico do colo uterino no momento da consulta.
+- [ ] **(B)** solicitar novo exame citopatológico do colo uterino em 12 meses e, caso a alteração permaneça, avaliar indicação de cirurgia.
+- [ ] **(C)** encaminhar a paciente para o serviço especializado de Ginecologia para realização de um novo exame mais detalhado, a colposcopia.
+- [ ] **(D)** solicitar novo exame citopatológico do colo uterino em 6 meses e, caso a alteração permaneça, solicitar a realização de um exame mais detalhado, a colposcopia.
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
