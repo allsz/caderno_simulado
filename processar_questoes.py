@@ -14,41 +14,74 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 
+_IMAGE_CACHE = {}
+
+
 def obter_base64_imagem(caminho_relativo):
     """Converte qualquer imagem local em data URI Base64 autônoma para abrir perfeitamente em qualquer aplicativo/dispositivo."""
     if not caminho_relativo or caminho_relativo.startswith("data:"):
         return caminho_relativo
-    base_dir = Path(__file__).parent
-    p_name = Path(caminho_relativo).name.lower()
+    if caminho_relativo in _IMAGE_CACHE:
+        return _IMAGE_CACHE[caminho_relativo]
+
+    base_dir = Path(__file__).resolve().parent
+    caminho_p = Path(caminho_relativo)
     
+    possibilidades = [
+        caminho_p,
+        base_dir / caminho_p,
+        base_dir / "saida" / caminho_p,
+        base_dir / "src" / caminho_p.name,
+        base_dir / "saida" / "src" / caminho_p.name,
+        base_dir / "imagens" / caminho_p.name,
+        base_dir / "saida" / "imagens" / caminho_p.name,
+    ]
+    
+    mime_map = {
+        "png": "image/png",
+        "jpg": "image/jpeg",
+        "jpeg": "image/jpeg",
+        "gif": "image/gif",
+        "svg": "image/svg+xml",
+        "webp": "image/webp"
+    }
+    
+    for p in possibilidades:
+        if p.is_file():
+            try:
+                ext = p.suffix.lower().lstrip('.')
+                mime = mime_map.get(ext, "image/png")
+                encoded = base64.b64encode(p.read_bytes()).decode('utf-8')
+                res = f"data:{mime};base64,{encoded}"
+                _IMAGE_CACHE[caminho_relativo] = res
+                return res
+            except Exception as e:
+                print(f"   [!] Erro ao converter {p} para Base64: {e}")
+                
+    p_name_clean = caminho_p.name.lower().replace("ã", "a").replace("ç", "c")
     cand_dirs = [
         base_dir / "src",
         base_dir / "saida" / "src",
-        base_dir / Path(caminho_relativo).parent,
-        base_dir / "saida" / Path(caminho_relativo).parent,
+        base_dir / "imagens",
+        base_dir / "saida" / "imagens",
     ]
-    
     for d in cand_dirs:
-        if d.exists() and d.is_dir():
+        if d.is_dir():
             for item in d.iterdir():
                 if item.is_file():
-                    name_lower = item.name.lower()
-                    if name_lower == p_name or "aten" in name_lower and "aten" in p_name:
+                    item_clean = item.name.lower().replace("ã", "a").replace("ç", "c")
+                    if item_clean == p_name_clean:
                         try:
                             ext = item.suffix.lower().lstrip('.')
-                            mime_map = {
-                                "png": "image/png",
-                                "jpg": "image/jpeg",
-                                "jpeg": "image/jpeg",
-                                "gif": "image/gif",
-                                "svg": "image/svg+xml",
-                                "webp": "image/webp"
-                            }
                             mime = mime_map.get(ext, "image/png")
                             encoded = base64.b64encode(item.read_bytes()).decode('utf-8')
-                            return f"data:{mime};base64,{encoded}"
+                            res = f"data:{mime};base64,{encoded}"
+                            _IMAGE_CACHE[caminho_relativo] = res
+                            return res
                         except Exception as e:
                             print(f"   [!] Erro ao converter {item} para Base64: {e}")
+
+    _IMAGE_CACHE[caminho_relativo] = caminho_relativo
     return caminho_relativo
 
 
@@ -541,14 +574,17 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
     img_kofi_logo_b64 = obter_base64_imagem("src/logomarkLogo.png")
     img_aviso_b64 = obter_base64_imagem("src/aviso.png")
     img_lampada_b64 = obter_base64_imagem("src/lampada.png")
-
-    html = f"""<!DOCTYPE html>
+    img_check_b64 = obter_base64_imagem("src/check.png")
+    img_lixeira_b64 = obter_base64_imagem("src/lixeira.png")
+    img_atencao_b64 = obter_base64_imagem("src/atenção.png")
+    favicon_b64 = obter_base64_imagem("src/favicon.svg")
+    html_cabecalho = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Caderno de Questões - Simulado de Estudos Interativo</title>
-<link rel="icon" type="image/svg+xml" href="src/favicon.svg">
+<link rel="icon" type="image/svg+xml" href="{favicon_b64}">
 <style>
     :root {{
         --primary: #1e40af;
@@ -1701,7 +1737,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
         <div class="kofi-content">
             <div class="kofi-header">
                 <img src="{img_kofi_badge_b64}" alt="FFBE Icon" class="kofi-badge-img">
-                <span>Gostou do Simulado? Me apoie!</span>
+                <span>Oi, me chamo Mateus e sou um estudante de sistemas.</span>
             </div>
             <div class="kofi-desc">
                 Fiz este caderno com 1.500+ questões oficiais, imagens médicas curadas e justificativas clínicas por IA que é mantido de forma 100% gratuita. Se este material está te ajudando nos estudos, considere me comprar um café no Ko-fi!
@@ -1743,11 +1779,11 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
             </div>
             <div class="aviso-modal-body">
                 <div class="aviso-alert-box">
-                    <strong><img src="src/atenção.png" alt="Atenção" class="inline-icon"> Comentários da IA:</strong><br>
+                    <strong><img src="{img_atencao_b64}" alt="Atenção" class="inline-icon"> Comentários da IA:</strong><br>
                     Este simulado contém comentários de IA sobre a questão, elas não devem ser levadas como verdade absoluta pois a mesma pode cometer erros.
                 </div>
                 <div class="aviso-info-box">
-                    <strong><img src="src/check.png" alt="Check" class="inline-icon"> Gabarito Oficial:</strong><br>
+                    <strong><img src="{img_check_b64}" alt="Check" class="inline-icon"> Gabarito Oficial:</strong><br>
                     Contudo o Gabarito Oficial indicado é fornecido pelos realizadores das questões, portanto as leve em consideração!
                 </div>
             </div>
@@ -1762,7 +1798,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
         <div class="confirm-modal-card" onclick="event.stopPropagation()">
             <div class="confirm-modal-header">
                 <div class="confirm-modal-title">
-                    <img src="src/lixeira.png" alt="Lixeira" class="modal-header-icon">
+                    <img src="{img_lixeira_b64}" alt="Lixeira" class="modal-header-icon">
                     <span>Limpar Todas as Respostas?</span>
                 </div>
                 <button type="button" class="confirm-modal-close" onclick="fecharConfirmResetModal()" title="Fechar (Esc)">&times;</button>
@@ -1770,7 +1806,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
             <div class="confirm-modal-body">
                 <p style="margin: 0 0 10px 0;">Tem certeza de que deseja apagar todas as respostas e recomeçar o simulado?</p>
                 <div class="confirm-modal-warning">
-                    <img src="src/atenção.png" alt="Atenção" class="inline-icon"> Esta ação não pode ser desfeita e todas as questões voltarão ao estado inicial.
+                    <img src="{img_atencao_b64}" alt="Atenção" class="inline-icon"> Esta ação não pode ser desfeita e todas as questões voltarão ao estado inicial.
                 </div>
             </div>
             <div class="confirm-modal-footer">
@@ -1781,13 +1817,15 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
     </div>
 """
 
+    html_parts = [html_cabecalho]
+
     for esp in sorted(banco_questoes.keys()):
-        html += f"<div class='especialidade'>📂 {esp.upper()}</div>\n"
+        html_parts.append(f"<div class='especialidade'>📂 {esp.upper()}</div>\n")
         for tema in sorted(banco_questoes[esp].keys()):
-            html += f"<div class='tema'>📌 {tema}</div>\n"
+            html_parts.append(f"<div class='tema'>📌 {tema}</div>\n")
             for subtema in sorted(banco_questoes[esp][tema].keys()):
                 lista_q = banco_questoes[esp][tema][subtema]
-                html += f"<div class='subtema'>🔖 {subtema} ({len(lista_q)} questões)</div>\n"
+                html_parts.append(f"<div class='subtema'>🔖 {subtema} ({len(lista_q)} questões)</div>\n")
                 
                 for q in lista_q:
                     q_id = f"q_{q['origem']}_{q['numero']}".replace(" ", "_").replace("-", "_").replace(".", "_").replace("(", "_").replace(")", "_")
@@ -1811,26 +1849,27 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
                                 exp = "Gabarito não fornecido no PDF da prova. (Configure sua GEMINI_API_KEY no arquivo .env para gerar gabarito e explicação por IA)."
 
                     enunc_html = formatar_texto_fluido(q['enunciado'], modo_html=True)
-                    html += f"<div class='card-questao' id='card_{q_id}'>\n"
-                    html += f"<span class='tag-origem'>{q['origem']} | Questão {q['numero']}</span>\n"
-                    html += f"<div class='enunciado'>{enunc_html}</div>\n"
+                    html_parts.append(f"<div class='card-questao' id='card_{q_id}'>\n")
+                    html_parts.append(f"<span class='tag-origem'>{q['origem']} | Questão {q['numero']}</span>\n")
+                    html_parts.append(f"<div class='enunciado'>{enunc_html}</div>\n")
                     
                     imgs = q.get("imagens") or ([q.get("imagem")] if q.get("imagem") else [])
                     if imgs:
-                        html += f"<div class='questao-imagem-container'>\n"
+                        html_parts.append("<div class='questao-imagem-container'>\n")
                         for img_src in imgs:
                             num_q = q["numero"]
-                            html += f"  <img src='{img_src}' alt='Figura da Questão {num_q}' class='img-questao'>\n"
-                        html += f"</div>\n"
+                            img_b64 = obter_base64_imagem(img_src)
+                            html_parts.append(f"  <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao'>\n")
+                        html_parts.append("</div>\n")
                     
                     if q['alternativas']:
-                        html += f"<div class='alternativas-container'>\n"
+                        html_parts.append("<div class='alternativas-container'>\n")
                         for letra, alt in sorted(q['alternativas'].items()):
                             alt_html = html_escape(formatar_texto_fluido(alt, modo_html=False))
-                            html += f"<label class='alternativa' id='label_{q_id}_{letra}'>"
-                            html += f"<input type='radio' name='{q_id}' value='{letra}' data-gabarito='{gab}' onchange='salvarResposta(\"{q_id}\", \"{letra}\", \"{gab}\")'>"
-                            html += f"<span><strong>({letra})</strong> {alt_html}</span></label>\n"
-                        html += f"</div>\n"
+                            html_parts.append(f"<label class='alternativa' id='label_{q_id}_{letra}'>")
+                            html_parts.append(f"<input type='radio' name='{q_id}' value='{letra}' data-gabarito='{gab}' onchange='salvarResposta(\"{q_id}\", \"{letra}\", \"{gab}\")'>")
+                            html_parts.append(f"<span><strong>({letra})</strong> {alt_html}</span></label>\n")
+                        html_parts.append("</div>\n")
                     
                     if isinstance(exp, list):
                         exp_html = "<br>".join(str(item) for item in exp)
@@ -1839,15 +1878,15 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
                     else:
                         exp_html = str(exp or "")
                         
-                    html += f"<button class='btn-resposta' onclick='toggleResposta(\"{q_id}\")'>✦ Ver Resposta e Comentário</button>\n"
-                    html += f"<div class='gabarito-box' id='box_{q_id}' style='display: none;'>\n"
-                    html += f"    <div class='badge-gabarito'>Gabarito Oficial: Alternativa ({gab})</div>\n"
-                    html += f"    <div class='explicacao-texto'>{exp_html}</div>\n"
-                    html += f"</div>\n"
+                    html_parts.append(f"<button class='btn-resposta' onclick='toggleResposta(\"{q_id}\")'>✦ Ver Resposta e Comentário</button>\n")
+                    html_parts.append(f"<div class='gabarito-box' id='box_{q_id}' style='display: none;'>\n")
+                    html_parts.append(f"    <div class='badge-gabarito'>Gabarito Oficial: Alternativa ({gab})</div>\n")
+                    html_parts.append(f"    <div class='explicacao-texto'>{exp_html}</div>\n")
+                    html_parts.append("</div>\n")
                     
-                    html += f"</div>\n"
+                    html_parts.append("</div>\n")
 
-    html += f"""
+    html_rodape = f"""
     <!-- Painel de Desempenho e Estatísticas -->
     <div class="stats-panel-card" id="painel-estatisticas">
         <div class="stats-panel-header">
@@ -2175,14 +2214,8 @@ window.addEventListener('DOMContentLoaded', () => {{
 </body>
 </html>
 """
-    def _substituir_src_b64(m):
-        aspas = m.group(1)
-        caminho = m.group(2)
-        b64 = obter_base64_imagem(caminho)
-        return f'src={aspas}{b64}{aspas}'
-
-    # Passagem universal para converter QUALQUER imagem src="src/..." no HTML inteiro para Base64!
-    html = re.sub(r'src=(["\'])(src/[^"\']+)\1', _substituir_src_b64, html)
+    html_parts.append(html_rodape)
+    html = "".join(html_parts)
 
     with open(caminho_saida, "w", encoding="utf-8") as f:
         f.write(html)
@@ -2275,6 +2308,7 @@ def main():
     print("\n[*] Gerando arquivos finais de estudo...")
     exportar_caderno_markdown(banco_hierarquico, caminho_md, cache_explicacoes, tem_api_key=bool(api_key))
     exportar_caderno_html(banco_hierarquico, caminho_html, cache_explicacoes, tem_api_key=bool(api_key))
+    exportar_caderno_html(banco_hierarquico, BASE_DIR / "index.html", cache_explicacoes, tem_api_key=bool(api_key))
 
     print("\n========================================================")
     print(f"[SUCESSO] Processamento concluído com êxito!")
