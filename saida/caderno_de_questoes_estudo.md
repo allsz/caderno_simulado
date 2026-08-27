@@ -785,9 +785,9 @@ Um jovem de 18 anos procura atendimento médico queixando-se de um abaulamento n
 - [ ] **(D)** Mista. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O caso descreve uma hérnia inguinal indireta. O ponto fundamental é a manobra de oclusão do anel inguinal profundo: se a compressão do anel profundo impede a exteriorização da hérnia durante a manobra de Valsalva, confirma-se que o saco herniário percorre todo o trajeto do canal inguinal, partindo do anel profundo. Na hérnia direta (A), o saco protrui medialmente aos vasos epigástricos inferiores, diretamente pela parede posterior (Triângulo de Hesselbach), logo, a oclusão do anel profundo não impediria sua saída. A hérnia femoral (C) localiza-se abaixo do ligamento inguinal, e a mista (D) combinaria ambos os trajetos.
 </details>
@@ -2329,9 +2329,9 @@ Homem, 28 anos, é admitido na sala de trauma de uma Unidade de Emergência vít
 - [ ] **(D)** hemotórax maciço.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O mecanismo de desaceleração súbita em alta velocidade é clássico para a ruptura da aorta torácica (geralmente no istmo). Os achados radiográficos (mediastino alargado, apagamento do botão aórtico e desvio da traqueia) são patognomônicos para essa hipótese. O tamponamento cardíaco (A) e o pneumotórax hipertensivo (B) são descartados pela ausência de turgência jugular e estabilidade hemodinâmica relativa. O hemotórax maciço (D) é excluído pela percussão torácica timpânica bilateral (o hemotórax causaria macicez) e pela ausência de choque hipovolêmico grave no momento da admissão.
 </details>
@@ -3892,9 +3892,9 @@ João, 68 anos, apresenta insuficiência cardíaca com fração de ejeção redu
 - [ ] **(D)** Realizar visita domiciliar inicial imediata, orientando o paciente quanto à necessidade de seguimento especializado em função da complexidade clínica e do risco cardiovascular, e programar retorno à APS após estabilização clínica.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa A está correta pois a Atenção Primária à Saúde (APS) deve atuar como a coordenadora do cuidado na Rede de Atenção à Saúde (RAS). Em pacientes complexos (IC, DM, DRC), a APS assume a gestão do caso, revisando o plano hospitalar e articulando a rede conforme a evolução clínica, garantindo a longitudinalidade. As alternativas B e C estão incorretas por rebaixarem a APS a um papel meramente executor ou secundário, transferindo a coordenação para o especialista. A alternativa D, embora sugira a visita domiciliar, falha ao delegar a condução do caso exclusivamente ao serviço especializado, contrariando a função organizadora da APS.
 </details>
@@ -3911,9 +3911,9 @@ Mulher, 82 anos, em acompanhamento pela equipe de Saúde da Família devido à d
 - [ ] **(D)** Suspender o uso do betabloqueador.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** ['A', 'A paciente apresenta sinais de hipotensão ortostática (tontura ao levantar) e fadiga, sintomas comuns em idosos polifarmácia. A conduta correta é o ajuste posológico das medicações anti-hipertensivas para equilibrar o controle cardiovascular e a segurança (evitar quedas), mantendo a terapia base. A alternativa B está incorreta, pois a digoxina não é indicada para IC com fração de ejeção preservada (ICFEP). A alternativa C é contraindicada, pois o sacubitril-valsartana reduz ainda mais a PA, agravando a hipotensão. A alternativa D é equivocada, pois o betabloqueador é fundamental na doença coronariana crônica; deve-se ajustar a dose, não suspender abruptamente.']
 </details>
@@ -5768,9 +5768,9 @@ Um homem de 24 anos procura a Unidade Básica de Saúde com febre diária, fadig
 - [ ] **(D)** dispensar novos exames. ÁREA LIVRE 11 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O paciente apresenta quadro clínico sugestivo de Síndrome Retroviral Aguda (febre, fadiga, odinofagia e linfadenopatia) após exposição de risco. Nesse estágio inicial, o paciente encontra-se na 'janela imunológica', onde a carga viral é altíssima, mas os anticorpos ainda não foram produzidos em níveis detectáveis. Testes rápidos (A) e ELISA (C) detectam anticorpos (sorologia) e podem resultar em falsos-negativos na fase aguda. A conduta correta é a solicitação da Carga Viral (HIV-RNA por PCR), que detecta diretamente o material genético do vírus, permitindo o diagnóstico precoce antes da soroconversão. Dispensar exames (D) seria negligente diante da alta suspeição clínica.
 </details>
@@ -5787,9 +5787,9 @@ Uma gestante de 30 anos, vivendo com HIV, em uso regular de terapia antirretrovi
 - [ ] **(D)** A redução do risco de transmissão vertical depende da manutenção da terapia antirretroviral e da carga viral indetectável; a escolha da via de parto deve seguir a indicação obstétrica e a amamentação pode ser indicada se for o desejo da paciente.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** ['A', 'A alternativa A está correta pois segue as diretrizes do Ministério da Saúde: a TARV com carga viral (CV) indetectável reduz drasticamente a transmissão vertical. Quanto ao parto, se a CV for < 1.000 cópias/mL (ou indetectável), a via é definida por critérios obstétricos; se $\\geq$ 1.000 ou desconhecida, indica-se cesariana eletiva. A amamentação é absolutamente contraindicada no Brasil para mulheres vivendo com HIV, sendo garantido o acesso a fórmulas infantis. As alternativas B, C e D estão incorretas ao sugerir que o risco permaneceria elevado (B), que a amamentação seria permitida (C e D) ou que a cesariana seria mandatória independentemente da carga viral (B).']
 </details>
@@ -5806,9 +5806,9 @@ Uma técnica de enfermagem de uma Unidade Básica de Saúde (UBS), após coletar
 - [ ] **(D)** Indicar PEP para o profissional sem realizar teste rápido para HIV, devido ao tempo decorrido desde a exposição. 15 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A conduta correta é a alternativa C. A Profilaxia Pós-Exposição (PEP) para o HIV deve ser iniciada o mais precocemente possível, com limite máximo de 72 horas após a exposição. No caso clínico, o acidente ocorreu há 4 dias (96 horas), ultrapassando a janela de eficácia da profilaxia. Portanto, a PEP não está mais indicada, tornando incorretas as alternativas A, B e D. A conduta adequada agora é o acompanhamento sorológico do profissional exposto para monitorar a possível soroconversão, conforme os protocolos de saúde do trabalhador.
 </details>
@@ -5825,9 +5825,9 @@ Homem, 26 anos, é trazido ao Pronto Socorro devido a episódio de convulsão h�
 - [ ] **(D)** Biopsia pulmonar.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** Paciente HIV+ com imunossupressão grave (CD4 < 50) e primeira crise convulsiva apresenta alto risco de lesões expansivas no SNC (ex: Toxoplasmose ou Linfoma). A prioridade é a neuroimagem (Tomografia de Crânio) para afastar efeito de massa. A punção lombar (A) é contraindicada antes da imagem devido ao risco de herniação cerebral em caso de massas. A investigação da massa pulmonar (C e D) é importante, porém secundária diante da urgência do quadro neurológico agudo.
 </details>
@@ -6178,9 +6178,9 @@ Jovem de 17 anos, previamente hígido, é levado à Unidade de Pronto Atendiment
 - [ ] **(D)** Manter o sigilo sobre a tentativa de suicídio e os sintomas depressivos preservando o vínculo com o paciente, iniciar a avaliação formal do risco de suicídio e providenciar o encaminhamento para internação psiquiátrica em regime compulsório.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O caso envolve o conflito entre o sigilo médico e o risco iminente de morte. Embora o adolescente tenha direito à privacidade, o dever de proteção à vida prevalece. Em tentativas de suicídio, o sigilo deve ser quebrado para informar os responsáveis, garantindo a rede de apoio necessária e a segurança do paciente. A alternativa C é a correta pois prioriza a vida e a avaliação da rede de vigilância. As opções A e D estão incorretas por manterem o sigilo diante de risco grave. A B está incorreta pois omitir a real gravidade (tentativa de suicídio) impede a implementação de medidas preventivas eficazes no domicílio.
 </details>
@@ -6622,9 +6622,9 @@ Mulher, 50 anos, é trazida à Unidade Básica de Saúde (UBS) em área rural, d
 - [ ] **(D)** Sulfametoxazol + trimetoprima por via oral, de 12 em 12 horas por 10 dias, e antipirético, além de proceder imediatamente à ressuscitação volêmica na UBS e seguir com acompanhamento ambulatorial diário na Atenção Primária à Saúde até o final do tratamento. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A paciente apresenta Pielonefrite Aguda com sinais de Sepsis (hipotensão, taquicardia e febre), configurando urgência médica. A conduta correta exige estabilização hemodinâmica imediata (ressuscitação volêmica), antibioticoterapia parenteral empírica de amplo espectro (Ceftriaxona) e transferência urgente para ambiente hospitalar. A alternativa B está incorreta pois a nitrofurantoína não atinge níveis terapêuticos no parênquima renal, sendo contraindicada em pielonefrites. As alternativas C e D estão incorretas ao sugerirem acompanhamento ambulatorial para uma paciente instável, o que contraria os protocolos de manejo de sepse e risco de choque séptico.
 </details>
@@ -7968,9 +7968,9 @@ Mulher, 53 anos, relata episódios de cefaleia desde os 24 anos. Nos últimos do
 - [ ] **(D)** amitriptilina 25 mg.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** O quadro clínico é típico de migrânea (enxaqueca) com aura. A paciente apresenta indicação de profilaxia devido à frequência dos episódios. A amitriptilina (D) é a escolha ideal, pois é eficaz na prevenção da migrânea e auxilia no tratamento da insônia relatada. O propranolol (B) é contraindicado neste caso devido ao histórico de asma e crises de broncoespasmo (betabloqueador não seletivo). O ibuprofeno (A) e o sumatriptano (C) são utilizados apenas no tratamento agudo das crises (abortivos), não sendo indicados para uso contínuo diário como profilaxia.
 </details>
@@ -7987,9 +7987,9 @@ Adolescente de 15 anos, sexo masculino, procura Unidade Básica de Saúde relata
 - [ ] **(D)** Iniciar aciclovir oral e permanganato de potássio em compressas na pele.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O quadro é compatível com farmacodermia exantematosa (erupção morbiliforme), a reação medicamentosa mais comum, surgindo geralmente dias após o início da droga (ibuprofeno, neste caso). Caracteriza-se por exantema maculopapular pruriginoso, simétrico e sem comprometimento sistêmico ou mucoso. A conduta correta é a suspensão imediata do agente causal e o controle sintomático com anti-histamínicos. A alternativa A é excessiva para casos leves; a C sugere dermatite de contato (lesões localizadas); e a D indica tratamento para infecções virais (como varicela), o que é descartado pela ausência de febre e vesículas, além da história medicamentosa.
 </details>
@@ -9621,9 +9621,9 @@ Adolescente de 16 anos, com útero didelfo, 15 dias após parto vaginal sem inte
 - [ ] **(D)** Anticoncepcional injetável mensal.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A paciente é adolescente, lactante e possui útero didelfo. O implante de etonogestrel (LARC) é a escolha ideal por ser altamente eficaz, não interferir na lactação (apenas progestagênio) e independer da anatomia uterina. O DIU de cobre (A) é contraindicado ou tecnicamente complexo devido ao útero didelfo. Os anticoncepcionais orais combinados (C) e injetáveis mensais (D) são contraindicados no puerpério imediato/precoce (risco aumentado de tromboembolismo venoso) e durante a amamentação exclusiva, pois o estrogênio pode reduzir a produção láctea.
 </details>
@@ -10468,9 +10468,9 @@ Mulher, 39 anos, assintomática, comparece à Unidade Básica de Saúde para con
 - [ ] **(D)** Autocoleta de material vaginal para pesquisa de DNA- HPV e, caso o resultado seja negativo, dispensar a paciente de novos exames de rastreamento. ÁREA LIVRE 13 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa A está correta pois reflete a atualização do protocolo de rastreamento do Ministério da Saúde, que adota o teste molecular de DNA-HPV como método primário. Em caso de resultado negativo, o intervalo de rastreamento é estendido para 5 anos devido ao alto valor preditivo negativo do teste. A alternativa B descreve o protocolo antigo baseado em citologia. A alternativa C refere-se ao co-teste, que não é a conduta primária da nova estratégia. A alternativa D está incorreta porque, embora a autocoleta seja uma opção de coleta, a paciente jamais deve ser dispensada do rastreamento, devendo retornar conforme a periodicidade indicada.
 </details>
@@ -10525,9 +10525,9 @@ Homem trans, 30 anos, em uso de testosterona injetável há 6 anos, comparece à
 - [ ] **(D)** vacinar contra HPV, pois tem equivalência na prevenção do câncer de colo de útero. ÁREA LIVRE 20 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O uso prolongado de testosterona em homens trans provoca atrofia do epitélio vaginal e cervical devido ao hipoestrogenismo. Isso pode tornar a coleta do preventivo dolorosa e gerar amostras insatisfatórias. A recomendação é o uso de estrogênio tópico vaginal por 1 a 2 semanas antes do exame para restaurar a mucosa, reduzir o desconforto e melhorar a qualidade citológica. A alternativa B está incorreta, pois a triagem continua indicada para quem possui colo uterino. A C é excessivamente invasiva e inadequada para atrofia simples. A D está errada, pois a vacinação previne infecções futuras, mas não substitui o rastreamento de lesões já existentes.
 </details>
@@ -10751,9 +10751,9 @@ Mulher, 22 anos, é atendida no serviço de emergência hospitalar, encaminhada 
 - [ ] **(D)** Indicar tratamento antifúngico associado a antibiótico oral, considerando a sobreposição frequente entre DIP e vulvovaginites fúngicas. ÁREA LIVRE 16 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A paciente apresenta Doença Inflamatória Pélvica (DIP) complicada por Abscesso Tubo-Ovariano (ATO). A internação é mandatória devido a critérios de gravidade: toxemia, náuseas/vômitos, falha ao tratamento oral prévio e a presença do próprio abscesso. A conduta correta é antibioticoterapia intravenosa de amplo espectro para cobertura de gonococo, clamídia e anaeróbios. As alternativas B e C estão incorretas, pois o tratamento oral/ambulatorial é contraindicado em quadros graves ou com falha terapêutica. A alternativa D é incorreta, pois não há indicação de antifúngicos no manejo da DIP.
 </details>
@@ -12134,9 +12134,9 @@ Gestante de 30 anos, G2 P1, com 28 semanas de gestação, comparece à Unidade B
 - [ ] **(D)** Considerar o resultado da urocultura alterado e acompanhar a gestação. ÁREA LIVRE 2 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** A paciente é assintomática e apresenta urocultura com 30.000 UFC/mL. O diagnóstico de Bacteriúria Assintomática (BA) na gestação requer a contagem de ≥ 100.000 (10⁵) UFC/mL de um único patógeno. Como o valor está abaixo desse limiar e o EAS é normal (sem leucocitúria ou nitrito positivo), não há critério para diagnóstico de BA nem indicação de tratamento antibiótico. Portanto, a conduta correta é considerar o resultado alterado (presença de bactérias), mas manter apenas o acompanhamento rotineiro do pré-natal. As alternativas A e C estão incorretas por indicarem tratamento desnecessário, e a B é desnecessária diante da ausência de sintomas e contagem baixa.
 </details>
@@ -12172,9 +12172,9 @@ Primigesta de 28 anos com idade gestacional de 41 semanas foi admitida para assi
 - [ ] **(D)** Realizar episiotomia medio-lateral ampla. ÁREA LIVRE 8 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O quadro descreve o 'sinal da tartaruga', patognomônico de distocia de ombro. A conduta inicial recomendada é a Manobra de McRoberts (hiperflexão das coxas sobre o abdome), que amplia o ângulo pélvico e facilita a desimpactação do ombro anterior. A alternativa B está incorreta pois a tração forte e a pressão no fundo uterino são contraindicadas, aumentando o risco de lesão do plexo braquial e ruptura uterina. A alternativa C refere-se a manobras internas, indicadas apenas após falha de medidas iniciais. A alternativa D (episiotomia) não resolve a obstrução óssea, sendo útil apenas para facilitar manobras internas.
 </details>
@@ -12210,9 +12210,9 @@ Uma adolescente de 15 anos, no 2º trimestre de gestação, sem intercorrências
 - [ ] **(D)** Agendar a cesariana conforme solicitado pela responsável legal, priorizando a manutenção do vínculo familiar e evitando litígios éticos na Unidade Básica de Saúde.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A alternativa B está correta. De acordo com o Código de Ética Médica e as diretrizes de atendimento ao adolescente, deve-se respeitar a autonomia do jovem capaz de compreender sua situação e expressar sua vontade, especialmente em decisões sobre o próprio corpo. A adolescente manifestou desejo pelo parto vaginal, o que prevalece sobre a vontade da mãe na ausência de contraindicação clínica. As opções A e D estão incorretas por priorizarem a vontade do responsável legal sobre a autonomia da paciente. A opção C é incorreta, pois postergar o pré-natal é prejudicial à saúde materno-fetal e não resolve o conflito ético.
 </details>
@@ -13200,9 +13200,9 @@ Mulher, 73 anos, comparece à Unidade Básica de Saúde, acompanhada da filha, p
 - [ ] **(D)** Cirurgia ortopédica, IMC e apresentar histórico de queda.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O IVCF-20 é uma ferramenta de rastreio para a Avaliação Gerátrica Ampla. A paciente pontua nos seguintes itens: 1) Polifarmácia (uso de 6 medicamentos, sendo o ponto atribuído para $\ge 5$); 2) Cognição (queixa de esquecimento); e 3) Atividades Instrumentais de Vida Diária - AIVD (incapacidade de realizar a limpeza da casa). A alternativa B está incorreta pois a idade (73 anos) é inferior ao ponto de corte ($\ge 75$ anos) e a PA não pontua no índice. As alternativas C e D citam comorbidades, cirurgias e IMC, que não fazem parte dos critérios de pontuação do IVCF-20.
 </details>
@@ -14251,9 +14251,9 @@ Uma equipe de Saúde da Família está investigando o aumento de consultas por d
 - [ ] **(D)** ensaio clínico. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A questão solicita a identificação de associação entre exposição (atividade laboral) e desfecho (dor lombar) 'ao longo dos anos'. O estudo de coorte é o delineamento observacional longitudinal ideal, pois acompanha indivíduos expostos e não expostos ao longo do tempo para determinar a incidência do evento e estabelecer a sequência temporal (causa $ightarrow$ efeito). O estudo ecológico (A) analisa grupos/populações, não indivíduos. O transversal (B) avalia a prevalência em um único momento, não permitindo análise temporal. O ensaio clínico (D) é experimental e seria antiético expor trabalhadores a riscos para observar o surgimento de patologias.
 </details>
@@ -14270,9 +14270,9 @@ Um jovem de 18 anos chega à Unidade Básica de Saúde trazido por seu amigo, pe
 - [ ] **(D)** segurar a farpa com pinça hemostática curva e remover o anzol pelo orifício de saída. ÁREA LIVRE 23 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A questão baseia-se no Caderno de Atenção Primária 30 do MS. Para anzóis transfixados (que atravessaram o tecido), a técnica recomendada após a anestesia é a de 'avanço e corte': empurra-se a ponta do anzol até que a farpa emerja da pele, corta-se a extremidade com a farpa utilizando um alicate e, em seguida, remove-se a haste pelo orifício de entrada. A alternativa A refere-se à avaliação prévia; a C é excessivamente invasiva para casos simples; e a D é tecnicamente inviável, pois a farpa impede a remoção simples sem o corte prévio.
 </details>
@@ -14687,9 +14687,9 @@ Para 2025, o médico deve concluir que, no seu território,
 - [ ] **(D)** a epidemia de dengue do município afetou sua população adscrita.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O canal endêmico é a ferramenta utilizada para monitorar doenças sazonais. Quando a curva de incidência de casos permanece entre os limites inferior e superior do diagrama, a doença é classificada em nível endêmico (estabilidade). Para caracterizar surto (C) ou epidemia (A), a curva deve ultrapassar o limite superior do canal. A informação de que outros distritos do município apresentaram surtos (D) é irrelevante para a conclusão local, pois o diagrama de controle é construído com base nos dados históricos específicos do território adscrito do médico.
 </details>
@@ -15212,9 +15212,9 @@ Mulher de 32 anos, residente em município de pequeno porte a 130 km da capital,
 - [ ] **(D)** A controvérsia não está na solicitação de acompanhante, mas no próprio TFD, pois o deslocamento intermunicipal inferior a 200 km não caracterizaria situação passível de encaminhamento. 5 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A alternativa C está correta. No Tratamento Fora do Domicílio (TFD), o custeio do acompanhante é garantido quando há indicação médica expressa no laudo de encaminhamento, não sendo necessária a comprovação por perícia de incapacidade ou a idade do paciente para justificar o benefício. A alternativa A está incorreta pois ignora a validade da indicação médica. A B está incorreta pois a ajuda de custo visa garantir o acesso ao tratamento, independente de prova de hipossuficiência extrema. A D é falsa, pois o TFD baseia-se na ausência do serviço no município, e não em uma distância mínima de 200 km.
 </details>
@@ -15643,9 +15643,9 @@ Mulher, 58 anos, residente em área urbana com acúmulo de água parada e presen
 - [ ] **(D)** antígeno viral por ELISA para febre amarela.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O quadro clínico é sugestivo de Chikungunya, caracterizado por fase febril aguda seguida de fase subaguda/crônica com poliartrite simétrica, persistente e incapacitante (punhos e tornozelos). No 18º dia de evolução, a detecção de anticorpos IgM por sorologia é o exame de escolha para confirmação diagnóstica. A alternativa A (NS1) e B (RT-PCR) são exames de fase aguda (primeiros 5-7 dias). A alternativa D (Febre Amarela) não condiz com a apresentação clínica de artrite persistente, cursando tipicamente com icterícia e insuficiência hepática/renal.
 </details>
@@ -15662,9 +15662,9 @@ Em uma Unidade Básica de Saúde, o médico de família e comunidade atende, na 
 - [ ] **(D)** Suspender as atividades escolares por 45 dias para aguardar o término do período de incubação viral.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O quadro clínico e laboratorial (IgM anti-HAV) confirma um surto de Hepatite A, transmitida via fecal-oral. Em situações de surto, as diretrizes de vigilância epidemiológica preconizam a notificação imediata e a busca ativa de sintomáticos para delimitar a extensão da transmissão e implementar medidas de controle. O isolamento hospitalar (A) é desnecessário, pois o manejo é sintomático e ambulatorial. A imunoglobulina (C) é indicada apenas para contatos específicos de alto risco, não para a população escolar geral. A suspensão de atividades escolares (D) é uma medida desproporcional e não recomendada para o controle desta patologia.
 </details>
@@ -15681,9 +15681,9 @@ Um relatório de vigilância epidemiológica avaliou os casos notificados de qua
 - [ ] **(D)** Próstata.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A letalidade mede a gravidade de uma doença, sendo calculada pela razão entre o número de óbitos por aquela causa e o número de pessoas diagnosticadas com a mesma doença (casos novos) em um período. 
 
@@ -15708,9 +15708,9 @@ Em um território coberto por uma equipe de Saúde da Família, há uma fábrica
 - [ ] **(D)** Estimular o mapeamento das atividades produtivas locais e realizar exames admissionais e periódicos nos trabalhadores do território.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A alternativa C está correta pois a equipe de Saúde da Família deve atuar de forma intersetorial diante de riscos ambientais e ocupacionais, acionando a Vigilância em Saúde (Ambiental e do Trabalhador) para a fiscalização e mitigação da fonte poluidora. A alternativa A está incorreta, pois a notificação deve ocorrer na suspeita, não dependendo da confirmação do nexo causal. A B é inadequada por ser passiva e evitar a articulação necessária. A D está errada porque exames admissionais e periódicos são responsabilidades do empregador (Medicina do Trabalho), e não da Atenção Primária.
 </details>
@@ -15727,9 +15727,9 @@ Uma equipe de Saúde da Família é responsável por área de assentamento irreg
 - [ ] **(D)** Atuação da vigilância epidemiológica com foco nos domicílios de casos notificados.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa A é a correta pois o controle da dengue exige a eliminação dos criadouros do Aedes aegypti. No cenário descrito (falta de saneamento e descarte inadequado), a ação de maior impacto é o manejo ambiental intersetorial (envolvendo limpeza urbana e saneamento) com a participação da comunidade para mudar comportamentos. A alternativa B foca na assistência individual, não no controle da doença. A C é incorreta pois inseticidas têm efeito temporário e não são sustentáveis. A D é insuficiente, pois a vigilância reativa em casos notificados não resolve a causa estrutural da proliferação do vetor na área.
 </details>
@@ -27591,9 +27591,9 @@ Menino de 8 anos vai à consulta médica em ambulatório de hospital secundário
 - [ ] **(D)** Transtorno de pesadelos. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O quadro é clássico de Terror Noturno (Opção C), uma parassonia do sono NREM comum na infância. Caracteriza-se por despertar abrupto com gritos, intensa ativação autonômica (sudorese), irresponsividade ao conforto e amnésia total do episódio. Diferencia-se do Transtorno de Pesadelos (Opção D) porque estes ocorrem no sono REM, apresentam lembrança do sonho e o paciente desperta alerta. O Sonambulismo (Opção A), também NREM, envolve comportamentos motores complexos sem a descarga de pânico descrita. A Insônia de manutenção (Opção B) refere-se à dificuldade em permanecer dormindo, não a episódios comportamentais agudos.
 </details>
@@ -27610,9 +27610,9 @@ Mulher de 88 anos é trazida à Unidade de Pronto Atendimento (UPA) pelo SAMU, c
 - [ ] **(D)** hipoglicemia.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A paciente apresenta um quadro típico de Delirium, caracterizado por início agudo, flutuação do nível de consciência e desatenção. No idoso, distinguimos fatores predisponentes (intrínsecos) de fatores precipitantes (extrinsecos/agudos). A idade avançada e as comorbidades (HAS, DM) são fatores predisponentes (Opção B), mas o gatilho imediato — fator precipitante — foi a dor intensa e não controlada da fratura de fêmur (Opção C). A hipoxemia (Opção A) é descartada pela SpO2 de 94%, e a hipoglicemia (Opção D) é ruled out pela glicemia capilar de 120 mg/dL. A TC de crânio normal afasta causas estruturais agudas.
 </details>
@@ -27629,9 +27629,9 @@ Mulher de 32 anos procura a Unidade Básica de Saúde referindo presença de les
 - [ ] **(D)** Trichophyton rubrum. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O quadro descreve a Larva Migrans Cutânea, causada principalmente pelo Ancylostoma brasiliensis. A característica patognomônica é a lesão eritematosa, linear ou serpiginosa, intensamente pruriginosa, que progride conforme a larva migra pela epiderme. Alternativa A: Tunga penetrans (tungíase) causa nódulos localizados com ponto central escuro. Alternativa C: Sarcoptes scabiei (escabiose) apresenta prurido generalizado e túneis patognomônicos em áreas de dobras, não lesões migratórias no pé. Alternativa D: Trichophyton rubrum causa Tinea pedis, manifestando-se geralmente por descamação interdigital ou placas anulares, sem a migração linear rápida observada neste caso.
 </details>
@@ -27686,9 +27686,9 @@ Mulher de 42 anos buscou Unidade Básica de Saúde com queixas de humor deprimid
 - [ ] **(D)** Pesquisa de anticorpo antitreponêmico.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A paciente apresenta sintomas depressivos associados a sinais sistêmicos típicos de hipotireoidismo: ganho de peso, pele seca, constipação e irregularidade menstrual. A ausência de resposta ao tratamento antidepressivo após 12 semanas reforça a necessidade de investigar causas orgânicas (pseudodepressão). O rastreio inicial para hipotireoidismo é feito via TSH e T4 livre. As demais opções investigam Lúpus (A), insuficiência adrenal/Cushing (C) ou Neurossífilis (D), condições que não explicam a constelação de sintomas cutâneos e gastrointestinais apresentados, tornando o hipotireoidismo o principal diagnóstico diferencial.
 </details>
@@ -27705,9 +27705,9 @@ Mulher de 38 anos comparece a um serviço de emergência no 10º dia pós-operat
 - [ ] **(D)** encaminhar para realização de laparotomia de urgência. ÁREA LIVRE 6 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A paciente apresenta quadro sugestivo de complicação pós-operatória precoce (fístula de grampo ou coleção intra-abdominal), caracterizado por febre, dor epigástrica, leucocitose e PCR elevada no 10º dia pós-gastrectomia vertical. A Tomografia Computadorizada (TC) de abdome com contraste é o padrão-ouro para diagnóstico, permitindo identificar coleções, ar extraluminal ou extravasamento de contraste. A endoscopia (A) possui menor sensibilidade para detecção de fístulas. A alta hospitalar (C) é contraindicada diante de sinais inflamatórios sistêmicos. A laparotomia de urgência (D) seria indicada apenas em casos de instabilidade hemodinâmica ou peritonite generalizada, sinais ausentes ao exame físico da paciente.
 </details>
@@ -27724,9 +27724,9 @@ Mulher, 22 anos, gestante de 8 semanas, realiza teste rápido para sífilis na U
 - [ ] **(D)** Solicitar FTABS da gestante e das parcerias para a confirmação do diagnóstico. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A alternativa correta é a B. Em gestantes, o resultado reagente em teste rápido (treponêmico) é suficiente para iniciar o tratamento imediato da sífilis, visando a prevenção da sífilis congênita, sem a necessidade de aguardar a confirmação por teste não treponêmico (VDRL), o que torna a alternativa C incorreta. A alternativa A está errada pois as parcerias devem ser avaliadas e diagnosticadas clinicamente, não apenas receber prescrições via paciente. A alternativa D é incorreta pois o teste rápido já é um teste treponêmico. O manejo adequado prioriza o tratamento célere da gestante e o apoio na convocação dos parceiros para tratamento.
 </details>
@@ -27762,9 +27762,9 @@ Mulher de 58 anos em acompanhamento na Unidade Básica de Saúde, apresentou val
 - [ ] **(D)** Orientar medidas relacionadas ao estilo de vida e programar nova avaliação clínica antes de iniciar tratamento medicamentoso.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A paciente apresenta diagnóstico confirmado de Hipertensão Arterial Sistêmica (HAS) Estágio 1, com duas medidas pressóricas $\ge$ 140/90 mmHg em consultas distintas. De acordo com as diretrizes e o PCDT do Ministério da Saúde, o tratamento para HAS Estágio 1 deve combinar medidas não farmacológicas (mudanças no estilo de vida) e terapia farmacológica. As opções A e C estão incorretas, pois o diagnóstico já foi estabelecido por medidas de consultório com técnica adequada, tornando a MAPA/MRPA desnecessárias para a confirmação. A opção D está incorreta porque, diante do diagnóstico confirmado, o tratamento medicamentoso deve ser iniciado concomitantemente às medidas de estilo de vida.
 </details>
@@ -27781,9 +27781,9 @@ Homem de 45 anos dá entrada na Unidade de Pronto Atendimento com epistaxe anter
 - [ ] **(D)** ligadura cirúrgica da artéria esfenopalatina.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O paciente apresenta epistaxe anterior, com sangramento visível no septo, estando hemodinamicamente estável. A conduta de primeira linha para epistaxe anterior é a compressão digital direta das asas nasais contra o septo, associada ao uso de vasoconstritores tópicos para controle imediato do sangramento. A alternativa A está incorreta, pois a hiperextensão cervical é contraindicada e corticoides não estancam sangramentos agudos. A alternativa B (tamponamento posterior) é reservada para sangramentos posteriores ou falha do anterior. A alternativa D (ligadura cirúrgica) é conduta invasiva para casos refratários, não sendo a primeira escolha no manejo agudo.
 </details>
@@ -27800,9 +27800,9 @@ Homem de 57 anos faz uso de amitriptilina 100 mg/dia, há mais de 10 anos, para 
 - [ ] **(D)** Sódio, potássio, lipidograma e TSH séricos, eletrocardiograma e radiografia de tórax. ÁREA LIVRE 9 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(D)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A amitriptilina é um antidepressivo tricíclico (ADT) com potenciais efeitos adversos sistêmicos. O acompanhamento requer: 1) Eletrocardiograma (ECG), devido ao risco de prolongamento do intervalo QT e arritmias; 2) Potássio sérico, pois a hipocalemia potencializa a cardiotoxicidade dos ADTs; 3) Creatinina e transaminases, para monitorar a função renal e hepática, responsáveis pela excreção e metabolismo da droga. As alternativas B, C e D estão incorretas por incluírem exames irrelevantes para o monitoramento específico desta medicação, como ultrassonografia de abdome, radiografia de tórax e TSH.
 </details>
@@ -27819,9 +27819,9 @@ Homem, 52 anos, portador de cirrose hepática alcoólica, é admitido em Unidade
 - [ ] **(D)** tomografia de abdome antes de considerar qualquer procedimento invasivo.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O paciente apresenta encefalopatia hepática, sendo fundamental excluir a Peritonite Bacteriana Espontânea (PBE) como fator desencadeante através da paracentese diagnóstica. Em pacientes cirróticos, a coagulopatia (INR elevado) e a trombocitopenia não são contraindicações para a paracentese, e a correção prévia com plasma ou plaquetas (Opção C) não reduz o risco de sangramento clinicamente significativo, sendo desnecessária. A Opção B está incorreta pois a antibioticoterapia deve ser baseada no resultado da análise do líquido ascítico, e a espironolactona não é conduta aguda. A Opção D atrasa o diagnóstico essencial e não substitui a análise do líquido.
 </details>
@@ -27838,9 +27838,9 @@ Uma criança de 6 anos, do sexo feminino, é levada ao Ambulatório de Pediatria
 - [ ] **(D)** Polissonografia. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O quadro clínico é típico de hipertrofia adenoidiana (fácies adenoidiana: respiração bucal, palato em ogiva, olheiras e sono fragmentado). A nasofibroscopia flexível é o exame confirmatório (padrão-ouro), pois permite a visualização direta da nasofaringe e a quantificação da obstrução. A radiografia de cavum (B) é útil para triagem, mas possui menor acurácia. A polissonografia (D) confirma a Síndrome da Apneia Obstrutiva do Sono (SAOS) e sua gravidade, mas não a causa anatômica da obstrução. O teste de hipersensibilidade (A) é indicado para rinites alérgicas, descartadas pela ausência de prurido, espirros e história familiar.
 </details>
@@ -27857,9 +27857,9 @@ Puérpera, 24 anos, imigrante recém-chegada ao Brasil, é admitida na maternida
 - [ ] **(D)** encaminhar ao centro cirúrgico para reparo sob anestesia geral, reduzindo a exposição da paciente e a dificuldade de comunicação. ÁREA LIVRE 10 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A paciente apresenta uma laceração perineal de 2º grau (envolvendo pele, mucosa e músculos), que requer sutura para controle do sangramento e cicatrização adequada. Seguindo as diretrizes de assistência humanizada da OMS e do Ministério da Saúde, é fundamental garantir a autonomia da paciente através de comunicação acessível e obtenção do consentimento, mesmo diante de barreiras linguísticas. A alternativa A está incorreta pois a conduta expectante não é indicada para este grau de laceração. A B ignora a ética e a autonomia da paciente. A D é desproporcional, pois a anestesia local é suficiente e segura para este procedimento em paciente estável.
 </details>
@@ -27876,9 +27876,9 @@ Menino, 3 anos e 3 meses, é levado pela mãe para consulta na Unidade Básica d
 - [ ] **(D)** iniciar intervenção fonoaudiológica e programar reavaliação sistemática em 3 meses.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O quadro clínico é altamente sugestivo de Transtorno do Espectro Autista (TEA), apresentando a tríade clássica: déficits na interação social (pouco contato visual, isolamento), comunicação prejudicada (atraso na fala) e padrões repetitivos/restritos (alinhar brinquedos, rigidez com rotina). Diante de sinais de alerta, a conduta correta é o encaminhamento imediato para avaliação multidisciplinar e intervenção precoce (Alt A), visando aproveitar a plasticidade cerebral. A conduta de 'esperar para ver' (Alt B e C) é contraindicada e prejudica o prognóstico. O M-CHAT-R/F é triagem para crianças menores (16-30 meses). A fonoaudiologia isolada (Alt D) é insuficiente para a complexidade do TEA.
 </details>
@@ -27895,9 +27895,9 @@ Homem, 35 anos, dá entrada na Unidade de Pronto Atendimento (UPA), trazido pelo
 - [ ] **(D)** Estabilizar o paciente; solicitar autorização da família para a transferência; contactar previamente o serviço receptor; elaborar documento de transferência e solicitar suporte básico para a remoção. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** Paciente apresenta choque hemorrágico (taquicardia, hipotensão, pele fria) secundário a trauma pélvico instável e abdominal. A conduta prioritária é a estabilização clínica imediata — com destaque para a imobilização pélvica para reduzir sangramento interno — e a transferência rápida para centro de referência. A alternativa B está correta pois prevê a imobilização, a regulação adequada e o transporte por suporte avançado (necessário para pacientes instáveis). A 'A' e 'D' erram ao sugerir suporte básico; a 'A' sugere cristaloides em grande volume (contraindicado no choque hemorrágico atual - hipotensão permissiva); e a 'C' negligencia a estabilização pélvica prévia ao transporte.
 </details>
@@ -27914,9 +27914,9 @@ Homem, 64 anos, aposentado, portador de diabetes mellitus, diagnosticada há 6 a
 - [ ] **(D)** Acrescentar glibenclamida 5 mg/dia; hidroclorotiazida 25 mg e sinvastatina 20 mg/dia ao esquema atual. ÁREA LIVRE 12 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O paciente apresenta DM, HAS e Doença Renal Diabética (albuminúria 55 mg/24h). A conduta visa a nefroproteção e redução de risco cardiovascular (alto risco: DM + tabagista + idade). A Dapagliflozina (SGLT2i) é indicada para retardar a progressão da doença renal e reduzir hospitalizações por IC. A PA (142x85 mmHg) está acima da meta (<130/80 mmHg), justificando o aumento da Losartana para 100 mg. A Atorvastatina 40 mg (estatina de alta potência) é necessária para o controle lipídico e redução de eventos cardiovasculares. As demais opções utilizam sulfonilureias (risco de hipoglicemia) ou doses insuficientes de estatina/anti-hipertensivos, não priorizando a proteção renal e cardiovascular.
 </details>
@@ -27933,9 +27933,9 @@ Mulher, 42 anos, é levada por familiares à Unidade de Pronto Atendimento com q
 - [ ] **(D)** antibioticoterapia.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O quadro clínico de febre, agitação, confusão mental, taquicardia severa, perda de peso e abaulamento cervical (bócio) é clássico de Crise Tireotóxica. A conduta inicial prioritária é o controle da hiperatividade adrenérgica para estabilização hemodinâmica. Os betabloqueadores (ex: propranolol) são a primeira escolha para reduzir a frequência cardíaca e inibir a conversão periférica de T4 em T3. Benzodiazepínicos (B) tratariam abstinência alcoólica, mas o bócio direciona para a tireoide. Adenosina (C) é indicada para taquicardias supraventriculares, não para taquicardia sinusal por tireotoxicose. Antibioticoterapia (D) seria para sepse, que não é a principal hipótese diante do bócio e sintomas prévios.
 </details>
@@ -27952,9 +27952,9 @@ Gestante de 30 semanas, vítima de atropelamento em via pública por carro há 3
 - [ ] **(D)** solicitar tomografia de abdome e pelve. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** Paciente gestante (30 sem) em choque hipovolêmico pós-trauma. A prioridade imediata é a manobra de deslocamento uterino para a esquerda (lateralização da prancha) para aliviar a compressão da veia cava inferior e da aorta pelo útero gravídico. Isso restaura o retorno venoso, melhorando a estabilidade hemodinâmica materna e a perfusão fetal. A alternativa D é incorreta pois pacientes instáveis não devem ser levadas à tomografia. A alternativa A (USG obstétrica) não é a prioridade no atendimento inicial ao trauma (ABCDE). A alternativa B está incorreta pois a conduta inicial é a reposição com cristaloides e a descompressão cavocava, não a infusão imediata de coloides.
 </details>
@@ -27971,9 +27971,9 @@ Uma menina de 7 anos é levada a ambulatório especializado pela mãe, que relat
 - [ ] **(D)** Hipersensibilidade a níveis basais de esteroides sexuais.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: ANULADA)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(ANULADA)**
 >
 > **Comentário Médica:** A paciente apresenta Puberdade Precoce Central (PPC), caracterizada pelo desenvolvimento simultâneo de mamas (Tanner M2) e pelos pubianos (Tanner P2) antes dos 8 anos. Esse quadro decorre da ativação prematura do eixo hipotálamo-hipófise-gonadal, com secreção de GnRH, que estimula a liberação de LH e FSH, resultando na produção gonadal de estrogênios. A alternativa A descreve a adrenarca prematura, que causaria apenas pubarca (pelos), sem telarca (mamas). A alternativa B refere-se a formas de puberdade periférica, menos comuns e geralmente com padrões hormonais distintos. A alternativa D não possui base fisiopatológica para a apresentação clínica descrita.
 </details>
@@ -27990,9 +27990,9 @@ Homem, 32 anos, é atendido em Unidade Básica de Saúde após acidente domésti
 - [ ] **(D)** bloqueio de nervo na fossa antecubital com ropivacaina 1%. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** Para o reparo de ferimentos simples e superficiais, a conduta padrão é a infiltração local. A lidocaína 2% é o anestésico de escolha devido ao início de ação rápido. O uso de vasoconstritor (epinefrina) é indicado para reduzir o sangramento local, melhorando a visibilidade do campo cirúrgico e prolongando o efeito anestésico. As alternativas B e D estão incorretas por proporem bloqueios regionais desnecessariamente invasivos para a simplicidade da lesão. A alternativa C está incorreta pois a bupivacaína possui maior latência (início mais lento) que a lidocaína, sendo menos ideal para suturas rápidas em UBS.
 </details>
@@ -28009,9 +28009,9 @@ Médica de uma Unidade Básica de Saúde atende um homem de 63 anos, 70 kg, IMC 
 - [ ] **(D)** Associar sulfonilureia às medicações em uso e encaminhar para avaliação com educador físico, único pilar de tratamento ainda não abordado.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O ponto central da questão são os 'nódulos endurecidos ao redor da cicatriz umbilical', que caracterizam a lipohipertrofia. Essa condição, comum em pacientes com DM e deficiência visual, prejudica a absorção da insulina, levando à hiperglicemia mesmo com doses elevadas. A conduta correta é a abordagem multiprofissional: a enfermagem deve reavaliar a técnica de aplicação, o rodízio dos sítios e o armazenamento da medicação. Aumentar a dose (A) seria perigoso após a correção da técnica; a insulina regular (C) não substitui a NPH (basal); e a sulfonilureia (D) não resolve a falha de absorção local, podendo causar hipoglicemias imprevistas.
 </details>
@@ -28047,9 +28047,9 @@ Mulher, 23 anos, vida sexual ativa, sem parceiro fixo, procura atendimento ginec
 - [ ] **(D)** Treponema pallidum.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O quadro descreve o Linfogranuloma Venéreo (LGV), causado por Chlamydia trachomatis (sorotipos L1, L2, L3). A evolução típica envolve uma pápula/úlcera indolor e transitória (estágio primário), seguida por linfadenopatia inguinal dolorosa que pode supurar e fistulizar (estágio secundário/bubão). Diferencia-se do Cancro Mole (Haemophilus ducreyi) porque a úlcera do LGV é indolor e efêmera. O Granuloma Inguinal (Klebsiella granulomatis) apresenta úlceras beefy-red indolores sem linfadenopatia verdadeira. A Sífilis (Treponema pallidum) cursa com cancro duro (úlcera indolor) e linfadenopatia inguinal bilateral e indolor, sem a tendência a fistulização purulenta característica do LGV.
 </details>
@@ -28085,9 +28085,9 @@ Lactente, 4 meses, é levado ao Setor de Urgência de um hospital por quadro de 
 - [ ] **(D)** Celularidade normal, proteína normal e glicose normal. Presença de bacilos Gram negativos. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O quadro clínico (febre, fontanela abaulada, irritabilidade e exantema purpúrico) é clássico de Meningite Bacteriana por Neisseria meningitidis (Meningococcemia). O perfil do líquor na meningite bacteriana aguda caracteriza-se por pleocitose (celularidade aumentada), hiperproteinorraquia (proteína aumentada) e hipoglicorraquia (glicose reduzida). A bacterioscopia da N. meningitidis revela diplococos Gram-negativos. A alternativa B descreve padrão incompatível e S. pneumoniae; a C sugere Tuberculose (bacilos álcool-ácido resistentes), que apresenta evolução subaguda; e a D descreve líquor normal, o que exclui a patologia apresentada.
 </details>
@@ -28104,9 +28104,9 @@ Em reunião semanal de discussão de casos e planejamento de uma equipe na Unida
 - [ ] **(D)** acordar que o médico realize visita domiciliar para avaliação clínica e definição terapêutica, cabendo à ACS acompanhar a adesão medicamentosa e monitorar parâmetros pressóricos nos intervalos das consultas médicas.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A questão aborda o trabalho interdisciplinar na APS. A paciente apresenta declínio cognitivo e vulnerabilidade social grave (negligência, desorganização domiciliar). A alternativa B é a correta pois propõe a visita domiciliar conjunta (médico e ACS), permitindo a avaliação integral da paciente em seu contexto real, integrando aspectos clínicos e territoriais para a elaboração do plano de cuidados. A alternativa A foca na consulta ambulatorial, ignorando a complexidade do ambiente. A C fragmenta a assistência e retarda o cuidado. A D divide tarefas de forma unilateral, perdendo a oportunidade da avaliação interdisciplinar compartilhada no domicílio, essencial para casos de fragilidade no idoso.
 </details>
@@ -28123,9 +28123,9 @@ Puérpera, 21 anos, é acolhida Unidade Básica de Saúde, após o nascimento da
 - [ ] **(D)** Prescrever o uso de clonazepam.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O quadro é compatível com 'Baby Blues' (disforia puerperal), condição transitória que afeta a maioria das puérperas nos primeiros dias após o parto. Caracteriza-se por labilidade emocional, irritabilidade e sentimentos de culpa, resolvendo-se espontaneamente em até duas semanas. A conduta correta é o acolhimento e apoio psicossocial. A fluoxetina (B) é indicada para Depressão Pós-Parto, quadro mais grave e persistente. O CAPS (C) é indicado para transtornos mentais graves/persistentes, não sendo o caso. O clonazepam (D) não é indicado, pois a sedação prejudicaria os cuidados com o recém-nascido.
 </details>
@@ -28142,9 +28142,9 @@ Homem, 58 anos, hipertenso e tabagista, é admitido na Unidade de Pronto Atendim
 - [ ] **(D)** Iniciar oxigenoterapia sob cateter nasal (3 L/min) e administrar nitroglicerina sublingual. ÁREA LIVRE 17 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O paciente apresenta Síndrome Coronariana Aguda sem supradesnivelamento do segmento ST (SCASST). A conduta imediata prioritária é a dupla antiagregação plaquetária (DAPT) com ácido acetilsalicílico (AAS) e um inibidor do P2Y12 (como o clopidogrel) para reduzir a progressão do trombo. 
 
@@ -28163,9 +28163,9 @@ Menina, 7 anos, previamente saudável, é trazida pelos pais à Unidade de Pront
 - [ ] **(D)** Administrar 10 a 20 mL/kg de solução colóide em 1 hora e, após reposição volêmica, iniciar infusão contínua de insulina intravenosa, sem reposição de potássio.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O quadro clínico e laboratorial (hiperglicemia, pH 7,12 e bicarbonato 9) confirma Cetoacidose Diabética (CAD) em pediatria. A conduta inicial prioriza a expansão volêmica com cristaloides (10-20 mL/kg) para restaurar a perfusão. A insulinoterapia deve ser iniciada apenas APÓS a reidratação inicial para reduzir o risco de edema cerebral. A reposição de potássio é mandatória, pois a insulina promove o shift intracelular do K+, podendo causar hipocalemia grave. Estão incorretas: A (bolus de insulina e bicarbonato são contraindicados na CAD pediátrica), C (insulinoterapia precoce aumenta risco de edema cerebral) e D (uso de coloides e omissão do potássio).
 </details>
@@ -28182,9 +28182,9 @@ Médica da Atenção Primária à Saúde (APS) acompanha uma adolescente de 16 a
 - [ ] **(D)** Teleinterconsulta, na qual o especialista passa a compartilhar a responsabilidade clínica pelo caso acompanhado na APS.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** Trata-se de uma Teleconsultoria, definida como a comunicação entre profissionais de saúde para discussão de casos e apoio à decisão clínica, sem a presença do paciente. Nela, o especialista atua como consultor e a responsabilidade assistencial permanece com o médico da APS. A alternativa A está incorreta, pois telediagnóstico refere-se ao envio de exames para laudo. A B está errada porque a teleconsulta exige a participação do paciente. A D está incorreta, pois na teleconsultoria o especialista não compartilha a responsabilidade clínica direta pelo paciente, diferentemente de modelos de teleinterconsulta integrados à rede.
 </details>
@@ -28220,9 +28220,9 @@ Homem, 64 anos, professor universitário aposentado, com histórico de hipertens
 - [ ] **(D)** na doença de Alzheimer.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O quadro é clássico de Demência Vascular. Os pontos-chave são: fatores de risco cardiovascular (HAS malcontrolada, ex-tabagista), início súbito durante pico hipertensivo, progressão 'em degraus' (estabilidade intercalada com perdas) e comprometimento predominante das funções executivas. O exame físico revela sinais focais (reflexos exaltados e marcha de base alargada), sugerindo lesões vasculares subcorticais. A doença de Alzheimer apresenta início insidioso e progressão gradual. A demência frontotemporal manifesta-se primariamente por alterações de personalidade ou linguagem. Já a demência por corpos de Lewy caracteriza-se por flutuações cognitivas, alucinações visuais e parkinsonismo, não condizentes com a progressão escalonada e o gatilho hipertensivo aqui descritos.
 </details>
@@ -28239,9 +28239,9 @@ Durante uma visita domiciliar, uma equipe interprofissional avalia um paciente d
 - [ ] **(D)** Realizar massagem circular sobre a região do eritema com soluções de ácidos graxos essenciais. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O paciente apresenta Lesão por Pressão (LPP) Estágio 1, caracterizada por eritema não branqueável em pele íntegra. A conduta prioritária para evitar a progressão da lesão é a redistribuição da pressão mecânica. A alternativa C está correta, pois o rodízio de decúbito a cada 2 horas é a medida padrão-ouro. A alternativa A está incorreta, pois dispositivos em anel/argola restringem a perfusão periférica. A B está incorreta, pois a permanência em decúbito dorsal agrava a compressão sacral. A D está incorreta, pois a massagem sobre a região eritematosa é contraindicada, podendo causar danos teciduais profundos.
 </details>
@@ -28258,9 +28258,9 @@ Mulher tabagista, 38 anos, procura Unidade Básica de Saúde após recente falec
 - [ ] **(D)** Diazepam. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A paciente apresenta dependência tabágica com falhas prévias em tentativas de cessação com terapia de reposição nicotínica (TRN). Segundo o protocolo do Ministério da Saúde, a Bupropiona é a medicação de primeira linha não nicotínica indicada para o tratamento do tabagismo, atuando na redução da fissura e dos sintomas de abstinência. As demais opções estão incorretas: a Fluoxetina (A) não é primeira linha para cessação tabágica; o Dissulfiram (B) é utilizado no tratamento do alcoolismo; e o Diazepam (D) é um benzodiazepínico sem indicação para este propósito, apresentando risco de dependência.
 </details>
@@ -28277,9 +28277,9 @@ Adolescente, 15 anos, é levado a atendimento devido a episódios repetidos de l
 - [ ] **(D)** Foliculite recorrente. ÁREA LIVRE 21 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O quadro clínico é clássico de furunculose de repetição. O furúnculo é uma infecção profunda do folículo pilossebáceo que evolui de um nódulo endurecido e doloroso para um abscesso com flutuação e drenagem purulenta, deixando cicatrizes residuais. A foliculite (D) é superficial, sem formação de abscesso profundo ou cicatrizes. O impetigo (B) manifesta-se por vesículas e crostas melicéricas superficiais. A celulite (A) é uma infecção difusa da derme e tecido subcutâneo, sem a característica nodular central e a evolução para abscesso focal com recidivas em áreas de atrito apresentadas pelo paciente.
 </details>
@@ -28296,9 +28296,9 @@ Homem, 38 anos, avaliado como risco anestésico ASA II (American Society of Anes
 - [ ] **(D)** Oferecer líquidos claros contendo carboidratos e proteínas até 4 horas antes.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A alternativa correta é a B. Os protocolos ERAS e ACERTO visam reduzir a resposta metabólica ao trauma e a resistência insulínica pós-operatória. A recomendação atual é a ingestão de líquidos claros ricos em carboidratos (como a maltodextrina) até 2 horas antes da indução anestésica. A alternativa A está incorreta, pois o jejum prolongado desde a meia-noite é considerado obsoleto e deletério. A alternativa C está errada, pois alimentos sólidos exigem jejum de, no mínimo, 6 horas. A alternativa D está incorreta, pois a recomendação específica foca em carboidratos e o limite para líquidos claros é de 2 horas, e não 4.
 </details>
@@ -28315,9 +28315,9 @@ Mulher, 47 anos, G3 PV2 PC1 A0, comparece ao ambulatório de Ginecologia referin
 - [ ] **(D)** Carcinoma de endométrio.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O diagnóstico é Pólipo Endometrial. A descrição ultrassonográfica (imagem ovalada com pedículo vascularizado) e, principalmente, o achado histopatológico (projeção digitiforme de tecido glandular com pedículo vascular) são patognomônicos para pólipos. Leiomiomas (A) são tumores de músculo liso, não glandulares. A hiperplasia endometrial (C) caracteriza-se por espessamento difuso ou irregular do endométrio, sem a formação de pedículo vascularizado. Já o carcinoma de endométrio (D) geralmente apresenta-se como massa irregular, infiltrativa ou espessamento endometrial anômalo com atipias celulares, diferindo da morfologia organizada e pediculada descrita no caso.
 </details>
@@ -28334,9 +28334,9 @@ O aquecimento global tem modificado a distribuição geográfica de vetores e a 
 - [ ] **(D)** A sazonalidade das chuvas é modificada e provoca redução da densidade do vetor, preservando a sua competência para transmissão viral. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** A alternativa A está correta. O Período de Incubação Extrínseco (PIE) é o tempo necessário para que o vírus, após a ingestão, replique-se e atinja as glândulas salivares do mosquito. Temperaturas mais elevadas aceleram a cinética de replicação viral, encurtando o PIE e tornando o vetor infectante mais rapidamente. A alternativa B é incorreta, pois a temperatura não induz mutações para troca de espécie. A C descreve o ciclo biológico do inseto, que afeta a densidade populacional, mas não a competência vetorial (capacidade de transmitir). A D está incorreta, pois o aumento da temperatura e chuvas geralmente aumenta a densidade do vetor, não a reduz.
 </details>
@@ -28353,9 +28353,9 @@ Mulher, 55 anos, funcionária de segurança, é levada à Unidade Básica de Sa�
 - [ ] **(D)** contenção mecânica, seguida de observação em consultório. ÁREA LIVRE 22 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A paciente apresenta agitação psicomotora grave com risco iminente de heteroagressão, após falha na abordagem verbal. A prioridade absoluta é a segurança do paciente e da equipe, justificando a contenção mecânica imediata para imobilização. Após a estabilização física, a conduta farmacológica indicada para quadros de agitação psicótica é a administração de haloperidol IM. A alternativa A inverte a sequência lógica (segurança primeiro); a B utiliza diazepam (não é a primeira escolha para psicose) e a D peca por omitir a terapêutica medicamentosa necessária para o controle do quadro.
 </details>
@@ -28372,9 +28372,9 @@ Uma criança de 2 anos é levada ao Pronto Socorro com histórico de febre alta 
 - [ ] **(D)** Amoxicilina e clavulonato via oral e internação em enfermaria.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** Paciente com Pneumonia Adquirida na Comunidade (PAC) grave, evidenciada por sinais de insuficiência respiratória (taquipneia, tiragens, batimento de asa nasal) e hipoxemia (SatO2 88%). A gravidade clínica e a baixa saturação impõem a internação imediata e o uso de antibioticoterapia parenteral. A Ceftriaxona é a escolha adequada para cobertura de patógenos típicos (como S. pneumoniae) em casos graves. A alternativa A é incorreta pois a hipoxemia contraindica a alta. A B é inadequada, pois a azitromicina foca em germes atípicos. A D é insuficiente, pois a via oral e a enfermaria não suprem a necessidade de suporte intensivo e terapia parenteral diante da instabilidade respiratória.
 </details>
@@ -28410,9 +28410,9 @@ Homem, 26 anos, é avaliado em ambulatório de especialidades após encaminhamen
 - [ ] **(D)** solicitar ultrassonografia abdominal para avaliação estrutural do fígado e das vias biliares.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O quadro é clássico de Síndrome de Gilbert: jovem com icterícia intermitente leve, desencadeada por estresse, jejum ou privação de sono, sem sinais de hepatopatia ou colestase. Trata-se de um distúrbio benigno da conjugação da bilirrubina (redução da atividade da enzima UGT1A1) que não requer tratamento, apenas a tranquilização do paciente. A alternativa A está incorreta, pois o teste genético não é necessário para a conduta clínica. A B está errada, pois o fenobarbital não é indicado para tratar uma condição benigna e assintomática. A D é desnecessária, pois a ausência de colúria, acolia e visceromegalias afasta a probabilidade de obstrução biliar.
 </details>
@@ -28429,9 +28429,9 @@ Um paciente de 45 anos encontra-se no 3º dia de pós- operatório de enterectom
 - [ ] **(D)** Sonda nasoentérica.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O paciente apresenta contraindicações absolutas à nutrição enteral no momento: instabilidade hemodinâmica (uso de drogas vasoativas) e pós-operatório imediato de enterectomia extensa por isquemia mesentérica. A administração de dieta enteral em pacientes instáveis ou com perfusão intestinal comprometida aumenta significativamente o risco de nova isquemia intestinal. Portanto, a via alimentar indicada é a Nutrição Parenteral Total (NPT), que requer acesso venoso central. As alternativas A, B e D referem-se a vias enterais, que são inadequadas diante do quadro de instabilidade e da extensão da ressecção intestinal recente.
 </details>
@@ -28448,9 +28448,9 @@ Mulher, 38 anos, procura a Unidade Básica de Saúde relatando corrimento vagina
 - [ ] **(D)** Miconazol creme intravaginal por 7 dias.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O quadro clínico é clássico de Tricomoníase: corrimento amarelo-esverdeado, prurido, pH vaginal elevado (5,5) e o sinal patognomônico de 'colo em framboesa' (aspecto puntiforme). O teste de aminas negativo ajuda a diferenciar da vaginose bacteriana. O tratamento de escolha é o Metronidazol via oral (Alternativa A). A Clindamicina (B) é indicada para vaginose bacteriana. Fluconazol (C) e Miconazol (D) são antifúngicos utilizados no tratamento da candidíase vulvovaginal, que tipicamente apresenta pH < 4,5 e leucorreia branca grumosa, divergindo dos achados do caso.
 </details>
@@ -28467,9 +28467,9 @@ Mulher, 68 anos, procurou a Unidade de Pronto Atendimento com quadro de dor súb
 - [ ] **(D)** Prescrever anti-inflamatório não esteroidal.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O quadro clínico descreve uma monoartrite aguda (dor, edema, calor e febre), cujo principal desafio é diferenciar a artrite séptica (emergência médica) de artrites cristalinas (gota ou pseudogota). A conduta padrão-ouro é a artrocentese imediata para análise do líquido sinovial (citometria, Gram, cultura e pesquisa de cristais). A alternativa A está incorreta pois a antibioticoterapia deve ocorrer após a coleta do líquido para evitar falsos-negativos. A alternativa C (RM) não é o exame inicial nem substitui a análise do líquido. A alternativa D (AINEs) apenas trata a inflamação, não diagnostica a causa e apresenta riscos renais em pacientes diabéticos.
 </details>
@@ -28486,9 +28486,9 @@ Um menino de 5 anos comparece ao acolhimento da Unidade Básica de Saúde com a 
 - [ ] **(D)** vitamina A via oral. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(D)**
 >
 > **Comentário Médica:** O quadro clínico é clássico de Sarampo: pródromos (febre, tosse, coriza, conjuntivite), status vacinal incompleto e a presença de manchas de Koplik (patognomônico). Segundo as diretrizes do Ministério da Saúde, a administração de Vitamina A é mandatória para todas as crianças com sarampo, visando reduzir a gravidade da doença, prevenir complicações oculares e respiratórias e diminuir a mortalidade. A tobramicina (A) e antibióticos (B) são para infecções bacterianas, não indicados no manejo inicial do vírus. O oseltamivir (C) é indicado para Influenza, que não cursa com exantema papular nem manchas de Koplik.
 </details>
@@ -28650,9 +28650,9 @@ Um menino de 5 anos, previamente saudável, é trazido à emergência com dor no
 - [ ] **(D)** Púrpura de Henoch-Schönlein (Vasculite IgA).
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: ANULADA)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(ANULADA)**
 >
 > **Comentário Médica:** O diagnóstico é Púrpura Trombocitopênica Imune (PTI), caracterizada por trombocitopenia isolada grave (12.000/mm³), petéquias não palpáveis e bom estado geral, comum na infância após quadros virais. A Púrpura de Henoch-Schönlein (D) é descartada pois apresenta plaquetas normais e a púrpura é palpável. A Leucemia Linfoide Aguda (C) é improvável pela ausência de anemia, visceromegalias, linfonodomegalias ou alterações no leucograma. A Dengue tipo C (B) envolveria sinais de choque ou extravasamento plasmático, não condizentes com o estado clínico do paciente.
 </details>
@@ -28871,9 +28871,9 @@ Paciente masculino, 42 anos, é admitido no Pronto Socorro com queimaduras de se
 - [ ] **(D)** hipertônica, com monitorização dos sinais vitais nas primeiras 16 horas.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** Segundo o ATLS 11ª edição, a reposição volêmica inicial em pacientes queimados com superfície corporal queimada (SCQ) significativa deve ser feita com cristaloides isotônicos (preferencialmente Ringer Lactato). O parâmetro mais fidedigno para monitorar a eficácia da ressuscitação volêmica e ajustar a taxa de infusão é o débito urinário (meta: 0,5 ml/kg/h em adultos). Soluções coloidais (A), glicosadas (C) ou hipertônicas (D) não são indicadas para a fase inicial de ressuscitação volêmica no trauma por queimadura.
 </details>
@@ -28890,9 +28890,9 @@ Um lactente de 8 meses é levado à Unidade de Pronto Atendimento com história 
 - [ ] **(D)** Haemophilus influenzae.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(B)**
+> **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** O quadro clínico é clássico de bronquiolite: lactente (< 2 anos) com primeiro episódio de sibilância, precededido por pródromos virais (coriza, tosse, febre baixa) e sinais de desconforto respiratório. O Vírus Sincicial Respiratório (VSR) é o principal agente etiológico desta patologia. As alternativas A e D (S. pneumoniae e H. influenzae) são causas comuns de pneumonia bacteriana, que tipicamente apresenta febre alta e focos de consolidação, não sibilância difusa. A alternativa C (Mycoplasma pneumoniae) causa pneumonia atípica, sendo muito mais prevalente em crianças maiores e adolescentes, sendo rara em lactentes.
 </details>
@@ -29324,9 +29324,9 @@ Uma Unidade de Saúde da Família em área de elevada incidência de dengue rece
 - [ ] **(D)** Solicitar ultrassom abdominal para investigar a dor no hipocôndrio direito e iniciar hidratação oral. ÁREA LIVRE 24 CADERNO 01
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** O paciente apresenta sinais de alarme: dor abdominal contínua, vômitos persistentes, letargia/sensação de desmaio, diminuição da diurese e hemoconcentração (aumento do hematócrito de 42% para 46%). Estes achados classificam o paciente no Grupo C da estratificação de risco da dengue. A conduta imediata para o Grupo C é a hidratação venosa imediata com cristaloides, monitorização hemodinâmica e internação hospitalar para evitar a progressão para choque (Grupo D). As alternativas B e D são incorretas pois a hidratação oral é insuficiente e contraindicada em quadros de vômitos persistentes e sinais de alarme. A alternativa C é incorreta pois a prioridade é a estabilização hemodinâmica, não a confirmação diagnóstica tardia.
 </details>
@@ -29981,9 +29981,9 @@ Recém-nascido, sexo masculino, nascido de parto vaginal a termo, com Apgar 8/9,
 - [ ] **(D)** síndrome do tampão meconial. ÁREA LIVRE
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** O quadro descreve uma obstrução intestinal baixa em RN, caracterizada por atraso na eliminação de mecônio e a patognomônica 'eliminação explosiva de fezes' ao estímulo retal, típicas da Doença de Hirschsprung (Megacólon Congênito). A evolução para instabilidade hemodinâmica, distensão abdominal tensa e choque indica a complicação grave: enterocolite associada ao Hirschsprung. O íleo meconial (A) ocorre frequentemente na Fibrose Cística, mas não apresenta a descarga explosiva. A má rotação/vólvulo (B) costuma cursar com vômitos biliosos precoces, sem necessariamente atrasar o mecônio. A síndrome do tampão meconial (D) é uma obstrução transitória e benigna, que não evolui rapidamente para choque séptico como neste caso.
 </details>
@@ -31085,9 +31085,9 @@ Menina, 5 anos, é levada à Unidade de Pronto Atendimento após mordedura na m�
 - [ ] **(D)** Realizar profilaxia com soro antirrábico, vacinação nos dias 0, 3, 7 e 14 e notificação imediata do agravo.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(C)**
 >
 > **Comentário Médica:** De acordo com o Ministério da Saúde, em acidentes por cães ou gatos saudáveis, vacinados e passíveis de observação, a conduta é: limpeza do ferimento, notificação do caso e observação do animal por 10 dias. Não há indicação imediata de vacina ou soro antirrábico. Caso o animal permaneça saudável após o período, a profilaxia é dispensada; se o animal adoecer ou morrer, inicia-se o esquema vacinal/sorológico conforme a gravidade. As alternativas B, C e D estão incorretas pois indicam profilaxia imediata, reservada apenas para animais suspeitos, desconhecidos ou com risco elevado.
 </details>
@@ -31104,9 +31104,9 @@ Mulher, 42 anos, G3P3, comparece à consulta ginecológica para apresentar resul
 - [ ] **(D)** Realizar biópsia cervical e encaminhar à colposcopia.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(C)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** Células Glandulares Atípicas (AGC) exigem investigação rigorosa do colo e do endométrio, pois podem indicar neoplasias endocervicais ou endometriais. A conduta padrão inclui colposcopia (com curetagem endocervical). Para mulheres $\ge 35$ anos ou com fatores de risco, a avaliação endometrial é obrigatória, sendo a ultrassonografia transvaginal (USG-TV) um método inicial para avaliar a espessura endometrial. A alternativa A aplica-se a lesões escamosas (como ASC-US). A B é contraindicada sem diagnóstico histológico. A D está incorreta pois a biópsia é realizada durante a colposcopia, e não como etapa prévia a ela.
 </details>

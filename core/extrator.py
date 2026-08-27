@@ -37,6 +37,34 @@ def parse_gabarito_text_block(text):
     return gabarito
 
 
+def decode_gabarito_custom_glyphs(txt):
+    """Decodifica páginas com fontes customizadas (letras gregas e bytes especiais) como no Revalida 2026/1."""
+    greek_to_digit = {'ϭ': '1', 'Ϯ': '2', 'ϯ': '3', 'ϰ': '4', 'ϱ': '5', 'ϲ': '6', 'ϳ': '7', 'ϴ': '8', 'ϵ': '9', 'Ϭ': '0'}
+    byte_to_resp = {'\x11': 'A', '\x12': 'B', '\x04': 'C', '\x18': 'D'}
+    g = {}
+    lines = [l.strip() for l in txt.splitlines() if l.strip()]
+    i = 0
+    while i < len(lines) - 1:
+        line = lines[i]
+        num_str = ''.join([greek_to_digit.get(c, c) for c in line])
+        if num_str.isdigit():
+            resp_raw = lines[i+1]
+            resp = None
+            if '\x03' in resp_raw:
+                resp = 'ANULADA'
+            else:
+                for b, r in byte_to_resp.items():
+                    if b in resp_raw:
+                        resp = r
+                        break
+            if resp:
+                g[num_str] = resp
+                i += 2
+                continue
+        i += 1
+    return g
+
+
 def carregar_mapa_gabaritos_revalida(pasta_provas: Path):
     """Carrega todos os gabaritos oficiais consolidados do documento GABARITO_REVALIDA_2021_a_2026.pdf."""
     caminho_gabarito = pasta_provas / "GABARITO_REVALIDA_2021_a_2026.pdf"
@@ -55,6 +83,7 @@ def carregar_mapa_gabaritos_revalida(pasta_provas: Path):
             "REVALIDA-2024_2": [6],
             "REVALIDA-2025_1": [7],
             "REVALIDA-2025_2": [8, 9, 10, 11],
+            "REVALIDA-2026_1": [12, 13],
         }
         
         mapa_por_prova = {}
@@ -64,6 +93,8 @@ def carregar_mapa_gabaritos_revalida(pasta_provas: Path):
                 if p_idx < len(doc):
                     txt = doc[p_idx].get_text()
                     gab_parcial = parse_gabarito_text_block(txt)
+                    if len(gab_parcial) < 10:
+                        gab_parcial = decode_gabarito_custom_glyphs(txt)
                     gab_completo.update(gab_parcial)
             mapa_por_prova[chave_prova] = gab_completo
             
