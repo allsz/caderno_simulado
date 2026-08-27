@@ -6,6 +6,7 @@ do Caderno de Questões Médicas e Simulado Interativo.
 from .utils import obter_base64_imagem, formatar_texto_fluido
 from .classificador import TAXONOMIA_MEDICA, classificar_questao
 from .extrator import (
+    carregar_mapa_gabaritos_revalida,
     extrair_gabarito_pdf,
     extrair_texto_pdf,
     extrair_alternativas,
@@ -26,6 +27,7 @@ __all__ = [
     "formatar_texto_fluido",
     "TAXONOMIA_MEDICA",
     "classificar_questao",
+    "carregar_mapa_gabaritos_revalida",
     "extrair_gabarito_pdf",
     "extrair_texto_pdf",
     "extrair_alternativas",

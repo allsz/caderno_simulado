@@ -9,16 +9,96 @@ import winocr
 from .classificador import classificar_questao
 
 
-def extrair_gabarito_pdf(caminho_pdf):
-    """Extrai gabarito oficial das últimas páginas da prova PDF (se disponível)."""
+def parse_gabarito_text_block(text):
+    """Analisa blocos textuais e tabelas de gabarito para extrair pares questão-resposta."""
+    gabarito = {}
+    blocks = re.split(r'Quest[aã]o', text, flags=re.IGNORECASE)
+    for block in blocks:
+        if 'Gabarito' in block or 'GAB' in block:
+            parts = re.split(r'Gabarito|GAB', block, flags=re.IGNORECASE)
+            nums = [n.strip() for n in parts[0].split() if n.strip().isdigit()]
+            raw_resps = [r.strip() for r in parts[1].split() if r.strip()]
+            resps = []
+            for r in raw_resps:
+                if re.match(r'^[A-E]$', r, re.IGNORECASE):
+                    resps.append(r.upper())
+                elif r in ['-', '—', 'X', 'x', '̶'] or 'anulad' in r.lower() or '̶' in r:
+                    resps.append('ANULADA')
+            for n, r in zip(nums, resps):
+                gabarito[n] = r
+    
+    if len(gabarito) < 20:
+        lines = [l.strip() for l in text.splitlines() if l.strip()]
+        for i in range(len(lines) - 1):
+            if lines[i].isdigit() and (re.match(r'^[A-E]$', lines[i+1]) or 'anulad' in lines[i+1].lower() or lines[i+1] in ['X', 'x', '-', '—']):
+                resp = 'ANULADA' if 'anulad' in lines[i+1].lower() or lines[i+1] in ['X', 'x', '-', '—'] else lines[i+1].upper()
+                gabarito[lines[i]] = resp
+
+    return gabarito
+
+
+def carregar_mapa_gabaritos_revalida(pasta_provas: Path):
+    """Carrega todos os gabaritos oficiais consolidados do documento GABARITO_REVALIDA_2021_a_2026.pdf."""
+    caminho_gabarito = pasta_provas / "GABARITO_REVALIDA_2021_a_2026.pdf"
+    if not caminho_gabarito.exists():
+        return {}
+    
+    try:
+        doc = pymupdf.open(str(caminho_gabarito))
+        paginas_map = {
+            "REVALIDA-2021": [0],
+            "REVALIDA-2022_PV": [1],
+            "REVALIDA-2022-2": [2],
+            "REVALIDA-2023_1": [3],
+            "REVALIDA-2023_2": [4],
+            "REVALIDA-2024_1": [5],
+            "REVALIDA-2024_2": [6],
+            "REVALIDA-2025_1": [7],
+            "REVALIDA-2025_2": [8, 9, 10, 11],
+        }
+        
+        mapa_por_prova = {}
+        for chave_prova, lista_pags in paginas_map.items():
+            gab_completo = {}
+            for p_idx in lista_pags:
+                if p_idx < len(doc):
+                    txt = doc[p_idx].get_text()
+                    gab_parcial = parse_gabarito_text_block(txt)
+                    gab_completo.update(gab_parcial)
+            mapa_por_prova[chave_prova] = gab_completo
+            
+        doc.close()
+        return mapa_por_prova
+    except Exception:
+        return {}
+
+
+def extrair_gabarito_pdf(caminho_pdf, mapa_revalida=None):
+    """Extrai gabarito oficial da prova PDF ou do mapa consolidado Revalida."""
+    caminho = Path(caminho_pdf)
+    nome_arq = caminho.name
+
+    # Se for uma prova do Revalida e tivermos o mapa carregado
+    if mapa_revalida:
+        for chave, gab_map in mapa_revalida.items():
+            if chave.lower() in nome_arq.lower():
+                if gab_map:
+                    return gab_map
+
+    # Se não, tenta extrair das últimas páginas do próprio PDF (padrão ENARE)
     try:
         doc = pymupdf.open(str(caminho_pdf))
         gabarito = {}
-        for num_pag in range(max(0, len(doc) - 3), len(doc)):
+        for num_pag in range(max(0, len(doc) - 4), len(doc)):
             texto = doc[num_pag].get_text("text")
-            matches = re.findall(r'(?:^|\n)\s*(\d{1,3})\s*[\.\)-]?\s*\n?\s*([A-E]|ANULADA)', texto, re.IGNORECASE)
-            for num, resp in matches:
-                gabarito[str(int(num))] = resp.upper()
+            # Tenta via parser de blocos e tabelas
+            gab_bloco = parse_gabarito_text_block(texto)
+            if gab_bloco:
+                gabarito.update(gab_bloco)
+            else:
+                matches = re.findall(r'(?:^|\n)\s*(\d{1,3})\s*[\.\)-]?\s*\n?\s*([A-E]|ANULADA)', texto, re.IGNORECASE)
+                for num, resp in matches:
+                    gabarito[str(int(num))] = resp.upper()
         doc.close()
         return gabarito
     except Exception:

@@ -13,6 +13,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 from core import (
     carregar_cache_explicacoes,
+    carregar_mapa_gabaritos_revalida,
     exportar_caderno_html,
     exportar_caderno_markdown,
     extrair_gabarito_pdf,
@@ -70,17 +71,24 @@ def main():
             print(f"[!] Nenhum arquivo PDF encontrado na pasta '{pasta_provas.resolve()}'.")
             return
 
+        mapa_revalida = carregar_mapa_gabaritos_revalida(pasta_provas)
+        if mapa_revalida:
+            print(f"[*] Gabaritos oficiais consolidados do Revalida carregados com sucesso ({len(mapa_revalida)} edições).")
+
         print(f"[*] Encontrados {len(arquivos_pdf)} arquivos PDF. Iniciando extração, gabaritos e categorização...\n")
         todas_questoes = []
 
         for caminho_pdf in arquivos_pdf:
             nome_arq = caminho_pdf.name
+            if nome_arq.upper().startswith("GABARITO_"):
+                continue
+
             nome_origem = nome_arq.replace(".pdf", "")
             print(f"-> Processando: {nome_arq}...")
             
-            gabarito_map = extrair_gabarito_pdf(caminho_pdf)
+            gabarito_map = extrair_gabarito_pdf(caminho_pdf, mapa_revalida=mapa_revalida)
             if gabarito_map:
-                print(f"   ✓ Gabarito oficial extraído do PDF ({len(gabarito_map)} respostas).")
+                print(f"   ✓ Gabarito oficial vinculado ({len(gabarito_map)} respostas).")
                 
             texto = extrair_texto_pdf(caminho_pdf)
             questoes = extrair_questoes_do_texto(texto, nome_arq)
