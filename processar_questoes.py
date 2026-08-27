@@ -5,6 +5,7 @@ import io
 import json
 import time
 import base64
+from html import escape as html_escape
 from pathlib import Path
 import pymupdf
 import winocr
@@ -14,34 +15,40 @@ sys.stdout.reconfigure(encoding='utf-8')
 
 
 def obter_base64_imagem(caminho_relativo):
-    """Converte uma imagem local em data URI Base64 para embutimento direto e autônomo no HTML."""
-    if not caminho_relativo:
-        return ""
+    """Converte qualquer imagem local em data URI Base64 autônoma para abrir perfeitamente em qualquer aplicativo/dispositivo."""
+    if not caminho_relativo or caminho_relativo.startswith("data:"):
+        return caminho_relativo
     base_dir = Path(__file__).parent
-    p_name = Path(caminho_relativo).name
-    cand_paths = [
-        base_dir / caminho_relativo,
-        base_dir / "saida" / caminho_relativo,
-        base_dir / "src" / p_name,
-        base_dir / "saida" / "src" / p_name,
+    p_name = Path(caminho_relativo).name.lower()
+    
+    cand_dirs = [
+        base_dir / "src",
+        base_dir / "saida" / "src",
+        base_dir / Path(caminho_relativo).parent,
+        base_dir / "saida" / Path(caminho_relativo).parent,
     ]
-    for p in cand_paths:
-        if p.exists():
-            try:
-                ext = p.suffix.lower().lstrip('.')
-                mime_map = {
-                    "png": "image/png",
-                    "jpg": "image/jpeg",
-                    "jpeg": "image/jpeg",
-                    "gif": "image/gif",
-                    "svg": "image/svg+xml",
-                    "webp": "image/webp"
-                }
-                mime = mime_map.get(ext, "image/png")
-                encoded = base64.b64encode(p.read_bytes()).decode('utf-8')
-                return f"data:{mime};base64,{encoded}"
-            except Exception:
-                pass
+    
+    for d in cand_dirs:
+        if d.exists() and d.is_dir():
+            for item in d.iterdir():
+                if item.is_file():
+                    name_lower = item.name.lower()
+                    if name_lower == p_name or "aten" in name_lower and "aten" in p_name:
+                        try:
+                            ext = item.suffix.lower().lstrip('.')
+                            mime_map = {
+                                "png": "image/png",
+                                "jpg": "image/jpeg",
+                                "jpeg": "image/jpeg",
+                                "gif": "image/gif",
+                                "svg": "image/svg+xml",
+                                "webp": "image/webp"
+                            }
+                            mime = mime_map.get(ext, "image/png")
+                            encoded = base64.b64encode(item.read_bytes()).decode('utf-8')
+                            return f"data:{mime};base64,{encoded}"
+                        except Exception as e:
+                            print(f"   [!] Erro ao converter {item} para Base64: {e}")
     return caminho_relativo
 
 
@@ -438,6 +445,8 @@ def formatar_texto_fluido(texto, modo_html=True):
     """
     if not texto:
         return ""
+    if modo_html:
+        texto = html_escape(texto)
     texto = texto.replace("\r\n", "\n").replace("\r", "\n")
     paragrafos = re.split(r'\n\s*\n', texto)
     paragrafos_limpos = []
@@ -665,6 +674,13 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
     .progress-container {{
         flex: 1;
         max-width: 450px;
+        cursor: pointer;
+        user-select: none;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+    }}
+    .progress-container:hover {{
+        transform: translateY(-1px);
+        opacity: 0.9;
     }}
     .progress-labels {{
         display: flex;
@@ -1651,7 +1667,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
     <div class="top-bar-title" onclick="window.scrollTo({{ top: 0, behavior: 'smooth' }})" title="Clique para voltar ao topo">
         🩺 Simulado Residência Médica
     </div>
-    <div class="progress-container">
+    <div class="progress-container" onclick="document.getElementById('painel-estatisticas')?.scrollIntoView({{ behavior: 'smooth' }})" title="Clique para ir direto ao Resumo de Desempenho e Estatísticas">
         <div class="progress-labels">
             <span>Progresso:</span>
             <span id="progress-text">0 de {total_questoes_com_alt} respondidas (0%)</span>
@@ -1688,7 +1704,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
                 <span>Gostou do Simulado? Me apoie!</span>
             </div>
             <div class="kofi-desc">
-                Este caderno com 1.500+ questões oficiais, imagens médicas curadas e justificativas clínicas por IA é mantido de forma 100% gratuita. Se este material está te ajudando nos estudos, considere me pagar um café no Ko-fi!
+                Fiz este caderno com 1.500+ questões oficiais, imagens médicas curadas e justificativas clínicas por IA que é mantido de forma 100% gratuita. Se este material está te ajudando nos estudos, considere me comprar um café no Ko-fi!
             </div>
         </div>
         <div class="kofi-btn-container">
@@ -1810,7 +1826,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
                     if q['alternativas']:
                         html += f"<div class='alternativas-container'>\n"
                         for letra, alt in sorted(q['alternativas'].items()):
-                            alt_html = formatar_texto_fluido(alt, modo_html=False)
+                            alt_html = html_escape(formatar_texto_fluido(alt, modo_html=False))
                             html += f"<label class='alternativa' id='label_{q_id}_{letra}'>"
                             html += f"<input type='radio' name='{q_id}' value='{letra}' data-gabarito='{gab}' onchange='salvarResposta(\"{q_id}\", \"{letra}\", \"{gab}\")'>"
                             html += f"<span><strong>({letra})</strong> {alt_html}</span></label>\n"
@@ -1833,7 +1849,7 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
 
     html += f"""
     <!-- Painel de Desempenho e Estatísticas -->
-    <div class="stats-panel-card">
+    <div class="stats-panel-card" id="painel-estatisticas">
         <div class="stats-panel-header">
             <div class="stats-panel-title">
                 <svg class="stats-title-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -2159,6 +2175,15 @@ window.addEventListener('DOMContentLoaded', () => {{
 </body>
 </html>
 """
+    def _substituir_src_b64(m):
+        aspas = m.group(1)
+        caminho = m.group(2)
+        b64 = obter_base64_imagem(caminho)
+        return f'src={aspas}{b64}{aspas}'
+
+    # Passagem universal para converter QUALQUER imagem src="src/..." no HTML inteiro para Base64!
+    html = re.sub(r'src=(["\'])(src/[^"\']+)\1', _substituir_src_b64, html)
+
     with open(caminho_saida, "w", encoding="utf-8") as f:
         f.write(html)
 

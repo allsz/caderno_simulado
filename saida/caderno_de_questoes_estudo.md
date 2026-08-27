@@ -194,10 +194,10 @@ Uma paciente de 24 anos, saudável, é usuária de dispositivo intrauterino de c
 
 Uma mulher com 38 anos de idade comparece ao pronto atendimento com dor em baixo ventre de forte intensidade há algumas horas. A paciente refere que vinha sentindo um leve incômodo em baixo ventre, mas há algumas horas sente dor de forte intensidade em abdome, mais localizada em baixo ventre. Não tem fatores de melhora e piora ao caminhar. Refere náuseas e um episódio de vômito. Nega febre. Como antecedentes já teve uma doença inflamatória pélvica há alguns anos, tratada com antibióticos. Está casada há 10 anos, não utiliza método anticoncepcional hormonal e não usa preservativo em todas as relações. Tem dois filhos que nasceram de parto normal. Nega patologias clínicas. A data da última menstruação foi há aproximadamente 7 semanas. Ao regular estado geral, lúcida e apresenta exame, contactuante, afebril, descorada (++/++++), com pressão arterial de 100 x 55 mmHg e pulso de 110 batimentos por minuto. Exame cardiopulmonar sem anormalidades. Abdome distendido, doloroso, descompressão brusca presente em fossa ilíaca direita. Ruídos hidro aéreos presentes, mas diminuídos. Exame especular sem sangramento, presença de discreta leucorreia fluida sem sinais de vulvovaginite. Toque vaginal com muita dor, dificultando o exame, mas o útero está de tamanho, forma e consistência normal; sente muita dor à palpação de fundo de saco. Considerando o quadro clínico apresentado, assinale a opção que apresenta, respectivamente, a principal hipótese diagnóstica e a conduta correta a ser realizada.
 
-- [ ] **(A)** Apendicite aguda; cirurgia
+- [ ] **(A)** pendicite aguda; cirurgia
 - [ ] **(B)** Gestação ectópica rota; cirurgia
-- [ ] **(C)** Doença inflamatória pélvica; antibioticoterapia parenteral
-- [ ] **(D)** Aborto ou ameaça de aborto; internação para observação.
+- [ ] **(C)** oença inflamatória pélvica; antibioticoterapia parenteral
+- [ ] **(D)** borto ou ameaça de aborto; internação para observação.
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
@@ -1212,7 +1212,7 @@ Um paciente com 25 anos de idade procura a Unidade de Saúde da Família devido 
 - [ ] **(A)** a ressecção da margem lateral da unha deve ser realizada com tesoura reta, preservando-se a matriz ungueal
 - [ ] **(B)** o bloqueio digital deve ser realizado com lidocaína com vasoconstritor, por ser um procedimento muito doloroso
 - [ ] **(C)** a introdução da tentacânula deve ser realizada a cerca de 3 mm da margem lateral, longitudinalmente até a matriz
-- [ ] **(D)** o tecido de granulação pode ser preservado, não havendo necessidade de ressecá-lo, pois não há sinais de infecção 
+- [ ] **(D)** o tecido de granulação pode ser preservado, não havendo necessidade de ressecá-lo, pois não há sinais de infecção
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: ANULADA)</b></summary>
@@ -1915,8 +1915,8 @@ Um menino com 5 anos de idade, acompanhado da mãe, é atendido em unidade de sa
 
 - [ ] **(A)** Terapia com corticosteroide
 - [ ] **(B)** Internação para esplenectomia
-- [ ] **(C)** Observação clínica ambulatorial
-- [ ] **(D)** Administração de imunoglobulina
+- [ ] **(C)** bservação clínica ambulatorial
+- [ ] **(D)** dministração de imunoglobulina
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
@@ -2692,10 +2692,10 @@ Homem de 33 anos procurou atendimento por dor em cólica, de forte intensidade, 
 
 Um paciente com 72 anos de idade, tabagista, vem se queixando de icterícia, acolia, colúria e prurido há cerca de 2 meses de forma progressiva. Ao exame físico, apresenta icterícia +++/4 e massa palpável, de consistência amolecida e indolor no hipocôndrio direito, mais precisamente no ponto cístico. Os exames laboratoriais apresentam os seguintes resultados: hemograma com discreta anemia, AST de 64 U/L, ALT de 88 U/L, bilirrubina total de 32 mg/dL, sendo 24 mg/dL de bilirrubina direta e 8 mg/dL de bilirrubina indireta. Com base nos dados apresentados, entre os diagnósticos a seguir, qual é o mais provável?
 
-- [ ] **(A)** Coledocolitíase
-- [ ] **(B)** Adenocarcinoma de vesícula biliar
-- [ ] **(C)** Adenocarcinoma de cabeça de pâncreas
-- [ ] **(D)** Colangiocarcinoma da confluência dos ductos hepáticos 
+- [ ] **(A)** oledocolitíase
+- [ ] **(B)** denocarcinoma de vesícula biliar
+- [ ] **(C)** denocarcinoma de cabeça de pâncreas
+- [ ] **(D)** olangiocarcinoma da confluência dos ductos hepáticos
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
@@ -2711,10 +2711,10 @@ Um paciente com 72 anos de idade, tabagista, vem se queixando de icterícia, aco
 
 Uma paciente com 43 anos de idade, sem comorbidades, vem apresentando quadro de dor em hipocôndrio direito, febre, colúria e acolia fecal há 48 horas. Ao exame, mostra-se lúcida, orientada no tempo e espaço, com icterícia +/4, temperatura axilar 39 oc e pressão arterial de 130 x 90 mmHg. No exame do abdome apresenta dor à palpação profunda do ponto cístico, sem massas e/ou visceromegalias. Realizou ultrassonografia que mostrou vesícula biliar com paredes levemente espessadas, com cálculos pequenos em seu interior; dilatação das vias biliares com colédoco medindo 1 cm. Diante desse quadro, quais são, respectivamente, a principal hipótese diagnóstica e o tratamento inicial adequado?
 
-- [ ] **(A)** Colecistite aguda; antibioticoterapia venosa
-- [ ] **(B)** Colangite aguda; antibioticoterapia venosa
-- [ ] **(C)** Colecistite aguda; colecistectomia de emergência
-- [ ] **(D)** Colangite aguda; drenagem cirúrgica das vias biliares
+- [ ] **(A)** olecistite aguda; antibioticoterapia venosa
+- [ ] **(B)** olangite aguda; antibioticoterapia venosa
+- [ ] **(C)** olecistite aguda; colecistectomia de emergência
+- [ ] **(D)** olangite aguda; drenagem cirúrgica das vias biliares
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
@@ -2733,7 +2733,7 @@ Uma jovem com 19 anos de idade chega para consulta na Unidade de Pronto Atendime
 - [ ] **(A)** leptospirose
 - [ ] **(B)** mononucleose
 - [ ] **(C)** colecistite aguda
-- [ ] **(D)** hepatite aguda viral 
+- [ ] **(D)** hepatite aguda viral
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
@@ -2751,10 +2751,10 @@ Uma paciente com 68 anos de idade, tabagista de longa data, foi encaminhada pelo
 
 Considerando o caso apresentado, qual a principal hipótese diagnóstica e o exame de imagem inicial a ser solicitado?
 
-- [ ] **(A)** Câncer de pâncreas; ultrassom de abdome.
-- [ ] **(B)** Câncer de vias biliares; ressonância nuclear magnética de abdome.
-- [ ] **(C)** Câncer de fígado; tomografia computadorizada de abdome com contraste venoso.
-- [ ] **(D)** Coledocolitíase; colangiopancreatografia retrógrada endoscópica com papilotomia.
+- [ ] **(A)** âncer de pâncreas; ultrassom de abdome.
+- [ ] **(B)** âncer de vias biliares; ressonância nuclear magnética de abdome.
+- [ ] **(C)** âncer de fígado; tomografia computadorizada de abdome com contraste venoso.
+- [ ] **(D)** oledocolitíase; colangiopancreatografia retrógrada endoscópica com papilotomia.
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
@@ -3965,7 +3965,7 @@ Mulher, 82 anos, em acompanhamento pela equipe de Saúde da Família devido à d
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** Gabarito oficial extraído do PDF da prova: **A**. (O comentário detalhado por IA para esta questão está sendo processado).
+> **Comentário Médica:** ['A', 'A paciente apresenta sinais de hipotensão ortostática (tontura ao levantar) e fadiga, sintomas comuns em idosos polifarmácia. A conduta correta é o ajuste posológico das medicações anti-hipertensivas para equilibrar o controle cardiovascular e a segurança (evitar quedas), mantendo a terapia base. A alternativa B está incorreta, pois a digoxina não é indicada para IC com fração de ejeção preservada (ICFEP). A alternativa C é contraindicada, pois o sacubitril-valsartana reduz ainda mais a PA, agravando a hipotensão. A alternativa D é equivocada, pois o betabloqueador é fundamental na doença coronariana crônica; deve-se ajustar a dose, não suspender abruptamente.']
 </details>
 
 ---
@@ -5129,7 +5129,7 @@ Uma gestante com 35 anos de idade, gesta: 4, para: 3, aborto: 0 (três partos va
 - [ ] **(A)** induzir o parto com misoprostol e/ou ocitocina na 38? semana e realizar zidovudina endovenosa durante todo o procedimento
 - [ ] **(B)** programar parto cesariana para a 38? semana de gestação e iniciar zidovudina endovenosa pelo menos 3 horas antes do procedimento
 - [ ] **(C)** realizar parto cesariana na 40? semana e prescrever zidovudina injetável para ser administrada 1 hora antes do procedimento
-- [ ] **(D)** aguardar início espontâneo do parto vaginal até 40 semanas e usar zidovudina endovenosa durante todo o período do trabalho de parto 
+- [ ] **(D)** aguardar início espontâneo do parto vaginal até 40 semanas e usar zidovudina endovenosa durante todo o período do trabalho de parto
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
@@ -5188,9 +5188,7 @@ Um homem com 32 anos de idade, usuário de drogas ilícitas injetá com queixa d
 - [ ] **(A)** hepatite B aguda; iniciar tratamento sintomático, evitando-se i hepatite alcoólica aguda; prescrever corticoide, evitar novos Atenção Psicossocial (Álcool e Drogas)
 - [ ] **(B)** hepatite C aguda; prescrever antivirais combinados (como hepatite B crônica agudizada; prescrever tenofovir ou ente hepático
 - [ ] **(C)** Espaço livre
-
-Na2022 2táveis (DII), comparece à consulta ambulatorial em clínica médica 'io direito que teve início há 1 semana
-- [ ] **(D)** Refere que, 2 dias antes do tema leve, que desapareceram, ficando em seguida com os olhos areceram simultaneamente à melhora da febre, que persistiu por dor abdominal Nega náuseas, vômitos, diarreia ou sangramentos, ma normal Nega comorbidades prévias significativas, e sua história sta (10 maços/ano) e etilista social de fermentados ácies de doença aguda, levemente ictérico nas escleras; corado, arelhos cardiovascular e respiratório sem anormalidades Abdome Dável a 3 cm do rebordo costal direito, na linha hemiclavicular, de o há edemas em membros inferiores. "sulta são apresentados na tabela a seguir Valor de Referência até 40 UI/L até 38 UI/L até 1,2 mg/dL até 0,3 mg/dL 40-129 UI/L 10-50 UI/L 0,9-1,03 29-35 segundos Marcadores Virais da Hepatite Anti-HAV total: negativo HBsag: positivo Anti-HBc IgM: positivo Anti-HBc IgG: negativo Anti-HBe IgM: negativo Anti-HBs: negativo Anti-HCV: negativo diagnóstica e o tratamento indicado são, respectivamente, fármacos hepatotóxicos e de metabolismo hepático os insultos hepáticos e encaminhar o paciente para o Centro de dipasvir/sofosbuvir), conforme resultado do teste de genotipagem üecavir, evitando-se fármacos hepatotóxicos e de metabolismo
+- [ ] **(D)** Na2022 2táveis (DII), comparece à consulta ambulatorial em clínica médica 'io direito que teve início há 1 semana Refere que, 2 dias antes do tema leve, que desapareceram, ficando em seguida com os olhos areceram simultaneamente à melhora da febre, que persistiu por dor abdominal Nega náuseas, vômitos, diarreia ou sangramentos, ma normal Nega comorbidades prévias significativas, e sua história sta (10 maços/ano) e etilista social de fermentados ácies de doença aguda, levemente ictérico nas escleras; corado, arelhos cardiovascular e respiratório sem anormalidades Abdome Dável a 3 cm do rebordo costal direito, na linha hemiclavicular, de o há edemas em membros inferiores. "sulta são apresentados na tabela a seguir Valor de Referência até 40 UI/L até 38 UI/L até 1,2 mg/dL até 0,3 mg/dL 40-129 UI/L 10-50 UI/L 0,9-1,03 29-35 segundos Marcadores Virais da Hepatite Anti-HAV total: negativo HBsag: positivo Anti-HBc IgM: positivo Anti-HBc IgG: negativo Anti-HBe IgM: negativo Anti-HBs: negativo Anti-HCV: negativo diagnóstica e o tratamento indicado são, respectivamente, fármacos hepatotóxicos e de metabolismo hepático os insultos hepáticos e encaminhar o paciente para o Centro de dipasvir/sofosbuvir), conforme resultado do teste de genotipagem üecavir, evitando-se fármacos hepatotóxicos e de metabolismo
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
@@ -5873,7 +5871,7 @@ Uma gestante de 30 anos, vivendo com HIV, em uso regular de terapia antirretrovi
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** Gabarito oficial extraído do PDF da prova: **A**. (O comentário detalhado por IA para esta questão está sendo processado).
+> **Comentário Médica:** ['A', 'A alternativa A está correta pois segue as diretrizes do Ministério da Saúde: a TARV com carga viral (CV) indetectável reduz drasticamente a transmissão vertical. Quanto ao parto, se a CV for < 1.000 cópias/mL (ou indetectável), a via é definida por critérios obstétricos; se $\\geq$ 1.000 ou desconhecida, indica-se cesariana eletiva. A amamentação é absolutamente contraindicada no Brasil para mulheres vivendo com HIV, sendo garantido o acesso a fórmulas infantis. As alternativas B, C e D estão incorretas ao sugerir que o risco permaneceria elevado (B), que a amamentação seria permitida (C e D) ou que a cesariana seria mandatória independentemente da carga viral (B).']
 </details>
 
 ---
@@ -6418,7 +6416,7 @@ Um lactente com 18 meses de idade é atendido em Unidade Básica de Saúde em vi
 - [ ] **(A)** linfoma; ultrassonografia de abome
 - [ ] **(B)** tumor de Wilms; ultrassonografia de abdome
 - [ ] **(C)** glomerulonefrite difusa aguda; complemento sérico
-- [ ] **(D)** neuroblastoma; tomografia computadorizada de abdome 
+- [ ] **(D)** neuroblastoma; tomografia computadorizada de abdome
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
@@ -7445,8 +7443,8 @@ Um menino com 3 anos de idade é atendido na emergência de hospital público mu
 
 - [ ] **(A)** Penicilina intravenosa
 - [ ] **(B)** Gentamicina intravenosa
-- [ ] **(C)** Ceftazidima intravenosa
-- [ ] **(D)** Vancomicina intravenosa 
+- [ ] **(C)** eftazidima intravenosa
+- [ ] **(D)** Vancomicina intravenosa
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
@@ -9426,7 +9424,7 @@ Uma paciente com 30 anos de idade, sem comorbidades, compareceu à Unidade Bási
 - [ ] **(A)** pielonefrite grave
 - [ ] **(B)** sepse de foco urinário
 - [ ] **(C)** bacteriúria assintomática
-- [ ] **(D)** infecção de trato urinário não complicada 
+- [ ] **(D)** infecção de trato urinário não complicada
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
@@ -9462,8 +9460,8 @@ Uma paciente com 28 anos de idade, nulípara, usuária de anticoncepcional hormo
 Uma paciente com 46 anos de idade, gesta: 2, para: 2, aborto: 0, relata, em consulta em unidade de saúde, que há 8 meses vem apresentando aumento progressivo do volume e do número de dias de sangramento menstrual. Refere que atualmente sangra por cerca de 10 dias a cada ciclo. Queixa-se de indisposição física geral. Ao exame físico, está descorada +/4+. Ao exame ginecológico, a vulva, a vagina e o colo uterino apresentam-se normais, e o útero tem volume compatível com a idade e a paridade da paciente. No contexto clínico apresentado, considerando a maior redução de sangramento, qual a terapêutica a longo prazo recomendada?
 
 - [ ] **(A)** Ácido tranexâmico
-- [ ] **(B)** Anti-inflamatório não esteroide
-- [ ] **(C)** Anticoncepcional oral combinado
+- [ ] **(B)** nti-inflamatório não esteroide
+- [ ] **(C)** nticoncepcional oral combinado
 - [ ] **(D)** Sistema Intrauterino (SIU) com levonorgestrel
 
 <details>
@@ -10254,7 +10252,7 @@ Segundo o Instituto Nacional do Câncer (INCA), o rastreamento do câncer de mam
 - [ ] **(A)** 45 aos 69 anos de idade; anualmente
 - [ ] **(B)** 50 aos 79 anos de idade; anualmente
 - [ ] **(C)** 40 aos 69 anos de idade; a cada 2 anos
-- [ ] **(D)** 50 aos 69 anos de idade; a cada 2 anos 
+- [ ] **(D)** 50 aos 69 anos de idade; a cada 2 anos
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
@@ -10624,7 +10622,7 @@ Mulher, 51 anos, comparece à consulta ginecológica na Unidade Básica de Saúd
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** Gabarito oficial extraído do PDF da prova: **D**. (O comentário detalhado por IA para esta questão está sendo processado).
+> **Comentário Médica:** ['D', 'A paciente apresenta achados mamográficos altamente suspeitos (calcificações pleomórficas segmentares), classificados como BI-RADS 4C. Essa categoria indica uma probabilidade de malignidade entre 50% e 95%, tornando a biópsia mandatória para confirmação histopatológica. Na Atenção Primária, a conduta correta é o encaminhamento imediato ao mastologista. A alternativa A (RM) é complementar e não substitui a biópsia; a B (rastreamento habitual) aplica-se ao BI-RADS 1 ou 2; e a C (controle em 6 meses) é a conduta para BI-RADS 3. Portanto, o encaminhamento especializado é a conduta adequada.']
 </details>
 
 ---
@@ -11766,7 +11764,7 @@ Uma paciente com 30 anos, primigesta, comparece ao hospital com gestação de 40
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** Gabarito oficial extraído do PDF da prova: **A**. (O comentário detalhado por IA para esta questão está sendo processado).
+> **Comentário Médica:** ['D', 'A alternativa correta é a D. A idade gestacional (IG) deve ser definida pela DUM (40 sem 4 dias), pois a USG realizada com 27 semanas não é critério para datação (o padrão é USG de 1º trimestre). A cardiotocografia (CTG) é reativa (Frequência Cardíaca Fetal basal de 150 bpm, variabilidade presente e acelerações), indicando bem-estar fetal. Isso descarta hipóxia (A e B) ou taquicardia (C, já que a normalidade é 110-160 bpm). Como a indução em gestações prolongadas é indicada a partir de 41 semanas, a paciente deve retornar em 3 dias para a indução, baseando-se na DUM.']
 </details>
 
 ---
@@ -13282,7 +13280,7 @@ Uma médica da Estratégia de Saúde da Família percebeu que, nas consultas de 
 - [ ] **(A)** promoção de reuniões com profissionais do Centro de Atenção Psicossocial infantil e familiares para esclarecer o manejo medicamentoso dos casos
 - [ ] **(B)** escuta ativa das queixas trazidas pelos familiares, para a compreensão do problema e construção dialogada da solução
 - [ ] **(C)** utilização pelos profissionais da Unidade Básica de Saúde de uma série de técnicas de convencimento dos familiares para evitar a medicalização do sofrimento das crianças
-- [ ] **(D)** elaboração de uma série de palestras informativas, com exposição das melhores evidências científicas para o tratamento das doenças neurodegenerativas da infância 
+- [ ] **(D)** elaboração de uma série de palestras informativas, com exposição das melhores evidências científicas para o tratamento das doenças neurodegenerativas da infância
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
@@ -15572,7 +15570,7 @@ Diante da pandemia da COVID-19, e segundo o guia de vigilância epidemiológica 
 - [ ] **(A)** gorro descartável, protetor facial, máscara PFF2 e avental de pano
 - [ ] **(B)** óculos de proteção, máscara cirúrgica e avental de mangas compridas
 - [ ] **(C)** gorro descartável, óculos de proteção ou protetor facial, máscara PFF2 (N95 ou equivalente), avental de mangas compridas, luva de procedimento e calçados fechados
-- [ ] **(D)** gorro descartável, óculos de proteção ou protetor facial, máscara de pano/tecido (dupla camada), avental de mangas compridas, luva de procedimento e calçados fechados 
+- [ ] **(D)** gorro descartável, óculos de proteção ou protetor facial, máscara de pano/tecido (dupla camada), avental de mangas compridas, luva de procedimento e calçados fechados
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
@@ -22940,10 +22938,10 @@ Uma criança com 5 anos de idade precisa ser submetida a um procedimento cirúrg
 
 Uma paciente com 62 anos de idade comparece à consulta no centro de saúde com o laudo de exame de ultrassom pélvico. No laudo, constam a descrição de um cisto com septação espessa, ecogenicidade aumentada e com projeção papilar em ovário esquerdo; ausência de ascite ou outros achados, medidas uterinas e do ovário direito normais. A paciente acrescenta que desconhece histórico familiar de cistos ou tumores de ovário. Considerando o caso clínico apresentado, assinale a opção correta.
 
-- [ ] **(A)** As características ultrassonográficas são de alto risco para malignidade
-- [ ] **(B)** As características ultrassonográficas correspondem a processos não neoplásicos ou fisiológicos
-- [ ] **(C)** As características ultrassonográficas são inespecíficas para classificar risco de malignidade
-- [ ] **(D)** O exame de ultrassom não é adequado para a avaliação das características da massa anexial
+- [ ] **(A)** s características ultrassonográficas são de alto risco para malignidade
+- [ ] **(B)** s características ultrassonográficas correspondem a processos não neoplásicos ou fisiológicos
+- [ ] **(C)** s características ultrassonográficas são inespecíficas para classificar risco de malignidade
+- [ ] **(D)** exame de ultrassom não é adequado para a avaliação das características da massa anexial
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
@@ -22981,7 +22979,7 @@ Uma mulher com 25 anos de idade, casada, atendida em uma Unidade Básica de Saú
 - [ ] **(A)** usar fármacos que reduzam o sangramento na fase dos exemplo, intermenstruais, sangramentos por anti-inflamatórios e/ou antifibrinolíticos
 - [ ] **(B)** voltar a fazer uso de CHO de dose maior, podendo ser o mesmo que usava antes (etinilestradiol 35 mcg em associação com acetato de ciproterona 2 mg)
 - [ ] **(C)** inserir o Dispositivo Intrauterino (DIU), pois existe contraindicação ao uso de métodos hormonais estroprogestativos por via oral
-- [ ] **(D)** usar outro CHO com o progestógeno acetato de ciproterona, pois o gestodeno frequentemente se associa com maior risco de sangramentos intermenstruais 
+- [ ] **(D)** usar outro CHO com o progestógeno acetato de ciproterona, pois o gestodeno frequentemente se associa com maior risco de sangramentos intermenstruais
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
@@ -23040,7 +23038,7 @@ Um paciente com 55 anos de idade, branco, casado, autônomo, procura Unidade de 
 - [ ] **(A)** solicitar PSA e, se alterado, realizar o toque retal
 - [ ] **(B)** solicitar PSA associado à realização do toque retal
 - [ ] **(C)** solicitar PSA e, se alterado, encaminhar ao urologista para a realização do toque retal
-- [ ] **(D)** individualizar e compartilhar a decisão frente aos riscos e benefícios associados ao rastreamento 
+- [ ] **(D)** individualizar e compartilhar a decisão frente aos riscos e benefícios associados ao rastreamento
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
@@ -23059,7 +23057,7 @@ Durante um jogo de basquete feminino, a estrela da equipe, com 19 anos de idade,
 - [ ] **(A)** pedir uma radiografia do tornozelo para avaliar a fratura
 - [ ] **(B)** aplicar calor local e encaminhar a paciente para avaliação do ortopedista
 - [ ] **(C)** iniciar fisioterapia motora precoce e solicitar o parecer de um ortopedista
-- [ ] **(D)** imobilizar o membro afetado e medicar a paciente com anti-inflamatório 
+- [ ] **(D)** imobilizar o membro afetado e medicar a paciente com anti-inflamatório
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
@@ -23078,7 +23076,7 @@ Na Unidade Básica de Saúde, uma paciente com 28 anos de idade relata novo rela
 - [ ] **(A)** Encaminhar o casal para programa de adoção
 - [ ] **(B)** Prescrever indução de ovulação para reprodução assistida
 - [ ] **(C)** Encaminhar a paciente para cirurgia de recanalização tubária
-- [ ] **(D)** Solicitar exames para excluir outros fatores de infertilidade 
+- [ ] **(D)** Solicitar exames para excluir outros fatores de infertilidade
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
@@ -23097,7 +23095,7 @@ R Uma mulher com 44 anos de idade, atendida em hospital, refere aumento de volum
 - [ ] **(A)** Solicitar cintilografia de tireoide
 - [ ] **(B)** Solicitar ultrassonografia de tireoide
 - [ ] **(C)** Encaminhar a paciente para cirurgia
-- [ ] **(D)** Solicitar punção aspirativa por agulha fina 
+- [ ] **(D)** Solicitar punção aspirativa por agulha fina
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
@@ -23151,10 +23149,10 @@ Um homem com 26 anos de idade comparece à consulta na atenção básica por "im
 
 Uma paciente com 19 anos de idade apresenta-se no ambulatório com queixa de "caroço no pescoço". Nega comorbidades ou uso de medicações. Ao exame, há nódulo palpável em lobo esquerdo da tireoide, medindo aproximadamente 2,5 x 2 cm, endurecido, não pulsátil, sem frêmito, indolor, aderido à musculatura infra-hioidea. Há, ainda, alguns linfonodos cervicais palpáveis à esquerda. Sem outras queixas. Diante desse quadro clínico, qual é o diagnóstico mais provável e o exame inicial a ser solicitado?
 
-- [ ] **(A)** Bócio; tomografia computadorizada de pescoço, com contraste
+- [ ] **(A)** ócio; tomografia computadorizada de pescoço, com contraste
 - [ ] **(B)** Tireoidite de Hashimoto; ressonância nuclear magnética de pescoço
-- [ ] **(C)** Cisto de conduto tireoglosso; cintilografia da tireoide com iodo radioativo
-- [ ] **(D)** Câncer de tiréoide; ultrassonografia de pescoço com Doppler da tireoide e punção aspirativa por agulha fina
+- [ ] **(C)** isto de conduto tireoglosso; cintilografia da tireoide com iodo radioativo
+- [ ] **(D)** âncer de tiréoide; ultrassonografia de pescoço com Doppler da tireoide e punção aspirativa por agulha fina
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
@@ -25005,7 +25003,7 @@ Um homem com 70 anos é trazido pela filha a uma consulta com um médico de fam�
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** Gabarito oficial extraído do PDF da prova: **C**. (O comentário detalhado por IA para esta questão está sendo processado).
+> **Comentário Médica:** ['C', 'Paciente idoso, diabético e hipertenso com quadro de Pneumonia Adquirida na Comunidade (PAC). Apesar da estabilidade hemodinâmica (CURB-65 = 1), a idade avançada e as comorbidades elevam o risco de complicações, justificando a internação conforme o gabarito. Para PAC internada não grave, a escolha terapêutica envolve betalactâmicos, sendo a Ampicilina + Sulbactam (C) adequada por sua ampla cobertura. A alternativa A está incorreta, pois macrolídeos em monoterapia são contraindicados em pacientes com comorbidades. A alternativa D seria a conduta correta para tratamento ambulatorial, mas a questão priorizou a internação. A alternativa B é possível, porém a C é frequentemente preferida em idosos para maior cobertura.']
 </details>
 
 ---
@@ -25755,7 +25753,7 @@ Um paciente, que está no 5º dia pós-operatório de gastroduodenopancreatectom
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** Gabarito oficial extraído do PDF da prova: **C**. (O comentário detalhado por IA para esta questão está sendo processado).
+> **Comentário Médica:** ['C', 'A principal suspeita em paciente no pós-operatório de gastroduodenopancreatectomia com drenagem volumosa de líquido claro e límpido é a Fístula Pancreática Pós-Operatória (FPPO). O diagnóstico é confirmado pela dosagem de amilase no líquido do dreno; valores superiores a 3 vezes a amilase sérica (geralmente avaliados no 3º dia pós-op) definem a fístula. A cultura (B) não é prioritária, pois o paciente está afebril e sem sinais flogísticos. A ecoendoscopia (A) e a CPRE (D) são exames invasivos, utilizados para investigação adicional ou tratamento, mas não como triagem diagnóstica inicial da secreção do dreno.']
 </details>
 
 ---
@@ -29259,7 +29257,7 @@ Um menino com 2 anos é trazido à emergência com queixa de febre e de crise co
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** Gabarito oficial extraído do PDF da prova: **B**. (O comentário detalhado por IA para esta questão está sendo processado).
+> **Comentário Médica:** ['B', '']
 </details>
 
 ---
@@ -29376,7 +29374,7 @@ Um menino com 11 meses de idade, acompanhado da mãe, é atendido em uma Unidade
 - [ ] **(A)** Peso baixo para a idade
 - [ ] **(B)** Peso elevado para a idade
 - [ ] **(C)** Peso adequado para a idade
-- [ ] **(D)** Peso muito baixo para a idade 
+- [ ] **(D)** Peso muito baixo para a idade
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
@@ -29962,12 +29960,14 @@ Recém-nascido do sexo masculino, com 5 dias de vida, foi levado a unidade bási
 
 #### **[REVALIDA-2022_PV_objetiva_1 | Questão 18]**
 
-Um médico de plantão em uma unidade de saúde materno- infantil de hospital secundário recebe a informação de parto de uma gestante com antecedente de tratamento de sífilis primária no segundo trimestre da gestação, com penicilina benzatina 2.4000.000 Ul, dose única, via intramuscular.
+Um médico de plantão em uma unidade de saúde materno-infantil de hospital secundário recebe a informação de parto de uma gestante com antecedente de tratamento de sífilis primária no segundo trimestre da gestação, com penicilina benzatina 2.400.000 UI, dose única, via intramuscular. O parto foi normal, sem intercorrências, com recém-nascido (RN) a termo, capurro de 39 semanas e 4 dias, peso: 3.450 g, estatura: 49 cm e apgar: 9-10; ele está assintomático e com exame físico sem alterações. Houve a coleta de sorologias da mãe e do RN. Os resultados do VDRL mostram títulos maternos de 1:4 e títulos do RN de 1:32.
 
-- [ ] **(A)** parto foi normal, sem intercorrências, com recém-nascido (RN) a termo, capurro de 39 semanas e 4 dias, peso: 3.450 g, estatura: 49 cm e apgar: 9-10; ele está assintomático e com exame físico sem alterações
-- [ ] **(B)** Houve a coleta de sorologias da mãe e do RN
-- [ ] **(C)** Os resultados do VDRL mostram títulos maternos de 1:4 e títulos do RN de 1:32
-- [ ] **(D)** Em relação ao recém-nascido, a conduta a ser adotada é O fazer seguimento ambulatorial com novas coletas de VRDL nas consultas de rotina solicitar radiografia de ossos longos e hemograma e notificar sífilis congênita se exames alterados notificar sífilis congênita, solicitar líquor, radiografia de ossos longos, hemograma e iniciar tratamento notificar sífilis congênita e iniciar tratamento com penicilina cristalina endovenosa por 10 dias 
+Em relação ao recém-nascido, a conduta a ser adotada é
+
+- [ ] **(A)** fazer seguimento ambulatorial com novas coletas de VDRL nas consultas de rotina.
+- [ ] **(B)** solicitar radiografia de ossos longos e hemograma e notificar sífilis congênita se exames alterados.
+- [ ] **(C)** notificar sífilis congênita, solicitar líquor, radiografia de ossos longos, hemograma e iniciar tratamento.
+- [ ] **(D)** notificar sífilis congênita e iniciar tratamento com penicilina cristalina endovenosa por 10 dias.
 
 <details>
 <summary><b>👁️ Ver Resposta e Comentário (Gabarito: C)</b></summary>
