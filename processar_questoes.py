@@ -585,6 +585,16 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Caderno de Questões - Simulado de Estudos Interativo</title>
 <link rel="icon" type="image/svg+xml" href="{favicon_b64}">
+
+<!-- Google tag (gtag.js) - Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BBHG2JMQW2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BBHG2JMQW2');
+</script>
 <style>
     :root {{
         --primary: #1e40af;
@@ -2151,6 +2161,12 @@ function toggleTheme() {{
 
 // Funções do Modal Ko-fi
 function abrirKofiModal() {{
+    if (typeof gtag === 'function') {{
+        gtag('event', 'clique_kofi_doacao', {{
+            'event_category': 'Engajamento',
+            'event_label': 'Botao_Apoio_Kofi'
+        }});
+    }}
     const modal = document.getElementById('kofi-modal-overlay');
     if (modal) {{
         modal.classList.add('active');
