@@ -5677,11 +5677,8 @@
     "explicacao": "No 5º dia de pós-operatório (DPO) de cirurgia abdominal de grande porte, a febre sugere complicações relacionadas ao sítio cirúrgico (órgão/espaço), como abscessos ou deiscência de anastomose. O exame físico com distensão abdominal e dor à palpação profunda corrobora o foco intra-abdominal. A atelectasia (A) é causa de febre precoce (24-48h). A infecção urinária (B) ocorre entre o 3º-5º DPO, mas não justificaria a dor e distensão abdominal. A alternativa C (Abcesso subfrênico) é a complicação clássica esperada nesse período e contexto. Embora o abcesso seja um tipo de infecção de sítio cirúrgico, o termo 'profundo' (D) costuma referir-se à parede (fáscia/músculo), enquanto o quadro aponta para uma coleção intra-abdominal."
   },
   "REVALIDA-2024_1_PV_objetiva_regular_8": {
-    "gabarito": "B",
-    "explicacao": [
-      "B",
-      ""
-    ]
+    "gabarito": "C",
+    "explicacao": "Trata-se de um quadro típico de Crise Convulsiva Febril Simples. Os critérios para crise febril simples incluem: faixa etária entre 6 meses e 5 anos (paciente tem 2 anos), crise tônico-clônico generalizada, duração menor que 15 minutos (durou 7 min), ocorrência única em 24h e recuperação neurológica completa pós-ictal sem déficits focais ou sinais meníngeos. Na crise convulsiva febril simples com exame neurológico normal e recuperação completa, não há indicação rotineira de punção lombar, eletroencefalograma ou exames de neuroimagem (TC/RM). A conduta correta consiste em investigar a etiologia do foco febril (infeccioso), prescrever antipiréticos e orientar os pais sobre a benignidade do quadro. Portanto, o gabarito correto é a alternativa C."
   },
   "REVALIDA-2024_1_PV_objetiva_regular_9": {
     "gabarito": "D",
@@ -6415,5 +6412,9 @@
   "REVALIDA-2024_1_PV_objetiva_regular_70": {
     "gabarito": "D",
     "explicacao": "O DIU liberador de levonorgestrel (DIU hormonal) exerce potente ação progestagênica local no endométrio, levando à atrofia endometrial e espessamento do muco cervical. Por isso, além de sua excelente eficácia contraceptiva, possui indicação terapêutica comprovada para o tratamento de sangramento uterino anormal (SUA) não estrutural e alívio da dismenorreia primária e secundária (associada a adenomiose/endometriose). O Ministério da Saúde respalda a inserção por enfermeiros capacitados; a inserção pós-abortamento não infectado é altamente recomendada; e o DIU de cobre como contracepção de emergência deve ser inserido em até 5 dias (120 horas) após a relação desprotegida."
+  },
+  "REVALIDA-2025_1_caderno_1_preliminar_5": {
+    "gabarito": "D",
+    "explicacao": "O quadro clínico de prurido intenso de predomínio noturno associado a pápulas eritematosas e escoriações em áreas de dobras cutâneas (pregas dos braços e fossas poplíteas) é altamente característico de Escabiose (sarna). Em ambientes fechados e com aglomeração (como unidades prisionais), as diretrizes do Ministério da Saúde e de controle epidemiológico preconizam o tratamento simultâneo de todos os contactantes próximos (companheiros de cela), independentemente de apresentarem sintomas. O tratamento farmacológico sistêmico de escolha em surtos institucionais é a Ivermectina oral na dose de 200 mcg/kg (calculada rigorosamente pelo peso corporal, o que para 98 kg equivale a 3 a 4 comprimidos de 6 mg), repetindo a dose após 7 a 14 dias para erradicar novos ácaros eclodidos dos ovos. Além disso, são indispensáveis medidas de desinfestação ambiental, como lavagem de roupas de uso pessoal, cama e banho com água quente e incremento da limpeza geral da cela. Portanto, a alternativa correta é a D."
   }
 }

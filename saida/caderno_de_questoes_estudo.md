@@ -14572,7 +14572,7 @@ Um menino com 2 anos é trazido à emergência com queixa de febre e de crise co
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** ['B', '']
+> **Comentário Médica:** Trata-se de um quadro típico de Crise Convulsiva Febril Simples. Os critérios para crise febril simples incluem: faixa etária entre 6 meses e 5 anos (paciente tem 2 anos), crise tônico-clônico generalizada, duração menor que 15 minutos (durou 7 min), ocorrência única em 24h e recuperação neurológica completa pós-ictal sem déficits focais ou sinais meníngeos. Na crise convulsiva febril simples com exame neurológico normal e recuperação completa, não há indicação rotineira de punção lombar, eletroencefalograma ou exames de neuroimagem (TC/RM). A conduta correta consiste em investigar a etiologia do foco febril (infeccioso), prescrever antipiréticos e orientar os pais sobre a benignidade do quadro. Portanto, o gabarito correto é a alternativa C.
 </details>
 
 ---
@@ -15980,7 +15980,7 @@ Paciente, 20 semanas de gestação, comparece à consulta de pré-natal, com exa
 
 ---
 
-### Subtema: Pneumonias, Pleura e Embolia (123 questões)
+### Subtema: Pneumonias, Pleura e Embolia (124 questões)
 
 #### **[ENARE-2021-Objetiva | Questão 36]**
 
@@ -17975,6 +17975,27 @@ Uma mulher de 65 anos, doadora de sangue frequente, vai à consulta ginecológic
 > **Gabarito Oficial:** Alternativa **(A)**
 >
 > **Comentário Médica:** A paciente apresenta quadro clínico clássico de sífilis primária (cancro duro: lesão endurecida, indolor, com linfadenopatia associada) e teste rápido (treponêmico) positivo. De acordo com as diretrizes do Ministério da Saúde, o tratamento para sífilis primária, secundária ou latente recente consiste em dose única de 2,4 milhões UI de penicilina benzatina. O controle de cura deve ser feito com testes não treponêmicos (VDRL). As opções A e B são desnecessárias para iniciar a conduta diante da clínica e teste rápido positivo. A opção D indica o esquema para sífilis terciária ou latente tardia/tempo ignorado.
+</details>
+
+---
+
+#### **[REVALIDA-2025_1_caderno_1_preliminar | Questão 5]**
+
+A médica de uma penitenciária avalia homem de 26 anos, com 98 kg, que relata compartilhar a cela com 12 pessoas (a qual comportaria no máximo 5). O paciente queixa-se de prurido cutâneo há 2 dias com piora no período noturno. Ao exame físico, a médica identifica pápulas eritematosas com escoriações em região de prega em braços e em região posterior de joelhos.
+
+Com relação a essa situação, assinale a alternativa que apresenta, respectivamente, a orientação médica e a prescrição medicamentosa adequadas.
+
+- [ ] **(A)** Restrição de visitas aos detentos e isolamento dos casos nas celas, sem permissão de saída; uso de ivermectina 6 mg, 01 comprimido via oral, repetindo em 15 dias, para todos da cela.
+- [ ] **(B)** Isolamento dos casos na enfermaria da unidade e lavagem frequente das roupas de cama, de banho e de vestuário com água quente (pelo menos a 30 °C); uso de sprays inseticidas e fumigantes.
+- [ ] **(C)** Realização de palestras educativas para os detentos sobre medidas preventivas e aumento do tempo de banho de sol; uso de fluconazol 150 mg por semana durante 1 mês, para todos da cela.
+- [ ] **(D)** Incremento da frequência de limpeza geral da unidade e higienização adequada das roupas de uso pessoal, de cama e de banho; uso de ivermectina 6 mg, dose conforme o peso, repetindo em 15 dias, para todos da cela.
+
+<details>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: D)</b></summary>
+
+> **Gabarito Oficial:** Alternativa **(D)**
+>
+> **Comentário Médica:** O quadro clínico de prurido intenso de predomínio noturno associado a pápulas eritematosas e escoriações em áreas de dobras cutâneas (pregas dos braços e fossas poplíteas) é altamente característico de Escabiose (sarna). Em ambientes fechados e com aglomeração (como unidades prisionais), as diretrizes do Ministério da Saúde e de controle epidemiológico preconizam o tratamento simultâneo de todos os contactantes próximos (companheiros de cela), independentemente de apresentarem sintomas. O tratamento farmacológico sistêmico de escolha em surtos institucionais é a Ivermectina oral na dose de 200 mcg/kg (calculada rigorosamente pelo peso corporal, o que para 98 kg equivale a 3 a 4 comprimidos de 6 mg), repetindo a dose após 7 a 14 dias para erradicar novos ácaros eclodidos dos ovos. Além disso, são indispensáveis medidas de desinfestação ambiental, como lavagem de roupas de uso pessoal, cama e banho com água quente e incremento da limpeza geral da cela. Portanto, a alternativa correta é a D.
 </details>
 
 ---

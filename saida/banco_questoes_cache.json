@@ -18624,6 +18624,21 @@
   },
   {
     "origem": "REVALIDA-2025_1_caderno_1_preliminar",
+    "numero": "5",
+    "especialidade": "Clínica Médica",
+    "tema": "Pneumologia",
+    "subtema": "Pneumonias, Pleura e Embolia",
+    "enunciado": "A médica de uma penitenciária avalia homem de 26 anos, com 98 kg, que relata compartilhar a cela com 12 pessoas (a qual comportaria no máximo 5). O paciente queixa-se de prurido cutâneo há 2 dias com piora no período noturno. Ao exame físico, a médica identifica pápulas eritematosas com escoriações em região de prega em braços e em região posterior de joelhos.\n\nCom relação a essa situação, assinale a alternativa que apresenta, respectivamente, a orientação médica e a prescrição medicamentosa adequadas.",
+    "alternativas": {
+      "A": "Restrição de visitas aos detentos e isolamento dos casos nas celas, sem permissão de saída; uso de ivermectina 6 mg, 01 comprimido via oral, repetindo em 15 dias, para todos da cela.",
+      "B": "Isolamento dos casos na enfermaria da unidade e lavagem frequente das roupas de cama, de banho e de vestuário com água quente (pelo menos a 30 °C); uso de sprays inseticidas e fumigantes.",
+      "C": "Realização de palestras educativas para os detentos sobre medidas preventivas e aumento do tempo de banho de sol; uso de fluconazol 150 mg por semana durante 1 mês, para todos da cela.",
+      "D": "Incremento da frequência de limpeza geral da unidade e higienização adequada das roupas de uso pessoal, de cama e de banho; uso de ivermectina 6 mg, dose conforme o peso, repetindo em 15 dias, para todos da cela."
+    },
+    "gabarito": "D"
+  },
+  {
+    "origem": "REVALIDA-2025_1_caderno_1_preliminar",
     "numero": "6",
     "especialidade": "Clínica Médica",
     "tema": "Nefrologia",

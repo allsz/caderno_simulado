@@ -481,6 +481,21 @@ function filtrarPorNumeroQuestao(numero) {
     aplicarFiltroEPaginacao(false);
 }
 
+function alterarNumeroQuestao(delta) {
+    const inputQ = document.getElementById('input-busca-questao');
+    if (!inputQ) return;
+    let val = parseInt(inputQ.value, 10);
+    if (isNaN(val)) {
+        val = delta > 0 ? 1 : 1;
+    } else {
+        val += delta;
+    }
+    if (val < 1) val = 1;
+    if (val > 100) val = 100;
+    inputQ.value = val;
+    filtrarPorNumeroQuestao(val);
+}
+
 function limparBuscaQuestao() {
     const inputQ = document.getElementById('input-busca-questao');
     if (inputQ) inputQ.value = '';
@@ -1554,13 +1569,13 @@ function renderizarDesempenhoModal() {
 
     diagnosticoHtml += `</div>`;
 
-    // 2. Gráfico Donut SVG
-    const C = 439.82297;
+    // 2. Gráfico Donut SVG (Ajustado para maior espaçamento interno e raio amplo)
+    const C = 565.48668; // 2 * PI * 90
     let svgDonutSlices = '';
     let offsetAcumulado = 0;
 
     if (totalAcertos === 0) {
-        svgDonutSlices = `<circle cx="100" cy="100" r="70" fill="transparent" stroke="var(--border-color)" stroke-width="24"></circle>`;
+        svgDonutSlices = `<circle cx="120" cy="120" r="90" fill="transparent" stroke="var(--border-color)" stroke-width="20"></circle>`;
     } else {
         Object.keys(statsPorEsp).sort().forEach(esp => {
             const acertos = statsPorEsp[esp].acertos;
@@ -1569,9 +1584,9 @@ function renderizarDesempenhoModal() {
                 const dash = (frac * C).toFixed(2);
                 const cor = CORES_ESPECIALIDADES[esp] || '#2563eb';
                 svgDonutSlices += `
-                    <circle cx="100" cy="100" r="70" fill="transparent"
-                        stroke="${cor}" stroke-width="24"
-                        stroke-dasharray="${dash} ${C}"
+                    <circle cx="120" cy="120" r="90" fill="transparent"
+                        stroke="${cor}" stroke-width="20"
+                        stroke-dasharray="${dash} ${C.toFixed(2)}"
                         stroke-dashoffset="-${offsetAcumulado.toFixed(2)}"
                         style="transition: stroke-dasharray 0.8s ease;">
                     </circle>
@@ -1608,8 +1623,8 @@ function renderizarDesempenhoModal() {
         <div class="desempenho-grid">
             <div class="desempenho-chart-section">
                 <div class="donut-container">
-                    <svg width="200" height="200" viewBox="0 0 200 200" class="donut-svg">
-                        <circle cx="100" cy="100" r="70" fill="transparent" stroke="var(--alt-hover-bg)" stroke-width="24"></circle>
+                    <svg width="240" height="240" viewBox="0 0 240 240" class="donut-svg">
+                        <circle cx="120" cy="120" r="90" fill="transparent" stroke="var(--alt-hover-bg)" stroke-width="20"></circle>
                         ${svgDonutSlices}
                     </svg>
                     <div class="donut-center-text">

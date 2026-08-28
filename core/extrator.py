@@ -290,6 +290,66 @@ def extrair_gabarito_pdf(caminho_pdf, mapa_revalida=None):
             "91": "A", "92": "D", "93": "A", "94": "D", "95": "C", "96": "A", "97": "C", "98": "B", "99": "C", "100": "A"
         }
 
+    # Se for REVALIDA-2024/2 (Prova 2), gabarito oficial consolidado pós-recurso (com 6 anuladas: 3, 22, 30, 37, 46, 60)
+    if "REVALIDA-2024_2" in nome_arq.upper() or "REVALIDA_2024_2" in nome_arq.upper() or "REVALIDA-2024-2" in nome_arq.upper():
+        return {
+            "1": "C", "2": "B", "3": "ANULADA", "4": "D", "5": "D", "6": "A", "7": "D", "8": "A", "9": "B", "10": "B",
+            "11": "A", "12": "B", "13": "D", "14": "C", "15": "D", "16": "C", "17": "C", "18": "A", "19": "A", "20": "B",
+            "21": "D", "22": "ANULADA", "23": "B", "24": "D", "25": "C", "26": "C", "27": "A", "28": "C", "29": "B", "30": "ANULADA",
+            "31": "C", "32": "B", "33": "A", "34": "A", "35": "C", "36": "B", "37": "ANULADA", "38": "A", "39": "C", "40": "A",
+            "41": "B", "42": "C", "43": "D", "44": "A", "45": "C", "46": "ANULADA", "47": "C", "48": "D", "49": "D", "50": "D",
+            "51": "B", "52": "B", "53": "C", "54": "D", "55": "C", "56": "B", "57": "B", "58": "C", "59": "A", "60": "ANULADA",
+            "61": "A", "62": "A", "63": "B", "64": "D", "65": "B", "66": "D", "67": "A", "68": "D", "69": "A", "70": "A",
+            "71": "D", "72": "C", "73": "C", "74": "D", "75": "D", "76": "B", "77": "C", "78": "A", "79": "C", "80": "D",
+            "81": "D", "82": "D", "83": "B", "84": "B", "85": "A", "86": "C", "87": "C", "88": "A", "89": "A", "90": "B",
+            "91": "B", "92": "C", "93": "B", "94": "B", "95": "C", "96": "A", "97": "C", "98": "A", "99": "D", "100": "D"
+        }
+
+    # Se for REVALIDA-2025/1 (Prova 1), gabarito oficial consolidado pós-recurso (com 3 anuladas: 7, 23, 34)
+    if "REVALIDA-2025_1" in nome_arq.upper() or "REVALIDA_2025_1" in nome_arq.upper() or "REVALIDA-2025-1" in nome_arq.upper():
+        return {
+            "1": "B", "2": "A", "3": "A", "4": "B", "5": "D", "6": "C", "7": "ANULADA", "8": "B", "9": "A", "10": "C",
+            "11": "B", "12": "A", "13": "A", "14": "D", "15": "A", "16": "B", "17": "B", "18": "D", "19": "D", "20": "B",
+            "21": "C", "22": "B", "23": "ANULADA", "24": "A", "25": "B", "26": "D", "27": "D", "28": "B", "29": "A", "30": "A",
+            "31": "C", "32": "C", "33": "C", "34": "ANULADA", "35": "C", "36": "A", "37": "B", "38": "D", "39": "D", "40": "D",
+            "41": "A", "42": "B", "43": "A", "44": "D", "45": "A", "46": "B", "47": "D", "48": "C", "49": "D", "50": "C",
+            "51": "C", "52": "D", "53": "B", "54": "A", "55": "C", "56": "C", "57": "C", "58": "B", "59": "D", "60": "B",
+            "61": "A", "62": "B", "63": "D", "64": "A", "65": "C", "66": "C", "67": "D", "68": "C", "69": "D", "70": "B",
+            "71": "B", "72": "D", "73": "C", "74": "D", "75": "C", "76": "A", "77": "C", "78": "D", "79": "A", "80": "D",
+            "81": "A", "82": "B", "83": "D", "84": "B", "85": "C", "86": "B", "87": "B", "88": "B", "89": "C", "90": "B",
+            "91": "A", "92": "D", "93": "A", "94": "B", "95": "A", "96": "B", "97": "D", "98": "A", "99": "C", "100": "D"
+        }
+
+    # Se for REVALIDA-2025/2 (Prova 2), gabarito oficial consolidado pós-recurso (com 7 anuladas: 7, 9, 11, 43, 55, 85, 87)
+    if "REVALIDA-2025_2" in nome_arq.upper() or "REVALIDA_2025_2" in nome_arq.upper() or "REVALIDA-2025-2" in nome_arq.upper():
+        return {
+            "1": "A", "2": "B", "3": "A", "4": "D", "5": "C", "6": "B", "7": "ANULADA", "8": "B", "9": "ANULADA", "10": "C",
+            "11": "ANULADA", "12": "D", "13": "C", "14": "B", "15": "A", "16": "B", "17": "D", "18": "D", "19": "D", "20": "C",
+            "21": "A", "22": "A", "23": "B", "24": "D", "25": "A", "26": "C", "27": "D", "28": "B", "29": "A", "30": "C",
+            "31": "B", "32": "D", "33": "C", "34": "B", "35": "D", "36": "C", "37": "D", "38": "D", "39": "D", "40": "B",
+            "41": "C", "42": "D", "43": "ANULADA", "44": "B", "45": "B", "46": "C", "47": "C", "48": "D", "49": "B", "50": "C",
+            "51": "B", "52": "C", "53": "C", "54": "B", "55": "ANULADA", "56": "B", "57": "C", "58": "A", "59": "C", "60": "D",
+            "61": "C", "62": "A", "63": "C", "64": "B", "65": "B", "66": "B", "67": "B", "68": "B", "69": "D", "70": "B",
+            "71": "A", "72": "C", "73": "D", "74": "D", "75": "C", "76": "B", "77": "A", "78": "D", "79": "D", "80": "A",
+            "81": "D", "82": "D", "83": "A", "84": "A", "85": "ANULADA", "86": "A", "87": "ANULADA", "88": "A", "89": "B", "90": "D",
+            "91": "D", "92": "A", "93": "A", "94": "B", "95": "C", "96": "C", "97": "A", "98": "A", "99": "A", "100": "B"
+        }
+
+    # Se for REVALIDA-2026/1 (Prova 1), gabarito oficial consolidado
+    if "REVALIDA-2026_1" in nome_arq.upper() or "REVALIDA_2026_1" in nome_arq.upper() or "REVALIDA-2026-1" in nome_arq.upper():
+        return {
+            "1": "D", "2": "C", "3": "C", "4": "D", "5": "B", "6": "D", "7": "D", "8": "C", "9": "D", "10": "D",
+            "11": "D", "12": "D", "13": "C", "14": "B", "15": "B", "16": "B", "17": "B", "18": "D", "19": "B", "20": "B",
+            "21": "A", "22": "B", "23": "C", "24": "C", "25": "A", "26": "A", "27": "B", "28": "A", "29": "A", "30": "C",
+            "31": "C", "32": "C", "33": "C", "34": "C", "35": "C", "36": "B", "37": "A", "38": "B", "39": "B", "40": "C",
+            "41": "A", "42": "A", "43": "C", "44": "A", "45": "A", "46": "D", "47": "C", "48": "A", "49": "D", "50": "D",
+            "51": "B", "52": "D", "53": "D", "54": "A", "55": "D", "56": "C", "57": "D", "58": "B", "59": "A", "60": "B",
+            "61": "A", "62": "A", "63": "B", "64": "A", "65": "B", "66": "B", "67": "D", "68": "D", "69": "C", "70": "D",
+            "71": "A", "72": "D", "73": "A", "74": "C", "75": "C", "76": "A", "77": "A", "78": "C", "79": "D", "80": "C",
+            "81": "B", "82": "B", "83": "A", "84": "A", "85": "C", "86": "A", "87": "C", "88": "B", "89": "D", "90": "B",
+            "91": "C", "92": "D", "93": "C", "94": "A", "95": "A", "96": "B", "97": "B", "98": "D", "99": "B", "100": "D"
+        }
+
     # Se for uma prova do Revalida e tivermos o mapa carregado
     if mapa_revalida:
         for chave, gab_map in mapa_revalida.items():
@@ -460,6 +520,15 @@ CORRECOES_MANUAIS_QUESTOES = {
             "B": "solicitar novo exame citopatológico do colo uterino em 12 meses e, caso a alteração permaneça, avaliar indicação de cirurgia.",
             "C": "encaminhar a paciente para o serviço especializado de Ginecologia para realização de um novo exame mais detalhado, a colposcopia.",
             "D": "solicitar novo exame citopatológico do colo uterino em 6 meses e, caso a alteração permaneça, solicitar a realização de um exame mais detalhado, a colposcopia."
+        }
+    },
+    "REVALIDA-2025_1_caderno_1_preliminar_5": {
+        "enunciado": "A médica de uma penitenciária avalia homem de 26 anos, com 98 kg, que relata compartilhar a cela com 12 pessoas (a qual comportaria no máximo 5). O paciente queixa-se de prurido cutâneo há 2 dias com piora no período noturno. Ao exame físico, a médica identifica pápulas eritematosas com escoriações em região de prega em braços e em região posterior de joelhos.\n\nCom relação a essa situação, assinale a alternativa que apresenta, respectivamente, a orientação médica e a prescrição medicamentosa adequadas.",
+        "alternativas": {
+            "A": "Restrição de visitas aos detentos e isolamento dos casos nas celas, sem permissão de saída; uso de ivermectina 6 mg, 01 comprimido via oral, repetindo em 15 dias, para todos da cela.",
+            "B": "Isolamento dos casos na enfermaria da unidade e lavagem frequente das roupas de cama, de banho e de vestuário com água quente (pelo menos a 30 °C); uso de sprays inseticidas e fumigantes.",
+            "C": "Realização de palestras educativas para os detentos sobre medidas preventivas e aumento do tempo de banho de sol; uso de fluconazol 150 mg por semana durante 1 mês, para todos da cela.",
+            "D": "Incremento da frequência de limpeza geral da unidade e higienização adequada das roupas de uso pessoal, de cama e de banho; uso de ivermectina 6 mg, dose conforme o peso, repetindo em 15 dias, para todos da cela."
         }
     }
 }

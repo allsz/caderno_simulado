@@ -164,6 +164,17 @@
                     <div class="filtro-busca-questao-box">
                         <svg class="busca-questao-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                         <input type="number" id="input-busca-questao" class="input-busca-questao" placeholder="Filtrar por número da questão (ex: 45)..." min="1" max="100" oninput="filtrarPorNumeroQuestao(this.value)">
+                        
+                        <!-- Custom Spin Button / Stepper Pill -->
+                        <div class="stepper-pill-container" title="Navegar por número da questão">
+                            <button type="button" class="stepper-pill-btn stepper-up" onclick="alterarNumeroQuestao(1)" aria-label="Questão seguinte">
+                                <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                            </button>
+                            <button type="button" class="stepper-pill-btn stepper-down" onclick="alterarNumeroQuestao(-1)" aria-label="Questão anterior">
+                                <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+                        </div>
+
                         <button type="button" id="btn-limpar-busca-q" class="btn-limpar-busca-q" style="display: none;" onclick="limparBuscaQuestao()">&times; Limpar</button>
                     </div>
                     <div class="filtro-questao-status" id="filtro-questao-status"></div>
@@ -394,8 +405,12 @@
                 Você tem certeza de que deseja <strong>apagar todas as alternativas marcadas</strong> e reiniciar seu
                 progresso do simulado?
                 <div class="confirm-modal-warning">
-                    ⚠️ <strong>Atenção:</strong> Esta ação é irreversível e resetará suas estatísticas e respostas
-                    salvas no navegador.
+                    <svg class="warning-icon-minimal" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
+                        <line x1="12" y1="9" x2="12" y2="13"></line>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                    <div><strong>Atenção:</strong> Esta ação é irreversível e resetará suas estatísticas e respostas salvas no navegador.</div>
                 </div>
             </div>
             <div class="confirm-modal-footer">
