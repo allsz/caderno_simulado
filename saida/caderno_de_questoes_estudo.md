@@ -21583,9 +21583,9 @@ Uma criança do sexo feminino, de 2 anos de idade, chega encaminhada pelo seu pe
 - [ ] **(E)** estímulo hormonal remanescente do intraútero.
 
 <details>
-<summary><b>👁️ Ver Resposta e Comentário (Gabarito: A)</b></summary>
+<summary><b>👁️ Ver Resposta e Comentário (Gabarito: B)</b></summary>
 
-> **Gabarito Oficial:** Alternativa **(A)**
+> **Gabarito Oficial:** Alternativa **(B)**
 >
 > **Comentário Médica:** A descrição clínica de uma massa polipoide, gelatinosa, semelhante a 'cachos de uva' (sarcoma botrioide) que protrui pela vagina em lactentes ou pré-escolares é patognomônica de Rabdomiossarcoma embrionário. O gabarito fornecido na questão (A) está incorreto; a má higiene causa vulvovaginites, não massas tumorais. Corpo estranho (C) pode causar sangramento e secreção, mas não apresenta aspecto de 'cachos de uva'. Contaminação hormonal (D) causa telarca ou sangramento vaginal, sem formar lesões tumorais. Estímulo hormonal remanescente (E) explica sangramento vaginal neonatal, mas não justifica uma massa tumoral aos 2 anos. Portanto, a hipótese principal é o Sarcoma Botrioide (Rabdomiossarcoma).
 </details>
