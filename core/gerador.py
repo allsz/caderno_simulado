@@ -140,8 +140,12 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
 
                     enunc_html = formatar_texto_fluido(q['enunciado'], modo_html=True)
                     html_parts.append(f"<div class='card-questao' id='card_{q_id}' data-especialidade='{esp_attr}' data-tema='{tema_attr}' data-subtema='{subtema_attr}' data-idx='{q_global_idx}'>\n")
-                    html_parts.append(f"<span class='tag-origem'>{q['origem']} | Questão {q['numero']} • <span class='tag-tema-destaque'>{tema}</span></span>\n")
-                    html_parts.append(f"<div class='enunciado'>{enunc_html}</div>\n")
+                    html_parts.append("  <div class='card-header-tags'>\n")
+                    html_parts.append(f"    <span class='tag-origem'>{q['origem']} | Questão {q['numero']}</span>\n")
+                    html_parts.append(f"    <span class='tag-tema'>{tema}</span>\n")
+                    html_parts.append(f"    <span class='tag-subtema'>{subtema}</span>\n")
+                    html_parts.append("  </div>\n")
+                    html_parts.append(f"  <div class='enunciado'>{enunc_html}</div>\n")
                     
                     imgs = q.get("imagens") or ([q.get("imagem")] if q.get("imagem") else [])
                     if imgs:

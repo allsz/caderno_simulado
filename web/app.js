@@ -7,6 +7,7 @@ const LEGACY_STORAGE_KEYS = ['respostas_simulado', 'respostas_simulado_v1', 'sim
 // ========================================================
 let especialidadeAtiva = 'TODAS';
 let temaAtivo = 'TODOS';
+let subtemaAtivo = 'TODOS';
 let paginaAtual = 1;
 let itensPorPagina = 25;
 let todosCards = [];
@@ -239,17 +240,23 @@ function inicializarPaginacaoEFiltros() {
     todosCards = Array.from(document.querySelectorAll('.card-questao'));
     if (todosCards.length === 0) return;
 
-    // Constrói mapa de contagem hierárquico
+    // Constrói mapa de contagem hierárquico (Especialidade -> Temas -> Subtemas)
     taxonomiaEspecialidades = {};
     todosCards.forEach(card => {
         const esp = card.getAttribute('data-especialidade') || 'Outros / Não Categorizados';
         const tema = card.getAttribute('data-tema') || 'Geral';
+        const subtema = card.getAttribute('data-subtema') || 'Diversos';
         
         if (!taxonomiaEspecialidades[esp]) {
             taxonomiaEspecialidades[esp] = { total: 0, temas: {} };
         }
         taxonomiaEspecialidades[esp].total++;
-        taxonomiaEspecialidades[esp].temas[tema] = (taxonomiaEspecialidades[esp].temas[tema] || 0) + 1;
+
+        if (!taxonomiaEspecialidades[esp].temas[tema]) {
+            taxonomiaEspecialidades[esp].temas[tema] = { total: 0, subtemas: {} };
+        }
+        taxonomiaEspecialidades[esp].temas[tema].total++;
+        taxonomiaEspecialidades[esp].temas[tema].subtemas[subtema] = (taxonomiaEspecialidades[esp].temas[tema].subtemas[subtema] || 0) + 1;
     });
 
     // Monta abas de Especialidades
@@ -284,6 +291,7 @@ function inicializarPaginacaoEFiltros() {
 function filtrarPorEspecialidade(esp) {
     especialidadeAtiva = esp;
     temaAtivo = 'TODOS';
+    subtemaAtivo = 'TODOS';
     paginaAtual = 1;
 
     // Atualiza estado ativo das abas de especialidade
@@ -294,6 +302,10 @@ function filtrarPorEspecialidade(esp) {
             btn.classList.remove('active');
         }
     });
+
+    // Oculta subtemas ao trocar especialidade
+    const subtemasWrapper = document.getElementById('filtro-subtemas-wrapper');
+    if (subtemasWrapper) subtemasWrapper.style.display = 'none';
 
     // Atualiza container de temas com sub-botões diretos
     const temasWrapper = document.getElementById('filtro-temas-wrapper');
@@ -307,7 +319,7 @@ function filtrarPorEspecialidade(esp) {
         const temasObj = taxonomiaEspecialidades[esp].temas || {};
         const listaTemas = Object.keys(temasObj).sort();
 
-        // Popula Sub-pills
+        // Popula Sub-pills de Temas
         if (pillsContainer) {
             pillsContainer.innerHTML = '';
             
@@ -342,7 +354,7 @@ function filtrarPorEspecialidade(esp) {
                     p.type = 'button';
                     p.className = 'subfiltro-pill';
                     p.setAttribute('data-tema', t);
-                    p.innerHTML = `${t} <span class="subfiltro-pill-count">${temasObj[t]}</span>`;
+                    p.innerHTML = `${t} <span class="subfiltro-pill-count">${temasObj[t].total}</span>`;
                     p.onclick = (e) => {
                         if (e) e.preventDefault();
                         filtrarPorTema(t);
@@ -364,9 +376,10 @@ function filtrarPorEspecialidade(esp) {
 
 function filtrarPorTema(tema) {
     temaAtivo = tema;
+    subtemaAtivo = 'TODOS';
     paginaAtual = 1;
 
-    // Sincroniza Sub-pills
+    // Sincroniza Sub-pills de Temas
     document.querySelectorAll('.subfiltro-pill').forEach(btn => {
         if (btn.getAttribute('data-tema') === tema) {
             btn.classList.add('active');
@@ -374,6 +387,52 @@ function filtrarPorTema(tema) {
             btn.classList.remove('active');
         }
     });
+
+    // Renderiza subtemas do tema selecionado (3º nível)
+    const subtemasWrapper = document.getElementById('filtro-subtemas-wrapper');
+    const subtemasContainer = document.getElementById('filtro-subtemas-pills');
+
+    if (tema === 'TODOS' || !taxonomiaEspecialidades[especialidadeAtiva] || !taxonomiaEspecialidades[especialidadeAtiva].temas[tema]) {
+        if (subtemasWrapper) subtemasWrapper.style.display = 'none';
+    } else {
+        const subtemasObj = taxonomiaEspecialidades[especialidadeAtiva].temas[tema].subtemas || {};
+        const listaSubtemas = Object.keys(subtemasObj).sort();
+
+        if (listaSubtemas.length <= 1 && (listaSubtemas[0] === 'Diversos' || listaSubtemas[0] === 'Geral')) {
+            if (subtemasWrapper) subtemasWrapper.style.display = 'none';
+        } else {
+            if (subtemasWrapper) subtemasWrapper.style.display = 'block';
+            if (subtemasContainer) {
+                subtemasContainer.innerHTML = '';
+
+                // Pill "Todos os Subtemas"
+                const pillTodosSub = document.createElement('button');
+                pillTodosSub.type = 'button';
+                pillTodosSub.className = 'subtema-pill active';
+                pillTodosSub.setAttribute('data-subtema', 'TODOS');
+                pillTodosSub.innerHTML = `Todos os Subtemas <span class="subtema-pill-count">${taxonomiaEspecialidades[especialidadeAtiva].temas[tema].total}</span>`;
+                pillTodosSub.onclick = (e) => {
+                    if (e) e.preventDefault();
+                    filtrarPorSubtema('TODOS');
+                };
+                subtemasContainer.appendChild(pillTodosSub);
+
+                // Pills individuais de Subtemas
+                listaSubtemas.forEach(s => {
+                    const pillSub = document.createElement('button');
+                    pillSub.type = 'button';
+                    pillSub.className = 'subtema-pill';
+                    pillSub.setAttribute('data-subtema', s);
+                    pillSub.innerHTML = `${s} <span class="subtema-pill-count">${subtemasObj[s]}</span>`;
+                    pillSub.onclick = (e) => {
+                        if (e) e.preventDefault();
+                        filtrarPorSubtema(s);
+                    };
+                    subtemasContainer.appendChild(pillSub);
+                });
+            }
+        }
+    }
 
     if (typeof gtag === 'function') {
         gtag('event', 'filtrar_tema', {
@@ -385,21 +444,50 @@ function filtrarPorTema(tema) {
     aplicarFiltroEPaginacao(true);
 }
 
+function filtrarPorSubtema(subtema) {
+    subtemaAtivo = subtema;
+    paginaAtual = 1;
+
+    // Sincroniza pills de subtemas
+    document.querySelectorAll('.subtema-pill').forEach(btn => {
+        if (btn.getAttribute('data-subtema') === subtema) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
+    if (typeof gtag === 'function') {
+        gtag('event', 'filtrar_subtema', {
+            'especialidade': especialidadeAtiva,
+            'tema': temaAtivo,
+            'subtema': subtema
+        });
+    }
+
+    aplicarFiltroEPaginacao(true);
+}
+
 function aplicarFiltroEPaginacao(scroll = false) {
     if (todosCards.length === 0) return;
 
-    // Filtra cards por Especialidade e por Tema com normalização
+    // Filtra cards por Especialidade, Tema e Subtema com normalização
     const espFiltro = (especialidadeAtiva || 'TODAS').trim();
     const temaFiltro = (temaAtivo || 'TODOS').trim();
+    const subtemaFiltro = (subtemaAtivo || 'TODOS').trim();
 
     cardsFiltrados = todosCards.filter(card => {
         const esp = (card.getAttribute('data-especialidade') || '').trim();
         const tema = (card.getAttribute('data-tema') || '').trim();
+        const subtema = (card.getAttribute('data-subtema') || '').trim();
 
         if (espFiltro !== 'TODAS' && esp !== espFiltro) {
             return false;
         }
         if (temaFiltro !== 'TODOS' && tema !== temaFiltro) {
+            return false;
+        }
+        if (subtemaFiltro !== 'TODOS' && subtema !== subtemaFiltro) {
             return false;
         }
         return true;

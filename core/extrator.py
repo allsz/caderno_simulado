@@ -116,6 +116,21 @@ def extrair_gabarito_pdf(caminho_pdf, mapa_revalida=None):
                 if gab_map:
                     return gab_map
 
+    # Se for REVALIDA-2026, o gabarito oficial consolidado é o definitivo de 100 questões
+    if "REVALIDA-2026" in nome_arq.upper() or "REVALIDA_2026" in nome_arq.upper():
+        return {
+            "1": "D", "2": "C", "3": "C", "4": "D", "5": "B", "6": "D", "7": "D", "8": "C", "9": "D", "10": "D",
+            "11": "D", "12": "D", "13": "C", "14": "B", "15": "B", "16": "B", "17": "B", "18": "D", "19": "B", "20": "B",
+            "21": "A", "22": "B", "23": "C", "24": "C", "25": "A", "26": "A", "27": "B", "28": "A", "29": "A", "30": "C",
+            "31": "C", "32": "C", "33": "C", "34": "C", "35": "C", "36": "B", "37": "A", "38": "B", "39": "B", "40": "C",
+            "41": "A", "42": "A", "43": "C", "44": "A", "45": "A", "46": "D", "47": "C", "48": "A", "49": "D", "50": "D",
+            "51": "B", "52": "D", "53": "D", "54": "A", "55": "D", "56": "C", "57": "D", "58": "B", "59": "A", "60": "B",
+            "61": "A", "62": "A", "63": "B", "64": "A", "65": "B", "66": "B", "67": "D", "68": "D", "69": "C", "70": "D",
+            "71": "A", "72": "D", "73": "A", "74": "C", "75": "C", "76": "A", "77": "A", "78": "C", "79": "D", "80": "C",
+            "81": "B", "82": "B", "83": "A", "84": "A", "85": "C", "86": "A", "87": "C", "88": "B", "89": "D", "90": "B",
+            "91": "C", "92": "D", "93": "C", "94": "A", "95": "A", "96": "B", "97": "B", "98": "D", "99": "B", "100": "D"
+        }
+
     # Se for ENARE-2025, o PDF possui gabarito incompleto na última página.
     # O gabarito oficial consolidado é obtido da imagem Gabarito_ENARE_2025.png (Acesso Direto - Tipo 3).
     if "ENARE-2025" in nome_arq.upper() or "ENARE_2025" in nome_arq.upper():
