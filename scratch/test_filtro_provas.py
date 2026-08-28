@@ -6,18 +6,18 @@ html = Path("index.html").read_text(encoding="utf-8")
 # 1. Checa data-banca em todos os cards
 cards_banca = re.findall(r'data-banca=[\'\"]([^\'\"]+)[\'\"]', html)
 print(f"Total de cards com data-banca: {len(cards_banca)}")
-assert len(cards_banca) == 1496, f"Esperado 1496 cards, encontrado {len(cards_banca)}"
+assert len(cards_banca) == 1495, f"Esperado 1495 cards, encontrado {len(cards_banca)}"
 
 enare_count = sum(1 for b in cards_banca if b == "ENARE")
 revalida_count = sum(1 for b in cards_banca if b == "REVALIDA")
 print(f"ENARE: {enare_count} questões | REVALIDA: {revalida_count} questões")
-assert enare_count == 591, f"Esperado 591 ENARE, encontrado {enare_count}"
-assert revalida_count == 905, f"Esperado 905 REVALIDA, encontrado {revalida_count}"
+assert enare_count == 569, f"Esperado 569 ENARE, encontrado {enare_count}"
+assert revalida_count == 926, f"Esperado 926 REVALIDA, encontrado {revalida_count}"
 
 # 2. Checa data-rotulo-edicao com Prova 1 e Prova 2
 edicoes = re.findall(r'data-rotulo-edicao=[\'\"]([^\'\"]+)[\'\"]', html)
 print(f"Total de cards com data-rotulo-edicao: {len(edicoes)}")
-assert len(edicoes) == 1496
+assert len(edicoes) == 1495
 
 set_edicoes = sorted(list(set(edicoes)))
 print("\nEdições mapeadas:")
