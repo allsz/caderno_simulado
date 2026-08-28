@@ -5,14 +5,19 @@ const LEGACY_STORAGE_KEYS = ['respostas_simulado', 'respostas_simulado_v1', 'sim
 // ========================================================
 // Estado da Paginação e Filtros
 // ========================================================
+let modoFiltroAtivo = 'clinico'; // 'clinico' | 'prova'
 let especialidadeAtiva = 'TODAS';
 let temaAtivo = 'TODOS';
 let subtemaAtivo = 'TODOS';
+let bancaAtiva = 'TODAS';
+let edicaoAtiva = 'TODAS';
+let numeroQuestaoFiltro = '';
 let paginaAtual = 1;
 let itensPorPagina = 25;
 let todosCards = [];
 let cardsFiltrados = [];
 let taxonomiaEspecialidades = {};
+let taxonomiaProvas = {};
 
 // ========================================================
 // Funções de Navegação e Estatísticas
@@ -233,14 +238,42 @@ function revelarFeedbackGabarito(qId) {
 }
 
 // ========================================================
-// Lógica de Filtros (Especialidades e Temas) e Paginação
+// Lógica de Filtros (Especialidades/Temas e Provas/Anos/Questão) e Paginação
 // ========================================================
+
+function alternarModoFiltro(modo) {
+    modoFiltroAtivo = modo;
+    paginaAtual = 1;
+
+    const tabClinico = document.getElementById('tab-modo-clinico');
+    const tabProva = document.getElementById('tab-modo-prova');
+    const painelClinico = document.getElementById('painel-filtro-clinico');
+    const painelProva = document.getElementById('painel-filtro-prova');
+
+    if (modo === 'clinico') {
+        if (tabClinico) { tabClinico.classList.add('active'); tabClinico.setAttribute('aria-selected', 'true'); }
+        if (tabProva) { tabProva.classList.remove('active'); tabProva.setAttribute('aria-selected', 'false'); }
+        if (painelClinico) painelClinico.style.display = 'block';
+        if (painelProva) painelProva.style.display = 'none';
+    } else {
+        if (tabClinico) { tabClinico.classList.remove('active'); tabClinico.setAttribute('aria-selected', 'false'); }
+        if (tabProva) { tabProva.classList.add('active'); tabProva.setAttribute('aria-selected', 'true'); }
+        if (painelClinico) painelClinico.style.display = 'none';
+        if (painelProva) painelProva.style.display = 'block';
+    }
+
+    if (typeof gtag === 'function') {
+        gtag('event', 'alternar_modo_filtro', { 'modo': modo });
+    }
+
+    aplicarFiltroEPaginacao(false);
+}
 
 function inicializarPaginacaoEFiltros() {
     todosCards = Array.from(document.querySelectorAll('.card-questao'));
     if (todosCards.length === 0) return;
 
-    // Constrói mapa de contagem hierárquico (Especialidade -> Temas -> Subtemas)
+    // 1. Constrói taxonomia clínica (Especialidade -> Temas -> Subtemas)
     taxonomiaEspecialidades = {};
     todosCards.forEach(card => {
         const esp = card.getAttribute('data-especialidade') || 'Outros / Não Categorizados';
@@ -273,7 +306,7 @@ function inicializarPaginacaoEFiltros() {
         btnTodas.onclick = () => filtrarPorEspecialidade('TODAS');
         containerPills.appendChild(btnTodas);
 
-        // Abas individuais
+        // Abas individuais de Especialidade
         Object.keys(taxonomiaEspecialidades).sort().forEach(esp => {
             const btn = document.createElement('button');
             btn.type = 'button';
@@ -285,7 +318,173 @@ function inicializarPaginacaoEFiltros() {
         });
     }
 
+    // 2. Constrói taxonomia de Provas (Banca -> Edições)
+    inicializarTaxonomiaProvas();
+
     aplicarFiltroEPaginacao(false);
+}
+
+function inicializarTaxonomiaProvas() {
+    taxonomiaProvas = {
+        'ENARE': { total: 0, edicoes: {} },
+        'REVALIDA': { total: 0, edicoes: {} }
+    };
+
+    todosCards.forEach(card => {
+        const banca = (card.getAttribute('data-banca') || 'Outros').toUpperCase();
+        const rotuloEdicao = card.getAttribute('data-rotulo-edicao') || card.getAttribute('data-origem') || 'Geral';
+        const ano = card.getAttribute('data-ano') || '2026';
+        
+        if (!taxonomiaProvas[banca]) {
+            taxonomiaProvas[banca] = { total: 0, edicoes: {} };
+        }
+        taxonomiaProvas[banca].total++;
+
+        if (!taxonomiaProvas[banca].edicoes[rotuloEdicao]) {
+            taxonomiaProvas[banca].edicoes[rotuloEdicao] = { total: 0, ano: ano, rotulo: rotuloEdicao };
+        }
+        taxonomiaProvas[banca].edicoes[rotuloEdicao].total++;
+    });
+
+    // Renderiza pills de bancas (Todas as Provas, ENARE, REVALIDA)
+    const containerBancas = document.getElementById('filtro-bancas-pills');
+    if (containerBancas) {
+        containerBancas.innerHTML = '';
+
+        // Pill "Todas as Provas"
+        const btnTodas = document.createElement('button');
+        btnTodas.type = 'button';
+        btnTodas.className = 'filtro-pill active';
+        btnTodas.setAttribute('data-banca', 'TODAS');
+        btnTodas.innerHTML = `Todas as Provas <span class="filtro-pill-count">${todosCards.length}</span>`;
+        btnTodas.onclick = () => filtrarPorBanca('TODAS');
+        containerBancas.appendChild(btnTodas);
+
+        // Pills ENARE e REVALIDA
+        ['ENARE', 'REVALIDA'].forEach(banca => {
+            if (taxonomiaProvas[banca] && taxonomiaProvas[banca].total > 0) {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = 'filtro-pill';
+                btn.setAttribute('data-banca', banca);
+                btn.innerHTML = `${banca} <span class="filtro-pill-count">${taxonomiaProvas[banca].total}</span>`;
+                btn.onclick = () => filtrarPorBanca(banca);
+                containerBancas.appendChild(btn);
+            }
+        });
+    }
+
+    renderizarPillsEdicoes();
+}
+
+function renderizarPillsEdicoes() {
+    const edicoesWrapper = document.getElementById('filtro-edicoes-wrapper');
+    const edicoesContainer = document.getElementById('filtro-edicoes-pills');
+    if (!edicoesContainer) return;
+
+    edicoesContainer.innerHTML = '';
+
+    let listaEdicoes = [];
+    if (bancaAtiva === 'TODAS') {
+        Object.keys(taxonomiaProvas).forEach(b => {
+            Object.keys(taxonomiaProvas[b].edicoes).forEach(rot => {
+                listaEdicoes.push(taxonomiaProvas[b].edicoes[rot]);
+            });
+        });
+    } else if (taxonomiaProvas[bancaAtiva]) {
+        Object.keys(taxonomiaProvas[bancaAtiva].edicoes).forEach(rot => {
+            listaEdicoes.push(taxonomiaProvas[bancaAtiva].edicoes[rot]);
+        });
+    }
+
+    if (listaEdicoes.length === 0) {
+        if (edicoesWrapper) edicoesWrapper.style.display = 'none';
+        return;
+    }
+
+    if (edicoesWrapper) edicoesWrapper.style.display = 'block';
+
+    // Ordena as edições de forma decrescente (mais recente primeiro)
+    listaEdicoes.sort((a, b) => b.rotulo.localeCompare(a.rotulo));
+
+    // Pill "Todas as Edições"
+    const pillTodas = document.createElement('button');
+    pillTodas.type = 'button';
+    pillTodas.className = 'edicao-pill' + (edicaoAtiva === 'TODAS' ? ' active' : '');
+    pillTodas.setAttribute('data-edicao', 'TODAS');
+    const totalBanca = bancaAtiva === 'TODAS' ? todosCards.length : (taxonomiaProvas[bancaAtiva] ? taxonomiaProvas[bancaAtiva].total : 0);
+    pillTodas.innerHTML = `Todas as Edições <span class="edicao-pill-count">${totalBanca}</span>`;
+    pillTodas.onclick = () => filtrarPorEdicao('TODAS');
+    edicoesContainer.appendChild(pillTodas);
+
+    listaEdicoes.forEach(item => {
+        const pill = document.createElement('button');
+        pill.type = 'button';
+        pill.className = 'edicao-pill' + (edicaoAtiva === item.rotulo ? ' active' : '');
+        pill.setAttribute('data-edicao', item.rotulo);
+        pill.innerHTML = `${item.rotulo} <span class="edicao-pill-count">${item.total}</span>`;
+        pill.onclick = () => filtrarPorEdicao(item.rotulo);
+        edicoesContainer.appendChild(pill);
+    });
+}
+
+function filtrarPorBanca(banca) {
+    bancaAtiva = banca;
+    edicaoAtiva = 'TODAS';
+    paginaAtual = 1;
+
+    document.querySelectorAll('#filtro-bancas-pills .filtro-pill').forEach(btn => {
+        if (btn.getAttribute('data-banca') === banca) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
+    renderizarPillsEdicoes();
+
+    if (typeof gtag === 'function') {
+        gtag('event', 'filtrar_banca', { 'banca': banca });
+    }
+
+    aplicarFiltroEPaginacao(true);
+}
+
+function filtrarPorEdicao(edicao) {
+    edicaoAtiva = edicao;
+    paginaAtual = 1;
+
+    document.querySelectorAll('#filtro-edicoes-pills .edicao-pill').forEach(btn => {
+        if (btn.getAttribute('data-edicao') === edicao) {
+            btn.classList.add('active');
+        } else {
+            btn.classList.remove('active');
+        }
+    });
+
+    if (typeof gtag === 'function') {
+        gtag('event', 'filtrar_edicao', { 'edicao': edicao });
+    }
+
+    aplicarFiltroEPaginacao(true);
+}
+
+function filtrarPorNumeroQuestao(numero) {
+    numeroQuestaoFiltro = (numero || '').toString().trim();
+    paginaAtual = 1;
+
+    const btnLimpar = document.getElementById('btn-limpar-busca-q');
+    if (btnLimpar) {
+        btnLimpar.style.display = numeroQuestaoFiltro ? 'inline-block' : 'none';
+    }
+
+    aplicarFiltroEPaginacao(false);
+}
+
+function limparBuscaQuestao() {
+    const inputQ = document.getElementById('input-busca-questao');
+    if (inputQ) inputQ.value = '';
+    filtrarPorNumeroQuestao('');
 }
 
 function filtrarPorEspecialidade(esp) {
@@ -295,7 +494,7 @@ function filtrarPorEspecialidade(esp) {
     paginaAtual = 1;
 
     // Atualiza estado ativo das abas de especialidade
-    document.querySelectorAll('.filtro-pill').forEach(btn => {
+    document.querySelectorAll('#filtro-pills-container .filtro-pill').forEach(btn => {
         if (btn.getAttribute('data-esp') === esp) {
             btn.classList.add('active');
         } else {
@@ -324,7 +523,6 @@ function filtrarPorEspecialidade(esp) {
             pillsContainer.innerHTML = '';
             
             if (listaTemas.length === 1 && (listaTemas[0].toLowerCase() === 'geral' || listaTemas[0] === 'Outros / Não Categorizados')) {
-                // Quando só há 1 tema e é Geral
                 const p = document.createElement('button');
                 p.type = 'button';
                 p.className = 'subfiltro-pill active';
@@ -336,7 +534,6 @@ function filtrarPorEspecialidade(esp) {
                 };
                 pillsContainer.appendChild(p);
             } else {
-                // Múltiplos temas: Sub-pill "Todos"
                 const pillTodos = document.createElement('button');
                 pillTodos.type = 'button';
                 pillTodos.className = 'subfiltro-pill active';
@@ -348,7 +545,6 @@ function filtrarPorEspecialidade(esp) {
                 };
                 pillsContainer.appendChild(pillTodos);
 
-                // Sub-pills individuais
                 listaTemas.forEach(t => {
                     const p = document.createElement('button');
                     p.type = 'button';
@@ -471,27 +667,48 @@ function filtrarPorSubtema(subtema) {
 function aplicarFiltroEPaginacao(scroll = false) {
     if (todosCards.length === 0) return;
 
-    // Filtra cards por Especialidade, Tema e Subtema com normalização
-    const espFiltro = (especialidadeAtiva || 'TODAS').trim();
-    const temaFiltro = (temaAtivo || 'TODOS').trim();
-    const subtemaFiltro = (subtemaAtivo || 'TODOS').trim();
+    if (modoFiltroAtivo === 'clinico') {
+        const espFiltro = (especialidadeAtiva || 'TODAS').trim();
+        const temaFiltro = (temaAtivo || 'TODOS').trim();
+        const subtemaFiltro = (subtemaAtivo || 'TODOS').trim();
 
-    cardsFiltrados = todosCards.filter(card => {
-        const esp = (card.getAttribute('data-especialidade') || '').trim();
-        const tema = (card.getAttribute('data-tema') || '').trim();
-        const subtema = (card.getAttribute('data-subtema') || '').trim();
+        cardsFiltrados = todosCards.filter(card => {
+            const esp = (card.getAttribute('data-especialidade') || '').trim();
+            const tema = (card.getAttribute('data-tema') || '').trim();
+            const subtema = (card.getAttribute('data-subtema') || '').trim();
 
-        if (espFiltro !== 'TODAS' && esp !== espFiltro) {
-            return false;
+            if (espFiltro !== 'TODAS' && esp !== espFiltro) return false;
+            if (temaFiltro !== 'TODOS' && tema !== temaFiltro) return false;
+            if (subtemaFiltro !== 'TODOS' && subtema !== subtemaFiltro) return false;
+            return true;
+        });
+    } else {
+        // Modo Prova (Banca > Ano/Edição > Questão)
+        const bancaFiltro = (bancaAtiva || 'TODAS').toUpperCase();
+        const edicaoFiltro = (edicaoAtiva || 'TODAS').trim();
+        const numFiltro = (numeroQuestaoFiltro || '').trim();
+
+        cardsFiltrados = todosCards.filter(card => {
+            const cardBanca = (card.getAttribute('data-banca') || '').toUpperCase();
+            const cardRotulo = (card.getAttribute('data-rotulo-edicao') || card.getAttribute('data-origem') || '').trim();
+            const cardNum = (card.getAttribute('data-numero') || '').trim();
+
+            if (bancaFiltro !== 'TODAS' && cardBanca !== bancaFiltro) return false;
+            if (edicaoFiltro !== 'TODAS' && cardRotulo !== edicaoFiltro) return false;
+            if (numFiltro !== '' && cardNum !== numFiltro) return false;
+            return true;
+        });
+
+        // Atualiza status textual da busca por questão
+        const statusEl = document.getElementById('filtro-questao-status');
+        if (statusEl) {
+            if (numFiltro !== '') {
+                statusEl.textContent = `${cardsFiltrados.length} resultado(s) para a Questão ${numFiltro}`;
+            } else {
+                statusEl.textContent = '';
+            }
         }
-        if (temaFiltro !== 'TODOS' && tema !== temaFiltro) {
-            return false;
-        }
-        if (subtemaFiltro !== 'TODOS' && subtema !== subtemaFiltro) {
-            return false;
-        }
-        return true;
-    });
+    }
 
     const totalItens = cardsFiltrados.length;
     const totalPaginas = itensPorPagina === 'all' ? 1 : (Math.ceil(totalItens / itensPorPagina) || 1);

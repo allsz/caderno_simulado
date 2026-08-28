@@ -1,5 +1,6 @@
 from html import escape as html_escape
 from pathlib import Path
+import re
 
 from .utils import obter_base64_imagem, formatar_texto_fluido
 
@@ -21,7 +22,7 @@ def exportar_caderno_markdown(banco_questoes, caminho_saida: Path, cache_explica
                 f.write(f"## 📌 Tema: {tema}\n\n")
                 for subtema in sorted(banco_questoes[esp][tema].keys()):
                     lista_q = banco_questoes[esp][tema][subtema]
-                    f.write(f"### 🔖 Subtema: {subtema} ({len(lista_q)} questões)\n\n")
+                    f.write(f"### Subtema: {subtema} ({len(lista_q)} questões)\n\n")
                     
                     for q in lista_q:
                         q_key = f"{q['origem']}_{q['numero']}"
@@ -65,6 +66,113 @@ def exportar_caderno_markdown(banco_questoes, caminho_saida: Path, cache_explica
                         f.write("---\n\n")
 
 
+def extrair_metadados_origem(origem: str):
+    """Extrai banca (ENARE/REVALIDA), ano, edição (1/2/Única) e rótulo amigável da string de origem."""
+    origem_str = origem or ""
+    origem_upper = origem_str.upper()
+    banca = "ENARE" if "ENARE" in origem_upper else "REVALIDA"
+    ano_match = re.search(r'(202\d)', origem_str)
+    ano = ano_match.group(1) if ano_match else "Outros"
+    
+    if banca == "ENARE":
+        edicao = "Única"
+        rotulo_edicao = f"ENARE {ano}"
+    else:
+        if "_2_" in origem_str or "-2_" in origem_str or "_2" in origem_str:
+            edicao = "2"
+            rotulo_edicao = f"REVALIDA {ano}.2 (Prova 2)"
+        elif "_1_" in origem_str or "-1_" in origem_str or "_1" in origem_str or "caderno_1" in origem_str:
+            edicao = "1"
+            rotulo_edicao = f"REVALIDA {ano}.1 (Prova 1)"
+        else:
+            edicao = "1"
+            rotulo_edicao = f"REVALIDA {ano} (Prova 1)"
+            
+    return banca, ano, edicao, rotulo_edicao
+
+
+def gerar_cards_questoes_html(banco_questoes, cache_explicacoes=None, tem_api_key=False, base_dir=None):
+    """Gera blocos HTML para cada questão agrupada hierarquicamente."""
+    if cache_explicacoes is None:
+        cache_explicacoes = {}
+    
+    html_parts = []
+    q_global_idx = 0
+    
+    for esp in sorted(banco_questoes.keys()):
+        for tema in sorted(banco_questoes[esp].keys()):
+            for subtema in sorted(banco_questoes[esp][tema].keys()):
+                for q in banco_questoes[esp][tema][subtema]:
+                    q_global_idx += 1
+                    q_id = f"{q['origem']}_{q['numero']}".replace(" ", "_").replace(".", "_")
+                    esp_attr = html_escape(esp, quote=True)
+                    tema_attr = html_escape(tema, quote=True)
+                    subtema_attr = html_escape(subtema, quote=True)
+                    
+                    banca, ano, edicao, rotulo_edicao = extrair_metadados_origem(q.get('origem', ''))
+                    banca_attr = html_escape(banca, quote=True)
+                    ano_attr = html_escape(ano, quote=True)
+                    edicao_attr = html_escape(edicao, quote=True)
+                    rotulo_attr = html_escape(rotulo_edicao, quote=True)
+                    num_attr = html_escape(str(q.get('numero', '')), quote=True)
+                    origem_attr = html_escape(str(q.get('origem', '')), quote=True)
+                    
+                    dados_cache = cache_explicacoes.get(f"{q['origem']}_{q['numero']}", {})
+                    gab = q.get("gabarito", "N/A")
+                    if gab == "N/A" and dados_cache.get("gabarito"):
+                        gab = dados_cache.get("gabarito")
+                        
+                    exp = dados_cache.get("explicacao")
+                    if not exp:
+                        if tem_api_key:
+                            if gab != "N/A":
+                                exp = f"Gabarito oficial extraído do PDF da prova: <strong>{gab}</strong>. (O comentário detalhado por IA para esta questão está sendo processado)."
+                            else:
+                                exp = "Gabarito não fornecido no PDF da prova. (O comentário por IA para esta questão está sendo processado)."
+                        else:
+                            if gab != "N/A":
+                                exp = f"Gabarito oficial extraído do PDF da prova: <strong>{gab}</strong>. (Configure sua GEMINI_API_KEY no arquivo .env para gerar comentários detalhados por IA)."
+                            else:
+                                exp = "Gabarito não fornecido no PDF da prova. (Configure sua GEMINI_API_KEY no arquivo .env para gerar gabarito e explicação por IA)."
+
+                    enunc_html = formatar_texto_fluido(q['enunciado'], modo_html=True)
+                    html_parts.append(f"<div class='card-questao' id='card_{q_id}' data-especialidade='{esp_attr}' data-tema='{tema_attr}' data-subtema='{subtema_attr}' data-banca='{banca_attr}' data-ano='{ano_attr}' data-edicao='{edicao_attr}' data-rotulo-edicao='{rotulo_attr}' data-numero='{num_attr}' data-origem='{origem_attr}' data-idx='{q_global_idx}'>\n")
+                    html_parts.append("  <div class='card-header-tags'>\n")
+                    html_parts.append(f"    <span class='tag-origem'>{q['origem']} | Questão {q['numero']}</span>\n")
+                    html_parts.append(f"    <span class='tag-tema'>{tema}</span>\n")
+                    html_parts.append(f"    <span class='tag-subtema'>{subtema}</span>\n")
+                    html_parts.append("  </div>\n")
+                    html_parts.append(f"  <div class='enunciado'>{enunc_html}</div>\n")
+                    
+                    imgs = q.get("imagens") or ([q.get("imagem")] if q.get("imagem") else [])
+                    if imgs:
+                        html_parts.append("<div class='questao-imagem-container'>\n")
+                        for img_src in imgs:
+                            num_q = q["numero"]
+                            img_b64 = obter_base64_imagem(img_src, base_dir=base_dir)
+                            html_parts.append(f"  <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao' loading='lazy' decoding='async'>\n")
+                        html_parts.append("</div>\n")
+                    
+                    if q['alternativas']:
+                        html_parts.append("<div class='alternativas-container'>\n")
+                        for letra, alt in sorted(q['alternativas'].items()):
+                            alt_html = html_escape(formatar_texto_fluido(alt, modo_html=False))
+                            html_parts.append(f"<label class='alternativa' id='label_{q_id}_{letra}'>")
+                            html_parts.append(f"<input type='radio' name='{q_id}' value='{letra}' data-gabarito='{gab}' onchange='salvarResposta(\"{q_id}\", \"{letra}\", \"{gab}\")'>")
+                            html_parts.append(f"<span><strong>({letra})</strong> {alt_html}</span></label>\n")
+                        html_parts.append("</div>\n")
+                        
+                    html_parts.append(f"<button type='button' class='btn-resposta' onclick='toggleResposta(\"{q_id}\")'>&#10022; Ver Gabarito e Comentário</button>\n")
+                    html_parts.append(f"<div class='gabarito-box' id='box_{q_id}' style='display: none;'>\n")
+                    html_parts.append(f"  <span class='badge-gabarito'>Gabarito Oficial: Alternativa ({gab})</span>\n")
+                    html_parts.append(f"  <div class='explicacao-texto'><strong>Justificativa Médica:</strong><br>{exp}</div>\n")
+                    html_parts.append("</div>\n")
+                    
+                    html_parts.append("</div>\n\n")
+
+    return "".join(html_parts)
+
+
 def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes: dict = None, tem_api_key: bool = False, base_dir: Path = None):
     """Gera um simulado interativo em HTML usando o template desacoplado de web/."""
     if cache_explicacoes is None:
@@ -105,78 +213,9 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
     js_content = caminho_js.read_text(encoding="utf-8") if caminho_js.exists() else ""
     template_html = caminho_template.read_text(encoding="utf-8") if caminho_template.exists() else ""
 
-    # Gera HTML dos cards de questões
-    html_parts = []
-    q_global_idx = 0
-    for esp in sorted(banco_questoes.keys()):
-        esp_attr = html_escape(esp)
-        for tema in sorted(banco_questoes[esp].keys()):
-            tema_attr = html_escape(tema)
-            for subtema in sorted(banco_questoes[esp][tema].keys()):
-                subtema_attr = html_escape(subtema)
-                lista_q = banco_questoes[esp][tema][subtema]
-                
-                for q in lista_q:
-                    q_global_idx += 1
-                    q_id = f"q_{q['origem']}_{q['numero']}"
-                    q_key = f"{q['origem']}_{q['numero']}"
-                    dados_cache = cache_explicacoes.get(q_key, {})
-                    gab = q.get("gabarito", "N/A")
-                    if gab == "N/A" and dados_cache.get("gabarito"):
-                        gab = dados_cache.get("gabarito")
-                        
-                    exp = dados_cache.get("explicacao")
-                    if not exp:
-                        if tem_api_key:
-                            if gab != "N/A":
-                                exp = f"Gabarito oficial extraído do PDF da prova: <strong>{gab}</strong>. (O comentário detalhado por IA para esta questão está sendo processado)."
-                            else:
-                                exp = "Gabarito não fornecido no PDF da prova. (O comentário por IA para esta questão está sendo processado)."
-                        else:
-                            if gab != "N/A":
-                                exp = f"Gabarito oficial extraído do PDF da prova: <strong>{gab}</strong>. (Configure sua GEMINI_API_KEY no arquivo .env para gerar comentários detalhados por IA)."
-                            else:
-                                exp = "Gabarito não fornecido no PDF da prova. (Configure sua GEMINI_API_KEY no arquivo .env para gerar gabarito e explicação por IA)."
-
-                    enunc_html = formatar_texto_fluido(q['enunciado'], modo_html=True)
-                    html_parts.append(f"<div class='card-questao' id='card_{q_id}' data-especialidade='{esp_attr}' data-tema='{tema_attr}' data-subtema='{subtema_attr}' data-idx='{q_global_idx}'>\n")
-                    html_parts.append("  <div class='card-header-tags'>\n")
-                    html_parts.append(f"    <span class='tag-origem'>{q['origem']} | Questão {q['numero']}</span>\n")
-                    html_parts.append(f"    <span class='tag-tema'>{tema}</span>\n")
-                    html_parts.append(f"    <span class='tag-subtema'>{subtema}</span>\n")
-                    html_parts.append("  </div>\n")
-                    html_parts.append(f"  <div class='enunciado'>{enunc_html}</div>\n")
-                    
-                    imgs = q.get("imagens") or ([q.get("imagem")] if q.get("imagem") else [])
-                    if imgs:
-                        html_parts.append("<div class='questao-imagem-container'>\n")
-                        for img_src in imgs:
-                            num_q = q["numero"]
-                            img_b64 = obter_base64_imagem(img_src, base_dir=base_dir)
-                            html_parts.append(f"  <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao' loading='lazy' decoding='async'>\n")
-                        html_parts.append("</div>\n")
-                    
-                    if q['alternativas']:
-                        html_parts.append("<div class='alternativas-container'>\n")
-                        for letra, alt in sorted(q['alternativas'].items()):
-                            alt_html = html_escape(formatar_texto_fluido(alt, modo_html=False))
-                            html_parts.append(f"<label class='alternativa' id='label_{q_id}_{letra}'>")
-                            html_parts.append(f"<input type='radio' name='{q_id}' value='{letra}' data-gabarito='{gab}' onchange='salvarResposta(\"{q_id}\", \"{letra}\", \"{gab}\")'>")
-                            html_parts.append(f"<span><strong>({letra})</strong> {alt_html}</span></label>\n")
-                        html_parts.append("</div>\n")
-                        
-                    html_parts.append(f"<button type='button' class='btn-resposta' onclick='toggleResposta(\"{q_id}\")'>&#10022; Ver Gabarito e Comentário</button>\n")
-                    html_parts.append(f"<div class='gabarito-box' id='box_{q_id}' style='display: none;'>\n")
-                    html_parts.append(f"  <span class='badge-gabarito'>Gabarito Oficial: Alternativa ({gab})</span>\n")
-                    html_parts.append(f"  <div class='explicacao-texto'><strong>Justificativa Médica:</strong><br>{exp}</div>\n")
-                    html_parts.append("</div>\n")
-                    
-                    html_parts.append("</div>\n\n")
-
-    questoes_html = "".join(html_parts)
+    questoes_html = gerar_cards_questoes_html(banco_questoes, cache_explicacoes=cache_explicacoes, tem_api_key=tem_api_key, base_dir=base_dir)
 
     # Injeta no template final (com suporte a formatação flexível do VS Code)
-    import re
     html_final = template_html
     substituicoes = {
         "FAVICON_B64": favicon_b64,
@@ -198,7 +237,6 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
     }
 
     for chave, valor in substituicoes.items():
-        # Substitui tanto {{CHAVE}} quanto {{ CHAVE }} ou { { \n CHAVE \n } }
         padrao = re.compile(r'\{\s*\{\s*' + re.escape(chave) + r'\s*\}\s*\}')
         html_final = padrao.sub(lambda _: valor, html_final)
 

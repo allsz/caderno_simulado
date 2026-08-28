@@ -18,15 +18,15 @@ html = Path("index.html").read_text(encoding="utf-8")
 
 erros = 0
 for num in range(1, 101):
-    q_id = f"q_REVALIDA-2026_1_caderno_1_{num}"
-    pattern = rf'name=[\'\"]{re.escape(q_id)}[\'\"][^>]*data-gabarito=[\'\"]([A-E]|ANULADA)[\'\"]'
+    q_id = f"REVALIDA-2026_1_caderno_1_{num}"
+    pattern = rf'name=[\'\"](q_)?{re.escape(q_id)}[\'\"][^>]*data-gabarito=[\'\"]([A-E]|ANULADA)[\'\"]'
     match = re.search(pattern, html)
     esperado = user_gabarito[str(num)]
     if not match:
         print(f"Questão {num}: Não encontrada no HTML!")
         erros += 1
-    elif match.group(1) != esperado:
-        print(f"Questão {num}: Encontrado {match.group(1)} vs Esperado {esperado}")
+    elif match.group(2) != esperado:
+        print(f"Questão {num}: Encontrado {match.group(2)} vs Esperado {esperado}")
         erros += 1
 
 if erros == 0:

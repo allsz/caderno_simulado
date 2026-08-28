@@ -98,10 +98,21 @@
             </div>
         </div>
 
-        <!-- Filtros por Especialidade e Configurações de Exibição -->
-        <section class="filtro-section" aria-label="Filtro por Especialidade e Tema">
+        <!-- Filtros do Simulado: Especialidades / Conteúdo ou Prova / Ano / Questão -->
+        <section class="filtro-section" aria-label="Filtros do Simulado">
             <div class="filtro-header-row">
-                <span class="filtro-label">Especialidades:</span>
+                <!-- Comutador de Modo de Filtro -->
+                <div class="filtro-modo-nav" role="tablist">
+                    <button type="button" class="filtro-modo-tab active" id="tab-modo-clinico" onclick="alternarModoFiltro('clinico')" role="tab" aria-selected="true">
+                        <svg class="filtro-modo-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 3v5a4.5 4.5 0 0 0 9 0V3"></path><path d="M9 12.5v3a4.5 4.5 0 0 0 9 0v-1"></path><circle cx="18" cy="14.5" r="2"></circle><path d="M3 3h3"></path><path d="M12 3h3"></path></svg>
+                        Por Especialidade & Conteúdo
+                    </button>
+                    <button type="button" class="filtro-modo-tab" id="tab-modo-prova" onclick="alternarModoFiltro('prova')" role="tab" aria-selected="false">
+                        <svg class="filtro-modo-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path><path d="M6 6h10"></path><path d="M6 10h10"></path><path d="M6 14h6"></path></svg>
+                        Por Prova, Ano & Questão
+                    </button>
+                </div>
+
                 <div class="paginacao-qtd-select-wrap">
                     <label for="select-itens-por-pagina">Exibir:</label>
                     <select id="select-itens-por-pagina" class="paginacao-select" onchange="mudarItensPorPagina(this.value)">
@@ -112,21 +123,50 @@
                     </select>
                 </div>
             </div>
-            <div class="filtro-pills-container" id="filtro-pills-container">
-                <!-- Injetado dinamicamente via JS com botões e contadores -->
-            </div>
 
-            <!-- Sub-botões de Temas da Especialidade Selecionada -->
-            <div class="filtro-temas-wrapper" id="filtro-temas-wrapper" style="display: none;">
-                <div class="filtro-temas-pills" id="filtro-temas-pills">
-                    <!-- Injetado dinamicamente via JS com sub-chips de temas -->
+            <!-- Painel 1: Modo Clínico (Especialidade > Tema > Subtema) -->
+            <div id="painel-filtro-clinico" class="filtro-painel-conteudo">
+                <div class="filtro-pills-container" id="filtro-pills-container">
+                    <!-- Injetado dinamicamente via JS com botões e contadores -->
+                </div>
+
+                <!-- Sub-botões de Temas da Especialidade Selecionada -->
+                <div class="filtro-temas-wrapper" id="filtro-temas-wrapper" style="display: none;">
+                    <div class="filtro-temas-pills" id="filtro-temas-pills">
+                        <!-- Injetado dinamicamente via JS com sub-chips de temas -->
+                    </div>
+                </div>
+
+                <!-- Sub-botões de Subtemas do Tema Selecionado -->
+                <div class="filtro-subtemas-wrapper" id="filtro-subtemas-wrapper" style="display: none;">
+                    <div class="filtro-subtemas-pills" id="filtro-subtemas-pills">
+                        <!-- Injetado dinamicamente via JS com chips de subtemas -->
+                    </div>
                 </div>
             </div>
 
-            <!-- Sub-botões de Subtemas do Tema Selecionado -->
-            <div class="filtro-subtemas-wrapper" id="filtro-subtemas-wrapper" style="display: none;">
-                <div class="filtro-subtemas-pills" id="filtro-subtemas-pills">
-                    <!-- Injetado dinamicamente via JS com chips de subtemas -->
+            <!-- Painel 2: Modo Prova (Banca > Ano/Edição > Questão) -->
+            <div id="painel-filtro-prova" class="filtro-painel-conteudo" style="display: none;">
+                <!-- Bancas (Todas, ENARE, REVALIDA) -->
+                <div class="filtro-pills-container" id="filtro-bancas-pills">
+                    <!-- Injetado dinamicamente via JS com chips de bancas -->
+                </div>
+
+                <!-- Anos e Edições da Banca Selecionada -->
+                <div class="filtro-edicoes-wrapper" id="filtro-edicoes-wrapper" style="display: none;">
+                    <div class="filtro-edicoes-pills" id="filtro-edicoes-pills">
+                        <!-- Injetado dinamicamente via JS com chips de edições (Prova 1 e Prova 2) -->
+                    </div>
+                </div>
+
+                <!-- Localizador / Filtro por Número de Questão -->
+                <div class="filtro-questao-num-wrapper" id="filtro-questao-num-wrapper">
+                    <div class="filtro-busca-questao-box">
+                        <svg class="busca-questao-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <input type="number" id="input-busca-questao" class="input-busca-questao" placeholder="Filtrar por número da questão (ex: 45)..." min="1" max="100" oninput="filtrarPorNumeroQuestao(this.value)">
+                        <button type="button" id="btn-limpar-busca-q" class="btn-limpar-busca-q" style="display: none;" onclick="limparBuscaQuestao()">&times; Limpar</button>
+                    </div>
+                    <div class="filtro-questao-status" id="filtro-questao-status"></div>
                 </div>
             </div>
         </section>
