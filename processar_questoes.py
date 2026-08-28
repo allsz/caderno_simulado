@@ -59,6 +59,8 @@ def main():
     if usar_cache:
         print(f"[*] Modo Rápido: Carregando banco de questões a partir de '{cache_questoes.name}'...")
         questoes_lista = json.loads(cache_questoes.read_text(encoding="utf-8"))
+        # Filtra e descarta questões anuladas
+        questoes_lista = [q for q in questoes_lista if q.get("gabarito") != "ANULADA"]
         total_questoes = len(questoes_lista)
         for q in questoes_lista:
             esp = q["especialidade"]
@@ -108,11 +110,14 @@ def main():
                         }
                         salvar_cache_explicacoes(caminho_cache, cache_explicacoes)
 
-            print(f"   ✓ {len(questoes)} questões extraídas e processadas.")
-            total_questoes += len(questoes)
-            todas_questoes.extend(questoes)
+            # Filtra apenas questões válidas (descarta anuladas)
+            questoes_validas = [q for q in questoes if q.get("gabarito") != "ANULADA"]
+            anuladas_count = len(questoes) - len(questoes_validas)
+            print(f"   ✓ {len(questoes_validas)} questões ativas processadas ({anuladas_count} anuladas descartadas).")
+            total_questoes += len(questoes_validas)
+            todas_questoes.extend(questoes_validas)
             
-            for q in questoes:
+            for q in questoes_validas:
                 esp = q["especialidade"]
                 tema = q["tema"]
                 subtema = q["subtema"]

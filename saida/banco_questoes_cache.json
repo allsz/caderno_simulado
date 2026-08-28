@@ -3681,22 +3681,6 @@
   },
   {
     "origem": "ENARE-2023-Objetiva",
-    "numero": "31",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Abdome Agudo e Parede Abdominal",
-    "subtema": "Hérnias da Parede Abdominal",
-    "enunciado": "ENARE 2023 - Objetiva | R1 \n \n\n\nUm homem de 62 anos é levado ao hospital com história de perda de força em dimídio\ndireito, afasia e desvio de rima labial, de início há aproximadamente 40min. Após a\nrealização de uma tomografia computadorizada de crânio (normal, com laudo oficial do\nradiologista), seus sinais vitais são os seguintes: - PA: 192 x 124 mmHg - Glicemia capilar:\n88 mg/dL - NIHSS: 18 pontos Nesse caso, qual é a conduta mais adequada?",
-    "alternativas": {
-      "A": "Chamar o neurologista de plantão.",
-      "B": "Uso de um comprimido de nifedipina 20 mg sub lingual.",
-      "C": "Uso de 300 mg de ácido acetilssalicílico (AAS) por via oral.",
-      "D": "Uso de 20 mg de rivaroxabana por via oral",
-      "E": "Controle da pressão arterial com medicação endovenosa - alvo abaixo de 180x100 mmHg - seguido de trombólise com alteplase 0,9 mg/Kg, na ausência de contraindicações."
-    },
-    "gabarito": "A"
-  },
-  {
-    "origem": "ENARE-2023-Objetiva",
     "numero": "32",
     "especialidade": "Clínica Médica",
     "tema": "Endocrinologia e Metabologia",
@@ -3921,22 +3905,6 @@
   },
   {
     "origem": "ENARE-2023-Objetiva",
-    "numero": "46",
-    "especialidade": "Ginecologia e Obstetrícia",
-    "tema": "Infectologia Ginecológica e Oncologia",
-    "subtema": "Vulvovaginites e ISTs",
-    "enunciado": "ENARE 2023 - Objetiva | R1 \nAs infecções sexualmente transmissiveis são um grave problema de saúde pública no Brasil,\ndevendo-se ter especial atenção à população adolescente. Considerando somente as\ninfeccões adquiridas, qual, das seguintes, pode transmitida de outras formas além da\nsexual?",
-    "alternativas": {
-      "A": "Sifilis.",
-      "B": "Hepatite B.",
-      "C": "Gonorreia.",
-      "D": "Linfogranuloma venéreo.",
-      "E": "Cancro mole."
-    },
-    "gabarito": "A"
-  },
-  {
-    "origem": "ENARE-2023-Objetiva",
     "numero": "47",
     "especialidade": "Pediatria",
     "tema": "Doenças Respiratórias e Infecciosas Pediátricas",
@@ -3966,22 +3934,6 @@
       "E": "Sim, se o linfonodo for maior que 1 cm."
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "ENARE-2023-Objetiva",
-    "numero": "49",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Proctologia, Urologia e Técnica Cirúrgica",
-    "subtema": "Fios, Cicatrização e Profilaxia",
-    "enunciado": "ENARE 2023 - Objetiva | R1 \nSobre a rubéola congênita, assinale a alternativa correta.",
-    "alternativas": {
-      "A": "Perda auditiva é a manifestação mais comum e usualmente é condutiva bilateral, e a severidade varia de moderada a grave, com progressão ao longo do tempo",
-      "B": "Cerca de 50% apresentam algum tipo de defeito cardíaco estrutural, sendo mais comuns os defeitos de septo cardíaco.",
-      "C": "O risco de transmissão materno-fetal é maior nas primeiras 10 semanas de gestação, e o risco de ocorrer malformações prolonga-se até a 18ª e a 20 semana.",
-      "D": "As manifestações tardias de diabete melito e das patologias da tireoide são bastante comuns, afetando mais de 1/3 dos casos ate adolescência.",
-      "E": "O uso de imunoglobulina para tratamento da rubéola materna garante proteção contra infecção do feto."
-    },
-    "gabarito": "A"
   },
   {
     "origem": "ENARE-2023-Objetiva",
@@ -4545,38 +4497,6 @@
   },
   {
     "origem": "ENARE-2023-Objetiva",
-    "numero": "85",
-    "especialidade": "Clínica Médica",
-    "tema": "Neurologia e Psiquiatria",
-    "subtema": "Psiquiatria e Saúde Mental",
-    "enunciado": "ENARE 2023 - Objetiva | R1 \n \n\n\nDona Elisa, 50 anos, portadora de transtorno bipolar, retornou para consulta na UBS com\nexames laboratoriais relacionados à tireoide alterados após iniciar uso de medicamento.\nNesse caso, o médico da família deve então reavaliar o uso de",
-    "alternativas": {
-      "A": "carbonato de lítio.",
-      "B": "carbamazepina.",
-      "C": "divalproato de sódio.",
-      "D": "fumarato de quetiapina.",
-      "E": "haloperidol."
-    },
-    "gabarito": "A"
-  },
-  {
-    "origem": "ENARE-2023-Objetiva",
-    "numero": "86",
-    "especialidade": "Clínica Médica",
-    "tema": "Pneumologia",
-    "subtema": "Pneumonias, Pleura e Embolia",
-    "enunciado": "ENARE 2023 - Objetiva | R1 \nDr. Antônio atende na UBS uma paciente de 34 anos com queixa de poliartralgias a qual traz\nresultado de exames que demonstram anemia, linfopenia e fator antinuclear positivo em\ntítulos altos. Ao fim da consulta, o médico prescreve hidroxicloroquina para ela. Devido a\nessa prescrição, Dr. Antônio deve encaminhá-la para avaliação do",
-    "alternativas": {
-      "A": "cardiologista.",
-      "B": "nefrologista.",
-      "C": "hepatologista.",
-      "D": "oftalmologista.",
-      "E": "hematologista."
-    },
-    "gabarito": "A"
-  },
-  {
-    "origem": "ENARE-2023-Objetiva",
     "numero": "87",
     "especialidade": "Clínica Médica",
     "tema": "Pneumologia",
@@ -4782,22 +4702,6 @@
       "E": "Saturnismo / SISVAN."
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "ENARE-2023-Objetiva",
-    "numero": "100",
-    "especialidade": "Clínica Médica",
-    "tema": "Infectologia",
-    "subtema": "Infecções Sistêmicas e Arboviroses",
-    "enunciado": "ENARE 2023 - Objetiva | R1 \nGestante, 27 anos, com parto prematuro de 34 semanas gestacionais. Após alta para casa,\nevolui com infecção uterina, sepse e tem óbito confirmado 60 dias após o parto. Diante do\nexposto, qual é o tipo de morte?",
-    "alternativas": {
-      "A": "Morte materna direta",
-      "B": "Morte obstétrica direta.",
-      "C": "Morte não materna, pois ocorreu 60 dias após o parto.",
-      "D": "Morte materna tardia.",
-      "E": "Morte pós-materna."
-    },
-    "gabarito": "A"
   },
   {
     "origem": "ENARE-2024-Objetiva",
@@ -6413,7 +6317,7 @@
       "D": "sofosbuvir/velpastavir por 12 semanas;",
       "E": "sofosbuvir/ribavirina por 24 semanas."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6429,7 +6333,7 @@
       "D": "porfiria variegata;",
       "E": "protoporfiria ligada ao X."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6445,7 +6349,7 @@
       "D": "aspecto tomográfico de consolidação irregular do espaço aéreo, opacidades em vidro fosco e pequenas opacidades nodulares em paciente usuário de cocaína;",
       "E": "aspecto tomográfico com opacidades evanescentes, bronquiectasias e achados relacionados a impactação mucoide e obstrução brônquica em paciente com eosinofilia e broncoespasmo."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6461,7 +6365,7 @@
       "D": "a dor lombar em pessoa acima de 50 anos deve ser sempre investigada, independentemente dos sintomas e sinais associados. O principal exame é a ressonância nuclear magnética (RNM) de coluna lombar com contraste venoso;",
       "E": "os sinais de alarme associados a dor lombar subaguda ou crônica (respectivamente, 4 a 12 semanas e mais de 12 semanas) em indivíduos com mais de 50 anos são desnecessários para indicação de exame específico, pois todos esses pacientes devem ter exame de imagem."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6477,7 +6381,7 @@
       "D": "colangite biliar primária; antimitocôndria;",
       "E": "hepatite medicamentosa; FAN e antimúsculo liso."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6493,7 +6397,7 @@
       "D": "dengue hemorrágica",
       "E": "infecção urinária por pseudomonas aeruginosa"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6509,7 +6413,7 @@
       "D": "de hidroxicobalamina parenteral ou oral três vezes por semana seguida da dose de 1000 microgramas, uma vez por semana, para o resto da vida;",
       "E": "de hidroxicobalamina parenteral (1000 microgramas por dia) até a mitigação dos sintomas."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6525,7 +6429,7 @@
       "D": "artrite reativa do HIV;",
       "E": "espondilite anquilosante."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6541,7 +6445,7 @@
       "D": "doença de Wilson;",
       "E": "síndrome de Budd-Chiari."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6557,7 +6461,7 @@
       "D": "varfarina, com a dose de acordo com o INR;",
       "E": "metoprolol para manutenção do ritmo sinusal."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6573,7 +6477,7 @@
       "D": "associar um procinético (como domperidona) antes das refeições;",
       "E": "associar um esteroide tópico (como fluticasona ou budesonida) por via oral."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6605,7 +6509,7 @@
       "D": "biópsia de peritônio se o gradiente soro-ascite for menor que 1,1;",
       "E": "punção aspirativa de cisto tireoidiano."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6621,7 +6525,7 @@
       "D": "infecção pelo Clostridium botulinum",
       "E": "raiva"
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6637,7 +6541,7 @@
       "D": "estenose de artéria renal;",
       "E": "feocromocitoma."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6653,7 +6557,7 @@
       "D": "hemotransfusão;",
       "E": "prescrição de hidroxicloroquina oral."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6669,7 +6573,7 @@
       "D": "risperidona e carbamazepina;",
       "E": "oxcarbazepina e prometazina."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6685,7 +6589,7 @@
       "D": "realizar biópsia de linfonodo e coleta de escarro para análise de baciloscopia, teste rápido molecular para tuberculose e cultura para micobactéria; suspender a TARV e avaliar início de corticoide;",
       "E": "manter a TARV e acrescentar corticoide até o final da investigação, devido a reação imune."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6701,7 +6605,7 @@
       "D": "púrpura trombocitopênica idiopática (PTI);",
       "E": "síndrome de hipersensibilidade induzida por drogas (DRESS)."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6717,7 +6621,7 @@
       "D": "prescrição de aciclovir parenteral apenas se o rash e as vesículas tiverem iniciado há menos de 72 horas. Caso contrário, fazer apenas a profilaxia dos contactantes com vacina e do paciente com antibiótico devido à alta prevalência de infecção bacteriana secundária;",
       "E": "internação hospitalar em quarto com pressão negativa e precauções de contato como máscara cirúrgica, capote, luva, gorro e óculos para toda a equipe assistencial. O aciclovir de 800 mg pode ser feito de forma oral, 5 vezes ao dia, por 7 a 10 dias ou até a alta hospitalar."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6765,7 +6669,7 @@
       "D": "redução fechada e imobilização com gesso;",
       "E": "administração de analgésicos e alta para casa."
     },
-    "gabarito": "D"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6797,7 +6701,7 @@
       "D": "herniorrafia convencional pela técnica de Lichtenstein;",
       "E": "herniorrafia convencional sem reforço de tecido à Bassini."
     },
-    "gabarito": "C"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6877,7 +6781,7 @@
       "D": "colecistectomia de urgência com colangiografia;",
       "E": "drenagem biliar externa trans-hepática."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6893,7 +6797,7 @@
       "D": "a bradicardia ocorre por estímulo vasovagal pela distensão abdominal;",
       "E": "arritmias cardíacas e outros distúrbios de ritmo cardíaco são raros."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6909,7 +6813,7 @@
       "D": "alta com orientação para retorno no caso de persistirem os sintomas;",
       "E": "administração intravenosa de líquidos, descompressão nasogástrica e observação."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6925,7 +6829,7 @@
       "D": "mittelschmerz;",
       "E": "torção de ovário direito."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6941,7 +6845,7 @@
       "D": "polipose adenomatosa familiar;",
       "E": "síndrome de Gardner."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6957,7 +6861,7 @@
       "D": "idade maior que 60 anos;",
       "E": "alteração do estado mental."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -6989,7 +6893,7 @@
       "D": "administrar 4 ml/kg/%SCT de solução de Ringer Lactato nas primeiras 24 horas, dividindo o volume total em duas metades: uma nas primeiras 8 horas e a outra nas 16 horas seguintes;",
       "E": "administrar 4 ml/kg/%SCT de solução coloidal de albumina nas primeiras 24 horas, dividindo o volume total em duas metades: uma nas primeiras 8 horas e a outra nas 16 horas seguintes."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7005,7 +6909,7 @@
       "D": "líquen plano oral; encaminhar para biopsia e tratamento com corticosteroides tópicos;",
       "E": "carcinoma espinocelular; biópsia da lesão, estadiamento e tratamento cirúrgico."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7021,7 +6925,7 @@
       "D": "realização de toracotomia de emergência para drenagem do pericárdio;",
       "E": "inserção de um tubo torácico para drenagem do espaço pleural esquerdo."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7037,7 +6941,7 @@
       "D": "gastroenterite viral; hidratação oral e observação;",
       "E": "doença inflamatória intestinal; corticosteroides e observação."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7053,7 +6957,7 @@
       "D": "vacinar a criança com a dose dobrada da vacina.",
       "E": "vacinar a criança, advertindo quanto à possibilidade de reações vacinais mais intensas."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7069,7 +6973,7 @@
       "D": "RN prematuro, 39 horas de vida, bilirrubina total = 8 mg/dl, aumento de bilirrubina em seis horas = 0,1 mg/dl/hora;",
       "E": "RN prematuro, grupo sanguíneo/RH: RN = O+ e mãe =A+, ictérico no 12º dia de vida."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7085,39 +6989,7 @@
       "D": "ciprofloxacino 500 mg, via oral, 12/12h por 7 dias;",
       "E": "azitromicina 500 mg, via oral, por 10 dias."
     },
-    "gabarito": "A"
-  },
-  {
-    "origem": "ENARE-2025-Objetiva",
-    "numero": "44",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Neurotrauma e TCE",
-    "enunciado": "A cólera é causada pela bactéria Vibrio cholerae toxigênica dos sorogrupos O1 ou O139. O\nVibrio cholerae O1 pode ser classificado em dois biotipos: Clássico e El Tor, que apresentam\ndiferenças em relação às propriedades fenotípicas e genotípicas, patogenicidade e padrões\nde infecção e sobrevivência nos hospedeiros humanos. O uso de antibióticos é\ncomplementar ao tratamento e não substitui a administração de líquidos e solução de sais\nde reidratação oral ou de fluidos endovenosos (a reidratação é a base da terapia). Dessa\nmaneira, o antibiótico de primeira escolha, indicado pelo Ministério da Saúde, para\ntratamento da cólera é:",
-    "alternativas": {
-      "A": "doxiciclina 2 mg/kg a 4 mg/kg, em dose única, por via oral;",
-      "B": "sulfametoxazol + trimetoprima 400/80 mg, 12/12h por 5 dias, por via oral;",
-      "C": "amoxicilina + clavulanato 875/125 mg, 12/12h por 7 dias;",
-      "D": "gentamicina 80 mg, por via oral, em dose única;",
-      "E": "cefepime 2 g, por via endovenosa, 8/8h por 10 dias."
-    },
-    "gabarito": "A"
-  },
-  {
-    "origem": "ENARE-2025-Objetiva",
-    "numero": "45",
-    "especialidade": "Ginecologia e Obstetrícia",
-    "tema": "Obstetrícia",
-    "subtema": "Pré-Natal e Modificações Gestacionais",
-    "enunciado": "Um recém-nascido de 21 dias, com idade gestacional de 32 semanas, peso de nascimento\nde 1.600 g, está\ninternado na UTI neonatal com sépsis, em suporte ventilatório\nhemodinâmico. A vacinação do paciente deve:",
-    "alternativas": {
-      "A": "ocorrer de acordo com sua idade corrigida;",
-      "B": "ocorrer imediatamente para estimulação imunológica;",
-      "C": "ser realizada quando a criança tiver peso acima de 3 kg;",
-      "D": "ser realizada após a alta hospitalar;",
-      "E": "ser realizada durante a internação, sem vacinas com vírus vivos."
-    },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7133,7 +7005,7 @@
       "D": "vancomicina 125 mg, por via oral, quatro vezes ao dia, associada a fidaxomicina 200 mg, duas vezes ao dia durante 10 dias, é o tratamento indicando;",
       "E": "sulfametoxazol + trimetoprima 800/160 mg a cada 6h por 28 dias é o tratamento de escolha."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7149,7 +7021,7 @@
       "D": "rubéola;",
       "E": "exantema súbito."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7165,7 +7037,7 @@
       "D": "dilatada, de extensão variada, que ocorre nas porções mais distais e que demonstra a parte agangliônica;",
       "E": "estreitada, que apresenta extensão limitada, tendo início proximal, traduzindo a porção com gânglios."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7181,7 +7053,7 @@
       "D": "uma dose da HB, uma dose da DTP, duas doses da tríplice viral, duas doses da vacina contra HPV e uma dose da vacina meningocócica ACWY;",
       "E": "uma dose da VFA, uma dose da dT, uma dose da tríplice viral, uma dose da vacina contra HPV e duas doses da vacina meningocócica ACWY;"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7213,7 +7085,7 @@
       "D": "doença de Legg-Calvé-Perthes;",
       "E": "rotura do ligamento cruzado anterior."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7245,7 +7117,7 @@
       "D": "solicitar teste de oximetria de pulso;",
       "E": "considerar o achado como funcional, sem necessidade de encaminhamento."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7261,7 +7133,7 @@
       "D": "beta-lactâmico;",
       "E": "macrolídeo."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7277,7 +7149,7 @@
       "D": "endocardite infecciosa;",
       "E": "toxoplasmose."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7309,7 +7181,7 @@
       "D": "o diagnóstico de telarca precoce deve ser investigado.",
       "E": "os dados apresentados não permitem avaliação do desenvolvimento puberal."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7341,7 +7213,7 @@
       "D": "avaliação de TEA entre 9 e 15 meses de idade;",
       "E": "estadiamento do grau de autismo."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7357,7 +7229,7 @@
       "D": "a criança tem evacuação Bristol 6 na primeira evacuação do dia, seguida por Bristol 1 nas demais evacuações;",
       "E": "os sintomas acontecem por pelo menos 1 mês antes do diagnóstico."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7373,7 +7245,7 @@
       "D": "gestação gemelar monocoriônica;",
       "E": "restrição de crescimento intrauterino."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7389,7 +7261,7 @@
       "D": "metronidazol 500 mg, por via oral, duas vezes ao dia, durante 7 dias;",
       "E": "creme vaginal combinando clindamicina 2% e hidrocortisona 10%, por 14 dias."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7405,7 +7277,7 @@
       "D": "convulsões maternas, hemólise e hiperglicemia;",
       "E": "diminuição dos reflexos profundos e hemólise."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7437,7 +7309,7 @@
       "D": "puberdade precoce central;",
       "E": "puberdade precoce periférica."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7453,7 +7325,7 @@
       "D": "apendicite;",
       "E": "pielonefrite à direita."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7501,7 +7373,7 @@
       "D": "a artéria mamária interna;",
       "E": "o nervo intercostobraquial."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7517,7 +7389,7 @@
       "D": "restrição de crescimento intrauterino seletiva;",
       "E": "sequência TRAP."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7533,7 +7405,7 @@
       "D": "início de profilaxia para as doenças sexualmente transmissíveis e prevenção de gravidez em até 5 dias;",
       "E": "avaliação do estado geral de saúde, orientação e proteção contra doenças de transmissão sexual, prevenção de gravidez e coleta de materiais biológicos ou outros indícios materiais que permitam a identificação do agressor."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7565,7 +7437,7 @@
       "D": "diminuição progressiva do hematócrito;",
       "E": "esplenomegalia 1 cm abaixo do rebordo costal."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7581,7 +7453,7 @@
       "D": "por se tratar de uma infecção por HPV de baixo risco oncogênico, está indicado seguimento semestral;",
       "E": "se trata de uma infecção por HPV de alto risco oncogênico, sendo indicada a realização imediata da exérese da zona de transformação (EZT ou LEEP), sem a necessidade de colposcopia."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7597,7 +7469,7 @@
       "D": "restrição de crescimento fetal;",
       "E": "gravidez com pós-datismo."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7629,7 +7501,7 @@
       "D": "cessação temporária da menstruação; início de desvenlafaxina e lubrificantes vaginais",
       "E": "transição menopausal; início de estriol transdérmico e fisioterapia pélvica"
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7677,7 +7549,7 @@
       "D": "hiperplasia endometrial;",
       "E": "adenocarcinoma do endométrio."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7693,7 +7565,7 @@
       "D": "a cada 15 dias;",
       "E": "diariamente."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7725,7 +7597,7 @@
       "D": "fazer o acolhimento de Geraldo, avaliar o quadro clínico geral e pactuar o acompanhamento na medida de suas limitações, lançando mão da entrevista motivacional se possível;",
       "E": "chamar a ambulância para levá-lo compulsoriamente para a internação."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7741,7 +7613,7 @@
       "D": "sífilis;",
       "E": "sarampo."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7773,7 +7645,7 @@
       "D": "devem ser registradas no campo Avaliação as informações “Tatiana relata se sentir sem energia e ter medo de essas dores serem alguma doença ruim. Diz que não tem conseguido mais dormir de preocupação”;",
       "E": "as informações “Tatiana relata se sentir sem energia e ter medo de essas dores serem alguma doença ruim. Diz que não tem conseguido mais dormir de preocupação” não são relevantes; logo, não devem ser registradas no RCOP."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7789,7 +7661,7 @@
       "D": "em idosos, critérios específicos de agravamento como síncope, confusão mental, sonolência excessiva, irritabilidade e inapetência;",
       "E": "indivíduo com síndrome gripal que apresenta dispneia/desconforto respiratório, ou pressão persistente no tórax, ou saturação de O2 ≤94% em ar ambiente ou coloração azulada dos lábios ou rosto."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7805,7 +7677,7 @@
       "D": "uma equipe multiprofissional deve ser acionada para reabilitação de Apolinário;",
       "E": "Apolinário é um paciente em cuidados paliativos prolongados ou em fase final de vida."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7821,7 +7693,7 @@
       "D": "Maria Cláudia, que apresenta glicemia de jejum = 126 mg/dl;",
       "E": "Maria Antônia, que apresenta hemoglobina glicada (HbA1c) = 4,5%."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7853,7 +7725,7 @@
       "D": "pessoas privadas de liberdade;",
       "E": "pessoas vivendo em situação de rua."
     },
-    "gabarito": "A"
+    "gabarito": "E"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7869,23 +7741,7 @@
       "D": "a paciente deve ser revacinada;",
       "E": "a vacina deve ser tomada, por segurança, após 12 semanas de gestação."
     },
-    "gabarito": "A"
-  },
-  {
-    "origem": "ENARE-2025-Objetiva",
-    "numero": "93",
-    "especialidade": "Medicina Preventiva e Social / MFC",
-    "tema": "Atenção Primária e Sistemas de Saúde",
-    "subtema": "SUS e Políticas Públicas",
-    "enunciado": "Em uma atenção primária de qualidade, é papel da APS integrar verticalmente os serviços.\nA APS, como parte integrante da rede de atenção à saúde, estrutura-se segundo atributos e\nfunções. Além da resolubilidade, são funções da APS:",
-    "alternativas": {
-      "A": "organização e responsabilização",
-      "B": "organização e primeiro contato",
-      "C": "primeiro contato e longitudinalidade",
-      "D": "integralidade e coordenação",
-      "E": "coordenação e orientação comunitária"
-    },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7901,7 +7757,7 @@
       "D": "radiografia craniana é essencial para excluir diagnósticos outros, antes de se pensar em arterite de células gigantes;",
       "E": "ressonância magnética craniana é essencial para excluir outros diagnósticos, antes de se pensar em arterite de células gigantes."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7917,7 +7773,7 @@
       "D": "entrevista motivacional, com o suporte comportamental e farmacoterápico necessário;",
       "E": "prescrição de bupropiona para cessação do tabagismo."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7949,7 +7805,7 @@
       "D": "família com criança em idade escolar;",
       "E": "família com adolescente."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7965,7 +7821,7 @@
       "D": "considerar os critérios clínicos como suficientes, diante dos sinais e sintomas presentes;",
       "E": "observar o caso por 48 horas."
     },
-    "gabarito": "A"
+    "gabarito": "B"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -7981,7 +7837,7 @@
       "D": "ter tido aferições da pressão arterial maiores que 140 x 90 mmHg no último ano;",
       "E": "ter 48 anos de idade."
     },
-    "gabarito": "A"
+    "gabarito": "D"
   },
   {
     "origem": "ENARE-2025-Objetiva",
@@ -9636,36 +9492,6 @@
   },
   {
     "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "10",
-    "especialidade": "Clínica Médica",
-    "tema": "Endocrinologia e Metabologia",
-    "subtema": "Diabetes Mellitus",
-    "enunciado": "16. ITEM 137761 - V. 719609  \nUma paciente de 32 anos de idade vem ao retorno em seu \nmédico de família para checar resultados de sorologias \nsolicitadas na consulta anterior. A paciente refere \n2 gestações prévias, e nega atividade sexual há mais de \n1 ano, após seu divórcio. Ao checar os exames, o médico \nidentifica o VDRL positivo à diluição de 1:2 (valor de \nreferência: negativo) e o TPHA reagente (valor de \nreferência: não reagente), HBsAg negativo, anti-HBc \nnegativo, anti-HCV negativo e anti-HIV negativo. Ao \nexame físico, ela não apresenta nenhuma lesão genital ou \nextragenital. Ela afirma que realizou tratamento com \npenicilina na última gestação há 4 anos (relata 2 injeções \nem cada nádega, em 3 aplicações). O médico checa o \nprontuário da paciente e identifica o registro da aplicação \nde 3 doses de penicilina benzatina (2 400 000 UI a cada \ndose) durante o último pré-natal.  \nDiante do que foi exposto, qual a conduta correta?",
-    "alternativas": {
-      "A": "Tratar a paciente com penicilina benzatina 2 400 000 UI, 1 vez por semana, por 3 semanas.",
-      "B": "Considerar como cicatriz sorológica devido à comprovação do tratamento prévio com penicilina.",
-      "C": "Solicitar um novo teste rápido para confirmar caso de sífilis.",
-      "D": "Tratar a paciente com penicilina benzatina 2 400 000 UI em dose única."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "11",
-    "especialidade": "Clínica Médica",
-    "tema": "Hematologia, Reumatologia e Dermatologia",
-    "subtema": "Reumatologia e Autoimunidade",
-    "enunciado": "24. ITEM 137742 - V. 719598  \nUm adolescente de 14 anos, do sexo masculino, procura \nserviço médico com história de dor em joelho direito há \n2 meses, com piora nos últimos dias, sem fatores de \nmelhora. Refere queda acidental durante um jogo de \nfutebol com os amigos, cerca de uma semana antes do \ninício das queixas. Ao exame físico, evidenciou-se edema \ndiscreto em joelho direito, calor local, dor a palpação de \nregião distal do fêmur, sem hiperemia. A radiografia de \njoelho apresenta imagem lítica em região distal do fêmur \ne na região proximal da tíbia, lesão em cortical com reação \nperiosteal tipo \"raios de sol\" e triângulo de Codman.  \nConsiderando o caso clínico apresentado, assinale a \nalternativa que contém o diagnóstico mais provável.",
-    "alternativas": {
-      "A": "Osteossarcoma.",
-      "B": "Artrite séptica.",
-      "C": "Sarcoma de Ewing.",
-      "D": "Artrite reumatoide juvenil."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
     "numero": "12",
     "especialidade": "Medicina Preventiva e Social / MFC",
     "tema": "Atenção Primária e Sistemas de Saúde",
@@ -9876,21 +9702,6 @@
   },
   {
     "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "26",
-    "especialidade": "Clínica Médica",
-    "tema": "Cardiologia",
-    "subtema": "Síndromes Coronarianas e Valvopatias",
-    "enunciado": "44. ITEM 137835 - V. 719605  \nUm paciente do sexo masculino, de 3 anos de idade, é \nlevado a serviço de emergência em decorrência de febre e \nexantema há 7 dias. Mãe relata que a febre é diária e \nchegou a 39 oC. O exantema surgiu há 2 dias. O paciente já \npassou por outros serviços de emergência sem conseguir \nfechar \ndiagnóstico. \nNega \ndoenças \nprévias. \nDesenvolvimento normal para a idade. Ao exame, mostra-\nse em regular estado geral, descorado 1+/4+, febril \n(38,5 oC), acianótico e hidratado. Presença de exantema \nmaculopapular e edema e hiperemia nas mãos e pés, rash \nem tronco e períneo, bem como de hiperemia conjuntival \nbilateral. Cavidade oral revela fissuras em lábios. Há \nlinfonodomegalia cervical, unilateral direita, com 2 cm de \ndiâmetro. Aparelho cardiovascular, respiratório e abdome \nsem anormalidades. \nConsiderando a história acima descrita, assinale a \nalternativa que contém o tratamento indicado.",
-    "alternativas": {
-      "A": "Imunoglobulina venosa.",
-      "B": "Anti-inflamatório não esteroidal.",
-      "C": "Antibioticoterapia.",
-      "D": "Plasmaférese."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
     "numero": "27",
     "especialidade": "Clínica Médica",
     "tema": "Infectologia",
@@ -9963,21 +9774,6 @@
       "D": "prescrever, ambulatorialmente, sulfametoxazol/trimetoprim. 10"
     },
     "gabarito": "D"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "32",
-    "especialidade": "Ginecologia e Obstetrícia",
-    "tema": "Ginecologia Geral e Climatério",
-    "subtema": "Endocrinologia Ginecológica e Ciclo",
-    "enunciado": "18. ITEM 138304 - V. 720424  \nMulher, 24 anos de idade, era usuária de dispositivo \nintrauterino (DIU) e retirou na vigência de episódio de \ndoença \ninflamatória \npélvica. \nApresentando \natraso \nmenstrual e episódios de sangramento vaginal de \npequena intensidade. Nega dor abdominal ou outras \nqueixas. Beta-hCG positivo. Ultrassonografia transvaginal \nmostra ausência de saco gestacional intrauterino e \npresença de imagem complexa em região anexial direita, \nsem líquido livre na cavidade peritoneal.  \nNessa \nsituação, \nestá \njustificado \nmanter \nconduta \nexpectante se",
-    "alternativas": {
-      "A": "os níveis de beta-hCG dobrarem após 48 horas.",
-      "B": "o diâmetro da massa anexial for maior que 3,0 cm.",
-      "C": "não forem detectados batimentos cardiofetais na avaliação ecográfica.",
-      "D": "os níveis de progesterona continuarem elevados."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2021_PV_objetiva_1",
@@ -10143,21 +9939,6 @@
       "D": "Trichiuris trichiura; secnidazol. 13"
     },
     "gabarito": "B"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "44",
-    "especialidade": "Ginecologia e Obstetrícia",
-    "tema": "Obstetrícia",
-    "subtema": "Sangramentos e Trabalho de Parto",
-    "enunciado": "37. ITEM 138329 - V. 720428  \nPrimigesta, 41 semanas, em trabalho de parto espontâneo \nhá 10 horas. Insinuação em OEA (occipto esquerda \nanterior). No segundo período do parto, houve a expulsão \ndo polo cefálico, com desprendimento em OP (occipto \npúbico), sem intercorrências. Após ocorrer a rotação \nexterna, \nconstatou-se \ngrande \ndificuldade \npara \ndesprendimento das espáduas, havendo impactação do \ndiâmetro biacromial fetal, entre o púbis e o promontório \nmaternos. O médico assistente alertou a equipe para a \nsituação de emergência e solicitou auxílio de outro \nprofissional habilitado. Realizada episiotomia, mesmo \nassim o ombro permaneceu impactado.",
-    "alternativas": {
-      "A": "primeira manobra a ser realizada nessa situação é A hiperextensão das coxas sobre o abdome associada à pressão suprapúbica.",
-      "B": "colocar a paciente em posição de quatro apoios.",
-      "C": "realizar manobras internas para rotação fetal ou retirada do ombro posterior.",
-      "D": "recolocar a cabeça fetal para dentro do útero e proceder com a cesariana."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2021_PV_objetiva_1",
@@ -10341,21 +10122,6 @@
   },
   {
     "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "57",
-    "especialidade": "Clínica Médica",
-    "tema": "Cardiologia",
-    "subtema": "Síndromes Coronarianas e Valvopatias",
-    "enunciado": "45. ITEM 138214 - V. 720662  \nEm reunião da equipe da Estratégia de Saúde da Família, \nlocalizada em área litorânea da Região Nordeste do Brasil, \ncom os diretores do sindicato dos trabalhadores em \ncarcinicultura (criação de camarão em viveiros), principal \natividade econômica da região, é definida a necessidade \nde desenvolver ações educativas de proteção e ações de \ndiagnóstico \nprecoce \ndos \nprincipais \nagravos \nque \nacometem os trabalhadores nessa atividade. A atividade \nenvolve longas jornadas diuturnas de trabalho, além da \nutilização de metabissulfito de sódio para evitar o \naparecimento de manchas pretas nos crustáceos.   \nConsiderando os principais agravos determinados pelas \ncondições \nde \ntrabalho, \nas \natividades \na \nserem \ndesenvolvidas deveriam priorizar",
-    "alternativas": {
-      "A": "neoplasia cutânea e rinite e/ou asma alérgica.",
-      "B": "distúrbios osteomusculares e dermatite por contato.",
-      "C": "rinite e/ou asma alérgica e lesão por esforço repetitivo.",
-      "D": "distúrbio do sono e neoplasia cutânea."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
     "numero": "58",
     "especialidade": "Pediatria",
     "tema": "Neonatologia",
@@ -10368,21 +10134,6 @@
       "D": "Realizar aspiração traqueal sob visualização direta."
     },
     "gabarito": "A"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "59",
-    "especialidade": "Pediatria",
-    "tema": "Puericultura e Desenvolvimento",
-    "subtema": "Crescimento e Nutrição",
-    "enunciado": "64. ITEM 137857 - V. 719625  \nUm recém-nascido com 20 dias de vida é levado à consulta \nde puericultura em Unidade Básica de Saúde. A mãe foi \ndiagnosticada com tuberculose pulmonar após o parto e \njá iniciou tratamento medicamentoso. Ela nega qualquer \nsintoma na criança. Gestação sem intercorrências. Ao \nexame, o recém-nascido mostra-se em bom estado geral, \ncorado, hidratado e ativo. Os aparelhos cardiovascular e \nrespiratório apresentam-se normais, assim como o \nabdome. \nConsiderando a história acima descrita, assinale a \nalternativa que contém a conduta indicada para esse \nrecém-nascido em relação ao seu tratamento e \naleitamento.",
-    "alternativas": {
-      "A": "Manutenção do aleitamento materno com uso de máscara por parte da mãe e uso profilático de isoniazida até o 3.o mês de vida, quando o teste tuberculínico deverá ser realizado.",
-      "B": "Interrupção do aleitamento materno por parte da mãe e uso profilático de isoniazida até o 3.o mês de vida, quando o teste tuberculínico deverá ser realizado.",
-      "C": "Manutenção do aleitamento materno com uso de máscara por parte da mãe e uso profilático de isoniazida até o 6.o mês de vida, quando o teste tuberculínico deverá ser realizado.",
-      "D": "Interrupção do aleitamento materno por parte da mãe e uso profilático de isoniazida até o 6.o mês de vida, quando o teste tuberculínico deverá ser realizado. 17"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2021_PV_objetiva_1",
@@ -10431,21 +10182,6 @@
   },
   {
     "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "63",
-    "especialidade": "Medicina Preventiva e Social / MFC",
-    "tema": "Atenção Primária e Sistemas de Saúde",
-    "subtema": "SUS e Políticas Públicas",
-    "enunciado": "56. ITEM 138010 - V. 720629  \nPaciente de 50 anos de idade, masculino, obeso, diabético, \nhipertenso, procura hospital pronto-socorro com queixa \nde dispneia aos pequenos esforços há 4 dias.  Tosse não-\nprodutiva.  Febre não-mensurada.  Refere anosmia e \nageusia.  Ao exame, paciente em mal estado geral, \ntaquidispnéico, taquicárdico, tossindo, com tiragem \nintercostal e supraesternal.  Submetido a tomografia de \ntórax de urgência, demonstrando mais de 70% de imagens \n“em \nvidro-fosco” \nno \nparênquima \npulmonar, \nbilateralmente.  Saturação de O2 de 60% em ar \nambiente.  O médico assistente optou por internação \nhospitalar \nde \nurgência \ne \nsubsequente \nintubação \norotraqueal, na mesma data da internação.  Duas \ntentativas de extubação, sem sucesso, após 2 dias de \nintubação.  \nCom base nas informações fornecidas, qual o momento \npara indicar uma traqueostomia para esse paciente?",
-    "alternativas": {
-      "A": "Após 2 tentativas de extubação.",
-      "B": "Após 10 dias de internação.",
-      "C": "Após 7 dias de internação.",
-      "D": "Após 2 dias de intubação."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
     "numero": "64",
     "especialidade": "Ginecologia e Obstetrícia",
     "tema": "Obstetrícia",
@@ -10488,21 +10224,6 @@
       "D": "A chance de a paciente apresentar mutação hereditária no gene BRCA1 é alta, particularmente se seu tumor coexpressar receptores de estrogênio, progestágeno e HER2."
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "67",
-    "especialidade": "Ginecologia e Obstetrícia",
-    "tema": "Infectologia Ginecológica e Oncologia",
-    "subtema": "Oncologia Ginecológica e Mastologia",
-    "enunciado": "62. ITEM 138683 - V. 720433  \nEm uma equipe de Saúde da Família, foi levantada a \nnecessidade de realizar ações de promoção da saúde para \no controle do câncer de mama.  \nSegundo o Instituto Nacional do Câncer (INCA), que ações \nintersetoriais e práticas preventivas seriam mais eficazes \npara esse fim?",
-    "alternativas": {
-      "A": "Manutenção do peso corporal e a prática regular de atividade física.",
-      "B": "Controle de pressão arterial e diabetes.",
-      "C": "Incentivo a realizar autoexame de mamas.",
-      "D": "Incentivo à coleta de citologia oncótica periodicamente."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2021_PV_objetiva_1",
@@ -10686,21 +10407,6 @@
   },
   {
     "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "80",
-    "especialidade": "Clínica Médica",
-    "tema": "Infectologia",
-    "subtema": "Infecções Sistêmicas e Arboviroses",
-    "enunciado": "75. ITEM 138282 - V. 719694  \nUma mulher, com 23 anos de idade, 1.o trimestre de \ngestação, primigesta, comparece à primeira consulta de \npré-natal na Unidade de Estratégia de Saúde da Família. \nTestes rápidos para sífilis, HIV, hepatite B e hepatite C não \nreagentes.",
-    "alternativas": {
-      "A": "conduta com relação à solicitação desses exames no seguimento pré-natal da gestante, de acordo com o Ministério da Saúde, é repetir A a testagem para sífilis e HIV no 3.o trimestre de gestação, no parto e/ou se história de exposição de risco/violência sexual.",
-      "B": "todas as testagens (sífilis, HIV, hepatite B e hepatite C) no 3.o trimestre de gestação, no parto e/ou se história de exposição de risco/violência sexual.",
-      "C": "a testagem para hepatite B no 3.o trimestre se a gestante tiver histórico de vacinação e se Anti-HBc total for reagente é desnecessária sua repetição no parto.",
-      "D": "a testagem para hepatite C no 2.o e 3.o trimestres, além do parto e/ou se história de exposição de risco/violência sexual."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
     "numero": "81",
     "especialidade": "Ginecologia e Obstetrícia",
     "tema": "Obstetrícia",
@@ -10863,36 +10569,6 @@
       "D": "Prescrever anti-inflamatório por via oral e pomada com antibiótico."
     },
     "gabarito": "B"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "92",
-    "especialidade": "Clínica Médica",
-    "tema": "Pneumologia",
-    "subtema": "Pneumonias, Pleura e Embolia",
-    "enunciado": "100. ITEM 138284 - V. 720617  \nUm paciente masculino, 33 anos de idade, agricultor, é \ninternado com quadro de cansaço, adinamia, tosse, \nemagrecimento importante nos últimos 6 meses (cerca de \n14 kg). Ao exame, mostra-se emagrecido, mucosas pouco \ncoradas, ausculta pulmonar com murmúrio vesicular \npreservado, estertores bilaterais. Tomografia de tórax \napresenta lesões em brotamento com suspeita de \ntuberculose pós-primária.  \nDiante desse caso, quais são, respectivamente, o \ndiagnóstico diferencial, o exame a ser solicitado para \nconfirmação da tuberculose e o tratamento a ser \ninstituído?",
-    "alternativas": {
-      "A": "Pneumonia por estafilococo; solicitar pesquisa de BK e fungo em escarro; iniciar tratamento com rifampicina.",
-      "B": "Pneumonia por paracoccidioidomicose; solicitar biópsia tran-brônquica; iniciar rifampicina, isoniazida, pirazinamida.",
-      "C": "Pneumonia por estafilococo; solicitar lavado bronco alveolar para pesquisa de BK; iniciar rifampicina e pirazinamida.",
-      "D": "Pneumonia por paracoccidioidomicose; solicitar pesquisa de BK e fungo no escarro; iniciar rifampicina, isoniazida, pirazinamida. 26"
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2021_PV_objetiva_1",
-    "numero": "93",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Neurotrauma e TCE",
-    "enunciado": "91. ITEM 138702 - V. 720459  \nUma mulher de 34 anos de idade é atendida em pronto-\nsocorro com desconforto abdominal, sem sinais de \nperitonite, com atraso menstrual de 3 semanas. Foi \nsubmetida à terceira tentativa de inseminação artificial, \nrecentemente, e apresentava beta-hCG = 3 000 mUI/mL, \ndosado no dia anterior. O médico solicitou uma \nultrassonografia que evidenciou gestação ectópica à \nesquerda, com saco gestacional bem delimitado, sem \nbatimentos cardíacos fetais e medindo 3 cm.  \nDiante do quadro atual, qual a conduta apropriada?",
-    "alternativas": {
-      "A": "Iniciar tratamento com metotrexato 50 mg/m2.",
-      "B": "Adotar conduta expectante e dosar beta-hCG diariamente.",
-      "C": "Submeter a paciente a videolaparoscopia e salpingostomia.",
-      "D": "Submeter a paciente a videolaparoscopia e salpingectomia."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2021_PV_objetiva_1",
@@ -11166,21 +10842,6 @@
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "12",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Vias Biliares, Fígado e Pâncreas",
-    "subtema": "Doenças da Vesícula e Vias Biliares",
-    "enunciado": "Homem de 33 anos procurou atendimento por dor em cólica, \nde forte intensidade, em hipocôndrio direito, iniciada havia \n3 meses, com irradiação para abdome superior e dorso. \nInformou que alguns episódios melhoravam com o uso de \nanalgésicos orais. Em diversas ocasiões, havia sido atendido em \nunidade de emergência, sendo submetido a analgesia \nintravenosa, devido à intensidade da dor. Relatou, ainda, que \nas crises dolorosas são associadas a náuseas e vômitos e \ndesencadeadas pela ingestão de alimentos gordurosos. Negou \nicterícia, colúria e acolia fecal. Apresenta ritmo intestinal e \naspecto das fezes normais. No exame físico, estava em bom \nestado geral, consciente, contactuante, orientado no tempo e \nno espaço, normocorado, hidratado, anictérico, acianótico, \nafebril, com frequência cardíaca de 64 batimentos por minuto, \nfrequência respiratória de 16 incursões respiratórias por \nminuto, pressão arterial de 120 × 80 mmHg, abdome plano, \nruídos hidroaéreos presentes e normais, timpânico, flácido, \nindolor à palpação superficial e profunda, sem sinais de \nirritação peritoneal, ausência de visceromegalias ou massas, \nsinal de Murphy negativo. \nRealizou exames laboratoriais, cujos resultados foram os \nseguintes. \n \nHemograma: hemoglobina = 16, 1g/dL; hematócrito = 49,8%; \nleucócitos \n= \n5.800 \nmm³; \nsegmentados \n= \n48,5%; \nlinfócitos = 41,5%; \nplaquetas \n= \n155.000/mm³; \ncoagulação: TP = 13,3 segundos; RNI = 1,09. \n \nUrina: tipo 1 sem alterações. \n \nBioquímica: glicemia de jejum = 83mg/dL; AST = 35 UI/L (valor \nde referência [VR] de 17-59); ALT = 46 UI/L (VR: 21- 72); \namilase = 100 UI/L (VR: 20-160); bilirrubina total = 0,8 mg/dL; \nbilirrubina direta = 0,5 mg/dL; bilirrubina indireta = 0,3 mg/dL. \nCom base no caso descrito, assinale a opção que apresenta o \ndiagnóstico mais provável e a conduta mais apropriada, \nrespectivamente.",
-    "alternativas": {
-      "A": "Coledocolitíase; colangiografia endoscópica.",
-      "B": "Colecistite aguda calculosa; ultrassonografia.",
-      "C": "Pólipo da vesícular biliar; colangiorressonância.",
-      "D": "Colelitíase; colecistectomia videolaparoscópica. Espaço livre 2022"
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
     "numero": "13",
     "especialidade": "Clínica Médica",
     "tema": "Pneumologia",
@@ -11208,21 +10869,6 @@
       "D": "Roda de conversa para levantar as percepções positivas e negativas dos(as) participantes acerca da vacina contra a covid-19 e, a partir dessas informações, construir os argumentos para convencer os mais resistentes, finalizando-se com a apresentação de dados científicos que demonstrem a redução da mortalidade na população vacinada. Espaço livre 2022"
     },
     "gabarito": "D"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "16",
-    "especialidade": "Clínica Médica",
-    "tema": "Cardiologia",
-    "subtema": "Síndromes Coronarianas e Valvopatias",
-    "enunciado": "Uma paciente obesa grau III, portadora de síndrome \nmetabólica, compareceu a consulta no ambulatório de \nendocrinologia \ndo \nhospital \nterciário \nonde \nfaz \nacompanhamento, queixando-se de mialgias e fraqueza \nmuscular generalizada há 1 semana. Segundo informado pela \npaciente, o quadro começou alguns dias após ela ter iniciado \ntratamento com fármaco para baixar seus níveis de \ntriglicerídeos, que continuavam muito elevados a despeito do \ntratamento previamente em curso com rosuvastatina. Ela \ninformou ter observado também sua urina avermelhada. \nO exame físico da paciente revelou leve redução de força \nmuscular difusamente, ao passo que os exames laboratoriais, \nsolicitados em caráter de urgência, mostraram elevados níveis \nséricos (superiores a 10.000 U/L) de CK-total (valor de \nreferência: 30-200 U/L). Exame simples de urina não \napresentou hematúria, mas a fita do exame mostrou um \nfalso-positivo para hemoglobinúria. \nAssinale a opção que indica o fármaco hipolipemiante que foi \nrecentemente introduzido no esquema terapêutico dessa \npaciente e que provavelmente levou à precipitação do quadro \natual.",
-    "alternativas": {
-      "A": "Ezetimibe.",
-      "B": "Genfibrozil.",
-      "C": "Ácido nicotínico.",
-      "D": "Ácidos graxos ômega 3."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
@@ -11283,21 +10929,6 @@
       "D": "Diabetes mellitus."
     },
     "gabarito": "B"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "21",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Cirurgia Vascular e Esofagogástrica",
-    "subtema": "Hemorragia Digestiva e Esôfago",
-    "enunciado": "Um paciente de 55 anos de idade foi atendido no ambulatório \nde clínica médica de um hospital de média complexidade, com \nqueixa de epigastralgia em queimação, aliviada pela ingestão \nde alguns alimentos, além de plenitude pós-prandial e certo \ngrau de disfagia. O paciente faz uso de inibidor de bomba de \nprótons há 4 semanas, sem relatar melhora. No exame físico, \nnão foram observadas alterações dignas de nota. Diante do \nquadro, foi solicitada investigação por endoscopia digestiva \nalta, que revelou a presença de pangastrite enantematosa leve \na moderada, sem úlceras. \nDiante da suspeita de gastrite crônica associada ao Helicobacter \npylori, qual é o melhor método para confirmar o nexo causal \ncom a bactéria naquele momento?",
-    "alternativas": {
-      "A": "Teste da urease em amostras de biópsia gástrica.",
-      "B": "Exame respiratório com solução de ureia marcada com C13.",
-      "C": "Pesquisa direta de antígeno do Helicobacter pylori por meio de ELISA.",
-      "D": "Análise histopatológica de fragmento de biópsia gástrica corado pela hematoxilina-eosina. Espaço livre"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
@@ -11511,21 +11142,6 @@
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "37",
-    "especialidade": "Clínica Médica",
-    "tema": "Pneumologia",
-    "subtema": "Pneumonias, Pleura e Embolia",
-    "enunciado": "Ambulância de suporte básico de vida foi acionada para \natender vítima de colisão de automóvel contra motocicleta em \nautoestrada. Chegando ao local, o socorrista encontrou o \nmotorista da moto, que estava com capacete fechado, em \ndecúbito ventral e imóvel no acostamento. \nEm relação à estabilização da coluna vertebral da vítima no \nlocal do acidente, qual é a melhor ordem de procedimentos a \nser adotada?",
-    "alternativas": {
-      "A": "Retirada do capacete, colocação do colar cervical e rolamento em bloco do paciente em 180 graus.",
-      "B": "Rolamento em bloco do paciente em 180 graus, colocação do colar cervical e retirada do capacete.",
-      "C": "Retirada do capacete, rolamento em bloco do paciente em 180 graus e colocação do colar cervical.",
-      "D": "Colocação do colar cervical, retirada do capacete e rolamento em bloco do paciente em 180 graus."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
     "numero": "38",
     "especialidade": "Ginecologia e Obstetrícia",
     "tema": "Obstetrícia",
@@ -11706,21 +11322,6 @@
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "50",
-    "especialidade": "Medicina Preventiva e Social / MFC",
-    "tema": "Atenção Primária e Sistemas de Saúde",
-    "subtema": "SUS e Políticas Públicas",
-    "enunciado": "Uma mulher previamente hígida, de 72 anos, compareceu a \nunidade básica de saúde, apresentando pressão arterial (PA) de \n162 × 90 mmHg, já confirmada em outras duas medidas. Não \napresentava sintomas nem comorbidades.",
-    "alternativas": {
-      "A": "melhor opção terapêutica e a meta de PA para essa paciente são, respectivamente A diurético tiazídico; PA < 150 × 90 mmHg.",
-      "B": "mudança de estilo de vida; PA < 140 × 90 mmHg.",
-      "C": "monitorização ambulatorial da pressão arterial; PA < 120 × 80 mmHg.",
-      "D": "combinação de bloqueador de canal de cálcio e bloqueador do sistema renina-angiotensina-aldosterona; PA < 130 × 80 mmHg. Espaço livre 2022"
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
     "numero": "51",
     "especialidade": "Clínica Médica",
     "tema": "Pneumologia",
@@ -11841,51 +11442,6 @@
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "60",
-    "especialidade": "Medicina Preventiva e Social / MFC",
-    "tema": "Atenção Primária e Sistemas de Saúde",
-    "subtema": "SUS e Políticas Públicas",
-    "enunciado": "Joana, branca, 36 anos, G2P1A0, passou pelo acolhimento da \nunidade básica de saúde um dia após ter descoberto que estava \ngrávida. Logo depois do acolhimento, o enfermeiro realizou os \ndevidos testes rápidos para diagnóstico de infecções \nsexualmente transmissíveis. Todos tiveram o resultado não \nreagente. Apesar disso, Joana possui critérios que podem \nindicar o seu encaminhamento para o pré-natal de alto risco. \nQual das alternativas corresponde a esses critérios?",
-    "alternativas": {
-      "A": "Cirurgia uterina anterior e IMC de 33 kg/m2, além de sua idade corresponder a um critério de alto risco.",
-      "B": "IMC de 19 kg/m2 e não aceitação da gravidez atual, apesar de sua idade corresponder a um critério de baixo risco.",
-      "C": "Cirurgia uterina anterior e situação conjugal insegura, além de sua idade corresponder a um critério de alto risco.",
-      "D": "Dependência de drogas lícitas e índice de massa corporal (IMC) de 33 kg/m2, apesar de sua idade corresponder a um critério de baixo risco."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "61",
-    "especialidade": "Clínica Médica",
-    "tema": "Endocrinologia e Metabologia",
-    "subtema": "Diabetes Mellitus",
-    "enunciado": "Paciente do sexo feminino, de 23 anos, foi encaminhada para \nserviço ambulatorial especializado após ter sido estabilizada \nem atendimento de urgência em internação ocasionada por \nfraqueza generalizada e lipotimia. Durante a avaliação clínica \nna urgência, foi constatado que a paciente apresentava \nhipertrofia de glândulas parótidas, dentes em regular estado de \nconservação e sinal de Russel nas mãos. Na consulta \nambulatorial, foi verificado que a paciente atendia aos critérios \ndo diagnóstico de bulimia nervosa, por apresentar episódios \nrecorrentes \nde \ncompulsão \nalimentar, \nseguidos \nde \ncomportamentos compensatórios e inapropriados para evitar o \nganho de peso (no caso, autoindução de vômitos). Como \nproposta terapêutica não farmacológica, foi planejada a terapia \ncognitiva comportamental, em 20 sessões em grupo, durante \n5 meses. \nEm relação à proposta de terapêutica farmacológica para essa \npaciente, é correto afirmar que,",
-    "alternativas": {
-      "A": "entre os inibidores seletivos da recaptação de serotonina, o citalopram é uma opção terapêutica na dose de 10 mg.",
-      "B": "entre os inibidores da recaptação de serotonina e noradrenalina, a venlafaxina é uma opção terapêutica na dose de 37,5 mg.",
-      "C": "entre os inibidores seletivos da recaptação de serotonina, a fluoxetina é uma opção terapêutica na dose de 60 mg.",
-      "D": "entre os anticonvulsivantes, em substituição a antidepressivos, o topiramato é uma opção terapêutica na dose de 25 mg."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "62",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Neurotrauma e TCE",
-    "enunciado": "Homem de 35 anos vítima de acidente automobilístico foi \ninicialmente atendido em unidade de pronto atendimento e, \nem seguida, levado pelo serviço de atendimento móvel de \nurgência ao hospital. No exame físico, apresentava-se com \nGlasgow 15; frequência cardíaca de 120 batimentos por \nminuto; frequência respiratória de 24 incursões respiratórias \npor minuto; pressão arterial de 110 × 70 mmHg; saturação de \nO2 de 94% em ar ambiente; glicemia capilar de 80 mg/dL; \nmurmúrio vesicular presente bilateralmente, sem ruídos \nadventícios; ritmo cardíaco regular com bulhas normofonéticas \nem 2 tempos; abdome sem alterações; força muscular em \nmembros superiores direito e esquerdo grau 4/5, sensibilidade \npreservada em membros superiores, força grau 0/5 em \nmembro inferior direito e grau 1/5 em membro inferior \nesquerdo, com sensibilidade de membros inferiores diminuída, \nreflexos patelar, aquileu e bicipital presentes e simétricos. \nAssinale a opção que indica o exame complementar inicial a ser \nsolicitado nesse caso.",
-    "alternativas": {
-      "A": "Mielografia.",
-      "B": "Radiografia simples.",
-      "C": "Ressonância magnética.",
-      "D": "Tomografia computadorizada."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
     "numero": "63",
     "especialidade": "Pediatria",
     "tema": "Neonatologia",
@@ -11928,21 +11484,6 @@
       "D": "Suscetibilidade à toxoplasmose; orientar a paciente sobre medidas de prevenção e indicar que ela continue o acompanhamento no pré-natal na USF."
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "66",
-    "especialidade": "Clínica Médica",
-    "tema": "Cardiologia",
-    "subtema": "Síndromes Coronarianas e Valvopatias",
-    "enunciado": "Paciente do sexo feminino, de 22 anos, estudante de medicina, \nfoi levada à emergência hospitalar pelos pais, que a \nencontraram desacordada ao lado de cartelas vazias de \nclonazepam. A estudante faz acompanhamento em serviço de \npsiquiatria da universidade, mas os pais desconhecem \ndiagnóstico psiquiátrico. No exame físico, a paciente \nencontrava-se com intensa sonolência e relaxamento muscular, \ndiminuição dos reflexos e confusão mental. \nNo atendimento inicial dessa paciente, deve-se",
-    "alternativas": {
-      "A": "colocá-la em observação, monitorando-se seus dados vitais, pois o clonazepam tem meia-vida curta, e esperar a sua recuperação espontânea.",
-      "B": "proceder ao esvaziamento gástrico ainda na sala de emergência e prescrever naloxana endovenosa.",
-      "C": "fazer suporte clínico (hidratação e manutenção de vias aéreas) e prescrever flumazenil endovenoso.",
-      "D": "mantê-la na sala de emergência, fazer a lavagem gástrica e, em seguida, prescrever metadona via sonda nasoenteral."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
@@ -11991,21 +11532,6 @@
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "70",
-    "especialidade": "Ginecologia e Obstetrícia",
-    "tema": "Infectologia Ginecológica e Oncologia",
-    "subtema": "Oncologia Ginecológica e Mastologia",
-    "enunciado": "Ao orientar uma paciente sobre a importância do preventivo de \ncâncer de colo de útero, um profissional de enfermagem \nenfatizou que, conforme orientações do Ministério da Saúde, \nesse exame deve ser realizado por todas as mulheres com vida \nsexual ativa que se encontrem em determinado intervalo de \nidade. Essa mesma paciente apresentou seu exame, cujo \nresultado acusou infecção pelo HPV ou lesão de baixo grau. \nConsiderando o caso, assinale a opção que indica, \nrespectivamente, o intervalo de idade recomendado pelo \nManual do Ministério da Saúde para coleta do exame \npreventivo e a orientação que deve ser dada para a paciente \nem questão.",
-    "alternativas": {
-      "A": "15 a 35 anos; realizar colposcopia.",
-      "B": "25 a 64 anos; repetir o exame após um ano.",
-      "C": "25 a 64 anos; repetir o exame após três anos.",
-      "D": "15 a 35 anos; iniciar o tratamento imediatamente."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
     "numero": "71",
     "especialidade": "Clínica Médica",
     "tema": "Cardiologia",
@@ -12033,21 +11559,6 @@
       "D": "punção aspirativa por agulha fina."
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "73",
-    "especialidade": "Pediatria",
-    "tema": "Puericultura e Desenvolvimento",
-    "subtema": "Crescimento e Nutrição",
-    "enunciado": "Lactente de 30 dias, portadora de síndrome de Down, \napresenta sucção fraca e dificuldade de ganho de peso. Ela \nnecessita ser encaminhada para acompanhamento de equipe \nmultidisciplinar. \nNessa situação, a orientação inicial a ser dada à mãe é",
-    "alternativas": {
-      "A": "oferecer o seio, realizar ordenha de 3 em 3 horas e iniciar fórmula de partida à noite.",
-      "B": "estimular a região perioral da criança e iniciar fórmula de partida exclusiva, para evitar broncoaspiração.",
-      "C": "evitar oferecer o seio, mesmo que a criança estabeleça coordenação entre sucção, deglutição e respiração.",
-      "D": "contraindicar amamentação, pois a hipotonia dificulta o aleitamento materno. 2022"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
@@ -12111,21 +11622,6 @@
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "78",
-    "especialidade": "Clínica Médica",
-    "tema": "Infectologia",
-    "subtema": "Infecções Sistêmicas e Arboviroses",
-    "enunciado": "Recém-nascido de 4 horas de vida foi levado ao pronto-socorro \npor equipe do serviço de atendimento móvel de urgência após \nparto domiciliar de paciente sem histórico de realização de pré-\nnatal. Foram prestados os primeiros atendimentos à mãe e ao \nbebê. Teste rápido da mãe para HIV, hepatite B e hepatite C \nresultaram negativos, mas, para sífilis, o resultado foi positivo. \nColetado, então, teste não treponêmico, o VDRL da mãe foi de \n1:8, e o da criança VDRL resultou não reagente. O recém-\nnascido fez os exames de hemograma completo, glicemia e \nradiografia de ossos longos e liquor, além de exame físico; \ntodos resultaram normais. \nNesse caso, a conduta adequada para a mãe é",
-    "alternativas": {
-      "A": "observação clínica e programação de nova sorologia em 1 mês.",
-      "B": "penicilina benzatina 50.000 UI/kg, dose única, intramuscular.",
-      "C": "penicilina cristalina 50.000 UI/kg, intravenosa, de 12/12h, por 10 dias.",
-      "D": "penicilina procaína 50.000 UI/kg, intramuscular, uma vez ao dia, por 10 dias."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
     "numero": "79",
     "especialidade": "Cirurgia Geral",
     "tema": "Trauma e Emergências Cirúrgicas",
@@ -12183,21 +11679,6 @@
       "D": "cometeu uma infração, por não respeitar a autonomia do paciente."
     },
     "gabarito": "B"
-  },
-  {
-    "origem": "REVALIDA-2022-2_PV_objetiva",
-    "numero": "84",
-    "especialidade": "Clínica Médica",
-    "tema": "Pneumologia",
-    "subtema": "Doenças Obstrutivas e Asma",
-    "enunciado": "Mulher de 36 anos de idade, G3P3A0 (3 partos vaginais), \ncompareceu a consulta no centro de saúde, para renovar \nreceita de anticoncepcional injetável mensal. Faz uso do \nmétodo contraceptivo há 5 anos, com boa adaptação, e não \ndeseja nova gestação. É tabagista, fuma 20 cigarros por dia, e é \netilista social. Tem parceiro único há 10 anos. Nega uso de \npreservativo nas relações sexuais. \nDiante das informações, qual é a orientação de método \nanticoncepcional mais adequado para essa paciente?",
-    "alternativas": {
-      "A": "Usar contraceptivo oral além do injetável mensal.",
-      "B": "Substituir o método utilizado pelo anel vaginal.",
-      "C": "Inserir dispositivo intrauterino (DIU) de cobre.",
-      "D": "Manter o esquema conceptivo adotado."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022-2_PV_objetiva",
@@ -12411,21 +11892,6 @@
   },
   {
     "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "1",
-    "especialidade": "Clínica Médica",
-    "tema": "Endocrinologia e Metabologia",
-    "subtema": "Diabetes Mellitus",
-    "enunciado": "Uma mulher com 51 anos de idade, em tratamento para osteoporose com bifosfonato, comparece ao ambulatório de infectologia de um hospital escola para receber o resultado da investigação diagnóstica de quadro de lesão crônica oro-cérvico-facial à direita. Segundo a paciente, a lesão iniciou-se há cerca de 18 meses como um endurecimento inflamatório logo abaixo da mandíbula, bem ao nível de seu ângulo; ao longo de alguns dias, a lesão tornou-se um nódulo endurecido que, posteriormente, se ulcerou, dando saída a secreção purulenta contendo granulações amareladas por 2 tratos fistulosos. Conta que procurou assistência médica, tendo realizado tratamento antibiótico por algumas vezes, sempre por 7 a 14 dias, com melhora inicial do quadro, mas retorno da drenagem de material nas semanas seguintes. Acrescenta que, há 4 semanas, foi submetida a procedimento de biópsia local, tendo retornado ao ambulatório para saber o resultado da investigação diagnóstica.",
-    "alternativas": {
-      "A": "laudo histopatológico revelou a presença de granulações contendo material inflamatório linfo-histiocitário associado a camadas densas de neutrófilos, no interior das quais são observadas massas de bactérias gram-positivas com filamentos ramificados, além de material sugestivo de depósitos de fosfato de cálcio",
-      "B": "As culturas do material drenado isolaram, além de Actinomyces israelli, Eikenella corrodens e espécies de Staphylococcus",
-      "C": "Ao exame físico, a paciente apresenta 2 elementos molares da arcada dentária inferior, bem adjacentes à lesão cérvico-facial, em péssimo estado de conservação, com processo inflamatório inequívoco",
-      "D": "Nesse caso, o fármaco adequado, de uso prolongado, para a conduta terapêutica antimicrobiana é O oxacilina cefalexina clindamicina levofloxacina"
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
     "numero": "2",
     "especialidade": "Pediatria",
     "tema": "Neonatologia",
@@ -12483,21 +11949,6 @@
       "D": "utilizar, no projeto terapêutico singular, a negação do paciente aos problemas apresentados e a adesão ao tratamento como formas de pressão para obtenção da mudança do estilo de vida condicionar, na construção do projeto terapêutico singular, a adesão às mudança do estilo de vida e ao tratamento farmacológico e comunicar ao paciente que, se não seguir as orientações da equipe, não poderá mais ser atendido na UBS"
     },
     "gabarito": "A"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "6",
-    "especialidade": "Clínica Médica",
-    "tema": "Cardiologia",
-    "subtema": "Hipertensão e Insuficiência Cardíaca",
-    "enunciado": "Um homem com 64 anos de idade chega ao serviço de emergência, conduzido pelos familiares, por confusão mental e sonolência.",
-    "alternativas": {
-      "A": "paciente tem história de hipertensão arterial sistêmica com difícil controle",
-      "B": "Ao exame, apresenta edema de papila ao fundo de olho, pressão arterial (PA) de 220 x 130 mmHg, presença de 4? bulha na ausculta cardíaca",
-      "C": "O restante do exame físico não apresenta alterações",
-      "D": "A tomografia de crânio sem contraste não evidenciou sinais de isquemia cerebral O tratamento de primeira escolha a ser proposto para esse paciente é iniciar O clonidina, via oral, com o objetivo de reduzir a PA em até 50% em 24 horas ou para uma PA na faixa de 140 x 90-85 mmHg nitroprussiato endovenoso com o objetivo de reduzir a PA em até 25% em 2 horas ou para uma PA na faixa de 160 x 100-110 mmHg nitroglicerina endovenosa com o objetivo de reduzir a PA em até 25% em 2 horas ou para uma PA na faixa de 160 x 100-110 mmHg captopril, via sublingual, com o objetivo de reduzir a PA em 50% em 8 horas ou para uma PA na faixa de 140 x 90-85 mmHg "
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022_PV_objetiva_1",
@@ -12561,21 +12012,6 @@
   },
   {
     "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "11",
-    "especialidade": "Clínica Médica",
-    "tema": "Endocrinologia e Metabologia",
-    "subtema": "Distúrbios Hidroeletrolíticos e Ácido-Base",
-    "enunciado": "Uma paciente com 22 anos de idade dá entrada na unidade de emergência de hospital de média complexidade com quadro de asma descompensada. A paciente, que se apresenta taquicárdica (frequência cardíaca: 110 batimentos por minuto), taquipneica (frequência respiratória: 28 incursões respiratórias por minuto) e febril (38,3 DC), relata descompensação do quadro respiratório há 2 dias, tendo utilizado medicação de resgate (beta 2 agonista adrenérgico inalatório) por diversas vezes ao longo desse período, sem obter melhora. Diagnosticada com asma ainda na infância, ela conta que sua doença vem sendo classificada como asma moderada persistente, estando em uso regular de beta 2 agonista de longa duração (salmoterol) e corticoide inalatório (budesonida) em baixa dose, além da medicação de resgate. Ao exame físico, nota-se também leve cianose e sibilância inspiratória e expiratória; a hemodinâmica encontra-se estável bem como o nível de consciência. A paciente é submetida a administração de nebulização com beta 2 agonista adrenérgico inalatório e anticolinérgico de ação rápida (brometo de ipratrópio). A despeito da oxigenioterapia sob máscara nasal com reservatório, repetição da nebulização e da administração de metilprednisolona intravenosa, a paciente continua com algum grau de desconforto respiratório. Exames laboratoriais indicam a presença de possível processo infeccioso bacteriano (leucocitose com leve desvio à esquerda e aumento da proteína C reativa [PCR]), confirmado na radiografia de tórax, que indica padrão de condensação segmentar no lobo inferior direito. A gasometria arterial revelou o seguinte padrão: pH: 7,44 (valor de referência [VR]: 7,35-7,45); Pa02: 65 (VR para idade: 95); PaC02: 44 (VR: 35-45); HCOg-: 22 (VR: 24 +/- 2); Sa02: 91% (VR > 94%). Completada essa avaliação inicial, o médico opta por indicar a realização de intubação orotraqueal preventiva. A principal razão para a tomada dessa decisão",
-    "alternativas": {
-      "A": "foi o nível reduzido da Pa02 à gasometria arterial",
-      "B": "foi o nível normal da PaC02 à gasometria arterial",
-      "C": "foram as evidências de pneumonia à radiografia de tórax, hemograma e PCR",
-      "D": "foi a presença de sibilância inspiratória e expiratória associada à taquipneia "
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
     "numero": "12",
     "especialidade": "Cirurgia Geral",
     "tema": "Vias Biliares, Fígado e Pâncreas",
@@ -12603,21 +12039,6 @@
       "D": "antissarampo aos 18 meses e outra dose da vacina tetraviral aos 18 meses"
     },
     "gabarito": "A"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "14",
-    "especialidade": "Ginecologia e Obstetrícia",
-    "tema": "Obstetrícia",
-    "subtema": "Pré-Natal e Modificações Gestacionais",
-    "enunciado": "Uma paciente chega à unidade de emergência com idade gestacional de 37 semanas e 6 dias, gesta: 2, para: 1, aborto: 0 (um parto cesariana anterior), com contrações uterinas presentes, colo não pérvio, pressão arterial de 160 x 110 mmHg, já com duas aferições intervaladas por 10 minutos. Para esse caso, a conduta correta é solicitar",
-    "alternativas": {
-      "A": "acesso venoso e decúbito lateral esquerdo, além de encaminhar a paciente para cesariana de urgência",
-      "B": "decúbito lateral esquerdo e exames laboratoriais, além de reavaliar a pressão arterial da paciente e proceder a resolução da gestação",
-      "C": "acesso venoso e exames laboratoriais, além de iniciar sulfato de magnésio e proceder a resolução da gestação",
-      "D": "acesso venoso e exames laboratoriais, além de encaminhar a paciente para cirurgia devido a cesariana anterior "
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022_PV_objetiva_1",
@@ -12696,21 +12117,6 @@
   },
   {
     "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "22",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Trauma Torácico",
-    "enunciado": "Um homem com 22 anos de idade, atendido no Pronto-Socorro de hospital, apresentava um ferimento por projétil de arma de fogo no hemitórax direito. Ao exame físico, foram constatados: frequência respiratória de 24 incursões respiratórias por minuto, frequência cardíaca de 110 batimentos por minuto, preenchimento capilar maior que 2 segundos, pressão arterial de 80 x 40 mmHg, estase jugular bilateral, desvio da traqueia para a esquerda, murmúrio vesicular abolido e timpanismo aumentado no hemitórax direito. Com base nesses dados, a conduta adequada é realizar",
-    "alternativas": {
-      "A": "radiografia do tórax e toracocentese no segundo espaço intercostal direito",
-      "B": "radiografia do tórax e drenagem pleural fechada no quarto espaço intercostal direito",
-      "C": "toracocentese inicialmente e drenagem pleural fechada no quarto espaço intercostal direito",
-      "D": "toracocentese inicialmente e drenagem pleural aberta no segundo espaço intercostal direito"
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
     "numero": "23",
     "especialidade": "Pediatria",
     "tema": "Puericultura e Desenvolvimento",
@@ -12768,21 +12174,6 @@
       "D": "São administrados nitrato sublingual e ácido acetilsalicílico (AAS), além de ser solicitada a infusão de tenecteplase intravenosa em bolus, uma vez que não há serviço de hemodinâmica na região Enquanto é providenciada a elaboração do trombolítico, o paciente refere piora dos sintomas, sendo verificado que ele se encontra ainda mais pálido e hipotenso (PA: 80 x 46 mmHg), a despeito de sua ausculta pulmonar manter-se sem ruídos adventícios Considerando os dados relatados, a melhor explicação para a piora clínica do paciente logo após a instituição da abordagem inicial é O agravamento da hipercalemia pelo AAS desenvolvimento de rotura de septo interventricular medicação inadequada na coexistência de infarto de ventrículo direito instalação de choque cardiogênico por grave disfunção ventricular esquerda "
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "27",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Trauma Abdominal e Pélvico",
-    "enunciado": "Um homem com 23 anos de idade, em atendimento no Pronto-Socorro de hospital de nível terciário, apresenta trauma abdominal contuso após acidente automobilístico, sem evidências de lesões em outros segmentos corpóreos. Ao exame físico, apresenta frequência cardíaca de 84 batimentos por minuto, preenchimento capilar menor que 2 segundos, pressão arterial de 115 x 65 mmHg. Durante o atendimento inicial foi utilizada sondagem vesical de demora que evidenciou hematúria maciça. A tomografia de abdome com contraste endovenoso mostrou uma lesão renal grau III, correspondendo a laceração cortical do parênquima renal maior que 1 cm, sem extravasamento urinário. Não foram evidenciadas outras lesões no abdome. Considerando essa história clínica, os dados do exame físico e da tomografia, a conduta correta é indicar",
-    "alternativas": {
-      "A": "arteriografia e embolização para coibir o sangramento",
-      "B": "tratamento operatório em função da hematúria maciça",
-      "C": "sonda vesical de três vias e irrigação com solução salina 0,9%",
-      "D": "repouso até resolução da hematúria, hematócrito seriado e antibióticos"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022_PV_objetiva_1",
@@ -12963,21 +12354,6 @@
       "D": "a tireoidectomia total. .._9UEST40 42 A No ambulatório de um hospital secundário, o médico de plantão recebe uma paciente de 43 anos de idade que se encontra no 102 dia de pós-operatório de uma histerectomia total abdominal por doença benigna A paciente queixa-se de mal-estar, hiporexia e febre (37,3 'C) há cerca de 2 dias Ao exame físico, a incisão operatória encontra-se um pouco hiperemiada e quente A semiologia pulmonar é normal; não há queixa de disúria nem sinais de flebite Considerando esse caso, assinale a opção que apresenta, respectivamente, a classificação da cirurgia quanto ao grau de contaminação e qual deveria ter sido a melhor conduta pré- operatória para evitar a infecção pós-operatória O Contaminada; realizar antibioticoprofilaxia com a administração de cefazolina IG IV durante o ato cirúrgico Contaminada; realizar antibioticoprofilaxia com a administração de cefazolina 2G IV uma hora antes do ato cirúrgico Limpa-contaminada; realizar antibioticoprofilaxia com a administração de cefazolina IG IV durante o ato cirúrgico Limpa-contaminada; realizar antibioticoprofilaxia com a administração de cefazolina 2G IV uma hora antes do ato cirúrgico "
     },
     "gabarito": "B"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "43",
-    "especialidade": "Clínica Médica",
-    "tema": "Pneumologia",
-    "subtema": "Doenças Obstrutivas e Asma",
-    "enunciado": "Uma menina com 8 anos de idade apresenta-se, acompanhada da mãe, em consulta ambulatorial com história de chiado no peito quase que diariamente, associado a dispneia aos esforços moderados e tosse noturna 5 vezes por semana, estando em tratamento contínuo com 1 puff de 250 ucg de beclometasona 1 vez ao dia, sem sinal de melhora. Apresenta exacerbações frequentes, com limitação das atividades nessas ocasiões, sendo necessário o uso de beta 2 agonista de curta duração e, às vezes, de corticoide oral. Ausculta respiratória sem alterações, frequência respiratória de 20 incursões respiratórias por minuto e saturometria de 96%. Diante desse caso, a classificação correta da doença da criança e a conduta adequada para o tratamento a longo prazo são, respectivamente,",
-    "alternativas": {
-      "A": "asma intermitente; tratar os episódios de exacerbação com inalação de beta 2 agonista de curta duração",
-      "B": "asma persistente moderada não controlada; fazer uso de corticoide inalatório oral em dose moderada",
-      "C": "asma persistente leve parcialmente controlada; utilizar corticoide inalatório oral de baixa dosagem",
-      "D": "asma persistente grave parcialmente controlada; iniciar corticoide inalatório oral em dosagem alta"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022_PV_objetiva_1",
@@ -13176,21 +12552,6 @@
   },
   {
     "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "57",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Neurotrauma e TCE",
-    "enunciado": "Uma paciente com 35 anos de idade vem apresentando dor em região lombar direita, associada a náuseas e vômitos de início súbito há 4 horas. Nesse período, nega febre e refere vários episódios semelhantes anteriores. Ao exame físico, apresenta apenas sinal de Giordano positivo à direita. Realizou tomografia de abdome e pelve que mostrou cálculo de 1,2 cm, localizado em junção ureteropiélica direita e de densidade de 1.500 UH. Resultado do exame de Elementos Anormais e Sedimentos (EAS) na urina mostrou apenas hematúria microscópica discreta. Em relação ao cálculo, entre as condutas a seguir, a mais indicada é",
-    "alternativas": {
-      "A": "ureterorrenoscopia",
-      "B": "pielolitotomia cirúrgica",
-      "C": "litotripsia extracorpórea",
-      "D": "terapia expulsora do cálculo com hidratação e alfa- bloqueadores"
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
     "numero": "58",
     "especialidade": "Clínica Médica",
     "tema": "Endocrinologia e Metabologia",
@@ -13218,36 +12579,6 @@
       "D": "púrpura trombocitopênica idiopática"
     },
     "gabarito": "A"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "6",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Proctologia, Urologia e Técnica Cirúrgica",
-    "subtema": "Fios, Cicatrização e Profilaxia",
-    "enunciado": "Um paciente com 25 anos de idade procura a Unidade de Saúde da Família devido a unha encravada no hálux esquerdo. Refere que, desde que começou a trabalhar em um frigorífico e passou a usar botas, tem apresentado quadro recorrente de unha encravada. Ao examinar a região, o médico identifica que a margem ungueal medial do hálux esquerdo penetra a margem córnea vizinha, com a presença de tecido de granulação no local, sem sinais flogísticos ou saída de secreção. Considerando o caso apresentado e as orientações do Caderno de Atenção Básica n. 30, sobre o procedimento de cantoplastia, publicado pelo Ministério da Saúde, é correto afirmar que",
-    "alternativas": {
-      "A": "a ressecção da margem lateral da unha deve ser realizada com tesoura reta, preservando-se a matriz ungueal",
-      "B": "o bloqueio digital deve ser realizado com lidocaína com vasoconstritor, por ser um procedimento muito doloroso",
-      "C": "a introdução da tentacânula deve ser realizada a cerca de 3 mm da margem lateral, longitudinalmente até a matriz",
-      "D": "o tecido de granulação pode ser preservado, não havendo necessidade de ressecá-lo, pois não há sinais de infecção "
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "61",
-    "especialidade": "Clínica Médica",
-    "tema": "Pneumologia",
-    "subtema": "Doenças Obstrutivas e Asma",
-    "enunciado": "Uma mulher com 54 anos de idade, tabagista, cujo consumo é de 30 maços de cigarro por ano, comparece à consulta por dispneia e tosse que, segundo relata, se iniciaram há aproximadamente 1 ano. A paciente traz uma espirometria com uma razão entre o volume expiratório forçado no primeiro segundo e a capacidade vital forçada de 0.7 e um volume expiratório forçado no primeiro segundo de 80% do predito, sem resposta ao broncodilatador.",
-    "alternativas": {
-      "A": "exame foi realizado com técnica correta",
-      "B": "Considerando os dados apresentados, é correto afirmar que O a falta de resposta ao broncodilatador sugere o diagnóstico de asma nessa paciente",
-      "C": "os resultados da espirometria estabelecem o diagnóstico de doença pulmonar obstrutiva crônica nessa paciente",
-      "D": "a espirometria precisa ser repetida para se confirmar o diagnóstico de doença pulmonar obstrutiva crônica nessa paciente os valores do volume expiratório forçado no primeiro segundo afastam o diagnóstico de doença pulmonar obstrutiva crônica nessa paciente"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022_PV_objetiva_1",
@@ -13533,21 +12864,6 @@
       "D": "potencialmente contaminada "
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2022_PV_objetiva_1",
-    "numero": "83",
-    "especialidade": "Clínica Médica",
-    "tema": "Endocrinologia e Metabologia",
-    "subtema": "Tireoide e Adrenal",
-    "enunciado": "Um escolar do sexo masculino, residente em área rural, é encaminhado para um hospital de referência para investigação de quadro de febre irregular e prolongada, palidez, hepatoesplenomegalia insidiosos emagrecimento, e progressivos, associados ao comprometimento do estado geral. Esteve internado em sua cidade de origem por 24 horas após apresentar epistaxe de grande intensidade e gengivorragia. Ao exame admissional, observam-se prostração, petéquias disseminadas em tronco e edema de membros inferiores. Em sua cidade de origem, foram realizados os exames inespecíficos, que demostraram anemia, leucopenia e plaquetopenia. Informa que o pai teve quadro semelhante há alguns meses. Entre os exames a serem realizados para se estabelecer o diagnóstico, é correto afirmar que",
-    "alternativas": {
-      "A": "o exame sorológico por imunofluorescência indireta é o mais vantajoso no que se refere a custo e efetividade, sendo considerados positivos os títulos a partir da diluição 1:80",
-      "B": "a punção aspirativa esplênica é o método que oferece maior sensibilidade e menor risco, sendo o mais utilizado para a técnica de visualização direta do parasita",
-      "C": "a reação em cadeia da polimerase (PCR), técnica molecular, é de baixa sensibilidade quando comparada a técnicas por visualização direta",
-      "D": "a dosagem de proteínas, na qual há forte inversão da relação albumina/globulina, é exame de alta sensibilidade e especificidade"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2022_PV_objetiva_1",
@@ -13881,21 +13197,6 @@
   },
   {
     "origem": "REVALIDA-2023_1_PV_objetiva_regular",
-    "numero": "7",
-    "especialidade": "Clínica Médica",
-    "tema": "Pneumologia",
-    "subtema": "Doenças Obstrutivas e Asma",
-    "enunciado": "Um paciente de 55 anos, obeso, tabagista, foi internado no serviço \nde urologia. Apresentava hematúria franca, tendo sido submetido a \ncistoscopia com ressecção transuretral de lesões. O laudo \nanatomopatológico revelou a ressecção de 3 lesões tumorais \nsuperficiais, limitadas ao revestimento da bexiga, compatíveis com \ncarcinoma de células transicionais de alto grau, além de ausência de \ninvasão muscular. A pesquisa realizada por meio de ultrassonografia \nnão demonstrou acometimento de linfonodos locais. \nNessa situação, qual conduta deve ser adotada para o caso?",
-    "alternativas": {
-      "A": "Solicitar cistectomia total.",
-      "B": "Indicar tratamento intravesical com BCG.",
-      "C": "Indicar tratamento com dose única de mitomicina.",
-      "D": "Solicitar cistoscopia com nova ressecção trimestral."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2023_1_PV_objetiva_regular",
     "numero": "8",
     "especialidade": "Pediatria",
     "tema": "Neonatologia",
@@ -13953,21 +13254,6 @@
       "D": "ultrassonografia de bolsa escrotal."
     },
     "gabarito": "D"
-  },
-  {
-    "origem": "REVALIDA-2023_1_PV_objetiva_regular",
-    "numero": "13",
-    "especialidade": "Clínica Médica",
-    "tema": "Neurologia e Psiquiatria",
-    "subtema": "Neurologia Clínica",
-    "enunciado": "Um recém-nascido de 12 dias de vida foi levado à unidade de \npronto-socorro \npor \napresentar \nvômitos, \nanorexia, \nirritabilidade, desconforto respiratório e convulsões. O \nhemograma completo mostrou anemia. A análise do líquido \ncefalorraquidiano mostrou pleocitose discreta com predomínio \nde células mononucleares, hiperproteinorraquia e glicorraquia \nnormal. Na admissão, ainda em crise convulsiva, foi medicado \ncom fenobarbital, com dose de ataque de 20 mg/kg, porém \npermaneceu com crises epilépticas subentrantes. \nConsiderando-se como a principal etiologia uma infecção do \nsistema nervoso central, para o manejo da condição \napresentada pelo paciente deverá ser administrado",
-    "alternativas": {
-      "A": "diazepam, fenitoína, tiopental.",
-      "B": "fenitoína, midazolam, tiopental.",
-      "C": "fenitoína, lorazepam, piridoxina.",
-      "D": "nitrazepam, fenitoína, piridoxina."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2023_1_PV_objetiva_regular",
@@ -14286,21 +13572,6 @@
   },
   {
     "origem": "REVALIDA-2023_1_PV_objetiva_regular",
-    "numero": "35",
-    "especialidade": "Clínica Médica",
-    "tema": "Cardiologia",
-    "subtema": "Hipertensão e Insuficiência Cardíaca",
-    "enunciado": "Um paciente com 68 anos, branco, previamente hígido, é \natendido em consulta agendada na atenção primária, com \ndiagnóstico recente de hipertensão arterial estágio 2, sem \ncomorbidades. Seus exames físico e laboratoriais não mostram \nlesões de órgãos-alvo. O paciente relata não fazer uso de \nmedicamentos e foi classificado como portador de fragilidade \nleve pela escala de fragilidade clínica, apresentando risco \ncardiovascular baixo pelo escore global de risco. No projeto \nterapêutico para esse paciente, além da mudança de estilo de \nvida, incluem-se terapêutica medicamentosa e metas da \npressão arterial (PA) e de seguimento mais adequadas. \nNesse contexto, a conduta recomendada é iniciar",
-    "alternativas": {
-      "A": "tratamento não medicamentoso, para se atingir a meta pressórica (pressão arterial sistólica de 130 a 139 mmHg e pressão arterial diastólica de 70 a 79 mmHg) por um período de 3 a 6 meses.",
-      "B": "terapia medicamentosa com bloqueador do canal de cálcio associado a inibidor da enzima conversora da angiotensina em doses baixas e marcar retorno em até 30 dias, para aferir se a meta pressórica (PA menor que 140 × 90 mmHg) foi atingida.",
-      "C": "monoterapia com espironolactona, metildopa ou clonidina, marcando retorno em até 30 dias, para aferir se a meta pressórica (pressão arterial sistólica de 130 a 139 mmHg e pressão arterial diastólica de 70 a 79 mmHg) foi atingida.",
-      "D": "uso de betabloqueador, em monoterapia ou associado a diurético em baixa dose, reforçando mudança de estilo de vida e recomendando consultas anuais no caso de a meta pressórica (PA menor que 140 × 90 mmHg) ter sido atingida."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2023_1_PV_objetiva_regular",
     "numero": "36",
     "especialidade": "Clínica Médica",
     "tema": "Endocrinologia e Metabologia",
@@ -14328,21 +13599,6 @@
       "D": "cricotireoidostomia e toracotomia anterolateral esquerda."
     },
     "gabarito": "B"
-  },
-  {
-    "origem": "REVALIDA-2023_1_PV_objetiva_regular",
-    "numero": "38",
-    "especialidade": "Pediatria",
-    "tema": "Neonatologia",
-    "subtema": "Triagem e Icterícia Neonatal",
-    "enunciado": "Retorna a maternidade um recém-nascido com 3 dias, \nconforme sua ficha, ele nasceu com 37 semanas de gestação \npor parto cesáreo devido à restrição de crescimento \nintrauterino e centralização fetal, pesando 1.950 gramas, \nApgar 8/9 e com bolsa rota no ato. A mãe relata ter 34 anos, \nque não houve intercorrências na gestação, que as sorologias \ndo pré-natal apresentaram-se não reagentes, que foi feito o \nteste da orelhinha no recém-nascido e que os olhos e o \ncoração dele se apresentaram sem alterações. Acrescenta que \nseu filho recebeu alta da maternidade com 24 horas de vida. \nAo exame físico, a criança apresenta um peso de 1.850 gramas, \nestatura de 44 cm, perímetro cefálico de 27 cm e mostra-se \nativo, reativo, algo irritado, ictérico, notando-se a presença de \npetéquias na pele; abdome com fígado palpável a 5 cm e baço \na 2 cm do rebordo costal, não havendo alterações no restante \ndo exame. O hemograma apresenta anemia, leucopenia e \nplaquetopenia; \ntambém \nhiperbilirrubinemia \nàs \ncustas \nprincipalmente \nde \nelevação \nde \nbilirrubinas \ndiretas; \ntransaminases 4 vezes acima dos valores de referência e \nultrassom de crânio com leucomalácia periventricular e \ncalcificações periventriculares. \nConsiderando-se esses dados, quais são, respectivamente, a \nhipótese diagnóstica e o manejo adequado para o caso?",
-    "alternativas": {
-      "A": "Sífilis congênita; uso de penicilina cristalina por 10 dias, avaliação neurológica, oftalmológica e fonoaudiológica.",
-      "B": "Citomegalovirose; uso de aciclovir por 2 meses, acompanhamento mensal com pediatra na unidade básica de saúde.",
-      "C": "Sífilis congênita; uso de penicilina procaína por 10 dias, seguimento mensal com pediatria na unidade básica de saúde.",
-      "D": "Citomegalovirose; uso de ganciclovir por 6 meses, acompanhamento auditivo com fonoaudiólogo e otorrinolaringologista. 2023"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2023_1_PV_objetiva_regular",
@@ -14388,21 +13644,6 @@
       "D": "A paciente deverá ser submetida a um exame de imagem antes da realização da coleta de líquido cefalorraquidiano para exame diagnóstico, pois há contraindicação para realização de punção lombar."
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2023_1_PV_objetiva_regular",
-    "numero": "42",
-    "especialidade": "Clínica Médica",
-    "tema": "Pneumologia",
-    "subtema": "Pneumonias, Pleura e Embolia",
-    "enunciado": "Uma paciente com 30 anos, grávida de 34 semanas, sofreu \ncolisão frontal auto vs anteparo (muro), sentada no banco do \npassageiro e sem uso de cinto de segurança. Foi atendida por \nequipe de emergência pré-hospitalar, com relato de parada \ncardíaca e manobras de reanimação por cerca de 5 minutos, \nsem sucesso, durante sua remoção até o pronto-socorro de um \nhospital. Foi admitida pelo cirurgião geral, em parada \ncardiorrespiratória e midríase paralítica bilateral, com \nhematoma volumoso em região frontal. \nNesse caso, qual deve ser a conduta do profissional que realiza \no atendimento?",
-    "alternativas": {
-      "A": "Considerar morte materno-fetal.",
-      "B": "Realizar cirurgia cesariana de urgência.",
-      "C": "Encaminhar a paciente para o gineco-obstetra.",
-      "D": "Solicitar ultrassonografia, para a avaliação do feto. 2023"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2023_1_PV_objetiva_regular",
@@ -14478,21 +13719,6 @@
       "D": "A possibilidade de lesão de via biliar como complicação precisa ser informada à paciente e à sua família, devendo ser solicitada a transferência para um centro com unidade de terapia intensiva e acesso a equipe especializada e a métodos diagnósticos, como a colangiorressonância magnética."
     },
     "gabarito": "D"
-  },
-  {
-    "origem": "REVALIDA-2023_1_PV_objetiva_regular",
-    "numero": "48",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Proctologia, Urologia e Técnica Cirúrgica",
-    "subtema": "Fios, Cicatrização e Profilaxia",
-    "enunciado": "Ao fazer o histórico alimentar de uma criança de 12 meses com \nalergia ao leite de vaca, a pediatra ouve o seguinte relato da mãe da \ncriança: “ao acordar ofereço um suco; no lanche do meio da manhã, \ndou fruta e castanhas; no almoço, ela come diariamente folhas, \nlegumes cozidos e crus e, eventualmente, arroz e feijão; à tarde, \nofereço um lanche com fruta, bolo ou biscoito; à noite, sopa de \nlegumes acrescido de macarrão e azeite; e, antes de dormir, suco”. \nConsiderando-se o relato da mãe, qual grupo de nutrientes \nestá deficiente na alimentação dessa lactente?",
-    "alternativas": {
-      "A": "Vitaminas.",
-      "B": "Gorduras.",
-      "C": "Carboidratos.",
-      "D": "Aminoácidos essenciais."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2023_1_PV_objetiva_regular",
@@ -15246,21 +14472,6 @@
   },
   {
     "origem": "REVALIDA-2023_2_PV_objetiva_regular",
-    "numero": "3",
-    "especialidade": "Clínica Médica",
-    "tema": "Endocrinologia e Metabologia",
-    "subtema": "Diabetes Mellitus",
-    "enunciado": "Um menino de 9 anos, com peso de 29 kg e altura de 1,36 m, \nrecém-adotado, comparece à primeira consulta de rotina com a \nfamília atual. Seus pais questionam o médico sobre a forma mais \nsegura de transportar o filho na parte central do banco traseiro \ndo automóvel, a fim de zelar por sua integridade física em caso \nde acidente. \nEm resposta ao questionamento dos pais, o médico deve \norientar que a forma mais segura de transportar a criança é de \nfrente para o painel do veículo,",
-    "alternativas": {
-      "A": "no banco, utilizando o cinto de segurança de três pontos do veículo.",
-      "B": "na cadeirinha, utilizando o cinto de segurança da própria cadeirinha.",
-      "C": "na cadeirinha, utilizando o cinto de segurança de três pontos do veículo.",
-      "D": "no assento de elevação, utilizando o cinto de segurança de três pontos do veículo."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2023_2_PV_objetiva_regular",
     "numero": "4",
     "especialidade": "Medicina Preventiva e Social / MFC",
     "tema": "Atenção Primária e Sistemas de Saúde",
@@ -15606,21 +14817,6 @@
   },
   {
     "origem": "REVALIDA-2023_2_PV_objetiva_regular",
-    "numero": "28",
-    "especialidade": "Pediatria",
-    "tema": "Puericultura e Desenvolvimento",
-    "subtema": "Crescimento e Nutrição",
-    "enunciado": "Um lactente de 3 meses e 3 semanas, nascido a termo, \npreviamente hígido e sem intercorrências no pré-natal, \nencontra-se em consulta de rotina em unidade básica de saúde \ne sua mãe refere que retornará ao trabalho em uma semana. \nEm função disso, o paciente ficará sem receber o leite materno \ndas 8 às 20 horas a partir da semana seguinte. \nConsiderando a impossibilidade de armazenamento de leite \nmaterno pela mãe e a Lei n. 11 265/2006, que regulamenta a \ncomercialização de alimentos para lactentes e para crianças de \nprimeira infância e os produtos de puericultura correlatos, \nassinale a opção que apresenta a alimentação que satisfará \ncorretamente as necessidades nutricionais desse paciente a \npartir da ausência materna.",
-    "alternativas": {
-      "A": "Fórmula infantil para lactentes, sem introdução de alimentação complementar.",
-      "B": "Fórmula infantil de seguimento para lactentes, sem introdução de alimentação complementar.",
-      "C": "Fórmula infantil para lactentes, com introdução, também, de papas de fruta, de legumes e de carne.",
-      "D": "Fórmula infantil de seguimento para lactentes, com introdução, também, de papas de fruta, de legumes e de carne."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2023_2_PV_objetiva_regular",
     "numero": "29",
     "especialidade": "Ginecologia e Obstetrícia",
     "tema": "Infectologia Ginecológica e Oncologia",
@@ -15738,21 +14934,6 @@
       "D": "Transtorno do deficit da atenção em adulto."
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2023_2_PV_objetiva_regular",
-    "numero": "37",
-    "especialidade": "Clínica Médica",
-    "tema": "Endocrinologia e Metabologia",
-    "subtema": "Diabetes Mellitus",
-    "enunciado": "Um paciente de 71 anos apresenta quadro de sangramento \nintermitente na urina há 4 semanas, acompanhado por dor em \npeso no hipogástrio, sensação de plenitude vesical e urgência \nmiccional. Ele relata dois episódios prévios de hematúria com \neliminação de cálculos. Possui, como antecedente, hipertensão \narterial sistêmica controlada, diabetes mellitus tipo 2, \ndislipidemia, obesidade e tabagismo (40 maços/ano). \nAcerca desse caso, assinale a opção que apresenta a principal \nhipótese diagnóstica e os exames mais adequados para a \ninvestigação.",
-    "alternativas": {
-      "A": "Tumor urotelial; ressonância nuclear magnética e cistoscopia.",
-      "B": "Ureterolitíase obstrutiva; urina tipo 1 e urotomografia com contraste.",
-      "C": "Hiperplasia benigna de próstata; dosagem de PSA e ultrassonografia transrretal.",
-      "D": "Tuberculose genitourinária; urocultura específica para BAAR e urografia excretora. ÁREA LIVRE 2023"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2023_2_PV_objetiva_regular",
@@ -15876,21 +15057,6 @@
   },
   {
     "origem": "REVALIDA-2023_2_PV_objetiva_regular",
-    "numero": "46",
-    "especialidade": "Clínica Médica",
-    "tema": "Pneumologia",
-    "subtema": "Pneumonias, Pleura e Embolia",
-    "enunciado": "Uma adolescente de 14 anos procura uma unidade básica \nde saúde com queixa de cefaleia. Ela conta que, durante a \nprova de matemática, apresentou dificuldade para enxergar \nos enunciados; ela descreve que via “imagens brilhantes” e que, \na seguir, a visão dela ficou como uma mancha escura e passou \na ter dor de cabeça. Depois de 30 minutos, a visão se \nnormalizou. A menina tentou continuar a prova, mas a dor na \nlateral da cabeça começou a latejar e piorou. Em seguida, teve \nvontade de vomitar e precisou sair da sala às pressas. Ela diz que \nnunca teve isso antes e que os sons mais fortes estão muito \ndesconfortáveis. A paciente nega o uso de anticoncepcional \noral. Ao exame físico, está pálida, sudoréica, nauseada e com \ndor. Com relação aos sinais vitais, apresenta pressão arterial \nde 110 × 70 mmHg; frequência cardíaca de 96 batimentos por \nminuto; frequência respiratória de 14 incursões respiratórias \npor minuto; e temperatura axilar de 36,9 °C. Não há sinais \nneurológicos focais, nem sinais meníngeos, e o exame de fundo \nde olho revela pulso venoso espontâneo presente. \nEm relação ao quadro clínico apresentado, a hipótese mais \nprovável é de cefaleia causada por",
-    "alternativas": {
-      "A": "tumor cerebral, havendo indicação de exame de imagem com urgência.",
-      "B": "hemicrania com aura, havendo indicação de tratamento sintomático e acompanhamento.",
-      "C": "hemorragia subaracnóidea, havendo indicação de acionar o serviço médico de emergência.",
-      "D": "hipertensão intracraniana, havendo indicação de encaminhamento urgente para serviço de emergência."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2023_2_PV_objetiva_regular",
     "numero": "47",
     "especialidade": "Cirurgia Geral",
     "tema": "Proctologia, Urologia e Técnica Cirúrgica",
@@ -15903,21 +15069,6 @@
       "D": "irrigação abundante do olho afetado com solução cristaloide."
     },
     "gabarito": "D"
-  },
-  {
-    "origem": "REVALIDA-2023_2_PV_objetiva_regular",
-    "numero": "48",
-    "especialidade": "Pediatria",
-    "tema": "Puericultura e Desenvolvimento",
-    "subtema": "Crescimento e Nutrição",
-    "enunciado": "Um menino de 9 anos, sem comorbidades, é levado pela mãe à \nconsulta ambulatorial por apresentar baixa estatura. A mãe \nrefere que seu filho é o mais baixo entre os colegas da sala de \naula. Na avaliação antropométrica, evidencia-se que o paciente \napresenta mais de 3 desvios-padrão (escore Z: -3) da curva de \naltura/idade e escore Z=0 para peso/altura da Organização \nMundial de Saúde. Demais aspectos do exame físico sem \nalterações. Foram realizados dois testes provocativos da \nsecreção de hormônio de crescimento (GH), com resultados \nde 4,2 e 4,3 mcg/dL respectivamente (Valor de referência de \nGH > 5mcg/L). \nCom base nesse achado, o diagnóstico etiológico mais provável \nda baixa estatura, é",
-    "alternativas": {
-      "A": "hipotireoidismo.",
-      "B": "deficiência de GH.",
-      "C": "má absorção de nutrientes.",
-      "D": "baixa estatura constitucional."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2023_2_PV_objetiva_regular",
@@ -16056,21 +15207,6 @@
   },
   {
     "origem": "REVALIDA-2023_2_PV_objetiva_regular",
-    "numero": "58",
-    "especialidade": "Pediatria",
-    "tema": "Neonatologia",
-    "subtema": "Sala de Parto e Reanimação",
-    "enunciado": "Um neonato de 48 horas de vida, do sexo masculino, nascido \ncom peso de 2 870 g, estatura de 47 cm e Apgar de 7/8, \nrecebendo aleitamento materno exclusivo, encontra-se no \nalojamento conjunto, onde toda a equipe é capaz de verificar as \nseguintes alterações: pregas palpebrais oblíquas para cima, \nepicanto, protrusão lingual, palato ogival, retrognatia, pavilhão \nauricular pequeno de implantação baixa, braquidactilia, prega \npalmar única transversa, discreta hipotonia, frouxidão \nligamentar, excesso de tecido adiposo no dorso do pescoço e \ndiástase dos músculos dos retos abdominais. \nNesse caso, a conduta médica a ser empregada imediatamente \né solicitar",
-    "alternativas": {
-      "A": "seriografia de esófago gastroduodenal para excluir anomalias congênitas do arco duodenal.",
-      "B": "radiografia de tórax, eletrocardiograma e ecocardiograma, devido ao risco aumentado de cardiopatias congênitas.",
-      "C": "teste do pezinho para investigação de hipertireoidismo, que é a patologia tireoidiana encontrada com mais frequência.",
-      "D": "radiografia de coluna cervical nas incidências em perfil, com flexão e extensão, para pesquisa de instabilidade atlantoaxial. ÁREA LIVRE 2023"
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2023_2_PV_objetiva_regular",
     "numero": "59",
     "especialidade": "Ginecologia e Obstetrícia",
     "tema": "Obstetrícia",
@@ -16191,21 +15327,6 @@
   },
   {
     "origem": "REVALIDA-2023_2_PV_objetiva_regular",
-    "numero": "67",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Trauma Torácico",
-    "enunciado": "Um paciente de 16 anos, vítima de acidente automobilístico, \nchega ao pronto-socorro com escoriação extensa em parede \ntorácica anterior, murmúrio vesicular fisiológico e simétrico, \nbulhas \ncardíacas \nhipofonéticas, \nfrequência \ncardíaca \nde 48 batimentos por minuto, pressão arterial de 80 × 40 mmHg \ne turgência bilateral de jugulares. O paciente sofre uma parada \ncardiorrespiratória logo após a admissão. \nCom relação ao quadro desse paciente, a conduta médica \nadequada é realizar",
-    "alternativas": {
-      "A": "toracotomia e massagem cardíaca interna.",
-      "B": "massagem cardíaca externa.",
-      "C": "toracostomia bilateral.",
-      "D": "pericardiocentese."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2023_2_PV_objetiva_regular",
     "numero": "68",
     "especialidade": "Medicina Preventiva e Social / MFC",
     "tema": "Atenção Primária e Sistemas de Saúde",
@@ -16278,21 +15399,6 @@
       "D": "abscesso perianal com sinais flogísticos e drenagem de secreção local."
     },
     "gabarito": "A"
-  },
-  {
-    "origem": "REVALIDA-2023_2_PV_objetiva_regular",
-    "numero": "73",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Trauma Abdominal e Pélvico",
-    "enunciado": "Um menino de 9 anos sofre atropelamento enquanto andava \nde bicicleta pela rua e é trazido, por pessoas que estavam \npresentes no momento do acidente, à emergência do hospital. \nÀ \nadmissão, \no \nmenino \nencontra-se \nem \nparada \ncardiorrespiratória em assistolia. Ao perceber o quadro do \npaciente, os médicos de plantão iniciam medidas de suporte \navançado de vida para essa criança, instituindo, inicialmente, \nvia aérea avançada com sucesso. \nDiante dessa situação, quais medidas devem ser tomadas \nimediatamente?",
-    "alternativas": {
-      "A": "Manter as compressões torácicas e realizar uma ventilação a cada 2 a 3 segundos.",
-      "B": "Manter compressões torácicas na frequência de 15 compressões e de 2 ventilações.",
-      "C": "Administrar cristaloides para o paciente, visto que se trata de um choque hemorrágico.",
-      "D": "Administrar epinefrina para o paciente, visto que não houve retorno da circulação espontânea. ÁREA LIVRE 2023"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2023_2_PV_objetiva_regular",
@@ -16581,21 +15687,6 @@
   },
   {
     "origem": "REVALIDA-2023_2_PV_objetiva_regular",
-    "numero": "93",
-    "especialidade": "Pediatria",
-    "tema": "Neonatologia",
-    "subtema": "Sala de Parto e Reanimação",
-    "enunciado": "Uma adolescente de 15 anos é levada ao pronto-atendimento \npor seu pai, que refere ter encontrado sua filha desacordada \nao lado de uma cartela de comprimidos de bromazepam vazia. \nEle diz que os comprimidos, originalmente, pertenciam à avó, \nque sofre de insônia e reside no mesmo domicílio, e não sabe \ndizer quantos comprimidos a adolescente ingeriu ou há quanto \ntempo ocorreu a ingestão. Na avaliação inicial, a adolescente \napresenta rebaixamento do nível de consciência, abrindo os \nolhos e murmurando palavras incompreensíveis quando \nsubmetida a estímulo doloroso. Suas vias aéreas estão \npérvias e a respiração é regular, com saturação de oxigênio \nde 96% em ar ambiente. \nDiante do quadro dessa paciente, quais são as condutas clínicas \nindicadas?",
-    "alternativas": {
-      "A": "Dosar o nível sérico de benzodiazepínicos; administrar, imediatamente, o flumazenil.",
-      "B": "Realizar lavagem gástrica após intubação orotraqueal para proteção de vias aéreas; administrar carvão ativado.",
-      "C": "Iniciar lavagem gástrica; monitorar eletrocardiograma, eletrólitos, função renal e hepática; administrar flumazenil.",
-      "D": "Monitorar eletrocardiograma, eletrólitos, função renal e hepática; realizar hidratação para estimular a eliminação renal; manter oximetria de pulso contínuo."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2023_2_PV_objetiva_regular",
     "numero": "94",
     "especialidade": "Ginecologia e Obstetrícia",
     "tema": "Obstetrícia",
@@ -16791,21 +15882,6 @@
   },
   {
     "origem": "REVALIDA-2024_1_PV_objetiva_regular",
-    "numero": "7",
-    "especialidade": "Clínica Médica",
-    "tema": "Infectologia",
-    "subtema": "Meningites e Infecções Comuns",
-    "enunciado": "Um paciente com 68 anos, submetido a hemicolectomia \nesquerda por neoplasia com anastomose terminoterminal, sem \nintercorrências, refere, no quinto dia de pós-operatório, dor \nleve abdominal.  \nAo exame físico, apresenta-se hidratado, com temperatura \naxilar de 38,1 °C, frequência cardíaca de 96 bpm, pressão \narterial de 100 X 70 mmHg, frequência respiratória de 20 irpm. \nAbdome distendido 1+/4+, ruídos hidroaéreos presentes, \ntimpanismo generalizado à percussão e levemente doloroso à \npalpação profunda generalizada. Aparelhos cardiovascular e \nrespiratório sem alterações. Ferida operatória limpa, sem sinais \nflogísticos. \nNesse caso, qual é a origem mais provável do quadro de febre \napresentado pelo paciente?",
-    "alternativas": {
-      "A": "Atelectasia.",
-      "B": "Infecção urinária.",
-      "C": "Abcesso subfrênico.",
-      "D": "Infecção do sítio cirúrgico profundo."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2024_1_PV_objetiva_regular",
     "numero": "8",
     "especialidade": "Clínica Médica",
     "tema": "Infectologia",
@@ -16938,21 +16014,6 @@
       "D": "Cefaleia por malformação vascular; encaminhar à neurologia. 2023"
     },
     "gabarito": "A"
-  },
-  {
-    "origem": "REVALIDA-2024_1_PV_objetiva_regular",
-    "numero": "17",
-    "especialidade": "Clínica Médica",
-    "tema": "Hematologia, Reumatologia e Dermatologia",
-    "subtema": "Reumatologia e Autoimunidade",
-    "enunciado": "Uma paciente com 32 anos refere mal-estar geral, febrícula e \ncoriza há 10 dias. Refere também hábito frequente de lavar e \nassoar o nariz com soro fisiológico. Há dois dias, após uma \nsessão prolongada de natação, relata sentir o ouvido direito \nobstruído, dor localizada e piora da sensação de febre.",
-    "alternativas": {
-      "A": "paciente trata de lúpus eritematoso sistêmico há dois anos. Ao exame físico geral, apresenta dor em joelhos bilateralmente. Realizam-se os exames de: rinoscopia, em que se verifica hiperemia leve de epitélio nasal; e otoscopia, em que se observa leve hiperemia de membrana timpânica bilateral, demostrando membrana timpânica imóvel bilateralmente à otoscopia pneumática. Nesse caso, o diagnóstico e o tratamento indicados são, respectivamente: A otite média crônica lúpica; antibioticoterapia tópica por 7 dias, corticoterapia sistêmica.",
-      "B": "otite média aguda fúngica; claritromicina e fluconazol por 21 dias, timpanotomia direita.",
-      "C": "otite externa subaguda viral; antibioticoterapia tópica por 15 dias, anti-inflamatórios sistêmicos.",
-      "D": "otite média aguda bacteriana; amoxacilina e clavulanato por 10 dias; descongestionantes e anti-histamínicos."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2024_1_PV_objetiva_regular",
@@ -17316,21 +16377,6 @@
   },
   {
     "origem": "REVALIDA-2024_1_PV_objetiva_regular",
-    "numero": "43",
-    "especialidade": "Clínica Médica",
-    "tema": "Cardiologia",
-    "subtema": "Síndromes Coronarianas e Valvopatias",
-    "enunciado": "Um lactente com 2 anos, previamente hígido, é levado à \nunidade de pronto atendimento com quadro de diarreia, com \nfezes líquidas sem muco ou sangue. Além disso, apresenta \nvômitos e febre há 48 horas. \nAo exame físico, o paciente está sonolento, hipotônico, com \nolhos fundos, mucosas secas e ausência de lágrimas. O pulso \nestá débil e o enchimento capilar é > 5 segundos. \nNesse caso, qual tratamento inicial deve ser ministrado, segundo o \nfluxograma do Ministério da Saúde do Brasil de 2023?",
-    "alternativas": {
-      "A": "Solução de reidratação oral de 50 a 100 mL/kg por via oral, por um período de 4 a 6 horas.",
-      "B": "Solução de reidratação oral de 50 a 100 mL/kg por gastróclise, por um período de 4 a 6 horas.",
-      "C": "Soro fisiológico a 0,9% 30 mL/kg por via endovenosa; em 30 minutos, administrar + Ringer Lactato 30 mL/kg em 2 horas.",
-      "D": "Soro fisiológico a 0,9% 20 mL/kg por via endovenosa; em 30 minutos, repetir essa quantidade até que a criança esteja hidratada."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2024_1_PV_objetiva_regular",
     "numero": "44",
     "especialidade": "Ginecologia e Obstetrícia",
     "tema": "Obstetrícia",
@@ -17418,21 +16464,6 @@
       "D": "prescrever ampicilina por via endovenosa para a gestante, se houver ruptura das membranas ovulares durante o trabalho de parto."
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2024_1_PV_objetiva_regular",
-    "numero": "50",
-    "especialidade": "Clínica Médica",
-    "tema": "Cardiologia",
-    "subtema": "Síndromes Coronarianas e Valvopatias",
-    "enunciado": "Um médico de família e comunidade é chamado para verificar, \njuntamente com sua equipe de saúde da família, um óbito \ndomiciliar de um homem com 78 anos. O paciente fazia \nacompanhamento por hipertensão arterial sistêmica, diabetes \nmellitus e síndrome metabólica de difícil controle. Um familiar \nrefere que o paciente acordou cedo, sentiu forte dor \nprecordial, irradiando para o braço esquerdo, ficou pálido e \nsudoreico e caiu no chão. \nNo domicílio, o médico e sua equipe realizam procedimentos \npara confirmação do óbito buscando a existência de rigidez \ncadavérica, realizando avaliação da temperatura corporal e \nidentificando a presença ou não de possível achado de causa \nexterna — possibilidade que é excluída. Após examinar o \ncorpo, inicia-se a fase preenchimento da declaração de óbito \n(DO). Na seção de condições e causas do óbito constante na \nDO, há alguns itens a serem preenchidos, quais sejam, causa \nbásica do óbito, causa imediata do óbito e causa contributiva. \nCom base nessa situação, assinale a alternativa que apresenta \no preenchimento correto a ser feito na declaração com relação \nà causa de óbito desse paciente.",
-    "alternativas": {
-      "A": "Causa básica: síndrome metabólica.",
-      "B": "Causa contributiva: diabetes mellitus.",
-      "C": "Causa básica: infarto agudo do miocárdio.",
-      "D": "Causa imediata: doença arterial aterosclerótica. 2023"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2024_1_PV_objetiva_regular",
@@ -17901,21 +16932,6 @@
   },
   {
     "origem": "REVALIDA-2024_1_PV_objetiva_regular",
-    "numero": "83",
-    "especialidade": "Medicina Preventiva e Social / MFC",
-    "tema": "Atenção Primária e Sistemas de Saúde",
-    "subtema": "SUS e Políticas Públicas",
-    "enunciado": "Um recém-nascido, com peso de nascimento de 2.900 g, \nnascido a termo e de parto vaginal, é levado à primeira \nconsulta pós-natal na unidade básica de saúde com 10 dias de \nvida. Durante a consulta, observa-se abundante quantidade de \nsecreção purulenta em ambos os olhos da criança e, segundo a \nmãe, essa secreção teve início há 2 dias, formando-se \nrapidamente, mesmo após a limpeza. O paciente apresenta, \ntambém, hiperemia ocular e edema bipalpebral. Sabe-se que a \nmãe iniciou tardiamente o pré-natal e fez acompanhamento \nirregular, e ela refere que, atualmente, está apresentando \nleucorreia purulenta. O médico, então, solicita swab da \nsecreção, cujo resultado chegará em até 5 dias. \nCom base nessas informações, quais são, respectivamente, o \ndiagnóstico da doença da criança e a conduta médica \nadequada para o caso?",
-    "alternativas": {
-      "A": "Conjuntivite gonocócica; tratar a criança com colírio antibiótico após receber o resultado do swab, já que não há risco de perda da visão.",
-      "B": "Conjuntivite bacteriana; orientar a mãe do paciente, realizar limpeza dos olhos e iniciar o uso do colírio antibiótico, mesmo sem o resultado do swab.",
-      "C": "Conjuntivite bacteriana; orientar a mãe do paciente, realizar limpeza dos olhos e aguardar o resultado do swab para prescrever colírio antibiótico específico.",
-      "D": "Conjuntivite gonocócica; iniciar, mesmo sem o resultado do swab, o tratamento com colírio antibiótico e com ceftriaxona IM, já que há risco de perda da visão. 2023"
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2024_1_PV_objetiva_regular",
     "numero": "84",
     "especialidade": "Cirurgia Geral",
     "tema": "Trauma e Emergências Cirúrgicas",
@@ -18201,21 +17217,6 @@
   },
   {
     "origem": "REVALIDA-2024_2_PV_objetiva_regular",
-    "numero": "3",
-    "especialidade": "Clínica Médica",
-    "tema": "Cardiologia",
-    "subtema": "Síndromes Coronarianas e Valvopatias",
-    "enunciado": "Um adolescente não identificado, encontrado desacordado \nnuma festa Rave, é atendido pelo SAMU. Há relatos de que \nconsumiu drogas de abuso e álcool minutos antes de ser \nencontrado. À avaliação está sem respiração e sem pulso, \nsegundo relatos há pelo menos 10 minutos. Dois socorristas \niniciam a realização das compressões e das ventilações. São \ncolocados eletrodos no paciente, identificando-se atividade \nelétrica sem pulso (AESP). A partir desse diagnóstico, é \nrealizado acesso venoso de urgência. \nAssinale a alternativa que apresenta as próximas condutas \nimediatas.",
-    "alternativas": {
-      "A": "Pausar massagem cardíaca e obter via aérea segura.",
-      "B": "Obter via aérea segura e iniciar administração de drogas.",
-      "C": "Prosseguir com compressões e insuflações coordenadas.",
-      "D": "Realizar desfibrilação e, depois, retornar com as compressões."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2024_2_PV_objetiva_regular",
     "numero": "4",
     "especialidade": "Ginecologia e Obstetrícia",
     "tema": "Obstetrícia",
@@ -18486,21 +17487,6 @@
   },
   {
     "origem": "REVALIDA-2024_2_PV_objetiva_regular",
-    "numero": "22",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Abdome Agudo e Parede Abdominal",
-    "subtema": "Obstrução Intestinal",
-    "enunciado": "Uma paciente de 62 anos foi submetida à colectomia direita \ncom anastomose primária devido a adenocarcinoma colônico. \nEla relata antecedente de radioterapia pélvica para tratamento \nde neoplasia de endométrio. No 4º dia de pós-operatório, ela \napresenta 39 °C de temperatura axilar, distensão abdominal \nsem defesa, presença de ferida operatória sem sinais \nflogísticos e fístula colo-cutânea com débito de 150 mL/dia em \nárea de cicatriz cirúrgica. \nAcerca do tratamento adequado para essa paciente, é correto \nindicar",
-    "alternativas": {
-      "A": "fistulectomia precoce, correção do desequilíbrio acidobásico, terapia nutricional e controle da sepse.",
-      "B": "tratamento clínico com controle de sepse, correção hidroeletrolítica volêmica, e terapia nutricional.",
-      "C": "fistulografia, jejum, instalação de nutrição parenteral e abordagem cirúrgica do trajeto fistuloso.",
-      "D": "jejum, instalação de nutrição parenteral e reabordagem cirúrgica com colostomia."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2024_2_PV_objetiva_regular",
     "numero": "23",
     "especialidade": "Clínica Médica",
     "tema": "Hematologia, Reumatologia e Dermatologia",
@@ -18606,21 +17592,6 @@
   },
   {
     "origem": "REVALIDA-2024_2_PV_objetiva_regular",
-    "numero": "30",
-    "especialidade": "Medicina Preventiva e Social / MFC",
-    "tema": "Atenção Primária e Sistemas de Saúde",
-    "subtema": "SUS e Políticas Públicas",
-    "enunciado": "Em certo município brasileiro, a gestão da saúde é feita de \nforma centralizada: todas as decisões e ações são tomadas por \num pequeno grupo de gestores sem a participação efetiva da \npopulação. Isso tem gerado descontentamento e desconfiança \npor parte dos cidadãos, que sentem que suas necessidades e \ndemandas não estão sendo consideradas. Um grupo de \nmoradores, então, decide organizar-se para reivindicar maior \nparticipação no processo de gestão da saúde. A primeira \nmedida que esses moradores tomam é buscar informações \nsobre o controle social no SUS. \nEsse grupo de moradores descobriu, com base na lei n. 8.142 \nde 1990 e no Decreto n. 7.508 de 2011, que eles têm o \ndireito de",
-    "alternativas": {
-      "A": "votar na conferência municipal de saúde a cada 3 anos e na conferência estadual de saúde a cada 6 anos.",
-      "B": "participar de conselhos de saúde em proporção não paritária em relação ao conjunto dos demais segmentos.",
-      "C": "eleger representantes para o conselho estadual de saúde, que deve ser composto por, no mínimo, 50% de usuários.",
-      "D": "atuar na gerência de unidades básicas municipais de saúde após realização de curso fornecido pelo Ministério da Saúde."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2024_2_PV_objetiva_regular",
     "numero": "31",
     "especialidade": "Clínica Médica",
     "tema": "Cardiologia",
@@ -18708,21 +17679,6 @@
       "D": "Rastreamento negativo, mas consumo excessivo; orientar o paciente sobre riscos de dirigir embriagado e oferecer naltrexona para fins de tratamento farmacológico."
     },
     "gabarito": "B"
-  },
-  {
-    "origem": "REVALIDA-2024_2_PV_objetiva_regular",
-    "numero": "37",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Neurotrauma e TCE",
-    "enunciado": "Uma paciente de 64 anos é socorrida, em via pública, pelo \nSAMU por queda da própria altura com rebaixamento do nível \nde consciência. Ao exame físico, constata-se ferida corto-\ncontusa na região occipital direita de 3 cm; Glasgow 9;   \npressão arterial de 110 × 70 mmHg; e frequência cardíaca de          \n88 batimentos por minuto. Ao exame pulmonar, percebe-se \nexpansibilidade preservada bilateralmente e, à ausculta \ncardíaca, constata-se bulhas rítmicas e normofonéticas. \nO abdome apresenta-se flácido e indolor. \nNesse caso, a conduta imediata deve ser a",
-    "alternativas": {
-      "A": "intubação com inclinação da cabeça para trás, em extensão cervical, e realizar elevação do mento.",
-      "B": "ventilação com máscara por meio da tração anterior da mandíbula com discreta flexão cervical.",
-      "C": "intubação com tração anterior pelo ângulo da mandíbula com discreta rotação cervical para o lado do socorrista.",
-      "D": "ventilação com pinçamento da arcada dentária inferior, com apoio no mento, fazendo tração para abertura bucal."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2024_2_PV_objetiva_regular",
@@ -18843,21 +17799,6 @@
       "D": "Teste rápido de sífilis. ÁREA LIVRE 2024"
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2024_2_PV_objetiva_regular",
-    "numero": "46",
-    "especialidade": "Clínica Médica",
-    "tema": "Cardiologia",
-    "subtema": "Síndromes Coronarianas e Valvopatias",
-    "enunciado": "Um homem de 68 anos busca uma unidade de pronto-atendimento devido à dor precordial tipo aperto, irradiada para região \ncervical anterior, de intensidade moderada. O primeiro episódio de dor se iniciou há aproximadamente 4 horas e cessou, \nespontaneamente, após 15 minutos de duração. Relata que, há 20 minutos, iniciou-se um novo episódio de dor precordial, tipo \naperto, irradiada para região cervical, um pouco mais intensa do que a anterior e que, no momento, parece estar diminuindo.           \nO paciente é hipertenso há 16 anos e diabético há 7 anos. Faz uso diário de enalapril, 20 mg de 12 em 12 horas, de glibenclamida, \n5 mg ao dia, e de metformina, 850 mg 2 vezes ao dia. Nega tabagismo e refere fazer caminhadas diárias de até 40 minutos. Relata \nque seu irmão mais velho faleceu por infarto agudo do miocárdio há 30 dias. O exame físico apresentou-se sem alterações. \nO paciente realizou dosagem de troponina ao ser admitido e após 3 horas, ambas com resultados normais. Também realizou 2 ECGs: \no primeiro na admissão e, o segundo, depois de 30 minutos: \nECG Admissão \n \n \n \n \n\n \n 2024        \n \n \n \nECG após 30 minutos \n \n \n \n \nNesse caso, a conduta terapêutica correta é proceder com",
-    "alternativas": {
-      "A": "realização de oxigenioterapia, de analgesia, de terapias anti-isquêmica, antitrombótica e anticoagulante e encaminhamento do paciente à unidade de terapia intensiva.",
-      "B": "prescrição de fibrinólise pré-hospitalar e, posteriormente, encaminhamento do paciente para o hospital de referência.",
-      "C": "encaminhamento do paciente ao laboratório de hemodinâmica para realização de angioplastia primária.",
-      "D": "acolhimento do paciente, dando a ele orientações e encaminhamento ao ambulatório de cardiologia. 2024"
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2024_2_PV_objetiva_regular",
@@ -19053,21 +17994,6 @@
       "D": "ministrar sulfato de magnésio até a normalização da pressão. 2024"
     },
     "gabarito": "A"
-  },
-  {
-    "origem": "REVALIDA-2024_2_PV_objetiva_regular",
-    "numero": "60",
-    "especialidade": "Clínica Médica",
-    "tema": "Endocrinologia e Metabologia",
-    "subtema": "Diabetes Mellitus",
-    "enunciado": "Um médico de família realiza uma visita domiciliar a um \nhomem de 64 anos que está acamado e em tratamento para \nmal de Parkinson e hipertensão arterial. Durante a consulta, a \nfilha do paciente relata que seu pai apresenta alterações de \ncomportamento há 4 dias, estando mais prostrado e \nlentificado, com episódios de agitação noturna, sem outras \nqueixas. Ao exame físico, notam-se estertores crepitantes em \nterço médio à direita, sem alteração percebida na ausculta \ncardíaca. Paciente sarcopênico e sem sinais de roda denteada. \nApresenta, pressão arterial de 110 × 95 mmHg, frequência \ncardíaca de 96 batimentos por minuto, frequência respiratória \nde 13 incursões respiratórias por minuto, saturação de \noxigêncio de 99% em ar ambiente e temperatura de 36,1 °C. \nO médico solicitou exames complementares, cujos resultados \nforam apresentados a ele três dias depois, no retorno da visita \ndomiciliar. A consulta foi constatado que o idoso mantinha o \nmesmo quadro clínico pelo sétimo dia consecutivo. Apresentou \nos seguintes exames: \n \nExames  \nResultados \nHemoglobina \n11 mg/dL \nHematócrito \n40% \nLeucócitos \n9.000 \nUreia \n15 mg/dL \nCreatinina \n1 mg/dL \nHemoglobina glicada (HBA1C) \n6% \nGlicemia em jejum \n95mg/dL \nTGO \n35 U/L \nTGP \n41 U/L \nECG de 12 derivações \nsem alterações \n \nRadiografia de tórax.",
-    "alternativas": {
-      "A": "conduta terapêutica a ser adotada para o caso desse paciente é A iniciar tratamento para quadro demencial, associado à doença de base.",
-      "B": "realizar a internação hospitalar do paciente para instituir tratamento endovenoso.",
-      "C": "iniciar tratamento ambulatorial para tuberculose pulmonar e profilaxia dos contactantes.",
-      "D": "instituir betalactâmico em domicílio e orientar familiares responsáveis quanto aos sinais de alarme."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2024_2_PV_objetiva_regular",
@@ -19746,21 +18672,6 @@
   },
   {
     "origem": "REVALIDA-2025_1_caderno_1_preliminar",
-    "numero": "7",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Trauma Abdominal e Pélvico",
-    "enunciado": "Homem de 28 anos foi admitido em hospital após 30 minutos \nde \nacidente \nmotociclístico. \nApresentava \nmúltiplas \ne \ngraves lesões em face, mandíbula e cavidade oral, sem \nlesões cervicais. Exame físico do tórax e do abdome e \nultrassonografia focada no abdome no trauma (FAST) sem \nalterações. Sinais vitais: frequência cardíaca 92 bpm; pressão \narterial 130 x 80 mmHg; saturação periférica de oxigênio 100% \nem ar ambiente. \nO paciente evoluiu rapidamente com dispneia, taquipneia, \nestridor inspiratório e expiratório, cornagem e rebaixamento \ndo nível de consciência. Saturação periférica de oxigênio \npassou para 88%, mesmo com a oferta de oxigênio \nsuplementar. Após alguns minutos, evoluiu com saturação \nperiférica de oxigênio de 59% e frequência cardíaca de 48 bpm. \nNesse momento, qual é a conduta imediata adequada para \nesse paciente?",
-    "alternativas": {
-      "A": "Traqueostomia.",
-      "B": "Cricotireoidotomia.",
-      "C": "Intubação orotraqueal.",
-      "D": "Intubação nasotraqueal."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2025_1_caderno_1_preliminar",
     "numero": "8",
     "especialidade": "Clínica Médica",
     "tema": "Pneumologia",
@@ -19986,21 +18897,6 @@
   },
   {
     "origem": "REVALIDA-2025_1_caderno_1_preliminar",
-    "numero": "23",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Neurotrauma e TCE",
-    "enunciado": "Agrupadas no acrônimo TORCHSZ, as infecções congênitas \ne/ou perinatais são causas de significativa morbimortalidade \nneonatal. Os sinais e sintomas dessas enfermidades são \nsimilares, porém algumas características são mais sugestivas de \ndeterminada doença.",
-    "alternativas": {
-      "A": "partir do exposto, assinale a alternativa que relaciona corretamente sinais e sintomas e/ou achados de exames complementares com a doença. A Hidrocefalia, plaquetose, hepatoesplenomegalia e icterícia são achados mais comuns da toxoplasmose.",
-      "B": "Rash macular com úlceras, plaquetopenia e alteração liquórica são achados típicos da rubéola congênita.",
-      "C": "Rinite serossanguinolenta, pseudoparalisia de Parrot, catarata e coriorretinite são encontradas na herpes simples.",
-      "D": "Catarata, persistência do canal arterial ou estenose pulmonar e retardo de crescimento intrauterino são achados mais comuns de citomegalovírus. ÁREA LIVRE"
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2025_1_caderno_1_preliminar",
     "numero": "24",
     "especialidade": "Ginecologia e Obstetrícia",
     "tema": "Obstetrícia",
@@ -20148,21 +19044,6 @@
       "D": "Para o favorecimento da continuidade do aleitamento materno, pode-se oferecer em mamadeira o leite ordenhado."
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2025_1_caderno_1_preliminar",
-    "numero": "34",
-    "especialidade": "Ginecologia e Obstetrícia",
-    "tema": "Ginecologia Geral e Climatério",
-    "subtema": "Endocrinologia Ginecológica e Ciclo",
-    "enunciado": "Menina de 14 anos vai à consulta na unidade básica de saúde \n(UBS), acompanhada de sua mãe, relatando preocupação, pois \ntodas as suas amigas da mesma faixa etária já menstruaram, \nexceto ela. A paciente apresenta as mamas desenvolvidas e \nalguns pelos pubianos e, durante a consulta, apresenta muitas \ndúvidas em relação à menstruação. \nNesse caso, após orientar a menina sobre ciclo menstrual e \nsobre métodos contraceptivos, a conduta adequada é",
-    "alternativas": {
-      "A": "solicitar exames complementares para investigação de amenorreia.",
-      "B": "orientar a mãe e a filha a aguardarem a menstruação até os 16 anos.",
-      "C": "indicar teste de progesterona oral para confirmar amenorreia primária.",
-      "D": "solicitar ultrassonografia e dosagens hormonais para investigação de amenorreia."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2025_1_caderno_1_preliminar",
@@ -21246,21 +20127,6 @@
   },
   {
     "origem": "REVALIDA-2025_2_caderno_1_preliminar",
-    "numero": "7",
-    "especialidade": "Clínica Médica",
-    "tema": "Neurologia e Psiquiatria",
-    "subtema": "Psiquiatria e Saúde Mental",
-    "enunciado": "Homem de 20 anos, com diagnóstico de esquizofrenia, chega \nà Unidade de Pronto Atendimento (UPA) acompanhado de \nfamiliares, que descrevem que o paciente acordou “torto”. \nHá 5 dias, foi realizada a troca de risperidona por haloperidol, \npois aquela estava em falta na farmácia. Paciente nega outras \nqueixas clínicas. Ao exame, apresenta contratura de região \ncervical e fácies de dor.\nQuais são, respectivamente, a hipótese diagnóstica mais \nprovável e a conduta mais adequada?",
-    "alternativas": {
-      "A": "Distonia; biperideno intramuscular.",
-      "B": "Acatisia; haloperidol intramuscular.",
-      "C": "Discinesia tardia; diazepam intramuscular.",
-      "D": "Síndrome extrapiramidal; prometazina intramuscular."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2025_2_caderno_1_preliminar",
     "numero": "8",
     "especialidade": "Clínica Médica",
     "tema": "Hematologia, Reumatologia e Dermatologia",
@@ -21276,21 +20142,6 @@
   },
   {
     "origem": "REVALIDA-2025_2_caderno_1_preliminar",
-    "numero": "9",
-    "especialidade": "Clínica Médica",
-    "tema": "Infectologia",
-    "subtema": "Infecções Sistêmicas e Arboviroses",
-    "enunciado": "Paciente de 7 anos, na 4ª semana de tratamento quimioterápico \npara leucemia linfocítica aguda, é admitido em hospital terciário \ncom história de febre há 12 horas (temperatura axilar de 39 °C),\ntosse e dispneia. Após 24 horas da admissão, segue febril, apesar \nde ter usado dipirona há 1 hora, e mantém diurese de 2 mL/kg/h. \nExame físico: hidratado; pálido; orientado no tempo e no \nespaço; frequência cardíaca de 130 bpm; temperatura axilar \nde 39 °C; frequência respiratória de 36 irpm; pressão arterial \nde 90 x 60 mmHg; boa perfusão periférica; murmúrio vesicular \ndiminuído em base de hemitórax à direita, com crepitações; \nbulhas taquicárdicas; fígado a 4 cm do rebordo costal direito e \n5 cm do apêndice xifoide; baço a 4 cm do rebordo costal \nesquerdo. Os exames laboratoriais evidenciam lactato \naumentado, acidose metabólica e hemograma com leucocitose \ncom desvio à esquerda.\nCom base no quadro descrito, o diagnóstico é",
-    "alternativas": {
-      "A": "sepse.",
-      "B": "choque séptico.",
-      "C": "disfunção de múltiplos órgãos.",
-      "D": "síndrome da resposta inflamatória sistêmica."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2025_2_caderno_1_preliminar",
     "numero": "10",
     "especialidade": "Cirurgia Geral",
     "tema": "Abdome Agudo e Parede Abdominal",
@@ -21303,21 +20154,6 @@
       "D": "neoplasia de cólon obstrutiva. ÁREA LIVRE ÁREA LIVRE 3"
     },
     "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2025_2_caderno_1_preliminar",
-    "numero": "11",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Cirurgia Vascular e Esofagogástrica",
-    "subtema": "Hemorragia Digestiva e Esôfago",
-    "enunciado": "Paciente de 25 anos, com duas gestações e um parto, no \nsegundo trimestre de gestação, compareceu à primeira consulta \nde pré-natal sem queixas. Após orientações e realização dos \ntestes rápidos, verificou-se que o teste para sífilis foi positivo e \nimediatamente a paciente recebeu 2,4 milhões UI de penicilina \nbenzatina intramuscular. Paciente nega diagnóstico e tratamento \nprévios para sífilis.\nEm relação ao acompanhamento da paciente, é correto afirmar \nque",
-    "alternativas": {
-      "A": "com o tratamento instituído, o feto não terá sequelas.",
-      "B": "titulações menores ou iguais a um quarto indicarão cicatriz sorológica.",
-      "C": "a queda de duas titulações do VDRL indicará efetividade de tratamento.",
-      "D": "o exame de FTA-Abs reagente indicará doença ativa."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2025_2_caderno_1_preliminar",
@@ -21786,21 +20622,6 @@
   },
   {
     "origem": "REVALIDA-2025_2_caderno_1_preliminar",
-    "numero": "43",
-    "especialidade": "Clínica Médica",
-    "tema": "Pneumologia",
-    "subtema": "Pneumonias, Pleura e Embolia",
-    "enunciado": "Homem de 66 anos, em pós-operatório precoce de \nrevascularização cardíaca, é encaminhado ao pronto-socorro, \ncom queixa de dor abdominal progressiva em quadrante inferior \nesquerdo há 5 dias e piora há 1 dia, com aumento do número de \nevacuações para 3 vezes ao dia. Relata febre não aferida. Exame \nfísico: bom estado geral, eupneico, pressão arterial de 110 x\n60 mmHg, temperatura axilar de 38 °C e frequência cardíaca \nde 100 bpm. Ao exame abdominal, defesa voluntária da \nmusculatura e dor à palpação superficial e profunda, com massa \nem quadrante inferior esquerdo. Ao toque retal, presença \nde uma massa flutuante dolorosa à esquerda. Tomografia de \nabdome com contraste: densificação dos planos gordurosos \nadjacente ao sigmoide, associada a coleção de 100 mm3 no local.\nApós iniciada a antibioticoterapia sistêmica, qual é a conduta \nmais adequada para esse paciente?",
-    "alternativas": {
-      "A": "Laparotomia para drenagem.",
-      "B": "Tratamento clínico conservador.",
-      "C": "Drenagem guiada por colonoscopia.",
-      "D": "Drenagem percutânea guiada por tomografia."
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2025_2_caderno_1_preliminar",
     "numero": "44",
     "especialidade": "Clínica Médica",
     "tema": "Pneumologia",
@@ -21963,21 +20784,6 @@
       "D": "iniciar tratamento tríplice – sulfadiazina, pirimetamina e ácido folínico."
     },
     "gabarito": "B"
-  },
-  {
-    "origem": "REVALIDA-2025_2_caderno_1_preliminar",
-    "numero": "55",
-    "especialidade": "Cirurgia Geral",
-    "tema": "Trauma e Emergências Cirúrgicas",
-    "subtema": "Neurotrauma e TCE",
-    "enunciado": "Criança de 7 meses é levada pela mãe à Unidade Básica de \nSaúde (UBS), com história de febre há 2 dias e recusa alimentar. \nAo exame físico, foi identificada erupção papulovesicular, \nprincipalmente em mãos e pés, além de vesículas e úlceras em \nlíngua, mucosa jugal e pilares tonsilares.\nO médico deverá orientar os familiares que",
-    "alternativas": {
-      "A": "a evolução da doença é benigna, mas está indicada internação, pela frequência elevada de complicações.",
-      "B": "as complicações neurológicas e cardiológicas, como encefalite, miocardite e pericardite, podem ocorrer.",
-      "C": "a localização das lesões descrita no caso é atípica, sendo mais comum em nádegas e região perianal.",
-      "D": "o desaparecimento da febre e das lesões de pele costuma ocorrer após 5 a 7 dias do início do quadro."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2025_2_caderno_1_preliminar",
@@ -22416,21 +21222,6 @@
   },
   {
     "origem": "REVALIDA-2025_2_caderno_1_preliminar",
-    "numero": "85",
-    "especialidade": "Clínica Médica",
-    "tema": "Neurologia e Psiquiatria",
-    "subtema": "Neurologia Clínica",
-    "enunciado": "Ao ser avaliado em consulta de puericultura, lactente apresenta \nalterações dos marcos de desenvolvimento em relação à \ncomunicação, comportamento e socialização.\nNesse caso, o médico deve fazer triagem específica para \ntranstorno do espectro autista (TEA)",
-    "alternativas": {
-      "A": "aos 2, 4 e 10 meses, independentemente se o quadro é associado à epilepsia, distúrbios do sono ou deficiência intelectual.",
-      "B": "aos 9, 18 e 30 meses, independentemente se o quadro é associado à epilepsia, distúrbio do sono ou deficiência intelectual.",
-      "C": "aos 12, 24 e 36 meses, principalmente se o quadro é associado à história familiar de TEA ou à deficiência intelectual.",
-      "D": "aos 2, 4 e 6 anos, principalmente se o quadro é associado à história familiar de TEA ou à deficiência intelectual. 20"
-    },
-    "gabarito": "ANULADA"
-  },
-  {
-    "origem": "REVALIDA-2025_2_caderno_1_preliminar",
     "numero": "86",
     "especialidade": "Cirurgia Geral",
     "tema": "Proctologia, Urologia e Técnica Cirúrgica",
@@ -22443,21 +21234,6 @@
       "D": "Observação de glóbulos vermelhos destruídos no esfregaço sanguíneo. ÁREA LIVRE"
     },
     "gabarito": "A"
-  },
-  {
-    "origem": "REVALIDA-2025_2_caderno_1_preliminar",
-    "numero": "87",
-    "especialidade": "Clínica Médica",
-    "tema": "Endocrinologia e Metabologia",
-    "subtema": "Diabetes Mellitus",
-    "enunciado": "Lactente de 9 meses foi admitido em Unidade de Pronto \nAtendimento (UPA) com quadro de diarreia; febre de 38,5 °C; \ndiminuição do volume urinário; sonolência alternada com \nperíodos de irritabilidade; apatia; palidez de pele.\nAo exame físico: peso de 9 kg; temperatura axilar de 38 °C; \nfrequência cardíaca de 130 bpm; frequência respiratória de \n34 rpm; pressão arterial de 80 x 50 mmHg; mau estado geral; \nsonolento; reagindo com irritabilidade aos estímulos; palidez \nde pele; tecido subcutâneo com turgor pastoso; mucosas \nressecadas; olhos encovados; extremidades frias; pulsos fracos. \nTempo de enchimento capilar de 4 segundos. Respiração \ngemente, com aumento da amplitude e tiragens intercostais.\nO diagnóstico e a hidratação endovenosa indicada para o caso \nsão, respectivamente,",
-    "alternativas": {
-      "A": "choque hipovolêmico; solução fisiológica 180 mL em 15 minutos.",
-      "B": "choque hipovolêmico; solução glicofisiológica 270 mL em 30 minutos.",
-      "C": "desidratação grave; solução fisiológica 270 mL em 60 minutos.",
-      "D": "desidratação grave; solução glicofisiológica 900 mL em 120 minutos."
-    },
-    "gabarito": "ANULADA"
   },
   {
     "origem": "REVALIDA-2025_2_caderno_1_preliminar",
@@ -22682,7 +21458,7 @@
       "C": "Terror noturno.",
       "D": "Transtorno de pesadelos. ÁREA LIVRE"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22697,7 +21473,7 @@
       "C": "dor não controlada.",
       "D": "hipoglicemia."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22727,7 +21503,7 @@
       "C": "Sarcoptes scabiei.",
       "D": "Trichophyton rubrum. ÁREA LIVRE"
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22772,7 +21548,7 @@
       "C": "anticorpos IgM por sorologia para Chikungunya.",
       "D": "antígeno viral por ELISA para febre amarela."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22847,7 +21623,7 @@
       "C": "A negativa ao acompanhante não se sustenta, uma vez que a indicação médica registrada no laudo de TFD é suficiente para justificar o custeio.",
       "D": "A controvérsia não está na solicitação de acompanhante, mas no próprio TFD, pois o deslocamento intermunicipal inferior a 200 km não caracterizaria situação passível de encaminhamento. 5 CADERNO 01"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22862,7 +21638,7 @@
       "C": "Cortisol salivar noturno e hormônio adrenocorticotrófico plasmático.",
       "D": "Pesquisa de anticorpo antitreponêmico."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22877,7 +21653,7 @@
       "C": "Iniciar corticoide tópico e solicitar testes cutâneos de contato.",
       "D": "Iniciar aciclovir oral e permanganato de potássio em compressas na pele."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22892,7 +21668,7 @@
       "C": "Prescrever imunoglobulina humana para contatos da escola e domicílio.",
       "D": "Suspender as atividades escolares por 45 dias para aguardar o término do período de incubação viral."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22907,7 +21683,7 @@
       "C": "dar alta hospitalar após hidratação e antibióticos.",
       "D": "encaminhar para realização de laparotomia de urgência. ÁREA LIVRE 6 CADERNO 01"
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22937,7 +21713,7 @@
       "C": "Solicitar VDRL da gestante para confirmação do diagnóstico e oferecer apoio à convocação das parcerias para avaliação diagnóstica.",
       "D": "Solicitar FTABS da gestante e das parcerias para a confirmação do diagnóstico. ÁREA LIVRE"
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22952,7 +21728,7 @@
       "C": "Mama.",
       "D": "Próstata."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22967,7 +21743,7 @@
       "C": "Enurese noturna secundária.",
       "D": "Bexiga hiperativa. ÁREA LIVRE 7 CADERNO 01"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22982,7 +21758,7 @@
       "C": "Realizar monitorização residencial da pressão arterial e reavaliar em duas semanas.",
       "D": "Orientar medidas relacionadas ao estilo de vida e programar nova avaliação clínica antes de iniciar tratamento medicamentoso."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -22997,7 +21773,7 @@
       "C": "megacólon congênito.",
       "D": "síndrome do tampão meconial. ÁREA LIVRE"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23012,7 +21788,7 @@
       "C": "compressão nasal anterior e uso de vasoconstritor tópico.",
       "D": "ligadura cirúrgica da artéria esfenopalatina."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23027,7 +21803,7 @@
       "C": "Introduzir a mão pelo vazio sacral e promover a adução do ombro anterior.",
       "D": "Realizar episiotomia medio-lateral ampla. ÁREA LIVRE 8 CADERNO 01"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23042,7 +21818,7 @@
       "C": "Ceftriaxona por via intravenosa imediatamente na UBS, durante as 24 horas por 5 dias, além de prescrever hidratação oral vigorosa, antipirético e seguir com acompanhamento ambulatorial diário na Atenção Primária à Saúde até o final do tratamento.",
       "D": "Sulfametoxazol + trimetoprima por via oral, de 12 em 12 horas por 10 dias, e antipirético, além de proceder imediatamente à ressuscitação volêmica na UBS e seguir com acompanhamento ambulatorial diário na Atenção Primária à Saúde até o final do tratamento. ÁREA LIVRE"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23057,7 +21833,7 @@
       "C": "o surto de dengue ocorreu entre as semanas 3 e 9.",
       "D": "a epidemia de dengue do município afetou sua população adscrita."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23072,7 +21848,7 @@
       "C": "Transminases hepáticas, potássio sérico, ultrassonografia de abdome e radiografia de tórax.",
       "D": "Sódio, potássio, lipidograma e TSH séricos, eletrocardiograma e radiografia de tórax. ÁREA LIVRE 9 CADERNO 01"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23087,7 +21863,7 @@
       "C": "paracentese após infusão de plasma fresco e plaquetas, devido ao risco de sangramento.",
       "D": "tomografia de abdome antes de considerar qualquer procedimento invasivo."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23102,7 +21878,7 @@
       "C": "Nasofibroscopia flexível.",
       "D": "Polissonografia. ÁREA LIVRE"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23117,7 +21893,7 @@
       "C": "lesão de aorta.",
       "D": "hemotórax maciço."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23132,7 +21908,7 @@
       "C": "explicar o diagnóstico e o procedimento em linguagem acessível, buscando consentimento da puérpera, e suturar a laceração com anestesia local.",
       "D": "encaminhar ao centro cirúrgico para reparo sob anestesia geral, reduzindo a exposição da paciente e a dificuldade de comunicação. ÁREA LIVRE 10 CADERNO 01"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23147,7 +21923,7 @@
       "C": "Acionar os setores da Vigilância em Saúde e apoiar as intervenções pactuadas.",
       "D": "Estimular o mapeamento das atividades produtivas locais e realizar exames admissionais e periódicos nos trabalhadores do território."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23162,7 +21938,7 @@
       "C": "estudo de coorte.",
       "D": "ensaio clínico. ÁREA LIVRE"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23177,7 +21953,7 @@
       "C": "Quebrar o sigilo com os pais sobre a tentativa de suicídio e a real gravidade do risco, avaliar as opções de seguimento, verificando se há possibilidade de vigilância domiciliar ou necessidade de hospitalização.",
       "D": "Manter o sigilo sobre a tentativa de suicídio e os sintomas depressivos preservando o vínculo com o paciente, iniciar a avaliação formal do risco de suicídio e providenciar o encaminhamento para internação psiquiátrica em regime compulsório."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23192,7 +21968,7 @@
       "C": "solicitar sorologia para o HIV com método ELISA.",
       "D": "dispensar novos exames. ÁREA LIVRE 11 CADERNO 01"
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23207,7 +21983,7 @@
       "C": "realizar acompanhamento clínico por 4 meses e, se não houver melhora, aplicar o instrumento M-CHART-R/F.",
       "D": "iniciar intervenção fonoaudiológica e programar reavaliação sistemática em 3 meses."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23222,7 +21998,7 @@
       "C": "Encaminhar rapidamente o paciente por meio de suporte avançado; realizar a comunicação com o hospital receptor por meio da equipe de transporte e elaborar a documentação de transferência ao final da remoção.",
       "D": "Estabilizar o paciente; solicitar autorização da família para a transferência; contactar previamente o serviço receptor; elaborar documento de transferência e solicitar suporte básico para a remoção. ÁREA LIVRE"
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23237,7 +22013,7 @@
       "C": "Anticoncepcional oral combinado.",
       "D": "Anticoncepcional injetável mensal."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23252,7 +22028,7 @@
       "C": "Acrescentar dapaglifozina 10 mg/dia; aumentar losartana para 100 mg/dia e iniciar atorvastatina 40 mg/dia.",
       "D": "Acrescentar glibenclamida 5 mg/dia; hidroclorotiazida 25 mg e sinvastatina 20 mg/dia ao esquema atual. ÁREA LIVRE 12 CADERNO 01"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23267,7 +22043,7 @@
       "C": "adenosina.",
       "D": "antibioticoterapia."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23282,7 +22058,7 @@
       "C": "Administrar o soro antirrábico à criança e notificar em até 24h da exposição.",
       "D": "Realizar profilaxia com soro antirrábico, vacinação nos dias 0, 3, 7 e 14 e notificação imediata do agravo."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23297,7 +22073,7 @@
       "C": "lateralizar a prancha para esquerda.",
       "D": "solicitar tomografia de abdome e pelve. ÁREA LIVRE"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23312,7 +22088,7 @@
       "C": "Com a manutenção da terapia antirretroviral e da carga viral indetectável, o risco de transmissão vertical é baixo; a assistência obstétrica indicada deve priorizar parto vaginal e a amamentação é autorizada mediante acompanhamento rigoroso.",
       "D": "A redução do risco de transmissão vertical depende da manutenção da terapia antirretroviral e da carga viral indetectável; a escolha da via de parto deve seguir a indicação obstétrica e a amamentação pode ser indicada se for o desejo da paciente."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23327,7 +22103,7 @@
       "C": "Solicitar a citologia em conjunto com a pesquisa de DNA-HPV e, se houver discordância entre os métodos, encaminhar para colposcopia.",
       "D": "Autocoleta de material vaginal para pesquisa de DNA- HPV e, caso o resultado seja negativo, dispensar a paciente de novos exames de rastreamento. ÁREA LIVRE 13 CADERNO 01"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23346,21 +22122,6 @@
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
-    "numero": "47",
-    "especialidade": "Ginecologia e Obstetrícia",
-    "tema": "Ginecologia Geral e Climatério",
-    "subtema": "Endocrinologia Ginecológica e Ciclo",
-    "enunciado": "Uma menina de 7 anos é levada a ambulatório especializado \npela mãe, que relata o aparecimento de pelos pubianos e \naumento da região mamária há cerca de dois meses. Não \nhá relato de uso de medicamentos, doenças crônicas ou \nexposição a substâncias hormonais. A criança apresenta \nestatura correspondente a escore Z igual a zero para a idade, \nsem desvio prévio documentado. Ao exame físico, observa-\nse tecido mamário palpável sob a aréola, sem separação do \ncontorno mamário, compatível com Tanner M2, além de \npelos pubianos escuros, grossos e levemente encaracolados, \nrestritos à região labial, correspondendo a Tanner P2. \nQual alteração no mecanismo fisiológico explica os achados \ndescritos no caso?",
-    "alternativas": {
-      "A": "Secreção aumentada de andrógenos pela suprarrenal.",
-      "B": "Conversão periférica de andrógenos em estrogênios.",
-      "C": "Ativação do eixo hipotálamo-hipófise-gonadal.",
-      "D": "Hipersensibilidade a níveis basais de esteroides sexuais."
-    },
-    "gabarito": "C"
-  },
-  {
-    "origem": "REVALIDA-2026_1_caderno_1",
     "numero": "48",
     "especialidade": "Medicina Preventiva e Social / MFC",
     "tema": "Atenção Primária e Sistemas de Saúde",
@@ -23372,7 +22133,7 @@
       "C": "infiltração local com bupivacaína 2% sem vasoconstritor.",
       "D": "bloqueio de nervo na fossa antecubital com ropivacaina 1%. ÁREA LIVRE"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23417,7 +22178,7 @@
       "C": "Substituir a insulina NPH pela insulina regular e encaminhar para avaliação com psicólogo, visando motivá-lo a aderir à medicação e dieta.",
       "D": "Associar sulfonilureia às medicações em uso e encaminhar para avaliação com educador físico, único pilar de tratamento ainda não abordado."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23462,7 +22223,7 @@
       "C": "Klebsiella granulomatis.",
       "D": "Treponema pallidum."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23492,7 +22253,7 @@
       "C": "Realizar acompanhamento sorológico de HIV para o profissional. Sem indicação de PEP para a exposição atual.",
       "D": "Indicar PEP para o profissional sem realizar teste rápido para HIV, devido ao tempo decorrido desde a exposição. 15 CADERNO 01"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23522,7 +22283,7 @@
       "C": "Tomografia de tórax.",
       "D": "Biopsia pulmonar."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23537,7 +22298,7 @@
       "C": "Celularidade aumentada, proteína diminuída e glicose reduzida. Presença de bacilos álcool-ácido resistente.",
       "D": "Celularidade normal, proteína normal e glicose normal. Presença de bacilos Gram negativos. ÁREA LIVRE"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23552,7 +22313,7 @@
       "C": "glicosada, com metade do volume calculado nas primeiras 8 horas.",
       "D": "hipertônica, com monitorização dos sinais vitais nas primeiras 16 horas."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23567,7 +22328,7 @@
       "C": "Internar a paciente e manter o esquema antibiótico oral previamente iniciado até a confirmação microbiológica.",
       "D": "Indicar tratamento antifúngico associado a antibiótico oral, considerando a sobreposição frequente entre DIP e vulvovaginites fúngicas. ÁREA LIVRE 16 CADERNO 01"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23582,7 +22343,7 @@
       "C": "Fratura de fêmur, internação e portar doenças crônicas.",
       "D": "Cirurgia ortopédica, IMC e apresentar histórico de queda."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23597,7 +22358,7 @@
       "C": "definir que a ACS intensifique visitas para orientações sobre medicamentos e organização do ambiente, enquanto o médico avalia necessidade de ajustes terapêuticos no retorno agendado em 30 dias.",
       "D": "acordar que o médico realize visita domiciliar para avaliação clínica e definição terapêutica, cabendo à ACS acompanhar a adesão medicamentosa e monitorar parâmetros pressóricos nos intervalos das consultas médicas."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23612,7 +22373,7 @@
       "C": "Encaminhar para tratamento no CAPS.",
       "D": "Prescrever o uso de clonazepam."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23627,7 +22388,7 @@
       "C": "Solicitar marcadores de necrose miocárdica e aguardar o resultado para decidir sobre a antiagregação plaquetária.",
       "D": "Iniciar oxigenoterapia sob cateter nasal (3 L/min) e administrar nitroglicerina sublingual. ÁREA LIVRE 17 CADERNO 01"
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23642,7 +22403,7 @@
       "C": "Administrar infusão contínua de insulina e iniciar solução cristaloide 10 a 20 mL/kg, podendo totalizar 40 a 60 mL/kg, com reposição de potássio.",
       "D": "Administrar 10 a 20 mL/kg de solução colóide em 1 hora e, após reposição volêmica, iniciar infusão contínua de insulina intravenosa, sem reposição de potássio."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23687,7 +22448,7 @@
       "C": "Teleconsultoria entre profissionais, utilizada como apoio à decisão clínica, mantendo-se a responsabilidade assistencial com a médica da APS.",
       "D": "Teleinterconsulta, na qual o especialista passa a compartilhar a responsabilidade clínica pelo caso acompanhado na APS."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23717,7 +22478,7 @@
       "C": "de corpúsculos de Lewy.",
       "D": "na doença de Alzheimer."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23736,21 +22497,6 @@
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
-    "numero": "73",
-    "especialidade": "Pediatria",
-    "tema": "Doenças Respiratórias e Infecciosas Pediátricas",
-    "subtema": "Doenças Exantemáticas e Vasculites",
-    "enunciado": "Um menino de 5 anos, previamente saudável, é trazido à \nemergência com dor nos membros inferiores iniciada há 4 dias, \ndificuldade para correr e andar, e surgimento de petéquias \nno tronco inferior e pernas há 24 horas. Apresentou febre \n(38 °C) no 1º dia do quadro, sem outros sintomas respiratórios, \ngastrointestinais ou urinários. Mãe nega sangramentos \nespontâneos, perda de peso, palidez progressiva ou infecções \nrecorrentes. Ao exame físico, bom estado geral, ativo, boa \nperfusão periférica. Desconforto ao movimentar os membros \ninferiores. Na pele, presença de petéquias dispersas, púrpuras, \npequenas, não palpáveis e sem equimoses grandes. Ausência \nde visceromegalias e de linfonodomegalias. Os joelhos e \ntornozelos estão dolorosos à palpação, sem calor ou edema. \nHemograma\nComponente\nResultado\nValor de referência\nLeucócitos\n8.200/mm³\n5.000 a 15.000/mm³\nHemoglobina\n12,3 g/dL\n11,5 a 13,5 g/dL\nHematócrito\n37 %\n40 a 50 %\nPlaquetas\n18.000/mm³\n150.000 a 450.000/mm³\n*Contagem diferencial de Leucócitos sem alterações. \n**Provas de coagulação normais.\nQual é o diagnóstico provável?",
-    "alternativas": {
-      "A": "Púrpura trombocitopênica imune.",
-      "B": "Dengue tipo C.",
-      "C": "Leucemia linfoide aguda.",
-      "D": "Púrpura de Henoch-Schönlein (Vasculite IgA)."
-    },
-    "gabarito": "A"
-  },
-  {
-    "origem": "REVALIDA-2026_1_caderno_1",
     "numero": "74",
     "especialidade": "Medicina Preventiva e Social / MFC",
     "tema": "Atenção Primária e Sistemas de Saúde",
@@ -23762,7 +22508,7 @@
       "C": "Estabelecer um rodízio de decúbito que não exceda o intervalo de 2 horas.",
       "D": "Realizar massagem circular sobre a região do eritema com soluções de ácidos graxos essenciais. ÁREA LIVRE"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23777,7 +22523,7 @@
       "C": "solicitar ultrassonografia transvaginal e encaminhar à colposcopia.",
       "D": "Realizar biópsia cervical e encaminhar à colposcopia."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23792,7 +22538,7 @@
       "C": "recomendar dilatação vaginal progressiva com vela de Hegar antes da coleta do exame citopatológico.",
       "D": "vacinar contra HPV, pois tem equivalência na prevenção do câncer de colo de útero. ÁREA LIVRE 20 CADERNO 01"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23807,7 +22553,7 @@
       "C": "Uso ambiental de inseticidas químicos para redução sustentada do vetor.",
       "D": "Atuação da vigilância epidemiológica com foco nos domicílios de casos notificados."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23822,7 +22568,7 @@
       "C": "Bupropiona.",
       "D": "Diazepam. ÁREA LIVRE"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23852,7 +22598,7 @@
       "C": "Furunculose de repetição.",
       "D": "Foliculite recorrente. ÁREA LIVRE 21 CADERNO 01"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23867,7 +22613,7 @@
       "C": "Permitir ingestão de alimentos sólidos leves e líquidos claros até 3 horas antes.",
       "D": "Oferecer líquidos claros contendo carboidratos e proteínas até 4 horas antes."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23882,7 +22628,7 @@
       "C": "Hiperplasia endometrial.",
       "D": "Carcinoma de endométrio."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23897,7 +22643,7 @@
       "C": "O ciclo de vida do mosquito é acelerado, preservando a sua capacidade de replicação viral no vetor.",
       "D": "A sazonalidade das chuvas é modificada e provoca redução da densidade do vetor, preservando a sua competência para transmissão viral. ÁREA LIVRE"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23912,7 +22658,7 @@
       "C": "Planejar o seguimento do caso a partir do ambulatório de especialidades, para reavaliação, estratificação de risco e definição do plano terapêutico, cabendo à APS o acompanhamento longitudinal depois de atingida a estabilização clínica.",
       "D": "Realizar visita domiciliar inicial imediata, orientando o paciente quanto à necessidade de seguimento especializado em função da complexidade clínica e do risco cardiovascular, e programar retorno à APS após estabilização clínica."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23927,7 +22673,7 @@
       "C": "contenção mecânica, seguida de administração de haloperidol intramuscular.",
       "D": "contenção mecânica, seguida de observação em consultório. ÁREA LIVRE 22 CADERNO 01"
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23942,7 +22688,7 @@
       "C": "Substituir losartana por sacubitril-valsartana.",
       "D": "Suspender o uso do betabloqueador."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23957,7 +22703,7 @@
       "C": "Ceftriaxona intravenosa e internação em unidade de terapia intensiva.",
       "D": "Amoxicilina e clavulonato via oral e internação em enfermaria."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -23972,7 +22718,7 @@
       "C": "Femoral.",
       "D": "Mista. ÁREA LIVRE"
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -24002,7 +22748,7 @@
       "C": "fazer incisão na pele com lâmina n.º 11 para exposição total do anzol antes de realizar a sua remoção.",
       "D": "segurar a farpa com pinça hemostática curva e remover o anzol pelo orifício de saída. ÁREA LIVRE 23 CADERNO 01"
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -24017,7 +22763,7 @@
       "C": "reconhecer distúrbio benigno da conjugação hepática da bilirrubina e orientar o paciente.",
       "D": "solicitar ultrassonografia abdominal para avaliação estrutural do fígado e das vias biliares."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -24047,7 +22793,7 @@
       "C": "Acesso venoso central.",
       "D": "Sonda nasoentérica."
     },
-    "gabarito": "C"
+    "gabarito": "B"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -24062,7 +22808,7 @@
       "C": "Fluconazol 150 mg via oral em dose única.",
       "D": "Miconazol creme intravaginal por 7 dias."
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -24077,7 +22823,7 @@
       "C": "Solicitar novos testes para confirmação de dengue e hidratação venosa na unidade, com observação por 6 horas e possível retorno ao domicílio.",
       "D": "Solicitar ultrassom abdominal para investigar a dor no hipocôndrio direito e iniciar hidratação oral. ÁREA LIVRE 24 CADERNO 01"
     },
-    "gabarito": "A"
+    "gabarito": "C"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -24092,7 +22838,7 @@
       "C": "Solicitar ressonância magnética de joelho.",
       "D": "Prescrever anti-inflamatório não esteroidal."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -24107,7 +22853,7 @@
       "C": "Mycoplasma pneumoniae.",
       "D": "Haemophilus influenzae."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",
@@ -24137,7 +22883,7 @@
       "C": "Solicitar o parecer de médico especialista e de psicólogo, postergando a consulta pré-natal até que a mãe e a paciente entrem em consenso.",
       "D": "Agendar a cesariana conforme solicitado pela responsável legal, priorizando a manutenção do vínculo familiar e evitando litígios éticos na Unidade Básica de Saúde."
     },
-    "gabarito": "B"
+    "gabarito": "A"
   },
   {
     "origem": "REVALIDA-2026_1_caderno_1",

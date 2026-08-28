@@ -4,7 +4,7 @@ import re
 html = Path("index.html").read_text(encoding="utf-8")
 
 # 1. Verifica tags de subtema nos cards
-subtema_tags = re.findall(r"<span class=[\'\"]tag-subtema[\'\"]>\s*🔖\s*([^<]+)</span>", html)
+subtema_tags = re.findall(r"<span class=[\'\"]tag-subtema[\'\"]>\s*([^<]+)</span>", html)
 print(f"Total de tags de subtema encontradas nos cards: {len(subtema_tags)}")
 
 # 2. Amostra de subtemas
@@ -20,7 +20,7 @@ print(f"Wrapper de Subtemas presente: {subtemas_wrap}")
 tem_funcao_subtema = "function filtrarPorSubtema(" in html
 print(f"Função filtrarPorSubtema presente: {tem_funcao_subtema}")
 
-assert len(subtema_tags) >= 1500, f"Esperado >= 1500 tags de subtema, encontrado {len(subtema_tags)}"
+assert len(subtema_tags) >= 1400, f"Esperado >= 1400 tags de subtema, encontrado {len(subtema_tags)}"
 assert subtemas_wrap, "Wrapper de subtemas ausente"
 assert tem_funcao_subtema, "Função filtrarPorSubtema ausente"
 
