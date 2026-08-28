@@ -109,16 +109,16 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
     html_parts = []
     q_global_idx = 0
     for esp in sorted(banco_questoes.keys()):
-        html_parts.append(f"<div class='especialidade'>📂 {esp.upper()}</div>\n")
+        esp_attr = html_escape(esp)
         for tema in sorted(banco_questoes[esp].keys()):
-            html_parts.append(f"<div class='tema'>📌 {tema}</div>\n")
+            tema_attr = html_escape(tema)
             for subtema in sorted(banco_questoes[esp][tema].keys()):
+                subtema_attr = html_escape(subtema)
                 lista_q = banco_questoes[esp][tema][subtema]
-                html_parts.append(f"<div class='subtema'>🔖 {subtema} ({len(lista_q)} questões)</div>\n")
                 
                 for q in lista_q:
                     q_global_idx += 1
-                    q_id = f"q_{q['origem']}_{q['numero']}_{q_global_idx}"
+                    q_id = f"q_{q['origem']}_{q['numero']}"
                     q_key = f"{q['origem']}_{q['numero']}"
                     dados_cache = cache_explicacoes.get(q_key, {})
                     gab = q.get("gabarito", "N/A")
@@ -139,8 +139,8 @@ def exportar_caderno_html(banco_questoes, caminho_saida: Path, cache_explicacoes
                                 exp = "Gabarito não fornecido no PDF da prova. (Configure sua GEMINI_API_KEY no arquivo .env para gerar gabarito e explicação por IA)."
 
                     enunc_html = formatar_texto_fluido(q['enunciado'], modo_html=True)
-                    html_parts.append(f"<div class='card-questao' id='card_{q_id}'>\n")
-                    html_parts.append(f"<span class='tag-origem'>{q['origem']} | Questão {q['numero']}</span>\n")
+                    html_parts.append(f"<div class='card-questao' id='card_{q_id}' data-especialidade='{esp_attr}' data-tema='{tema_attr}' data-subtema='{subtema_attr}' data-idx='{q_global_idx}'>\n")
+                    html_parts.append(f"<span class='tag-origem'>{q['origem']} | Questão {q['numero']} • <span class='tag-tema-destaque'>{tema}</span></span>\n")
                     html_parts.append(f"<div class='enunciado'>{enunc_html}</div>\n")
                     
                     imgs = q.get("imagens") or ([q.get("imagem")] if q.get("imagem") else [])

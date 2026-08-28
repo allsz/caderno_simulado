@@ -98,7 +98,42 @@
             </div>
         </div>
 
-        {{QUESTOES_HTML}}
+        <!-- Filtros por Especialidade e Configurações de Exibição -->
+        <section class="filtro-section" aria-label="Filtro por Especialidade e Tema">
+            <div class="filtro-header-row">
+                <span class="filtro-label">Especialidades:</span>
+                <div class="paginacao-qtd-select-wrap">
+                    <label for="select-itens-por-pagina">Exibir:</label>
+                    <select id="select-itens-por-pagina" class="paginacao-select" onchange="mudarItensPorPagina(this.value)">
+                        <option value="25" selected>25 por página</option>
+                        <option value="50">50 por página</option>
+                        <option value="100">100 por página</option>
+                        <option value="all">Todas</option>
+                    </select>
+                </div>
+            </div>
+            <div class="filtro-pills-container" id="filtro-pills-container">
+                <!-- Injetado dinamicamente via JS com botões e contadores -->
+            </div>
+
+            <!-- Sub-botões de Temas da Especialidade Selecionada -->
+            <div class="filtro-temas-wrapper" id="filtro-temas-wrapper" style="display: none;">
+                <div class="filtro-temas-pills" id="filtro-temas-pills">
+                    <!-- Injetado dinamicamente via JS com sub-chips -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Barra de Paginação Superior -->
+        <div class="paginacao-container paginacao-top" id="paginacao-top" style="display: none;"></div>
+
+        <!-- Container de Questões -->
+        <main id="lista-questoes-container" class="questoes-wrapper">
+            {{QUESTOES_HTML}}
+        </main>
+
+        <!-- Barra de Paginação Inferior -->
+        <div class="paginacao-container paginacao-bottom" id="paginacao-bottom" style="display: none;"></div>
 
         <!-- Painel de Desempenho e Estatísticas -->
         <div class="stats-panel-card" id="painel-estatisticas">
@@ -128,7 +163,7 @@
                         <span class="stat-label">Acertos</span>
                     </div>
                 </div>
-                <div class="stat-card">
+                <div class="stat-card stat-card-clickable" onclick="abrirCadernoErrosModal()" title="Clique para abrir o Caderno de Erros por Matéria">
                     <div class="stat-icon-wrap stat-icon-erros">
                         <svg class="stat-icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
@@ -138,10 +173,10 @@
                     </div>
                     <div class="stat-info">
                         <span class="stat-value" id="stat-erros">0</span>
-                        <span class="stat-label">Erros</span>
+                        <span class="stat-label">Erros <span class="stat-card-badge">Revisar ↗</span></span>
                     </div>
                 </div>
-                <div class="stat-card">
+                <div class="stat-card stat-card-clickable" onclick="abrirDesempenhoModal()" title="Clique para ver o Gráfico de Desempenho e Taxa de Acerto por Especialidade">
                     <div class="stat-icon-wrap stat-icon-taxa">
                         <svg class="stat-icon-svg" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
@@ -151,7 +186,7 @@
                     </div>
                     <div class="stat-info">
                         <span class="stat-value" id="stat-taxa">0%</span>
-                        <span class="stat-label">Taxa de Acerto</span>
+                        <span class="stat-label">Taxa de Acerto <span class="stat-card-badge">Ver Análise 📊</span></span>
                     </div>
                 </div>
                 <div class="stat-card">
@@ -244,6 +279,56 @@
             <div class="aviso-modal-footer">
                 <button type="button" class="btn-aviso-ok" onclick="fecharAvisoModal()">Entendi, continuar
                     estudando</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal do Caderno de Erros / Revisão por Especialidade -->
+    <div class="caderno-erros-modal-overlay" id="caderno-erros-modal-overlay" onclick="fecharCadernoErrosModal(event)">
+        <div class="caderno-erros-modal-card" onclick="event.stopPropagation()">
+            <div class="caderno-erros-modal-header">
+                <div class="caderno-erros-modal-title">
+                    <span class="caderno-erros-modal-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            <line x1="9" y1="7" x2="16" y2="7"></line>
+                            <line x1="9" y1="11" x2="14" y2="11"></line>
+                        </svg>
+                    </span>
+                    <div>
+                        <h3>Caderno de Erros</h3>
+                        <p id="caderno-erros-subtitulo">Questões para revisão espaçada agrupadas por matéria</p>
+                    </div>
+                </div>
+                <button type="button" class="confirm-modal-close" onclick="fecharCadernoErrosModal()">&times;</button>
+            </div>
+            <div class="caderno-erros-modal-body" id="caderno-erros-lista">
+                <!-- Injetado dinamicamente via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Desempenho e Taxa de Acerto por Especialidade -->
+    <div class="caderno-erros-modal-overlay" id="desempenho-modal-overlay" onclick="fecharDesempenhoModal(event)">
+        <div class="caderno-erros-modal-card desempenho-modal-card" onclick="event.stopPropagation()">
+            <div class="caderno-erros-modal-header">
+                <div class="caderno-erros-modal-title">
+                    <span class="desempenho-modal-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                            <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                        </svg>
+                    </span>
+                    <div>
+                        <h3>Análise de Desempenho e Taxa de Acerto</h3>
+                        <p id="desempenho-modal-subtitulo">Distribuição de acertos e aproveitamento por especialidade</p>
+                    </div>
+                </div>
+                <button type="button" class="confirm-modal-close" onclick="fecharDesempenhoModal()">&times;</button>
+            </div>
+            <div class="caderno-erros-modal-body" id="desempenho-modal-conteudo">
+                <!-- Injetado dinamicamente via JS -->
             </div>
         </div>
     </div>
