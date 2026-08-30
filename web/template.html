@@ -415,9 +415,17 @@
             </div>
             <div class="confirm-modal-footer">
                 <button type="button" class="btn-confirm-cancel" onclick="fecharConfirmResetModal()">Cancelar</button>
-                <button type="button" class="btn-confirm-proceed" onclick="executarLimparRespostas()">Sim, limpar
-                    tudo</button>
+                <button type="button" class="btn-confirm-proceed" onclick="executarLimparRespostas()">Sim, limpar tudo</button>
             </div>
+        </div>
+    </div>
+
+    <!-- Modal Lightbox de Zoom de Imagem da Questão -->
+    <div class="image-zoom-overlay" id="image-zoom-overlay" onclick="fecharZoomImagem(event)" role="dialog" aria-modal="true" aria-label="Visualizador de Imagem Expandida">
+        <div class="image-zoom-container" onclick="event.stopPropagation()">
+            <button type="button" class="image-zoom-close" onclick="fecharZoomImagem()" aria-label="Fechar visualização da imagem" title="Fechar (Esc)">&times;</button>
+            <img src="" alt="Imagem Expandida da Questão" class="image-zoom-img" id="image-zoom-img">
+            <div class="image-zoom-caption" id="image-zoom-caption"></div>
         </div>
     </div>
 

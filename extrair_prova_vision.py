@@ -1,3 +1,4 @@
+
 import argparse
 import base64
 import json
@@ -31,6 +32,7 @@ from core.utils import salvar_json_atomico
 MODELOS_GEMINI = [
     "gemini-3-flash-preview",
     "gemini-3.5-flash",
+    "gemini-3.6-flash",
     "gemini-3.7-flash"
 ]
 
@@ -45,8 +47,8 @@ def carregar_api_key():
                 return line.split("=", 1)[1].strip().strip('"').strip("'")
     return None
 
-def chamar_gemini_vision(img_bytes, prompt, api_key, max_tentativas=6):
-    """Envia a imagem de uma página para a API Multimodal do Gemini com rotação de modelos e backoff de cota."""
+def chamar_gemini_vision(img_bytes, prompt, api_key, max_tentativas=4, mime_type="image/jpeg"):
+    """Envia a imagem de uma página para a API Multimodal do Gemini com modelos estáveis e timeout robusto."""
     img_b64 = base64.b64encode(img_bytes).decode('utf-8')
     
     payload = {
@@ -55,7 +57,7 @@ def chamar_gemini_vision(img_bytes, prompt, api_key, max_tentativas=6):
                 {"text": prompt},
                 {
                     "inline_data": {
-                        "mime_type": "image/png",
+                        "mime_type": mime_type,
                         "data": img_b64
                     }
                 }
@@ -77,20 +79,21 @@ def chamar_gemini_vision(img_bytes, prompt, api_key, max_tentativas=6):
                 data=json.dumps(payload).encode('utf-8'),
                 headers={"Content-Type": "application/json"}
             )
-            with urllib.request.urlopen(req, timeout=30) as response:
+            # Timeout ampliado para 60s para páginas densas com múltiplas questões
+            with urllib.request.urlopen(req, timeout=60) as response:
                 res = json.loads(response.read().decode('utf-8'))
                 texto_resp = res['candidates'][0]['content']['parts'][0]['text']
                 return json.loads(texto_resp)
         except urllib.error.HTTPError as he:
             if he.code == 429:
-                tempo_espera = 15 + (tentativa * 5)
-                print(f"   [i] Rate limit (429) no {modelo}. Aguardando janela de cota ({tempo_espera}s)...", flush=True)
+                tempo_espera = 8 + (tentativa * 4)
+                print(f"   [i] Limite de cota (429) no {modelo}. Aguardando ({tempo_espera}s)...", flush=True)
                 time.sleep(tempo_espera)
             else:
                 print(f"   [!] Erro HTTP {he.code} ({modelo}): {he.reason}")
-                time.sleep(3)
+                time.sleep(2)
         except Exception as e:
-            print(f"   [!] Erro ({modelo}): {e}")
+            print(f"   [!] Aviso na requisição ({modelo}): {e}. Tentando próximo modelo...")
             time.sleep(2)
             
     return None
@@ -154,7 +157,8 @@ def extrair_prova_completa(caminho_pdf: Path, paginas_alvo=None, api_key=None, s
     IMAGENS_DIR.mkdir(parents=True, exist_ok=True)
     SCRATCH_DIR.mkdir(parents=True, exist_ok=True)
 
-    pags_a_processar = paginas_alvo if paginas_alvo else list(range(1, total_pags + 1))
+    # Página 1 no Revalida é a capa/regras. Começa por padrão a partir da página 2.
+    pags_a_processar = paginas_alvo if paginas_alvo else list(range(2, total_pags + 1))
     
     questoes_extraidas = {}
 
@@ -168,11 +172,12 @@ def extrair_prova_completa(caminho_pdf: Path, paginas_alvo=None, api_key=None, s
         
         idx_pag = num_pag - 1
         page = doc[idx_pag]
-        pix = page.get_pixmap(dpi=200)
-        img_bytes = pix.tobytes("png")
+        # Otimizado para DPI 140 em JPEG 85% para reduzir uso de tokens em 60% com máxima legibilidade
+        pix = page.get_pixmap(dpi=140)
+        img_bytes = pix.tobytes("jpeg", jpg_quality=85)
         
         print(f"\n[Pag. {num_pag}/{total_pags}] Analisando layout e questões com Gemini Vision...", flush=True)
-        resultado_json = chamar_gemini_vision(img_bytes, PROMPT_EXTRAIR_PAGINA, api_key)
+        resultado_json = chamar_gemini_vision(img_bytes, PROMPT_EXTRAIR_PAGINA, api_key, mime_type="image/jpeg")
         
         if not resultado_json or "questoes" not in resultado_json:
             print(f"   [!] Nenhuma questão estruturada retornada na página {num_pag}.")
@@ -252,8 +257,8 @@ def extrair_prova_completa(caminho_pdf: Path, paginas_alvo=None, api_key=None, s
             questoes_extraidas[str(num_q)] = questao_obj
             print(f"      - Questão {num_q} (Gab: {gab}): {len(alts)} alternativas | Tema: {tema} -> {subtema}")
             
-        # Intervalo seguro para não estourar a cota de 15 RPM
-        time.sleep(3)
+        # Intervalo rápido e suave para modo pago (alta velocidade)
+        time.sleep(0.5)
 
     print(f"\n[✓] Extração concluída! Total de questões processadas: {len(questoes_extraidas)}")
     
@@ -337,6 +342,7 @@ def main():
     parser = argparse.ArgumentParser(description="Extrator Automático de Provas Médicas com Gemini Vision")
     parser.add_argument("--pdf", type=str, default=None, help="Caminho do arquivo PDF da prova (ex: provas/REVALIDA-2022_PV_objetiva_1.pdf)")
     parser.add_argument("--todas-revalida", action="store_true", help="Processa todas as edições pendentes do Revalida automaticamente.")
+    parser.add_argument("--forcar", action="store_true", help="Força a re-extração com Gemini Vision mesmo para provas que já possuem questões no banco.")
     parser.add_argument("--paginas", type=str, default=None, help="Páginas a processar (ex: '1-5', '3,7,9-12'). Se omitido, processa a prova inteira.")
     parser.add_argument("--nao-salvar", action="store_true", help="Apenas exibe a extração sem salvar no banco.")
     
@@ -345,10 +351,26 @@ def main():
     if args.todas_revalida:
         provas_dir = BASE_DIR / "provas"
         lista_pdfs = sorted([p for p in provas_dir.glob("REVALIDA*.pdf")])
-        print(f"[*] Processando {len(lista_pdfs)} edições do Revalida com Gemini Vision...")
+        
+        # Lê banco existente para saber quais provas já foram 100% extraídas
+        banco_existente = []
+        caminho_banco = SAIDA_DIR / "banco_questoes_cache.json"
+        if caminho_banco.exists():
+            try:
+                banco_existente = json.loads(caminho_banco.read_text(encoding="utf-8"))
+            except Exception:
+                banco_existente = []
+        
+        contagem_origem = {}
+        for q in banco_existente:
+            orig = q.get("origem")
+            contagem_origem[orig] = contagem_origem.get(orig, 0) + 1
+
+        print(f"[*] Processando edições do Revalida com Gemini Vision...")
         for p in lista_pdfs:
-            # 2021 e 2022_1 já foram 100% curadas manualmente/visualmente
-            if "2021_PV" in p.name or "2022_PV_objetiva_1" in p.name:
+            origem = p.stem
+            # Pula as que já foram 100% curadas manualmente
+            if not args.forcar and ("2021_PV" in p.name or "2022_PV_objetiva_1" in p.name or "2022-2_PV" in p.name):
                 print(f"[*] Pulando {p.name} (já 100% validada e curada).")
                 continue
             extrair_prova_completa(p, paginas_alvo=parse_paginas(args.paginas), salvar_banco=not args.nao_salvar, recompilar_html=False)

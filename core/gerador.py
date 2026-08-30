@@ -160,7 +160,7 @@ def gerar_cards_questoes_html(banco_questoes, cache_explicacoes=None, tem_api_ke
                         for img_src in imgs:
                             num_q = q["numero"]
                             img_b64 = obter_base64_imagem(img_src, base_dir=base_dir)
-                            img_parts.append(f"    <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao' loading='lazy' decoding='async'>\n")
+                            img_parts.append(f"    <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao' title='Clique para ampliar em tela cheia (Zoom)' loading='lazy' decoding='async'>\n")
                         img_parts.append("  </div>\n")
                         img_container_html = "".join(img_parts)
 

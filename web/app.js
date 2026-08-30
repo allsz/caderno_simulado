@@ -1673,9 +1673,69 @@ function renderizarDesempenhoModal() {
     `;
 }
 
+// ========================================================
+// LIGHTBOX / ZOOM DE IMAGENS DAS QUESTÕES
+// ========================================================
+function abrirZoomImagem(src, caption) {
+    const overlay = document.getElementById('image-zoom-overlay');
+    const zoomImg = document.getElementById('image-zoom-img');
+    const zoomCaption = document.getElementById('image-zoom-caption');
+    if (!overlay || !zoomImg) return;
+
+    zoomImg.src = src;
+    if (zoomCaption) {
+        if (caption) {
+            zoomCaption.textContent = caption;
+            zoomCaption.style.display = 'block';
+        } else {
+            zoomCaption.style.display = 'none';
+        }
+    }
+
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function fecharZoomImagem(e) {
+    if (e && e.target && e.target.closest('.image-zoom-container') && !e.target.closest('.image-zoom-close')) {
+        return;
+    }
+    const overlay = document.getElementById('image-zoom-overlay');
+    if (overlay) {
+        overlay.classList.remove('active');
+    }
+    document.body.style.overflow = '';
+}
+
+// Delegação de clique para todas as imagens de questões
+document.addEventListener('click', function(e) {
+    const imgEl = e.target.closest('.img-questao');
+    if (!imgEl) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    // Recupera contexto da questão para exibir na legenda
+    const cardEl = imgEl.closest('.card-questao');
+    let legenda = imgEl.getAttribute('alt') || 'Imagem da Questão';
+    if (cardEl) {
+        const tagOrigem = cardEl.querySelector('.tag-origem');
+        if (tagOrigem) {
+            legenda = `${tagOrigem.textContent.trim()} — Visualização Ampliada`;
+        }
+    }
+
+    abrirZoomImagem(imgEl.src, legenda);
+});
+
 // Fechamento de modais via Tecla ESC
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') {
+        const zoomModal = document.getElementById('image-zoom-overlay');
+        if (zoomModal && zoomModal.classList.contains('active')) {
+            fecharZoomImagem();
+            return;
+        }
         const apoioModal = document.getElementById('apoio-modal-overlay');
         if (apoioModal && apoioModal.classList.contains('active')) {
             fecharApoioModal();
