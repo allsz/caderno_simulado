@@ -45,13 +45,24 @@ def exportar_caderno_markdown(banco_questoes, caminho_saida: Path, cache_explica
                                     exp = "Gabarito não fornecido no PDF. (Configure sua GEMINI_API_KEY no arquivo .env para gerar justificativas clínicas por IA)."
                         
                         f.write(f"#### **[{q['origem']} | Questão {q['numero']}]**\n\n")
-                        enunc_md = formatar_texto_fluido(q['enunciado'], modo_html=False)
-                        f.write(f"{enunc_md}\n\n")
-                        
                         imgs = q.get("imagens") or ([q.get("imagem")] if q.get("imagem") else [])
-                        if imgs:
-                            for img_path in imgs:
-                                f.write(f"![Figura da Questão]({img_path})\n\n")
+                        enunc_raw = q.get('enunciado', '')
+                        if imgs and re.search(r'\[(?:IMAGEM|FIGURA|TABELA)\]', enunc_raw, flags=re.IGNORECASE):
+                            partes = re.split(r'\[(?:IMAGEM|FIGURA|TABELA)\]', enunc_raw, flags=re.IGNORECASE)
+                            bloco_imgs = "\n\n".join([f"![Figura da Questão]({img_path})" for img_path in imgs])
+                            md_completo = []
+                            for i, parte in enumerate(partes):
+                                if parte.strip():
+                                    md_completo.append(formatar_texto_fluido(parte, modo_html=False))
+                                if i == 0 and bloco_imgs:
+                                    md_completo.append(bloco_imgs)
+                            f.write("\n\n".join(md_completo) + "\n\n")
+                        else:
+                            enunc_md = formatar_texto_fluido(enunc_raw, modo_html=False)
+                            f.write(f"{enunc_md}\n\n")
+                            if imgs:
+                                for img_path in imgs:
+                                    f.write(f"![Figura da Questão]({img_path})\n\n")
                         
                         if q['alternativas']:
                             for letra, alt in sorted(q['alternativas'].items()):
@@ -135,23 +146,40 @@ def gerar_cards_questoes_html(banco_questoes, cache_explicacoes=None, tem_api_ke
                             else:
                                 exp = "Gabarito não fornecido no PDF da prova. (Configure sua GEMINI_API_KEY no arquivo .env para gerar gabarito e explicação por IA)."
 
-                    enunc_html = formatar_texto_fluido(q['enunciado'], modo_html=True)
                     html_parts.append(f"<div class='card-questao' id='card_{q_id}' data-especialidade='{esp_attr}' data-tema='{tema_attr}' data-subtema='{subtema_attr}' data-banca='{banca_attr}' data-ano='{ano_attr}' data-edicao='{edicao_attr}' data-rotulo-edicao='{rotulo_attr}' data-numero='{num_attr}' data-origem='{origem_attr}' data-idx='{q_global_idx}'>\n")
                     html_parts.append("  <div class='card-header-tags'>\n")
                     html_parts.append(f"    <span class='tag-origem'>{q['origem']} | Questão {q['numero']}</span>\n")
                     html_parts.append(f"    <span class='tag-tema'>{tema}</span>\n")
                     html_parts.append(f"    <span class='tag-subtema'>{subtema}</span>\n")
                     html_parts.append("  </div>\n")
-                    html_parts.append(f"  <div class='enunciado'>{enunc_html}</div>\n")
                     
                     imgs = q.get("imagens") or ([q.get("imagem")] if q.get("imagem") else [])
+                    img_container_html = ""
                     if imgs:
-                        html_parts.append("<div class='questao-imagem-container'>\n")
+                        img_parts = ["  <div class='questao-imagem-container'>\n"]
                         for img_src in imgs:
                             num_q = q["numero"]
                             img_b64 = obter_base64_imagem(img_src, base_dir=base_dir)
-                            html_parts.append(f"  <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao' loading='lazy' decoding='async'>\n")
-                        html_parts.append("</div>\n")
+                            img_parts.append(f"    <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao' loading='lazy' decoding='async'>\n")
+                        img_parts.append("  </div>\n")
+                        img_container_html = "".join(img_parts)
+
+                    enunc_raw = q.get('enunciado', '')
+                    tem_placeholder = bool(imgs and re.search(r'\[(?:IMAGEM|FIGURA|TABELA)\]', enunc_raw, flags=re.IGNORECASE))
+
+                    if tem_placeholder:
+                        partes = re.split(r'\[(?:IMAGEM|FIGURA|TABELA)\]', enunc_raw, flags=re.IGNORECASE)
+                        for i, parte in enumerate(partes):
+                            if parte.strip():
+                                p_html = formatar_texto_fluido(parte, modo_html=True)
+                                html_parts.append(f"  <div class='enunciado'>{p_html}</div>\n")
+                            if i == 0 and img_container_html:
+                                html_parts.append(img_container_html)
+                    else:
+                        enunc_html = formatar_texto_fluido(enunc_raw, modo_html=True)
+                        html_parts.append(f"  <div class='enunciado'>{enunc_html}</div>\n")
+                        if img_container_html:
+                            html_parts.append(img_container_html)
                     
                     if q['alternativas']:
                         html_parts.append("<div class='alternativas-container'>\n")
