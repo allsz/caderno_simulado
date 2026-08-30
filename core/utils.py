@@ -1,9 +1,79 @@
 import base64
+import json
+import os
 import re
+import tempfile
 from html import escape as html_escape
 from pathlib import Path
 
 _IMAGE_CACHE = {}
+
+
+def salvar_json_atomico(caminho: Path, dados: any, indent: int = 2) -> bool:
+    """
+    Salva dados em formato JSON usando escrita atômica (tempfile + os.replace).
+    Garante que falhas de energia ou interrupções não corrompam os arquivos de cache.
+    """
+    caminho = Path(caminho).resolve()
+    caminho.parent.mkdir(parents=True, exist_ok=True)
+    
+    dir_destino = caminho.parent
+    prefixo = f".{caminho.name}.tmp_"
+    
+    try:
+        with tempfile.NamedTemporaryFile("w", dir=dir_destino, prefix=prefixo, delete=False, encoding="utf-8") as f_tmp:
+            nome_tmp = f_tmp.name
+            json.dump(dados, f_tmp, ensure_ascii=False, indent=indent)
+            f_tmp.flush()
+            os.fsync(f_tmp.fileno())
+            
+        os.replace(nome_tmp, caminho)
+        return True
+    except Exception as e:
+        print(f"   [!] Erro na gravação atômica de {caminho.name}: {e}")
+        if 'nome_tmp' in locals() and os.path.exists(nome_tmp):
+            try:
+                os.remove(nome_tmp)
+            except Exception:
+                pass
+        return False
+
+
+def carregar_json_seguro(caminho: Path, default=None):
+    """Carrega arquivo JSON com tratamento de exceções e fallback seguro."""
+    caminho = Path(caminho)
+    if not caminho.exists():
+        return default if default is not None else {}
+    try:
+        with open(caminho, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"   [!] Erro ao carregar JSON '{caminho.name}': {e}")
+        return default if default is not None else {}
+
+
+def validar_schema_questao(q: dict) -> list:
+    """Valida se um objeto de questão médica está em conformidade com o schema esperado."""
+    erros = []
+    if not isinstance(q, dict):
+        return ["Questão não é um objeto válido"]
+        
+    for campo in ["origem", "numero", "especialidade", "tema", "subtema", "enunciado", "alternativas", "gabarito"]:
+        if campo not in q:
+            erros.append(f"Campo obrigatório '{campo}' ausente")
+            
+    if not str(q.get("enunciado", "")).strip():
+        erros.append("Enunciado vazio")
+        
+    alts = q.get("alternativas", {})
+    if not isinstance(alts, dict) or len(alts) < 2:
+        erros.append("Alternativas insuficientes ou em formato inválido")
+        
+    gab = str(q.get("gabarito", "")).strip().upper()
+    if not gab:
+        erros.append("Gabarito não especificado")
+        
+    return erros
 
 
 def obter_base64_imagem(caminho_relativo, base_dir=None):
@@ -78,13 +148,13 @@ def obter_base64_imagem(caminho_relativo, base_dir=None):
 def formatar_texto_fluido(texto, modo_html=True):
     """
     Remove quebras de linha artificiais provocadas pelas colunas estreitas dos PDFs A4 do INEP/ENARE.
-    Une frases contínuas e preserva parágrafos reais.
+    Une frases contínuas e preserva parágrafos reais com escape HTML seguro.
     """
     if not texto:
         return ""
     if modo_html:
-        texto = html_escape(texto)
-    texto = texto.replace("\r\n", "\n").replace("\r", "\n")
+        texto = html_escape(str(texto))
+    texto = str(texto).replace("\r\n", "\n").replace("\r", "\n")
     paragrafos = re.split(r'\n\s*\n', texto)
     paragrafos_limpos = []
     for par in paragrafos:
@@ -95,3 +165,4 @@ def formatar_texto_fluido(texto, modo_html=True):
     
     sep = "<br><br>" if modo_html else "\n\n"
     return sep.join(paragrafos_limpos)
+

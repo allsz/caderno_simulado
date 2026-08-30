@@ -3,7 +3,14 @@ Módulo Core para extração, classificação, enriquecimento com IA e geração
 do Caderno de Questões Médicas e Simulado Interativo.
 """
 
-from .utils import obter_base64_imagem, formatar_texto_fluido
+from .utils import (
+    obter_base64_imagem,
+    formatar_texto_fluido,
+    salvar_json_atomico,
+    carregar_json_seguro,
+    validar_schema_questao,
+)
+from .validador import auditar_banco_questoes
 from .classificador import TAXONOMIA_MEDICA, classificar_questao
 from .extrator import (
     carregar_mapa_gabaritos_revalida,
@@ -25,6 +32,10 @@ from .gerador import (
 __all__ = [
     "obter_base64_imagem",
     "formatar_texto_fluido",
+    "salvar_json_atomico",
+    "carregar_json_seguro",
+    "validar_schema_questao",
+    "auditar_banco_questoes",
     "TAXONOMIA_MEDICA",
     "classificar_questao",
     "carregar_mapa_gabaritos_revalida",
@@ -38,3 +49,4 @@ __all__ = [
     "exportar_caderno_markdown",
     "exportar_caderno_html",
 ]
+

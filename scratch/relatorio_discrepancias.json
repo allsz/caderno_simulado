@@ -1,0 +1,155 @@
+[
+  {
+    "id": "ENARE-2021-Objetiva_54",
+    "origem": "ENARE-2021-Objetiva",
+    "numero": "54",
+    "gab_oficial": "E",
+    "defesa_ia": "Afirma que a oficial (E) está incorreta",
+    "tipo": "Texto afirma que a alternativa oficial está incorreta",
+    "motivo": "O texto afirma expressamente que a alternativa do gabarito oficial (E) está incorreta",
+    "explicacao": "A alternativa (E) está INCORRETA e é o gabarito da questão porque o tratamento mais eficaz para a prevenção de morte súbita cardíaca (MSC) em pacientes com Miocardiopatia Hipertrófica (MCH) de alto risco não são os antiarrítmicos, mas sim o implante de Cardioversor Desfibrilador Implantável (CDI). Os antiarrítmicos (como amiodarone) podem ser usados para controle de sintomas ou arritmias atriais, mas não substituem o CDI na prevenção de MSC. Além disso, a ablação septal com álcool é uma alternativa à miectomia cirúrgica para redução do gradiente na via de saída em pacientes sintomáticos refratários, porém é geralmente evitada em pacientes pediátricos e adolescentes devido ao risco de distúrbios de condução e falta de dados de longo prazo nessa faixa etária.\n\nPor que as outras estão corretas:\n(A) A MCH é a principal causa de morte súbita em jovens atletas; a recomendação clássica de diretrizes é a restrição de esportes competitivos de alta intensidade para reduzir o risco de eventos fatais.\n(B) A hipertrofia costuma se manifestar ou progredir durante o estirão do crescimento na adolescência, com o pico da expressão morfológica ocorrendo no final da puberdade/início da vida adulta.\n(C) O ECG é extremamente sensível (alterado em >90% dos pacientes), apresentando inversão de onda T ou ondas Q patológicas, mas a magnitude dessas alterações não é diretamente proporcional à espessura da parede ventricular medida no ecocardiograma.\n(D) Os fatores citados (história de parada prévia, TV sustentada, história familiar de morte súbita precoce, síncope inexplicada e resposta pressórica anormal ao esforço) são os critérios clássicos utilizados na estratificação de risco para indicação de CDI.",
+    "enunciado": "ENARE 2021 - Objetiva | R1 \nA miocardiopatia hipertrófica é a doença genética cardiovascular mais comum. Assinale a\nalternativa INCORRETA sobre o tema.",
+    "alternativas": {
+      "A": "É de grande importância por ser uma das principais causas de morte súbita nos jovens e, como o exercício físico é um dos principais desencadeantes da morte súbita, há contraindicação absoluta para participação em atividades esportivas competitivas.",
+      "B": "Muitos indivíduos que carregam o defeito genético só vão expressar clinicamente a doença em idade mais avançada. Durante a aceleração do crescimento corporal na adolescência, ocorre um remodelamento do ventrículo esquerdo com aparecimento da hipertrofia, sendo que, em geral, o pico da expressão morfológica da doença instala-se entre 17 e 21 anos de idade.",
+      "C": "A ecocardiografia detecta a hipertrofia ventricular esquerda na ausência de doenças sistêmicas ou de outras anomalias cardíacas. O eletrocardiograma é anormal na maioria dos pacientes, com padrão variável, mostrando fraca correlação com a intensidade da hipertrofia vista ao ecocardiograma.",
+      "D": "Fortes fatores de risco para morte súbita incluem: história de parada cardíaca ou de taquicardia ventricular sustentada, história familiar de morte súbita, síncope, principalmente quando recorrente ou relacionada com exercício, hipotensão arterial em resposta ao exercício.",
+      "E": "Para prevenção de morte súbita, o tratamento que tem se mostrado mais eficaz é o uso contínuo de antiarrítmicos. A ablação com álcool é uma alternativa boa para os pacientes pediátricos que não toleram a medicação."
+    }
+  },
+  {
+    "id": "ENARE-2021-Objetiva_58",
+    "origem": "ENARE-2021-Objetiva",
+    "numero": "58",
+    "gab_oficial": "B",
+    "defesa_ia": [
+      "E",
+      "A"
+    ],
+    "tipo": "Texto crava outra alternativa como correta",
+    "motivo": "O texto afirma que a correta é ['E', 'A'], mas o gabarito oficial é B",
+    "explicacao": "A questão aborda o manejo terapêutico da constipação intestinal funcional, com foco especial na pediatria. A alternativa (B) é a INCORRETA e, portanto, o gabarito, devido à recomendação do uso de óleo mineral em lactentes. Segundo as diretrizes da Sociedade Brasileira de Pediatria (SBP) e da North American Society for Pediatric Gastroenterology, Hepatology and Nutrition (NASPGHAN), o óleo mineral é contraindicado para lactentes (crianças menores de 1 ano) e para crianças com distúrbios de deglutição ou refluxo gastroesofágico importante, devido ao risco elevado de aspiração e desenvolvimento de pneumonia lipoídica grave. Para essa faixa etária, a manutenção costuma ser feita com lactulose ou polietilenoglicol (PEG), sendo este último o padrão-ouro em crianças maiores. \n\nQuanto às demais alternativas:\n(A) CORRETA: O treinamento de hábito intestinal, aproveitando o reflexo gastrocólico e evitando a postergação da evacuação, é um pilar fundamental da terapia comportamental.\n(C) CORRETA: A presença de massa fecal palpável (fecaloma) e escape fecal (soiling) caracteriza a impactação, que exige desimpactação imediata como primeira etapa do tratamento.\n(D) CORRETA: A desimpactação pode ser realizada via alta (oral) com doses elevadas de PEG ou via baixa (retal), geralmente em um período de 3 a 5 dias.\n(E) CORRETA: Enemas fosfatados devem ser evitados em menores de 2 anos pelo risco de distúrbios hidroeletrolíticos (hiperfosfatemia); em lactentes, prefere-se minienemas de sorbitol ou glicerina.",
+    "enunciado": "ENARE 2021 - Objetiva | R1 \nConsiderando as medidas terapêuticas da constipação intestinal funcional, assinale a\nalternativa INCORRETA.",
+    "alternativas": {
+      "A": "Educação e orientação sobre a necessidade de atender o desejo de evacuar, evitando atitudes protelatórias, aproveitando o reflexo gastrocólico e tentando evacuar uma vez ao dia, após uma das refeições principais.",
+      "B": "Para a manutenção, quando indicada, deve ser utilizado um laxante por via oral, diariamente, na dose individualizada para obter regularização do hábito intestinal. Para lactentes, uma opção segura é o óleo mineral.",
+      "C": "Incontinência fecal por retenção, massa fecal palpável e reto preenchido com fezes são manifestações clínicas indicativas de impactação fecal. Nesses casos, o esvaziamento constitui a primeira e imprescindível etapa.",
+      "D": "A desimpactação pode ser realizada com enemas por via retal ou por via oral, e são necessários, em geral, 3 a 5 dias para se obter plena desimpactação.",
+      "E": "Em geral, os enemas são realizados com solução fosfatada a partir dos 2 anos de idade. Em lactentes, podem ser usados minienemas com sorbitol. No ambiente hospitalar, a solução de glicerina constitui uma alternativa para o enema fosfatado."
+    }
+  },
+  {
+    "id": "ENARE-2021-Objetiva_84",
+    "origem": "ENARE-2021-Objetiva",
+    "numero": "84",
+    "gab_oficial": "E",
+    "defesa_ia": "Afirma que a oficial (E) está incorreta",
+    "tipo": "Texto afirma que a alternativa oficial está incorreta",
+    "motivo": "O texto afirma expressamente que a alternativa do gabarito oficial (E) está incorreta",
+    "explicacao": "A alternativa (E) está incorreta (sendo, portanto, o gabarito da questão) pois apresenta uma visão reducionista e ultrapassada da Atenção Primária à Saúde (APS). De acordo com a Política Nacional de Atenção Básica (PNAB) e os conceitos fundamentais de Barbara Starfield, a APS caracteriza-se por ser de 'baixa densidade tecnológica' (pouco uso de máquinas complexas), mas de **alta complexidade clínica e de raciocínio**, uma vez que lida com a gestão de incertezas, multimorbidades e determinantes sociais de saúde. Não é uma medicina simplificada, mas sim o nível de atenção capaz de resolver cerca de 80% a 90% das demandas de saúde de uma população.\n\nBreve análise das alternativas corretas (que descrevem atributos da APS):\n- **Alternativa A:** A APS foca no indivíduo e não apenas na patologia, caracterizando o cuidado centrado na pessoa.\n- **Alternativa B:** Refere-se à **Longitudinalidade**, atributo que estabelece um vínculo terapêutico ao longo do tempo, independentemente da presença ou ausência de doença.\n- **Alternativa C:** Descreve o atributo do **Acesso ou Primeiro Contato**, definindo a APS como a porta de entrada preferencial do sistema.\n- **Alternativa D:** Refere-se aos atributos de **Integralidade** (abordar o indivíduo como um todo) e **Coordenação do Cuidado** (ordenar o fluxo do paciente pelos diferentes pontos da rede de atenção).",
+    "enunciado": "ENARE 2021 - Objetiva | R1 \nEm relação à Atenção Primária à Saúde (APS), assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "É um tipo altamente personalizado de prestação de cuidado.",
+      "B": "Inclui a continuidade, pelo fato de cuidar de pessoas na doença e na saúde ao longo de um período.",
+      "C": "É o cuidado de primeiro contato, servindo como ponto de entrada de uma pessoa com o serviço de saúde.",
+      "D": "Tem a função de servir e coordenar todas as necessidades de saúde da pessoa.",
+      "E": "A APS é uma medicina simplificada, atendendo apenas condições mais básicas de saúde."
+    }
+  },
+  {
+    "id": "ENARE-2022-Objetiva_48",
+    "origem": "ENARE-2022-Objetiva",
+    "numero": "48",
+    "gab_oficial": "E",
+    "defesa_ia": [
+      "A"
+    ],
+    "tipo": "Texto crava outra alternativa como correta",
+    "motivo": "O texto afirma que a correta é ['A'], mas o gabarito oficial é E",
+    "explicacao": "A enurese noturna é definida como a perda intermitente de urina durante o sono em crianças com idade igual ou superior a 5 anos. Vamos analisar as alternativas com base nas diretrizes da Sociedade Brasileira de Pediatria e da International Children's Continence Society (ICCS): \n\n(E) CORRETA (Gabarito Oficial): Embora alguns estudos epidemiológicos busquem correlações, a literatura clássica e as diretrizes majoritárias utilizadas em concursos de residência médica não estabelecem o sobrepeso como um fator etiológico ou de risco com associação estatisticamente significativa e direta para a enurese monossintomática. A fisiopatologia está muito mais vinculada a fatores genéticos, produção noturna excessiva de urina (redução do ADH noturno) e elevada contratilidade detrusora. \n\n(A) INCORRETA: A enurese primária é caracterizada quando a criança nunca alcançou um período de controle esfincteriano noturno (período seco) por pelo menos 6 meses consecutivos, e não apenas 1 dia.\n\n(B) INCORRETA: A enurese é classificada como secundária quando o sintoma ressurge após a criança ter permanecido previamente seca por um período igual ou superior a 6 meses (e não 4 semanas).\n\n(C) INCORRETA: A enurese primária tem forte base genética e fisiológica (poliúria noturna, redução da capacidade vesical ou distúrbios do despertar). Fatores psicológicos e eventos estressores estão mais frequentemente associados à enurese secundária.\n\n(D) INCORRETA: O critério de idade para o diagnóstico de enurese é de 5 anos ou mais (idade cronológica ou de desenvolvimento equivalente). Aos 3 anos, a perda de urina durante o sono ainda pode ser considerada parte do desenvolvimento fisiológico normal do controle esfincteriano.",
+    "enunciado": "ENARE 2022 - Objetiva | R1 \nA enurese noturna é uma queixa frequente no consultório pediátrico. Qual das seguintes\nalternativas é correta a respeito dessa a con",
+    "alternativas": {
+      "A": "A enurese primária ocorre quando a criança nunca ficou mais de 1 dia sem urinar durante o sono.",
+      "B": "A enurese é dita secundária quando a criança ficou um período igual ou superior a 4 semanas sem enurese e voltou a urinar durante o sono.",
+      "C": "Fatores psicológicos são a causa mais comum de enurese primária.",
+      "D": "É definida por perda intermitente de urina durante o sono, em maiores de 3 anos, pelo menos 1 vez por noite, na ausência de alterações de sistema nervoso central.",
+      "E": "Não há associação significativa entre sobrepeso e enurese."
+    }
+  },
+  {
+    "id": "ENARE-2022-Objetiva_55",
+    "origem": "ENARE-2022-Objetiva",
+    "numero": "55",
+    "gab_oficial": "C",
+    "defesa_ia": "Afirma que a oficial (C) está incorreta",
+    "tipo": "Texto afirma que a alternativa oficial está incorreta",
+    "motivo": "O texto afirma expressamente que a alternativa do gabarito oficial (C) está incorreta",
+    "explicacao": "Para resolver esta questão, é fundamental compreender o conceito de Ânion Gap (AG) e o papel das proteínas plasmáticas em seu cálculo. O AG representa a diferença entre os cátions medidos (Sódio) e os ânions medidos (Cloro e Bicarbonato). Numericamente: AG = Na - (Cl + HCO3). O valor normal do AG (8 a 12 mEq/L) é composto majoritariamente por ânions não mensurados, sendo a **albumina** o principal deles. \n\nPor que a alternativa (C) está INCORRETA (e é o gabarito)? A albumina possui carga negativa; logo, se houver hipoalbuminemia, há uma redução na quantidade de ânions não mensurados no plasma. Isso resulta em um **Ânion Gap diminuído (ou falsamente baixo)**, e não aumentado. Na prática clínica, para cada redução de 1 g/dL na albumina sérica abaixo do valor normal (4 g/dL), o AG 'esperado' do paciente deve ser corrigido para baixo em cerca de 2,5 mEq/L.\n\nBreve análise das demais alternativas (corretas em sua descrição teórica):\n- (A) e (B): Acidose metabólica com AG normal (hiperclorêmica) ocorre quando há perda de bicarbonato e ganho proporcional de cloro para manter a eletroneutralidade. Causas clássicas incluem perdas gastrointestinais (diarreia) e Acidoses Tubulares Renais.\n- (D): O AG aumentado ocorre pelo acúmulo de ácidos orgânicos (ânions não mensurados como lactato, cetoácidos ou sulfatos na uremia) que 'consomem' o bicarbonato sem elevar o cloro.\n- (E): O AG pode estar diminuído tanto por redução de ânions não mensurados (como na hipoalbuminemia) quanto pelo aumento de cátions não mensurados (ex: hipercalcemia, intoxicação por lítio) ou por erros laboratoriais decorrentes de hiperlipidemia extrema.",
+    "enunciado": "ENARE 2022 - Objetiva | R1 \nSobre o Ânion Gap (AG) e sua condição mais esperada nas causas de acidose metabólica,\nassinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "AG plasmático normal ocorre nas perdas de bicarbonato sem perda de cloro, como ocorre nas diarreias e fístulas.",
+      "B": "AG plasmático normal ocorre na acidose tubular renal.",
+      "C": "AG plasmático aumentado ocorre na hipoalbuminemia, pois a albumina contribui em grande parte para reduzir o AG plasmático.",
+      "D": "AG plasmático aumentado ocorre quando há adição de carga ácida ao organismo, como ácidos orgânicos (cetoacidose), acidose lática e na uremia.",
+      "E": "AG plasmático diminuído ocorre na presença de cátions não mensuráveis, como na hiperlipidemia, qual se superestima a concentração de cloro."
+    }
+  },
+  {
+    "id": "ENARE-2023-Objetiva_72",
+    "origem": "ENARE-2023-Objetiva",
+    "numero": "72",
+    "gab_oficial": "B",
+    "defesa_ia": [
+      "D"
+    ],
+    "tipo": "Texto crava outra alternativa como correta",
+    "motivo": "O texto afirma que a correta é ['D'], mas o gabarito oficial é B",
+    "explicacao": "A questão aborda o manejo e as características da Síndrome HELLP, uma das complicações mais graves do espectro da pré-eclâmpsia. \n\nPor que a alternativa (B) é a INCORRETA: De acordo com as diretrizes da FEBRASGO e do Ministério da Saúde, o diagnóstico de Síndrome HELLP é uma indicação de interrupção da gestação, mas não é uma indicação absoluta de cesariana. A via de parto deve ser decidida com base na idade gestacional, nas condições hemodinâmicas maternas, no bem-estar fetal e na favorabilidade do colo uterino (índice de Bishop). O parto vaginal é frequentemente preferível, pois evita os riscos cirúrgicos e hemorrágicos exacerbados pela trombocitopenia e coagulopatia inerentes à síndrome.\n\nAnálise das demais alternativas:\n(A) Correta. Plaquetopenia abaixo de 50.000/mm³ é uma contraindicação clássica para anestesia regional (raquidiana ou peridural) devido ao risco de hematoma de canal vertebral.\n(C) Correta. Cerca de 15% a 20% das pacientes com Síndrome HELLP podem não apresentar hipertensão arterial ou proteinúria no momento do diagnóstico inicial, o que exige alto índice de suspeição clínica.\n(D) Correta. O sulfato de magnésio é o padrão-ouro para a profilaxia de crises convulsivas (eclâmpsia) em todas as formas graves de pré-eclâmpsia, incluindo a síndrome HELLP.\n(E) Correta. Pacientes que tiveram Síndrome HELLP apresentam um risco significativamente maior de recorrência do quadro ou de outras síndromes hipertensivas em gestações futuras, devendo ser acompanhadas em pré-natal de alto risco.",
+    "enunciado": "ENARE 2023 - Objetiva | R1 \nEm relação à síndrome HELLP, assinale a alternativa INCORRETA.",
+    "alternativas": {
+      "A": "Plaquetas abaixo de 50.000 são contraindicação á anestesia raquidiana",
+      "B": "A cesárea é a via de parto de melhor escolha na síndrome HELLP",
+      "C": "Pode ocorrer síndrome HELLP sem elevação dos níveis pressóricos.",
+      "D": "O sulfato de magnésio é indicado quando se apresentar esse diagnóstico.",
+      "E": "Pacientes com passado obstétrico de síndrome HELLP devem ser alertadas quanto ao maior risco de apresentar o mesmo quadro em gestação futura"
+    }
+  },
+  {
+    "id": "REVALIDA-2024_1_PV_objetiva_regular_20",
+    "origem": "REVALIDA-2024_1_PV_objetiva_regular",
+    "numero": "20",
+    "gab_oficial": "D",
+    "defesa_ia": [
+      "A"
+    ],
+    "tipo": "Texto crava outra alternativa como correta",
+    "motivo": "O texto afirma que a correta é ['A'], mas o gabarito oficial é D",
+    "explicacao": "Para a interpretação dos indicadores antropométricos da OMS, adotados pelo Ministério da Saúde, utilizamos o escore-Z. Para a criança de 2 anos em questão: 1) Estatura para idade (-0,7): encontra-se dentro da faixa de normalidade (entre -2 e +2), indicando crescimento adequado. 2) Peso para idade (2,6): o valor isolado de 2,6 está fora dos critérios de classificação padrão para peso/idade, mas, conforme o padrão da banca e o contexto clínico de um Escore-Z elevado em IMC para idade (2,8), interpreta-se a presença de excesso de peso. 3) IMC para idade (2,8): escores-Z de IMC entre +2 e +3 são classificados como 'Sobrepeso' (risco de sobrepeso se >+1 e sobrepeso se >+2, segundo o Ministério da Saúde). Portanto, a criança apresenta estatura adequada e IMC compatível com sobrepeso, o que exige orientações sobre hábitos alimentares e estilo de vida. Alternativa A incorreta: não se deve apenas 'tranquilizar', pois há evidência de sobrepeso (IMC > +2). Alternativa B incorreta: a estatura está dentro da normalidade (escore-Z de -0,7), não justificando investigação por baixa estatura. Alternativa C incorreta: não há baixa estatura e o manejo inicial do sobrepeso na infância deve ser realizado na Atenção Primária com foco em mudanças de estilo de vida, não sendo indicado encaminhamento imediato ao especialista sem prévia intervenção comportamental.",
+    "enunciado": "Uma criança com 2 anos é levada por sua mãe à unidade básica \nde saúde a fim de verificar se a criança está com peso e altura \nadequados para a idade. \nAo reali",
+    "alternativas": {
+      "A": "partir dos dados observados, a conduta médica correta para dar prosseguimento ao cuidado com a criança é A tranquilizar a mãe, pois a criança apresenta peso e estatura adequados para sua idade.",
+      "B": "solicitar radiografia de punho e mão, pois a criança apresenta baixa estatura para sua idade.",
+      "C": "realizar encaminhamento para endocrinopediatra, pois a criança apresenta sobrepeso e baixa estatura.",
+      "D": "orientar acerca de estilo de vida, pois a criança se encontra com sobrepeso, apesar de estar com estatura adequada. 2023"
+    }
+  },
+  {
+    "id": "REVALIDA-2024_2_PV_objetiva_regular_35",
+    "origem": "REVALIDA-2024_2_PV_objetiva_regular",
+    "numero": "35",
+    "gab_oficial": "C",
+    "defesa_ia": [
+      "A"
+    ],
+    "tipo": "Texto crava outra alternativa como correta",
+    "motivo": "O texto afirma que a correta é ['A'], mas o gabarito oficial é C",
+    "explicacao": "A questão aborda os níveis de prevenção em saúde pública, um tema recorrente e fundamental para as provas de Revalida e ENARE. A prevenção secundária tem como objetivo principal o diagnóstico precoce e o tratamento imediato de uma doença já instalada, visando impedir o seu agravamento e evitar a ocorrência de novos eventos ou complicações. No caso do paciente em questão, que já foi vítima de um Acidente Vascular Cerebral (AVC), a prescrição de aspirina (ácido acetilsalicílico) como antiagregante plaquetário visa reduzir o risco de recorrência do evento cardiovascular (prevenção do novo evento). Portanto, trata-se classicamente de prevenção secundária. Alternativa A incorreta: A prevenção primária visa evitar que a doença ocorra (ex: controle de hipertensão e diabetes em pacientes sem eventos prévios). Alternativa B incorreta: A prevenção terciária foca na reabilitação e redução das sequelas de uma doença já estabelecida, visando melhorar a qualidade de vida e a funcionalidade, o que não é o foco principal da prescrição da aspirina neste cenário. Alternativa D incorreta: A prevenção quaternária visa proteger o paciente de iatrogenias e intervenções médicas desnecessárias ou excessivas, o que não se aplica ao uso da aspirina para profilaxia de eventos isquêmicos após AVC, visto que é uma conduta baseada em evidências científicas sólidas.",
+    "enunciado": "Um paciente de 70 anos, vítima de acidente vascular cerebral, \nsem sequelas, vai a uma consulta de retorno após receber alta \nhospitalar. O médico da unidade bá",
+    "alternativas": {
+      "A": "primária.",
+      "B": "terciária.",
+      "C": "secundária.",
+      "D": "quaternária. 2024"
+    }
+  }
+]

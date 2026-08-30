@@ -1,0 +1,439 @@
+{
+  "com_imagens": [],
+  "sem_imagem_com_mencao": [
+    {
+      "id": "ENARE-2022-Objetiva_47",
+      "origem": "ENARE-2022-Objetiva",
+      "numero": "47",
+      "termo": "quadro apresentado",
+      "enunciado": "ENARE 2022 - Objetiva | R1 \nUm paciente de 13 anos está em tratamento de leucemia. Já passou por diversos\ntratamentos e procedimentos, sem sucesso na remissão de sua doença. Por fazer seu\ntratamento em um hospital escola, foi chamado, juntamente com ",
+      "alternativas": {
+        "A": "A evolução em prontuário do aceite dos responsáveis e do paciente é documento suficiente para sua inclusão na pesquisa.",
+        "B": "O termo de consentimento livre e esclarecido deve ser assinado pelo paciente.",
+        "C": "O assentimento do paciente é desejável, mas não deve ser determinante em sua inclusão ou exclusão na pesquisa.",
+        "D": "Além do consentimento do representante legal, é necessário o assentimento livre e legal esclarecido do paciente, na medida de sua compreensão.",
+        "E": "O medicamento da pesquisa poderia ser administrado como novo esquema terapêutico quimioterápico, sem necessidade do esclarecimento de todos os detalhes, como foi feito no caso."
+      }
+    },
+    {
+      "id": "ENARE-2024-Objetiva_93",
+      "origem": "ENARE-2024-Objetiva",
+      "numero": "93",
+      "termo": "imagem a seguir",
+      "enunciado": "ENARE 2024 - Objetiva | R1 \nA imagem a seguir foi publicada em um artigo de 1961, no jornal Americano de Saúde\nPública. Nesse estudo histórico, usando a vacina inativada da pólio foi observado um efeito\nprotetor da vacinação além do efeito previsto. ",
+      "alternativas": {
+        "A": "Imunidade secundária",
+        "B": "Vacinação secundária",
+        "C": "Imunidade de rebanho",
+        "D": "Prevenção primária",
+        "E": "Prevenção secundária"
+      }
+    },
+    {
+      "id": "ENARE-2025-Objetiva_41",
+      "origem": "ENARE-2025-Objetiva",
+      "numero": "41",
+      "termo": "quadro\napresentado",
+      "enunciado": "Os pais de um escolar em tratamento de rinite alérgica com corticoide nasal procuraram o\nposto de saúde para aplicação da vacina HPV (papilomavírus humano). Em vista do quadro\napresentado, o agente do posto de saúde deverá:",
+      "alternativas": {
+        "A": "orientar os pais a vacinarem a criança após o término do tratamento.",
+        "B": "suspender a medicação por 7 dias após a vacinação.",
+        "C": "vacinar a criança com as orientações habituais.",
+        "D": "vacinar a criança com a dose dobrada da vacina.",
+        "E": "vacinar a criança, advertindo quanto à possibilidade de reações vacinais mais intensas."
+      }
+    },
+    {
+      "id": "ENARE-2025-Objetiva_65",
+      "origem": "ENARE-2025-Objetiva",
+      "numero": "65",
+      "termo": "De acordo com o gráfico",
+      "enunciado": "Uma menina de 6 anos é levada pela mãe ao ginecologista por ter iniciado desenvolvimento\nmamário há 4 meses. Ao exame físico, apresenta mamas em estágio M2 de Tanner e\ngenitália em estágio P1 de Tanner. De acordo com o gráfico de velocidade de cresci",
+      "alternativas": {
+        "A": "telarca precoce isolada;",
+        "B": "pubarca precoce isolada;",
+        "C": "menarca precoce isolada;",
+        "D": "puberdade precoce central;",
+        "E": "puberdade precoce periférica."
+      }
+    },
+    {
+      "id": "ENARE-2026-Objetiva_44",
+      "origem": "ENARE-2026-Objetiva",
+      "numero": "44",
+      "termo": "quadro\napresentado",
+      "enunciado": "Enamed-2026-Objetiva tipo 1 | R1 \nParturiente de 29 anos, sem comorbidades, esteve em trabalho de parto por 8 horas e evoluiu\npara parto vaginal. Após 10 minutos do desprendimento do feto, ainda não se observou a\nexpulsão da placenta. A paciente está",
+      "alternativas": {
+        "A": "aguardar a expulsão espontânea da placenta, sem intervenções adicionais, e observar sinais de separação.",
+        "B": "realizar tração controlada do cordão umbilical, enquanto se estabiliza o útero com a mão suprapúbica.",
+        "C": "iniciar curagem placentária, devido ao tempo transcorrido sem desprendimento placentário.",
+        "D": "administrar uterotônico adicional e realizar massagem uterina para auxiliar a dequitação."
+      }
+    },
+    {
+      "id": "REVALIDA-2021_PV_objetiva_1_72",
+      "origem": "REVALIDA-2021_PV_objetiva_1",
+      "numero": "72",
+      "termo": "quadro apresentado",
+      "enunciado": "69. ITEM 137943 - V. 719643  \nUm escolar de 7 anos de idade, de sexo masculino, é \nadmitido no pronto atendimento com queixa de febre há \n5 dias, acompanhada de cefaleia, dor retro-orbital, mialgia, \nprostração e anorexia. Hoje, houve aparecimento de",
+      "alternativas": {
+        "A": "Grupo A: acompanhar ambulatorialmente com orientação de reidratação oral e sintomáticos.",
+        "B": "Grupo A: solicitar hemograma e orientar retorno em 24 horas para checagem do resultado.",
+        "C": "Grupo B: solicitar hemograma e manter em observação até obtenção do resultado do exame.",
+        "D": "Grupo B: solicitar hemograma e manter em leito de internação por pelo menos 48 horas."
+      }
+    },
+    {
+      "id": "REVALIDA-2021_PV_objetiva_1_100",
+      "origem": "REVALIDA-2021_PV_objetiva_1",
+      "numero": "100",
+      "termo": "quadro apresentado",
+      "enunciado": "96. ITEM 138273 - V. 720616  \nUma mulher com 55 anos de idade procura a unidade de emergência referenciada com queixa de dor precordial em aperto \nhá 12 horas. Antecedentes pessoais: diabética tipo 2, há 12 anos, em uso de metformina 1 500 mg ao dia ",
+      "alternativas": {
+        "A": "infarto agudo do miocárdio e trombólise com ateplase.",
+        "B": "infarto do miocárdio evoluído e cateterismo.",
+        "C": "síndrome coronariana aguda e balão intra-aórtico.",
+        "D": "pericardite aguda e colchicina. ÁREA LIVRE"
+      }
+    },
+    {
+      "id": "REVALIDA-2022-2_PV_objetiva_1",
+      "origem": "REVALIDA-2022-2_PV_objetiva",
+      "numero": "1",
+      "termo": "figura abaixo",
+      "enunciado": "Um paciente de 64 anos foi levado por familiares à unidade de \nemergência logo após ter apresentado episódio de síncope. \nSegundo o paciente, ele já tinha apresentado 2 outros \nepisódios nos últimos 3 meses, sempre precedidos por \nsensação de “tontei",
+      "alternativas": {
+        "A": "cardioversão elétrica.",
+        "B": "ablação de via anômala.",
+        "C": "implante de marca-passo definitivo.",
+        "D": "isolamento elétrico das vias pulmonares."
+      }
+    },
+    {
+      "id": "REVALIDA-2022-2_PV_objetiva_4",
+      "origem": "REVALIDA-2022-2_PV_objetiva",
+      "numero": "4",
+      "termo": "quadro apresentado",
+      "enunciado": "Adolescente de 14 anos de idade, primípara, em puerpério \nimediato de parto vaginal, apresenta sangramento vaginal \nabundante, sem morbidades associadas à gestação. No exame, \nela apresentou: regular estado geral, frequência respiratória de \n23 incur",
+      "alternativas": {
+        "A": "Administração de 800 mcg de misoprostol via retal.",
+        "B": "Indicação de laparotomia de urgência para histerectomia.",
+        "C": "Conduta expectante, mantendo-se a monitorização clínica.",
+        "D": "Exame da placenta e, caso estejam presentes escavações, indicação de curetagem uterina. 2022"
+      }
+    },
+    {
+      "id": "REVALIDA-2022-2_PV_objetiva_17",
+      "origem": "REVALIDA-2022-2_PV_objetiva",
+      "numero": "17",
+      "termo": "quadro apresentado",
+      "enunciado": "Homem de 45 anos, sem comorbidades, procurou o pronto-\nsocorro por apresentar dor em região anal havia 5 dias, \nacompanhada por prostração e calafrios. No exame físico, \nencontrava-se \nem \nregular \nestado \ngeral, \nconsciente, \ncontactuante, corado, h",
+      "alternativas": {
+        "A": "Antibioticoterapia venosa.",
+        "B": "Drenagem cirúrgica imediata.",
+        "C": "Termoterapia local e observação.",
+        "D": "Tomografia computadorizada da pelve."
+      }
+    },
+    {
+      "id": "REVALIDA-2022-2_PV_objetiva_27",
+      "origem": "REVALIDA-2022-2_PV_objetiva",
+      "numero": "27",
+      "termo": "imagem a seguir",
+      "enunciado": "Homem de 55 anos refere vômitos biliosos, dor abdominal tipo \ncólica e parada de eliminação de gases e fezes há cerca de \n3 horas. Fez cirurgia por úlcera péptica perfurada há 5 anos. Seu \nexame físico evidencia: cicatriz de incisão mediana xifopubia",
+      "alternativas": {
+        "A": "Videolaparoscopia diagnóstica.",
+        "B": "Laparotomia exploradora de emergência.",
+        "C": "Sondagem nasogástrica e observação clínica.",
+        "D": "Descompressão colônica por retossigmoidoscopia."
+      }
+    },
+    {
+      "id": "REVALIDA-2022-2_PV_objetiva_42",
+      "origem": "REVALIDA-2022-2_PV_objetiva",
+      "numero": "42",
+      "termo": "imagem apresentada",
+      "enunciado": "Paciente de 30 anos, do sexo masculino, foi atendido na \nemergência, com queixa de prurido nos olhos e lacrimejamento \nhavia dois dias. No exame físico, apresentava hiperemia \nconjuntival, com as pálpebras edemaciadas e bordas ulceradas \ne crostosas,",
+      "alternativas": {
+        "A": "Adenovírus.",
+        "B": "Herpes simples.",
+        "C": "Staphylococcus aureus.",
+        "D": "Chlamydia trachomatis. 2022"
+      }
+    },
+    {
+      "id": "REVALIDA-2022-2_PV_objetiva_88",
+      "origem": "REVALIDA-2022-2_PV_objetiva",
+      "numero": "88",
+      "termo": "Conforme o quadro",
+      "enunciado": "Pré-escolar de três anos de idade, sexo masculino, previamente \nhígido, foi levado à emergência, apresentando agitação \npsicomotora, midríase, boca seca e rubor facial. A mãe dele \ninformou que tinha percebido os sintomas havia uma hora, ao \nchegar d",
+      "alternativas": {
+        "A": "dipirona.",
+        "B": "salbutamol.",
+        "C": "clorpromazina.",
+        "D": "dexclorfeniramina. 2022"
+      }
+    },
+    {
+      "id": "REVALIDA-2022_PV_objetiva_1_48",
+      "origem": "REVALIDA-2022_PV_objetiva_1",
+      "numero": "48",
+      "termo": "quadro a seguir",
+      "enunciado": "Um pré-escolar com 4 anos de idade, acompanhado dos pais, dá entrada na emergência com quadro de febre, cefaleia e irritabilidade que se iniciou há 2 dias. A mãe relata que, hoje pela manhã, a criança apresentou erupções vermelhas na pele e que não p",
+      "alternativas": {
+        "A": "dengue grave com choque",
+        "B": "síndrome do choque tóxico estafilocócico",
+        "C": "meningite meningocócica na forma séptica",
+        "D": "síndrome inflamatória multissistêmica pediátrica "
+      }
+    },
+    {
+      "id": "REVALIDA-2022_PV_objetiva_1_55",
+      "origem": "REVALIDA-2022_PV_objetiva_1",
+      "numero": "55",
+      "termo": "quadro apresentado",
+      "enunciado": "Um homem com 24 anos de idade realiza acompanhamento médico regular na Unidade de Saúde da Família (USF) de referência. Possui diagnóstico de HIV há 1 ano, sendo acompanhado em Centro de Saúde de Referência municipal para HIV/AIDS. Hoje, busca atendi",
+      "alternativas": {
+        "A": "criptococose; sorologia",
+        "B": "paracocciodioidomicose; exame a fresco de escarro",
+        "C": "toxoplasmose; tomografia, imununofluorescência indireta e teste imunoenzimático (ELISA)",
+        "D": "tuberculose pulmonar; teste rápido molecular para tuberculose (TRM-TB), cultura de escarro e teste de sensibilidade"
+      }
+    },
+    {
+      "id": "REVALIDA-2022_PV_objetiva_1_60",
+      "origem": "REVALIDA-2022_PV_objetiva_1",
+      "numero": "60",
+      "termo": "quadro apresentado",
+      "enunciado": "Um paciente com 25 anos de idade procura a Unidade de Saúde da Família devido a unha encravada no hálux esquerdo. Refere que, desde que começou a trabalhar em um frigorífico e passou a usar botas, tem apresentado quadro recorrente de unha encravada. ",
+      "alternativas": {
+        "A": "avulsão total da lâmina ungueal sob anestesia local.",
+        "B": "prescrição de cefalexina por 7 dias e retorno.",
+        "C": "tratamento conservador com higienização, calçados adequados e elevação do canto ungueal com algodão.",
+        "D": "cauterização química da matriz ungueal com fenol 88% de imediato."
+      }
+    },
+    {
+      "id": "REVALIDA-2022_PV_objetiva_1_99",
+      "origem": "REVALIDA-2022_PV_objetiva_1",
+      "numero": "99",
+      "termo": "figura a seguir",
+      "enunciado": "Uma primigesta com 24 anos de idade comparece à consulta médica de rotina de pré-natal com 38 semanas. Relata dores em cólica associadas às contrações uterinas. No exame obstétrico, apresentou dinâmica uterina positiva e, após as manobras de Leopold,",
+      "alternativas": {
+        "A": "situação cefálica, apresentação longitudinal, de posição occípito-esquerda-posterior",
+        "B": "situação cefálica, apresentação longitudinal, de posição occípito-direita-posterior",
+        "C": "situação longitudinal, apresentação cefálica, de posição occípito-direita-posterior",
+        "D": "situação longitudinal, apresentação cefálica, de posição naso-esquerda-anterior variedade variedade variedade variedade"
+      }
+    },
+    {
+      "id": "REVALIDA-2023_1_PV_objetiva_regular_59",
+      "origem": "REVALIDA-2023_1_PV_objetiva_regular",
+      "numero": "59",
+      "termo": "quadro apresentado",
+      "enunciado": "Uma paciente com 24 anos apresenta sangramento vaginal volumoso \nno puerpério imediato de parto vaginal sem episiotomia. Relata como \nantecedentes pré-natal e parto vaginal sem intercorrências ou \nmorbidade associada à gestação. Ao exame físico, apre",
+      "alternativas": {
+        "A": "iniciar imediatamente a infusão de Ringer Lactato 1.000 ml em acesso venoso calibroso, realizar massagem uterina e usar drogas uterotônicas.",
+        "B": "encaminhar a paciente para a ultrassonografia de urgência e solicitar hemograma, para avaliar necessidade de hemotransfusão.",
+        "C": "realizar laparotomia de urgência e histerectomia, com hemotransfusão, sem necessidade de prova cruzada.",
+        "D": "tranquilizar a paciente, esclarecendo que se trata de loquiação fisiológica do puerpério imediato. 2023"
+      }
+    },
+    {
+      "id": "REVALIDA-2023_1_PV_objetiva_regular_77",
+      "origem": "REVALIDA-2023_1_PV_objetiva_regular",
+      "numero": "77",
+      "termo": "imagem a seguir",
+      "enunciado": "Uma paciente com 20 anos foi atendida na emergência de \nhospital secundário, vítima de queimadura acidental em \nmembros superiores e parte anterior do tórax, ocorrida há 30 \nminutos. Consciente e orientada, queixa-se de dor no local das \nqueimaduras ",
+      "alternativas": {
+        "A": "pneumotórax, impondo intervenção imediata para drenagem e descompressão.",
+        "B": "hemotórax, comprimindo estruturas e impondo intervenção imediata para drenagem e descompressão.",
+        "C": "hidrotórax, recomenda-se nova punção contralateral, via jugular, para se estabelecer nova via de acesso central.",
+        "D": "elevação diafragmática direita, por paralisia frênica, recomenda-se nova punção contralateral, via jugular, para se estabelecer nova via de acesso central. 2023"
+      }
+    },
+    {
+      "id": "REVALIDA-2023_1_PV_objetiva_regular_78",
+      "origem": "REVALIDA-2023_1_PV_objetiva_regular",
+      "numero": "78",
+      "termo": "quadro apresentado",
+      "enunciado": "Um lactente com 30 dias de vida apresentou, há 3 dias, lesões \nna cabeça, com escamas gordurosas, espessas e aderentes, \nsemelhantes a uma crosta láctea. As lesões se estendiam para \na região retroauricular e a área das sobrancelhas. Seguindo \norient",
+      "alternativas": {
+        "A": "exudação e vesículas.",
+        "B": "liquenificação e eritema.",
+        "C": "descamação e aumento da IgE sérica.",
+        "D": "ausência de prurido e ausência de eosinofilia."
+      }
+    },
+    {
+      "id": "REVALIDA-2023_2_PV_objetiva_regular_27",
+      "origem": "REVALIDA-2023_2_PV_objetiva_regular",
+      "numero": "27",
+      "termo": "figura a seguir",
+      "enunciado": "Um homem de 58 anos, trabalhador na construção civil, procura \no ambulatório com história clínica de lesão na face há, \naproximadamente, 4 anos, com crescimento há 2 meses, \nconforme figura a seguir. Ele nega outras lesões cutâneas ou \noutras comorbi",
+      "alternativas": {
+        "A": "partir dessas informações, qual é a hipótese diagnóstica mais provável? A Melanoma.",
+        "B": "Nevo melanocítico.",
+        "C": "Ceratose seborrérica.",
+        "D": "Carcinoma espinocelular. 2023"
+      }
+    },
+    {
+      "id": "REVALIDA-2023_2_PV_objetiva_regular_44",
+      "origem": "REVALIDA-2023_2_PV_objetiva_regular",
+      "numero": "44",
+      "termo": "tabela a seguir",
+      "enunciado": "Uma mulher de 58 anos foi atendida pela primeira vez no \nambulatório especializado em climatério. Faz uso de terapia \nhormonal combinada via oral há 6 anos. Interrompeu o uso \nhá 5 meses, mas voltou a usar a medicação devido aos sintomas \nintensos de",
+      "alternativas": {
+        "A": "interromper a medicação oral e indicar o uso de fitoterápicos para terapia hormonal.",
+        "B": "trocar por estrogênio oral isolado e inserir o sistema intrauterino liberador de levonorgestrel.",
+        "C": "manter a terapia hormonal oral somente com estrogênio e realizar histeroscopia com biópsia.",
+        "D": "interromper o uso da medicação oral e prescrever terapia hormonal combinada com estradiol transdérmico. 2023"
+      }
+    },
+    {
+      "id": "REVALIDA-2023_2_PV_objetiva_regular_55",
+      "origem": "REVALIDA-2023_2_PV_objetiva_regular",
+      "numero": "55",
+      "termo": "imagem a seguir",
+      "enunciado": "Observe a imagem a seguir. \n \nJornal O Tempo, Edição de 21 jan. 2013.  \nDisponível em: otempo.com.br/charges. Acesso em 30 abril de 2023. \nEm relação aos pressupostos e às características do Sistema \nÚnico de Saúde (SUS) e da Atenção Primária em Saúd",
+      "alternativas": {
+        "A": "descentralização e de hierarquização, uma vez que muitas pessoas gostariam de ser atendidas ao mesmo tempo, em um só lugar.",
+        "B": "acessibilidade e de gestão, uma vez que o subfinanciamento e o subgerenciamento podem explicar as longas filas para acesso ao sistema.",
+        "C": "resolubilidade e de integralidade, uma vez que os pacientes a serem atendidos primeiro terão maior chance de terem seus problemas resolvidos.",
+        "D": "universalidade e de coordenação do cuidado, uma vez que o paciente “menos doente” ou com menores necessidades de cuidados está no final da fila."
+      }
+    },
+    {
+      "id": "REVALIDA-2023_2_PV_objetiva_regular_64",
+      "origem": "REVALIDA-2023_2_PV_objetiva_regular",
+      "numero": "64",
+      "termo": "quadro apresentado",
+      "enunciado": "Uma paciente de 28 anos, em pós parto imediato (seu terceiro \nparto vaginal), teve parto a termo rápido e a dequitação \nda placenta sem intercorrências. A revisão perineal foi \nrealizada e estava normal, sem necessidade de sutura. \nEntretanto, 30 min",
+      "alternativas": {
+        "A": "A administração do ácido tranexâmico deverá ser iniciada e paciente encaminhada para histerectomia.",
+        "B": "O uso de ácido tranexâmico por via endovenosa está indicado assim que possível, além de drogas uterotônicas.",
+        "C": "A administração de drogas uterotônicas é necessária, mas o ácido tranexâmico não deve ser usado, pela ausência de lacerações de trajeto.",
+        "D": "O uso de ácido tranexâmico por via endovenosa pelo menos 1 hora após o início da ocitocina é indicado, sobretudo se não houver resposta às drogas uterotônicas."
+      }
+    },
+    {
+      "id": "REVALIDA-2024_1_PV_objetiva_regular_46",
+      "origem": "REVALIDA-2024_1_PV_objetiva_regular",
+      "numero": "46",
+      "termo": "imagem a seguir",
+      "enunciado": "Um homem com 37 anos, em situação de rua de longa data, \ncom condições precárias de higiene pessoal, história de uso \nabusivo de álcool e de crack, procura atendimento em unidade \nde pronto atendimento devido a quadro de febre baixa \nintermitente não",
+      "alternativas": {
+        "A": "conduta recomendada nesse caso é A trocar o esquema de tratamento para antibiótico com cobertura para bactéria multirresistente.",
+        "B": "iniciar tratamento empírico para tuberculose pulmonar, considerando-se a alta probabilidade clínica e epidemiológica.",
+        "C": "manter o uso de antibiótico e indicar abordagem cirúrgica com remoção da lesão e do segmento pulmonar acometido.",
+        "D": "manter o esquema de antibiótico e acompanhar a evolução clínica, considerando-se uma resposta lenta e favorável. 2023"
+      }
+    },
+    {
+      "id": "REVALIDA-2024_2_PV_objetiva_regular_10",
+      "origem": "REVALIDA-2024_2_PV_objetiva_regular",
+      "numero": "10",
+      "termo": "gráfico a seguir",
+      "enunciado": "O gráfico a seguir demonstra a evolução das coberturas de \nindicadores de saúde materno-infantil em diferentes quintis de \nriqueza da população ao longo dos anos. \n \n \n \nDisponível em: <https://jigsaw.minhabiblioteca.com.br/books/ \n9786558820437/epub",
+      "alternativas": {
+        "A": "equidade e a integralidade.",
+        "B": "universalidade e a equidade.",
+        "C": "universalidade e a regionalização.",
+        "D": "participação social e a hierarquização. ÁREA LIVRE"
+      }
+    },
+    {
+      "id": "REVALIDA-2024_2_PV_objetiva_regular_20",
+      "origem": "REVALIDA-2024_2_PV_objetiva_regular",
+      "numero": "20",
+      "termo": "quadro apresentado",
+      "enunciado": "Uma menina de 6 anos viajou de férias com a família para a \nRepública Dominicana, onde permaneceu por 10 dias. Na \nvéspera do retorno ao Brasil, a paciente apresentou febre \nbaixa, evoluindo, em 24 horas, para um quadro com diarreia \nsúbita, líquida ",
+      "alternativas": {
+        "A": "manter a criança em isolamento padrão e de gotículas durante a internação.",
+        "B": "proceder à notificação imediata do caso à autoridade de saúde de vigilância municipal.",
+        "C": "realizar a testagem dos pais e ministrar antibióticos, no caso de serem portadores assintomáticos do vibrião.",
+        "D": "vacinar contra a cólera os pais e pessoas contactantes da criança durante o período de transmissão da doença."
+      }
+    },
+    {
+      "id": "REVALIDA-2025_1_caderno_1_preliminar_83",
+      "origem": "REVALIDA-2025_1_caderno_1_preliminar",
+      "numero": "83",
+      "termo": "tabela a seguir",
+      "enunciado": "Menina de 2 anos e 6 meses é atendida em uma unidade \nbásica de saúde (UBS). A mãe relata que a criança consome \ncerca de um litro de leite de vaca por dia e ingere pouca carne. \nO médico observa palidez cutaneomucosa e solicita exames. \nOs resultado",
+      "alternativas": {
+        "A": "resposta é a esperada para o tratamento; devendo-se manter o tratamento atual por mais 3 meses e reavaliar laboratorialmente.",
+        "B": "resposta à administração de ferro oral é resistente; deve- se repor com ferro endovenoso e investigar a má absorção por doença celíaca.",
+        "C": "falha terapêutica é sugestiva de outra causa da anemia microcítica; deve-se considerar hipótese de traço talassêmico e encaminhar a paciente para hematologista.",
+        "D": "falha terapêutica deve-se a persistência de fatores de risco relacionados à alimentação e à subdose de ferro elementar; deve-se aumentar a dose e orientar a alimentação."
+      }
+    },
+    {
+      "id": "REVALIDA-2025_2_caderno_1_preliminar_44",
+      "origem": "REVALIDA-2025_2_caderno_1_preliminar",
+      "numero": "44",
+      "termo": "quadro apresentado",
+      "enunciado": "Parturiente de 29 anos, sem comorbidades, esteve em trabalho \nde parto por 8 horas e evoluiu para parto vaginal. Após 10 minutos \ndo desprendimento do feto, ainda não se observou a expulsão da \nplacenta. A paciente está estável e sem sinais de hemorr",
+      "alternativas": {
+        "A": "aguardar a expulsão espontânea da placenta, sem intervenções adicionais, e observar sinais de separação.",
+        "B": "realizar tração controlada do cordão umbilical, enquanto se estabiliza o útero com a mão suprapúbica.",
+        "C": "iniciar curagem placentária, devido ao tempo transcorrido sem desprendimento placentário.",
+        "D": "administrar uterotônico adicional e realizar massagem uterina para auxiliar a dequitação. ÁREA LIVRE 11"
+      }
+    },
+    {
+      "id": "REVALIDA-2025_2_caderno_1_preliminar_52",
+      "origem": "REVALIDA-2025_2_caderno_1_preliminar",
+      "numero": "52",
+      "termo": "quadro apresentado",
+      "enunciado": "Menino de 11 anos, previamente hígido, há 4 dias apresenta \nqueixa de mal estar, cefaléia, tosse seca e cansaço, acompanhados \nde febre com temperatura axilar máxima de 38 °C. No primeiro \ndia do quadro, procurou atendimento médico. A radiografia de ",
+      "alternativas": {
+        "A": "asma não controlada.",
+        "B": "tuberculose pulmonar.",
+        "C": "pneumonia atípica.",
+        "D": "pneumonia por broncoaspiração."
+      }
+    },
+    {
+      "id": "REVALIDA-2025_2_caderno_1_preliminar_79",
+      "origem": "REVALIDA-2025_2_caderno_1_preliminar",
+      "numero": "79",
+      "termo": "De acordo com o quadro",
+      "enunciado": "Homem de 50 anos apresentou-se ao serviço de emergência \napós episódio de hematêmese. Relata história de 3 meses de dor \nepigástrica e diarreia fétida, amarelada, pastosa, com algumas \ngotas de gordura, e perda de peso significativa. Histórico de \nin",
+      "alternativas": {
+        "A": "Internação, jejum, hidratação venosa e analgésicos.",
+        "B": "Analgesia, estadiamento e avaliação para possível indicação cirúrgica.",
+        "C": "Internação, analgesia e colangiopancreatografia retrógrada endoscópica.",
+        "D": "Interrupção da ingestão de álcool e prescrição de analgésico e pancreatina."
+      }
+    },
+    {
+      "id": "REVALIDA-2026_1_caderno_1_72",
+      "origem": "REVALIDA-2026_1_caderno_1",
+      "numero": "72",
+      "termo": "quadro abaixo",
+      "enunciado": "Homem preto, 68 anos, com hipertensão arterial sistêmica, \ndoença renal crônica estágio clínico 3a com creatinina basal \nde 1,4 mg/dL é levado ao Pronto Atendimento com náusea, \ntontura e mal-estar geral. Faz uso regular de anlodipino 10 \nmg/dia, fur",
+      "alternativas": {
+        "A": "Suspender anlodipino e enalapril, prescrever furosemida endovenosa e indicar diálise.",
+        "B": "Suspender anlodipino, manter enalapril e furosemida, prescrever hidratação endovenosa e gluconato de cálcio.",
+        "C": "Suspender enalapril e anlodipino, manter furosemida, orientar restrição hídrica e indicar diálise.",
+        "D": "Suspender enalapril, furosemida e anlodipino, prescrever hidratação endovenosa e reavaliação clínica. 19 CADERNO 01"
+      }
+    },
+    {
+      "id": "REVALIDA-2026_1_caderno_1_98",
+      "origem": "REVALIDA-2026_1_caderno_1",
+      "numero": "98",
+      "termo": "quadro apresentado",
+      "enunciado": "Durante um plantão, um médico foi chamado para avaliar \num paciente masculino, 62 anos, no 3º dia pós-operatório \nde retossigmoidectomia abdominal convencional por câncer \ncolorretal. A queixa era de dor em panturrilha direita, \ncom edema assimétrico",
+      "alternativas": {
+        "A": "indicar trombólise sistêmica imediata.",
+        "B": "solicitar dosagem seriada de D-dímero.",
+        "C": "prescrever enoxaparina subcutânea 1 vez ao dia.",
+        "D": "solicitar Doppler venoso e aguardar resultado. ÁREA LIVRE"
+      }
+    }
+  ],
+  "imagens_com_caminho_quebrado": []
+}

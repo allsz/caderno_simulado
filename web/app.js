@@ -2,6 +2,35 @@
 const STORAGE_KEY = 'caderno_respostas_simulado';
 const LEGACY_STORAGE_KEYS = ['respostas_simulado', 'respostas_simulado_v1', 'simulado_respostas'];
 
+// Helpers para acesso ultra-seguro ao localStorage (evita quebras em modo anônimo/privado)
+function safeStorageGet(key, defaultVal = {}) {
+    try {
+        const item = localStorage.getItem(key);
+        return item ? JSON.parse(item) : defaultVal;
+    } catch (e) {
+        console.warn('Storage indisponível ou inacessível:', e);
+        return defaultVal;
+    }
+}
+
+function safeStorageSet(key, val) {
+    try {
+        localStorage.setItem(key, JSON.stringify(val));
+        return true;
+    } catch (e) {
+        console.warn('Não foi possível salvar no storage:', e);
+        return false;
+    }
+}
+
+function safeStorageRemove(key) {
+    try {
+        localStorage.removeItem(key);
+    } catch (e) {
+        // Ignora erros de remoção em storage restrito
+    }
+}
+
 // ========================================================
 // Estado da Paginação e Filtros
 // ========================================================
@@ -18,6 +47,7 @@ let todosCards = [];
 let cardsFiltrados = [];
 let taxonomiaEspecialidades = {};
 let taxonomiaProvas = {};
+let debounceTimerBusca = null;
 
 // ========================================================
 // Funções de Navegação e Estatísticas
@@ -94,7 +124,7 @@ function atualizarBarra(qtd) {
 }
 
 function atualizarEstatisticas() {
-    const dados = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    const dados = safeStorageGet(STORAGE_KEY, {});
     const total = window.TOTAL_QUESTOES || 0;
     let acertos = 0;
     let erros = 0;
@@ -136,7 +166,7 @@ function atualizarEstatisticas() {
 }
 
 function toggleResposta(qId) {
-    const card = encontrarCardQuestao(qId);
+    const card = typeof encontrarCardQuestao === 'function' ? encontrarCardQuestao(qId) : document.getElementById('card_' + qId);
     const realQId = card ? card.id.replace(/^card_/, '') : qId;
     const box = document.getElementById('box_' + realQId) || document.getElementById('box_' + qId);
     if (box) {
@@ -150,14 +180,14 @@ function toggleResposta(qId) {
 
 function carregarRespostas() {
     // 1. Carrega dados do armazenamento principal
-    let dados = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    let dados = safeStorageGet(STORAGE_KEY, {});
 
     // 2. Migração automática de chaves legadas caso existam
     LEGACY_STORAGE_KEYS.forEach(legacyKey => {
-        const legacyData = JSON.parse(localStorage.getItem(legacyKey) || '{}');
+        const legacyData = safeStorageGet(legacyKey, {});
         if (Object.keys(legacyData).length > 0) {
             dados = { ...legacyData, ...dados };
-            localStorage.removeItem(legacyKey);
+            safeStorageRemove(legacyKey);
         }
     });
 
@@ -174,18 +204,18 @@ function carregarRespostas() {
         }
     }
 
-    // Salva o banco limpo e migrado
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(dadosMigrados));
+    // Salva o banco limpo e migrado de forma segura
+    safeStorageSet(STORAGE_KEY, dadosMigrados);
     atualizarEstatisticas();
 }
 
 function salvarResposta(qId, valor, gabarito) {
-    const dados = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    const dados = safeStorageGet(STORAGE_KEY, {});
     const match = resolverRadioQuestao(qId, valor);
     const realQId = match ? match.realQId : qId;
 
     dados[realQId] = valor;
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(dados));
+    safeStorageSet(STORAGE_KEY, dados);
     
     if (typeof gtag === 'function') {
         gtag('event', 'resposta_questao', {
@@ -197,6 +227,7 @@ function salvarResposta(qId, valor, gabarito) {
     atualizarEstiloQuestao(realQId, valor, gabarito);
     atualizarEstatisticas();
 }
+
 
 function atualizarEstiloQuestao(qId, valor, gabarito) {
     const card = document.getElementById('card_' + qId);
@@ -470,16 +501,20 @@ function filtrarPorEdicao(edicao) {
 }
 
 function filtrarPorNumeroQuestao(numero) {
-    numeroQuestaoFiltro = (numero || '').toString().trim();
-    paginaAtual = 1;
+    clearTimeout(debounceTimerBusca);
+    debounceTimerBusca = setTimeout(() => {
+        numeroQuestaoFiltro = (numero || '').toString().trim();
+        paginaAtual = 1;
 
-    const btnLimpar = document.getElementById('btn-limpar-busca-q');
-    if (btnLimpar) {
-        btnLimpar.style.display = numeroQuestaoFiltro ? 'inline-block' : 'none';
-    }
+        const btnLimpar = document.getElementById('btn-limpar-busca-q');
+        if (btnLimpar) {
+            btnLimpar.style.display = numeroQuestaoFiltro ? 'inline-block' : 'none';
+        }
 
-    aplicarFiltroEPaginacao(false);
+        aplicarFiltroEPaginacao(false);
+    }, 120);
 }
+
 
 function alterarNumeroQuestao(delta) {
     const inputQ = document.getElementById('input-busca-questao');

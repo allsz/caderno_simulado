@@ -21,7 +21,11 @@ from core import (
     extrair_texto_pdf,
     gerar_explicacao_gemini,
     salvar_cache_explicacoes,
+    salvar_json_atomico,
+    carregar_json_seguro,
+    auditar_banco_questoes,
 )
+
 
 
 def main():
@@ -51,6 +55,7 @@ def main():
                 pass
 
     cache_questoes = pasta_saida / "banco_questoes_cache.json"
+    cache_questoes = pasta_saida / "banco_questoes_cache.json"
     banco_hierarquico = {}
     total_questoes = 0
 
@@ -58,7 +63,15 @@ def main():
 
     if usar_cache:
         print(f"[*] Modo Rápido: Carregando banco de questões a partir de '{cache_questoes.name}'...")
-        questoes_lista = json.loads(cache_questoes.read_text(encoding="utf-8"))
+        questoes_lista = carregar_json_seguro(cache_questoes, default=[])
+        
+        # Executa auditoria automática de integridade
+        valido, relatorio = auditar_banco_questoes(questoes_lista)
+        if not valido:
+            print(f"   [!] Alerta de Schema: {len(relatorio['erros_schema'])} inconsistências detectadas.")
+        if relatorio["alertas_categorizacao"]:
+            print(f"   [i] {len(relatorio['alertas_categorizacao'])} avisos de heurística clínica revisados.")
+            
         # Filtra e descarta questões anuladas
         questoes_lista = [q for q in questoes_lista if q.get("gabarito") != "ANULADA"]
         total_questoes = len(questoes_lista)
@@ -123,10 +136,9 @@ def main():
                 subtema = q["subtema"]
                 banco_hierarquico.setdefault(esp, {}).setdefault(tema, {}).setdefault(subtema, []).append(q)
 
-        try:
-            cache_questoes.write_text(json.dumps(todas_questoes, ensure_ascii=False, indent=2), encoding="utf-8")
-        except Exception:
-            pass
+        # Salva o banco completo de questões usando gravação atômica segura
+        salvar_json_atomico(cache_questoes, todas_questoes, indent=2)
+
 
     # Caminhos finais de saída
     caminho_md = pasta_saida / "caderno_de_questoes_estudo.md"
