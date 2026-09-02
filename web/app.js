@@ -1054,7 +1054,7 @@ function fecharAvisoModal(e) {
 // ========================================================
 // Funções do Modal do Caderno de Erros (Drill-down Hierárquico)
 // ========================================================
-let cadernoErrosEstado = { esp: null, tema: null };
+let cadernoErrosEstado = { esp: null, tema: null, pagina: 1 };
 
 function encontrarCardQuestao(qId) {
     let card = document.getElementById('card_' + qId) || document.getElementById(qId);
@@ -1151,7 +1151,18 @@ function coletarErrosHierarquicos() {
 }
 
 function abrirCadernoErrosModal() {
-    cadernoErrosEstado = { esp: null, tema: null };
+    const { tree, totalGeral } = coletarErrosHierarquicos();
+    
+    // Se a especialidade ou tema gravado não tiver mais erros pendentes, recua graciosamente
+    if (cadernoErrosEstado.esp && (!tree[cadernoErrosEstado.esp] || Object.keys(tree[cadernoErrosEstado.esp]).length === 0)) {
+        cadernoErrosEstado.esp = null;
+        cadernoErrosEstado.tema = null;
+        cadernoErrosEstado.pagina = 1;
+    } else if (cadernoErrosEstado.esp && cadernoErrosEstado.tema && (!tree[cadernoErrosEstado.esp][cadernoErrosEstado.tema] || tree[cadernoErrosEstado.esp][cadernoErrosEstado.tema].length === 0)) {
+        cadernoErrosEstado.tema = null;
+        cadernoErrosEstado.pagina = 1;
+    }
+
     renderizarCadernoErros();
 
     const modal = document.getElementById('caderno-erros-modal-overlay');
@@ -1298,15 +1309,29 @@ function renderizarCadernoErros() {
         listaContainer.appendChild(folderList);
     }
     // ==========================================
-    // NÍVEL 3: Lista de Questões Erradas do Tema
+    // NÍVEL 3: Lista de Questões Erradas do Tema (Paginada: 10 por página)
     // ==========================================
     else {
         const esp = cadernoErrosEstado.esp;
         const tema = cadernoErrosEstado.tema;
         const itens = (tree[esp] && tree[esp][tema]) ? tree[esp][tema] : [];
+        const ITENS_POR_PAGINA = 10;
+        const totalPaginas = Math.ceil(itens.length / ITENS_POR_PAGINA) || 1;
+
+        if (cadernoErrosEstado.pagina > totalPaginas) cadernoErrosEstado.pagina = totalPaginas;
+        if (cadernoErrosEstado.pagina < 1) cadernoErrosEstado.pagina = 1;
+
+        const paginaAtual = cadernoErrosEstado.pagina;
+        const inicio = (paginaAtual - 1) * ITENS_POR_PAGINA;
+        const fim = Math.min(inicio + ITENS_POR_PAGINA, itens.length);
+        const itensPagina = itens.slice(inicio, fim);
 
         if (subtitulo) {
-            subtitulo.textContent = `${itens.length} ${itens.length === 1 ? 'questão' : 'questões'} em ${tema}`;
+            if (totalPaginas > 1) {
+                subtitulo.textContent = `${itens.length} ${itens.length === 1 ? 'questão' : 'questões'} em ${tema} • Página ${paginaAtual} de ${totalPaginas} (Exibindo ${inicio + 1}–${fim})`;
+            } else {
+                subtitulo.textContent = `${itens.length} ${itens.length === 1 ? 'questão' : 'questões'} em ${tema}`;
+            }
         }
 
         // Breadcrumb limpo e sem redundâncias
@@ -1328,7 +1353,7 @@ function renderizarCadernoErros() {
         const grupoEl = document.createElement('div');
         grupoEl.className = 'erro-grupo-esp';
 
-        itens.forEach(item => {
+        itensPagina.forEach(item => {
             const itemEl = document.createElement('div');
             itemEl.className = 'erro-item-card';
 
@@ -1374,18 +1399,74 @@ function renderizarCadernoErros() {
         });
 
         listaContainer.appendChild(grupoEl);
+
+        // Barra de Paginação (se houver mais de 1 página)
+        if (totalPaginas > 1) {
+            const paginacaoEl = document.createElement('div');
+            paginacaoEl.className = 'caderno-paginacao-bar';
+
+            const infoEl = document.createElement('div');
+            infoEl.className = 'caderno-paginacao-info';
+            infoEl.textContent = `Exibindo ${inicio + 1}–${fim} de ${itens.length} questões`;
+
+            const botoesEl = document.createElement('div');
+            botoesEl.className = 'caderno-paginacao-botoes';
+
+            // Botão Anterior
+            const btnPrev = document.createElement('button');
+            btnPrev.type = 'button';
+            btnPrev.className = 'btn-caderno-pag';
+            btnPrev.innerHTML = `&larr; Anterior`;
+            btnPrev.disabled = (paginaAtual === 1);
+            btnPrev.onclick = () => mudarPaginaCaderno(paginaAtual - 1);
+            botoesEl.appendChild(btnPrev);
+
+            // Botões com números de páginas
+            for (let p = 1; p <= totalPaginas; p++) {
+                const btnNum = document.createElement('button');
+                btnNum.type = 'button';
+                btnNum.className = `btn-caderno-pag-num ${p === paginaAtual ? 'active' : ''}`;
+                btnNum.textContent = p;
+                btnNum.onclick = () => mudarPaginaCaderno(p);
+                botoesEl.appendChild(btnNum);
+            }
+
+            // Botão Próximo
+            const btnNext = document.createElement('button');
+            btnNext.type = 'button';
+            btnNext.className = 'btn-caderno-pag';
+            btnNext.innerHTML = `Próximo &rarr;`;
+            btnNext.disabled = (paginaAtual === totalPaginas);
+            btnNext.onclick = () => mudarPaginaCaderno(paginaAtual + 1);
+            botoesEl.appendChild(btnNext);
+
+            paginacaoEl.appendChild(infoEl);
+            paginacaoEl.appendChild(botoesEl);
+            listaContainer.appendChild(paginacaoEl);
+        }
+    }
+}
+
+function mudarPaginaCaderno(novaPagina) {
+    cadernoErrosEstado.pagina = novaPagina;
+    renderizarCadernoErros();
+    const lista = document.getElementById('caderno-erros-lista');
+    if (lista) {
+        lista.scrollTop = 0;
     }
 }
 
 function selecionarEspCaderno(esp) {
     cadernoErrosEstado.esp = esp;
     cadernoErrosEstado.tema = null;
+    cadernoErrosEstado.pagina = 1;
     renderizarCadernoErros();
 }
 
 function selecionarTemaCaderno(esp, tema) {
     cadernoErrosEstado.esp = esp;
     cadernoErrosEstado.tema = tema;
+    cadernoErrosEstado.pagina = 1;
     renderizarCadernoErros();
 }
 
@@ -1395,6 +1476,7 @@ function voltarNivelCaderno() {
     } else {
         cadernoErrosEstado.esp = null;
     }
+    cadernoErrosEstado.pagina = 1;
     renderizarCadernoErros();
 }
 

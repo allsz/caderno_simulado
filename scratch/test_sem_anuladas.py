@@ -1,7 +1,10 @@
+import sys
 from pathlib import Path
 import re
 
-html = Path("index.html").read_text(encoding="utf-8")
+sys.stdout.reconfigure(encoding='utf-8')
+BASE_DIR = Path(__file__).resolve().parent.parent
+html = (BASE_DIR / "index.html").read_text(encoding="utf-8")
 
 anuladas_no_html = re.findall(r'data-gabarito=[\'\"]ANULADA[\'\"]', html)
 print(f"Questões com data-gabarito='ANULADA' no HTML: {len(anuladas_no_html)}")

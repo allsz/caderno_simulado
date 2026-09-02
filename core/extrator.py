@@ -184,9 +184,25 @@ def extrair_gabarito_pdf(caminho_pdf, mapa_revalida=None):
             "91": "C", "92": "B", "93": "C", "94": "E", "95": "C", "96": "A", "97": "A", "98": "B", "99": "ANULADA", "100": "B"
         }
 
-    # Se for ENARE-2025, o PDF possui gabarito incompleto na última página.
-    # O gabarito oficial consolidado é obtido da imagem Gabarito_ENARE_2025.png (Acesso Direto - Tipo 3).
-    if "ENARE-2025" in nome_arq.upper() or "ENARE_2025" in nome_arq.upper():
+    # Se for ENARE-2025 Caderno 1 (ou GABARITO_DEFINITIVO_CADERNO_1-1)
+    # Gabarito oficial DEFINITIVO pós-recurso com 10 questões anuladas (2, 7, 9, 10, 11, 40, 43, 76, 88, 100)
+    if "CARDERNO1" in nome_arq.upper() or "CADERNO1" in nome_arq.upper() or "CADERNO_1" in nome_arq.upper() or "CADERNO-1" in nome_arq.upper():
+        return {
+            "1": "A", "2": "ANULADA", "3": "A", "4": "D", "5": "C", "6": "B", "7": "ANULADA", "8": "B", "9": "ANULADA", "10": "ANULADA",
+            "11": "ANULADA", "12": "D", "13": "C", "14": "B", "15": "A", "16": "B", "17": "D", "18": "D", "19": "D", "20": "C",
+            "21": "A", "22": "A", "23": "B", "24": "D", "25": "A", "26": "C", "27": "D", "28": "B", "29": "A", "30": "C",
+            "31": "B", "32": "D", "33": "C", "34": "B", "35": "D", "36": "C", "37": "D", "38": "D", "39": "D", "40": "ANULADA",
+            "41": "C", "42": "D", "43": "ANULADA", "44": "B", "45": "B", "46": "C", "47": "C", "48": "D", "49": "B", "50": "C",
+            "51": "C", "52": "A", "53": "C", "54": "C", "55": "A", "56": "D", "57": "D", "58": "A", "59": "B", "60": "C",
+            "61": "A", "62": "B", "63": "B", "64": "D", "65": "A", "66": "A", "67": "C", "68": "B", "69": "C", "70": "B",
+            "71": "B", "72": "A", "73": "C", "74": "A", "75": "A", "76": "ANULADA", "77": "B", "78": "D", "79": "B", "80": "A",
+            "81": "D", "82": "D", "83": "B", "84": "C", "85": "B", "86": "D", "87": "B", "88": "ANULADA", "89": "A", "90": "C",
+            "91": "B", "92": "A", "93": "C", "94": "A", "95": "B", "96": "D", "97": "C", "98": "C", "99": "A", "100": "ANULADA"
+        }
+
+    # Se for ENARE-2025 Acesso Direto - Tipo 3 (Gabarito_ENARE_2025-AcessoDireto-Tipo3.png)
+    # Gabarito oficial pós-recurso com 3 questões anuladas (44, 45, 93)
+    if "TIPO3" in nome_arq.upper() or "TIPO-3" in nome_arq.upper() or "TIPO_3" in nome_arq.upper() or "ACESSO" in nome_arq.upper() or "ENARE-2025" in nome_arq.upper() or "ENARE_2025" in nome_arq.upper():
         return {
             "1": "C", "2": "C", "3": "D", "4": "C", "5": "D", "6": "C", "7": "C", "8": "E", "9": "D", "10": "D",
             "11": "E", "12": "A", "13": "B", "14": "D", "15": "D", "16": "B", "17": "C", "18": "E", "19": "E", "20": "C",
@@ -198,21 +214,6 @@ def extrair_gabarito_pdf(caminho_pdf, mapa_revalida=None):
             "71": "E", "72": "A", "73": "C", "74": "C", "75": "B", "76": "B", "77": "B", "78": "A", "79": "A", "80": "B",
             "81": "E", "82": "A", "83": "D", "84": "B", "85": "A", "86": "B", "87": "E", "88": "E", "89": "C", "90": "A",
             "91": "E", "92": "D", "93": "ANULADA", "94": "B", "95": "D", "96": "A", "97": "C", "98": "B", "99": "D", "100": "A"
-        }
-
-    # Se for ENARE-2026, gabarito oficial consolidado pós-recurso (com as 4 anuladas: 9, 47, 55, 66)
-    if "ENARE-2026" in nome_arq.upper() or "ENARE_2026" in nome_arq.upper():
-        return {
-            "1": "A", "2": "B", "3": "A", "4": "D", "5": "C", "6": "B", "7": "A", "8": "B", "9": "ANULADA", "10": "C",
-            "11": "C", "12": "D", "13": "C", "14": "B", "15": "A", "16": "B", "17": "D", "18": "D", "19": "C", "20": "C",
-            "21": "A", "22": "A", "23": "B", "24": "D", "25": "A", "26": "C", "27": "D", "28": "B", "29": "A", "30": "C",
-            "31": "B", "32": "D", "33": "C", "34": "B", "35": "D", "36": "C", "37": "D", "38": "D", "39": "D", "40": "B",
-            "41": "C", "42": "D", "43": "D", "44": "B", "45": "B", "46": "C", "47": "ANULADA", "48": "D", "49": "B", "50": "C",
-            "51": "C", "52": "A", "53": "C", "54": "C", "55": "ANULADA", "56": "D", "57": "D", "58": "A", "59": "B", "60": "C",
-            "61": "A", "62": "B", "63": "B", "64": "D", "65": "A", "66": "ANULADA", "67": "C", "68": "B", "69": "C", "70": "B",
-            "71": "B", "72": "A", "73": "C", "74": "A", "75": "A", "76": "A", "77": "B", "78": "D", "79": "B", "80": "A",
-            "81": "D", "82": "D", "83": "B", "84": "C", "85": "B", "86": "D", "87": "B", "88": "D", "89": "A", "90": "C",
-            "91": "B", "92": "A", "93": "C", "94": "A", "95": "B", "96": "D", "97": "C", "98": "C", "99": "A", "100": "A"
         }
 
     # Se for REVALIDA-2022/1 (Prova 1), gabarito oficial consolidado pós-recurso (com 10 anuladas: 1, 6, 11, 14, 22, 27, 43, 57, 61, 83)
@@ -529,6 +530,24 @@ CORRECOES_MANUAIS_QUESTOES = {
             "B": "Isolamento dos casos na enfermaria da unidade e lavagem frequente das roupas de cama, de banho e de vestuário com água quente (pelo menos a 30 °C); uso de sprays inseticidas e fumigantes.",
             "C": "Realização de palestras educativas para os detentos sobre medidas preventivas e aumento do tempo de banho de sol; uso de fluconazol 150 mg por semana durante 1 mês, para todos da cela.",
             "D": "Incremento da frequência de limpeza geral da unidade e higienização adequada das roupas de uso pessoal, de cama e de banho; uso de ivermectina 6 mg, dose conforme o peso, repetindo em 15 dias, para todos da cela."
+        }
+    },
+    "ENARE-2025-Objetiva-Carderno1_55": {
+        "enunciado": "Ao visitar um idoso acamado de 80 anos, restrito ao lar e dependente em relação às atividades de vida diária, a médica de família e comunidade verificou que ele não havia recebido as vacinas indicadas pelo Ministério da Saúde para os idosos. Ao questionar a filha de 55 anos, principal cuidadora, sobre a vacinação do idoso, ela respondeu que o pai é muito frágil e não iria aguentar os efeitos colaterais, e como ele é restrito ao lar, a família preferiu não vacinar.\n\nAssinale a alternativa que inclui, respectivamente, vacinas disponibilizadas no calendário de imunização nacional para o idoso e uma forma de abordar a situação encontrada.",
+        "alternativas": {
+            "A": "Pneumocócica 23-valente, 1 dose, com reforço em 5 anos; dupla adulto (dT-contra difteria e tétano), a cada 10 anos; contra influenza e covid-19, anualmente; contra hepatite B, 3 doses. Agendar uma nova visita domiciliar com mais membros da família para dialogar sobre a situação.",
+            "B": "Contra influenza e covid-19, anualmente; dupla adulto (dT - contra difteria e tétano), a cada 10 anos; contra hepatite B, 3 doses; contra herpes-zoster, 2 doses. Fazer denúncia ao Conselho Municipal do Idoso sobre não vacinação do idoso.",
+            "C": "Pneumocócica 10-valente, 1 dose, com reforço em 5 anos; dupla adulto (dT - contra difteria e tétano), a cada 10 anos contra influenza e covid-19, anualmente; contra hepatite B, 3 doses. Solicitar que a filha assine um termo de responsabilidade em relação à não vacinação do pai.",
+            "D": "Pneumocócica 10-valente, 1 dose, com reforço em 5 anos; contra influenza e covid-19, anualmente; contra herpes-zoster, 2 doses; dupla adulto (dT-contra difteria e tétano), a cada 10 anos. Respeitar a autonomia da filha sobre a vacinação, uma vez que é a cuidadora responsável."
+        }
+    },
+    "ENARE-2025-Objetiva-Carderno1_66": {
+        "enunciado": "Menina de 11 anos foi trazida à Unidade de Pronto Atendimento (UPA) com quadro de queda do estado geral, náuseas e dor abdominal, desidratação e hálito cetônico. Exames realizados: glicemia de 410 mg/dL; gasometria venosa de pH 7,15 e bicarbonato de 13 mEq/L; exame de urina indica cetonúria. Além da fluidoterapia, o próximo passo é",
+        "alternativas": {
+            "A": "reposição de potássio.",
+            "B": "correção imediata da glicemia.",
+            "C": "reposição de bicarbonato de sódio.",
+            "D": "administração imediata de manitol."
         }
     }
 }

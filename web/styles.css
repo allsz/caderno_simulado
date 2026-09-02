@@ -1224,7 +1224,7 @@ h1 {
     font-size: 13px;
     font-weight: 500;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
     line-height: 1.5;
 }
@@ -1232,7 +1232,7 @@ h1 {
 .warning-icon-minimal {
     color: #ef4444;
     flex-shrink: 0;
-    margin-top: 2px;
+    margin-top: 0;
 }
 
 [data-theme='dark'] .confirm-modal-warning {
@@ -2270,6 +2270,10 @@ h1 {
     max-width: 860px;
     width: 95%;
     max-height: 88vh;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     border-radius: 18px;
     box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.45);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -2282,6 +2286,7 @@ h1 {
     padding: 20px 24px;
     border-bottom: 1px solid var(--border-color);
     background: var(--topbar-bg);
+    flex-shrink: 0;
 }
 
 .caderno-erros-modal-title {
@@ -2324,11 +2329,39 @@ h1 {
 
 .caderno-erros-modal-body {
     padding: 20px 24px;
-    overflow-y: auto;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
     flex: 1 1 auto;
+    min-height: 0; /* Permite scroll no filho flex */
     display: flex;
     flex-direction: column;
     gap: 14px;
+}
+
+.caderno-erros-modal-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.caderno-erros-modal-body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.caderno-erros-modal-body::-webkit-scrollbar-thumb {
+    background: #94a3b8;
+    border-radius: 6px;
+}
+
+.caderno-erros-modal-body::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+[data-theme='dark'] .caderno-erros-modal-body::-webkit-scrollbar-thumb {
+    background: #475569;
+}
+
+[data-theme='dark'] .caderno-erros-modal-body::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
 }
 
 /* Breadcrumbs e Pastas Hierárquicas no Caderno de Erros */
@@ -2344,6 +2377,7 @@ h1 {
     font-size: 14px;
     font-family: inherit;
     flex-wrap: wrap;
+    flex-shrink: 0;
 }
 
 .btn-breadcrumb-back {
@@ -2383,6 +2417,7 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex-shrink: 0;
 }
 
 .caderno-folder-item {
@@ -2447,8 +2482,8 @@ h1 {
 .erro-grupo-esp {
     border: 1px solid var(--border-color);
     border-radius: 12px;
-    overflow: hidden;
     background: var(--card-bg);
+    flex-shrink: 0;
 }
 
 .erro-grupo-header {
@@ -2603,6 +2638,97 @@ h1 {
 .card-questao.highlight-target {
     animation: highlightPulse 2s ease-out;
     border-color: #2563eb !important;
+}
+
+/* Paginação do Caderno de Erros */
+.caderno-paginacao-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 18px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    margin-top: 4px;
+    font-size: 13.5px;
+    font-family: inherit;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.caderno-paginacao-info {
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 13px;
+    font-family: inherit;
+}
+
+.caderno-paginacao-botoes {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-caderno-pag {
+    background: var(--alt-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-caderno-pag:hover:not(:disabled) {
+    background: var(--primary);
+    color: #ffffff;
+    border-color: var(--primary);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
+}
+
+.btn-caderno-pag:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background: var(--alt-bg);
+}
+
+.btn-caderno-pag-num {
+    min-width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--alt-bg);
+    border: 1px solid var(--border-color);
+    color: var(--text-main);
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+    padding: 0 6px;
+}
+
+.btn-caderno-pag-num:hover:not(.active) {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: var(--alt-hover-bg);
+}
+
+.btn-caderno-pag-num.active {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: #2563eb !important;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
 }
 
 /* ========================================================

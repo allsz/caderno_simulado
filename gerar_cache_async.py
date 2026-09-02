@@ -6,7 +6,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-BASE_DIR = Path("c:/Users/MatthewOS/estudos_medicina")
+BASE_DIR = Path(__file__).resolve().parent
 CACHE_PATH = BASE_DIR / "saida" / "cache_explicacoes.json"
 
 # Importa funções do script principal

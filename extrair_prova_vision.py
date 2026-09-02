@@ -30,9 +30,10 @@ from core.gerador import exportar_caderno_html, exportar_caderno_markdown
 from core.utils import salvar_json_atomico
 
 MODELOS_GEMINI = [
+    "gemini-flash-latest",
+    "gemini-2.5-flash",
     "gemini-3-flash-preview",
     "gemini-3.5-flash",
-    "gemini-3.6-flash",
     "gemini-3.7-flash"
 ]
 

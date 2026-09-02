@@ -2,7 +2,7 @@ from html import escape as html_escape
 from pathlib import Path
 import re
 
-from .utils import obter_base64_imagem, formatar_texto_fluido
+from .utils import obter_base64_imagem, formatar_texto_fluido, formatar_explicacao_html
 
 
 def exportar_caderno_markdown(banco_questoes, caminho_saida: Path, cache_explicacoes: dict = None, tem_api_key: bool = False):
@@ -78,7 +78,7 @@ def exportar_caderno_markdown(banco_questoes, caminho_saida: Path, cache_explica
 
 
 def extrair_metadados_origem(origem: str):
-    """Extrai banca (ENARE/REVALIDA), ano, edição (1/2/Única) e rótulo amigável da string de origem."""
+    """Extrai banca (ENARE/REVALIDA), ano, edição e rótulo amigável da string de origem."""
     origem_str = origem or ""
     origem_upper = origem_str.upper()
     banca = "ENARE" if "ENARE" in origem_upper else "REVALIDA"
@@ -86,8 +86,15 @@ def extrair_metadados_origem(origem: str):
     ano = ano_match.group(1) if ano_match else "Outros"
     
     if banca == "ENARE":
-        edicao = "Única"
-        rotulo_edicao = f"ENARE {ano}"
+        if "CARDERNO" in origem_upper or "CADERNO" in origem_upper:
+            edicao = "Caderno 1"
+            rotulo_edicao = f"ENARE {ano} (Caderno 1)"
+        elif "TIPO3" in origem_upper or "TIPO-3" in origem_upper or "TIPO_3" in origem_upper or "ACESSO" in origem_upper:
+            edicao = "Acesso Direto - Tipo 3"
+            rotulo_edicao = f"ENARE {ano} (Acesso Direto - Tipo 3)"
+        else:
+            edicao = "Única"
+            rotulo_edicao = f"ENARE {ano}"
     else:
         if "_2_" in origem_str or "-2_" in origem_str or "_2" in origem_str:
             edicao = "2"
@@ -190,10 +197,11 @@ def gerar_cards_questoes_html(banco_questoes, cache_explicacoes=None, tem_api_ke
                             html_parts.append(f"<span><strong>({letra})</strong> {alt_html}</span></label>\n")
                         html_parts.append("</div>\n")
                         
+                    exp_formatada = formatar_explicacao_html(exp)
                     html_parts.append(f"<button type='button' class='btn-resposta' onclick='toggleResposta(\"{q_id}\")'>&#10022; Ver Gabarito e Comentário</button>\n")
                     html_parts.append(f"<div class='gabarito-box' id='box_{q_id}' style='display: none;'>\n")
                     html_parts.append(f"  <span class='badge-gabarito'>Gabarito Oficial: Alternativa ({gab})</span>\n")
-                    html_parts.append(f"  <div class='explicacao-texto'><strong>Justificativa Médica:</strong><br>{exp}</div>\n")
+                    html_parts.append(f"  <div class='explicacao-texto'><strong>Justificativa Médica:</strong><br>{exp_formatada}</div>\n")
                     html_parts.append("</div>\n")
                     
                     html_parts.append("</div>\n\n")

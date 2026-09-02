@@ -166,3 +166,20 @@ def formatar_texto_fluido(texto, modo_html=True):
     sep = "<br><br>" if modo_html else "\n\n"
     return sep.join(paragrafos_limpos)
 
+
+def formatar_explicacao_html(exp):
+    """
+    Formata texto de justificativa médica para exibição limpa em HTML:
+    - Normaliza quebras de linha e trata literais \\n ou \\r\\n
+    - Converte **negrito** markdown para <strong>negrito</strong>
+    - Converte marcadores de lista (- item) para bullets elegantes (• item)
+    - Preserva quebras de parágrafo sem poluição visual
+    """
+    if not exp:
+        return ""
+    texto = str(exp).replace("\r\n", "\n").replace("\\r\\n", "\n").replace("\\n", "\n").replace("\r", "")
+    texto = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', texto)
+    texto = re.sub(r'(?m)^-\s+', '• ', texto)
+    paragrafos = [p.strip().replace('\n', '<br>') for p in re.split(r'\n\s*\n', texto) if p.strip()]
+    return "<br><br>".join(paragrafos)
+

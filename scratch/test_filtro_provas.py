@@ -1,23 +1,26 @@
-from pathlib import Path
+import sys
 import re
+from pathlib import Path
 
-html = Path("index.html").read_text(encoding="utf-8")
+sys.stdout.reconfigure(encoding='utf-8')
+BASE_DIR = Path(__file__).resolve().parent.parent
+html = (BASE_DIR / "index.html").read_text(encoding="utf-8")
 
 # 1. Checa data-banca em todos os cards
 cards_banca = re.findall(r'data-banca=[\'\"]([^\'\"]+)[\'\"]', html)
 print(f"Total de cards com data-banca: {len(cards_banca)}")
-assert len(cards_banca) == 1495, f"Esperado 1495 cards, encontrado {len(cards_banca)}"
+assert len(cards_banca) == 1475, f"Esperado 1475 cards, encontrado {len(cards_banca)}"
 
 enare_count = sum(1 for b in cards_banca if b == "ENARE")
 revalida_count = sum(1 for b in cards_banca if b == "REVALIDA")
 print(f"ENARE: {enare_count} questões | REVALIDA: {revalida_count} questões")
-assert enare_count == 569, f"Esperado 569 ENARE, encontrado {enare_count}"
-assert revalida_count == 926, f"Esperado 926 REVALIDA, encontrado {revalida_count}"
+assert enare_count == 563, f"Esperado 563 ENARE, encontrado {enare_count}"
+assert revalida_count == 912, f"Esperado 912 REVALIDA, encontrado {revalida_count}"
 
 # 2. Checa data-rotulo-edicao com Prova 1 e Prova 2
 edicoes = re.findall(r'data-rotulo-edicao=[\'\"]([^\'\"]+)[\'\"]', html)
 print(f"Total de cards com data-rotulo-edicao: {len(edicoes)}")
-assert len(edicoes) == 1495
+assert len(edicoes) == 1475
 
 set_edicoes = sorted(list(set(edicoes)))
 print("\nEdições mapeadas:")
