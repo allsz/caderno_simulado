@@ -70,38 +70,57 @@ function irParaEstatisticas() {
     setTimeout(ajustarPosicao, 150);
 }
 
+// Normalização e compatibilidade retroativa para IDs de questões renomeadas/migradas
+function normalizarIdQuestao(qId) {
+    if (!qId) return qId;
+    let nId = String(qId);
+    if (nId.includes('ENARE-2026-Objetiva_')) {
+        nId = nId.replace('ENARE-2026-Objetiva_', 'ENARE-2025-Objetiva-Carderno1_');
+    }
+    if (nId.includes('ENARE-2025-Objetiva_') && !nId.includes('ENARE-2025-Objetiva-')) {
+        nId = nId.replace('ENARE-2025-Objetiva_', 'ENARE-2025-Objetiva-AcessoDireto-Tipo3_');
+    }
+    return nId;
+}
+
 function resolverRadioQuestao(qId, valor) {
     if (!qId) return null;
     
-    // 1. Match exato
-    let radio = valor 
-        ? document.querySelector(`input[name="${qId}"][value="${valor}"]`)
-        : document.querySelector(`input[name="${qId}"]`);
-    if (radio) return { radio, realQId: radio.name };
+    // Normaliza aliases e renomeações de provas antigas
+    const idNormalizado = normalizarIdQuestao(qId);
+    const idsParaTentar = [idNormalizado, qId];
+    
+    for (const testId of idsParaTentar) {
+        // 1. Match exato
+        let radio = valor 
+            ? document.querySelector(`input[name="${testId}"][value="${valor}"]`)
+            : document.querySelector(`input[name="${testId}"]`);
+        if (radio) return { radio, realQId: radio.name };
 
-    // 2. Com ou sem prefixo q_
-    const altId = qId.startsWith('q_') ? qId.substring(2) : 'q_' + qId;
-    radio = valor 
-        ? document.querySelector(`input[name="${altId}"][value="${valor}"]`)
-        : document.querySelector(`input[name="${altId}"]`);
-    if (radio) return { radio, realQId: radio.name };
+        // 2. Com ou sem prefixo q_
+        const altId = testId.startsWith('q_') ? testId.substring(2) : 'q_' + testId;
+        radio = valor 
+            ? document.querySelector(`input[name="${altId}"][value="${valor}"]`)
+            : document.querySelector(`input[name="${altId}"]`);
+        if (radio) return { radio, realQId: radio.name };
 
-    // 3. Removendo sufixo numérico antigo como _1, _2, _45 (índices voláteis antigos)
-    const baseId1 = qId.replace(/_\d+$/, '');
-    radio = valor 
-        ? document.querySelector(`input[name="${baseId1}"][value="${valor}"]`)
-        : document.querySelector(`input[name="${baseId1}"]`);
-    if (radio) return { radio, realQId: radio.name };
+        // 3. Removendo sufixo numérico antigo como _1, _2, _45 (índices voláteis antigos)
+        const baseId1 = testId.replace(/_\d+$/, '');
+        radio = valor 
+            ? document.querySelector(`input[name="${baseId1}"][value="${valor}"]`)
+            : document.querySelector(`input[name="${baseId1}"]`);
+        if (radio) return { radio, realQId: radio.name };
 
-    const baseId2 = altId.replace(/_\d+$/, '');
-    radio = valor 
-        ? document.querySelector(`input[name="${baseId2}"][value="${valor}"]`)
-        : document.querySelector(`input[name="${baseId2}"]`);
-    if (radio) return { radio, realQId: radio.name };
+        const baseId2 = altId.replace(/_\d+$/, '');
+        radio = valor 
+            ? document.querySelector(`input[name="${baseId2}"][value="${valor}"]`)
+            : document.querySelector(`input[name="${baseId2}"]`);
+        if (radio) return { radio, realQId: radio.name };
+    }
 
     // 4. Busca flexível por substring do nome da prova e questão
-    const cleanId = qId.replace(/^q_/, '').replace(/_\d+$/, '');
-    radio = valor 
+    const cleanId = idNormalizado.replace(/^q_/, '').replace(/_\d+$/, '');
+    let radio = valor 
         ? document.querySelector(`input[name^="q_${cleanId}"][value="${valor}"]`)
         : document.querySelector(`input[name^="q_${cleanId}"]`);
     if (radio) return { radio, realQId: radio.name };
@@ -1057,24 +1076,31 @@ function fecharAvisoModal(e) {
 let cadernoErrosEstado = { esp: null, tema: null, pagina: 1 };
 
 function encontrarCardQuestao(qId) {
-    let card = document.getElementById('card_' + qId) || document.getElementById(qId);
-    if (!card && qId.startsWith('q_')) {
-        card = document.getElementById('card_' + qId.substring(2));
+    if (!qId) return null;
+    const idNormalizado = normalizarIdQuestao(qId);
+    const idsParaTentar = [idNormalizado, qId];
+
+    for (const testId of idsParaTentar) {
+        let card = document.getElementById('card_' + testId) || document.getElementById(testId);
+        if (!card && testId.startsWith('q_')) {
+            card = document.getElementById('card_' + testId.substring(2));
+        }
+        if (!card && !testId.startsWith('q_')) {
+            card = document.getElementById('card_q_' + testId);
+        }
+        if (!card) {
+            // Tenta remover índice final antigo como _1, _2, etc
+            const baseQId = testId.replace(/_\d+$/, '');
+            card = document.getElementById('card_' + baseQId) || document.getElementById(baseQId) || document.getElementById('card_q_' + baseQId.replace(/^q_/, ''));
+        }
+        if (!card) {
+            // Busca flexível por prefixo de ID (ex: card_q_ENARE-2023-Objetiva_42)
+            const cleanId = testId.replace(/^card_/, '').replace(/^q_/, '').replace(/_\d+$/, '');
+            card = document.querySelector(`[id^="card_q_${cleanId}"]`) || document.querySelector(`[id*="${cleanId}"]`);
+        }
+        if (card) return card;
     }
-    if (!card && !qId.startsWith('q_')) {
-        card = document.getElementById('card_q_' + qId);
-    }
-    if (!card) {
-        // Tenta remover índice final antigo como _1, _2, etc
-        const baseQId = qId.replace(/_\d+$/, '');
-        card = document.getElementById('card_' + baseQId) || document.getElementById(baseQId) || document.getElementById('card_q_' + baseQId.replace(/^q_/, ''));
-    }
-    if (!card) {
-        // Busca flexível por prefixo de ID (ex: card_q_ENARE-2023-Objetiva_42)
-        const cleanId = qId.replace(/^card_/, '').replace(/^q_/, '').replace(/_\d+$/, '');
-        card = document.querySelector(`[id^="card_q_${cleanId}"]`) || document.querySelector(`[id*="${cleanId}"]`);
-    }
-    return card;
+    return null;
 }
 
 function coletarErrosHierarquicos() {
