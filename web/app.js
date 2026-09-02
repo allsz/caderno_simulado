@@ -83,8 +83,19 @@ function normalizarIdQuestao(qId) {
     return nId;
 }
 
+// Caches em memória para lookups instantâneos O(1) de cards e inputs
+const _cardDOMCache = new Map();
+const _radioDOMCache = new Map();
+
 function resolverRadioQuestao(qId, valor) {
     if (!qId) return null;
+    const cacheKey = valor ? `${qId}:::${valor}` : `${qId}:::any`;
+    if (_radioDOMCache.has(cacheKey)) {
+        const cached = _radioDOMCache.get(cacheKey);
+        if (cached && cached.radio && document.body.contains(cached.radio)) {
+            return cached;
+        }
+    }
     
     // Normaliza aliases e renomeações de provas antigas
     const idNormalizado = normalizarIdQuestao(qId);
@@ -95,27 +106,43 @@ function resolverRadioQuestao(qId, valor) {
         let radio = valor 
             ? document.querySelector(`input[name="${testId}"][value="${valor}"]`)
             : document.querySelector(`input[name="${testId}"]`);
-        if (radio) return { radio, realQId: radio.name };
+        if (radio) {
+            const res = { radio, realQId: radio.name };
+            _radioDOMCache.set(cacheKey, res);
+            return res;
+        }
 
         // 2. Com ou sem prefixo q_
         const altId = testId.startsWith('q_') ? testId.substring(2) : 'q_' + testId;
         radio = valor 
             ? document.querySelector(`input[name="${altId}"][value="${valor}"]`)
             : document.querySelector(`input[name="${altId}"]`);
-        if (radio) return { radio, realQId: radio.name };
+        if (radio) {
+            const res = { radio, realQId: radio.name };
+            _radioDOMCache.set(cacheKey, res);
+            return res;
+        }
 
         // 3. Removendo sufixo numérico antigo como _1, _2, _45 (índices voláteis antigos)
         const baseId1 = testId.replace(/_\d+$/, '');
         radio = valor 
             ? document.querySelector(`input[name="${baseId1}"][value="${valor}"]`)
             : document.querySelector(`input[name="${baseId1}"]`);
-        if (radio) return { radio, realQId: radio.name };
+        if (radio) {
+            const res = { radio, realQId: radio.name };
+            _radioDOMCache.set(cacheKey, res);
+            return res;
+        }
 
         const baseId2 = altId.replace(/_\d+$/, '');
         radio = valor 
             ? document.querySelector(`input[name="${baseId2}"][value="${valor}"]`)
             : document.querySelector(`input[name="${baseId2}"]`);
-        if (radio) return { radio, realQId: radio.name };
+        if (radio) {
+            const res = { radio, realQId: radio.name };
+            _radioDOMCache.set(cacheKey, res);
+            return res;
+        }
     }
 
     // 4. Busca flexível por substring do nome da prova e questão
@@ -123,7 +150,11 @@ function resolverRadioQuestao(qId, valor) {
     let radio = valor 
         ? document.querySelector(`input[name^="q_${cleanId}"][value="${valor}"]`)
         : document.querySelector(`input[name^="q_${cleanId}"]`);
-    if (radio) return { radio, realQId: radio.name };
+    if (radio) {
+        const res = { radio, realQId: radio.name };
+        _radioDOMCache.set(cacheKey, res);
+        return res;
+    }
 
     return null;
 }
@@ -236,15 +267,19 @@ function salvarResposta(qId, valor, gabarito) {
     dados[realQId] = valor;
     safeStorageSet(STORAGE_KEY, dados);
     
-    if (typeof gtag === 'function') {
-        gtag('event', 'resposta_questao', {
-            'questao_id': realQId,
-            'acertou': (valor === gabarito)
-        });
-    }
-    
+    // 1. Atualização visual instantânea
     atualizarEstiloQuestao(realQId, valor, gabarito);
-    atualizarEstatisticas();
+
+    // 2. Estatísticas e analytics em background (não bloqueiam o frame do clique)
+    requestAnimationFrame(() => {
+        atualizarEstatisticas();
+        if (typeof gtag === 'function') {
+            gtag('event', 'resposta_questao', {
+                'questao_id': realQId,
+                'acertou': (valor === gabarito)
+            });
+        }
+    });
 }
 
 
@@ -838,6 +873,8 @@ function renderizarBarrasPaginacao(totalItens, totalPaginas, itemInicio, itemFim
         container.style.display = 'flex';
         container.innerHTML = '';
 
+        const fragment = document.createDocumentFragment();
+
         // Botão Anterior
         const btnPrev = document.createElement('button');
         btnPrev.type = 'button';
@@ -845,7 +882,7 @@ function renderizarBarrasPaginacao(totalItens, totalPaginas, itemInicio, itemFim
         btnPrev.innerHTML = '‹ Anterior';
         btnPrev.disabled = (paginaAtual === 1);
         btnPrev.onclick = () => mudarPagina(paginaAtual - 1);
-        container.appendChild(btnPrev);
+        fragment.appendChild(btnPrev);
 
         // Numeração de páginas com reticências
         const paginasNumeros = calcularRangePaginas(paginaAtual, totalPaginas);
@@ -854,14 +891,14 @@ function renderizarBarrasPaginacao(totalItens, totalPaginas, itemInicio, itemFim
                 const el = document.createElement('span');
                 el.className = 'paginacao-ellipsis';
                 el.textContent = '...';
-                container.appendChild(el);
+                fragment.appendChild(el);
             } else {
                 const btnNum = document.createElement('button');
                 btnNum.type = 'button';
                 btnNum.className = `btn-paginacao ${item === paginaAtual ? 'active' : ''}`;
                 btnNum.textContent = item;
                 btnNum.onclick = () => mudarPagina(item);
-                container.appendChild(btnNum);
+                fragment.appendChild(btnNum);
             }
         });
 
@@ -872,13 +909,15 @@ function renderizarBarrasPaginacao(totalItens, totalPaginas, itemInicio, itemFim
         btnNext.innerHTML = 'Próxima ›';
         btnNext.disabled = (paginaAtual === totalPaginas);
         btnNext.onclick = () => mudarPagina(paginaAtual + 1);
-        container.appendChild(btnNext);
+        fragment.appendChild(btnNext);
 
         // Badge Informativo
         const badge = document.createElement('span');
         badge.className = 'paginacao-info-badge';
         badge.textContent = `${itemInicio}–${itemFim} de ${totalItens}`;
-        container.appendChild(badge);
+        fragment.appendChild(badge);
+
+        container.appendChild(fragment);
     });
 }
 
@@ -1077,6 +1116,10 @@ let cadernoErrosEstado = { esp: null, tema: null, pagina: 1 };
 
 function encontrarCardQuestao(qId) {
     if (!qId) return null;
+    if (_cardDOMCache.has(qId)) {
+        const cached = _cardDOMCache.get(qId);
+        if (cached && document.body.contains(cached)) return cached;
+    }
     const idNormalizado = normalizarIdQuestao(qId);
     const idsParaTentar = [idNormalizado, qId];
 
@@ -1098,7 +1141,11 @@ function encontrarCardQuestao(qId) {
             const cleanId = testId.replace(/^card_/, '').replace(/^q_/, '').replace(/_\d+$/, '');
             card = document.querySelector(`[id^="card_q_${cleanId}"]`) || document.querySelector(`[id*="${cleanId}"]`);
         }
-        if (card) return card;
+        if (card) {
+            _cardDOMCache.set(qId, card);
+            if (idNormalizado !== qId) _cardDOMCache.set(idNormalizado, card);
+            return card;
+        }
     }
     return null;
 }
@@ -1382,6 +1429,10 @@ function renderizarCadernoErros() {
         itensPagina.forEach(item => {
             const itemEl = document.createElement('div');
             itemEl.className = 'erro-item-card';
+            itemEl.id = `erro_item_${item.qId}`;
+
+            const headerRow = document.createElement('div');
+            headerRow.className = 'erro-item-header-row';
 
             const infoEl = document.createElement('div');
             infoEl.className = 'erro-item-info';
@@ -1402,12 +1453,7 @@ function renderizarCadernoErros() {
             badgeMarcada.className = 'erro-badge-marcada';
             badgeMarcada.textContent = `Sua resposta: (${item.marcada})`;
 
-            const badgeGabarito = document.createElement('span');
-            badgeGabarito.className = 'erro-badge-gabarito';
-            badgeGabarito.textContent = `Gabarito: (${item.gabarito})`;
-
             feedbackEl.appendChild(badgeMarcada);
-            feedbackEl.appendChild(badgeGabarito);
 
             infoEl.appendChild(tagEl);
             infoEl.appendChild(snippetEl);
@@ -1417,10 +1463,17 @@ function renderizarCadernoErros() {
             btnEl.type = 'button';
             btnEl.className = 'btn-ver-questao-erro';
             btnEl.innerHTML = `Ver Questão <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -1px; margin-left: 4px;"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>`;
-            btnEl.onclick = () => navegarParaQuestao(item.qId, item.esp, item.tema);
+            btnEl.onclick = () => toggleExpandirQuestaoErro(item.qId, btnEl);
 
-            itemEl.appendChild(infoEl);
-            itemEl.appendChild(btnEl);
+            headerRow.appendChild(infoEl);
+            headerRow.appendChild(btnEl);
+            itemEl.appendChild(headerRow);
+
+            const expandidoContainer = document.createElement('div');
+            expandidoContainer.className = 'erro-item-expandido-container';
+            expandidoContainer.style.display = 'none';
+            itemEl.appendChild(expandidoContainer);
+
             grupoEl.appendChild(itemEl);
         });
 
@@ -1506,6 +1559,202 @@ function voltarNivelCaderno() {
     renderizarCadernoErros();
 }
 
+function atualizarCoresAlternativasClone(clone, gabarito, forcarExibicaoCores = null) {
+    if (!clone) return;
+    const gabBox = clone.querySelector('.gabarito-box');
+    const isGabAberto = (forcarExibicaoCores !== null) 
+        ? forcarExibicaoCores 
+        : (gabBox && gabBox.style.display !== 'none' && gabBox.style.display !== '');
+
+    const inputMarcado = clone.querySelector('input[type="radio"]:checked');
+    const valorMarcado = inputMarcado ? inputMarcado.value : '';
+
+    clone.querySelectorAll('.alternativa').forEach(altLabel => {
+        const input = altLabel.querySelector('input[type="radio"]');
+        if (!input) return;
+        const val = input.value;
+        altLabel.classList.remove('selected', 'correct', 'incorrect');
+
+        if (isGabAberto) {
+            if (val === valorMarcado && val !== gabarito) {
+                altLabel.classList.add('incorrect');
+            } else if (val === gabarito) {
+                altLabel.classList.add('correct');
+            }
+        } else {
+            if (val === valorMarcado) {
+                altLabel.classList.add('selected');
+            }
+        }
+    });
+}
+
+function resetarQuestaoExpandida(expandidoContainer, qId) {
+    if (!expandidoContainer) return;
+    const clone = expandidoContainer.querySelector('.questao-expandida-conteudo');
+    if (!clone) return;
+
+    const cardOriginal = encontrarCardQuestao(qId);
+    const radioOriginal = cardOriginal ? cardOriginal.querySelector('input[type="radio"]') : null;
+    const gabarito = radioOriginal ? radioOriginal.getAttribute('data-gabarito') : '';
+    const dados = safeStorageGet(STORAGE_KEY, {});
+    const marcada = dados[qId] || dados[qId.replace(/^q_/, '')] || '';
+
+    const gabBox = clone.querySelector('.gabarito-box');
+    if (gabBox) gabBox.style.display = 'none';
+
+    const btnResposta = clone.querySelector('.btn-resposta');
+    if (btnResposta) btnResposta.innerHTML = `&#10022; Ver Gabarito e Comentário`;
+
+    clone.querySelectorAll('.alternativa').forEach(altLabel => {
+        altLabel.classList.remove('correct', 'incorrect', 'selected');
+        const input = altLabel.querySelector('input[type="radio"]');
+        if (input) {
+            if (input.value === marcada) {
+                altLabel.classList.add('selected');
+                input.checked = true;
+            } else {
+                input.checked = false;
+            }
+        }
+    });
+}
+
+function resetarTodasQuestoesExpandidasErros() {
+    document.querySelectorAll('.erro-item-card.expanded').forEach(cardItem => {
+        cardItem.classList.remove('expanded');
+        const expandido = cardItem.querySelector('.erro-item-expandido-container');
+        if (expandido) expandido.style.display = 'none';
+        const snippetEl = cardItem.querySelector('.erro-item-snippet');
+        if (snippetEl) snippetEl.style.display = 'block';
+        const btnEl = cardItem.querySelector('.btn-ver-questao-erro');
+        if (btnEl) {
+            btnEl.className = 'btn-ver-questao-erro';
+            btnEl.innerHTML = `Ver Questão <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -1px; margin-left: 4px;"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>`;
+        }
+        const qId = cardItem.id.replace(/^erro_item_/, '');
+        resetarQuestaoExpandida(expandido, qId);
+    });
+}
+
+function toggleExpandirQuestaoErro(qId, btnEl) {
+    const cardItem = document.getElementById(`erro_item_${qId}`);
+    if (!cardItem) return;
+
+    const expandidoContainer = cardItem.querySelector('.erro-item-expandido-container');
+    const snippetEl = cardItem.querySelector('.erro-item-snippet');
+    if (!expandidoContainer) return;
+
+    const isExpanded = cardItem.classList.contains('expanded');
+
+    if (isExpanded) {
+        // Recolher e resetar highlights
+        expandidoContainer.style.display = 'none';
+        cardItem.classList.remove('expanded');
+        resetarQuestaoExpandida(expandidoContainer, qId);
+        if (snippetEl) snippetEl.style.display = 'block';
+        if (btnEl) {
+            btnEl.className = 'btn-ver-questao-erro';
+            btnEl.innerHTML = `Ver Questão <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -1px; margin-left: 4px;"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>`;
+        }
+    } else {
+        // Expandir (Modo Estudo Ativo / Sem Spoiler)
+        if (!expandidoContainer.dataset.loaded) {
+            const cardOriginal = encontrarCardQuestao(qId);
+            if (cardOriginal) {
+                // Clona a estrutura da questão original
+                const clone = cardOriginal.cloneNode(true);
+                clone.removeAttribute('id');
+                clone.removeAttribute('style');
+                clone.className = 'questao-expandida-conteudo';
+                clone.style.display = 'block';
+                clone.querySelectorAll('[id]').forEach(el => el.removeAttribute('id'));
+
+                // Remove classes e estilos de ocultação que possam ter vindo do simulado
+                clone.classList.remove('paginacao-oculto', 'filtro-oculto', 'answered', 'highlight-target');
+
+                // Remove a tag de origem do clone pois já está no topo do card
+                const tagOrigemClone = clone.querySelector('.tag-origem');
+                if (tagOrigemClone) tagOrigemClone.remove();
+
+                // Mantém a caixa de gabarito e explicação OCULTA até o clique
+                const gabBox = clone.querySelector('.gabarito-box');
+                if (gabBox) {
+                    gabBox.style.display = 'none';
+                }
+
+                // Recupera gabarito e resposta marcada
+                const radioOriginal = cardOriginal.querySelector('input[type="radio"]');
+                const gabarito = radioOriginal ? radioOriginal.getAttribute('data-gabarito') : '';
+                const dados = safeStorageGet(STORAGE_KEY, {});
+                const marcada = dados[qId] || dados[qId.replace(/^q_/, '')] || '';
+
+                // Configura as alternativas para permitir alternar a seleção dinamicamente e limpa cores herdadas
+                clone.querySelectorAll('.alternativa').forEach(altLabel => {
+                    altLabel.classList.remove('selected', 'correct', 'incorrect');
+                    const input = altLabel.querySelector('input[type="radio"]');
+                    if (input) {
+                        const val = input.value;
+                        if (val === marcada) {
+                            altLabel.classList.add('selected');
+                            input.checked = true;
+                        } else {
+                            input.checked = false;
+                        }
+
+                        // Atualiza as cores dinamicamente ao trocar de alternativa (mesmo com gabarito aberto)
+                        input.addEventListener('change', () => {
+                            atualizarCoresAlternativasClone(clone, gabarito);
+                        });
+                    }
+                });
+
+                // Garante a existência do botão "Ver Gabarito e Comentário"
+                let btnResposta = clone.querySelector('.btn-resposta');
+                if (!btnResposta) {
+                    btnResposta = document.createElement('button');
+                    btnResposta.type = 'button';
+                    btnResposta.className = 'btn-resposta';
+                    if (gabBox) {
+                        clone.insertBefore(btnResposta, gabBox);
+                    } else {
+                        clone.appendChild(btnResposta);
+                    }
+                }
+
+                btnResposta.innerHTML = `&#10022; Ver Gabarito e Comentário`;
+                btnResposta.onclick = () => {
+                    if (!gabBox) return;
+                    const isHidden = (gabBox.style.display === 'none' || gabBox.style.display === '');
+                    gabBox.style.display = isHidden ? 'block' : 'none';
+                    btnResposta.innerHTML = isHidden 
+                        ? `&#10006; Ocultar Gabarito e Comentário` 
+                        : `&#10022; Ver Gabarito e Comentário`;
+
+                    atualizarCoresAlternativasClone(clone, gabarito, isHidden);
+                };
+
+                expandidoContainer.innerHTML = '';
+                expandidoContainer.appendChild(clone);
+                expandidoContainer.dataset.loaded = 'true';
+            } else {
+                expandidoContainer.innerHTML = `<p style="color: var(--text-muted); font-size: 14px; margin: 8px 0;">Não foi possível carregar o conteúdo completo desta questão.</p>`;
+            }
+        } else {
+            // Garante reset limpo se já estava carregado previamente
+            resetarQuestaoExpandida(expandidoContainer, qId);
+        }
+
+        expandidoContainer.style.display = 'flex';
+        cardItem.classList.add('expanded');
+        if (snippetEl) snippetEl.style.display = 'none';
+        if (btnEl) {
+            btnEl.className = 'btn-ver-questao-erro btn-recolher';
+            btnEl.innerHTML = `Ver Menos <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -1px; margin-left: 4px;"><polyline points="18 15 12 9 6 15"></polyline></svg>`;
+        }
+    }
+}
+
 function fecharCadernoErrosModal(e) {
     if (!e || e.target.id === 'caderno-erros-modal-overlay' || e.target.closest('.confirm-modal-close')) {
         const modal = document.getElementById('caderno-erros-modal-overlay');
@@ -1513,6 +1762,8 @@ function fecharCadernoErrosModal(e) {
             modal.classList.remove('active');
             document.body.style.overflow = '';
         }
+        // Reseta o estado expandido e os highlights para manter o modo de estudo ativo
+        resetarTodasQuestoesExpandidasErros();
     }
 }
 
