@@ -2033,15 +2033,99 @@ function renderizarDesempenhoModal() {
 }
 
 // ========================================================
-// LIGHTBOX / ZOOM DE IMAGENS DAS QUESTÕES
+// LIGHTBOX / ZOOM INTERATIVO DE IMAGENS DAS QUESTÕES
 // ========================================================
+let zoomState = {
+    currentZoom: 1,
+    panX: 0,
+    panY: 0,
+    isDragging: false,
+    startX: 0,
+    startY: 0
+};
+
+function configurarContainerPorResolucao(img) {
+    const viewport = document.getElementById('image-zoom-viewport');
+    if (!viewport) return;
+
+    const natW = img.naturalWidth || 0;
+    const natH = img.naturalHeight || 0;
+
+    // Imagens de baixa resolução (ex: largura < 650px e altura < 500px)
+    // são iniciadas em um container expandido maior para dar conforto visual e espaço de navegação
+    if (natW > 0 && natW < 650 && natH < 500) {
+        viewport.classList.add('container-expandido');
+    } else {
+        viewport.classList.remove('container-expandido');
+    }
+}
+
+function aplicarTransformZoom() {
+    const zoomImg = document.getElementById('image-zoom-img');
+    const badge = document.getElementById('zoom-level-badge');
+    const viewport = document.getElementById('image-zoom-viewport');
+    if (!zoomImg) return;
+
+    zoomImg.style.transform = `translate(${zoomState.panX}px, ${zoomState.panY}px) scale(${zoomState.currentZoom})`;
+    
+    if (badge) {
+        const perc = Math.round(zoomState.currentZoom * 100);
+        badge.textContent = `${perc}%`;
+    }
+
+    if (viewport) {
+        viewport.style.cursor = zoomState.currentZoom > 1.05 ? 'grab' : 'zoom-in';
+    }
+}
+
+function alterarZoomImagem(delta) {
+    const novoZoom = Math.min(Math.max(zoomState.currentZoom + delta, 0.5), 4.0);
+    if (Math.abs(novoZoom - zoomState.currentZoom) < 0.01) return;
+    
+    zoomState.currentZoom = parseFloat(novoZoom.toFixed(2));
+    if (zoomState.currentZoom <= 1) {
+        zoomState.panX = 0;
+        zoomState.panY = 0;
+    }
+    aplicarTransformZoom();
+}
+
+function resetarZoomImagem(silencioso = false) {
+    zoomState.currentZoom = 1;
+    zoomState.panX = 0;
+    zoomState.panY = 0;
+    zoomState.isDragging = false;
+    const viewport = document.getElementById('image-zoom-viewport');
+    if (viewport) {
+        viewport.classList.remove('is-dragging');
+    }
+    if (!silencioso) {
+        aplicarTransformZoom();
+    }
+}
+
 function abrirZoomImagem(src, caption) {
     const overlay = document.getElementById('image-zoom-overlay');
     const zoomImg = document.getElementById('image-zoom-img');
     const zoomCaption = document.getElementById('image-zoom-caption');
     if (!overlay || !zoomImg) return;
 
+    // Reseta estado para iniciar rigorosamente em seu tamanho nativo (100%)
+    resetarZoomImagem(true);
+
     zoomImg.src = src;
+
+    const inicializarDimensoes = () => {
+        configurarContainerPorResolucao(zoomImg);
+        aplicarTransformZoom();
+    };
+
+    if (zoomImg.complete && zoomImg.naturalWidth > 0) {
+        inicializarDimensoes();
+    } else {
+        zoomImg.onload = inicializarDimensoes;
+    }
+
     if (zoomCaption) {
         if (caption) {
             zoomCaption.textContent = caption;
@@ -2063,7 +2147,97 @@ function fecharZoomImagem(e) {
     if (overlay) {
         overlay.classList.remove('active');
     }
+    resetarZoomImagem(true);
+    const viewport = document.getElementById('image-zoom-viewport');
+    if (viewport) {
+        viewport.classList.remove('container-expandido');
+    }
     document.body.style.overflow = '';
+}
+
+// Configura eventos de interação rica com o Zoom (Wheel, Drag/Pan, Touch e Duplo Clique)
+function configurarInteracoesZoom() {
+    const viewport = document.getElementById('image-zoom-viewport');
+    const zoomImg = document.getElementById('image-zoom-img');
+    if (!viewport || viewport.dataset.zoomConfigured) return;
+    viewport.dataset.zoomConfigured = 'true';
+
+    // Previne qualquer tentativa de arrasto nativo de imagem do navegador
+    viewport.addEventListener('dragstart', function(e) {
+        e.preventDefault();
+        return false;
+    });
+    if (zoomImg) {
+        zoomImg.addEventListener('dragstart', function(e) {
+            e.preventDefault();
+            return false;
+        });
+    }
+
+    // 1. Zoom via Roda do Mouse (Wheel)
+    viewport.addEventListener('wheel', function(e) {
+        e.preventDefault();
+        const delta = e.deltaY < 0 ? 0.2 : -0.2;
+        alterarZoomImagem(delta);
+    }, { passive: false });
+
+    function finalizarArrasto(e) {
+        if (zoomState.isDragging) {
+            zoomState.isDragging = false;
+            viewport.classList.remove('is-dragging');
+            if (e && e.pointerId) {
+                try {
+                    viewport.releasePointerCapture(e.pointerId);
+                } catch (_) {}
+            }
+        }
+    }
+
+    // 2. Drag / Pan com Pointer Events (arrasto SOMENTE enquanto o botão primário estiver pressionado)
+    viewport.addEventListener('pointerdown', function(e) {
+        // Apenas botão primário (esquerdo do mouse ou toque)
+        if (e.pointerType === 'mouse' && e.button !== 0) return;
+
+        e.preventDefault();
+        zoomState.isDragging = true;
+        zoomState.startX = e.clientX - zoomState.panX;
+        zoomState.startY = e.clientY - zoomState.panY;
+        viewport.classList.add('is-dragging');
+
+        try {
+            viewport.setPointerCapture(e.pointerId);
+        } catch (_) {}
+    });
+
+    viewport.addEventListener('pointermove', function(e) {
+        if (!zoomState.isDragging) return;
+
+        // Se for mouse, verifica se o botão esquerdo continua ativamente pressionado
+        if (e.pointerType === 'mouse' && (e.buttons & 1) === 0) {
+            finalizarArrasto(e);
+            return;
+        }
+
+        e.preventDefault();
+        zoomState.panX = e.clientX - zoomState.startX;
+        zoomState.panY = e.clientY - zoomState.startY;
+        aplicarTransformZoom();
+    });
+
+    viewport.addEventListener('pointerup', finalizarArrasto);
+    viewport.addEventListener('pointercancel', finalizarArrasto);
+    window.addEventListener('mouseup', finalizarArrasto);
+
+    // 3. Duplo clique para alternar zoom (100% <-> 200%)
+    viewport.addEventListener('dblclick', function(e) {
+        e.preventDefault();
+        if (zoomState.currentZoom > 1.1) {
+            resetarZoomImagem();
+        } else {
+            zoomState.currentZoom = 2.0;
+            aplicarTransformZoom();
+        }
+    });
 }
 
 // Delegação de clique para todas as imagens de questões
@@ -2087,14 +2261,32 @@ document.addEventListener('click', function(e) {
     abrirZoomImagem(imgEl.src, legenda);
 });
 
-// Fechamento de modais via Tecla ESC
+// Atalhos de teclado (ESC para fechar modais, + / - / 0 para zoom)
 document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-        const zoomModal = document.getElementById('image-zoom-overlay');
-        if (zoomModal && zoomModal.classList.contains('active')) {
+    const zoomModal = document.getElementById('image-zoom-overlay');
+    if (zoomModal && zoomModal.classList.contains('active')) {
+        if (e.key === 'Escape') {
             fecharZoomImagem();
             return;
         }
+        if (e.key === '+' || e.key === '=') {
+            e.preventDefault();
+            alterarZoomImagem(0.25);
+            return;
+        }
+        if (e.key === '-' || e.key === '_') {
+            e.preventDefault();
+            alterarZoomImagem(-0.25);
+            return;
+        }
+        if (e.key === '0') {
+            e.preventDefault();
+            resetarZoomImagem();
+            return;
+        }
+    }
+
+    if (e.key === 'Escape') {
         const apoioModal = document.getElementById('apoio-modal-overlay');
         if (apoioModal && apoioModal.classList.contains('active')) {
             fecharApoioModal();
@@ -2123,4 +2315,8 @@ initTheme();
 window.addEventListener('DOMContentLoaded', () => {
     carregarRespostas();
     inicializarPaginacaoEFiltros();
+    configurarInteracoesZoom();
 });
+if (document.readyState !== 'loading') {
+    configurarInteracoesZoom();
+}
