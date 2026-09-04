@@ -392,7 +392,23 @@ function inicializarPaginacaoEFiltros() {
         containerPills.appendChild(btnTodas);
 
         // Abas individuais de Especialidade
-        Object.keys(taxonomiaEspecialidades).sort().forEach(esp => {
+        const ORDEM_GRANDES_AREAS = [
+            'Clínica Médica',
+            'Cirurgia Geral',
+            'Ginecologia e Obstetrícia',
+            'Pediatria',
+            'Medicina Preventiva e Social / MFC'
+        ];
+        const esps = Object.keys(taxonomiaEspecialidades).sort((a, b) => {
+            const idxA = ORDEM_GRANDES_AREAS.indexOf(a);
+            const idxB = ORDEM_GRANDES_AREAS.indexOf(b);
+            if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+            if (idxA !== -1) return -1;
+            if (idxB !== -1) return 1;
+            return a.localeCompare(b);
+        });
+
+        esps.forEach(esp => {
             const btn = document.createElement('button');
             btn.type = 'button';
             btn.className = 'filtro-pill';
@@ -405,6 +421,9 @@ function inicializarPaginacaoEFiltros() {
 
     // 2. Constrói taxonomia de Provas (Banca -> Edições)
     inicializarTaxonomiaProvas();
+
+    // 3. Inicializa listeners do Combobox de Subtemas
+    inicializarEventosComboboxSubtemas();
 
     aplicarFiltroEPaginacao(false);
 }
@@ -532,7 +551,7 @@ function filtrarPorBanca(banca) {
         gtag('event', 'filtrar_banca', { 'banca': banca });
     }
 
-    aplicarFiltroEPaginacao(true);
+    aplicarFiltroEPaginacao(false);
 }
 
 function filtrarPorEdicao(edicao) {
@@ -551,7 +570,7 @@ function filtrarPorEdicao(edicao) {
         gtag('event', 'filtrar_edicao', { 'edicao': edicao });
     }
 
-    aplicarFiltroEPaginacao(true);
+    aplicarFiltroEPaginacao(false);
 }
 
 function filtrarPorNumeroQuestao(numero) {
@@ -591,13 +610,182 @@ function limparBuscaQuestao() {
     filtrarPorNumeroQuestao('');
 }
 
+const TEMAS_NUCLEARES_POR_AREA = {
+    'Clínica Médica': [
+        'Cardiologia',
+        'Pneumologia',
+        'Gastroenterologia & Hepatologia',
+        'Nefrologia',
+        'Endocrinologia & Metabologia',
+        'Reumatologia',
+        'Infectologia',
+        'Hematologia',
+        'Neurologia',
+        'Dermatologia',
+        'Psiquiatria',
+        'Emergência e Cuidados Críticos',
+        'Angiologia & Vascular'
+    ],
+    'Cirurgia Geral': [
+        'Cirurgia do Aparelho Digestivo',
+        'Trauma e Emergência Cirúrgica',
+        'Cuidados Perioperatórios & Anestesiologia',
+        'Coloproctologia',
+        'Urologia',
+        'Ortopedia e Traumatologia',
+        'Cirurgia Vascular',
+        'Cirurgia Pediátrica',
+        'Cirurgia de Cabeça e Pescoço & Endócrina',
+        'Cirurgia Plástica & Queimaduras',
+        'Dermatologia Cirúrgica & Oncologia Cutânea'
+    ],
+    'Ginecologia e Obstetrícia': [
+        'Obstetrícia',
+        'Ginecologia Geral',
+        'Endocrinologia Ginecológica & Climatério',
+        'Infecções Ginecológicas & ISTs',
+        'Mastologia',
+        'Planejamento Familiar & Contracepção',
+        'Oncologia Ginecológica'
+    ],
+    'Pediatria': [
+        'Infectologia Pediátrica',
+        'Neonatologia',
+        'Endocrinologia Pediátrica',
+        'Puericultura & Aleitamento Materno',
+        'Neurologia & Desenvolvimento Infantil',
+        'Pneumologia Pediátrica',
+        'Hematologia & Oncologia Pediátrica',
+        'Gastroenterologia Pediátrica',
+        'Nefrologia Pediátrica',
+        'Reumatologia Pediátrica',
+        'Emergências Pediátricas & Suporte de Vida'
+    ],
+    'Medicina Preventiva e Social / MFC': [
+        'Medicina de Família e Comunidade (MFC)',
+        'Vigilância em Saúde',
+        'Epidemiologia & Bioestatística',
+        'Ética Médica, Bioética & Medicina Legal',
+        'Sistema Único de Saúde (SUS) & Políticas Públicas',
+        'Saúde Coletiva & Populações Vulneráveis',
+        'Saúde do Trabalhador'
+    ]
+};
+
+let comboboxSubtemasInicializado = false;
+
+function inicializarEventosComboboxSubtemas() {
+    if (comboboxSubtemasInicializado) return;
+    comboboxSubtemasInicializado = true;
+
+    const inputCombobox = document.getElementById('input-subtema-combobox');
+    const dropdownCombobox = document.getElementById('subtema-combobox-dropdown');
+    const btnLimpar = document.getElementById('btn-limpar-subtema');
+    const btnToggle = document.getElementById('btn-toggle-subtema');
+
+    if (!inputCombobox || !dropdownCombobox) return;
+
+    // Abre dropdown ao focar no input de busca
+    inputCombobox.addEventListener('focus', () => {
+        dropdownCombobox.style.display = 'block';
+    });
+
+    // Filtro dinâmico com autocomplete instantâneo
+    inputCombobox.addEventListener('input', () => {
+        const query = (inputCombobox.value || '').trim().toLowerCase();
+        dropdownCombobox.style.display = 'block';
+
+        const options = dropdownCombobox.querySelectorAll('.subtema-combobox-option');
+        let visiveis = 0;
+        options.forEach(opt => {
+            const sub = opt.getAttribute('data-subtema');
+            const nome = opt.querySelector('.subtema-option-name')?.textContent || sub;
+            if (sub === 'TODOS') {
+                const show = (!query || query === 'todos');
+                opt.style.display = show ? 'flex' : 'none';
+                if (show) visiveis++;
+            } else if (!query || nome.toLowerCase().includes(query)) {
+                opt.style.display = 'flex';
+                visiveis++;
+            } else {
+                opt.style.display = 'none';
+            }
+        });
+
+        // Feedback visual se nenhum subtema for encontrado
+        let emptyEl = dropdownCombobox.querySelector('.subtema-combobox-empty');
+        if (visiveis === 0) {
+            if (!emptyEl) {
+                emptyEl = document.createElement('div');
+                emptyEl.className = 'subtema-combobox-empty';
+                emptyEl.textContent = 'Nenhum subtema encontrado';
+                dropdownCombobox.appendChild(emptyEl);
+            }
+            emptyEl.style.display = 'block';
+        } else if (emptyEl) {
+            emptyEl.style.display = 'none';
+        }
+    });
+
+    // Teclas: Enter seleciona o primeiro item visível; Escape fecha
+    inputCombobox.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            const visiveis = Array.from(dropdownCombobox.querySelectorAll('.subtema-combobox-option'))
+                .filter(el => el.style.display !== 'none');
+            if (visiveis.length > 0) {
+                visiveis[0].click();
+                inputCombobox.blur();
+            }
+        } else if (e.key === 'Escape') {
+            dropdownCombobox.style.display = 'none';
+            inputCombobox.blur();
+        }
+    });
+
+    // Botão de alternância (caret) do Combobox
+    if (btnToggle) {
+        btnToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const aberto = dropdownCombobox.style.display === 'block';
+            dropdownCombobox.style.display = aberto ? 'none' : 'block';
+            if (!aberto) {
+                inputCombobox.focus();
+            }
+        });
+    }
+
+    // Botão de limpar seleção de subtema
+    if (btnLimpar) {
+        btnLimpar.addEventListener('click', (e) => {
+            e.stopPropagation();
+            filtrarPorSubtema('TODOS');
+            inputCombobox.focus();
+        });
+    }
+
+    // Fecha dropdown de subtemas e menu suspenso de especialidades ao clicar fora
+    document.addEventListener('click', (e) => {
+        const subtemaWrapper = document.getElementById('filtro-subtemas-wrapper');
+        if (subtemaWrapper && !subtemaWrapper.contains(e.target)) {
+            dropdownCombobox.style.display = 'none';
+        }
+
+        const wrapOutras = document.getElementById('wrap-outras-especialidades');
+        const menuOutras = document.getElementById('menu-outras-especialidades');
+        if (wrapOutras && menuOutras && !wrapOutras.contains(e.target)) {
+            menuOutras.style.display = 'none';
+        }
+    });
+}
+
 function filtrarPorEspecialidade(esp) {
     especialidadeAtiva = esp;
     temaAtivo = 'TODOS';
     subtemaAtivo = 'TODOS';
     paginaAtual = 1;
 
-    // Atualiza estado ativo das abas de especialidade
+    // Atualiza estado ativo das abas de especialidade (Nível 1)
     document.querySelectorAll('#filtro-pills-container .filtro-pill').forEach(btn => {
         if (btn.getAttribute('data-esp') === esp) {
             btn.classList.add('active');
@@ -610,7 +798,7 @@ function filtrarPorEspecialidade(esp) {
     const subtemasWrapper = document.getElementById('filtro-subtemas-wrapper');
     if (subtemasWrapper) subtemasWrapper.style.display = 'none';
 
-    // Atualiza container de temas com sub-botões diretos
+    // Atualiza container de temas (Nível 2)
     const temasWrapper = document.getElementById('filtro-temas-wrapper');
     const pillsContainer = document.getElementById('filtro-temas-pills');
 
@@ -620,36 +808,110 @@ function filtrarPorEspecialidade(esp) {
         if (temasWrapper) temasWrapper.style.display = 'block';
 
         const temasObj = taxonomiaEspecialidades[esp].temas || {};
-        const listaTemas = Object.keys(temasObj).sort();
+        const listaTemas = Object.keys(temasObj);
 
-        // Popula Sub-pills de Temas
         if (pillsContainer) {
             pillsContainer.innerHTML = '';
-            
-            if (listaTemas.length === 1 && (listaTemas[0].toLowerCase() === 'geral' || listaTemas[0] === 'Outros / Não Categorizados')) {
-                const p = document.createElement('button');
-                p.type = 'button';
-                p.className = 'subfiltro-pill active';
-                p.setAttribute('data-tema', 'TODOS');
-                p.innerHTML = `Geral <span class="subfiltro-pill-count">${taxonomiaEspecialidades[esp].total}</span>`;
-                p.onclick = (e) => {
-                    if (e) e.preventDefault();
-                    filtrarPorTema('TODOS');
-                };
-                pillsContainer.appendChild(p);
-            } else {
-                const pillTodos = document.createElement('button');
-                pillTodos.type = 'button';
-                pillTodos.className = 'subfiltro-pill active';
-                pillTodos.setAttribute('data-tema', 'TODOS');
-                pillTodos.innerHTML = `Todos os Temas <span class="subfiltro-pill-count">${taxonomiaEspecialidades[esp].total}</span>`;
-                pillTodos.onclick = (e) => {
-                    if (e) e.preventDefault();
-                    filtrarPorTema('TODOS');
-                };
-                pillsContainer.appendChild(pillTodos);
+
+            // Pill "Todos os Temas"
+            const pillTodos = document.createElement('button');
+            pillTodos.type = 'button';
+            pillTodos.className = 'subfiltro-pill active';
+            pillTodos.setAttribute('data-tema', 'TODOS');
+            pillTodos.innerHTML = `Todos os Temas <span class="subfiltro-pill-count">${taxonomiaEspecialidades[esp].total}</span>`;
+            pillTodos.onclick = (e) => {
+                if (e) e.preventDefault();
+                filtrarPorTema('TODOS');
+            };
+            pillsContainer.appendChild(pillTodos);
+
+            const nuclearesDef = TEMAS_NUCLEARES_POR_AREA[esp] || [];
+
+            if (nuclearesDef.length > 0) {
+                // Separa Especialidades Nucleares (botões diretos) vs Secundárias (menu suspenso)
+                const nucleares = [];
+                const secundarias = [];
 
                 listaTemas.forEach(t => {
+                    if (nuclearesDef.includes(t)) {
+                        nucleares.push(t);
+                    } else {
+                        secundarias.push(t);
+                    }
+                });
+
+                // Ordena nucleares pela ordem de relevância clínica predefinida
+                nucleares.sort((a, b) => {
+                    const idxA = nuclearesDef.indexOf(a);
+                    const idxB = nuclearesDef.indexOf(b);
+                    return (idxA === -1 ? 999 : idxA) - (idxB === -1 ? 999 : idxB);
+                });
+
+                // Renderiza botões diretos das nucleares
+                nucleares.forEach(t => {
+                    const p = document.createElement('button');
+                    p.type = 'button';
+                    p.className = 'subfiltro-pill';
+                    p.setAttribute('data-tema', t);
+                    p.innerHTML = `${t} <span class="subfiltro-pill-count">${temasObj[t].total}</span>`;
+                    p.onclick = (e) => {
+                        if (e) e.preventDefault();
+                        filtrarPorTema(t);
+                    };
+                    pillsContainer.appendChild(p);
+                });
+
+                // Agrupa secundárias / baixo volume em dropdown
+                if (secundarias.length > 0) {
+                    const totalSecundarias = secundarias.reduce((acc, t) => acc + (temasObj[t]?.total || 0), 0);
+                    const wrapDropdown = document.createElement('div');
+                    wrapDropdown.className = 'filtro-dropdown-wrap';
+                    wrapDropdown.id = 'wrap-outras-especialidades';
+
+                    const rotuloDropdown = (esp === 'Clínica Médica' || esp === 'Cirurgia Geral' || esp === 'Pediatria') 
+                        ? 'Outras Especialidades' 
+                        : 'Outros Temas';
+
+                    const btnDropdown = document.createElement('button');
+                    btnDropdown.type = 'button';
+                    btnDropdown.className = 'subfiltro-pill filtro-dropdown-btn';
+                    btnDropdown.id = 'btn-outras-especialidades';
+                    btnDropdown.innerHTML = `<span id="label-outras-especialidades">${rotuloDropdown} (${totalSecundarias})</span> <span class="filtro-dropdown-caret">▾</span>`;
+
+                    const menuDropdown = document.createElement('div');
+                    menuDropdown.className = 'filtro-dropdown-menu';
+                    menuDropdown.id = 'menu-outras-especialidades';
+                    menuDropdown.style.display = 'none';
+
+                    btnDropdown.onclick = (e) => {
+                        if (e) e.stopPropagation();
+                        const isAberto = menuDropdown.style.display === 'block';
+                        menuDropdown.style.display = isAberto ? 'none' : 'block';
+                    };
+
+                    secundarias.sort().forEach(t => {
+                        const item = document.createElement('button');
+                        item.type = 'button';
+                        item.className = 'filtro-dropdown-item';
+                        item.setAttribute('data-tema', t);
+                        item.innerHTML = `<span>${t}</span> <span class="filtro-dropdown-item-count">${temasObj[t].total}</span>`;
+                        item.onclick = (e) => {
+                            if (e) {
+                                e.preventDefault();
+                                e.stopPropagation();
+                            }
+                            menuDropdown.style.display = 'none';
+                            filtrarPorTema(t);
+                        };
+                        menuDropdown.appendChild(item);
+                    });
+
+                    wrapDropdown.appendChild(btnDropdown);
+                    wrapDropdown.appendChild(menuDropdown);
+                    pillsContainer.appendChild(wrapDropdown);
+                }
+            } else {
+                listaTemas.sort().forEach(t => {
                     const p = document.createElement('button');
                     p.type = 'button';
                     p.className = 'subfiltro-pill';
@@ -671,7 +933,7 @@ function filtrarPorEspecialidade(esp) {
         });
     }
 
-    aplicarFiltroEPaginacao(true);
+    aplicarFiltroEPaginacao(false);
 }
 
 function filtrarPorTema(tema) {
@@ -681,6 +943,7 @@ function filtrarPorTema(tema) {
 
     // Sincroniza Sub-pills de Temas
     document.querySelectorAll('.subfiltro-pill').forEach(btn => {
+        if (btn.id === 'btn-outras-especialidades') return;
         if (btn.getAttribute('data-tema') === tema) {
             btn.classList.add('active');
         } else {
@@ -688,9 +951,47 @@ function filtrarPorTema(tema) {
         }
     });
 
-    // Renderiza subtemas do tema selecionado (3º nível)
+    // Sincroniza menu suspenso de Outras Especialidades caso pertença a ele
+    const btnOutras = document.getElementById('btn-outras-especialidades');
+    const labelOutras = document.getElementById('label-outras-especialidades');
+    const menuOutras = document.getElementById('menu-outras-especialidades');
+    if (btnOutras && menuOutras) {
+        let isSecundariaAtiva = false;
+        menuOutras.querySelectorAll('.filtro-dropdown-item').forEach(item => {
+            const itemTema = item.getAttribute('data-tema');
+            if (itemTema === tema) {
+                item.classList.add('active');
+                isSecundariaAtiva = true;
+            } else {
+                item.classList.remove('active');
+            }
+        });
+
+        if (isSecundariaAtiva) {
+            btnOutras.classList.add('active');
+            if (labelOutras) {
+                const count = taxonomiaEspecialidades[especialidadeAtiva]?.temas?.[tema]?.total || 0;
+                labelOutras.textContent = `${tema} (${count})`;
+            }
+        } else {
+            btnOutras.classList.remove('active');
+            if (labelOutras) {
+                const rotuloDropdown = (especialidadeAtiva === 'Clínica Médica' || especialidadeAtiva === 'Cirurgia Geral' || especialidadeAtiva === 'Pediatria') 
+                    ? 'Outras Especialidades' 
+                    : 'Outros Temas';
+                const totalSecundarias = Array.from(menuOutras.querySelectorAll('.filtro-dropdown-item-count'))
+                    .reduce((acc, el) => acc + (parseInt(el.textContent, 10) || 0), 0);
+                labelOutras.textContent = `${rotuloDropdown} (${totalSecundarias})`;
+            }
+        }
+    }
+
+    // Renderiza subtemas do tema selecionado (Nível 3) via Combobox
     const subtemasWrapper = document.getElementById('filtro-subtemas-wrapper');
-    const subtemasContainer = document.getElementById('filtro-subtemas-pills');
+    const inputCombobox = document.getElementById('input-subtema-combobox');
+    const dropdownCombobox = document.getElementById('subtema-combobox-dropdown');
+    const totalBadge = document.getElementById('subtema-combobox-total');
+    const btnLimpar = document.getElementById('btn-limpar-subtema');
 
     if (tema === 'TODOS' || !taxonomiaEspecialidades[especialidadeAtiva] || !taxonomiaEspecialidades[especialidadeAtiva].temas[tema]) {
         if (subtemasWrapper) subtemasWrapper.style.display = 'none';
@@ -702,33 +1003,41 @@ function filtrarPorTema(tema) {
             if (subtemasWrapper) subtemasWrapper.style.display = 'none';
         } else {
             if (subtemasWrapper) subtemasWrapper.style.display = 'block';
-            if (subtemasContainer) {
-                subtemasContainer.innerHTML = '';
+            const totalTema = taxonomiaEspecialidades[especialidadeAtiva].temas[tema].total;
 
-                // Pill "Todos os Subtemas"
-                const pillTodosSub = document.createElement('button');
-                pillTodosSub.type = 'button';
-                pillTodosSub.className = 'subtema-pill active';
-                pillTodosSub.setAttribute('data-subtema', 'TODOS');
-                pillTodosSub.innerHTML = `Todos os Subtemas <span class="subtema-pill-count">${taxonomiaEspecialidades[especialidadeAtiva].temas[tema].total}</span>`;
-                pillTodosSub.onclick = (e) => {
-                    if (e) e.preventDefault();
+            if (inputCombobox) {
+                inputCombobox.value = '';
+                inputCombobox.placeholder = `Pesquisar ou selecionar subtema em ${tema}...`;
+            }
+            if (btnLimpar) btnLimpar.style.display = 'none';
+            if (totalBadge) totalBadge.textContent = `Todos (${totalTema})`;
+
+            if (dropdownCombobox) {
+                dropdownCombobox.innerHTML = '';
+                dropdownCombobox.style.display = 'none';
+
+                // Opção "Todos os Subtemas"
+                const optTodos = document.createElement('div');
+                optTodos.className = 'subtema-combobox-option active';
+                optTodos.setAttribute('data-subtema', 'TODOS');
+                optTodos.innerHTML = `<span class="subtema-option-name">Todos os Subtemas</span> <span class="subtema-combobox-option-count">${totalTema}</span>`;
+                optTodos.onclick = (e) => {
+                    if (e) e.stopPropagation();
                     filtrarPorSubtema('TODOS');
                 };
-                subtemasContainer.appendChild(pillTodosSub);
+                dropdownCombobox.appendChild(optTodos);
 
-                // Pills individuais de Subtemas
+                // Opções individuais de Subtemas
                 listaSubtemas.forEach(s => {
-                    const pillSub = document.createElement('button');
-                    pillSub.type = 'button';
-                    pillSub.className = 'subtema-pill';
-                    pillSub.setAttribute('data-subtema', s);
-                    pillSub.innerHTML = `${s} <span class="subtema-pill-count">${subtemasObj[s]}</span>`;
-                    pillSub.onclick = (e) => {
-                        if (e) e.preventDefault();
+                    const opt = document.createElement('div');
+                    opt.className = 'subtema-combobox-option';
+                    opt.setAttribute('data-subtema', s);
+                    opt.innerHTML = `<span class="subtema-option-name">${s}</span> <span class="subtema-combobox-option-count">${subtemasObj[s]}</span>`;
+                    opt.onclick = (e) => {
+                        if (e) e.stopPropagation();
                         filtrarPorSubtema(s);
                     };
-                    subtemasContainer.appendChild(pillSub);
+                    dropdownCombobox.appendChild(opt);
                 });
             }
         }
@@ -741,21 +1050,45 @@ function filtrarPorTema(tema) {
         });
     }
 
-    aplicarFiltroEPaginacao(true);
+    aplicarFiltroEPaginacao(false);
 }
 
 function filtrarPorSubtema(subtema) {
     subtemaAtivo = subtema;
     paginaAtual = 1;
 
-    // Sincroniza pills de subtemas
-    document.querySelectorAll('.subtema-pill').forEach(btn => {
-        if (btn.getAttribute('data-subtema') === subtema) {
-            btn.classList.add('active');
+    const inputCombobox = document.getElementById('input-subtema-combobox');
+    const dropdownCombobox = document.getElementById('subtema-combobox-dropdown');
+    const totalBadge = document.getElementById('subtema-combobox-total');
+    const btnLimpar = document.getElementById('btn-limpar-subtema');
+
+    if (inputCombobox) {
+        inputCombobox.value = (subtema === 'TODOS' ? '' : subtema);
+    }
+    if (btnLimpar) {
+        btnLimpar.style.display = (subtema !== 'TODOS' ? 'inline-flex' : 'none');
+    }
+    if (dropdownCombobox) {
+        dropdownCombobox.style.display = 'none';
+        dropdownCombobox.querySelectorAll('.subtema-combobox-option').forEach(opt => {
+            if (opt.getAttribute('data-subtema') === subtema) {
+                opt.classList.add('active');
+            } else {
+                opt.classList.remove('active');
+            }
+            opt.style.display = 'flex'; // restaura visibilidade
+        });
+    }
+
+    if (totalBadge && taxonomiaEspecialidades[especialidadeAtiva]?.temas?.[temaAtivo]) {
+        const temasInfo = taxonomiaEspecialidades[especialidadeAtiva].temas[temaAtivo];
+        if (subtema === 'TODOS') {
+            totalBadge.textContent = `Todos (${temasInfo.total})`;
         } else {
-            btn.classList.remove('active');
+            const count = temasInfo.subtemas[subtema] || 0;
+            totalBadge.textContent = `${count} ${count === 1 ? 'questão' : 'questões'}`;
         }
-    });
+    }
 
     if (typeof gtag === 'function') {
         gtag('event', 'filtrar_subtema', {
@@ -765,7 +1098,7 @@ function filtrarPorSubtema(subtema) {
         });
     }
 
-    aplicarFiltroEPaginacao(true);
+    aplicarFiltroEPaginacao(false);
 }
 
 function aplicarFiltroEPaginacao(scroll = false) {
@@ -850,7 +1183,15 @@ function aplicarFiltroEPaginacao(scroll = false) {
     if (scroll) {
         const section = document.querySelector('.filtro-section');
         if (section) {
-            section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            const topBar = document.querySelector('.top-bar');
+            const topBarHeight = topBar ? topBar.offsetHeight + 16 : 80;
+            const rect = section.getBoundingClientRect();
+
+            // Só realiza scroll se o topo dos filtros estiver acima da tela (escondido) ou se o usuário estiver muito abaixo navegando
+            if (rect.top < topBarHeight || rect.top > window.innerHeight) {
+                const targetY = window.pageYOffset + rect.top - topBarHeight;
+                window.scrollTo({ top: Math.max(0, targetY), behavior: 'smooth' });
+            }
         }
     }
 }

@@ -137,10 +137,27 @@
                     </div>
                 </div>
 
-                <!-- Sub-botões de Subtemas do Tema Selecionado -->
+                <!-- Combobox e Busca de Subtemas do Tema Selecionado (Nível 3) -->
                 <div class="filtro-subtemas-wrapper" id="filtro-subtemas-wrapper" style="display: none;">
-                    <div class="filtro-subtemas-pills" id="filtro-subtemas-pills">
-                        <!-- Injetado dinamicamente via JS com chips de subtemas -->
+                    <div class="subtema-combobox-wrapper">
+                        <div class="subtema-combobox-header">
+                            <span class="subtema-combobox-label">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+                                Subtema / Bloco Sindrômico:
+                            </span>
+                            <span class="subtema-combobox-count-badge" id="subtema-combobox-total">Todos os Subtemas</span>
+                        </div>
+                        <div class="subtema-combobox-box" id="subtema-combobox-box">
+                            <svg class="subtema-combobox-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            <input type="text" id="input-subtema-combobox" class="subtema-combobox-input" placeholder="Pesquisar ou selecionar subtema..." autocomplete="off" spellcheck="false">
+                            <button type="button" id="btn-limpar-subtema" class="subtema-combobox-clear" style="display: none;" title="Limpar seleção de subtema" aria-label="Limpar subtema">&times;</button>
+                            <button type="button" id="btn-toggle-subtema" class="subtema-combobox-toggle" title="Listar subtemas" aria-label="Expandir subtemas">
+                                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                            </button>
+                        </div>
+                        <div class="subtema-combobox-dropdown" id="subtema-combobox-dropdown" style="display: none;">
+                            <!-- Opções injetadas dinamicamente via JS com contadores -->
+                        </div>
                     </div>
                 </div>
             </div>

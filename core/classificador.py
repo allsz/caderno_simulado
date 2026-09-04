@@ -18,8 +18,8 @@ TAXONOMIA_MEDICA = {
             "Neurotrauma e TCE": [
                 "glasgow", "tce", "traumatismo cranio", "hematoma extradural", "hematoma subdural",
                 "pupila midriatica", "anisocoria", "afundamento craniano", "fratura de base de cranio",
-                "intervalo lucido", "concussao cerebral", "pressao intracraniana", "pic", "triade de cushing",
-                "escala de coma"
+                "intervalo lucido", "concussao cerebral", "pressao intracraniana", "cateter de pic",
+                "hipertensao intracraniana", "triade de cushing", "escala de coma"
             ],
             "Trauma Torácico": [
                 "pneumotorax", "hemotorax", "tamponamento cardiaco", "triade de beck", "drenagem pleural",
@@ -107,7 +107,7 @@ TAXONOMIA_MEDICA = {
                 "bradicardia", "eletrocardiograma", "ecg", "taquicardia supraventricular", "parada cardiorrespiratoria", "pcr"
             ],
             "Síndromes Coronarianas e Valvopatias": [
-                "infarto agudo do miocardio", "iam", "trombose coronaria", "alteplase", "trombolitico", "angioplastia",
+                "infarto agudo do miocardio", "infarto do miocardio", "iam com supra", "iam sem supra", "trombose coronaria", "alteplase", "trombolitico", "angioplastia",
                 "estenose mitral", "estenose aortica", "insuficiencia mitral", "insuficiencia aortica", "endocardite bacteriana",
                 "angina estavel", "angina instavel", "troponina", "ck-mb", "cateterismo cardiaco", "coronariografia"
             ],
@@ -139,7 +139,7 @@ TAXONOMIA_MEDICA = {
                 "enfisema pulmonar", "bronquite cronica", "oxigenoterapia domiciliar", "cessacao do tabagismo", "tabagista"
             ],
             "Pneumonias, Pleura e Embolia": [
-                "pneumonia", "pac", "escore curb-65", "derrame pleural", "criterios de light", "exsudato", "transudato",
+                "pneumonia", "pneumonia adquirida na comunidade", "pac grave", "escore curb-65", "derrame pleural", "criterios de light", "exsudato", "transudato",
                 "empiema pleural", "tromboembolismo pulmonar", "tep", "dimero-d", "angiotomografia de torax", "hemoptise",
                 "neoplasia de pulmao", "nodulo pulmonar"
             ]
@@ -177,32 +177,86 @@ TAXONOMIA_MEDICA = {
                 "delirium", "abstinencia alcoolica", "delirium tremens", "benzodiazepinico", "dependencia quimica"
             ]
         },
-        "Gastroenterologia e Hepatologia": {
-            "Aparelho Digestivo Alto e Fígado": [
-                "dispepsia", "refluxo", "drge", "ulcera peptica", "h. pylori", "cirrose hepatica", "hipertensao portal",
-                "ascite", "peritonite bacteriana espontanea", "pbe", "encefalopatia hepatica", "lactulose",
-                "esteatose hepatica", "hepatite autoimune"
+        "Gastroenterologia & Hepatologia": {
+            "Esôfago e Estômago": [
+                "dispepsia", "refluxo", "drge", "doenca do refluxo gastroesofagico", "ulcera peptica",
+                "h. pylori", "helicobacter pylori", "acalasia", "megaesofago", "esofagite eosinofilica"
             ],
-            "Intestino e Doença Inflamatória": [
-                "doenca de crohn", "retocolite ulcerativa", "doenca inflamatoria intestinal", "diarreia cronica",
-                "sindrome do intestino irritavel", "doenca celiaca", "antitransglutaminase"
+            "Doenças Intestinais & Disabsortivas": [
+                "doenca de crohn", "retocolite ulcerativa", "doenca inflamatoria intestinal", "dii",
+                "diarreia cronica", "diarreia aguda", "sindrome do intestino irritavel", "sii",
+                "doenca celiaca", "antitransglutaminase", "sibo", "constipacao intestinal"
+            ],
+            "Fígado e Cirrose": [
+                "cirrose hepatica", "hipertensao portal", "ascite", "peritonite bacteriana espontanea",
+                "pbe", "encefalopatia hepatica", "lactulose", "esteatose hepatica", "doenca de wilson",
+                "sindrome de gilbert"
+            ],
+            "Hepatites Virais": [
+                "hepatite a", "hepatite b", "hepatite c", "hepatite delta", "hbsag", "anti-hbc", "anti-hbs"
+            ],
+            "Vias Biliares e Pâncreas": [
+                "colangite esclerosante primaria", "cep", "colangite biliar primaria", "cbp",
+                "pancreatite cronica", "pancreatite aguda", "coledocolitiase"
+            ],
+            "Hemorragia Digestiva": [
+                "hemorragia digestiva alta", "hemorragia digestiva baixa", "hda", "hdb", "sangramento digestivo"
+            ],
+            "Neoplasias Gastrointestinais": [
+                "cancer colorretal", "polipos intestinais", "cancer gastrico", "neoplasia hepatica",
+                "adenocarcinoma de colon", "rastreamento de cancer colorretal"
             ]
         },
-        "Hematologia, Reumatologia e Dermatologia": {
-            "Hematologia": [
+        "Emergência e Cuidados Críticos": {
+            "Sepse e Choque": [
+                "choque septico", "sepse", "qsofa", "lactato elevado", "parada cardiorrespiratoria", "pcr"
+            ],
+            "Emergências Clínicas Gerais": [
+                "afogamento", "anafilaxia", "intoxicacao exogena aguda", "pneumotorax hipertensivo"
+            ]
+        },
+        "Angiologia & Vascular": {
+            "Doenças Venosas e Linfáticas": [
+                "trombose venosa profunda", "tvp", "insuficiencia venosa cronica", "linfedema"
+            ],
+            "Doenças Arteriais Periféricas": [
+                "tromboangeite obliterante", "doenca arterial obstrutiva periferica", "daop", "claudicacao"
+            ]
+        },
+        "Reumatologia": {
+            "Espondiloartrites": [
+                "espondilite anquilosante", "espondiloartrite", "espondiloartropatia", "teste de schober",
+                "hla-b27", "sacroiliite", "sacroiliacas", "dor lombar inflamatoria", "lombalgia inflamatoria",
+                "entesite", "dactilite", "artrite psoriasica"
+            ],
+            "Colagenoses e Artrites Autoimunes": [
+                "artrite reumatoide", "fator reumatoide", "anti-ccp", "lupus eritematoso", "nefrite lupica",
+                "fan", "anti-dna", "esclerose sistemica", "sjogren", "metotrexato", "hidroxicloroquina"
+            ],
+            "Reumatopatias Microcristalinas e Partes Moles": [
+                "gota", "hiperuricemia", "artrite por cristais", "artrocentese", "fibromialgia", "polimialgia reumatica"
+            ],
+            "Vasculites Sistêmicas": [
+                "vasculite", "granulomatose com poliangiite", "wegener", "churg-strauss", "poliarterite nodosa",
+                "arterite de takayasu", "arterite temporal", "anca"
+            ]
+        },
+        "Hematologia e Hemoterapia": {
+            "Anemias e Distúrbios Eritrocitários": [
                 "anemia ferropriva", "ferritina", "anemia megaloblastica", "vitamina b12", "acido folico", "anemia falciforme",
-                "talassemia", "anemia hemolitica", "coombs direto", "leucemia", "linfoma", "mieloma multiplo",
-                "plaquetopenia", "pti", "transfusao sanguinea", "concentrado de hemacias", "anticoagulante", "dabigatrana",
-                "apixabana", "rivaroxabana", "edoxabana", "doac", "varfarina", "heparina", "fator xa"
+                "talassemia", "anemia hemolitica", "coombs direto"
             ],
-            "Reumatologia e Autoimunidade": [
-                "lupus eritematoso", "nefrite lupica", "fan", "anti-dna", "artrite reumatoide", "fator reumatoide",
-                "metotrexato", "espondilite anquilosante", "fibromialgia", "gota", "vasculite", "esclerose sistemica", "sjogren"
-            ],
-            "Dermatologia": [
+            "Onco-Hematologia e Hemostasia": [
+                "leucemia", "linfoma", "mieloma multiplo", "plaquetopenia", "pti", "transfusao sanguinea",
+                "concentrado de hemacias", "anticoagulante", "dabigatrana", "apixabana", "rivaroxabana", "edoxabana",
+                "doac", "varfarina", "heparina", "fator xa"
+            ]
+        },
+        "Dermatologia": {
+            "Dermatoses e Câncer de Pele": [
                 "farmacodermia", "stevens-johnson", "psoriase", "dermatite atopica", "dermatite de contato",
                 "eczema", "melanoma", "carcinoma basocelular", "carcinoma espinocelular", "hanseniase",
-                "micose", "tinea", "escabiose", "urticaria", "brca"
+                "micose", "tinea", "escabiose", "urticaria"
             ]
         }
     },
@@ -253,6 +307,20 @@ TAXONOMIA_MEDICA = {
                 "convulsao febril", "epifisiolise proximal do femur", "osgood-schlatter", "sinovite transitoria do quadril",
                 "artrite septica infantil", "manobra de ortolani", "manobra de barlow", "displasia do desenvolvimento do quadril"
             ]
+        },
+        "Cirurgia Pediátrica": {
+            "Massas Cervicais e Cisto Tireoglosso": [
+                "cisto tireoglosso", "cisto do ducto tireoglosso", "ducto tireoglosso", "protrusao da lingua",
+                "cirurgia de sistrunk", "procedimento de sistrunk", "sistrunk", "higroma cistico",
+                "cisto dermoide", "cisto branquial", "fenda branquial", "tumoracao no pescoco",
+                "massa cervical infantil", "massa cervical", "malformacao cervical"
+            ],
+            "Afecções Cirúrgicas Pediátricas": [
+                "estenose hipertrofica de piloro", "invaginacao intestinal", "intussuscepcao infantil",
+                "doenca de hirschsprung", "diverticulo de meckel infantil", "onfalocele", "gastrosquise",
+                "atresia de esofago", "atresia duodenal", "hernia diafragmatica congenita",
+                "hernia inguinal infantil", "criptorquidia", "orquidopexia"
+            ]
         }
     },
     "Ginecologia e Obstetrícia": {
@@ -280,7 +348,7 @@ TAXONOMIA_MEDICA = {
             "Endocrinologia Ginecológica e Ciclo": [
                 "ovarios policisticos", "sop", "amenorreia", "sindrome de rokitansky", "insuficiencia ovariana prematura",
                 "galactorreia", "hiperprolactinemia", "anticoncepcional oral", "anticoncepcao", "contracepcao",
-                "diu de cobre", "diu de levonorgestrel", "dismenorreia", "sangramento uterino anormal", "sua", "palm-coein",
+                "diu de cobre", "diu de levonorgestrel", "dismenorreia", "sangramento uterino anormal", "palm-coein",
                 "progesterona", "estrogenios", "ovario", "ciclo menstrual", "fase lutea", "fase folicular"
             ],
             "Climatério, Miomas e Endometriose": [
@@ -315,11 +383,11 @@ TAXONOMIA_MEDICA = {
         },
         "Atenção Primária e Sistemas de Saúde": {
             "SUS e Políticas Públicas": [
-                "pnab", "estrategia saude da familia", "esf", "unidade basica de saude", "ubs", "agente comunitario de saude",
+                "pnab", "estrategia saude da familia", "esf", "agente comunitario de saude",
                 "territorializacao", "adstricao de clientela", "resolubilidade", "atributos da aps", "modelo beveridge",
                 "modelo bismarck", "lei 8080", "lei 8142", "controle social", "conselho municipal de saude", "conferencia de saude",
                 "saude indigena", "financiamento do sus", "universalidade", "integralidade", "equidade",
-                "politica nacional de atencao basica", "portaria"
+                "politica nacional de atencao basica", "portaria de consolidacao", "sistema unico de saude"
             ],
             "Medicina de Família e Comunidade (MFC)": [
                 "metodo clinico centrado na pessoa", "mccp", "genograma", "ecomapa", "projeto terapeutico singular",
@@ -343,13 +411,21 @@ TAXONOMIA_MEDICA = {
     }
 }
 
-# Pre-computa termos normalizados para busca instantânea
+# Pre-computa termos normalizados para busca instantânea com fronteiras de palavra
 _TAXONOMIA_NORMALIZADA = []
 for _esp, _temas in TAXONOMIA_MEDICA.items():
     for _tema, _subtemas in _temas.items():
         for _subtema, _kws in _subtemas.items():
-            _kws_norm = [normalizar_texto(k) for k in _kws]
-            _TAXONOMIA_NORMALIZADA.append((_esp, _tema, _subtema, _kws_norm))
+            _kw_entries = []
+            for k in _kws:
+                kn = normalizar_texto(k)
+                if not kn:
+                    continue
+                if ' ' in kn:
+                    _kw_entries.append((kn, True, None))
+                else:
+                    _kw_entries.append((kn, False, re.compile(r'\b' + re.escape(kn) + r'\b')))
+            _TAXONOMIA_NORMALIZADA.append((_esp, _tema, _subtema, _kw_entries))
 
 
 def classificar_questao(texto_completo):
@@ -358,14 +434,19 @@ def classificar_questao(texto_completo):
     melhor_match = ("Outros / Não Categorizados", "Geral", "Diversos")
     maior_score = 0
 
-    for esp, tema, subtema, kws in _TAXONOMIA_NORMALIZADA:
+    for esp, tema, subtema, kw_entries in _TAXONOMIA_NORMALIZADA:
         score = 0
-        for kw in kws:
-            if kw in texto_norm:
-                score += 3 if ' ' in kw else 1
+        for kn, is_phrase, regex in kw_entries:
+            if is_phrase:
+                if kn in texto_norm:
+                    score += 3
+            else:
+                if regex.search(texto_norm):
+                    score += 1
         
         if score > maior_score:
             maior_score = score
             melhor_match = (esp, tema, subtema)
 
     return melhor_match
+
