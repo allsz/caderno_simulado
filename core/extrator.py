@@ -549,6 +549,15 @@ CORRECOES_MANUAIS_QUESTOES = {
             "C": "reposição de bicarbonato de sódio.",
             "D": "administração imediata de manitol."
         }
+    },
+    "REVALIDA-2025_2_caderno_1_preliminar_86": {
+        "enunciado": "Em Unidade de Pronto Atendimento (UPA), mulher de 30 anos, negra, casada, refere vários episódios de dores nas pernas no último ano, às vezes com edema local, e dores torácicas, associadas à febre, coriza e tosse, apresentando melhora com paracetamol há 1 semana. Relata fortes dores em membros inferiores, intensidade 8/10, sem irradiação, e dor na região lombar, fadiga, indisposição e edema doloroso em tornozelo sem melhora, com utilização de analgésicos há 1 dia. Pai faleceu aos 40 anos devido a acidente vascular encefálico. Exame físico: eupneica; afebril; mucosas descoradas (++/4+); icterícia (+/4+). Sem alterações nos sinais vitais. Ausculta cardíaca com sopro sistólico (++/4+). Abdome plano, sem visceromegalias. Edema unilateral sem empastamento em tornozelo esquerdo (++/4+), associado à úlcera maleolar de 2 cm, com secreção purulenta e hiperemia nas bordas.\n\nOs exames laboratoriais apresentam os seguintes resultados:\n\n[TABELA]\n\nQual achado no exame complementar confirma a principal hipótese diagnóstica para o caso?",
+        "alternativas": {
+            "A": "Presença de hemoglobina S na eletroforese de hemoglobina.",
+            "B": "Identificação de hemácias falciformes na análise de gota espessa.",
+            "C": "Predomínio de gamaglobulina na eletroforese de proteínas plasmáticas.",
+            "D": "Observação de glóbulos vermelhos destruídos no esfregaço sanguíneo."
+        }
     }
 }
 
