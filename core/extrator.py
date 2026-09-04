@@ -186,7 +186,7 @@ def extrair_gabarito_pdf(caminho_pdf, mapa_revalida=None):
 
     # Se for ENARE-2025 Caderno 1 (ou GABARITO_DEFINITIVO_CADERNO_1-1)
     # Gabarito oficial DEFINITIVO pós-recurso com 10 questões anuladas (2, 7, 9, 10, 11, 40, 43, 76, 88, 100)
-    if "CARDERNO1" in nome_arq.upper() or "CADERNO1" in nome_arq.upper() or "CADERNO_1" in nome_arq.upper() or "CADERNO-1" in nome_arq.upper():
+    if (("ENARE" in nome_arq.upper() or "GABARITO_DEFINITIVO" in nome_arq.upper()) and ("CARDERNO1" in nome_arq.upper() or "CADERNO1" in nome_arq.upper() or "CADERNO_1" in nome_arq.upper() or "CADERNO-1" in nome_arq.upper())):
         return {
             "1": "A", "2": "ANULADA", "3": "A", "4": "D", "5": "C", "6": "B", "7": "ANULADA", "8": "B", "9": "ANULADA", "10": "ANULADA",
             "11": "ANULADA", "12": "D", "13": "C", "14": "B", "15": "A", "16": "B", "17": "D", "18": "D", "19": "D", "20": "C",
@@ -202,7 +202,7 @@ def extrair_gabarito_pdf(caminho_pdf, mapa_revalida=None):
 
     # Se for ENARE-2025 Acesso Direto - Tipo 3 (Gabarito_ENARE_2025-AcessoDireto-Tipo3.png)
     # Gabarito oficial pós-recurso com 3 questões anuladas (44, 45, 93)
-    if "TIPO3" in nome_arq.upper() or "TIPO-3" in nome_arq.upper() or "TIPO_3" in nome_arq.upper() or "ACESSO" in nome_arq.upper() or "ENARE-2025" in nome_arq.upper() or "ENARE_2025" in nome_arq.upper():
+    if "ENARE" in nome_arq.upper() and ("TIPO3" in nome_arq.upper() or "TIPO-3" in nome_arq.upper() or "TIPO_3" in nome_arq.upper() or "ACESSO" in nome_arq.upper() or "ENARE-2025" in nome_arq.upper() or "ENARE_2025" in nome_arq.upper()):
         return {
             "1": "C", "2": "C", "3": "D", "4": "C", "5": "D", "6": "C", "7": "C", "8": "E", "9": "D", "10": "D",
             "11": "E", "12": "A", "13": "B", "14": "D", "15": "D", "16": "B", "17": "C", "18": "E", "19": "E", "20": "C",
