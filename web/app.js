@@ -1,5 +1,6 @@
-// Chaves de armazenamento suportadas para migração transparente
+// Chaves de armazenamento suportadas para migração transparente e backup de segurança
 const STORAGE_KEY = 'caderno_respostas_simulado';
+const BACKUP_STORAGE_KEY = 'caderno_respostas_simulado_backup';
 const LEGACY_STORAGE_KEYS = ['respostas_simulado', 'respostas_simulado_v1', 'simulado_respostas'];
 
 // Helpers para acesso ultra-seguro ao localStorage (evita quebras em modo anônimo/privado)
@@ -83,73 +84,127 @@ function normalizarIdQuestao(qId) {
     return nId;
 }
 
-// Caches em memória para lookups instantâneos O(1) de cards e inputs
+// Extrai sufixo volátil legado apenas se houver mais de um número no ID (ex: Prova_42_155 -> Prova_42)
+// Preserva intacto o número da questão caso seja único (ex: Prova_42)
+function extrairBaseIdAntigo(str) {
+    if (!str) return str;
+    const matchDuploNumero = str.match(/^(.*_\d+)_\d+$/);
+    if (matchDuploNumero) return matchDuploNumero[1];
+    return str;
+}
+
+// Índices em memória para lookups instantâneos O(1) de cards e inputs (Zero overhead no DOM)
+let _indicesDOMConstruidos = false;
 const _cardDOMCache = new Map();
 const _radioDOMCache = new Map();
+const _mapaRadiosPorNomeEValor = new Map();
+const _mapaRadiosPorNome = new Map();
+const _mapaRadiosPorCleanKey = new Map();
+const _mapaCardsPorId = new Map();
+
+function construirIndicesDOMSeNecessario() {
+    if (_indicesDOMConstruidos && _mapaRadiosPorNomeEValor.size > 0) return;
+
+    // Indexa todos os cards presentes no DOM
+    const cards = document.querySelectorAll('.card-questao');
+    for (let i = 0; i < cards.length; i++) {
+        const card = cards[i];
+        if (card.id) {
+            _mapaCardsPorId.set(card.id, card);
+            const rawId = card.id.replace(/^card_/, '');
+            _mapaCardsPorId.set(rawId, card);
+            const clean = rawId.replace(/^q_/, '');
+            _mapaCardsPorId.set(clean, card);
+            const baseClean = extrairBaseIdAntigo(clean);
+            if (baseClean !== clean) {
+                _mapaCardsPorId.set(baseClean, card);
+                _mapaCardsPorId.set('card_' + baseClean, card);
+            }
+        }
+    }
+
+    // Indexa todos os inputs de radio de alternativas
+    const radios = document.querySelectorAll('input[type="radio"]');
+    for (let i = 0; i < radios.length; i++) {
+        const r = radios[i];
+        const name = r.name;
+        const val = r.value;
+        if (!name) continue;
+
+        _mapaRadiosPorNomeEValor.set(`${name}:::${val}`, r);
+        if (!_mapaRadiosPorNome.has(name)) {
+            _mapaRadiosPorNome.set(name, r);
+            const clean = name.replace(/^q_/, '');
+            _mapaRadiosPorCleanKey.set(clean, name);
+            const baseClean = extrairBaseIdAntigo(clean);
+            if (baseClean !== clean) {
+                _mapaRadiosPorCleanKey.set(baseClean, name);
+            }
+        }
+    }
+
+    _indicesDOMConstruidos = true;
+}
 
 function resolverRadioQuestao(qId, valor) {
     if (!qId) return null;
     const cacheKey = valor ? `${qId}:::${valor}` : `${qId}:::any`;
     if (_radioDOMCache.has(cacheKey)) {
-        const cached = _radioDOMCache.get(cacheKey);
-        if (cached && cached.radio && document.body.contains(cached.radio)) {
-            return cached;
-        }
+        return _radioDOMCache.get(cacheKey);
     }
-    
-    // Normaliza aliases e renomeações de provas antigas
+
+    construirIndicesDOMSeNecessario();
+
     const idNormalizado = normalizarIdQuestao(qId);
     const idsParaTentar = [idNormalizado, qId];
-    
+
     for (const testId of idsParaTentar) {
-        // 1. Match exato
-        let radio = valor 
-            ? document.querySelector(`input[name="${testId}"][value="${valor}"]`)
-            : document.querySelector(`input[name="${testId}"]`);
-        if (radio) {
-            const res = { radio, realQId: radio.name };
-            _radioDOMCache.set(cacheKey, res);
-            return res;
-        }
+        const baseId = extrairBaseIdAntigo(testId);
+        const candidatos = [
+            testId,
+            testId.startsWith('q_') ? testId.substring(2) : 'q_' + testId,
+            baseId,
+            baseId.startsWith('q_') ? baseId.substring(2) : 'q_' + baseId
+        ];
 
-        // 2. Com ou sem prefixo q_
-        const altId = testId.startsWith('q_') ? testId.substring(2) : 'q_' + testId;
-        radio = valor 
-            ? document.querySelector(`input[name="${altId}"][value="${valor}"]`)
-            : document.querySelector(`input[name="${altId}"]`);
-        if (radio) {
-            const res = { radio, realQId: radio.name };
-            _radioDOMCache.set(cacheKey, res);
-            return res;
+        for (const cand of candidatos) {
+            if (valor) {
+                const r = _mapaRadiosPorNomeEValor.get(`${cand}:::${valor}`);
+                if (r) {
+                    const res = { radio: r, realQId: r.name };
+                    _radioDOMCache.set(cacheKey, res);
+                    return res;
+                }
+            } else {
+                const r = _mapaRadiosPorNome.get(cand);
+                if (r) {
+                    const res = { radio: r, realQId: r.name };
+                    _radioDOMCache.set(cacheKey, res);
+                    return res;
+                }
+            }
         }
+    }
 
-        // 3. Removendo sufixo numérico antigo como _1, _2, _45 (índices voláteis antigos)
-        const baseId1 = testId.replace(/_\d+$/, '');
-        radio = valor 
-            ? document.querySelector(`input[name="${baseId1}"][value="${valor}"]`)
-            : document.querySelector(`input[name="${baseId1}"]`);
-        if (radio) {
-            const res = { radio, realQId: radio.name };
-            _radioDOMCache.set(cacheKey, res);
-            return res;
-        }
-
-        const baseId2 = altId.replace(/_\d+$/, '');
-        radio = valor 
-            ? document.querySelector(`input[name="${baseId2}"][value="${valor}"]`)
-            : document.querySelector(`input[name="${baseId2}"]`);
-        if (radio) {
-            const res = { radio, realQId: radio.name };
+    // Busca flexível por clean key pré-indexada
+    const cleanId = idNormalizado.replace(/^q_/, '');
+    const baseClean = extrairBaseIdAntigo(cleanId);
+    const realName = _mapaRadiosPorCleanKey.get(cleanId) || _mapaRadiosPorCleanKey.get(baseClean);
+    if (realName) {
+        const r = valor 
+            ? _mapaRadiosPorNomeEValor.get(`${realName}:::${valor}`)
+            : _mapaRadiosPorNome.get(realName);
+        if (r) {
+            const res = { radio: r, realQId: r.name };
             _radioDOMCache.set(cacheKey, res);
             return res;
         }
     }
 
-    // 4. Busca flexível por substring do nome da prova e questão
-    const cleanId = idNormalizado.replace(/^q_/, '').replace(/_\d+$/, '');
+    // Fallback O(1) direto no DOM
     let radio = valor 
-        ? document.querySelector(`input[name^="q_${cleanId}"][value="${valor}"]`)
-        : document.querySelector(`input[name^="q_${cleanId}"]`);
+        ? (document.querySelector(`input[name="${idNormalizado}"][value="${valor}"]`) || document.querySelector(`input[name="${qId}"][value="${valor}"]`))
+        : (document.querySelector(`input[name="${idNormalizado}"]`) || document.querySelector(`input[name="${qId}"]`));
     if (radio) {
         const res = { radio, realQId: radio.name };
         _radioDOMCache.set(cacheKey, res);
@@ -229,33 +284,56 @@ function toggleResposta(qId) {
 }
 
 function carregarRespostas() {
+    construirIndicesDOMSeNecessario();
+
     // 1. Carrega dados do armazenamento principal
     let dados = safeStorageGet(STORAGE_KEY, {});
 
-    // 2. Migração automática de chaves legadas caso existam
+    // Salvaguarda contra corrupção: se os dados vierem vazios, tenta restaurar do backup automático
+    if (!dados || Object.keys(dados).length === 0) {
+        const backup = safeStorageGet(BACKUP_STORAGE_KEY, {});
+        if (backup && Object.keys(backup).length > 0) {
+            console.warn('[Simulado] Restaurando respostas automaticamente a partir do espelho de segurança...');
+            dados = { ...backup };
+        }
+    }
+
+    // 2. Migração automática e transparente de chaves legadas caso existam
     LEGACY_STORAGE_KEYS.forEach(legacyKey => {
         const legacyData = safeStorageGet(legacyKey, {});
-        if (Object.keys(legacyData).length > 0) {
+        if (legacyData && Object.keys(legacyData).length > 0) {
             dados = { ...legacyData, ...dados };
-            safeStorageRemove(legacyKey);
         }
     });
 
-    const dadosMigrados = {};
+    // 3. Cópia segura: inicializa com TODAS as respostas que o usuário já possui (nunca descarta nada)
+    const dadosAtualizados = { ...dados };
 
-    // 3. Aplica as respostas e migra chaves para o padrão estável
+    // 4. Aplica as respostas e migra chaves para o padrão estável SEM perder nenhuma resposta
     for (const [qId, valor] of Object.entries(dados)) {
         const match = resolverRadioQuestao(qId, valor);
         if (match) {
             match.radio.checked = true;
-            dadosMigrados[match.realQId] = valor;
+            // Se o ID mudou na migração/normalização, atualiza a chave para o novo formato
+            if (match.realQId !== qId) {
+                dadosAtualizados[match.realQId] = valor;
+                delete dadosAtualizados[qId];
+            }
             const gabarito = match.radio.getAttribute('data-gabarito');
             atualizarEstiloQuestao(match.realQId, valor, gabarito);
         }
+        // Se NÃO der match no DOM atual (ex: questão em filtro ou variação de edição),
+        // a resposta PERMANECE preservada em dadosAtualizados! Jamais descartamos dados do usuário.
     }
 
-    // Salva o banco limpo e migrado de forma segura
-    safeStorageSet(STORAGE_KEY, dadosMigrados);
+    // 5. Salva o banco seguro e atualizado
+    safeStorageSet(STORAGE_KEY, dadosAtualizados);
+
+    // 6. Atualiza o espelho de segurança automático
+    if (Object.keys(dadosAtualizados).length > 0) {
+        safeStorageSet(BACKUP_STORAGE_KEY, dadosAtualizados);
+    }
+
     atualizarEstatisticas();
 }
 
@@ -266,6 +344,7 @@ function salvarResposta(qId, valor, gabarito) {
 
     dados[realQId] = valor;
     safeStorageSet(STORAGE_KEY, dados);
+    safeStorageSet(BACKUP_STORAGE_KEY, dados);
     
     // 1. Atualização visual instantânea
     atualizarEstiloQuestao(realQId, valor, gabarito);
@@ -1461,49 +1540,56 @@ function encontrarCardQuestao(qId) {
         const cached = _cardDOMCache.get(qId);
         if (cached && document.body.contains(cached)) return cached;
     }
+
+    construirIndicesDOMSeNecessario();
+
     const idNormalizado = normalizarIdQuestao(qId);
     const idsParaTentar = [idNormalizado, qId];
 
     for (const testId of idsParaTentar) {
-        let card = document.getElementById('card_' + testId) || document.getElementById(testId);
-        if (!card && testId.startsWith('q_')) {
-            card = document.getElementById('card_' + testId.substring(2));
-        }
-        if (!card && !testId.startsWith('q_')) {
-            card = document.getElementById('card_q_' + testId);
-        }
-        if (!card) {
-            // Tenta remover índice final antigo como _1, _2, etc
-            const baseQId = testId.replace(/_\d+$/, '');
-            card = document.getElementById('card_' + baseQId) || document.getElementById(baseQId) || document.getElementById('card_q_' + baseQId.replace(/^q_/, ''));
-        }
-        if (!card) {
-            // Busca flexível por prefixo de ID (ex: card_q_ENARE-2023-Objetiva_42)
-            const cleanId = testId.replace(/^card_/, '').replace(/^q_/, '').replace(/_\d+$/, '');
-            card = document.querySelector(`[id^="card_q_${cleanId}"]`) || document.querySelector(`[id*="${cleanId}"]`);
-        }
-        if (card) {
-            _cardDOMCache.set(qId, card);
-            if (idNormalizado !== qId) _cardDOMCache.set(idNormalizado, card);
-            return card;
+        const baseId = extrairBaseIdAntigo(testId);
+        const candidatos = [
+            'card_' + testId,
+            testId,
+            testId.startsWith('q_') ? 'card_' + testId.substring(2) : 'card_q_' + testId,
+            'card_' + baseId,
+            baseId,
+            baseId.startsWith('q_') ? 'card_' + baseId.substring(2) : 'card_q_' + baseId
+        ];
+
+        for (const cand of candidatos) {
+            let card = _mapaCardsPorId.get(cand) || document.getElementById(cand);
+            if (card) {
+                _cardDOMCache.set(qId, card);
+                if (idNormalizado !== qId) _cardDOMCache.set(idNormalizado, card);
+                return card;
+            }
         }
     }
+
+    // Busca flexível por prefixo seguro de ID
+    const cleanId = idNormalizado.replace(/^card_/, '').replace(/^q_/, '');
+    const baseClean = extrairBaseIdAntigo(cleanId);
+    let card = _mapaCardsPorId.get(cleanId) || _mapaCardsPorId.get('card_' + cleanId)
+        || _mapaCardsPorId.get(baseClean) || _mapaCardsPorId.get('card_' + baseClean);
+
+    if (card) {
+        _cardDOMCache.set(qId, card);
+        if (idNormalizado !== qId) _cardDOMCache.set(idNormalizado, card);
+        return card;
+    }
+
     return null;
 }
 
 function coletarErrosHierarquicos() {
-    const dados = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+    const dados = safeStorageGet(STORAGE_KEY, {});
     const tree = {};
     let totalGeral = 0;
-    let mudouStorage = false;
 
     for (const [qId, valorMarcado] of Object.entries(dados)) {
         const card = encontrarCardQuestao(qId);
-        if (!card) {
-            delete dados[qId];
-            mudouStorage = true;
-            continue;
-        }
+        if (!card) continue; // Nunca deletar do storage; apenas ignora no relatório se o card não estiver disponível
 
         const radio = card.querySelector('input[type="radio"]');
         if (!radio) continue;
@@ -1555,10 +1641,6 @@ function coletarErrosHierarquicos() {
                 gabarito: gabarito
             });
         }
-    }
-
-    if (mudouStorage) {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(dados));
     }
 
     return { tree, totalGeral };
@@ -2651,6 +2733,96 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
+// ========================================================
+// Backup Seguro: Exportar e Importar Respostas (JSON)
+// ========================================================
+function exportarBackupRespostas() {
+    const dados = safeStorageGet(STORAGE_KEY, {});
+    const total = Object.keys(dados).length;
+    
+    if (total === 0) {
+        alert('Você ainda não possui nenhuma questão respondida para exportar.');
+        return;
+    }
+
+    const backupPayload = {
+        app: 'Simulado Residência Médica',
+        versao: '2.0',
+        dataExportacao: new Date().toISOString(),
+        totalQuestoesRespondidas: total,
+        respostas: dados
+    };
+
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(backupPayload, null, 2));
+    const dataAtual = new Date().toISOString().slice(0, 10);
+    const fileName = `simulado_respostas_backup_${dataAtual}.json`;
+
+    const downloadAnchor = document.createElement('a');
+    downloadAnchor.setAttribute("href", dataStr);
+    downloadAnchor.setAttribute("download", fileName);
+    document.body.appendChild(downloadAnchor);
+    downloadAnchor.click();
+    downloadAnchor.remove();
+
+    if (typeof gtag === 'function') {
+        gtag('event', 'exportar_backup', { total: total });
+    }
+}
+
+function dispararSeletorImportarBackup() {
+    const input = document.getElementById('input-importar-backup');
+    if (input) {
+        input.value = '';
+        input.click();
+    }
+}
+
+function processarArquivoImportacaoBackup(event) {
+    const file = event.target.files && event.target.files[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = function(e) {
+        try {
+            const parsed = JSON.parse(e.target.result);
+            let novasRespostas = {};
+
+            if (parsed && typeof parsed === 'object') {
+                if (parsed.respostas && typeof parsed.respostas === 'object') {
+                    novasRespostas = parsed.respostas;
+                } else {
+                    novasRespostas = parsed;
+                }
+            }
+
+            const chaves = Object.keys(novasRespostas);
+            if (chaves.length === 0) {
+                alert('O arquivo selecionado não contém respostas válidas.');
+                return;
+            }
+
+            const dadosAtuais = safeStorageGet(STORAGE_KEY, {});
+            const dadosMesclados = { ...dadosAtuais, ...novasRespostas };
+            
+            safeStorageSet(STORAGE_KEY, dadosMesclados);
+            safeStorageSet(BACKUP_STORAGE_KEY, dadosMesclados);
+
+            // Re-executa a carga para atualizar os radios e estatísticas
+            carregarRespostas();
+
+            alert(`Backup importado com sucesso!\n${chaves.length} respostas sincronizadas (Total salvo no seu navegador: ${Object.keys(dadosMesclados).length}).`);
+            
+            if (typeof gtag === 'function') {
+                gtag('event', 'importar_backup', { total: Object.keys(dadosMesclados).length });
+            }
+        } catch (err) {
+            console.error('Erro ao importar backup:', err);
+            alert('Não foi possível ler o arquivo de backup. Certifique-se de que é um arquivo .json válido gerado pelo simulado.');
+        }
+    };
+    reader.readAsText(file);
+}
+
 // Inicialização completa
 initTheme();
 window.addEventListener('DOMContentLoaded', () => {
@@ -2661,3 +2833,4 @@ window.addEventListener('DOMContentLoaded', () => {
 if (document.readyState !== 'loading') {
     configurarInteracoesZoom();
 }
+

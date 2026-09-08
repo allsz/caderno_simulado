@@ -56,6 +56,23 @@
             </div>
         </div>
         <div style="display: flex; gap: 8px; align-items: center;">
+            <button type="button" class="btn-icon-topbar" id="btn-exportar-backup" onclick="exportarBackupRespostas()"
+                title="Exportar Backup das Respostas (Download JSON)">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+            </button>
+            <button type="button" class="btn-icon-topbar" id="btn-importar-backup" onclick="dispararSeletorImportarBackup()"
+                title="Restaurar / Importar Backup de Respostas (Upload JSON)">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" y1="3" x2="12" y2="15"></line>
+                </svg>
+            </button>
+            <input type="file" id="input-importar-backup" accept=".json" style="display: none;" onchange="processarArquivoImportacaoBackup(event)">
             <button type="button" class="btn-icon-topbar" id="btn-aviso-toggle" onclick="abrirAvisoModal()"
                 title="Aviso sobre IA e Gabarito">
                 <img src="{{IMG_AVISO_B64}}" alt="Aviso" class="aviso-icon-img">
@@ -64,7 +81,13 @@
                 title="Alternar Modo Escuro / Modo Claro">
                 <img src="{{IMG_DARK_B64}}" alt="Alternar Tema" id="theme-icon-img" class="theme-icon-img">
             </button>
-            <button type="button" class="btn-reset" onclick="abrirConfirmResetModal()">✖ Limpar Respostas</button>
+            <button type="button" class="btn-icon-topbar btn-reset" id="btn-reset-respostas" onclick="abrirConfirmResetModal()"
+                title="Limpar Respostas Salvas">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
         </div>
     </div>
 
@@ -277,6 +300,24 @@
                         <span class="stat-value" id="stat-respondidas">0 / {{TOTAL_QUESTOES}}</span>
                         <span class="stat-label">Respondidas</span>
                     </div>
+                </div>
+            </div>
+
+            <!-- Barra de Backup e Segurança das Respostas -->
+            <div class="stats-backup-bar">
+                <div class="stats-backup-info">
+                    <span class="stats-backup-icon">💾</span>
+                    <span>Suas respostas ficam salvas no navegador. Exporte um arquivo de backup para garantir seus dados ou transferir para outro computador:</span>
+                </div>
+                <div class="stats-backup-actions">
+                    <button type="button" class="btn-backup-action btn-exportar" onclick="exportarBackupRespostas()" title="Baixar arquivo JSON com todas as suas respostas salvas">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        Exportar Progresso (JSON)
+                    </button>
+                    <button type="button" class="btn-backup-action btn-importar" onclick="dispararSeletorImportarBackup()" title="Carregar um arquivo JSON de backup previamente exportado">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                        Importar Progresso
+                    </button>
                 </div>
             </div>
         </div>
