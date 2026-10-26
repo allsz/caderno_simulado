@@ -3622,3 +3622,201 @@ h1 {
     font-size: 48px;
     margin-bottom: 12px;
 }
+
+/* ========================================================
+   Efeitos de Tela Cheia & Modal de Finalização do Simulado
+   ======================================================== */
+#canvas-confetes-simulado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9998;
+}
+
+.concluido-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.82);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0;
+    transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.concluido-modal-overlay.active {
+    display: flex;
+    opacity: 1;
+}
+
+.concluido-modal-card {
+    background: var(--card-bg, #ffffff);
+    border: 1px solid var(--border-color, #e2e8f0);
+    border-radius: 24px;
+    box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.55), 0 0 35px rgba(59, 130, 246, 0.15);
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transform: scale(0.92) translateY(16px);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+    text-align: center;
+}
+
+.concluido-modal-overlay.active .concluido-modal-card {
+    transform: scale(1) translateY(0);
+}
+
+/* Header & Badges temáticos por cenário */
+.concluido-modal-header {
+    padding: 32px 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(180deg, rgba(59, 130, 246, 0.08) 0%, transparent 100%);
+    position: relative;
+}
+
+.concluido-badge {
+    font-size: 52px;
+    line-height: 1;
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
+    animation: bounceBadge 1.2s infinite alternate cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+@keyframes bounceBadge {
+    0% { transform: translateY(0) scale(1); }
+    100% { transform: translateY(-8px) scale(1.08); }
+}
+
+.concluido-modal-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--text-main, #0f172a);
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+/* Modificadores de Cenário para o Card */
+.concluido-modal-card.cenario-perfeito {
+    border-color: rgba(234, 179, 8, 0.5);
+    box-shadow: 0 30px 70px -12px rgba(202, 138, 4, 0.35), 0 0 45px rgba(250, 204, 21, 0.2);
+}
+.concluido-modal-card.cenario-perfeito .concluido-modal-header {
+    background: linear-gradient(180deg, rgba(234, 179, 8, 0.14) 0%, transparent 100%);
+}
+.concluido-modal-card.cenario-perfeito .concluido-modal-title {
+    background: linear-gradient(135deg, #ca8a04 0%, #eab308 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.concluido-modal-card.cenario-critico {
+    border-color: rgba(100, 116, 139, 0.35);
+}
+.concluido-modal-card.cenario-critico .concluido-modal-header {
+    background: linear-gradient(180deg, rgba(100, 116, 139, 0.08) 0%, transparent 100%);
+}
+
+.concluido-modal-body {
+    padding: 0 28px 24px;
+}
+
+.concluido-modal-mensagem {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    font-weight: 600;
+    color: var(--text-main, #334155);
+    margin: 0 0 24px 0;
+}
+
+.concluido-metricas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    background: var(--alt-hover-bg, #f8fafc);
+    border: 1px solid var(--border-color, #e2e8f0);
+    border-radius: 16px;
+    padding: 14px 12px;
+}
+
+.concluido-metrica-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.concluido-metrica-rotulo {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted, #64748b);
+}
+
+.concluido-metrica-valor {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--text-main, #0f172a);
+}
+
+.concluido-metrica-valor.text-success {
+    color: #16a34a;
+}
+
+.concluido-modal-footer {
+    padding: 0 28px 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-concluido-okay {
+    width: 100%;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, var(--primary, #2563eb) 0%, #1d4ed8 100%);
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-concluido-okay:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 24px -5px rgba(37, 99, 235, 0.5);
+    filter: brightness(1.06);
+}
+
+.btn-concluido-okay:active {
+    transform: translateY(0);
+}
+
+.cenario-perfeito .btn-concluido-okay {
+    background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+    box-shadow: 0 10px 20px -5px rgba(217, 119, 6, 0.4);
+}
+.cenario-perfeito .btn-concluido-okay:hover {
+    box-shadow: 0 14px 24px -5px rgba(217, 119, 6, 0.5);
+}
+
+.cenario-critico .btn-concluido-okay {
+    background: linear-gradient(135deg, #475569 0%, #334155 100%);
+    box-shadow: 0 10px 20px -5px rgba(71, 85, 105, 0.3);
+}

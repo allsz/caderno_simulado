@@ -268,6 +268,20 @@ function atualizarEstatisticas() {
 
     // Sincroniza a barra de progresso superior
     atualizarBarra(respondidasValidas);
+
+    // Verificação O(1) de conclusão do simulado para efeitos fullscreen
+    if (!window._inicializandoRespostas && total > 0 && respondidasValidas >= total && !window.simuladoFinalizadoJaDisparado) {
+        window.simuladoFinalizadoJaDisparado = true;
+        let cenario = 1;
+        if (acertos === total) {
+            cenario = 2; // Acertou todas (100%)
+        } else if (acertos === 0) {
+            cenario = 3; // Errou todas (0%)
+        } else {
+            cenario = 1; // Completou todas com acertos parciais
+        }
+        dispararEfeitoFinalizacao(cenario, { total, acertos, taxa });
+    }
 }
 
 function toggleResposta(qId) {
@@ -284,6 +298,7 @@ function toggleResposta(qId) {
 }
 
 function carregarRespostas() {
+    window._inicializandoRespostas = true;
     construirIndicesDOMSeNecessario();
 
     // 1. Carrega dados do armazenamento principal
@@ -335,6 +350,7 @@ function carregarRespostas() {
     }
 
     atualizarEstatisticas();
+    window._inicializandoRespostas = false;
 }
 
 function salvarResposta(qId, valor, gabarito) {
@@ -1394,6 +1410,7 @@ function executarLimparRespostas() {
     document.querySelectorAll('.gabarito-box').forEach(b => b.style.display = 'none');
     atualizarBarra(0);
     atualizarEstatisticas();
+    encerrarEfeitosSimulado(true);
     fecharConfirmResetModal();
 }
 
@@ -2822,6 +2839,308 @@ function processarArquivoImportacaoBackup(event) {
     };
     reader.readAsText(file);
 }
+
+// ========================================================
+// Efeito Fullscreen e Modal de Conclusão do Simulado (Canvas 2D)
+// ========================================================
+let animIdFinalizacao = null;
+let timeoutModalFinalizacao = null;
+let canvasFinalizacao = null;
+window.simuladoFinalizadoJaDisparado = false;
+
+function dispararEfeitoFinalizacao(cenario = 1, stats = {}, isTest = false) {
+    // 1. Limpa qualquer efeito residual ativo
+    encerrarEfeitosSimulado(false);
+
+    // 2. Prepara o canvas em tela cheia com alta densidade de pixels (Retina / High-DPI)
+    canvasFinalizacao = document.createElement('canvas');
+    canvasFinalizacao.id = 'canvas-confetes-simulado';
+    document.body.appendChild(canvasFinalizacao);
+
+    const ctx = canvasFinalizacao.getContext('2d');
+    let dpr = window.devicePixelRatio || 1;
+    let width = window.innerWidth;
+    let height = window.innerHeight;
+
+    function redimensionarCanvas() {
+        if (!canvasFinalizacao) return;
+        dpr = window.devicePixelRatio || 1;
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvasFinalizacao.width = Math.round(width * dpr);
+        canvasFinalizacao.height = Math.round(height * dpr);
+        canvasFinalizacao.style.width = width + 'px';
+        canvasFinalizacao.style.height = height + 'px';
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    redimensionarCanvas();
+    window.addEventListener('resize', redimensionarCanvas);
+
+    // 3. Configuração dos parâmetros visuais por cenário
+    let particulas = [];
+    let fogos = [];
+    let contadorFrames = 0;
+
+    let totalParticulas = 160;
+    let paletaCores = ['#2563eb', '#38bdf8', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6', '#f43f5e'];
+    let permitirFogos = false;
+    let velocidadeBase = 3.5;
+
+    if (cenario === 2) {
+        // CASO 2: 100% Acertos -> Confetes Dourados + Fogos de Artifício
+        totalParticulas = 220;
+        paletaCores = ['#ffd700', '#f59e0b', '#fbbf24', '#fff8dc', '#fef08a', '#d97706', '#ffffff'];
+        permitirFogos = true;
+        velocidadeBase = 4.0;
+    } else if (cenario === 3) {
+        // CASO 3: 0% Acertos -> Mínimo de confetes (sutil, cinzento, lento)
+        totalParticulas = 15;
+        paletaCores = ['#94a3b8', '#64748b', '#cbd5e1', '#a1a1aa'];
+        permitirFogos = false;
+        velocidadeBase = 1.6;
+    }
+
+    // Criação inicial das partículas de confete
+    for (let i = 0; i < totalParticulas; i++) {
+        particulas.push(criarConfete(width, height, paletaCores, velocidadeBase, true));
+    }
+
+    function criarConfete(w, h, cores, velBase, inicial = false) {
+        const cor = cores[Math.floor(Math.random() * cores.length)];
+        const tamanhoL = Math.random() * 8 + 6;
+        const tamanhoA = Math.random() * 5 + 4;
+        return {
+            x: Math.random() * w,
+            y: inicial ? Math.random() * -h : -20 - Math.random() * 40,
+            largura: tamanhoL,
+            altura: tamanhoA,
+            cor: cor,
+            velY: (Math.random() * 2 + velBase) * 0.8,
+            velX: Math.random() * 2 - 1,
+            oscilacao: Math.random() * Math.PI * 2,
+            velOscilacao: Math.random() * 0.05 + 0.02,
+            rotacao: Math.random() * Math.PI,
+            velRotacao: Math.random() * 0.08 + 0.03,
+            redondo: Math.random() > 0.65
+        };
+    }
+
+    // Função auxiliar para fogos de artifício (Cenário 2)
+    function lancarFoguete() {
+        if (!permitirFogos) return;
+        const xOrigem = Math.random() * (width * 0.8) + (width * 0.1);
+        const yAlvo = Math.random() * (height * 0.35) + (height * 0.15);
+        fogos.push({
+            tipo: 'foguete',
+            x: xOrigem,
+            y: height,
+            yAlvo: yAlvo,
+            velY: -(Math.random() * 4 + 12),
+            velX: (Math.random() - 0.5) * 2,
+            cor: paletaCores[Math.floor(Math.random() * paletaCores.length)],
+            rastro: []
+        });
+    }
+
+    function explodirFoguete(f) {
+        const numCentelhas = Math.floor(Math.random() * 20) + 40;
+        for (let i = 0; i < numCentelhas; i++) {
+            const angulo = (Math.PI * 2 * i) / numCentelhas + (Math.random() * 0.2 - 0.1);
+            const forca = Math.random() * 5 + 2;
+            fogos.push({
+                tipo: 'centelha',
+                x: f.x,
+                y: f.y,
+                velX: Math.cos(angulo) * forca,
+                velY: Math.sin(angulo) * forca,
+                cor: f.cor,
+                alpha: 1,
+                vida: Math.random() * 30 + 45
+            });
+        }
+    }
+
+    // 4. Loop de renderização fluida a 60 FPS (O(N) in-memory)
+    function loop() {
+        ctx.clearRect(0, 0, width, height);
+        contadorFrames++;
+
+        // Renderiza e atualiza confetes
+        for (let i = 0; i < particulas.length; i++) {
+            const p = particulas[i];
+            p.oscilacao += p.velOscilacao;
+            p.rotacao += p.velRotacao;
+            p.y += p.velY;
+            p.x += Math.sin(p.oscilacao) * 1.5 + p.velX;
+
+            ctx.save();
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.rotacao);
+            const escalaY = Math.cos(p.oscilacao);
+            ctx.scale(1, escalaY);
+
+            ctx.fillStyle = p.cor;
+            if (p.redondo) {
+                ctx.beginPath();
+                ctx.arc(0, 0, p.largura * 0.45, 0, Math.PI * 2);
+                ctx.fill();
+            } else {
+                ctx.fillRect(-p.largura / 2, -p.altura / 2, p.largura, p.altura);
+            }
+            ctx.restore();
+
+            // Recicla continuamente as partículas no topo enquanto os efeitos estiverem na tela
+            if (p.y > height + 20) {
+                particulas[i] = criarConfete(width, height, paletaCores, velocidadeBase, false);
+            }
+        }
+
+        // Renderiza e atualiza fogos de artifício (Cenário 2)
+        if (permitirFogos) {
+            if (contadorFrames % 45 === 0 || contadorFrames === 5) {
+                lancarFoguete();
+            }
+
+            for (let i = fogos.length - 1; i >= 0; i--) {
+                const f = fogos[i];
+                if (f.tipo === 'foguete') {
+                    f.y += f.velY;
+                    f.x += f.velX;
+                    f.velY *= 0.98;
+
+                    // Desenha o foguete em ascensão
+                    ctx.save();
+                    ctx.fillStyle = f.cor;
+                    ctx.shadowColor = f.cor;
+                    ctx.shadowBlur = 10;
+                    ctx.beginPath();
+                    ctx.arc(f.x, f.y, 3, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.restore();
+
+                    if (f.y <= f.yAlvo || f.velY >= -1.5) {
+                        explodirFoguete(f);
+                        fogos.splice(i, 1);
+                    }
+                } else if (f.tipo === 'centelha') {
+                    f.x += f.velX;
+                    f.y += f.velY;
+                    f.velX *= 0.96;
+                    f.velY *= 0.96;
+                    f.velY += 0.08; // Gravidade leve
+                    f.alpha -= 1 / f.vida;
+
+                    if (f.alpha <= 0) {
+                        fogos.splice(i, 1);
+                        continue;
+                    }
+
+                    ctx.save();
+                    ctx.globalAlpha = Math.max(0, f.alpha);
+                    ctx.fillStyle = f.cor;
+                    ctx.shadowColor = f.cor;
+                    ctx.shadowBlur = 8;
+                    ctx.beginPath();
+                    ctx.arc(f.x, f.y, 2.5, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.restore();
+                }
+            }
+        }
+
+        animIdFinalizacao = requestAnimationFrame(loop);
+    }
+
+    loop();
+
+    // 5. O modal deve aparecer exatamente 10 segundos após o trigger dos efeitos
+    timeoutModalFinalizacao = setTimeout(() => {
+        abrirModalFinalizacao(cenario, stats);
+    }, 10000);
+}
+
+function abrirModalFinalizacao(cenario, stats = {}) {
+    const overlay = document.getElementById('simulado-concluido-modal-overlay');
+    const card = document.getElementById('simulado-concluido-modal-card');
+    const badge = document.getElementById('simulado-concluido-badge');
+    const titulo = document.getElementById('simulado-concluido-titulo');
+    const mensagem = document.getElementById('simulado-concluido-mensagem');
+    const statTotal = document.getElementById('concluido-stat-total');
+    const statAcertos = document.getElementById('concluido-stat-acertos');
+    const statTaxa = document.getElementById('concluido-stat-taxa');
+
+    if (!overlay || !card) return;
+
+    // Remove modificadores anteriores
+    card.classList.remove('cenario-perfeito', 'cenario-critico', 'cenario-comum');
+
+    const total = stats.total ?? (window.TOTAL_QUESTOES || 0);
+    const acertos = stats.acertos ?? 0;
+    const taxa = stats.taxa ?? (total > 0 ? Math.round((acertos / total) * 100) : 0);
+
+    if (cenario === 2) {
+        // CASO 2
+        card.classList.add('cenario-perfeito');
+        if (badge) badge.textContent = '🏆';
+        if (titulo) titulo.textContent = 'Desempenho Impecável!';
+        if (mensagem) mensagem.textContent = 'Parabéns por completar este simulado, espero que você vá tão bem nas provas quanto foi aqui!';
+    } else if (cenario === 3) {
+        // CASO 3
+        card.classList.add('cenario-critico');
+        if (badge) badge.textContent = '📚';
+        if (titulo) titulo.textContent = 'Simulado Finalizado';
+        if (mensagem) mensagem.textContent = 'Por favor, estude mais!';
+    } else {
+        // CASO 1
+        card.classList.add('cenario-comum');
+        if (badge) badge.textContent = '🎉';
+        if (titulo) titulo.textContent = 'Parabéns!';
+        if (mensagem) mensagem.textContent = 'Parabéns por completar este simulado, espero que você vá bem nas provas!';
+    }
+
+    if (statTotal) statTotal.textContent = total;
+    if (statAcertos) statAcertos.textContent = acertos;
+    if (statTaxa) statTaxa.textContent = taxa + '%';
+
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function encerrarEfeitosSimulado(resetFlag = false) {
+    if (animIdFinalizacao) {
+        cancelAnimationFrame(animIdFinalizacao);
+        animIdFinalizacao = null;
+    }
+    if (timeoutModalFinalizacao) {
+        clearTimeout(timeoutModalFinalizacao);
+        timeoutModalFinalizacao = null;
+    }
+    if (canvasFinalizacao) {
+        canvasFinalizacao.remove();
+        canvasFinalizacao = null;
+    }
+
+    const overlay = document.getElementById('simulado-concluido-modal-overlay');
+    if (overlay) {
+        overlay.classList.remove('active');
+    }
+    document.body.style.overflow = '';
+
+    if (resetFlag) {
+        window.simuladoFinalizadoJaDisparado = false;
+    }
+}
+
+// Helper global para teste imediato de qualquer cenário via Console
+window.testarEfeitoSimulado = function(cenario = 1) {
+    const total = window.TOTAL_QUESTOES || 50;
+    let acertos = Math.round(total * 0.75);
+    if (cenario === 2) acertos = total;
+    if (cenario === 3) acertos = 0;
+    const taxa = Math.round((acertos / total) * 100);
+    console.log(`[Simulado] Testando Cenário ${cenario} (Acertos: ${acertos}/${total} - ${taxa}%)... O modal abrirá em 10 segundos.`);
+    dispararEfeitoFinalizacao(cenario, { total, acertos, taxa }, true);
+};
 
 // Inicialização completa
 initTheme();
