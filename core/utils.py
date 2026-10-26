@@ -178,6 +178,15 @@ def formatar_explicacao_html(exp):
     if not exp:
         return ""
     texto = str(exp).replace("\r\n", "\n").replace("\\r\\n", "\n").replace("\\n", "\n").replace("\r", "")
+    
+    # Remove marcas de cabeçalho markdown (#, ##, ###) garantindo que o título fique em negrito
+    def _tratar_heading(m):
+        conteudo = m.group(1).strip()
+        if conteudo.startswith('**') and conteudo.endswith('**'):
+            return conteudo
+        return f"**{conteudo}**"
+    texto = re.sub(r'(?m)^#{1,6}\s*(.+?)$', _tratar_heading, texto)
+    
     texto = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', texto)
     texto = re.sub(r'(?m)^-\s+', '• ', texto)
     paragrafos = [p.strip().replace('\n', '<br>') for p in re.split(r'\n\s*\n', texto) if p.strip()]

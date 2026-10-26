@@ -43,14 +43,14 @@ def carregar_api_key():
 
 
 def construir_prompt_preceptor(questao, gabarito_oficial):
-    """Constrói prompt didático de preceptor médico sênior com diretrizes oficiais."""
+    """Constrói prompt didático de preceptor médico sênior com diretrizes oficiais e negrito semântico."""
     origem = questao.get("origem", "")
     numero = questao.get("numero", "")
     enunciado = questao.get("enunciado", "")
     alternativas = json.dumps(questao.get("alternativas", {}), ensure_ascii=False, indent=2)
 
     return f"""Você é um médico preceptor especialista de excelência em Residência Médica e Revalida.
-Analise detalhadamente a questão clínica abaixo e forneça uma justificativa médica oficial, didática, aprofundada e pedagógica para médicos e estudantes.
+Analise detalhadamente a questão clínica abaixo e forneça uma justificativa médica oficial, didática, aprofundada e pedagógica para médicos e estudantes, aplicando a estrutura padrão-ouro em 3 blocos com DESTAQUES SEMÂNTICOS EM NEGRITO (semantic bolding).
 
 PROVA: {origem}
 QUESTÃO: {numero}
@@ -62,15 +62,28 @@ ALTERNATIVAS:
 
 GABARITO OFICIAL DEFINITIVO: Alternativa ({gabarito_oficial})
 
-DIRETRIZES DE RESPOSTA:
-1. Comece fundamentando com clareza clínica e raciocínio fisiopatológico o porquê de a alternativa ({gabarito_oficial}) ser a resposta correta/conduta padrão segundo as diretrizes médicas oficiais vigentes (Ministério da Saúde, SBC, CFM, SBP, FEBRASGO, etc.).
-2. Em seguida, analise sucintamente cada uma das demais alternativas, explicando o erro específico de cada distrator.
-3. Mantenha tom formal, técnico, objetivo e altamente instrutivo.
+DIRETRIZES ESTRUTURAIS E REGRAS DE FORMATAÇÃO (RIGOROSO):
+1. NUNCA utilize caracteres '#', '##' ou '###' no início de linhas. Para títulos de seção, use estritamente negrito simples:
+   **Raciocínio Clínico e Fisiopatológico:**
+   **Análise dos Distratores:**
+2. BLOCO 1 - LEAD / RESPOSTA DIRETA:
+   Inicie declarando a resposta correta de forma imediata e assertiva:
+   "O gabarito correto é a **Alternativa ({gabarito_oficial})**. [Justificativa direta citando a conduta/diagnóstico central e diretrizes/consensos médicos oficiais vigentes como MS, SBC, ACLS, FEBRASGO, SBP, CFM, etc.]."
+3. BLOCO 2 - **Raciocínio Clínico e Fisiopatológico:**
+   Apresente em tópicos numerados:
+   1. **Diagnóstico da Afecção/Quadro:** Nome exato da condição em negrito, correlacionando aos achados clínicos. Use itálico para termos em latim ou epônimos.
+   2. **Critério Clínico / Fisiopatologia:** Destaque em negrito dados clínicos decisivos (ex.: valores de corte, sinais de gravidade, drogas/mecanismos fisiopatológicos).
+   3. **Indicação de Conduta:** A regra técnica padrão-ouro que fundamenta a abordagem correta.
+4. BLOCO 3 - **Análise dos Distratores:**
+   Analise cada uma das alternativas incorretas com bullet (•):
+   • **Alternativa X (Incorreta):** Explicação técnica direta de por que a opção está errada, destacando em negrito termos cruciais (contraindicações formais, dados ausentes, distinções semiológicas).
+5. NEGRITO CIRÚRGICO (SEMANTIC BOLDING):
+   Aplique **negrito** de forma inteligente e equilibrada apenas nos termos-chave (diagnósticos, drogas de escolha, lesões elementares, contraindicações). NUNCA negrite frases inteiras.
 
 Responda exclusivamente em formato JSON com a seguinte estrutura:
 {{
   "gabarito": "{gabarito_oficial}",
-  "explicacao": "Sua justificativa técnica completa, estruturada e fundamentada."
+  "explicacao": "Sua justificativa técnica completa, estruturada e fundamentada com negrito semântico."
 }}"""
 
 
