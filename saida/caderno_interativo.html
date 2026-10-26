@@ -3654,6 +3654,205 @@ h1 {
     font-size: 48px;
     margin-bottom: 12px;
 }
+
+/* ========================================================
+   Efeitos de Tela Cheia & Modal de Finalização do Simulado
+   ======================================================== */
+#canvas-confetes-simulado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9998;
+}
+
+.concluido-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(15, 23, 42, 0.82);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    opacity: 0;
+    transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.concluido-modal-overlay.active {
+    display: flex;
+    opacity: 1;
+}
+
+.concluido-modal-card {
+    background: var(--card-bg, #ffffff);
+    border: 1px solid var(--border-color, #e2e8f0);
+    border-radius: 24px;
+    box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.55), 0 0 35px rgba(59, 130, 246, 0.15);
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transform: scale(0.92) translateY(16px);
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+    text-align: center;
+}
+
+.concluido-modal-overlay.active .concluido-modal-card {
+    transform: scale(1) translateY(0);
+}
+
+/* Header & Badges temáticos por cenário */
+.concluido-modal-header {
+    padding: 32px 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background: linear-gradient(180deg, rgba(59, 130, 246, 0.08) 0%, transparent 100%);
+    position: relative;
+}
+
+.concluido-badge {
+    font-size: 52px;
+    line-height: 1;
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15));
+    animation: bounceBadge 1.2s infinite alternate cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+@keyframes bounceBadge {
+    0% { transform: translateY(0) scale(1); }
+    100% { transform: translateY(-8px) scale(1.08); }
+}
+
+.concluido-modal-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--text-main, #0f172a);
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+/* Modificadores de Cenário para o Card */
+.concluido-modal-card.cenario-perfeito {
+    border-color: rgba(234, 179, 8, 0.5);
+    box-shadow: 0 30px 70px -12px rgba(202, 138, 4, 0.35), 0 0 45px rgba(250, 204, 21, 0.2);
+}
+.concluido-modal-card.cenario-perfeito .concluido-modal-header {
+    background: linear-gradient(180deg, rgba(234, 179, 8, 0.14) 0%, transparent 100%);
+}
+.concluido-modal-card.cenario-perfeito .concluido-modal-title {
+    background: linear-gradient(135deg, #ca8a04 0%, #eab308 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.concluido-modal-card.cenario-critico {
+    border-color: rgba(100, 116, 139, 0.35);
+}
+.concluido-modal-card.cenario-critico .concluido-modal-header {
+    background: linear-gradient(180deg, rgba(100, 116, 139, 0.08) 0%, transparent 100%);
+}
+
+.concluido-modal-body {
+    padding: 0 28px 24px;
+}
+
+.concluido-modal-mensagem {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    font-weight: 600;
+    color: var(--text-main, #334155);
+    margin: 0 0 24px 0;
+}
+
+.concluido-metricas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    background: var(--alt-hover-bg, #f8fafc);
+    border: 1px solid var(--border-color, #e2e8f0);
+    border-radius: 16px;
+    padding: 14px 12px;
+}
+
+.concluido-metrica-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.concluido-metrica-rotulo {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted, #64748b);
+}
+
+.concluido-metrica-valor {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--text-main, #0f172a);
+}
+
+.concluido-metrica-valor.text-success {
+    color: #16a34a;
+}
+
+.concluido-modal-footer {
+    padding: 0 28px 28px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-concluido-okay {
+    width: 100%;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, var(--primary, #2563eb) 0%, #1d4ed8 100%);
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-concluido-okay:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 24px -5px rgba(37, 99, 235, 0.5);
+    filter: brightness(1.06);
+}
+
+.btn-concluido-okay:active {
+    transform: translateY(0);
+}
+
+.cenario-perfeito .btn-concluido-okay {
+    background: linear-gradient(135deg, #d97706 0%, #b45309 100%);
+    box-shadow: 0 10px 20px -5px rgba(217, 119, 6, 0.4);
+}
+.cenario-perfeito .btn-concluido-okay:hover {
+    box-shadow: 0 14px 24px -5px rgba(217, 119, 6, 0.5);
+}
+
+.cenario-critico .btn-concluido-okay {
+    background: linear-gradient(135deg, #475569 0%, #334155 100%);
+    box-shadow: 0 10px 20px -5px rgba(71, 85, 105, 0.3);
+}
+
     </style>
 </head>
 
@@ -33846,6 +34045,36 @@ h1 {
         </div>
     </div>
 
+    <!-- Modal de Finalização do Simulado (Efeitos + Feedback) -->
+    <div class="concluido-modal-overlay" id="simulado-concluido-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="simulado-concluido-titulo">
+        <div class="concluido-modal-card" id="simulado-concluido-modal-card">
+            <div class="concluido-modal-header">
+                <div class="concluido-badge" id="simulado-concluido-badge">🎉</div>
+                <h3 class="concluido-modal-title" id="simulado-concluido-titulo">Simulado Finalizado!</h3>
+            </div>
+            <div class="concluido-modal-body">
+                <p class="concluido-modal-mensagem" id="simulado-concluido-mensagem"></p>
+                <div class="concluido-metricas" id="simulado-concluido-metricas">
+                    <div class="concluido-metrica-item">
+                        <span class="concluido-metrica-rotulo">Questões</span>
+                        <span class="concluido-metrica-valor" id="concluido-stat-total">0</span>
+                    </div>
+                    <div class="concluido-metrica-item">
+                        <span class="concluido-metrica-rotulo">Acertos</span>
+                        <span class="concluido-metrica-valor text-success" id="concluido-stat-acertos">0</span>
+                    </div>
+                    <div class="concluido-metrica-item">
+                        <span class="concluido-metrica-rotulo">Aproveitamento</span>
+                        <span class="concluido-metrica-valor" id="concluido-stat-taxa">0%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="concluido-modal-footer">
+                <button type="button" class="btn-concluido-okay" id="btn-concluido-okay" onclick="encerrarEfeitosSimulado()">Okay</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         window.TOTAL_QUESTOES = 1444;
         window.IMG_DARK_B64 = "data:image/png;base64,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";
@@ -34121,6 +34350,20 @@ function atualizarEstatisticas() {
 
     // Sincroniza a barra de progresso superior
     atualizarBarra(respondidasValidas);
+
+    // Verificação O(1) de conclusão do simulado para efeitos fullscreen
+    if (!window._inicializandoRespostas && total > 0 && respondidasValidas >= total && !window.simuladoFinalizadoJaDisparado) {
+        window.simuladoFinalizadoJaDisparado = true;
+        let cenario = 1;
+        if (acertos === total) {
+            cenario = 2; // Acertou todas (100%)
+        } else if (acertos === 0) {
+            cenario = 3; // Errou todas (0%)
+        } else {
+            cenario = 1; // Completou todas com acertos parciais
+        }
+        dispararEfeitoFinalizacao(cenario, { total, acertos, taxa });
+    }
 }
 
 function toggleResposta(qId) {
@@ -34137,6 +34380,7 @@ function toggleResposta(qId) {
 }
 
 function carregarRespostas() {
+    window._inicializandoRespostas = true;
     construirIndicesDOMSeNecessario();
 
     // 1. Carrega dados do armazenamento principal
@@ -34188,6 +34432,7 @@ function carregarRespostas() {
     }
 
     atualizarEstatisticas();
+    window._inicializandoRespostas = false;
 }
 
 function salvarResposta(qId, valor, gabarito) {
@@ -35247,6 +35492,7 @@ function executarLimparRespostas() {
     document.querySelectorAll('.gabarito-box').forEach(b => b.style.display = 'none');
     atualizarBarra(0);
     atualizarEstatisticas();
+    encerrarEfeitosSimulado(true);
     fecharConfirmResetModal();
 }
 
@@ -36675,6 +36921,308 @@ function processarArquivoImportacaoBackup(event) {
     };
     reader.readAsText(file);
 }
+
+// ========================================================
+// Efeito Fullscreen e Modal de Conclusão do Simulado (Canvas 2D)
+// ========================================================
+let animIdFinalizacao = null;
+let timeoutModalFinalizacao = null;
+let canvasFinalizacao = null;
+window.simuladoFinalizadoJaDisparado = false;
+
+function dispararEfeitoFinalizacao(cenario = 1, stats = {}, isTest = false) {
+    // 1. Limpa qualquer efeito residual ativo
+    encerrarEfeitosSimulado(false);
+
+    // 2. Prepara o canvas em tela cheia com alta densidade de pixels (Retina / High-DPI)
+    canvasFinalizacao = document.createElement('canvas');
+    canvasFinalizacao.id = 'canvas-confetes-simulado';
+    document.body.appendChild(canvasFinalizacao);
+
+    const ctx = canvasFinalizacao.getContext('2d');
+    let dpr = window.devicePixelRatio || 1;
+    let width = window.innerWidth;
+    let height = window.innerHeight;
+
+    function redimensionarCanvas() {
+        if (!canvasFinalizacao) return;
+        dpr = window.devicePixelRatio || 1;
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvasFinalizacao.width = Math.round(width * dpr);
+        canvasFinalizacao.height = Math.round(height * dpr);
+        canvasFinalizacao.style.width = width + 'px';
+        canvasFinalizacao.style.height = height + 'px';
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+    redimensionarCanvas();
+    window.addEventListener('resize', redimensionarCanvas);
+
+    // 3. Configuração dos parâmetros visuais por cenário
+    let particulas = [];
+    let fogos = [];
+    let contadorFrames = 0;
+
+    let totalParticulas = 160;
+    let paletaCores = ['#2563eb', '#38bdf8', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6', '#f43f5e'];
+    let permitirFogos = false;
+    let velocidadeBase = 3.5;
+
+    if (cenario === 2) {
+        // CASO 2: 100% Acertos -> Confetes Dourados + Fogos de Artifício
+        totalParticulas = 220;
+        paletaCores = ['#ffd700', '#f59e0b', '#fbbf24', '#fff8dc', '#fef08a', '#d97706', '#ffffff'];
+        permitirFogos = true;
+        velocidadeBase = 4.0;
+    } else if (cenario === 3) {
+        // CASO 3: 0% Acertos -> Mínimo de confetes (sutil, cinzento, lento)
+        totalParticulas = 15;
+        paletaCores = ['#94a3b8', '#64748b', '#cbd5e1', '#a1a1aa'];
+        permitirFogos = false;
+        velocidadeBase = 1.6;
+    }
+
+    // Criação inicial das partículas de confete
+    for (let i = 0; i < totalParticulas; i++) {
+        particulas.push(criarConfete(width, height, paletaCores, velocidadeBase, true));
+    }
+
+    function criarConfete(w, h, cores, velBase, inicial = false) {
+        const cor = cores[Math.floor(Math.random() * cores.length)];
+        const tamanhoL = Math.random() * 8 + 6;
+        const tamanhoA = Math.random() * 5 + 4;
+        return {
+            x: Math.random() * w,
+            y: inicial ? Math.random() * -h : -20 - Math.random() * 40,
+            largura: tamanhoL,
+            altura: tamanhoA,
+            cor: cor,
+            velY: (Math.random() * 2 + velBase) * 0.8,
+            velX: Math.random() * 2 - 1,
+            oscilacao: Math.random() * Math.PI * 2,
+            velOscilacao: Math.random() * 0.05 + 0.02,
+            rotacao: Math.random() * Math.PI,
+            velRotacao: Math.random() * 0.08 + 0.03,
+            redondo: Math.random() > 0.65
+        };
+    }
+
+    // Função auxiliar para fogos de artifício (Cenário 2)
+    function lancarFoguete() {
+        if (!permitirFogos) return;
+        const xOrigem = Math.random() * (width * 0.8) + (width * 0.1);
+        const yAlvo = Math.random() * (height * 0.35) + (height * 0.15);
+        fogos.push({
+            tipo: 'foguete',
+            x: xOrigem,
+            y: height,
+            yAlvo: yAlvo,
+            velY: -(Math.random() * 4 + 12),
+            velX: (Math.random() - 0.5) * 2,
+            cor: paletaCores[Math.floor(Math.random() * paletaCores.length)],
+            rastro: []
+        });
+    }
+
+    function explodirFoguete(f) {
+        const numCentelhas = Math.floor(Math.random() * 20) + 40;
+        for (let i = 0; i < numCentelhas; i++) {
+            const angulo = (Math.PI * 2 * i) / numCentelhas + (Math.random() * 0.2 - 0.1);
+            const forca = Math.random() * 5 + 2;
+            fogos.push({
+                tipo: 'centelha',
+                x: f.x,
+                y: f.y,
+                velX: Math.cos(angulo) * forca,
+                velY: Math.sin(angulo) * forca,
+                cor: f.cor,
+                alpha: 1,
+                vida: Math.random() * 30 + 45
+            });
+        }
+    }
+
+    // 4. Loop de renderização fluida a 60 FPS (O(N) in-memory)
+    function loop() {
+        ctx.clearRect(0, 0, width, height);
+        contadorFrames++;
+
+        // Renderiza e atualiza confetes
+        for (let i = 0; i < particulas.length; i++) {
+            const p = particulas[i];
+            p.oscilacao += p.velOscilacao;
+            p.rotacao += p.velRotacao;
+            p.y += p.velY;
+            p.x += Math.sin(p.oscilacao) * 1.5 + p.velX;
+
+            ctx.save();
+            ctx.translate(p.x, p.y);
+            ctx.rotate(p.rotacao);
+            const escalaY = Math.cos(p.oscilacao);
+            ctx.scale(1, escalaY);
+
+            ctx.fillStyle = p.cor;
+            if (p.redondo) {
+                ctx.beginPath();
+                ctx.arc(0, 0, p.largura * 0.45, 0, Math.PI * 2);
+                ctx.fill();
+            } else {
+                ctx.fillRect(-p.largura / 2, -p.altura / 2, p.largura, p.altura);
+            }
+            ctx.restore();
+
+            // Recicla continuamente as partículas no topo enquanto os efeitos estiverem na tela
+            if (p.y > height + 20) {
+                particulas[i] = criarConfete(width, height, paletaCores, velocidadeBase, false);
+            }
+        }
+
+        // Renderiza e atualiza fogos de artifício (Cenário 2)
+        if (permitirFogos) {
+            if (contadorFrames % 45 === 0 || contadorFrames === 5) {
+                lancarFoguete();
+            }
+
+            for (let i = fogos.length - 1; i >= 0; i--) {
+                const f = fogos[i];
+                if (f.tipo === 'foguete') {
+                    f.y += f.velY;
+                    f.x += f.velX;
+                    f.velY *= 0.98;
+
+                    // Desenha o foguete em ascensão
+                    ctx.save();
+                    ctx.fillStyle = f.cor;
+                    ctx.shadowColor = f.cor;
+                    ctx.shadowBlur = 10;
+                    ctx.beginPath();
+                    ctx.arc(f.x, f.y, 3, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.restore();
+
+                    if (f.y <= f.yAlvo || f.velY >= -1.5) {
+                        explodirFoguete(f);
+                        fogos.splice(i, 1);
+                    }
+                } else if (f.tipo === 'centelha') {
+                    f.x += f.velX;
+                    f.y += f.velY;
+                    f.velX *= 0.96;
+                    f.velY *= 0.96;
+                    f.velY += 0.08; // Gravidade leve
+                    f.alpha -= 1 / f.vida;
+
+                    if (f.alpha <= 0) {
+                        fogos.splice(i, 1);
+                        continue;
+                    }
+
+                    ctx.save();
+                    ctx.globalAlpha = Math.max(0, f.alpha);
+                    ctx.fillStyle = f.cor;
+                    ctx.shadowColor = f.cor;
+                    ctx.shadowBlur = 8;
+                    ctx.beginPath();
+                    ctx.arc(f.x, f.y, 2.5, 0, Math.PI * 2);
+                    ctx.fill();
+                    ctx.restore();
+                }
+            }
+        }
+
+        animIdFinalizacao = requestAnimationFrame(loop);
+    }
+
+    loop();
+
+    // 5. O modal deve aparecer exatamente 10 segundos após o trigger dos efeitos
+    timeoutModalFinalizacao = setTimeout(() => {
+        abrirModalFinalizacao(cenario, stats);
+    }, 10000);
+}
+
+function abrirModalFinalizacao(cenario, stats = {}) {
+    const overlay = document.getElementById('simulado-concluido-modal-overlay');
+    const card = document.getElementById('simulado-concluido-modal-card');
+    const badge = document.getElementById('simulado-concluido-badge');
+    const titulo = document.getElementById('simulado-concluido-titulo');
+    const mensagem = document.getElementById('simulado-concluido-mensagem');
+    const statTotal = document.getElementById('concluido-stat-total');
+    const statAcertos = document.getElementById('concluido-stat-acertos');
+    const statTaxa = document.getElementById('concluido-stat-taxa');
+
+    if (!overlay || !card) return;
+
+    // Remove modificadores anteriores
+    card.classList.remove('cenario-perfeito', 'cenario-critico', 'cenario-comum');
+
+    const total = stats.total ?? (window.TOTAL_QUESTOES || 0);
+    const acertos = stats.acertos ?? 0;
+    const taxa = stats.taxa ?? (total > 0 ? Math.round((acertos / total) * 100) : 0);
+
+    if (cenario === 2) {
+        // CASO 2
+        card.classList.add('cenario-perfeito');
+        if (badge) badge.textContent = '🏆';
+        if (titulo) titulo.textContent = 'Desempenho Impecável!';
+        if (mensagem) mensagem.textContent = 'Parabéns por completar este simulado, espero que você vá tão bem nas provas quanto foi aqui!';
+    } else if (cenario === 3) {
+        // CASO 3
+        card.classList.add('cenario-critico');
+        if (badge) badge.textContent = '📚';
+        if (titulo) titulo.textContent = 'Simulado Finalizado';
+        if (mensagem) mensagem.textContent = 'Por favor estude mais';
+    } else {
+        // CASO 1
+        card.classList.add('cenario-comum');
+        if (badge) badge.textContent = '🎉';
+        if (titulo) titulo.textContent = 'Parabéns!';
+        if (mensagem) mensagem.textContent = 'Parabéns por completar este simulado, espero que você vá bem nas provas!';
+    }
+
+    if (statTotal) statTotal.textContent = total;
+    if (statAcertos) statAcertos.textContent = acertos;
+    if (statTaxa) statTaxa.textContent = taxa + '%';
+
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function encerrarEfeitosSimulado(resetFlag = false) {
+    if (animIdFinalizacao) {
+        cancelAnimationFrame(animIdFinalizacao);
+        animIdFinalizacao = null;
+    }
+    if (timeoutModalFinalizacao) {
+        clearTimeout(timeoutModalFinalizacao);
+        timeoutModalFinalizacao = null;
+    }
+    if (canvasFinalizacao) {
+        canvasFinalizacao.remove();
+        canvasFinalizacao = null;
+    }
+
+    const overlay = document.getElementById('simulado-concluido-modal-overlay');
+    if (overlay) {
+        overlay.classList.remove('active');
+    }
+    document.body.style.overflow = '';
+
+    if (resetFlag) {
+        window.simuladoFinalizadoJaDisparado = false;
+    }
+}
+
+// Helper global para teste imediato de qualquer cenário via Console
+window.testarEfeitoSimulado = function(cenario = 1) {
+    const total = window.TOTAL_QUESTOES || 50;
+    let acertos = Math.round(total * 0.75);
+    if (cenario === 2) acertos = total;
+    if (cenario === 3) acertos = 0;
+    const taxa = Math.round((acertos / total) * 100);
+    console.log(`[Simulado] Testando Cenário ${cenario} (Acertos: ${acertos}/${total} - ${taxa}%)... O modal abrirá em 10 segundos.`);
+    dispararEfeitoFinalizacao(cenario, { total, acertos, taxa }, true);
+};
 
 // Inicialização completa
 initTheme();
