@@ -149,8 +149,34 @@
                 </div>
 
                 <div class="paginacao-qtd-select-wrap">
-                    <label for="select-itens-por-pagina">Exibir:</label>
-                    <select id="select-itens-por-pagina" class="paginacao-select" onchange="mudarItensPorPagina(this.value)">
+                    <span class="paginacao-qtd-label">Exibir:</span>
+                    <div class="custom-select-container" id="custom-select-itens-wrap">
+                        <button type="button" class="custom-select-trigger" id="custom-select-trigger" aria-haspopup="listbox" aria-expanded="false" onclick="toggleCustomSelectItens()">
+                            <span id="custom-select-label">25 por página</span>
+                            <svg class="custom-select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="custom-select-dropdown" id="custom-select-dropdown" role="listbox">
+                            <button type="button" class="custom-select-option selected" data-value="25" onclick="selecionarOpcaoItens('25', '25 por página')">
+                                <span>25 por página</span>
+                                <svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </button>
+                            <button type="button" class="custom-select-option" data-value="50" onclick="selecionarOpcaoItens('50', '50 por página')">
+                                <span>50 por página</span>
+                                <svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </button>
+                            <button type="button" class="custom-select-option" data-value="100" onclick="selecionarOpcaoItens('100', '100 por página')">
+                                <span>100 por página</span>
+                                <svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </button>
+                            <button type="button" class="custom-select-option" data-value="all" onclick="selecionarOpcaoItens('all', 'Todas')">
+                                <span>Todas</span>
+                                <svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <select id="select-itens-por-pagina" class="paginacao-select-hidden" style="display: none;" onchange="mudarItensPorPagina(this.value)">
                         <option value="25" selected>25 por página</option>
                         <option value="50">50 por página</option>
                         <option value="100">100 por página</option>

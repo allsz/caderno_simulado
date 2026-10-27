@@ -1884,22 +1884,163 @@ h1 {
     font-weight: 600;
 }
 
-.paginacao-select {
-    background: var(--card-bg);
-    color: var(--text-main);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    padding: 6px 12px;
+.paginacao-qtd-label {
     font-size: 13px;
+    color: var(--text-muted);
     font-weight: 600;
-    cursor: pointer;
-    outline: none;
-    transition: all 0.2s ease;
 }
 
-.paginacao-select:hover,
-.paginacao-select:focus {
-    border-color: var(--primary);
+.custom-select-container {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-select-trigger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: var(--card-bg);
+    color: var(--text-main);
+    border: 1.5px solid var(--border-color);
+    border-radius: 10px;
+    padding: 7px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    min-width: 140px;
+}
+
+.custom-select-trigger:hover {
+    border-color: #2563eb;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.12);
+}
+
+.custom-select-container.open .custom-select-trigger {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.custom-select-arrow {
+    stroke: var(--text-muted);
+    transition: transform 0.2s ease, stroke 0.2s ease;
+    flex-shrink: 0;
+}
+
+.custom-select-container.open .custom-select-arrow {
+    transform: rotate(180deg);
+    stroke: #2563eb;
+}
+
+.custom-select-dropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    min-width: 165px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+    padding: 6px;
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.custom-select-container.open .custom-select-dropdown {
+    display: flex;
+    animation: customSelectOpen 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes customSelectOpen {
+    0% {
+        opacity: 0;
+        transform: translateY(-8px) scale(0.96);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.custom-select-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: inherit;
+    color: var(--text-main);
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.15s ease;
+}
+
+.custom-select-option:hover {
+    background: #eff6ff;
+    color: #2563eb;
+    padding-left: 14px;
+}
+
+.custom-select-option.selected {
+    background: #eff6ff;
+    color: #2563eb;
+    font-weight: 700;
+}
+
+.custom-opt-check {
+    stroke: #2563eb;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 0.15s ease;
+}
+
+.custom-select-option.selected .custom-opt-check {
+    opacity: 1;
+    transform: scale(1);
+}
+
+[data-theme='dark'] .custom-select-trigger {
+    background: #1e293b;
+    border-color: #334155;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+[data-theme='dark'] .custom-select-trigger:hover,
+[data-theme='dark'] .custom-select-container.open .custom-select-trigger {
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.2);
+}
+
+[data-theme='dark'] .custom-select-dropdown {
+    background: #1e293b;
+    border-color: #334155;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='dark'] .custom-select-option:hover {
+    background: #334155;
+    color: #93c5fd;
+}
+
+[data-theme='dark'] .custom-select-option.selected {
+    background: rgba(37, 99, 235, 0.2);
+    color: #60a5fa;
+}
+
+[data-theme='dark'] .custom-select-option.selected .custom-opt-check {
+    stroke: #60a5fa;
 }
 
 .filtro-pills-container {
@@ -4067,7 +4208,7 @@ h1 {
 
 /* Modal de Desclassificação por Perda de Foco (Sentinela Anti-Cola) */
 .desclassificado-simulado-modal-overlay {
-    z-index: 10000;
+    z-index: 100000 !important;
 }
 
 .desclassificado-modal-card {

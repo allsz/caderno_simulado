@@ -1028,6 +1028,7 @@ function verificarRestauracaoSimulado() {
             renderizarTelaSimuladoAtivo(true);
             if (snapshot.status === 'desclassificado') {
                 aplicarEstadoDesclassificadoUI();
+                abrirModalDesclassificado();
             } else {
                 aplicarEstadoFinalizadoUI();
             }
@@ -1560,7 +1561,9 @@ function toggleRespostaSimulado(qId) {
 // ========================================================
 
 let sentinelaFocoAtiva = false;
+let sentinelaPollingInterval = null;
 window._interacaoInternaSegura = false;
+window._recarregandoPagina = false;
 
 function marcarInteracaoInternaSegura(ativa = true) {
     window._interacaoInternaSegura = Boolean(ativa);
@@ -1568,8 +1571,8 @@ function marcarInteracaoInternaSegura(ativa = true) {
 
 function dispararVerificacaoPerdaFoco(origem) {
     if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
-    if (window._interacaoInternaSegura) {
-        console.log(`[Sentinela Anti-Cola] Evento '${origem}' ignorado por ser interação interna segura.`);
+    if (window._interacaoInternaSegura || window._recarregandoPagina) {
+        console.log(`[Sentinela Anti-Cola] Evento '${origem}' ignorado por ser interação interna segura ou reload de página.`);
         return;
     }
 
@@ -1591,20 +1594,38 @@ function ativarSentinelaFoco() {
     if (sentinelaFocoAtiva) return;
     sentinelaFocoAtiva = true;
 
-    // Proteção de 400ms para acomodar o clique de início de prova sem disparar micro-blur
+    // Proteção de 500ms para acomodar o clique de início de prova sem disparar micro-blur
     window._interacaoInternaSegura = true;
     setTimeout(() => {
         window._interacaoInternaSegura = false;
-    }, 400);
+    }, 500);
 
     document.addEventListener('visibilitychange', handleSentinelaVisibilityChange);
     window.addEventListener('blur', handleSentinelaWindowBlur);
-    console.log('[Sentinela Anti-Cola] Monitoramento de foco ativado com Tolerância Zero.');
+
+    // Camada de Batimento Cardíaco (Heartbeat Polling a cada 250ms)
+    // Garante detecção mesmo se o sistema operacional ou navegador não disparar blur síncrono
+    if (sentinelaPollingInterval) clearInterval(sentinelaPollingInterval);
+    sentinelaPollingInterval = setInterval(() => {
+        if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
+        if (window._interacaoInternaSegura || window._recarregandoPagina) return;
+
+        // Se a janela perdeu o foco (clicou em outro monitor/aplicativo/desktop) ou foi minimizada
+        if (!document.hasFocus() || document.visibilityState === 'hidden') {
+            dispararVerificacaoPerdaFoco('heartbeat_polling');
+        }
+    }, 250);
+
+    console.log('[Sentinela Anti-Cola] Monitoramento de foco ativado com Tolerância Zero (Eventos + Heartbeat Polling).');
 }
 
 function desativarSentinelaFoco() {
     if (!sentinelaFocoAtiva) return;
     sentinelaFocoAtiva = false;
+    if (sentinelaPollingInterval) {
+        clearInterval(sentinelaPollingInterval);
+        sentinelaPollingInterval = null;
+    }
     document.removeEventListener('visibilitychange', handleSentinelaVisibilityChange);
     window.removeEventListener('blur', handleSentinelaWindowBlur);
     console.log('[Sentinela Anti-Cola] Monitoramento de foco desativado.');
@@ -1897,9 +1918,19 @@ function tratarCliqueBotaoSair() {
 // Proteção Anti-Perda de Sessão: Alerta ao tentar fechar/recarregar com prova em andamento
 window.addEventListener('beforeunload', function(e) {
     if (window.simuladoAtivo && window.simuladoAtivo.status === 'em_andamento') {
+        window._recarregandoPagina = true;
+        desativarSentinelaFoco();
+        salvarSnapshotSimulado();
         e.preventDefault();
         e.returnValue = '';
         return '';
+    }
+});
+
+window.addEventListener('pageshow', function() {
+    window._recarregandoPagina = false;
+    if (window.simuladoAtivo && window.simuladoAtivo.status === 'em_andamento') {
+        ativarSentinelaFoco();
     }
 });
 
@@ -2855,6 +2886,57 @@ function mudarItensPorPagina(qtd) {
     paginaAtual = 1;
     aplicarFiltroEPaginacao(true);
 }
+
+// Controle do Seletor Customizado de Itens por Página (Dropdown Arredondado com Animação)
+function toggleCustomSelectItens() {
+    const container = document.getElementById('custom-select-itens-wrap');
+    const trigger = document.getElementById('custom-select-trigger');
+    if (!container) return;
+    const isOpen = container.classList.toggle('open');
+    if (trigger) {
+        trigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+}
+
+function selecionarOpcaoItens(valor, rotulo) {
+    const container = document.getElementById('custom-select-itens-wrap');
+    const labelSpan = document.getElementById('custom-select-label');
+    const trigger = document.getElementById('custom-select-trigger');
+    const hiddenSelect = document.getElementById('select-itens-por-pagina');
+
+    if (labelSpan) labelSpan.textContent = rotulo;
+    if (hiddenSelect) hiddenSelect.value = valor;
+
+    // Atualiza classe 'selected' nas opções
+    if (container) {
+        container.querySelectorAll('.custom-select-option').forEach(opt => {
+            if (opt.getAttribute('data-value') === valor) {
+                opt.classList.add('selected');
+            } else {
+                opt.classList.remove('selected');
+            }
+        });
+        container.classList.remove('open');
+    }
+
+    if (trigger) {
+        trigger.setAttribute('aria-expanded', 'false');
+    }
+
+    mudarItensPorPagina(valor);
+}
+
+// Fechar dropdown de itens ao clicar fora
+document.addEventListener('click', (e) => {
+    const container = document.getElementById('custom-select-itens-wrap');
+    if (container && container.classList.contains('open')) {
+        if (!container.contains(e.target)) {
+            container.classList.remove('open');
+            const trigger = document.getElementById('custom-select-trigger');
+            if (trigger) trigger.setAttribute('aria-expanded', 'false');
+        }
+    }
+});
 
 // ========================================================
 // Modal de Confirmação para Limpar Respostas
