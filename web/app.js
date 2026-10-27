@@ -1560,7 +1560,6 @@ function toggleRespostaSimulado(qId) {
 // ========================================================
 
 let sentinelaFocoAtiva = false;
-let sentinelaBlurTimeout = null;
 window._interacaoInternaSegura = false;
 
 function marcarInteracaoInternaSegura(ativa = true) {
@@ -1574,29 +1573,8 @@ function dispararVerificacaoPerdaFoco(origem) {
         return;
     }
 
-    console.warn(`[Sentinela Anti-Cola] Evento de perda de foco detectado via: ${origem}`);
-
-    if (sentinelaBlurTimeout) {
-        clearTimeout(sentinelaBlurTimeout);
-        sentinelaBlurTimeout = null;
-    }
-
-    if (origem === 'visibilitychange' && document.visibilityState === 'hidden') {
-        // Troca imediata de aba ou minimização comprovada
-        executarDesclassificacaoSimulado();
-        return;
-    }
-
-    // Buffer de 250ms para descarte de micro-perdas acidentais de foco
-    sentinelaBlurTimeout = setTimeout(() => {
-        if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
-        if (window._interacaoInternaSegura) return;
-
-        const perdeuFoco = !document.hasFocus() || document.visibilityState === 'hidden';
-        if (perdeuFoco) {
-            executarDesclassificacaoSimulado();
-        }
-    }, 250);
+    console.warn(`[Sentinela Anti-Cola] Perda de foco confirmada via '${origem}'. Desclassificando prova imediatamente...`);
+    executarDesclassificacaoSimulado();
 }
 
 function handleSentinelaVisibilityChange() {
@@ -1609,34 +1587,26 @@ function handleSentinelaWindowBlur() {
     dispararVerificacaoPerdaFoco('blur');
 }
 
-function handleSentinelaWindowFocus() {
-    if (sentinelaBlurTimeout) {
-        clearTimeout(sentinelaBlurTimeout);
-        sentinelaBlurTimeout = null;
-    }
-}
-
 function ativarSentinelaFoco() {
     if (sentinelaFocoAtiva) return;
     sentinelaFocoAtiva = true;
-    window._interacaoInternaSegura = false;
+
+    // Proteção de 400ms para acomodar o clique de início de prova sem disparar micro-blur
+    window._interacaoInternaSegura = true;
+    setTimeout(() => {
+        window._interacaoInternaSegura = false;
+    }, 400);
 
     document.addEventListener('visibilitychange', handleSentinelaVisibilityChange);
     window.addEventListener('blur', handleSentinelaWindowBlur);
-    window.addEventListener('focus', handleSentinelaWindowFocus);
     console.log('[Sentinela Anti-Cola] Monitoramento de foco ativado com Tolerância Zero.');
 }
 
 function desativarSentinelaFoco() {
     if (!sentinelaFocoAtiva) return;
     sentinelaFocoAtiva = false;
-    if (sentinelaBlurTimeout) {
-        clearTimeout(sentinelaBlurTimeout);
-        sentinelaBlurTimeout = null;
-    }
     document.removeEventListener('visibilitychange', handleSentinelaVisibilityChange);
     window.removeEventListener('blur', handleSentinelaWindowBlur);
-    window.removeEventListener('focus', handleSentinelaWindowFocus);
     console.log('[Sentinela Anti-Cola] Monitoramento de foco desativado.');
 }
 

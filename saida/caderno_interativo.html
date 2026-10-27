@@ -3039,14 +3039,14 @@ h1 {
 }
 
 .simulado-termo-label input[type='checkbox']:hover {
-    border-color: #0284c7;
-    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.12);
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
 
 .simulado-termo-label input[type='checkbox']:checked {
-    background-color: #0284c7;
-    border-color: #0284c7;
-    box-shadow: 0 2px 6px rgba(2, 132, 199, 0.35);
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    border-color: #1d4ed8;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.35);
 }
 
 .simulado-termo-label input[type='checkbox']:checked::before {
@@ -3054,7 +3054,7 @@ h1 {
 }
 
 .simulado-termo-label input[type='checkbox']:focus-visible {
-    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.35);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.4);
 }
 
 [data-theme='dark'] .simulado-termo-label input[type='checkbox'] {
@@ -3063,14 +3063,14 @@ h1 {
 }
 
 [data-theme='dark'] .simulado-termo-label input[type='checkbox']:hover {
-    border-color: #38bdf8;
-    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.2);
 }
 
 [data-theme='dark'] .simulado-termo-label input[type='checkbox']:checked {
-    background-color: #0284c7;
-    border-color: #0284c7;
-    box-shadow: 0 2px 8px rgba(2, 132, 199, 0.45);
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    border-color: #3b82f6;
+    box-shadow: 0 2px 10px rgba(37, 99, 235, 0.5);
 }
 
 .simulado-termo-text {
@@ -37771,7 +37771,6 @@ function toggleRespostaSimulado(qId) {
 // ========================================================
 
 let sentinelaFocoAtiva = false;
-let sentinelaBlurTimeout = null;
 window._interacaoInternaSegura = false;
 
 function marcarInteracaoInternaSegura(ativa = true) {
@@ -37785,29 +37784,8 @@ function dispararVerificacaoPerdaFoco(origem) {
         return;
     }
 
-    console.warn(`[Sentinela Anti-Cola] Evento de perda de foco detectado via: ${origem}`);
-
-    if (sentinelaBlurTimeout) {
-        clearTimeout(sentinelaBlurTimeout);
-        sentinelaBlurTimeout = null;
-    }
-
-    if (origem === 'visibilitychange' && document.visibilityState === 'hidden') {
-        // Troca imediata de aba ou minimização comprovada
-        executarDesclassificacaoSimulado();
-        return;
-    }
-
-    // Buffer de 250ms para descarte de micro-perdas acidentais de foco
-    sentinelaBlurTimeout = setTimeout(() => {
-        if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
-        if (window._interacaoInternaSegura) return;
-
-        const perdeuFoco = !document.hasFocus() || document.visibilityState === 'hidden';
-        if (perdeuFoco) {
-            executarDesclassificacaoSimulado();
-        }
-    }, 250);
+    console.warn(`[Sentinela Anti-Cola] Perda de foco confirmada via '${origem}'. Desclassificando prova imediatamente...`);
+    executarDesclassificacaoSimulado();
 }
 
 function handleSentinelaVisibilityChange() {
@@ -37820,34 +37798,26 @@ function handleSentinelaWindowBlur() {
     dispararVerificacaoPerdaFoco('blur');
 }
 
-function handleSentinelaWindowFocus() {
-    if (sentinelaBlurTimeout) {
-        clearTimeout(sentinelaBlurTimeout);
-        sentinelaBlurTimeout = null;
-    }
-}
-
 function ativarSentinelaFoco() {
     if (sentinelaFocoAtiva) return;
     sentinelaFocoAtiva = true;
-    window._interacaoInternaSegura = false;
+
+    // Proteção de 400ms para acomodar o clique de início de prova sem disparar micro-blur
+    window._interacaoInternaSegura = true;
+    setTimeout(() => {
+        window._interacaoInternaSegura = false;
+    }, 400);
 
     document.addEventListener('visibilitychange', handleSentinelaVisibilityChange);
     window.addEventListener('blur', handleSentinelaWindowBlur);
-    window.addEventListener('focus', handleSentinelaWindowFocus);
     console.log('[Sentinela Anti-Cola] Monitoramento de foco ativado com Tolerância Zero.');
 }
 
 function desativarSentinelaFoco() {
     if (!sentinelaFocoAtiva) return;
     sentinelaFocoAtiva = false;
-    if (sentinelaBlurTimeout) {
-        clearTimeout(sentinelaBlurTimeout);
-        sentinelaBlurTimeout = null;
-    }
     document.removeEventListener('visibilitychange', handleSentinelaVisibilityChange);
     window.removeEventListener('blur', handleSentinelaWindowBlur);
-    window.removeEventListener('focus', handleSentinelaWindowFocus);
     console.log('[Sentinela Anti-Cola] Monitoramento de foco desativado.');
 }
 
