@@ -4238,7 +4238,7 @@ html.simulado-sessao-ativa #simulado-ativo-container {
     pointer-events: auto !important;
 }
 
-#simulado-questoes-lista.desclassificado .alternativa {
+#simulado-questoes-lista.desclassificado:not(.modo-revisao) .alternativa {
     cursor: not-allowed !important;
     opacity: 0.65;
     pointer-events: none !important;

@@ -847,7 +847,10 @@ function renderizarTelaSimuladoAtivo(isRestauracao = false) {
     if (countdownBox) countdownBox.classList.remove('urgente');
 
     const listaSimWrap = document.getElementById('simulado-questoes-lista');
-    if (listaSimWrap) listaSimWrap.classList.remove('modo-revisao');
+    if (listaSimWrap) {
+        listaSimWrap.classList.remove('modo-revisao');
+        listaSimWrap.classList.remove('desclassificado');
+    }
 
     // 3. Atualizar metadados do cabeçalho
     const tempoTexto = document.getElementById('simulado-tempo-texto');
@@ -930,11 +933,15 @@ function renderizarCardQuestaoSimulado(cardOriginal, numeroSimulado, totalSimula
         radio.name = `sim_radio_${qId}`;
         radio.id = `sim_input_${qId}_${letra}`;
         radio.removeAttribute('onchange');
+        radio.disabled = false;
 
         const label = radio.closest('.alternativa');
         if (label) {
             label.id = `sim_label_${qId}_${letra}`;
             label.classList.remove('correct', 'incorrect', 'selected');
+            label.style.pointerEvents = '';
+            label.style.opacity = '';
+            label.style.cursor = 'pointer';
 
             if (respostaSalva && respostaSalva === letra) {
                 radio.checked = true;
@@ -1466,12 +1473,16 @@ function fecharModalResultadoSimulado(e) {
 
 function liberarModoRevisaoSimulado() {
     fecharModalResultadoSimulado();
+    fecharModalDesclassificado();
 
     if (!window.simuladoAtivo) return;
 
     const listaSim = document.getElementById('simulado-questoes-lista');
     if (listaSim) {
         listaSim.classList.add('modo-revisao');
+        listaSim.classList.remove('desclassificado');
+        const radios = listaSim.querySelectorAll('input[type="radio"]');
+        radios.forEach(r => r.disabled = false);
     }
 
     window.simuladoAtivo.questoes.forEach((qId, idx) => {
@@ -1595,11 +1606,11 @@ function ativarSentinelaFoco() {
     if (sentinelaFocoAtiva) return;
     sentinelaFocoAtiva = true;
 
-    // Proteção de 600ms para acomodar o clique de início de prova sem disparar micro-blur
+    // Proteção de 1500ms para acomodar o clique de início de prova ou reload sem disparar micro-blur
     window._interacaoInternaSegura = true;
     setTimeout(() => {
         window._interacaoInternaSegura = false;
-    }, 600);
+    }, 1500);
 
     document.addEventListener('visibilitychange', handleSentinelaVisibilityChange);
     window.addEventListener('blur', handleSentinelaWindowBlur);
@@ -1839,6 +1850,7 @@ function iniciarNovoSimuladoSetup() {
     if (listaSim) {
         listaSim.innerHTML = '';
         listaSim.classList.remove('modo-revisao');
+        listaSim.classList.remove('desclassificado');
     }
 
     // Restaurar visão
@@ -1884,6 +1896,7 @@ function retornarAoCadernoNormal() {
     if (listaSim) {
         listaSim.innerHTML = '';
         listaSim.classList.remove('modo-revisao');
+        listaSim.classList.remove('desclassificado');
     }
 
     // Restaurar visão normal do caderno
@@ -1927,18 +1940,27 @@ function tratarCliqueBotaoSair() {
     }
 }
 
-// Proteção Anti-Perda de Sessão: Alerta ao tentar fechar/recarregar com prova em andamento
-window.addEventListener('beforeunload', function(e) {
+// Proteção Anti-Perda de Sessão: Blindagem para Recarregamento Seguro (F5 / Reload / Navegação)
+function prepararReloadSeguro() {
     if (window.simuladoAtivo && window.simuladoAtivo.status === 'em_andamento') {
         window._recarregandoPagina = true;
-        setTimeout(() => {
-            window._recarregandoPagina = false;
-        }, 1000);
+        desativarSentinelaFoco();
         salvarSnapshotSimulado();
-        e.preventDefault();
-        e.returnValue = '';
-        return '';
     }
+}
+
+window.addEventListener('keydown', function(e) {
+    if (e.key === 'F5' || (e.key === 'r' && (e.ctrlKey || e.metaKey))) {
+        prepararReloadSeguro();
+    }
+});
+
+window.addEventListener('beforeunload', function(e) {
+    prepararReloadSeguro();
+});
+
+window.addEventListener('pagehide', function(e) {
+    prepararReloadSeguro();
 });
 
 // Delegação global de eventos para interações de alternativas no Modo Simulado
