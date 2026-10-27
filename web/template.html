@@ -24,6 +24,21 @@
         })();
     </script>
 
+    <!-- Anti-Flash de Restauração de Sessão do Simulado -->
+    <script>
+        (function () {
+            try {
+                const raw = sessionStorage.getItem('caderno_simulado_ativo_snapshot') || localStorage.getItem('caderno_simulado_ativo_snapshot');
+                if (raw) {
+                    const snap = JSON.parse(raw);
+                    if (snap && snap.status && (snap.status === 'em_andamento' || snap.status === 'finalizado' || snap.status === 'desclassificado')) {
+                        document.documentElement.classList.add('simulado-sessao-ativa');
+                    }
+                }
+            } catch (e) { }
+        })();
+    </script>
+
     <!-- Google tag (gtag.js) - Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBHG2JMQW2"></script>
     <script>

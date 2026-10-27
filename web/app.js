@@ -738,6 +738,7 @@ function iniciarSimuladoReal() {
     };
 
     salvarSnapshotSimulado();
+    document.documentElement.classList.add('simulado-sessao-ativa');
     renderizarTelaSimuladoAtivo(false);
 
     if (typeof gtag === 'function') {
@@ -1594,29 +1595,29 @@ function ativarSentinelaFoco() {
     if (sentinelaFocoAtiva) return;
     sentinelaFocoAtiva = true;
 
-    // Proteção de 500ms para acomodar o clique de início de prova sem disparar micro-blur
+    // Proteção de 600ms para acomodar o clique de início de prova sem disparar micro-blur
     window._interacaoInternaSegura = true;
     setTimeout(() => {
         window._interacaoInternaSegura = false;
-    }, 500);
+    }, 600);
 
     document.addEventListener('visibilitychange', handleSentinelaVisibilityChange);
     window.addEventListener('blur', handleSentinelaWindowBlur);
 
-    // Camada de Batimento Cardíaco (Heartbeat Polling a cada 250ms)
+    // Camada de Batimento Cardíaco (Heartbeat Polling a cada 200ms)
     // Garante detecção mesmo se o sistema operacional ou navegador não disparar blur síncrono
     if (sentinelaPollingInterval) clearInterval(sentinelaPollingInterval);
     sentinelaPollingInterval = setInterval(() => {
         if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
         if (window._interacaoInternaSegura || window._recarregandoPagina) return;
 
-        // Se a janela perdeu o foco (clicou em outro monitor/aplicativo/desktop) ou foi minimizada
+        // Se a janela perdeu o foco (clicou em outro monitor/aplicativo/desktop) ou foi minimizada/trocou de aba
         if (!document.hasFocus() || document.visibilityState === 'hidden') {
-            dispararVerificacaoPerdaFoco('heartbeat_polling');
+            dispararVerificacaoPerdaFoco('heartbeat');
         }
-    }, 250);
+    }, 200);
 
-    console.log('[Sentinela Anti-Cola] Monitoramento de foco ativado com Tolerância Zero (Eventos + Heartbeat Polling).');
+    console.log('[Sentinela Anti-Cola] Monitoramento de foco ativado com Tolerância Zero (Eventos + Heartbeat Polling 200ms).');
 }
 
 function desativarSentinelaFoco() {
@@ -1742,7 +1743,14 @@ function aplicarEstadoDesclassificadoUI() {
     if (timerDisplay) timerDisplay.textContent = formatarTempoTimer(window.simuladoAtivo.tempoGastoSegundos || 0);
     if (countdownBox) countdownBox.classList.remove('urgente');
 
-    // 4. Atualiza botões
+    // 4. Bloqueia alternativas e atualiza botões
+    const listaSim = document.getElementById('simulado-questoes-lista');
+    if (listaSim) {
+        listaSim.classList.add('desclassificado');
+        const radios = listaSim.querySelectorAll('input[type="radio"]');
+        radios.forEach(r => r.disabled = true);
+    }
+
     const btnEntregar = document.getElementById('btn-entregar-simulado');
     if (btnEntregar) btnEntregar.style.display = 'none';
     const btnEntregarBottom = document.getElementById('btn-entregar-bottom');
@@ -1789,6 +1797,7 @@ function abrirModalDesclassificado() {
 
     const modal = document.getElementById('simulado-desclassificado-modal-overlay');
     if (modal) {
+        modal.style.display = 'flex';
         modal.classList.add('active');
         document.body.style.overflow = 'hidden';
     }
@@ -1797,6 +1806,7 @@ function abrirModalDesclassificado() {
 function fecharModalDesclassificado() {
     const modal = document.getElementById('simulado-desclassificado-modal-overlay');
     if (modal) {
+        modal.style.display = 'none';
         modal.classList.remove('active');
         document.body.style.overflow = '';
     }
@@ -1819,6 +1829,7 @@ function iniciarNovoSimuladoSetup() {
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
     window.simuladoAtivo = null;
+    document.documentElement.classList.remove('simulado-sessao-ativa');
 
     // Ocultar container de simulado ativo
     const containerSimulado = document.getElementById('simulado-ativo-container');
@@ -1863,6 +1874,7 @@ function retornarAoCadernoNormal() {
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
     window.simuladoAtivo = null;
+    document.documentElement.classList.remove('simulado-sessao-ativa');
 
     // Ocultar container de simulado ativo
     const containerSimulado = document.getElementById('simulado-ativo-container');
@@ -1919,18 +1931,13 @@ function tratarCliqueBotaoSair() {
 window.addEventListener('beforeunload', function(e) {
     if (window.simuladoAtivo && window.simuladoAtivo.status === 'em_andamento') {
         window._recarregandoPagina = true;
-        desativarSentinelaFoco();
+        setTimeout(() => {
+            window._recarregandoPagina = false;
+        }, 1000);
         salvarSnapshotSimulado();
         e.preventDefault();
         e.returnValue = '';
         return '';
-    }
-});
-
-window.addEventListener('pageshow', function() {
-    window._recarregandoPagina = false;
-    if (window.simuladoAtivo && window.simuladoAtivo.status === 'em_andamento') {
-        ativarSentinelaFoco();
     }
 });
 

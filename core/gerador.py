@@ -44,7 +44,8 @@ def exportar_caderno_markdown(banco_questoes, caminho_saida: Path, cache_explica
                                 else:
                                     exp = "Gabarito não fornecido no PDF. (Configure sua GEMINI_API_KEY no arquivo .env para gerar justificativas clínicas por IA)."
                         
-                        f.write(f"#### **[{q['origem']} | Questão {q['numero']}]**\n\n")
+                        banca, ano, edicao, rotulo_edicao = extrair_metadados_origem(q.get('origem', ''))
+                        f.write(f"#### **[{rotulo_edicao} | Questão {q['numero']}]**\n\n")
                         imgs = q.get("imagens") or ([q.get("imagem")] if q.get("imagem") else [])
                         enunc_raw = q.get('enunciado', '')
                         if imgs and re.search(r'\[(?:IMAGEM|FIGURA|TABELA)\]', enunc_raw, flags=re.IGNORECASE):
@@ -100,10 +101,10 @@ def extrair_metadados_origem(origem: str):
     else:
         if "_2_" in origem_str or "-2_" in origem_str or "_2" in origem_str:
             edicao = "2"
-            rotulo_edicao = f"REVALIDA {ano}.2 (Prova 2)"
+            rotulo_edicao = f"REVALIDA {ano} (Prova 2)"
         elif "_1_" in origem_str or "-1_" in origem_str or "_1" in origem_str or "caderno_1" in origem_str:
             edicao = "1"
-            rotulo_edicao = f"REVALIDA {ano}.1 (Prova 1)"
+            rotulo_edicao = f"REVALIDA {ano} (Prova 1)"
         else:
             edicao = "1"
             rotulo_edicao = f"REVALIDA {ano} (Prova 1)"
@@ -157,7 +158,7 @@ def gerar_cards_questoes_html(banco_questoes, cache_explicacoes=None, tem_api_ke
 
                     html_parts.append(f"<div class='card-questao' id='card_{q_id}' data-especialidade='{esp_attr}' data-tema='{tema_attr}' data-subtema='{subtema_attr}' data-banca='{banca_attr}' data-ano='{ano_attr}' data-edicao='{edicao_attr}' data-rotulo-edicao='{rotulo_attr}' data-numero='{num_attr}' data-origem='{origem_attr}' data-idx='{q_global_idx}'>\n")
                     html_parts.append("  <div class='card-header-tags'>\n")
-                    html_parts.append(f"    <span class='tag-origem'>{q['origem']} | Questão {q['numero']}</span>\n")
+                    html_parts.append(f"    <span class='tag-origem'>{rotulo_edicao} | Questão {q['numero']}</span>\n")
                     html_parts.append(f"    <span class='tag-tema'>{tema}</span>\n")
                     html_parts.append(f"    <span class='tag-subtema'>{subtema}</span>\n")
                     html_parts.append("  </div>\n")

@@ -4206,9 +4206,42 @@ h1 {
     color: var(--text-main);
 }
 
+/* Anti-Flash de Restauração do Modo Simulado */
+html.simulado-sessao-ativa .header-hero,
+html.simulado-sessao-ativa .kofi-banner,
+html.simulado-sessao-ativa .filtro-section,
+html.simulado-sessao-ativa .progress-container,
+html.simulado-sessao-ativa #lista-questoes-container,
+html.simulado-sessao-ativa #paginacao-top,
+html.simulado-sessao-ativa #paginacao-bottom,
+html.simulado-sessao-ativa #painel-estatisticas,
+html.simulado-sessao-ativa #btn-reset-respostas,
+html.simulado-sessao-ativa #btn-exportar-backup,
+html.simulado-sessao-ativa #btn-importar-backup {
+    display: none !important;
+}
+
+html.simulado-sessao-ativa #simulado-ativo-container {
+    display: block !important;
+}
+
 /* Modal de Desclassificação por Perda de Foco (Sentinela Anti-Cola) */
 .desclassificado-simulado-modal-overlay {
     z-index: 100000 !important;
+}
+
+#simulado-desclassificado-modal-overlay.active,
+.desclassificado-simulado-modal-overlay.active {
+    display: flex !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+}
+
+#simulado-questoes-lista.desclassificado .alternativa {
+    cursor: not-allowed !important;
+    opacity: 0.65;
+    pointer-events: none !important;
 }
 
 .desclassificado-modal-card {
