@@ -49,13 +49,15 @@ def exportar_caderno_markdown(banco_questoes, caminho_saida: Path, cache_explica
                         enunc_raw = q.get('enunciado', '')
                         if imgs and re.search(r'\[(?:IMAGEM|FIGURA|TABELA)\]', enunc_raw, flags=re.IGNORECASE):
                             partes = re.split(r'\[(?:IMAGEM|FIGURA|TABELA)\]', enunc_raw, flags=re.IGNORECASE)
-                            bloco_imgs = "\n\n".join([f"![Figura da Questão]({img_path})" for img_path in imgs])
                             md_completo = []
                             for i, parte in enumerate(partes):
                                 if parte.strip():
                                     md_completo.append(formatar_texto_fluido(parte, modo_html=False))
-                                if i == 0 and bloco_imgs:
-                                    md_completo.append(bloco_imgs)
+                                if i < len(imgs):
+                                    md_completo.append(f"![Figura da Questão]({imgs[i]})")
+                            if len(imgs) >= len(partes):
+                                for extra_img in imgs[len(partes)-1:]:
+                                    md_completo.append(f"![Figura da Questão]({extra_img})")
                             f.write("\n\n".join(md_completo) + "\n\n")
                         else:
                             enunc_md = formatar_texto_fluido(enunc_raw, modo_html=False)
@@ -180,8 +182,20 @@ def gerar_cards_questoes_html(banco_questoes, cache_explicacoes=None, tem_api_ke
                             if parte.strip():
                                 p_html = formatar_texto_fluido(parte, modo_html=True)
                                 html_parts.append(f"  <div class='enunciado'>{p_html}</div>\n")
-                            if i == 0 and img_container_html:
-                                html_parts.append(img_container_html)
+                            if i < len(imgs):
+                                img_src = imgs[i]
+                                num_q = q["numero"]
+                                img_b64 = obter_base64_imagem(img_src, base_dir=base_dir)
+                                html_parts.append("  <div class='questao-imagem-container'>\n")
+                                html_parts.append(f"    <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao' title='Clique para ampliar em tela cheia (Zoom)' loading='lazy' decoding='async'>\n")
+                                html_parts.append("  </div>\n")
+                        if len(imgs) >= len(partes):
+                            for extra_img in imgs[len(partes)-1:]:
+                                num_q = q["numero"]
+                                img_b64 = obter_base64_imagem(extra_img, base_dir=base_dir)
+                                html_parts.append("  <div class='questao-imagem-container'>\n")
+                                html_parts.append(f"    <img src='{img_b64}' alt='Figura da Questão {num_q}' class='img-questao' title='Clique para ampliar em tela cheia (Zoom)' loading='lazy' decoding='async'>\n")
+                                html_parts.append("  </div>\n")
                     else:
                         enunc_html = formatar_texto_fluido(enunc_raw, modo_html=True)
                         html_parts.append(f"  <div class='enunciado'>{enunc_html}</div>\n")

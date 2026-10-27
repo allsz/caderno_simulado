@@ -210,17 +210,19 @@ A programação cirúrgica para essa patologia é
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) é a correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. Diante do diagnóstico de **hérnia inguinoescrotal indireta congênita** em um recém-nascido prematuro, a diretriz conjunta da **Sociedade Brasileira de Pediatria (SBP)** e da **Sociedade Brasileira de Cirurgia Pediátrica (CIPE)** determina a programação de **cirurgia eletiva precoce logo após o diagnóstico** e realização de exames pré-operatórios básicos (como o **hemograma**), devido ao elevado risco de encarceramento.
 
-1. Fundamentação Clínica e Fisiopatológica:
-O quadro clínico apresentado (aumento de volume na bolsa escrotal que piora com o aumento da pressão intra-abdominal, como no choro, associado à redutibilidade ao exame físico, espessamento do cordão espermático – sinal da 'luva de seda' – e transiluminação negativa) é clássico de hérnia inguinoescrotal indireta congênita. Essa afecção resulta da persistência (não obliteração) do conduto peritônio-vaginal (processus vaginalis).
+**Raciocínio Clínico e Fisiopatológico:**
 
-A hérnia inguinal na infância não se resolve espontaneamente e apresenta um risco substancial de encarceramento e estrangulamento herniário, o qual pode levar a isquemia intestinal e atrofia testicular ipsilateral por compressão dos vasos espermáticos. Esse risco é marcadamente elevado em recém-nascidos e lactentes, especialmente em prematuros (incidência de encarceramento de até 30% a 40%). Por esse motivo, as diretrizes da Sociedade Brasileira de Pediatria (SBP) e da Sociedade Brasileira de Cirurgia Pediátrica (CIPE) preconizam que, uma vez feito o diagnóstico, a cirurgia (herniotomia inguinal) deve ser programada de maneira eletiva e precoce (logo após o diagnóstico, após a estabilização clínica e a realização de exames pré-operatórios básicos, como o hemograma), visando prevenir complicações agudas.
+1. **Diagnóstico do Quadro:** Trata-se de uma **hérnia inguinoescrotal indireta congênita**, caracterizada por abaulamento escrotal que piora com o choro (aumento da pressão intra-abdominal), **conteúdo redutível**, **transiluminação negativa** e espessamento do cordão espermático (sinal do *atrito da seda* ou *silk glove sign*). A condição decorre da **persistência do conduto peritônio-vaginal** (*processus vaginalis*).
+2. **Critério Clínico / Fisiopatologia:** A hérnia inguinal congênita **não apresenta resolução espontânea**. Em recém-nascidos e particularmente em **prematuros**, o anel inguinal é estreito e a musculatura é frágil, conferindo uma taxa de **encarceramento herniário de até 30% a 40%**, com risco iminente de **isquemia intestinal** e **atrofia testicular** por compressão vascular dos vasos espermáticos.
+3. **Indicação de Conduta:** O diagnóstico da hérnia inguinal na infância é **estritamente clínico**. Uma vez identificado o quadro e descartada urgência imediata (ausência de irredutibilidade ou sinais flogísticos), solicita-se a avaliação pré-operatória básica com **hemograma** e programa-se a **herniotomia inguinal eletiva no menor tempo hábil possível**, evitando adiar o procedimento.
 
-2. Análise dos distratores:
-- Alternativa B: Incorreta. O diagnóstico da hérnia inguinal pediátrica é estritamente clínico (anamnese e exame físico detalhados). Exames de imagem, como a ultrassonografia inguinal, são dispensáveis quando os achados clínicos são evidentes, sendo reservados apenas para casos duvidosos.
-- Alternativa C: Incorreta. A conduta expectante até 1 ano de idade aplica-se à hidrocele congênita (com transiluminação positiva), que apresenta alta taxa de reabsorção e fechamento espontâneo do conduto peritônio-vaginal. A hérnia inguinal verdadeira nunca involui espontaneamente.
-- Alternativa D: Incorreta. Postergar a cirurgia até os dois anos exporia o recém-nascido prematuro a um risco prolongado e inaceitável de encarceramento, sofrimento de alça e lesão gonadal.
+**Análise dos Distratores:**
+
+• **Alternativa B (Incorreta):** A solicitação de **ultrassonografia inguinal** é desnecessária e posterga a intervenção, pois o diagnóstico é **essencialmente clínico**, reservando-se métodos de imagem apenas para casos duvidosos ou atípicos.
+• **Alternativa C (Incorreta):** A conduta expectante até **um ano de idade** é preconizada para a **hidrocele congênita** (que apresenta **transiluminação positiva**), cuja obliteração espontânea ocorre na maioria dos casos. A **hérnia inguinal verdadeira não regride espontaneamente**.
+• **Alternativa D (Incorreta):** Postergar o procedimento até os **dois anos de idade** é formalmente contraindicado, pois submete o lactente a uma janela temporal prolongada sob **alto risco de encarceramento** e estrangulamento de alça.
 </details>
 
 ---
@@ -277,19 +279,25 @@ Um lactente de 9 meses é levado à emergência de um hospital público municipa
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está correta.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-O quadro clínico apresentado é clássico de invaginação intestinal (ou intussuscepção), a causa mais comum de obstrução intestinal em lactentes entre 3 e 36 meses de vida (pico de incidência entre 5 e 9 meses de idade). A apresentação caracteriza-se pela tríade típica (presente em sua totalidade em menos de 50% dos casos, mas com elementos-chave aqui descritos): dor abdominal paroxística e intensa em cólica (a criança chora intensamente, flete os membros inferiores e apresenta períodos intercalados de acalmia e letargia), vômitos e eliminação de fezes com muco e sangue (fezes em 'geleia de framboesa' ou 'red currant jelly'), decorrente de isquemia da mucosa intestinal por compressão vascular mesentérica.
+O quadro clínico descrito é clássico de **invaginação intestinal** (ou intussuscepção), caracterizada pelo telescopamento de um segmento proximal do intestino para o interior do lúmen de um segmento distal adjacente. É a causa mais frequente de obstrução intestinal em lactentes entre 3 e 36 meses de vida, com pico de incidência entre os 5 e 9 meses.
 
-Fisiopatologicamente, em mais de 90% dos lactentes, a invaginação é idiopática, associada à hiperplasia linfoide das placas de Peyer no íleo terminal, que atua como 'ponto de partida' (lead point) para que o segmento proximal invagine no segmento distal (mais comumente íleo-cólica). Essa hipertrofia do tecido linfoide é classicamente deflagrada por infecções virais precedentes, tais como infecções de vias aéreas superiores (IVAS por adenovírus) ou quadros de gastroenterite viral.
+A apresentação clínica clássica é caracterizada pela tríade de dor abdominal paroxística em cólica (a criança chora intensamente e encolhe as pernas, alternando com períodos de acalmia e letargia), vômitos e eliminação de fezes com muco e sangue, tradicionalmente descritas como em geleia de framboesa. A eliminação de sangue e muco decorre do ingurgitamento venoso, estase e sofrimento isquêmico da mucosa intestinal comprimida no interior do intussuscepto.
 
-Análise das alternativas incorretas:
+Em lactentes, mais de 90% dos casos são idiopáticos, isto é, sem ponto de partida mecânico fixo (como pólipos ou divertículo de Meckel, que são mais comuns em maiores de 2 anos). A fisiopatologia está intimamente ligada à hipertrofia do tecido linfoide ileal (placas de Peyer) no íleo terminal, que passa a atuar como cabeça de invaginação arrastada pelo peristaltismo em direção ao cólon (invaginação íleo-cólica). Esse aumento do tecido linfoide decorre frequentemente de estímulo antigênico recente, sendo comumente deflagrado por **infecção viral de vias aéreas** ou gastroenterites virais prévias (associadas a adenovírus, rotavírus e outros vírus respiratórios e entéricos).
 
-- Alternativa B: Incorreta. O volvo de intestino médio decorre de má rotação intestinal e acomete predominantemente recém-nascidos no primeiro mês de vida, cursando com vômitos biliosos agudos, abdome doloroso e risco iminente de necrose intestinal. A doença de Hirschsprung (aganglionose congênita) manifesta-se tipicamente no período neonatal com atraso na eliminação de mecônio (> 48h) e constipação intestinal crônica e refratária com distensão abdominal progressiva, não se alinhando ao quadro de cólicas paroxísticas com fezes mucossanguinolentas.
+O diagnóstico é confirmado pela ultrassonografia de abdome, método de escolha por sua alta sensibilidade e especificidade, demonstrando os sinais em alvo (ou rosquinha) e do pseudo-rim. Na ausência de sinais de peritonite ou perfuração, o tratamento inicial de escolha é o desdobramento por enema hidrostático ou pneumático guiado por imagem, reservando-se a cirurgia para casos refratários, complicados ou com suspeita de necrose transmural.
 
-- Alternativa C: Incorreta. A estenose hipertrófica de piloro acomete tipicamente lactentes jovens entre a 3ª e a 8ª semanas de vida (raramente após o 3º mês), manifestando-se por vômitos em jato, pós-prandiais imediatos e não biliosos ('leite coalhado'), além de alcalose metabólica hipoclorêmica e hipocalêmica. Não cursa com fezes com muco e sangue nem com dor paroxística aguda intermitente típica de cólica intestinal.
+**Análise das alternativas incorretas:**
 
-- Alternativa D: Incorreta. A apendicite aguda é uma condição infrequente em lactentes menores de 1 ano de idade. Quando ocorre nessa faixa etária, manifesta-se de forma atípica e grave (febre alta, irritabilidade, letargia e vômitos com rápida perfuração e peritonite difusa), sem o padrão paroxístico de dor intercalada por acalmia e sem a eliminação característica de fezes com muco e sangue.
+• **Alternativa A: Correta.** Aponta com exatidão a hipótese clínica primordial e o antecedente infeccioso viral comumente implicado no aumento das placas de Peyer.
+
+• **Alternativa B: Incorreta.** O volvo de intestino médio decorre de má rotação intestinal e acomete classicamente recém-nascidos nas primeiras semanas de vida, manifestando-se com vômitos biliosos agudos e abdome cirúrgico imediato. A aganglionose congênita (doença de Hirschsprung) cursa tipicamente com atraso na eliminação de mecônio nas primeiras 48 horas de vida, constipação crônica refratária e distensão abdominal, sem o padrão clássico de cólicas paroxísticas com fezes mucossanguinolentas.
+
+• **Alternativa C: Incorreta.** A estenose hipertrófica de piloro incide predominantemente em recém-nascidos e lactentes jovens entre 3 e 8 semanas de vida, sendo de fato mais comum em primogênitos do sexo masculino. Contudo, manifesta-se por vômitos em jato, não biliosos e imediatamente pós-prandiais, levando a desidratação e alcalose metabólica hipoclorêmica e hipocalêmica, sem cursar com sangramento digestivo baixo característico nem padrão de cólica intermitente com acalmia.
+
+• **Alternativa D: Incorreta.** A apendicite aguda é uma afecção incomum em menores de 1 ano. Quando ocorre nessa faixa etária, tende a evoluir rapidamente para perfuração e peritonite difusa devido à fragilidade da parede apendicular e o omento ainda pouco desenvolvido, cursando com febre alta e irritabilidade contínua, e não com paroxismos intercalados com intervalos livres de dor e fezes em geleia de framboesa. A etiologia por coprólito e dieta pobre em fibras é característica de crianças maiores, adolescentes e adultos.
 </details>
 
 ---
@@ -504,15 +512,19 @@ Adolescente com 12 anos, atendida em uma unidade de pronto atendimento, relata c
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A paciente em questão foi vítima de traumatismo elétrico com clara evidência de passagem de corrente através do corpo, caracterizada por lesões de entrada (membro superior direito) e de saída (lesão profunda no calcâneo direito). Segundo as diretrizes do Ministério da Saúde (Cartilha de Tratamento de Queimaduras) e da American Burn Association (ABA), as queimaduras elétricas com passagem de corrente — incluindo lesões por alta voltagem e por raios — constituem indicação formal de transferência para Unidade de Tratamento de Queimaduras (UTQ).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Fundamentação fisiopatológica e clínica (Alternativa C - Correta):
-A lesão cutânea observada na queimadura elétrica frequentemente subestima o dano tecidual interno (fenômeno do "iceberg"). A passagem da corrente por tecidos com diferentes resistências elétricas gera calor que causa necrose muscular profunda, trombose vascular, síndrome compartimental, rabdomiólise intensa (com risco elevado de insuficiência renal aguda por mioglobinúria) e arritmias cardíacas tardias. Portanto, a abordagem especializada em UTQ é mandatória para monitorização contínua, eventual necessidade de fasciotomias de descompressão e suporte intensivo.
+A paciente em questão foi vítima de traumatismo elétrico com evidente evidência de trajeto interno de condução, demonstrado pelo contato inicial na extremidade superior direita e lesão clássica de saída profunda no calcâneo homolateral. No trauma elétrico, a lesão tecidual obedece à Lei de Joule (calor gerado proporcional à corrente ao quadrado multiplicada pela resistência tecidual e pelo tempo de contato). Os tecidos apresentam diferentes graus de resistência: o osso possui a maior resistência, retendo grande quantidade de energia térmica e transmitindo calor às massas musculares adjacentes, enquanto vasos e nervos conduzem a corrente rapidamente devido à baixa resistência.
 
-Análise dos distratores:
-- Alternativa A: Incorreta. Queimaduras de 1º grau (eritema simples) não são contabilizadas no cálculo da Superfície Corporal Queimada (SCQ) para fins de classificação de gravidade ou critérios de internação em UTQ. O critério de extensão refere-se a queimaduras de 2º grau > 10% de SCQ (em crianças e idosos) ou > 20% (em adultos), ou de 3º grau de qualquer extensão.
-- Alternativa B: Incorreta. Queimaduras de 2º grau restritas a 5% da SCQ, sem acometimento de áreas nobres (face, mãos, pés, genitália, grandes articulações) ou extremos de idade, não constituem por si só critério de transferência para UTQ.
-- Alternativa D: Incorreta. Cabos elétricos de distribuição pública na rua habitualmente conduzem alta voltagem (> 1.000 V). Além disso, a presença de ponto de contato/saída no calcâneo demonstra condução interna de corrente, e não mero arco voltaico ("flash") superficial restrito à derme.
+Esse mecanismo gera o clássico efeito "iceberg", no qual pequenas lesões puntiformes na pele mascaram extensas áreas de necrose muscular profunda. As repercussões clínicas incluem risco iminente de síndrome compartimental por edema intracompartimental maciço, rabdomiólise com liberação de mioglobina e subsequente necrose tubular aguda, além do risco de arritmias cardíacas tardias e lesões neurovasculares permanentes. Por essas peculiaridades fisiopatológicas e pela necessidade de monitoramento multiprofissional, fasciotomias precoces e hidratação agressiva direcionada ao débito urinário, a **queimadura elétrica** por passagem de corrente é critério formal e prioritário de transferência para uma **unidade de tratamento de queimaduras**, conforme estabelecido pelas diretrizes do Ministério da Saúde, da Sociedade Brasileira de Queimaduras e da American Burn Association.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** Lesões de primeiro grau (eritematosas, restritas à epiderme) não são contabilizadas no cálculo da superfície corporal queimada para fins de gravidade ou reposição volêmica. Ademais, o critério dimensional para transferência exige lesões de espessura parcial (segundo grau) superiores a 10% da superfície corporal em pacientes pediátricos ou de espessura total (terceiro grau) em qualquer extensão.
+
+• **B) Incorreta:** O percentual de 5% de superfície corporal queimada de segundo grau, quando isolado e sem acometimento de áreas nobres ou funcionais (face, mãos, pés, genitália, períneo ou grandes articulações), não constitui critério de transferência para centro de referência.
+
+• **D) Incorreta:** Fiações de postes de distribuição em vias públicas operam tipicamente em alta voltagem (acima de 1.000 V). Além disso, a caracterização de uma lesão puntiforme e profunda no calcâneo comprova a passagem interna de corrente com orifício de saída, refutando a hipótese de um acometimento restrito ao arco voltaico puro, o qual provocaria apenas queimaduras térmicas externas sem corrente transtorácica ou transcorporal.
 </details>
 
 ---
@@ -700,18 +712,19 @@ Paciente de 30 anos, sexo feminino, foi submetida a punção de veia jugular int
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta padrão imediata diante do quadro descrito é a **retirada da punção profunda e compressão** local (Alternativa B).
+> **Comentário Médica:** O gabarito correto é a **Alternativa B**. A conduta imediata mandatória diante da constatação de canulação arterial inadvertida é a **retirada da punção profunda e compressão** mecânica contínua no sítio de punção, conforme as diretrizes internacionais de segurança em procedimentos invasivos e acessos vasculares.
 
-**Justificativa clínica e fisiopatológica:**
-A ascensão ativa da coluna de sangue contra a gravidade pelo equipo de infusão (superando a pressão hidrostática do frasco suspenso de soro) é um sinal inequívoco de sistema de alta pressão, caracterizando **punção e canulação inadvertida de leito arterial** (no caso da abordagem jugular interna, a artéria carótida comum).
-Em condições normais de punção venosa profunda, a pressão venosa central varia tipicamente entre 2 e 8 mmHg, valor insuficiente para vencer a coluna líquida do equipo suspenso. O fluxo retrógrado e pulsátil decorre da pressão arterial média (tipicamente > 70 mmHg).
+**Raciocínio Clínico e Fisiopatológico:**
 
-Diante da canulação arterial inadvertida não complicada por dilatadores calibrosos, a conduta mandatória recomendada pelas diretrizes de segurança em acessos vasculares é a **retirada imediata do dispositivo e compressão manual contínua por pelo menos 10 a 15 minutos** (ou mais, conforme o perfil de coagulação da paciente). Essa intervenção previne a formação de hematomas expansivos cervicais, pseudoaneurismas, fístulas arteriovenosas e, crucialmente, obstrução aguda de vias aéreas por desvio ou compressão traqueal.
+1. **Diagnóstico da Complicação:** **Punção arterial inadvertida** da **artéria carótida comum** direita durante a tentativa de acesso em veia jugular interna.
+2. **Fisiopatologia e Mecânica do Fluxo:** Em condições normais, a pressão venosa central varia entre **2 e 8 mmHg**, valor incapaz de vencer a pressão hidrostática de um frasco de soro suspenso. O fluxo ascendente e pulsátil de sangue pelo equipo contra a gravidade demonstra a conexão com um sistema de alta pressão sistêmica, característico do território arterial (pressão arterial média comumente **> 70 mmHg**).
+3. **Indicação de Conduta:** Constatada a punção arterial antes da passagem de dilatadores calibrosos, deve-se proceder à **retirada imediata do dispositivo** seguida de **compressão manual firme e contínua por 10 a 15 minutos** (ou mais em pacientes coagulopatas). Essa medida visa prevenir **hematoma cervical expansivo**, **pseudoaneurisma**, **fístula arteriovenosa** e a temida **obstrução extrínseca da via aérea** por desvio traqueal.
 
-**Análise dos distratores:**
-- **A) Incorreta:** A solicitação de ultrassonografia posterga indevidamente a hemostasia mecânica. O diagnóstico de punção arterial nesse cenário é clínico e evidente, exigindo ação imediata à beira do leito.
-- **C) Incorreta:** Manter a infusão (seja com SF ou SG 5%) é formalmente contraindicado, pois perpetua a infusão intra-arterial de substâncias carreadoras de risco de embolização, espasmo arterial e piora do quadro hemodinâmico local.
-- **D) Incorreta:** A radiografia de tórax de controle é o exame rotineiro para avaliar o posicionamento da ponta do cateter venoso central e descartar pneumotórax pós-procedimento bem-sucedido; não se aplica como conduta resolutiva frente a uma punção arterial acidental aguda com risco de hematoma compressivo.
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A solicitação de **ultrassonografia diagnóstica** atrasa indevidamente a hemostasia primária. O diagnóstico nesse cenário é puramente clínico e requer intervenção mecânica imediata à beira do leito.
+• **Alternativa C (Incorreta):** Manter a infusão de qualquer solução, inclusive **SG 5%**, perpetua a administração intra-arterial inadvertida de fluidos, o que agrega risco de **vasoespasmo**, **tromboembolismo distal** e agravamento de complicações locais.
+• **Alternativa D (Incorreta):** A **radiografia de tórax** serve para checar o posicionamento final da ponta do cateter venoso e descartar **pneumotórax** após procedimento concluído com sucesso; não possui papel resolutivo diante de punção arterial aguda não controlada.
 </details>
 
 ---
@@ -795,15 +808,20 @@ Um paciente com 65 anos procura a unidade de pronto atendimento com queixa de te
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A principal hipótese diagnóstica para o caso é de abdome agudo inflamatório decorrente de pancreatite aguda (Alternativa B).
+> **Comentário Médica:** O quadro clínico descrito é clássico de **abdome agudo inflamatório**, tendo como etiologia principal a **pancreatite aguda**.
 
-1. Fundamentação Clínica e Fisiopatológica:
-O quadro clínico de pancreatite aguda é caracterizado pela tríade de Atlanta revisada, que exige pelo menos dois dos três critérios: (1) dor abdominal típica (epigástrica ou difusa, súbita, de intensidade crescente, frequentemente associada a vômitos); (2) elevação de amilase ou lipase sérica (no caso, ambas estão aumentadas: amilase 238 U/L e lipase 130 U/L); e (3) achados de imagem característicos. O paciente apresenta fatores de risco clássicos para pancreatite aguda, como etilismo habitual (consumo de destilados) e possível etiologia biliar concomitante, sugerida pela presença de icterícia (+1/+4). Ao exame físico, o achado de abdome doloroso à palpação profunda, porém sem sinais de irritação peritoneal evidente (Blumberg negativo), é altamente sugestivo de afecções retroperitoneais nas fases iniciais, nas quais o peritônio parietal anterior não foi diretamente agredido. Adicionalmente, há sinais de resposta inflamatória sistêmica (SIRS) com taquicardia (110 bpm), febre baixa (37,8 °C) e leucocitose (14.000/mm³).
+**Raciocínio Clínico e Fisiopatológico:**
+O paciente é um homem de 65 anos com história de etilismo pesado habitual (fator de risco maior para afecção pancreática) que abre quadro de dor abdominal súbita de intensidade progressiva, associada a vômitos, desidratação e estigmas inflamatórios sistêmicos. O exame físico evidencia taquicardia (110 bpm), febrícula (37,8 °C) e leucocitose (14.000/mm³), configurando critérios de resposta inflamatória sistêmica (SIRS).
 
-2. Análise dos Distratores:
-- A) Abdome agudo perfurativo (úlcera perfurada): Caracteriza-se por dor súbita de forte intensidade ("em punhalada") que rapidamente evolui com peritonite generalizada e clássico abdome em tábua (defesa involuntária e descompressão brusca dolorosa difusa), sinais ausentes no exame físico do paciente.
-- C) Abdome agudo obstrutivo (obstrução intestinal): Cursa tipicamente com parada de eliminação de gases e fezes, distensão abdominal progressiva, dor em cólica e vômitos biliosos ou fecaloides. O enunciado refere expressamente a ausência de alteração do hábito intestinal e abdome normotenso.
-- D) Abdome agudo isquêmico (isquemia mesentérica): Embora o paciente apresente fatores de risco cardiovasculares (IAM prévio, tabagismo, hipertensão) e desproporção inicial entre dor e achados ao exame, a presença de icterícia e elevação concomitante de enzimas pancreáticas em paciente etilista consolida a pancreatite aguda como a hipótese mais provável e condizente com a abordagem sindrômica inicial.
+A dor retroperitoneal típica da inflamação pancreática manifesta-se com dor à palpação profunda sem irritação peritoneal evidente nos estágios iniciais, pois o peritônio parietal anterior ainda não foi difusamente acometido. A presença de icterícia decorre frequentemente da compressão do colédoco intrapancreático pelo edema da cabeça do pâncreas ou aponta para etiologia biliar concomitante. Laboratorialmente, observa-se elevação enzimática de amilase e lipase, além de hiperlactatemia e acidose decorrentes do sequestro de líquido para o terceiro espaço e hipovolemia, típicos da cascata inflamatória da pancreatite aguda.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O abdome agudo perfurativo decorrente de úlcera péptica cursa classicamente com dor de início em punhalada, hiperagudo e dramático, evoluindo rapidamente para peritonite difusa, caracterizada por abdome em tábua, dor intensa à descompressão brusca (sinal de Blumberg) e perda da macicez hepática (sinal de Jobert por pneumoperitônio). O paciente em tela apresenta abdome normotenso e ausência de sinais de irritação peritoneal.
+
+• **C) Incorreta:** O abdome agudo obstrutivo caracteriza-se pela tríade de dor abdominal em cólica, distensão progressiva do abdome, vômitos precoces ou biliosos/fecaloides e, fundamentalmente, parada de eliminação de gases e fezes. O enunciado especifica que o abdome é normotenso e nega alterações do hábito intestinal, afastando essa hipótese.
+
+• **D) Incorreta:** A isquemia mesentérica aguda é um diagnóstico diferencial importante em pacientes vasculopatas graves, manifestando-se tipicamente como dor abdominal desproporcional ao exame físico inicial. No entanto, a evolução costuma acompanhar-se de fezes em geleia de framboesa, diarreia inicial, acidose metabólica grave precoce e ausência primária de elevação expressiva de lipase e icterícia, as quais, associadas ao histórico de etilismo diário, tornam a pancreatite a principal suspeita clínica.
 </details>
 
 ---
@@ -853,17 +871,19 @@ Paciente masculino, de 72 anos, em tratamento de câncer de próstata, procurou 
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A hipótese diagnóstica mais provável para o caso apresentado é de Trombose Venosa Profunda (TVP) de membro inferior esquerdo. O paciente possui fatores de risco clássicos da Tríade de Virchow, destacando-se a idade avançada e a neoplasia ativa (câncer de próstata), que confere um estado de hipercoagulabilidade secundário. O quadro clínico é exuberante e característico: dor aguda unilateral, edema assimétrico com progressão proximal, dor à dorsiflexão do pé (sinal de Homans positivo), empastamento muscular e preservação dos pulsos arteriais periféricos.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O quadro clínico é altamente sugestivo de **trombose venosa profunda (TVP)** de membro inferior esquerdo em um paciente com neoplasia ativa, sendo a **ultrassonografia com doppler venoso** (*duplex scan*) o exame de primeira escolha para a confirmação diagnóstica, conforme preconizado pelas diretrizes da Sociedade Brasileira de Angiologia e Cirurgia Vascular (**SBACV**) e do *American College of Chest Physicians* (**CHEST**).
 
-Segundo as diretrizes nacionais e internacionais (como as do American College of Chest Physicians - CHEST e da Sociedade Brasileira de Angiologia e Cirurgia Vascular - SBACV), o exame de escolha inicial para confirmação diagnóstica de TVP é o Ultrassom com Doppler Venoso (duplex scan). O método apresenta sensibilidade e especificidade superiores a 95% para o território fêmoro-poplíteo, é não invasivo, amplamente disponível, de baixo custo e não utiliza radiação ionizante ou contraste iodado. O principal critério ultrassonográfico para o diagnóstico de TVP é a perda da compressibilidade venosa sob pressão direta do transdutor.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um quadro agudo de **trombose venosa profunda (TVP)**, evidenciado pela presença de dor unilateral, edema progressivo e dor à dorsiflexão passiva do pé (*sinal de Homans* positivo), com pulsos arteriais preservados.
+2. **Critério Clínico / Fisiopatologia:** O paciente apresenta elementos centrais da **Tríade de Virchow**, em especial o estado de **hipercoagulabilidade** decorrente do **câncer de próstata ativo** associado à idade avançada (> 70 anos). A pontuação no escore de Wells confere alta probabilidade pré-teste para evento tromboembólico venoso.
+3. **Indicação de Conduta:** O exame padrão-ouro prático inicial é o **ultrassom com doppler**, apresentando sensibilidade e especificidade superiores a 95% para os segmentos fêmoro-poplíteos. O principal critério ultrassonográfico diagnóstico é a **incompressibilidade da veia** sob a pressão direta do transdutor.
 
-- Alternativa A (Flebografia): Historicamente considerada o padrão-ouro ("gold standard"), a flebografia ascendente com contraste é um método invasivo, com risco de reações alérgicas, nefrotoxicidade induzida por contraste e potencial de desencadear flebite/trombose secundária ao procedimento. Foi substituída na prática clínica pelo USG Doppler, ficando restrita a raríssimas exceções em que exames não invasivos são inconclusivos ou quando há planejamento endovascular associado.
+**Análise dos Distratores:**
 
-- Alternativa B (Arteriografia): Exame invasivo voltado para o estudo da circulação arterial. A oclusão arterial aguda cursa clinicamente com os "6 Ps" (dor/pain, palidez, ausência de pulso, parestesia, paralisia e poiquilotermia/frialdade), incompatível com o quadro descrito, no qual há edema acentuado e pulsos palpáveis preservados.
-
-- Alternativa D (Ultrassonografia de partes moles): Embora útil no diagnóstico diferencial para afastar afecções musculoesqueléticas (como cisto de Baker roto, hematomas intramusculares ou celulite), este exame convencional sem mapeamento Doppler não avalia adequadamente os parâmetros hemodinâmicos e a compressibilidade da luz dos vasos venosos profundos, não sendo o método indicado para confirmar a principal suspeita clínica.
+• **Alternativa A (Incorreta):** A **flebografia** convencional com contraste iodado, embora historicamente considerada o padrão-ouro anatômico, é um método **invasivo**, com potenciais riscos de **nefropatia induzida por contraste**, reações anafiláticas e indução de tromboflebite química. Seu uso atual está restrito a casos de forte suspeita com métodos não invasivos inconclusivos ou na vigência de terapia endovascular programada.
+• **Alternativa B (Incorreta):** A **arteriografia** avalia o leito arterial. A oclusão arterial aguda apresenta manifestações clássicas dos "6 Ps" (**ausência de pulso**, palidez, dor súbita intensa, parestesia, paralisia e poiquilotermia), achados incompatíveis com o paciente, que mantém **pulsos periféricos palpáveis** e edema venoso característico.
+• **Alternativa D (Incorreta):** A **ultrassonografia de partes moles** avalia estruturas musculoesqueléticas (útil para exclusão de cisto de Baker roto ou hematomas), porém não possui os parâmetros hemodinâmicos e a avaliação de fluxo fornecidos pelo **mapeamento vascular com doppler**, não sendo indicada para a confirmação de TVP.
 </details>
 
 ---
@@ -1128,18 +1148,28 @@ Uma paciente com 40 anos identificou nódulo em região cervical anterior. Ao ex
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A conduta padrão para o caso clínico apresentado é o encaminhamento para cirurgia da tireoide (lobectomia ou tireoidectomia total), conforme preconizado pelas diretrizes da American Thyroid Association (ATA) e da Sociedade Brasileira de Endocrinologia e Metabologia (SBEM).
+> **Comentário Médica:** **Raciocínio Clínico e Conduta Terapêutica:**
 
-Fundamentação clínica:
-O Sistema Bethesda para Relato de Citopatologia da Tireoide padroniza a interpretação dos resultados da punção aspirativa por agulha fina (PAAF) e orienta o manejo clínico:
-- Categoria Bethesda V corresponde a 'Suspeito de Malignidade' (geralmente suspeito para carcinoma papilífero).
-- O risco intrínseco de malignidade para Bethesda V é muito elevado, variando historicamente de 60% a 75% (podendo alcançar até 80-85% considerando testes moleculares e critérios atualizados).
-- Diante de uma probabilidade tão alta de neoplasia maligna e na vigência de função tireoidiana normal (eutireoidismo), a conduta estabelecida pelas diretrizes é o tratamento cirúrgico (ressecção cirúrgica com análise anatomopatológica definitiva). A extensão cirúrgica inicial (lobectomia com istmectomia versus tireoidectomia total) dependerá de fatores adicionais como características ultrassonográficas, estado do lobo contralateral e preferências do paciente informadas em decisão compartilhada.
+A abordagem de um nódulo tireoidiano fundamenta-se na avaliação laboratorial inicial da função tireoidiana (dosagem de TSH), caracterização ultrassonográfica morfológica e estratificação citopatológica por meio da punção aspirativa com agulha fina (PAAF), indicada com base no diâmetro e nos achados de suspeição ecográfica.
 
-Análise dos distratores:
-- Alternativa B está incorreta: A repetição de PAAF é formalmente indicada na categoria Bethesda I (amostra insatisfatória/não diagnóstica) e, a depender do contexto e da disponibilidade de testes moleculares, na categoria Bethesda III (atipia de significado indeterminado). Em Bethesda V, a indicação cirúrgica já está firmada, não havendo benefício em protelar a intervenção com nova punção.
-- Alternativa C está incorreta: A cintilografia de tireoide tem indicação primária na investigação de nódulos com TSH suprimido (hipertireoidismo subclínico ou clínico) com o intuito de caracterizar nódulos hiperfuncionantes ('quentes'), que raramente são malignos. Como a paciente apresenta exames de função tireoidiana normais (eutireoidismo), a cintilografia não tem indicação clínica.
-- Alternativa D está incorreta: O seguimento ultrassonográfico periódico (geralmente a cada 12 a 24 meses) é a conduta de escolha para nódulos categorizados como Bethesda II (benignos), ou nódulos muito pequenos sem critérios ultrassonográficos de alto risco que não preencheram critérios para biópsia. Adotar conduta expectante em uma lesão Bethesda V implicaria atraso injustificado no tratamento de provável neoplasia maligna.
+O resultado citopatológico é padronizado pelo Sistema de Bethesda para Relato de Citopatologia da Tireoide, o qual correlaciona cada categoria a um risco estimado de malignidade e orienta a conduta médica:
+
+1. **Bethesda I (Não diagnóstico ou insatisfatório):** Risco de malignidade de 5% a 10%. A conduta preconizada consiste em repetir a PAAF guiada por ultrassonografia.
+2. **Bethesda II (Benigno):** Risco de malignidade de 0% a 3%. A conduta padrão é o acompanhamento clínico e ultrassonográfico periódico.
+3. **Bethesda III (Atipia de significado indeterminado / Atipia folicular de significado indeterminado):** Risco de malignidade de 10% a 30%. A conduta recomendada é a repetição da PAAF ou a realização de testes moleculares.
+4. **Bethesda IV (Neoplasia folicular ou suspeita de neoplasia folicular):** Risco de malignidade de 25% a 40%. A conduta indicada é o tratamento cirúrgico (lobectomia com istmectomia) para análise histopatológica ou testes moleculares.
+5. **Bethesda V (Suspeito de malignidade):** Risco de malignidade elevado (cerca de 60% a 75%, podendo superar 80% em certas séries). Os achados citológicos apresentam fortes características de neoplasia maligna, frequentemente carcinoma papilífero. A conduta mandatória é a **cirurgia da tireoide**.
+6. **Bethesda VI (Maligno):** Risco de malignidade de 97% a 99%. A conduta é a ressecção cirúrgica curativa.
+
+No caso exposto, a paciente apresenta função tireoidiana normal e nódulo sólido com classificação citopatológica **Bethesda V**. Dessa forma, a indicação formal e consensual pelas diretrizes da American Thyroid Association (ATA) e da Sociedade Brasileira de Endocrinologia e Metabologia (SBEM) é o encaminhamento cirúrgico imediato (lobectomia associada à istmectomia ou tireoidectomia total, a depender de fatores de risco associados).
+
+**Análise das alternativas incorretas:**
+
+• **B) Incorreta:** A repetição da punção aspirativa com agulha fina tem indicação formal apenas diante de amostras insatisfatórias (Bethesda I) ou com atipia de significado indeterminado (Bethesda III). Em uma lesão classificada como Bethesda V, o risco de malignidade já é suficientemente expressivo para indicar intervenção operatória, sendo desnecessária a repetição do exame invasivo.
+
+• **C) Incorreta:** A cintilografia da tireoide é indicada exclusivamente quando a dosagem de TSH encontra-se suprimida, com a finalidade de documentar nódulo hipercaptante autônomo (adenoma tóxico), condição na qual a probabilidade de neoplasia maligna é insignificante e a PAAF pode ser dispensada. Na presença de TSH normal, o exame cintilográfico não possui valor discriminatório.
+
+• **D) Incorreta:** O seguimento ultrassonográfico periódico é a conduta de escolha para nódulos que não preenchem critérios morfológicos para biópsia ou que apresentem citopatologia francamente benigna (Bethesda II). Propor a vigilância por imagem a cada 6 meses para um nódulo suspeito de malignidade acarreta retardo inaceitável no diagnóstico histopatológico definitivo e no tratamento curativo.
 </details>
 
 ---
@@ -1748,12 +1778,21 @@ Diante desse caso, a conduta médica deve ser
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A paciente apresenta um quadro clínico clássico de colecistite aguda litiásica: dor persistente em hipocôndrio direito com duração superior a 6 horas (no caso, 24 horas), de piora progressiva, associada a náuseas, vômitos, calafrios (sugerindo resposta inflamatória/infecciosa sistêmica) e sinal de Murphy positivo ao exame físico (interrupção súbita da inspiração profunda durante a palpação profunda do hipocôndrio direito devido à dor gerada pelo contato da vesícula inflamada com a mão do examinador). Conforme os critérios diagnósticos internacionais (Tokyo Guidelines - TG18) e as diretrizes do Ministério da Saúde/Colégio Brasileiro de Cirurgiões, a colecistite aguda constitui uma urgência cirúrgica abdominal que requer avaliação hospitalar imediata, realização de exames laboratoriais, ultrassonografia de abdome de urgência, jejum, hidratação venosa, analgesia, antibioticoterapia intravenosa e programação de colecistectomia precoce (idealmente por videolaparoscopia nas primeiras 72 horas do início dos sintomas). Além disso, a paciente apresenta comorbidades de risco (diabetes mellitus e obesidade mórbida) que aumentam substancialmente o risco de complicações infecciosas graves, como colecistite gangrenosa, enfisematosa ou perfuração. Portanto, a conduta correta em ambiente de Atenção Básica é o encaminhamento imediato ao serviço de pronto-socorro/urgência (Alternativa A).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa B está incorreta, pois a colecistite aguda não permite postergação ambulatorial nem investigação por ultrassonografia eletiva, o que atrasaria o diagnóstico definitivo e aumentaria o risco de sepse biliar e necrose da vesícula.
-- Alternativa C está incorreta, pois o quadro já ultrapassou a fase de mera cólica biliar transitória (que costuma durar menos de 4 a 6 horas e cede com antiespasmódicos/analgésicos); a persistência por 24 horas com calafrios e sinal de Murphy positivo contraindica o tratamento domiciliar expectante.
-- Alternativa D está incorreta, pois a antibioticoterapia para colecistite aguda necessita ser parenteral e combinada com suporte hospitalar e eventual intervenção cirúrgica; prescrever antibióticos orais ambulatorialmente e reavaliar em 7 dias representa negligência médica diante de um abdome agudo inflamatório potencialmente letal.
+A paciente em questão apresenta perfil epidemiológico clássico para litíase biliar sintomática (sexo feminino, 40 anos, multípara em potencial e obesa mórbida — os clássicos "F's" da colelitíase: female, forty, fat, fertile). O quadro clínico caracteriza-se por dor em hipocôndrio direito com duração de 24 horas, de caráter contínuo e progressivo, desencadeada após alimentação, acompanhada de náuseas, vômitos, calafrios e sinal de Murphy positivo ao exame físico (interrupção súbita da inspiração profunda durante a palpação do ponto cístico sob o rebordo costal direito).
+
+A diferenciação fisiopatológica fundamental reside no tempo de evolução e na presença de inflamação transmural. Na cólica biliar simples não complicada, a obstrução do ducto cístico pelo cálculo é transitória, com dor autolimitada durando tipicamente menos de 4 a 6 horas, sem resposta inflamatória sistêmica nem irritação peritoneal localizada. Quando a impactação do cálculo é persistente, ocorre estase biliar, aumento da pressão intraluminal, isquemia da mucosa da vesícula biliar, liberação de mediadores inflamatórios e proliferação bacteriana secundária (predominantemente por gram-negativos e anaeróbios, como *Escherichia coli*, *Klebsiella pneumoniae* e *Bacteroides fragilis*), configurando o diagnóstico de **colecistite aguda**.
+
+De acordo com os critérios internacionais vigentes (Diretrizes de Tóquio — TG18), a suspeita diagnóstica clínica baseia-se na combinação de sinais locais de inflamação (dor em hipocôndrio direito, sinal de Murphy positivo) e manifestações sistêmicas (febre ou calafrios, leucocitose). Trata-se de uma urgência cirúrgica cujo tratamento padrão-ouro consiste em internação hospitalar imediata, jejum, ressuscitação volêmica venosa, analgesia, antibioticoterapia intravenosa e colecistectomia videolaparoscópica precoce (idealmente nas primeiras 72 horas do início dos sintomas). Portanto, a conduta imperativa na Atenção Primária à Saúde é o **encaminhamento ao pronto-socorro**.
+
+**Análise das alternativas incorretas:**
+
+• **Alternativa B: Incorreta.** A ultrassonografia de abdome é o método de imagem de escolha para confirmar o diagnóstico (espessamento da parede vesicular > 4 mm, cálculo impactado, líquido pericolecístico e Murphy ultrassonográfico), mas deve ser realizada em regime de urgência intra-hospitalar. A solicitação eletiva atrasa o diagnóstico e coloca a paciente em risco de complicações infecciosas graves, como gangrena, perfuração e peritonite generalizada.
+
+• **Alternativa C: Incorreta.** O manejo com antiespasmódicos orais e reavaliação ambulatorial aplica-se apenas a episódios de cólica biliar descomplicada que já cessaram na unidade de saúde. A duração de 24 horas associada a calafrios e Murphy positivo afasta a hipótese de cólica simples e contraindica a alta para o domicílio.
+
+• **Alternativa D: Incorreta.** A colecistite aguda não é tratada ambulatorialmente com antibióticos por via oral. A antibioticoterapia deve ser parenteral e coadjuvante ao tratamento cirúrgico definitivo. Uma reavaliação em 7 dias significaria retardar a conduta cirúrgica em uma paciente com comorbidades importantes (diabetes descompensado, hipertensão e obesidade), aumentando expressivamente a morbimortalidade por sepse de foco biliar.
 </details>
 
 ---
@@ -2140,15 +2179,17 @@ Paciente do sexo masculino, de 75 anos, tabagista, com quadro de disfagia progre
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta padrão para este paciente fundamenta-se nos princípios dos cuidados paliativos oncológicos. O paciente apresenta carcinoma espinocelular (CEC) de esôfago médio em estágio avançado (estádio IV, com metástases pulmonares à distância), tornando o tratamento exclusivamente paliativo. O objetivo primordial nesta fase é o alívio rápido e eficaz da disfagia, a manutenção da nutrição e a preservação da qualidade de vida.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. Em pacientes com **carcinoma epidermoide de esôfago** avançado/metastático (estádio IV), o foco do manejo é estritamente **paliativo**, sendo a inserção de **prótese metálica autoexpansível** (*SEMS*) a conduta padrão-ouro recomendada pelas diretrizes internacionais (como as da *ASGE* e *ESGE*) para o alívio rápido da disfagia e manutenção da via oral.
 
-* **Por que a alternativa D é a correta?**
-A colocação de prótese metálica autoexpansível por via endoscópica (SEMS - *Self-Expanding Metal Stent*) é a intervenção de escolha para a paliação da disfagia obstrutiva em neoplasias esofágicas avançadas/incuráveis. O procedimento é minimamente invasivo, tem alta taxa de sucesso técnico e clínico, permite o restabelecimento quase imediato do trânsito esofágico (inclusive para o manejo da saliva e secreções, prevenindo broncoaspiração) e viabiliza o retorno da ingestão oral de dietas pastosas e líquidas, proporcionando conforto psicológico e melhor qualidade de vida sem a necessidade de ostomias ou tubos externos.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Paciente idoso, tabagista, com **carcinoma escamoso de esôfago** em esôfago médio e **múltiplas metástases pulmonares**, configurando neoplasia esofágica em **estádio IV** (incurável), com síndrome consumptiva e disfagia mecânica maligna.
+2. **Critério Clínico / Fisiopatologia:** Diante da impossibilidade de tratamento com intuito curativo, os objetivos terapêuticos voltam-se para a **paliação sintomática**, prevenção de **broncoaspiração** de saliva/alimentos, suporte calórico e preservação da **qualidade de vida** e do prazer alimentar por meio da via oral.
+3. **Indicação de Conduta:** A **passagem de prótese endoscópica autoexpansível** restaura de forma imediata a patência luminal do esôfago com baixa morbimortalidade. O método permite a retomada precoce da ingesta de dietas líquidas e pastosas sem a necessidade de dispositivos externos ou procedimentos cirúrgicos invasivos.
 
-* **Análise dos distratores:**
-- **A (Jejunostomia cirúrgica):** Trata-se de um procedimento cirúrgico invasivo, com morbidade associada desnecessária em um paciente com doença metastática e expectativa de vida limitada. Além disso, não resolve a disfagia nem o acúmulo de saliva no esôfago e priva o paciente da via oral.
-- **B (Nutrição por sonda nasoenteral):** Embora seja uma opção temporária, não é a melhor escolha definitiva em paliação oncológica por estar associada a desconforto nasofaríngeo contínuo, risco de exteriorização acidental, sinusite, lesões por pressão e piora significativa da autoimagem e da qualidade de vida.
-- **C (Gastrostomia por via endoscópica - PEG):** Embora seja menos invasiva que a jejunostomia cirúrgica, a gastrostomia mantém o paciente dependente de via enteral exclusiva, não restaura o mecanismo de deglutição, não alivia os sintomas obstrutivos esofágicos (como estase de saliva e regurgitação) e priva o paciente do prazer alimentar, sendo inferior à colocação de prótese endoscópica neste cenário.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A **jejunostomia cirúrgica** é um procedimento invasivo associado a riscos cirúrgicos e anestésicos desnecessários em um paciente frágil e terminal. Além disso, não resolve a **disfagia para saliva**, não previne aspiração respiratória e priva o doente do convívio e da alimentação pela boca.
+• **Alternativa B (Incorreta):** A **sonda nasoenteral** é indicada apenas como ponte temporária. O seu uso crônico gera **desconforto nasofaríngeo**, risco de **sinusite**, lesões de asa nasal, frequentes deslocamentos acidentais e impacto estético negativo, sendo desfavorável para a qualidade de vida em cuidados paliativos.
+• **Alternativa C (Incorreta):** A **gastrostomia endoscópica percutânea (PEG)** contorna o trato digestivo superior, mas não soluciona a **obstrução esofágica**, mantendo o risco de estase salivar, regurgitação e broncoaspiração, além de impedir o uso da via oral natural.
 </details>
 
 ---
@@ -2291,18 +2332,17 @@ Nesse caso, qual é a melhor conduta imediata?
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta padrão indicada para o caso é a internação hospitalar para antibioticoterapia venosa associada à drenagem percutânea do abscesso, justificando a alternativa (B) como correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O quadro clínico e tomográfico indica **diverticulite aguda complicada com abscesso volumoso**, cuja conduta padrão-ouro estabelecida por consensos internacionais (*World Society of Emergency Surgery* - WSES e *American Society of Colon and Rectal Surgeons* - ASCRS) consiste em **internação hospitalar**, **antibioticoterapia venosa** de amplo espectro e **drenagem percutânea do abscesso** guiada por imagem.
 
-Fundamentação Clínica e Fisiopatológica:
-O quadro clínico e tomográfico é característico de diverticulite aguda complicada. Pela Tomografia Computadorizada (TC), observa-se espessamento de parede colônica e uma coleção purulenta/abscesso pericolônico medindo 6 cm, sem evidência de pneumoperitônio ou líquido livre difuso (ausência de peritonite generalizada), enquadrando-se como Hinchey modificada Ib ou II (diverticulite complicada com abscesso).
-Segundo as diretrizes de cirurgia e coloproctologia vigentes (como as da WSES - World Society of Emergency Surgery e da ASCRS - American Society of Colon and Rectal Surgeons):
-- Abscessos pequenos (< 3 a 4 cm): podem ser manejados inicialmente apenas com internação e antibioticoterapia venosa de amplo espectro.
-- Abscessos volumosos (≥ 3 a 4 cm): como o do paciente (6 cm), apresentam elevado índice de falha ao tratamento conservador exclusivo. Nesses casos, a indicação formal de primeira linha é a drenagem percutânea guiada por método de imagem (TC ou ultrassonografia) combinada à antibioticoterapia venosa, permitindo a resolução do foco infeccioso sem a necessidade de intervenção cirúrgica de urgência.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção:** Trata-se de um quadro de **diverticulite aguda complicada** (classificada pelo estadiamento de *Hinchey* modificado como Ib ou II), evidenciada por dor em fossa ilíaca esquerda, febre baixa, espessamento da parede do cólon descendente e formação de **abscesso pericolônico de 6 cm**, na ausência de pneumoperitônio ou peritonite generalizada.
+2. **Critério Clínico e Fisiopatologia:** O diâmetro do abscesso é o principal determinante da conduta terapêutica. Abscessos com diâmetro **≥ 3 a 4 cm** (no paciente, **6 cm**) apresentam penetração inadequada dos antimicrobianos e **elevada taxa de falha** ao tratamento medicamentoso exclusivo, evoluindo frequentemente para sepse ou rotura para a cavidade livre caso não sejam descomprimidos.
+3. **Indicação de Conduta:** A abordagem padrão-ouro consiste no controle da fonte infecciosa através da **drenagem percutânea** guiada por tomografia ou ultrassonografia, associada à **antibioticoterapia venosa**. Esse método minimamente invasivo estabiliza o paciente e reduz expressivamente a necessidade de laparotomia de urgência e confecção de estoma.
 
-Análise das demais alternativas (distratores):
-- Alternativa (A) - Incorreta: O tratamento exclusivo com antibioticoterapia venosa tem alta taxa de falha terapêutica em coleções com diâmetro igual ou superior a 3-4 cm. O esvaziamento do abscesso de 6 cm é fundamental para controle da fonte infecciosa.
-- Alternativa (C) - Incorreta: A antibioticoterapia ambulatorial por via oral está reservada para casos selecionados de diverticulite aguda não complicada (Hinchey 0 ou Ia leve), sem vômitos, com tolerância oral e bom suporte social. A presença de um abscesso volumoso contraindica conduta ambulatorial.
-- Alternativa (D) - Incorreta: A cirurgia de urgência (como o procedimento de Hartmann) está reservada para pacientes instáveis hemodinamicamente, com peritonite generalizada purulenta ou fecal (Hinchey III ou IV), pneumoperitônio expressivo ou naqueles refratários à drenagem percutânea e antibioticoterapia.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A antibioticoterapia venosa exclusiva é reservada apenas para pequenos abscessos pericolônicos restritos (**< 3 a 4 cm**). Em coleções de **6 cm**, a taxa de falha clínica é alta sem o esvaziamento mecânico.
+• **Alternativa C (Incorreta):** O manejo ambulatorial com antibioticoterapia oral aplica-se estritamente à **diverticulite aguda não complicada** (*Hinchey* 0 ou Ia leve), em pacientes com tolerância oral e sem sinais de alarme. A presença de abscesso de 6 cm impõe **internação hospitalar imediata**.
+• **Alternativa D (Incorreta):** A intervenção cirúrgica de urgência (**laparotomia exploradora** e **cirurgia de Hartmann**) é indicada em cenários de **peritonite difusa purulenta ou fecal** (*Hinchey* III e IV), choque séptico, pneumoperitônio volumoso ou falha documentada da drenagem percutânea, o que não ocorre neste caso de paciente hemodinamicamente estável e sem abdome agudo perfurativo.
 </details>
 
 ---
@@ -2861,13 +2901,17 @@ Mulher de 47 anos procurou atendimento por quadro de dor e abaulamento irredutí
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) é a correta. O quadro clínico descreve uma síndrome de abdome agudo obstrutivo (distensão abdominal, vômitos, parada de eliminação de flatos e fezes, hipertimpanismo e ruídos hidroaéreos diminuídos) secundária ao encarceramento de uma hérnia da região inguinocrural. O dado anatômico determinante para o diagnóstico diferencial topográfico é a localização do abaulamento: 'abaixo do ligamento inguinal à direita'. 
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. O quadro clínico caracteriza um abdome agudo obstrutivo secundário a uma **hérnia femoral encarcerada**, cuja diferenciação anatômica crucial reside na exteriorização do saco herniário **abaixo do ligamento inguinal**.
 
-Anatomicamente, o ligamento inguinal divide as hérnias inguinais (que se localizam acima do ligamento) das hérnias femorais ou crurais (que se exteriorizam pelo canal femoral, situando-se abaixo do ligamento inguinal e medialmente aos vasos femorais). As hérnias femorais são significativamente mais comuns em mulheres devido à anatomia da pelve feminina (anel femoral mais largo) e possuem o maior índice de encarceramento e estrangulamento entre todas as hérnias da parede abdominal (cerca de 30% a 40%), em razão dos limites ósseos e ligamentares rígidos do anel femoral (ligamento inguinal superiormente, ligamento lacunar medialmente e ligamento pectíneo/cooper inferiormente).
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de uma **obstrução intestinal mecânica** (vômitos, distensão abdominal, parada de eliminação de gases e fezes, hipertimpanismo) provocada pelo encarceramento de uma **hérnia femoral** (crural) à direita, caracterizada pela massa dolorosa e irredutível na raiz da coxa.
+2. **Critério Clínico / Fisiopatologia:** O marco anatômico decisivo no exame físico é o **ligamento inguinal**. Abaulamentos localizados *superiormente* ao ligamento correspondem a **hérnias inguinais**; abaulamentos localizados *inferiormente* (abaixo) ao ligamento e mediais aos vasos femorais correspondem a **hérnias femorais**. As hérnias femorais exteriorizam-se pelo canal femoral, delimitado rigidamente pelo trato iliopúbico/ligamento inguinal, ligamento lacunar de *Gimbernat* e ligamento pectíneo de *Cooper*. Devido a esse colo estreito e inelástico, apresentam o maior risco de **encarceramento e estrangulamento** (cerca de 30% a 40%) entre os defeitos da parede abdominal, sendo muito mais frequentes em mulheres pela conformação anatômica da pelve.
+3. **Indicação de Conduta:** A presença de irredutibilidade associada à síndrome obstrutiva define o **encarceramento herniário com abdome agudo obstrutivo**, constituindo indicação formal de **intervenção cirúrgica de urgência** (herniorrafia/hernioplastia com exploração do conteúdo herniado) para prevenir ou tratar a isquemia intestinal.
 
-Análise dos distratores:
-- B (Incisional encarcerada): Incorreta. A paciente apresenta cicatriz cirúrgica subcostal direita (geralmente decorrente de colecistectomia aberta prévia), enquanto o abaulamento herniário localiza-se na região infroinguinal, sem relação anatômica com a incisão prévia.
-- C e D (Inguinal direta e indireta encarceradas): Incorretas. Ambas as formas de hérnia inguinal exteriorizam-se superiormente (acima) ao ligamento inguinal (a direta através do triângulo de Hesselbach e a indireta pelo anel inguinal profundo). Como o enunciado especifica que o abaulamento é 'abaixo do ligamento inguinal', afasta-se o diagnóstico de hérnia inguinal.
+**Análise dos Distratores:**
+• **Alternativa B (Incorreta):** A paciente possui uma incisão subcostal à direita (sítio de colecistectomia prévia, conhecida como incisão de *Kocher*). Uma **hérnia incisional** requer que a protrusão ocorra exatamente sobre a área da cicatriz cirúrgica prévia, o que não coincide com a localização infrainguinal relatada.
+• **Alternativa C (Incorreta):** A **hérnia inguinal direta** exterioriza-se pelo assoalho do canal inguinal, dentro dos limites do trígono de *Hesselbach*, situando-se obrigatoriamente **acima do ligamento inguinal**.
+• **Alternativa D (Incorreta):** A **hérnia inguinal indireta** projeta-se através do anel inguinal profundo em direção ao canal inguinal, também se posicionando classicamente **acima do ligamento inguinal**.
 </details>
 
 ---
@@ -3075,15 +3119,23 @@ Uma paciente com 40 anos, índice de massa corpórea de 38kg/m², com história 
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A paciente apresenta um quadro clássico de lesão iatrogênica de via biliar (LIVB) complicando uma colecistectomia videolaparoscópica de difícil execução (fatores de risco: obesidade e aderências inflamatórias). A manifestação no pós-operatório precoce (36 horas) com dor abdominal, febre alta, icterícia com padrão colestático e rápida evolução para choque séptico (hipotensão e prostração) decorre de coleperitônio/biliary peritonitis e/ou colangite aguda.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Justificativa da alternativa correta (D):
-O manejo de lesões de via biliar associadas à instabilidade hemodinâmica e sepse exige estabilização inicial, comunicação aberta e ética com a paciente e seus familiares sobre o evento adverso, e transferência imediata para centro de referência terciário com Unidade de Terapia Intensiva (UTI) e retaguarda de cirurgia hepatobilio-pancreática. A elucidação da anatomia e do tipo da lesão (classificação de Strasberg-Bismuth) é mandatória antes de intervenções definitivas, sendo a colangiorressonância magnética (CPRM) o exame não invasivo de escolha para mapear o trato biliar proximal e coleções associadas, sem a morbidade associada a procedimentos invasivos no momento de sepse.
+O quadro clínico retrata uma paciente jovem com obesidade grau II submetida a colecistectomia videolaparoscópica difícil decorrente de processo inflamatório crônico e aderências locais, fatores de risco clássicos para acidentes intraoperatórios. A deterioração aguda no pós-operatório precoce (36 horas), marcada por febre elevada, dor abdominal, leucocitose com desvio à esquerda e padrão laboratorial de colestase (hiperbilirrubinemia direta e elevação expressiva de gama-GT e fosfatase alcalina), seguida de rápida descompensação hemodinâmica com hipotensão e prostração, é altamente sugestiva de **lesão iatrogênica de via biliar** complicada por coleperitônio, bilioma infectado e **choque séptico**.
 
-Análise dos distratores:
-- A: Incorreta. A incidência de lesão iatrogênica de vias biliares na cirurgia videolaparoscópica é historicamente maior (cerca de 0,3% a 0,5%) em comparação à cirurgia aberta tradicional (0,1% a 0,2%). Além disso, a clínica e os exames laboratoriais (icterícia e elevação de canaliculares) apontam inequivocamente para foco infeccioso abdominal/biliar, e não pulmonar.
-- B: Incorreta. A colecistectomia videolaparoscópica permanece como técnica de escolha (padrão-ouro) para pacientes obesos, pois reduz acentuadamente complicações de ferida operatória, dor e eventos tromboembólicos. Ademais, a drenagem percutânea exclusiva não é a conduta empírica de rotina sem diagnóstico anatômico prévio da lesão.
-- C: Incorreta. Diante de choque séptico e peritonite biliar aguda, a conduta não pode ser passiva ('aguardar esfriamento'). Embora a reconstrução biliar definitiva (como hepaticojejunostomia em Y de Roux) possa ser postergada até o controle do quadro infeccioso local e sistêmico, o paciente necessita de avaliação diagnóstica imediata (CPRM, CPRE ou TC) e controle de foco (drenagem de coleções ou descompressão biliar de urgência).
+A abordagem dessa complicação cirúrgica grave fundamenta-se em quatro pilares:
+1. Reanimação hemodinâmica imediata, suporte ventilatório e início de antibioticoterapia parenteral de amplo espectro em leito de terapia intensiva para manejo da sepse grave.
+2. Comunicação transparente, ética e empática com a paciente e seus familiares sobre a suspeita da complicação e os passos a serem seguidos.
+3. Transferência segura para um hospital terciário de referência dotado de equipe especializada em cirurgia hepatobiliopancreática e radiologia intervencionista/endoscopia avançada.
+4. Definição anatômica precisa da lesão biliar, sendo a **colangiorressonância magnética** o método não invasivo de escolha para demonstrar a descontinuidade ductal, guiar a drenagem inicial de coleções infectadas e planejar com segurança o momento e a técnica de reconstrução biliar definitiva.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A incidência de lesão iatrogênica de via biliar na abordagem laparoscópica é historicamente superior à da técnica aberta (cerca de 0,3% a 0,5% na videolaparoscopia contra 0,1% a 0,2% na cirurgia convencional). Além disso, os achados clínicos de dor abdominal, icterícia e o perfil de colestase associados à rápida deterioração apontam inequivocamente para foco séptico intra-abdominal, e não pulmonar.
+
+• **B) Incorreta:** A videolaparoscopia é o padrão-ouro preferencial para colecistectomia inclusive em indivíduos obesos, pois se associa a menores taxas de complicações de ferida operatória, menor dor pós-operatória e deambulação mais precoce. Ademais, propor drenagem percutânea imediata e empírica sem definição anatômica e sem transferência para centro especializado atrasa o manejo cirúrgico correto.
+
+• **C) Incorreta:** Adotar uma postura passiva de aguardar o esfriamento do processo clínico é contraindicado diante de um choque séptico manifesto. O controle imediato do foco infeccioso, o suporte hemodinâmico intensivo e a investigação diagnóstica anatômica com urgência são mandatórios para estabilização da paciente antes de qualquer reparo definitivo planejado.
 </details>
 
 ---
@@ -3132,16 +3184,21 @@ Um paciente com 65 anos apresenta quadro de disfagia a sólidos que evoluiu rapi
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta padrão e correta para o caso apresentado é a realização de gastrostomia (Alternativa D).
+> **Comentário Médica:** **Raciocínio Clínico e Diagnóstico:**
+O paciente em questão apresenta quadro clínico clássico de neoplasia avançada de esôfago: homem idoso, etilista e tabagista pesado de longa data, com disfagia rapidamente progressiva (de sólidos para líquidos), perda ponderal volumosa (20 kg em 3 meses), associada a sinais de invasão de estruturas vizinhas (rouquidão por acometimento do nervo laríngeo recorrente e tosse por invasão da árvore traqueobrônquica). A endoscopia confirmou **câncer de esôfago cervical** e a broncoscopia evidenciou invasão direta da árvore aérea e paralisia de pregas vocais, classificando o tumor no estádio T4b (doença localmente avançada irressecável).
 
-1. Fundamentação Clínica e Raciocínio Fisiopatológico:
-O paciente apresenta um quadro avançado de neoplasia de esôfago cervical com invasão de estruturas nobres adjacentes (árvore traqueobrônquica e provável acometimento do nervo laríngeo recorrente, evidenciado pela paralisia de pregas vocais e tosse/rouquidão), caracterizando um estadio T4b (doença irressecável / incurável). 
-Nesse cenário, o tratamento tem finalidade exclusivamente paliativa, com o objetivo primordial de aliviar sintomas, assegurar aporte nutricional e prevenir aspirações pulmonares. Em tumores de esôfago cervical, a aposição de prótese esofágica autoexpansível (SEMS) é frequentemente desfavorável ou contraindicada devido à proximidade com o esfíncter esofágico superior (< 2 cm), o que acarreta dor intratável, sensação de corpo estranho, risco de migração e compressão extrínseca da via aérea já comprometida. Dessa forma, a obtenção de uma via de alimentação enteral distal ao tumor é mandatória; a gastrostomia (seja cirúrgica ou endoscópica, a depender da viabilidade de transposição tumoral) constitui o método mais seguro, eficaz e padronizado para suporte nutricional paliativo.
+**Conduta Terapêutica e Suporte Paliativo:**
+Tumores esofágicos T4b com acometimento traqueal e paralisia laríngea têm contraindicação formal a qualquer procedimento cirúrgico ressectivo de intenção curativa, devido ao alto risco de sangramentos catastróficos, fístulas traqueoesofágicas e ausência de margens cirúrgicas livres, impondo uma abordagem estritamente paliativa. O principal objetivo imediato é garantir o aporte nutricional, aliviar o sofrimento e prevenir a broncoaspiração. 
 
-2. Análise das Alternativas Incorretas:
-- A (Esofagectomia trans-hiatal): É formalmente contraindicada. Trata-se de procedimento de grande porte com intuito curativo, inviável em vigência de invasão traqueobrônquica (T4b) e tumores cervicais (que demandam faringolaringoesofagectomia quando ressecáveis). Não tem papel como cirurgia paliativa nessa extensão de doença devido à morbimortalidade proibitiva.
-- B (Tunelização cirúrgica): É uma técnica cirúrgica obsoleta de derivação digestiva (bypass retroesternal ou subcutâneo com estômago ou cólon), abandonada na oncologia moderna por apresentar altíssimas taxas de morbimortalidade e complicações anastomóticas, sendo injustificável em cuidados paliativos de pacientes terminais.
-- C (Esofagostomia): Consiste na exteriorização do esôfago cervical na pele para desvio de saliva (fístulas, perfurações). Não restaura o trânsito digestivo para nutrição e, pela localização cervical do próprio tumor, seria tecnicamente desfavorável ou inviável, não solucionando a necessidade de suporte nutricional do paciente.
+Embora em lesões do esôfago médio e distal a colocação de prótese metálica autoexpansível seja frequentemente a escolha para restabelecer a deglutição, tumores do esôfago cervical localizados a menos de 2 a 3 cm do esfíncter esofágico superior representam uma contraindicação relativa ou absoluta ao implante de stents, em razão da intensa dor, sensação de corpo estranho, tosse intratável, risco de migração e perfuração orofaríngea. Dessa forma, a obtenção de um acesso enteral distal por **gastrostomia** (preferencialmente percutânea endoscópica ou cirúrgica) torna-se o método mais seguro e eficaz para manutenção nutricional e suporte terapêutico paliativo.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A esofagectomia trans-hiatal é uma intervenção cirúrgica de grande porte com intuito curativo, completamente contraindicada na presença de invasão de estruturas vitais contíguas da árvore traqueobrônquica (estadio T4b). Além disso, a via trans-hiatal não permite a dissecção adequada nem a ressecção oncológica segura de tumores situados no esôfago cervical, cursando com morbimortalidade proibitiva sem ganho de sobrevida ou benefício paliativo proporcional.
+
+• **B) Incorreta:** A tunelização cirúrgica ou derivação digestiva mediante plastias retroesternais ou subcutâneas é uma estratégia cirúrgica ultrapassada e em desuso, com taxas elevadíssimas de necrose de enxerto, deiscência de anastomoses e mortalidade perioperatória inaceitável para pacientes com doença oncológica em estágio terminal.
+
+• **C) Incorreta:** A esofagostomia consiste na exteriorização do esôfago para o meio externo com o objetivo primário de desviar a saliva e evitar sua passagem pela área tumoral ou fistulosa. Não serve para realimentação do paciente e sua confecção na porção cervical estaria gravemente comprometida ou impossibilitada pela presença do próprio bloco tumoral infiltrativo no pescoço.
 </details>
 
 ---
@@ -3251,16 +3308,19 @@ Considerando as informações desse caso e a imagem anterior, assinale a opção
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A paciente em questão apresenta um quadro clássico de abdome agudo obstrutivo mecânico baixo (cólon), com história de sinais de alarme ('red flags') iniciados há cinco meses (emagrecimento, dor recorrente, mudança do hábito intestinal e massa palpável), altamente sugestivos de neoplasia colorretal estenosante complicada com obstrução em alça fechada.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O caso clínico retrata um quadro típico de **obstrução intestinal baixa** (mecânica de cólon), evidenciado na radiografia por acentuada distensão do arcabouço cólico com ausência de gás em alças delgadas, configurando uma **válvula ileocecal competente** que impede o refluxo para o intestino delgado.
 
-1. Justificativa da Alternativa Correta (C):
-- Diagnóstico: Obstrução intestinal baixa. O quadro de parada de eliminação de fezes e flatos, associado a dor em cólica, náuseas e grande distensão abdominal de início insidioso, caracteriza a obstrução do intestino grosso.
-- Achado de imagem: A radiografia de abdome demonstra importante pneumatose/distensão gasosa periférica com moldamento cólico e haustrações características, poupando a porção central do abdome (onde se localizaria a distensão de intestino delgado com válvulas coniventes). A ausência de refluxo de gás para as alças de intestino delgado caracteriza a competência da válvula ileocecal. Essa condição fisiopatológica cria um sistema de 'alça fechada' entre a válvula continente e o ponto de obstrução mecânica distal, resultando em grande dilatação cólica retrógrada e aumentando exponencialmente o risco de isquemia e perfuração cecal (regido pela Lei de Laplace, devido ao maior diâmetro do ceco).
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise das Alternativas Incorretas (Distratores):
-- Alternativa A: Incorreta, pois a imagem radiológica evidencia distensão quase exclusiva do arcabouço cólico (periférico, com haustrações preservadas), sem a presença do padrão em 'empilhamento de moedas' característico da dilatação de alças de intestino delgado.
-- Alternativa B: Incorreta, pois não há evidências radiológicas de pneumoperitônio (sinal de Rigler, ar subdiafragmático ou sinal do ligamento falciforme), o que indicaria perfuração de víscera oca.
-- Alternativa D: Incorreta, pois o quadro clínico-radiológico configura uma urgência cirúrgica (obstrução mecânica) e não mera constipação intestinal funcional. Ademais, na obstrução mecânica completa do cólon esquerdo/sigmoide, observa-se ausência de ar na ampola retal.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **obstrução intestinal baixa** secundária a provável **neoplasia colorretal**, sugerida pela faixa etária, perda ponderal nos últimos 5 meses, dor recorrente, anemia clínica e presença de massa palpável em hipogástrio.
+2. **Critério Clínico / Fisiopatologia:** A imagem radiográfica demonstra dilatação com ar periférico demarcado pelas **haustrações cólicas**, sem ar na ampola retal. O centro do abdome está desprovido de distensão de intestino delgado, indicando que a **válvula ileocecal é continente (competente)**. Isso gera um mecanismo de **alça fechada** entre a válvula competente e o ponto obstrutivo distal, elevando a pressão intraluminal e predispondo à isquemia e risco iminente de perfuração no ceco, segundo a *Lei de Laplace*.
+3. **Indicação de Conduta:** A identificação de obstrução em alça fechada impõe internação com **descompressão gástrica**, hidratação venosa e programação de **intervenção cirúrgica de urgência** para prevenir a perfuração cecal e a sepse abdominal.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A radiografia evidencia distensão restrita ao **arcabouço cólico**, sem padrão de "empilhamento de moedas" ou centralização característicos da dilatação de **alças de intestino delgado**.
+• **Alternativa B (Incorreta):** Não há sinais radiológicos de **pneumoperitônio** (como cúpulas diafragmáticas com ar livre subdiafragmático ou *sinal de Rigler*), descartando perfuração ativa de víscera oca no momento do exame.
+• **Alternativa D (Incorreta):** A apresentação clínica com parada completa de flatos e fezes, dor em cólica e desidratação reflete **abdome agudo obstrutivo** e não constipação funcional; além disso, na obstrução mecânica colônica distal, há **ausência de ar na ampola retal**.
 </details>
 
 ---
@@ -3381,20 +3441,19 @@ Nesse caso, além de reposição hidroeletrolítica, qual é a conduta mais adeq
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** O quadro clínico apresentado é clássico de **obstrução intestinal mecânica do intestino delgado**, caracterizado pela tríade de dor abdominal em cólica, vômitos biliosos e parada de eliminação de gases e fezes, em um paciente com antecedente cirúrgico abdominal prévio (laparotomia por úlcera péptica perfurada há 5 anos). A principal etiologia dessa condição em pacientes previamente operados é a presença de **aderências (bridas) peritoneais**, correspondendo a mais de 60-70% dos casos.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O quadro clínico e o histórico cirúrgico configuram **obstrução intestinal mecânica do intestino delgado por bridas/aderências**, cujo manejo inicial preconizado pelas diretrizes da *World Society of Emergency Surgery* (WSES) consiste no tratamento conservador com descompressão gástrica, hidratação e observação clínica rigorosa na ausência de sinais de sofrimento de alça.
 
-**Justificativa da alternativa correta (C):**
-As diretrizes e consensos internacionais (como as da *World Society of Emergency Surgery* - WSES) e nacionais recomendam que o manejo inicial da obstrução intestinal não complicada por bridas seja **conservador (não operatório)**, desde que não haja sinais de sofrimento de alça (estrangulamento), isquemia, necrose ou perfuração.
-Os pilares do tratamento conservador incluem:
-1. **Reposição volêmica e correção de distúrbios hidroeletrolíticos e acidobásicos;**
-2. **Descompressão gástrica com passagem de sonda nasogástrica (SNG)** em sifonagem ou sucção intermitente, aliviando a distensão, o desconforto e reduzindo o risco de broncoaspiração;
-3. **Jejum oral e monitorização clínica seriada**, com reavaliações do exame físico e dos parâmetros laboratoriais/radiológicos por um período de 48 a 72 horas.
-Como o paciente não apresenta febre, taquicardia desproporcional, leucocitose com desvio ou sinais de irritação peritoneal (ausência de descompressão dolorosa), a conduta imediata mais adequada é a sondagem nasogástrica associada à observação clínica.
+**Raciocínio Clínico e Fisiopatológico:**
 
-**Análise das alternativas incorretas:**
-- **A) Videolaparoscopia diagnóstica:** Incorreta. A abordagem cirúrgica não é indicada precocemente na ausência de complicações. Além disso, a presença de alças amplamente distendidas em paciente com abdome previamente operado eleva significativamente o risco de perfurações iatrogênicas por punção de trocartes.
-- **B) Laparotomia exploradora de emergência:** Incorreta. A laparotomia de emergência é reservada para quadros de abdome agudo obstrutivo complicado (com sinais de peritonite, pneumoperitônio, choque séptico, obstrução em alça fechada ou suspeita de estrangulamento intestinal) ou após a falha do manejo conservador (habitualmente após 48 a 72 horas sem resolução).
-- **D) Descompressão colônica por retossigmoidoscopia:** Incorreta. Este procedimento tem indicação primária no tratamento do vólvulo de sigmoide não complicado e na pseudo-obstrução colônica aguda (Síndrome de Ogilvie), que são causas de obstrução do intestino grosso (baixo), e não no acometimento do intestino delgado secundário a bridas.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de uma **obstrução intestinal mecânica do intestino delgado**, evidenciada pela tríade clássica de dor em cólica, vômitos biliosos e parada de eliminação de flatos e fezes, associada ao antecedente de cirurgia abdominal prévia (fator de risco para **bridas/aderências peritoneais**).
+2. **Critério Clínico / Fisiopatologia:** As aderências representam a principal causa de suboclusão e obstrução de delgado. A avaliação inicial foca na exclusão de complicações como **isquemia transmural**, **necrose**, **perfuração** ou **estrangulamento**, as quais se manifestariam por febre, taquicardia desproporcional, leucocitose acentuada ou **sinais de irritação peritoneal** (ausentes neste paciente).
+3. **Indicação de Conduta:** Na ausência de sinais de gravidade ou sofrimento de alça, o tratamento inicial padrão-ouro é o **manejo não operatório** (conservador). Este baseia-se em **jejum oral**, hidratação venosa vigorosa, correção hidroeletrolítica e **descompressão gástrica por sonda nasogástrica (SNG)**, com reavaliação seriada por **48 a 72 horas**.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A abordagem cirúrgica precoce por **videolaparoscopia diagnóstica** não é indicada em casos não complicados. Além disso, alças intestinais distendidas e histórico de laparotomia prévia aumentam substancialmente o risco de **perfuração iatrogênica** na inserção de trocartes.
+• **Alternativa B (Incorreta):** A **laparotomia exploradora de emergência** é reservada para pacientes com **abdome agudo perfurativo**, sinais de **peritonite generalizada**, choque séptico ou falha documentada da conduta conservadora após 48 a 72 horas de observação.
+• **Alternativa D (Incorreta):** A **descompressão colônica por retossigmoidoscopia** está indicada em obstruções baixas do cólon, como no **vólvulo de sigmoide** não complicado ou na **síndrome de Ogilvie** (pseudo-obstrução colônica aguda), não apresentando papel terapêutico na obstrução de intestino delgado.
 </details>
 
 ---
@@ -3775,16 +3834,20 @@ Um paciente com 40 anos, diabético e obeso, comparece ao pronto-socorro, com ev
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** O quadro clínico descrito — paciente com comorbidades metabólicas (diabetes mellitus e obesidade), dor glútea/perianal aguda associada a febre e achado ao toque retal de abaulamento da mucosa retal a 6 cm da margem anal — é clássico de um abscesso anorretal profundo, muito provavelmente do tipo isquiorretal ou supraesfincteriano/supraelevador.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
+O quadro clínico descreve um paciente de 40 anos, com comorbidades metabólicas relevantes (diabetes mellitus e obesidade), apresentando dor perianal aguda de início há 24 horas, febre e achado de massa/elevação palpável à palpação retal a 6 cm da margem anal, sem sinais flogísticos externos evidentes na inspeção perianal/nádega. Essa apresentação é clássica de um **abscesso anorretal** profundo, mais especificamente um abscesso isquiorretal alto ou supraelevador (pelveorretal).
 
-1. Fundamentação da conduta correta (Alternativa C):
-Os abscessos anorretais resultam, em sua maioria, da infecção e obstrução das glândulas anais crípticas (teoria criptoglandular). Em locais profundos (espaço supraelevador ou fossa isquiorretal profunda), os sinais externos de flogose (como hiperemia e calor cutâneo) frequentemente inexistem na fase inicial, sendo o toque retal fundamental para identificar o abaulamento doloroso.
-O preceito cirúrgico clássico 'ubi pus, ibi evacua' estabelece que o tratamento definitivo e urgente de qualquer abscesso é a drenagem cirúrgica. Adicionalmente, por se tratar de um abscesso profundo com manifestações sistêmicas (febre) e paciente de alto risco para disseminação infecciosa e fasciite necrotizante (diabetes mellitus), a antibioticoterapia sistêmica é formalmente indicada em associação com a drenagem.
+A fisiopatologia da maioria dos abscessos anorretais decorre da teoria criptoglandular de Parks, na qual ocorre a obstrução dos ductos das glândulas anais que se abrem nas criptas da linha pectínea (geralmente por fezes, corpo estranho ou edema local). O represamento de secreções gera proliferação bacteriana mista (flora colônica e cutânea, envolvendo anaeróbios como Bacteroides fragilis, enterobactérias como Escherichia coli e cocos gram-positivos). A infecção rompe para os espaços perianais adjacentes. Quando a infecção disseca cranialmente através do esfíncter externo ou do espaço interesfincteriano acima do músculo levantador do ânus, forma-se uma coleção profunda, muitas vezes imperceptível à inspeção externa superficial, mas palpável ao toque retal como um abaulamento doloroso e tenso na parede retal.
 
-2. Análise dos distratores:
-- Alternativa A (Incorreta): O uso isolado de anti-inflamatórios não resolve coleções purulentas e pode mascarar a piora da sepse. A anuscopia não é o método diagnóstico definitivo para abscesso supraelevador e não substitui a abordagem cirúrgica.
-- Alternativa B (Incorreta): O uso exclusivo de antibióticos sem drenagem cirúrgica é ineficaz para abscessos cavitários ('o antibiótico não penetra adequadamente na cavidade purulenta'). O retardo de 7 dias é perigoso e pode culminar em choque séptico ou síndrome de Fournier em pacientes diabéticos.
-- Alternativa D (Incorreta): Banhos de assento e anti-inflamatórios são medidas adjuvantes e sintomáticas indicadas para afecções orificiais menores (como fissuras ou tromboses hemorroidárias externas pequenas), sendo absolutamente insuficientes e contraindicadas como conduta isolada diante de uma coleção infecciosa profunda com repercussão sistêmica.
+O diabetes mellitus confere um estado de disfunção da imunidade celular e da quimiotaxia de neutrófilos, além de microangiopatia, o que eleva exponencialmente o risco de rápida progressão para infecções necrotizantes dos tecidos moles (como a gangrena de Fournier ou sepse grave). Diante de uma coleção purulenta fechada associada a sinais sistêmicos (febre) em hospedeiro de alto risco, o princípio cirúrgico fundamental não pode ser postergado: abscesso requer descompressão e **drenagem cirúrgica** de urgência, associada à antibioticoterapia sistêmica de amplo espectro para controle bacterêmico e contenção da disseminação tecidual.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O uso isolado de anti-inflamatórios em uma infecção bacteriana ativa e supurativa retarda o diagnóstico definitivo, mascara sinais clínicos de gravidade e pode acelerar a disseminação da sepse. A anuscopia é incapaz de drenar a coleção e não tem papel resolutivo primário, além de ser extremamente dolorosa e dispensável para a conduta de urgência.
+
+• **B) Incorreta:** O uso isolado de antibióticos sem drenagem cirúrgica é ineficaz para erradicar abscessos fechados, devido à acidez do meio purulento e à ausência de leito vascular no centro da loja. Reavaliar o paciente em 7 dias em regime ambulatorial coloca a vida do indivíduo em risco extremo, pela provável evolução para choque séptico ou fasceíte necrotizante do períneo.
+
+• **D) Incorreta:** Banhos de assento e anti-inflamatórios são indicados para condições orificiais superficiais e não complicadas, como fissuras anais ou tromboses hemorroidárias externas incipientes. Não têm nenhuma utilidade terapêutica para abscessos profundos infectados com repercussão sistêmica.
 </details>
 
 ---
@@ -3807,14 +3870,19 @@ Com base no quadro apresentado, qual é a conduta mais adequada?
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** O quadro clínico apresentado — dor anal intensa e progressiva, calafrios, taquicardia (FC = 105 bpm), abaulamento perineal com hiperemia e calor local, associado a dor ao toque retal — é patognomônico de abscesso anorretal (muito provavelmente perianal ou isquiorretal). 
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O quadro clínico é clássico de **abscesso perianal/anorretal**, cuja conduta imperativa e definitiva preconizada pelas diretrizes cirúrgicas mundiais e pelo Colégio Brasileiro de Cirurgiões (CBC) é a **drenagem cirúrgica imediata**, visando conter a progressão infecciosa e prevenir complicações graves.
 
-A fisiopatologia da afecção decorre quase invariavelmente da infecção das glândulas anais de Chiari situadas na linha denteada (teoria criptoglandular), gerando acúmulo de secreção purulenta nos espaços perianais ou isquiorretais. O princípio cirúrgico fundamental para coleções purulentas fechadas é taxativo: abscesso diagnosticado é abscesso drenado («ubi pus, ibi evacua»). A ausência de flutuação evidente ao exame físico não contraindica nem posterga o procedimento, visto que a pele perianal e as fáscias regionais são espessas, mascarando a flutuação em fases iniciais ou coleções mais profundas. A drenagem cirúrgica imediata sob anestesia adequada previne a progressão séptica local e sistêmica, bem como o temido desenvolvimento de fasceíte necrosante do períneo (Síndrome de Fournier).
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa A (Incorreta): A antibioticoterapia isolada é ineficaz para erradicar o abscesso devido à escassa penetração tecidual na loja purulenta e não substitui a descompressão mecânica. O uso de antibióticos é adjuvante à drenagem e reservado a situações específicas (sepse, imunossupressão, celulite extensa circundante ou valvopatias).
-- Alternativa C (Incorreta): Medidas conservadoras (banhos de assento/termoterapia e observação) representam erro grave de conduta, postergando o tratamento definitivo e aumentando exponencialmente o risco de disseminação tecidual e choque séptico.
-- Alternativa D (Incorreta): O diagnóstico de abscesso perianal é essencialmente clínico. Exames de imagem (como TC ou ressonância magnética de pelve) são reservados exclusivamente para casos duvidosos, suspeita de abscessos profundos/ocultos (pélvicos, supraelevadores ou intramurais altos) sem achados ao exame físico externo, ou quadros atípicos/recidivantes. No caso descrito, a clínica e a ectoscopia já confirmam a afecção, sendo a drenagem imperativa sem perda de tempo.
+1. **Diagnóstico da Afecção:** Trata-se de um **abscesso anorretal** (perianal/isquiorretal). A presença de dor anal intensa, prostração, febre/subfebril (**37,5 °C**), taquicardia (**FC = 105 bpm**), abaulamento com sinais flogísticos (eritema e calor) e dor ao toque retal confirmam o processo supurativo agudo.
+2. **Critério Clínico e Fisiopatologia:** A gênese do quadro baseia-se na **teoria criptoglandular**, decorrente da obstrução e infecção secundária das glândulas anais na linha denteada. A **ausência de flutuação** ao exame não afasta o diagnóstico nem adia a intervenção, uma vez que a pele perianal espessa e a fáscia isquiorretal mascaram a flutuação nas fases iniciais ou em lojas mais profundas.
+3. **Indicação de Conduta:** Aplica-se o clássico aforismo cirúrgico *ubi pus, ibi evacua* (onde há pus, esvazie-o). A **drenagem cirúrgica sob anestesia** descomprime o espaço infectado, alivia a dor e impede a disseminação do processo séptico para o espaço retroperitoneal ou a evolução para fasceíte necrosante perineal (**Síndrome de Fournier**).
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **antibioticoterapia isolada** é ineficaz para coleções purulentas fechadas devido à baixa penetração tecidual e não substitui a descompressão mecânica. O antimicrobiano atua apenas como adjuvante em casos com celulite extensa circundante, imunossupressão ou sinais de sepse sistêmica, sempre associado à drenagem.
+• **Alternativa C (Incorreta):** Medidas conservadoras como **termoterapia local** e observação prolongam a infecção ativa, aumentam a destruição dos esfíncteres anais e elevam criticamente o risco de choque séptico e necrose tecidual.
+• **Alternativa D (Incorreta):** O diagnóstico de abscesso perianal é **essencialmente clínico**. A **tomografia computadorizada da pelve** fica reservada apenas para dúvidas diagnósticas, suspeita de abscessos profundos/ocultos (supraelevadores ou interesfincterianos altos) sem achados ao exame físico externo, o que não se aplica a este caso com abaulamento evidente.
 </details>
 
 ---
@@ -4096,14 +4164,21 @@ Uma paciente com 70 anos, diabética, com dor em flanco esquerdo, de início ins
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A paciente em questão apresenta um quadro clássico de abdome agudo perfurativo associado a choque séptico (taquicardia, hipotensão, taquipneia, torpor e sinais de peritonite difusa) com volumoso pneumoperitôneo. Os antecedentes de hematoquezia, anorexia e perda de peso significativa (10 kg em 3 meses) em uma paciente idosa apontam fortemente para uma etiologia neoplásica obstrutiva/perfurada do cólon esquerdo (como o adenocarcinoma de sigmoide), não se descartando diverticulite complicada perfurada (Hinchey III/IV).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Diante de uma perfuração de cólon esquerdo associada a peritonite fecal/purulenta generalizada e instabilidade hemodinâmica (choque séptico), a realização de anastomose primária é formalmente contraindicada pelo risco inaceitável de deiscência e fístula anastomótica devido à hipoperfusão tecidual, edema de alças e sepse grave. A cirurgia de Hartmann (retossigmoidectomia/colectomia segmentar com sepultamento do coto retal e colostomia terminal em fossa ilíaca esquerda) continua sendo a intervenção de escolha e padrão ouro de controle de foco (source control) nessas condições críticas, permitindo a ressecção do segmento doente e a restauração rápida da segurança biológica da paciente.
+A paciente em questão apresenta um quadro clássico e dramático de **abdome agudo perfurativo** complicado com choque séptico. A anamnese detalha sintomas de alarme para neoplasia colorretal nos últimos três meses, incluindo hematoquezia recorrente, anorexia e perda ponderal involuntária expressiva (10 kg), com dor inicial localizada em flanco esquerdo. Esse conjunto de achados sugere fortemente um adenocarcinoma de cólon esquerdo (descendente ou sigmoide) que evoluiu com necrose tumoral ou obstrução em alça fechada com perfuração transmural.
 
-Análise dos distratores:
-- Alternativa A está incorreta: 'Enterectomia' refere-se à ressecção de intestino delgado, enquanto a história clínica (sangramento retal vivo, dor em flanco esquerdo) aponta inequivocamente para uma lesão no intestino grosso (cólon).
-- Alternativa B está incorreta: A confecção de uma coloanastomose (anastomose primária) é contraindicada em pacientes com peritonite generalizada e instabilidade hemodinâmica grave, devido ao altíssimo índice de deiscência de sutura.
-- Alternativa C está incorreta: Apenas lavar e drenar a cavidade abdominal sem ressecar o foco primário perfurado do cólon resulta na manutenção da contaminação peritoneal ativa (falha no controle de foco) e quase invariavelmente culmina em óbito por sepse refratária.
+Ao exame físico, a presença de torpor, taquipneia, taquicardia e hipotensão arterial configura disfunção orgânica múltipla secundária a foco infeccioso abdominal, preenchendo critérios para sepse grave e choque séptico. A presença de sinais de irritação peritoneal difusa associada a volumoso pneumoperitôneo à radiografia sela a indicação de intervenção cirúrgica de urgência para controle de foco infeccioso.
+
+No manejo cirúrgico do abdome agudo perfurativo em pacientes instáveis hemodinamicamente, com peritonite purulenta ou fecal difusa e desnutrição/hipoperfusão tecidual, a confecção de uma anastomose intestinal primária é contraindicada pelo risco proibitivo de deiscência anastomótica, sepse refratária e óbito. O padrão-ouro nessa conjuntura clínica crítica consiste no controle rápido da contaminação mediante ressecção do segmento colônico doente e sepultamento do coto retal distal associado à exteriorização do coto proximal em colostomia terminal, técnica consagrada como **cirurgia de Hartmann**.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A enterectomia segmentar refere-se à ressecção de alças de intestino delgado (jejuno ou íleo). A sintomatologia prévia de hematoquezia, dor em flanco esquerdo e a epidemiologia de sangramento digestivo baixo com perda de peso em idosos apontam inequivocamente para uma afecção primária de cólon esquerdo, tornando a abordagem isolada de alças delgadas inadequada.
+
+• **B) Incorreta:** A ressecção com anastomose primária imediata (coloanastomose) está formalmente contraindicada em pacientes com instabilidade hemodinâmica grave, uso iminente de drogas vasoativas, acidose metabólica importante e peritonite fecal difusa, uma vez que a hipoperfusão da parede intestinal e o edema tecidual elevam drasticamente as taxas de fístula e deiscência da sutura.
+
+• **C) Incorreta:** A lavagem e drenagem isoladas da cavidade abdominal, sem a ressecção da lesão perfurada, configuram erro técnico grave. A manutenção do segmento perfurado perpetua a contaminação fecal ativa da cavidade peritoneal, inviabilizando o controle da sepse e culminando invariavelmente na evolução para disfunção de múltiplos órgãos e morte.
 </details>
 
 ---
@@ -4157,19 +4232,17 @@ Nesse caso, qual é a melhor conduta para essa paciente?
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A conduta correta é a repetição da colonoscopia em 3 anos (Alternativa A), baseada nas diretrizes internacionais e nacionais de vigilância pós-polipectomia (US Multi-Society Task Force on Colorectal Cancer - USMSTF, Sociedade Brasileira de Endoscopia Digestiva - SOBED e Sociedade Brasileira de Coloproctologia - SBCP).
+> **Comentário Médica:** O gabarito correto é a **Alternativa A**. A conduta preconizada é **repetir a colonoscopia em 3 anos**, em conformidade com as diretrizes de vigilância pós-polipectomia da *US Multi-Society Task Force on Colorectal Cancer* (USMSTF) e da Sociedade Brasileira de Endoscopia Digestiva (**SOBED**).
 
-1. Fundamentação e estratificação de risco:
-O intervalo para o seguimento colonoscópico é determinado pelo número de pólipos, tamanho, histologia e grau de displasia dos adenomas ressecados. A paciente apresenta múltiplos critérios de **alto risco** para o desenvolvimento de neoplasias metacrônicas colorretais:
-- Número de pólipos: Foram ressecados 7 adenomas no total (critério de alto risco: presença de 5 a 10 adenomas;
-- Tamanho: Presença de adenoma medindo ≥ 10 mm (pólipo no cólon descendente de 2,0 cm e dois no reto de 1,0 cm);
-- Histopatologia: Presença de componente viloso (adenoma tubuloviloso em cólon transverso).
-Diante de qualquer um desses achados de alto risco (e, com mais razão, na presença de todos eles combinados), a recomendação formal para vigilância pós-polipectomia completa é repetir a colonoscopia no intervalo de **3 anos**.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Paciente com múltiplos **adenomas colorretais** completamente ressecados por via endoscópica, estratificada como de **alto risco** para lesões metacrônicas e neoplasia colorretal avançada.
+2. **Critério Clínico / Fisiopatologia:** A definição do intervalo de rastreamento/vigilância baseia-se no número de lesões, tamanho e tipo histológico. A paciente preenche múltiplos critérios de **alto risco**: **número total de adenomas** entre 5 e 10 (apresenta 7 pólipos ressecados no total), presença de pólipo com **tamanho ≥ 10 mm** (lesão no cólon descendente de 2,0 cm e duas lesões no reto de 1,0 cm) e histopatologia com componente viloso (**adenoma tubuloviloso** no cólon transverso).
+3. **Indicação de Conduta:** A presença de qualquer critério de alto risco (adenoma ≥ 10 mm, componente viloso/displasia de alto grau ou 5 a 10 adenomas) impõe a recomendação de novo exame colonoscópico de controle estritamente no intervalo de **3 anos**.
 
-2. Análise dos distratores:
-- **Alternativa B (Incorreta):** O intervalo de 7 a 10 anos é reservado para pacientes com baixo risco, isto é, aqueles com colonoscopia normal (10 anos) ou com apenas 1 a 2 adenomas tubulares pequenos (< 10 mm) com displasia de baixo grau ressecados completamente (7 a 10 anos).
-- **Alternativa C (Incorreta):** Não há indicação cirúrgica (transversectomia). Todos os pólipos eram pediculados, foram removidos completamente por via endoscópica e a histologia demonstrou adenoma sem carcinoma invasivo. Ademais, o intervalo de 5 anos seria inadequado para as características de alto risco da paciente.
-- **Alternativa D (Incorreta):** A colectomia total com rastreio genético/familiar estaria indicada em síndromes de polipose adenomatosa familiar (FAP clássica ou atenuada com contagem cumulativa dezenas/centenas de pólipos, ou quando a abordagem endoscópica é inviável). A presença de 7 pólipos aos 60 anos, todos removidos endoscopicamente, não preenche critérios diagnósticos para colectomia profilática imediata.
+**Análise dos Distratores:**
+• **Alternativa B (Incorreta):** O intervalo de **7 a 10 anos** é reservado para pacientes de **baixo risco**, definidos por exame normal (10 anos) ou presença de apenas 1 a 2 adenomas tubulares pequenos (< 10 mm) com displasia de baixo grau ressecados completamente.
+• **Alternativa C (Incorreta):** Não há indicação de **ressecção cirúrgica (transversectomia)**, pois todas as lesões eram pediculadas, foram **ressecadas completamente** por via endoscópica e nenhuma apresentou adenocarcinoma invasor. Além disso, o intervalo de 5 anos seria espaçado demais para o perfil de alto risco.
+• **Alternativa D (Incorreta):** A **colectomia total** com investigação genética é indicada em síndromes hereditárias graves, como a **polipose adenomatosa familiar (FAP)** clássica (geralmente > 100 pólipos) ou atenuada (> 20 a 100 pólipos cumulativos em idade precoce), ou diante de múltiplos pólipos não ressecáveis endoscopicamente, o que não é o caso de uma paciente de 60 anos com 7 pólipos inteiramente removidos.
 </details>
 
 ---
@@ -4482,19 +4555,19 @@ Homem de 75 anos foi levado ao serviço de urgência devido a confusão mental. 
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** O quadro clínico apresentado é clássico de sepse de foco pulmonar (pneumonia pós-operatória) manifestando-se com delirium em um paciente idoso no 4º dia de pós-operatório (DPO) de colecistectomia videolaparoscópica.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O paciente apresenta quadro clássico de **sepse** com provável foco pulmonar (pneumonia pós-operatória), demandando internação hospitalar de urgência, investigação laboratorial completa e antibioticoterapia parenteral precoce, conforme as diretrizes do *Surviving Sepsis Campaign* e do **Instituto Latino-Americano de Sepse (ILAS)**.
 
-1. **Fundamentação Clínica e Fisiopatológica:**
-O paciente preenche critérios evidentes de disfunção orgânica potencialmente ameaçadora à vida secundária à infecção (Sepse), conforme as diretrizes do *Surviving Sepsis Campaign* e do Instituto Latino-Americano de Sepse (ILAS). Pelo escore de triagem à beira do leito **qSOFA** (*quick SOFA*), ele atinge a pontuação máxima (3 pontos): 
-- Alteração do estado mental (Glasgow = 14, confusão mental/delirium);
-- Taquipneia (FR = 26 irpm, valor de corte ≥ 22);
-- Hipotensão arterial relativa (PAS = 96 mmHg, valor de corte ≤ 100 mmHg).
-Além disso, apresenta febre (38,6 °C), taquicardia marcante (120 bpm), hipoxemia com necessidade de oxigenoterapia suplementar (SatO2 93% em cateter) e achados semiológicos no aparelho respiratório (crepitações em base pulmonar direita), indicando pneumonia nosocomial/pós-operatória como o foco primário. O abdome encontra-se inocente e a ferida cirúrgica sem alterações, afastando complicação cirúrgica abdominal evidente no momento. A conduta padrão imediata inclui internação hospitalar, coleta rápida de culturas e exames laboratoriais (lactato, hemograma, função renal/hepática, gasometria), radiografia/tomografia de tórax e introdução precoce de antimicrobianos intravenosos de amplo espectro na primeira hora ("pacote da primeira hora").
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. **Análise das demais alternativas (distratores):**
-- **A) Incorreta:** O paciente está gravemente enfermo, com critérios de sepse e risco iminente de choque séptico e óbito. O manejo ambulatorial com antibioticoterapia oral é contraindicado e negligencia a gravidade hemodinâmica e respiratória.
-- **C) Incorreta:** O foco pulmonar é evidente na ausculta e a clínica abdominal é totalmente silenciosa (abdome normotenso, indolor e ferida cirúrgica sem secreções). Ademais, postergar a antibioticoterapia empírica para realização prioritária de TC de abdome e prescrever apenas antitérmicos e sintomáticos é conduta insuficiente e deletéria frente a um quadro séptico.
-- **D) Incorreta:** A confusão mental (delirium hiperativo/misto) é uma manifestação comum de disfunção orgânica cerebral decorrente da sepse sistêmica no idoso. Tratar apenas o sintoma neuropsiquiátrico com haloperidol sem instituir a terapêutica etiológica antimicrobiana e o suporte hemodinâmico não resolve a causa base e pode precipitar complicações adicionais (como arritmias e sedação excessiva).
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **sepse de foco pulmonar** com manifestação de **delirium** (disfunção orgânica do sistema nervoso central) em paciente idoso no 4º dia de pós-operatório de colecistectomia videolaparoscópica.
+2. **Critério Clínico / Fisiopatologia:** O paciente atinge pontuação máxima no escore de triagem **qSOFA** (*quick SOFA*), somando 3 pontos: **alteração do nível de consciência** (Glasgow 14 / confusão mental), **frequência respiratória ≥ 22 irpm** (26 irpm) e **pressão arterial sistólica ≤ 100 mmHg** (96 mmHg). A associação de febre (38,6 °C), taquicardia acentuada (120 bpm), hipoxemia com dependência de oxigênio e **crepitações em base direita** aponta a infecção do trato respiratório inferior como etiologia primária, enquanto o abdome inocente afasta complicações cirúrgicas imediatas.
+3. **Indicação de Conduta:** A abordagem preconizada pelo "pacote da primeira hora" exige **internação imediata**, monitorização contínua, coleta de exames para estratificação (como **lactato sérico**, hemograma, função renal e hemoculturas) e administração de **antimicrobianos intravenosos** de amplo espectro.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A abordagem ambulatorial com via oral é formalmente contraindicada pela gravidade da disfunção orgânica instalada e pelo risco iminente de evolução para **choque séptico** e óbito.
+• **Alternativa C (Incorreta):** O exame físico aponta ausculta pulmonar patológica e **abdome assintomático** com ferida cirúrgica em bom estado. Postergar o tratamento antimicrobiano para realizar tomografia abdominal e prescrever apenas sintomáticos configura negligência terapêutica grave.
+• **Alternativa D (Incorreta):** A confusão mental decorre de **encefalopatia associada à sepse** (*delirium* secundário). O uso isolado de **haloperidol** atua apenas no sintoma neuropsiquiátrico, posterga a terapia etiológica indispensável e pode precipitar complicações como **sedação excessiva** e arritmias cardíacas.
 </details>
 
 ---
@@ -6110,16 +6183,25 @@ Um paciente com 45 anos, vítima de colisão automobilística do tipo auto vs an
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta padrão no atendimento ao politraumatizado baseia-se nas diretrizes do Advanced Trauma Life Support (ATLS) e em critérios validados de restrição de movimento da coluna (como os critérios NEXUS e Canadian C-Spine Rule).
+> **Comentário Médica:** O atendimento ao paciente politraumatizado na sala de emergência é regido pelas diretrizes do Advanced Trauma Life Support (ATLS), que preconizam a priorização da estabilização da coluna vertebral associada ao manejo das vias aéreas (letra A do mnemônico ABCDE).
 
-1. Fundamentação da Alternativa Correta (D):
-- A prancha rígida é um dispositivo exclusivamente destinado à extricação e transporte do paciente no ambiente pré-hospitalar, devendo ser retirada o mais precocemente possível na sala de emergência para prevenir complicações conhecidas, como dor iatrogênica, restrição ventilatória e úlceras por pressão (que podem surgir em menos de 30 minutos a 2 horas de imobilização).
-- A retirada da prancha rígida deve ser realizada por meio da manobra de rolamento em bloco (log-roll) com a estabilização alinhada da cabeça e pescoço, permitindo a palpação de toda a extensão dos processos espinhosos (cervical, torácico e lombossacral) e a inspeção do dorso.
-- No paciente em questão (alerta, Glasgow 15, ausência de lesões distratoras, hemodinamicamente estável, sem relato de dor e sem déficits neurológicos), preenchem-se os critérios para liberação clínica da coluna cervical (NEXUS negativo). Portanto, constatada a ausência de dor à palpação da linha média e exame neurológico normal, tanto o colar cervical quanto a prancha rígida podem ser retirados com segurança sem necessidade de exames de imagem adicionais.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- Alternativa A: Incorreta. Não há indicação obrigatória de exames radiográficos para pacientes assintomáticos que preenchem critérios de exclusão clínica (NEXUS/Canadian C-Spine). Ademais, manter o paciente sobre a prancha rígida enquanto aguarda a realização e o laudo de radiografias gera risco elevado de lesão por pressão.
-- Alternativas B e C: Incorretas. Manter o paciente sobre a prancha rígida por 6 ou 12 horas é uma conduta proscrita devido à rápida formação de úlceras por decúbito, além de desconforto extremo e piora da mecânica respiratória. A reavaliação clínica e a liberação da coluna não demandam esse período de espera em pacientes lúcidos e cooperativos.
+A prancha rígida é exclusivamente um dispositivo de extricação e transporte pré-hospitalar, não devendo ser utilizada como ferramenta de imobilização intra-hospitalar prolongada. Estudos clínicos e experimentais demonstram que a permanência em prancha rígida por mais de 30 a 60 minutos induz rapidamente o desenvolvimento de dor iatrogênica em dorso e occipício, prejudica a mecânica respiratória com diminuição da capacidade vital forçada e acarreta isquemia tecidual sobre proeminências ósseas (sacro, escápulas e occipital), propiciando a formação precoce de úlceras por pressão.
+
+Portanto, a prancha rígida deve ser removida o mais brevemente possível durante a avaliação secundária da sala de emergência. A técnica preconizada para essa manobra é o **rolamento em bloco** (log roll), no qual uma equipe coordenada de profissionais lateraliza o tronco mantendo o alinhamento axial neutro da cabeça, pescoço e coluna toracolombar. Sob essa posição, o médico realiza a inspeção visual e palpação minuciosa de toda a linha média posterior (processos espinhosos cervicais, torácicos, lombares e sacro) à procura de dor, creptação, hematomas ou deformidades em degrau, além da avaliação do tônus esfincteriano retal, caso indicado.
+
+Para a retirada do colar cervical sem necessidade de exames de imagem, utilizam-se critérios clínicos validados internacionalmente, com destaque para os **critérios NEXUS** (National Emergency X-Radiography Utilization Study). Segundo o protocolo NEXUS, o paciente apresenta baixíssima probabilidade de lesão espinhal instável, dispensando exames de imagem adicionais, se preencher simultaneamente cinco requisitos: 1) ausência de dor ou sensibilidade na linha média posterior da coluna cervical; 2) ausência de déficit neurológico focal; 3) nível de consciência normal (Glasgow 15); 4) ausência de intoxicação exógena por álcool ou fármacos; 5) ausência de lesão dolorosa clinicamente distratora.
+
+Como o paciente em tela encontra-se estável, eupneico, com Glasgow 15, sem lesões aparentes, sem intoxicação e totalmente assintomático, ele cumpre integralmente os requisitos para a liberação da coluna. Realiza-se o exame físico da coluna dorsal durante o rolamento e o exame neurológico; mantendo-se a normalidade, autoriza-se a remoção imediata da prancha rígida e do colar cervical.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O paciente cumpre todos os critérios clínicos de exclusão que dispensam propedêutica radiológica de triagem. Além disso, reter o paciente imobilizado em prancha rígida aguardando a realização de radiografias aumentaria significativamente a morbidade cutânea e respiratória, sem benefício clínico comprovado.
+
+• **B) Incorreta:** Manter o paciente deitado sobre uma superfície rígida e desprovida de acolchoamento por seis horas causa dor dorsal grave, desconforto respiratório e risco intolerável de úlceras por pressão. A prancha deve ser removida nos primeiros momentos da chegada hospitalar.
+
+• **C) Incorreta:** A permanência em prancha rígida por doze horas constitui uma conduta iatrogênica grave e inaceitável na prática do trauma, gerando lesões isquêmicas teciduais profundas. O exame físico e a desimobilização devem ser executados de forma imediata na sala de emergência.
 </details>
 
 ---
@@ -6140,17 +6222,22 @@ Um paciente com 65 anos foi admitido em unidade de terapia intensiva por sepse d
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A embolia gasosa venosa é uma complicação grave e potencialmente fatal associada à punção, manipulação ou remoção de acessos venosos centrais. Ocorre pela entrada de ar atmosférico no sistema venoso favorecida pela pressão intratorácica negativa, levando à formação de um "air lock" (bloqueio mecânico por bolha de ar) na via de saída do ventrículo direito e na artéria pulmonar, resultando em colapso hemodinâmico agudo e hipoxemia severa.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-A conduta imediata preconizada na suspeita de embolia gasosa durante punção venosa central consiste em:
-1. Posicionamento de Durant: colocar o paciente em decúbito lateral esquerdo associado à posição de Trendelenburg (cabeceira rebaixada). Esse posicionamento faz com que o ar se desloque para o ápice do ventrículo direito, afastando-o da via de saída do VD e da valva pulmonar, o que alivia a obstrução mecânica e restaura o fluxo sanguíneo transpulmonar.
-2. Aspiração pelo próprio cateter venoso central: se o cateter recém-posicionado já estiver em topografia de veia cava superior ou átrio direito, deve-se tentar aspirar o ar diretamente através de um dos lumens com uma seringa.
-3. Suporte clínico agressivo: administração de oxigênio a 100% (para acelerar a reabsorção do nitrogênio da bolha de ar), ressuscitação volêmica e suporte com drogas vasoativas conforme necessário.
+A inserção ou manipulação de acessos venosos centrais acarreta o risco potencial de **embolia gasosa venosa**, uma emergência médica decorrente do gradiente de pressão negativo entre a veia central e a pressão atmosférica, sobretudo em pacientes taquipneicos, hipovolêmicos ou durante a fase inspiratória da respiração espontânea. Quando uma quantidade expressiva de ar entra no sistema circulatório (geralmente acima de 50 a 100 mL, ou em taxas superiores a 0,5 mL/kg/min), o bolsão de ar viaja rapidamente pelas veias cavas até o átrio e o ventrículo direitos. No ventrículo direito, o ar forma uma trava gasosa (air lock) que obstrui mecanicamente o trato de saída ventricular e o leito vascular da artéria pulmonar, gerando hipertensão pulmonar aguda, sobrecarga ventricular direita, choque obstrutivo e colapso cardiocirculatório, além de aumento expressivo do espaço morto alveolar com hipoxemia refratária.
 
-Análise dos distratores:
-- Alternativa A está incorreta: O paciente encontra-se em colapso cardiocirculatório agudo; a realização de procedimento endovascular sob radioscopia é demorada, requer transporte ou montagem de sala cirúrgica/hemodinâmica e é inviável no cenário de emergência com instabilidade extrema à beira do leito.
-- Alternativa B está incorreta: Toracotomia de urgência e punção direta são medidas de exceção extrema reservadas a parada cardíaca refratária em trauma ou cirurgia cardíaca aberta prévia, não sendo a abordagem de primeira linha para embolia aérea em UTI.
-- Alternativa D está incorreta: Realizar uma nova punção subclávia no paciente instável e hipoxêmico consome tempo crítico, gera novos riscos de complicações (como pneumotórax contralateral bilateralizando lesão pleural) e não resolve a bolha de ar já alojada no coração direito, além de ignorar que o cateter já inserido pode ser usado imediatamente para a aspiração.
+Diante do diagnóstico presuntivo de embolia aérea associada à punção venosa central, as diretrizes de terapia intensiva e suporte avançado recomendam uma sequência imediata de intervenções:
+
+1. **Interrupção imediata da entrada de ar:** Fechamento e oclusão de todas as vias do cateter e cobertura de eventuais fendas ou soluções de continuidade.
+2. **Posicionamento estratégico:** O paciente deve ser imediatamente colocado na posição de decúbito lateral esquerdo associada à inclinação de Trendelenburg, classicamente denominada **manobra de Durant**. Essa posição hidrostática faz com que as bolhas gasosas, por sua menor densidade, desloquem-se para o ápice do ventrículo direito, afastando-se da via de saída e da valva pulmonar, o que alivia a obstrução mecânica e permite a retomada do fluxo sanguíneo transpulmonar.
+3. **Aspiração direta do ar:** Deve-se tentar a aspiração imediata do ar acumulado através do próprio cateter venoso central recém-posicionado, utilizando uma seringa conectada à via distal, cuja extremidade encontra-se próxima à junção cavoatrial ou dentro do átrio direito.
+4. **Suporte de oxigenação a 100%:** A administração de oxigênio em alto fluxo (FiO2 de 1,0) promove a lavagem do nitrogênio intravascular, aumentando o gradiente difusivo para reabsorção acelerada das bolhas de ar pela circulação capilar pulmonar.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O quadro clínico cursa com colapso hemodinâmico agudo e risco iminente de parada cardiorrespiratória. Mobilizar o paciente em choque para um setor de hemodinâmica para intervenção sob radioscopia impõe um atraso inaceitável e perigoso, sendo inviável no manejo imediato à beira do leito.
+• **B) Incorreta:** A toracotomia de urgência com punção cardíaca sob visualização direta é um procedimento invasivo extremo, reservado apenas para cenários de trauma com tórax já explorado ou PCR refratária a todas as manobras clínicas, não constituindo a conduta inicial recomendada para embolia venosa associada a cateter.
+• **D) Incorreta:** Tentar puncionar um novo acesso na veia subclávia contralateral acarreta perda de tempo crítico, adiciona riscos graves de complicações bilaterais (como pneumotórax bilateral em paciente sob ventilação mecânica) e desconsidera que o cateter já inserido e posicionado é o conduto ideal para a aspiração imediata do ar retido.
 </details>
 
 ---
@@ -6173,16 +6260,21 @@ Considerando a complicação mais frequente no acesso venoso profundo por via su
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) é a correta.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Fundamentação Clínica e Raciocínio Fisiopatológico:
-A cateterização de veia subclávia apresenta como complicação mecânica mais prevalente o pneumotórax (incidência de 1% a 3% em punções às cegas), dada a íntima relação anatômica entre a face posterior e inferior da veia subclávia e a cúpula pleural / ápice pulmonar. 
-No caso clínico apresentado, a paciente, portadora de obesidade (IMC de 40 kg/m² — fator de risco que dificulta a anatomia de superfície) e choque/queimadura extensa, desenvolveu dispneia aguda cerca de 25 minutos após a realização do procedimento. O exame radiológico pós-punção revela uma área de hipertransparência periférica no hemitórax direito com ausência de trama vascular pulmonar e delimitação da linha pleural visceral, achados patognomônicos de pneumotórax. Em pacientes instáveis, sintomáticos ou sob risco de progressão (e potencial necessidade de ventilação mecânica), está indicada a intervenção descompressiva imediata (toracostomia com drenagem em selo d'água).
+1. **Contexto Clínico e Complicação Mecânica:**
+A paciente em questão é uma grande queimada com instabilidade hemodinâmica inicial, na qual houve tentativa frustrada de acesso venoso central femoral, seguida de punção bem-sucedida de veia subclávia direita. Cerca de 25 minutos após a infusão de fluidos, evoluiu com piora do padrão respiratório e queixa de dispneia súbita. A punção de veia subclávia por técnica às cegas (marcos anatômicos) possui como complicação mecânica mais comum o **pneumotórax iatrogênico**, com incidência estimada entre 1% e 3%, podendo ser ainda maior em pacientes com obesidade importante devido à distorção de marcos anatômicos superficiais. Isso ocorre pela íntima proximidade da veia subclávia com a cúpula pleural e o ápice pulmonar, situados logo abaixo da primeira costela e da clavícula.
 
-2. Análise dos Distratores:
-- Alternativa B: Incorreta. O hemotórax se manifestaria radiologicamente por opacidade hemitorácica homogênea (velamento) com apagamento de seio costofrênico e padrão radiopaco, e não pela hipertransparência e colapso pulmonar vistos no pneumotórax.
-- Alternativa C: Incorreta. O hidrotórax (infusão inadvertida de fluidos no espaço pleural por mau posicionamento do cateter) também se apresenta radiologicamente como derrame pleural (opacidade/radiopacidade dependente da gravidade), não como área avascular radiotransparente (ar). Além disso, a conduta prioritária não é a repunção imediata, mas a estabilização ventilatória e correção da complicação.
-- Alternativa D: Incorreta. A lesão do nervo frênico é uma complicação rara e cursa com elevação estática da hemicúpula diafragmática ipsilateral sem linha pleural destacada ou hipertransparência avascular no ápice torácico.
+2. **Achados Radiológicos e Conduta Terapêutica:**
+A radiografia de tórax evidencia hipertransparência periférica no hemitórax direito, com ausência de trama vascular pulmonar e delimitação nítida da linha da pleura visceral (colapso pulmonar ipsilateral). Em vigência de sintomas agudos (taquipneia, sensação de sufocamento) em paciente crítica, a conduta mandatória é a **drenagem torácica fechada** com selo d'água (toracostomia com tubo), restaurando a pressão negativa intrapleural, prevenindo a progressão para pneumotórax hipertensivo e permitindo a reexpansão pulmonar adequada.
+
+**Análise das alternativas incorretas:**
+
+• **Alternativa B: Incorreta.** O hemotórax iatrogênico manifesta-se no exame de imagem por padrão de radiopacidade homogênea (velamento) em região dependente, com apagamento do seio costofrênico e borda superior côncava (parábola de Damoiseau), e não pela hipertransparência com retração pulmonar e ausência de vasos observada no pneumotórax.
+
+• **Alternativa C: Incorreta.** O hidrotórax secundário à infusão de cristaloides no espaço pleural produziria uma imagem de derrame pleural (opacidade homogênea com apagamento de recessos pleurais). Além disso, antes de planejar nova punção vascular contralatral, a prioridade absoluta no algoritmo de reanimação do paciente grave é o manejo imediato da via aérea e da respiração, drenando o tórax acometido.
+
+• **Alternativa D: Incorreta.** A paralisia diafragmática por lesão do nervo frênico resultaria na elevação em cúpula do diafragma direito, mantendo a trama vascular expandida até a periferia da base pulmonar elevada, sem formação de linha pleural visceral visível ou pneumotórax associado.
 </details>
 
 ---
@@ -6491,12 +6583,21 @@ Um homem com 22 anos, pesando 75 kg, sofreu múltiplas fraturas e contusão pulm
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A alternativa (B) é a correta. De acordo com as Diretrizes Brasileiras de Ventilação Mecânica da Associação de Medicina Intensiva Brasileira (AMIB), em pacientes neurocríticos com trauma cranioencefálico (ou lesões encefálicas graves documentadas, como o hematoma subdural deste caso) que mantêm rebaixamento persistente do nível de consciência (Escala de Coma de Glasgow < 8) e necessidade prevista de ventilação mecânica e via aérea artificial prolongadas, recomenda-se a realização de traqueostomia precoce (idealmente entre o 5º e o 7º dia de intubação orotraqueal). Essa conduta visa à redução do tempo total de ventilação mecânica, redução do tempo de permanência na UTI, facilitação do desmame e do toalete brônquico, diminuição da necessidade de sedação contínua e redução da incidência de laringotraqueíte isquêmica associada ao tubo orotraqueal.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa (A) está incorreta: Postergar a traqueostomia para além de 14 dias (traqueostomia tardia) não é a conduta indicada para pacientes com lesão neurológica grave associada e prognóstico de intubação prolongada, pois retarda o desmame ventilatório e aumenta o risco de complicações laringotraqueais.
-- Alternativa (C) está incorreta: A cricotireoidostomia é uma via aérea cirúrgica de emergência («não consigo intubar, não consigo ventilar») temporária, e não um procedimento de eleição ou "de demora" para ventilação prolongada, devido ao risco substancial de estenose subglótica.
-- Alternativa (D) está incorreta: O paciente tem rebaixamento neurológico significativo (Glasgow < 8), ausência de proteção de vias aéreas e patologia parenquimatosa ainda em resolução. A extubação com transição para ventilação não invasiva (VNI) é formalmente contraindicada em pacientes com rebaixamento do nível de consciência e incapacidade de proteger a própria via aérea, sob alto risco de broncoaspiração e falência respiratória catastrófica.
+O paciente apresentado é uma vítima de politrauma grave com comprometimento multissistêmico, apresentando contusão pulmonar complicada por síndrome do desconforto respiratório agudo e traumatismo cranioencefálico com hematoma subdural à direita, mantendo pontuação na escala de coma de Glasgow inferior a 8 após 7 dias de intubação orotraqueal e suporte ventilatório invasivo.
+
+De acordo com as Diretrizes Brasileiras de Ventilação Mecânica da Associação de Medicina Intensiva Brasileira (AMIB), o momento de indicação da traqueostomia deve levar em consideração a patologia de base e a previsibilidade do tempo de ventilação mecânica. Em doentes clínicos gerais com perspectiva de desmame a médio prazo, habitualmente aguarda-se entre 10 e 14 dias para a realização do procedimento. No entanto, em um **paciente neurocrítico** com lesão encefálica estrutural grave documentada, rebaixamento persistente do nível de consciência (Glasgow < 8) e incapacidade manifesta de proteção de via aérea associada a dano pulmonar, há indicação formal de **traqueostomia precoce**, definida como aquela realizada em até 7 a 8 dias de ventilação mecânica invasiva.
+
+As evidências sustentadas pela AMIB demonstram que a realização precoce da traqueostomia nessa população específica reduz o tempo total de permanência na ventilação mecânica e o tempo de internação na UTI, previne lesões isquêmicas e estenosantes da laringe e traqueia associadas ao tubo orotraqueal prolongado, facilita a aspiração e toalete brônquica, diminui o trabalho respiratório por redução do espaço morto e da resistência da via aérea, e viabiliza a redução mais rápida e segura da sedação contínua, permitindo melhor avaliação neurológica sequencial.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** Postergar a traqueostomia para além de 14 dias de ventilação mecânica caracteriza traqueostomia tardia. Essa estratégia é reservada para cenários gerais em que há dúvida razoável quanto à possibilidade de extubação bem-sucedida a curto prazo. No paciente com lesão neurológica grave persistente e Glasgow abaixo de 8, retardar a intervenção prolonga desnecessariamente a exposição aos riscos do tubo orotraqueal, aumenta as taxas de pneumonia associada à ventilação mecânica e eleva o tempo de internação hospitalar.
+
+• **C) Incorreta:** A cricotireoidostomia é um procedimento cirúrgico emergencial de resgate, indicado em situações de via aérea difícil em que não se consegue intubar nem ventilar. Ela não deve ser mantida como via aérea definitiva de demora, pois a canulação sobre a membrana cricotireoide prolongada por mais de 24 a 48 horas cursa com elevadíssimo risco de necrose de cartilagem cricoide e estenose subglótica cicatricial tardia. A conversão formal para traqueostomia é mandatória sempre que uma cricotireoidostomia de resgate for executada.
+
+• **D) Incorreta:** A presença de rebaixamento importante do nível de consciência, com escala de coma de Glasgow menor que 8, constitui contraindicação clássica e absoluta à extubação orotraqueal e ao uso da ventilação não invasiva. Pacientes nesse estado neurológico não possuem reflexos protetores de via aérea, como tosse eficaz e deglutição, resultando invariavelmente em falha catastrófica de extubação por aspiração pulmonar massiva e obstrução alta de vias aéreas.
 </details>
 
 ---
@@ -6644,15 +6745,17 @@ Homem de 35 anos, pedreiro, foi levado ao pronto-socorro municipal por socorrist
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) está correta e aborda um dos princípios fundamentais no manejo do trauma elétrico, amplamente preconizado pelas diretrizes do ATLS (Advanced Trauma Life Support) e da Sociedade Brasileira de Queimaduras (SBQ):
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. Nas queimaduras elétricas, a gravidade do trauma é desproporcional à lesão cutânea visível, segundo as diretrizes do **ATLS** (*Advanced Trauma Life Support*) e da **Sociedade Brasileira de Queimaduras (SBQ)**.
 
-1. Fundamentação e Raciocínio Fisiopatológico:
-As queimaduras elétricas (especialmente as de alta voltagem ou com trajeto transtorácico, como no caso: entrada no ombro direito e saída no pé esquerdo) comportam-se tipicamente segundo o 'efeito iceberg'. A corrente elétrica percorre tecidos de menor resistência (nervos, vasos sanguíneos e músculos), gerando grande quantidade de calor internamente (Lei de Joule: calor proporcional à resistência e ao quadrado da corrente). Isso resulta em extensa necrose muscular profunda, trombose microvascular, síndrome compartimental, rabdomiólise e lesão renal aguda, enquanto a pele sobrejacente pode apresentar apenas lesões puntiformes de entrada e saída. Portanto, a extensão da área de superfície corporal queimada (SCQ) visível no momento do trauma é enganosa e não se correlaciona com a gravidade real e potencial de dano tecidual interno.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** **Queimadura elétrica de alta voltagem** com trajeto transtorácico (ombro direito ao pé esquerdo) associada a **trauma cranioencefálico leve** secundário a queda.
+2. **Critério Clínico / Fisiopatologia:** A eletricidade dissipa calor internamente de acordo com a *Lei de Joule*, percorrendo estruturas com menor resistência (nervos, vasos sanguíneos e músculos). Ocorre o clássico **"efeito iceberg"**, em que lesões cutâneas puntiformes ou discretas de entrada e saída mascaram destruição muscular profunda extensa, **rabdomiólise**, **síndrome compartimental** e **trombose microvascular**. Dessa forma, a extensão da área de superfície corporal queimada (SCQ) visível no momento inicial não reflete a magnitude e a gravidade sistêmica da lesão.
+3. **Indicação de Conduta:** O manejo padrão-ouro exige **ressuscitação volêmica vigorosa** guiada por débito urinário mais elevado (1 a 1,5 mL/kg/h ou 100 mL/h se houver mioglobinúria/hemoglobinúria evidente), monitoramento eletrocardiográfico contínuo para detecção de **arritmias ventriculares** e avaliação seriada de pulsos e compartimentos musculares para indicação precoce de **escarotomia** ou **fasciotomia**.
 
-2. Análise dos Distratores:
-- Alternativa A (Incorreta): Embora arritmias cardíacas (como fibrilação ventricular ou assistolia) sejam complicações temíveis do choque transtorácico, a perda de consciência não é evidência inequívoca de arritmia. O paciente sofreu uma queda da própria altura ou da laje, apresentando dor na hemiface direita e amnésia, o que aponta fortemente para traumatismo cranioencefálico (TCE) com concussão ou atordoamento neurológico central transitório provocado pela passagem da corrente.
-- Alternativa B (Incorreta): As lesões de entrada e saída marcam os pontos anatômicos de contato e de aterramento da corrente, correlacionando-se diretamente com o eixo e o trajeto percorrido pela eletricidade pelo organismo (neste caso, trajeto oblíquo transcardíaco/transtorácico e tóraco-abdominal).
-- Alternativa C (Incorreta): As lesões cutâneas superficiais subestimam a profundidade real do dano térmico/elétrico profundo, sendo insuficientes para determinar o grau global de profundidade tecidual decorrente da necrose muscular profunda e de estruturas nobres subjacentes.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** Embora o choque elétrico transtorácico possa precipitar arritmias cardíacas graves (como **fibrilação ventricular**), a perda transitória de consciência e a amnésia, no contexto de queda de altura com dor e trauma na **hemiface direita**, sugerem prioritariamente **concussão cerebral / traumatismo cranioencefálico**, não sendo evidência inequívoca de arritmia.
+• **Alternativa B (Incorreta):** As lesões de entrada e saída correspondem diretamente aos pontos de contato e aterramento, delimitando com precisão o **trajeto anatômico** da passagem da corrente pelo organismo.
+• **Alternativa C (Incorreta):** A profundidade global do dano não é definida pela avaliação visual da pele na admissão, já que a **necrose muscular profunda** progride internamente e ultrapassa amplamente a espessura das lesões cutâneas observadas.
 </details>
 
 ---
@@ -7132,15 +7235,23 @@ Diante desse quadro, a primeira medida a ser tomada é
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta prioritária e imediata diante desse cenário é checar a entubação traqueal (Alternativa B), conforme as diretrizes do Advanced Trauma Life Support (ATLS).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Fundamentação Clínica e Raciocínio Fisiopatológico:
-No atendimento inicial ao politraumatizado, a abordagem segue a mnemônica padronizada ABCDE. Em pacientes já intubados na cena pré-hospitalar que chegam instáveis, mal ventilados ou com assimetria de ausculta pulmonar, deve-se aplicar o mnemônico DOPE (Deslocamento do tubo, Obstrução, Pneumotórax, Equipamento). A causa iatrogênica e mecânica mais comum de ausculta unilateral preservada à direita e abolida/muito diminuída à esquerda é a intubação seletiva do brônquio-fonte direito. Devido à sua anatomia mais verticalizada, retilínea e de maior calibre em relação ao brônquio-fonte esquerdo, o tubo traqueal progride preferencialmente para o lado direito quando excessivamente introduzido. Isso acarreta hipoventilação/atelectasia do pulmão esquerdo, gerando hipoxemia (SatO2 89%) e repercussões hemodinâmicas. A reavaliação imediata da via aérea com verificação da profundidade da cânula e seu tracionamento guiado por ausculta restabelece prontamente a aeração bilateral, evitando procedimentos invasivos desnecessários.
+O caso retrata uma paciente politraumatizada grave com traumatismo cranioencefálico (Glasgow 6), intubada no ambiente pré-hospitalar, que é admitida na sala de emergência apresentando taquicardia (128 bpm), hipotensão limítrofe (90 x 60 mmHg), dessaturação importante (89%) e assimetria auscultatória marcada, caracterizada por murmúrio vesicular normal à direita e praticamente abolido à esquerda, sem desvio de traqueia ou estase jugular.
 
-2. Análise das alternativas incorretas:
-- Alternativa A (Incorreta): A paciente apresenta hipoxemia grave (SatO2 89%), taquicardia (FC 128 bpm) e hipotensão limítrofe (PA 90x60 mmHg). Não se deve aguardar a realização ou o laudo de radiografia de tórax antes de intervir nas causas emergenciais e facilmente reversíveis à beira do leito.
-- Alternativa C (Incorreta): A toracocentese de alívio (descompressão por agulha) é indicada especificamente no pneumotórax hipertensivo. A paciente não apresenta os estigmas clássicos da condição, como turgência jugular ou desvio contralateral de traqueia; além disso, a intubação seletiva deve ser descartada de imediato antes de assumir hipertensão pleural.
-- Alternativa D (Incorreta): A drenagem em selo d'água estaria indicada para pneumotórax simples volumoso ou hemotórax. Todavia, a realização precoce e empírica de um procedimento invasivo sem antes certificar o posicionamento correto da via aérea artificial ('A' do ABCDE) contraria a hierarquia de atendimento e expõe a paciente a riscos de morbidade iatrogênica.
+De acordo com os preceitos do Advanced Trauma Life Support (ATLS), a abordagem do doente com piora respiratória aguda ou instabilidade após intubação deve seguir a avaliação sistemática da via aérea e da ventilação (etapas A e B). Diante de descompensação ventilatória em paciente intubado, aplica-se a abordagem mnemônica DOPE (Deslocamento do tubo, Obstrução da cânula, Pneumotórax e Falha do Equipamento). 
+
+A hipótese mais provável e frequente decorrente de intubações pré-hospitalares de emergência é a **intubação seletiva** do brônquio-fonte direito. Devido à conformação anatômica (o brônquio principal direito é mais calibroso, mais curto e tem trajeto mais verticalizado em relação ao eixo da traqueia), a progressão excessiva do tubo orotraqueal quase invariavelmente o posiciona à direita. Isso acarreta aeração exclusiva do pulmão direito e hipoventilação/atelectasia do pulmão esquerdo, justificando a hipoxemia grave e a assimetria do murmúrio vesicular.
+
+Portanto, a primeira conduta mandatória e imediata é **checar a entubação traqueal**. A confirmação da profundidade da cânula na rima labial, a ausculta de cinco pontos (epigástrio, ápices e bases pulmonares) e o tracionamento do tubo sob ausculta contínua até o reaparecimento do murmúrio vesicular à esquerda solucionam o quadro prontamente, restaurando a ventilação bilateral e evitando procedimentos invasivos desnecessários.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** Solicitar radiografia de tórax é uma medida de avaliação secundária ou de confirmação após a estabilização. A paciente apresenta hipoxemia grave e taquicardia, configurando instabilidade respiratória aguda. Retardar a intervenção clínica à beira do leito para aguardar a realização ou o revelamento de exame de imagem coloca a vida da paciente em risco iminente.
+
+• **C) Incorreta:** A toracocentese descompressiva por agulha é a medida de emergência para o pneumotórax hipertensivo. No entanto, a paciente não apresenta sinais clássicos de hipertensão intratorácica, como desvio de traqueia contralateral ou turgência jugular. Submeter o hemitórax esquerdo a uma punção às cegas sem antes checar o posicionamento do tubo orotraqueal constitui erro técnico grave, que pode criar um iatrogênico pneumotórax em um pulmão que se encontrava apenas hipoventilado por seletividade.
+
+• **D) Incorreta:** A drenagem fechada de tórax é indicada para o tratamento definitivo de pneumotórax ou hemotórax volumoso. Indicar a inserção de dreno de tórax antes de revisar o posicionamento da via aérea artificial viola a priorização da abordagem ABCDE do trauma e expõe a paciente a riscos de morbidade cirúrgica desnecessária.
 </details>
 
 ---
@@ -7220,17 +7331,23 @@ Um paciente com 25 anos, vítima de acidente motociclístico, apresenta trauma c
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** O quadro clínico apresentado é clássico de **choque obstrutivo** secundário a **tamponamento cardíaco**, decorrente de trauma torácico contuso. O paciente apresenta a tríade fisiopatológica que compõe a **Tríade de Beck** (hipotensão arterial grave e refratária, turgência jugular patológica e, presumivelmente, hipofonese de bulhas). A presença de murmúrio vesicular preservado bilateralmente afasta o principal diagnóstico diferencial de choque obstrutivo no trauma torácico, que seria o pneumotórax hipertensivo.
+> **Comentário Médica:** O quadro clínico descrito evidencia um choque obstrutivo grave secundário a **tamponamento cardíaco** decorrente de trauma toracoabdominal contuso em paciente jovem. A fisiopatologia envolve o acúmulo de sangue no espaço pericárdico inelástico, o que eleva a pressão intrapericárdica acima das pressões de enchimento das câmaras cardíacas direitas e esquerdas. Isso impede o retorno venoso adequado, restringe o enchimento diastólico ventricular e reduz drasticamente o volume sistólico e o débito cardíaco, gerando taquicardia reflexa e hipotensão profunda.
 
-Frente a um paciente com trauma grave que evolui com rebaixamento do nível de consciência (inconsciência) e colapso hemodinâmico iminente (PAS 60 mmHg e FC 140 bpm), a priorização segue rigorosamente a mnemônica do **ATLS (Advanced Trauma Life Support)**:
-1. **A (Airway / Vias Aéreas):** Paciente inconsciente perde reflexos de proteção de via aérea e necessita de manutenção/obtenção de via aérea pérvia e definitiva;
-2. **B e C (Breathing / Circulation):** O desencarceramento do ventrículo por meio de descompressão do saco pericárdico (**pericardiocentese**, preferencialmente guiada por ultrassom/FAST ou às cegas pela via subxifoidiana em caráter de emergência) é a medida salvadora para restaurar o débito cardíaco e impedir a parada cardiorrespiratória em atividade elétrica sem pulso (AESP).
+O paciente manifesta elementos clássicos da Tríade de Beck: hipotensão arterial grave e progressiva (pressão sistólica caindo para 60 mmHg) e turgência jugular patológica. A presença de murmúrio vesicular preservado bilateralmente é o dado semiológico fundamental que afasta o principal diagnóstico diferencial de choque obstrutivo no trauma, que é o pneumotórax hipertensivo.
+
+Diante da evolução com rebaixamento do nível de consciência decorrente de hipoperfusão cerebral crítica e colapso circulatório iminente, a abordagem deve seguir a sistematização do Advanced Trauma Life Support (ATLS):
+
+1. **A (Airway / Vias Aéreas):** Pacientes inconscientes perdem os reflexos protetores de via aérea, apresentando risco iminente de broncoaspiração e obstrução alta por queda da língua. Torna-se mandatória a manutenção imediata da perviedade da via aérea com proteção da coluna cervical e preparo para via aérea definitiva.
+
+2. **B e C (Breathing e Circulation):** O tratamento descompressivo de emergência para restaurar o débito cardíaco e prevenir a parada cardiorrespiratória em atividade elétrica sem pulso consiste na **pericardiocentese** de alívio, preferencialmente guiada por ultrassom (janela subxifoide do protocolo FAST) ou realizada às cegas por punção subxifoidea angulada em 45 graus em direção à escápula esquerda.
 
 **Análise das alternativas incorretas:**
 
-- **A) Incorreta:** A toracocentese seguida de drenagem pleural em selo d'água é o tratamento de urgência do pneumotórax hipertensivo ou hemotórax maciço. O enunciado relata explicitamente que o murmúrio vesicular está presente bilateralmente, descartando pneumotórax hipertensivo como causa do choque obstrutivo.
-- **C) Incorreta:** Embora a ultrassonografia (FAST/E-FAST) seja ferramenta diagnóstica de excelência, o paciente encontra-se em choque extremo/periparada (PAS de 60 mmHg). As diretrizes recomendam a intervenção descompressiva imediata (pericardiocentese de alívio) e não apenas a realização de exames complementares como conduta final descrita na alternativa.
-- **D) Incorreta:** A cricotireoidostomia é uma via aérea cirúrgica de resgate para situações de 'não intubo, não ventilo', não sendo a primeira escolha para obtenção de via aérea sem antes tentar a orotraqueal. Ademais, a toracotomia de reanimação tem indicações extremamente restritas no trauma contuso (parada cardiorrespiratória presenciada com menos de 10 minutos de RCP), apresentando sobrevida próxima de zero quando realizada de forma indiscriminada sem prévia descompressão ou preparo do centro cirúrgico.
+• **A) Incorreta:** A descompressão com agulha (toracocentese) e a subsequente drenagem pleural tubular em selo d'água são os procedimentos indicados para pneumotórax hipertensivo ou hemotórax maciço. O enunciado relata expressamente a presença simétrica e bilateral do murmúrio vesicular, excluindo essas entidades como causa primária da descompensação hemodinâmica.
+
+• **C) Incorreta:** Embora a ultrassonografia à beira do leito (FAST) seja excelente método adjuvante para confirmar a presença de derrame pericárdico com colapso de câmaras, a alternativa propõe a realização do exame diagnóstico como conduta isolada associada à via aérea, sem propor a intervenção terapêutica descompressiva mandatória para reverter a hipotensão extrema de 60 mmHg.
+
+• **D) Incorreta:** A cricotireoidostomia é uma via aérea cirúrgica de exceção, indicada na falha de intubação orotraqueal e ventilação sob máscara (cenário de 'não intubo, não ventilo') ou em lesões maxilofaciais impeditivas. Além disso, a toracotomia de emergência na sala de trauma tem indicações extremamente restritas em trauma contuso (parada presenciada na sala com ritmo organizado e tempo de RCP inferior a 10 minutos), apresentando altíssima morbimortalidade e não devendo preceder medidas descompressivas menos mórbidas e estabilização de via aérea inicial.
 </details>
 
 ---
@@ -7521,16 +7638,19 @@ Nesse caso, a melhor conduta diagnóstica e o diagnóstico mais provável são, 
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. Em pacientes idosos e tabagistas com hematúria macroscópica de origem não glomerular associada a sintomas irritativos vesicais, o diagnóstico mais provável é o **carcinoma invasor de bexiga**, sendo a **uretrocistoscopia** o exame padrão-ouro para visualização direta da lesão e biópsia diagnóstica, conforme as diretrizes da Sociedade Brasileira de Urologia (SBU) e da *American Urological Association* (AUA).
 
-1. Fundamentação clínica e fisiopatológica:
-O quadro clínico descreve um homem idoso (75 anos), com carga tabágica muito expressiva (55 anos-maço), apresentando hematúria macroscópica e sintomas urinários irritativos (polaciúria e disúria). O exame de urina confirma hematúria maciça de origem não glomerular, evidenciada pela presença de > 80% de hemácias isomórficas (ausência de dismorfismo eritrocitário/cilindros hemáticos).
-O tabagismo é o principal fator de risco para o carcinoma urotelial (câncer de bexiga), sendo responsável por cerca de 50% dos casos. Todo paciente idoso e tabagista com hematúria macroscópica não glomerular deve ser investigado ativamente para neoplasia do trato urinário, sendo a bexiga o sítio mais comum. Sintomas de 'cistite' sem infecção documentada ou refratários em homens idosos tabagistas são comumente manifestação de carcinoma in situ ou carcinoma invasor de bexiga irritando o urotélio. Segundo as diretrizes urológicas nacionais e internacionais (SBU, AUA, EAU), a uretrocistoscopia é o exame padrão-ouro para visualização direta da mucosa vesical e realização de biópsia diagnóstica.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos distratores:
-- B: Incorreta. A urografia excretora é um método em desuso, amplamente substituído pela urotomografia computadorizada com contraste na avaliação do trato urinário superior. Além disso, a queixa é predominantemente baixa (irritativa vesical), tornando o carcinoma de bexiga consideravelmente mais provável que o carcinoma de células renais.
-- C: Incorreta. O cálculo coraliforme é mais frequentemente diagnosticado por tomografia computadorizada sem contraste do abdome e pelve (exame padrão-ouro para litíase urinária) ou radiografia simples/ultrassonografia. A ressonância magnética possui baixa acurácia para avaliação de cálculos urinários.
-- D: Incorreta. O adenocarcinoma de próstata geralmente se desenvolve na zona periférica e é oligossintomático em fases iniciais, raramente cursando com hematúria macroscópica isolada. O toque retal é descrito como regular e sem nódulos suspeitos. A ultrassonografia transretal com biópsia é reservada para investigação de PSA elevado e/ou toque retal com nódulos/endurecimento suspeitos, não sendo o método de escolha para esclarecer hematúria macroscópica de origem vesical.
+1. **Diagnóstico da Afecção/Quadro:** **Carcinoma urotelial (de bexiga)**. O paciente apresenta a tríade clássica de alerta oncológico urológico: idade avançada (75 anos), **alta carga tabágica** (55 anos-maço, principal fator de risco) e **hematúria macroscópica indolor** ou associada a sintomas de armazenamento/irritativos (polaciúria e disúria refratárias).
+2. **Critério Clínico / Fisiopatologia:** A análise de urina demonstra **> 80% de hemácias isomórficas**, confirmando sangramento do **trato urinário inferior** (hematúria não glomerular, sem cilindros hemáticos ou dismorfismo eritrocitário). O epitélio urotelial sob agressão crônica dos carcinógenos do tabaco sofre mutações que culminam em proliferação neoplásica invasora ou *carcinoma in situ*, que frequentemente mimetiza quadros de infecção urinária de repetição.
+3. **Indicação de Conduta:** A **uretrocistoscopia** com eventual biópsia/ressecção transuretral (RTU) é a abordagem diagnóstica padrão-ouro mandante em qualquer caso de hematúria macroscópica sem causa benigna óbvia em pacientes de alto risco (idade > 35 anos e tabagismo).
+
+**Análise dos Distratores:**
+
+• **Alternativa B (Incorreta):** A **urografia excretora** é um exame radiológico em desuso e obsoleto, amplamente suplantado pela **urotomografia computadorizada**. Ademais, o **carcinoma de células renais** costuma cursar com a tríade clássica de massa palpável, dor em flanco e hematúria, sendo menos provável frente à clínica predominantemente irritativa baixa vesical.
+• **Alternativa C (Incorreta):** A **ressonância magnética** possui baixa acurácia e sensibilidade para a detecção de cálculos urinários (surgem como vazios de sinal inespecíficos). O padrão-ouro para **cálculo coraliforme** ou litíase urinária é a **tomografia computadorizada sem contraste**.
+• **Alternativa D (Incorreta):** O **adenocarcinoma de próstata** surge predominantemente na zona periférica e raramente se manifesta como hematúria macroscópica isolada sem outros sinais avançados. Além disso, o toque retal revelou glândula de **superfície regular**, sem nódulos ou endurecimentos suspeitos, não havendo indicação inicial de **biópsia de próstata guiada por ultrassom transretal** para investigar a hematúria.
 </details>
 
 ---
@@ -7981,17 +8101,23 @@ Um paciente com 20 anos, com história de aumento de hemiescroto direito há 4 s
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta médica inicial correta é a indicação de ultrassonografia de bolsa escrotal (Alternativa D).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Fundamentação Clínica e Raciocínio Diagnóstico:
-O quadro clínico descreve um homem jovem (20 anos) apresentando aumento insidioso do hemiescroto há 4 semanas, de consistência pétrea e totalmente indolor à palpação, na ausência de sintomas infecciosos ou inflamatórios (sem febre, dor, disúria, corrimento ou sinais flogísticos locais). Essa apresentação constitui a descrição clássica do câncer de testículo (tumores de células germinativas), que tem seu pico de incidência exatamente entre os 15 e 35 anos de idade. Toda massa intratesticular sólida e indolor em adultos jovens deve ser considerada neoplasia maligna até que se prove o contrário.
+O quadro clínico descreve um homem jovem, de 20 anos de idade, com queixa de aumento insidioso e progressivo do hemiescroto há 4 semanas, de consistência pétrea e indolor à palpação, na ausência de sintomas infecciosos urinários, sistêmicos ou sinais flogísticos locais. 
 
-Segundo as diretrizes de Urologia e Oncologia (Sociedade Brasileira de Urologia - SBU e European Association of Urology - EAU), a ultrassonografia de bolsa escrotal com Doppler constitui o exame de imagem padrão-ouro e de primeira linha para avaliação de massas escrotais. O método permite diferenciar com acurácia lesões intra de extratesticulares (neoplasias primárias são majoritariamente intratesticulares) e lesões císticas de sólidas, além de avaliar a vascularização tecidual. Confirmada a presença de lesão sólida intratesticular suspeita, procede-se à dosagem de marcadores tumorais séricos (alfa-fetoproteína, beta-hCG e desidrogenase lática - LDH) e planejamento de orquiectomia radical por via inguinal (a biópsia transescrotal é formalmente contraindicada pelo risco de disseminação tumoral linfática).
+Epidemiologicamente, a faixa etária entre 15 e 35 anos corresponde ao pico de incidência das neoplasias malignas de testículo, representadas predominantemente pelos tumores de células germinativas (seminomatosos e não seminomatosos). Na prática clínica e urológica, qualquer aumento testicular sólido, pétreo e indolor em adultos jovens deve ser considerado **câncer de testículo** até que se prove o contrário.
 
-Análise dos Distratores:
-- Alternativa A (antibioticoterapia): Incorreta. Estaria indicada em casos de orquiepididimite bacteriana aguda, que tipicamente cursa com dor testicular intensa de início abrupto, febre, calor local, hiperemia escrotal e, por vezes, sintomas urinários baixos (disúria, polaciúria ou secreção uretral), todos ausentes no caso.
-- Alternativa B (compressas mornas): Incorreta. Medida empírica e paliativa sem fundamento científico para a abordagem de nódulos testiculares; posterga de forma perigosa a investigação de uma patologia potencialmente maligna de rápida progressão.
-- Alternativa C (anti-inflamatório não esteroidal): Incorreta. Trata-se de conduta analgésica e anti-inflamatória inadequada para um paciente assintomático do ponto de vista álgico e com suspeita clínica máxima de processo neoplásico testicular.
+A abordagem propedêutica inicial diante de qualquer massa ou assimetria escrotal requer a realização de **ultrassonografia de bolsa escrotal** com Doppler de alta resolução. Esse exame constitui o padrão-ouro inicial devido à sua alta sensibilidade e especificidade, permitindo diferenciar lesões intratesticulares (que apresentam elevada probabilidade de malignidade) de afecções extratesticulares (como hidrocele, cisto de epidídimo, espermatocele ou varicocele). Além disso, o ultrassom determina com precisão a ecotextura da lesão (sólida versus cística), suas dimensões e a vascularização parenquimatosa ao Doppler.
+
+Confirmada a presença de lesão intratesticular sólida, as etapas seguintes englobam a coleta de marcadores tumorais séricos (alfafetoproteína, fração beta da gonadotrofina coriônica humana e desidrogenase lática), exames de estadiamento torácico e abdominal por tomografia computadorizada, e a orquiectomia radical por via inguinal (sendo a biópsia transescrotal formalmente contraindicada pelo risco de disseminação tumoral linfática retrógrada).
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A antibioticoterapia é indicada em orquiepididimites agudas, que se manifestam classicamente com dor escrotal intensa de evolução rápida, edema reacional, calor, rubor e, em muitos casos, febre, sintomas urinários baixos (como disúria e polaciúria) ou corrimento uretral. O paciente do caso não apresenta nenhum sinal inflamatório ou infeccioso, de modo que prescrever antibióticos configuraria erro grave que retardaria o diagnóstico oncológico.
+
+• **B) Incorreta:** A aplicação de compressas mornas é uma medida sintomática e adjuvante para alívio de dor e desconforto em afecções benignas ou inflamatórias/traumáticas resolutivas. Frente a um nódulo testicular endurecido e indolor, essa intervenção é inócua e contribui apenas para atrasar a investigação propedêutica adequada.
+
+• **C) Incorreta:** O uso de anti-inflamatórios não esteroidais destina-se ao manejo analgésico e anti-inflamatório de processos flogísticos agudos da bolsa escrotal, como epididimites ou orquites. Como o paciente encontra-se assintomático quanto à dor e o exame físico é compatível com processo neoplásico expansivo, a prescrição de AINEs não possui qualquer embasamento clínico.
 </details>
 
 ---
@@ -8014,15 +8140,23 @@ Nesse caso, qual é a principal hipótese diagnóstica?
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A principal hipótese diagnóstica é Tumor de Testículo (Alternativa C).
+> **Comentário Médica:** O gabarito correto é a **Alternativa C**. O quadro clínico e os achados ecográficos são patognomônicos de **neoplasia testicular**, que representa a principal hipótese diagnóstica diante de massa intratesticular sólida em homem jovem, conforme as diretrizes da Sociedade Brasileira de Urologia (SBU) e da *European Association of Urology* (EAU).
 
-1. Fundamentação Clínica e Fisiopatológica:
-O câncer de testículo é a neoplasia sólida mais frequente em homens jovens (entre 15 e 35 anos), sendo os tumores de células germinativas (seminomatosos e não seminomatosos) responsáveis por cerca de 95% dos casos. A apresentação clínica clássica consiste exatamente no quadro descrito: nódulo ou aumento testicular indolor, endurecido, de evolução insidiosa (semanas a meses). A ultrassonografia com Doppler da bolsa escrotal é o exame de imagem padrão-ouro inicial, apresentando alta sensibilidade (próxima a 100%) para diferenciar lesões intratesticulares de extratesticulares. O achado de lesão sólida intratesticular, com contornos irregulares, ecotextura heterogênea e presença de calcificações (frequentes em teratomas ou associadas a áreas de necrose/microlitíase) em homem jovem é considerado neoplasia maligna até que se prove o contrário. Diante desse quadro, a conduta preconizada inclui a coleta de marcadores tumorais séricos (alfa-fetoproteína, beta-hCG e desidrogenase lática - LDH) e planejamento de orquiectomia radical por via inguinal (nunca transescrotal, para evitar quebra de barreira linfática e disseminação tumoral).
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- A (Torção do cordão espermático): Trata-se de uma emergência urológica de início agudo e hiperagudo, caracterizada por dor escrotal intensa e súbita, elevação e horizontalização do testículo acometido e sinal de Phren negativo. A ultrassonografia demonstraria ausência ou redução crítica do fluxo vascular ao Doppler, sem relação com massa endurecida crônica.
-- B (Hérnia inguinoescrotal): Consiste na protrusão de conteúdo intra-abdominal (alças intestinais ou epíplon) através do canal inguinal até a bolsa escrotal. O exame físico evidencia continuidade com o anel inguinal superficial, manobra de Valsalva positiva e, à ultrassonografia, visualizam-se alças intestinais (com ou sem peristalse) ou gordura omental, tratando-se de conteúdo extratesticular.
-- D (Orquiepididimite): É um processo infeccioso/inflamatório que cursa com dor local importante, febre, sinais flogísticos escrotais (hiperemia, calor, edema) e sinal de Phren habitualmente positivo. Ao ultrassom, observam-se aumento volumétrico do epidídimo e/ou testículo, espessamento da parede escrotal e hiperfluxo vascular evidente ao Doppler.
+1. **Diagnóstico da Afecção:** **Tumor de testículo** (predominantemente tumor de células germinativas). Trata-se da neoplasia sólida maligna mais frequente em homens entre **15 e 35 anos** de idade.
+
+2. **Critério Clínico / Fisiopatologia:** A apresentação típica consiste em aumento volumétrico ou presença de **nódulo intratesticular indolor**, de consistência pétrea/endurecida e evolução insidiosa (semanas a meses). A **ultrassonografia escrotal com Doppler** é o exame de imagem inicial padrão-ouro, capaz de confirmar a localização intratesticular. A presença de massa sólida com **ecotextura heterogênea**, **margens irregulares** e **calcificações** reforça altamente a suspeita de malignidade, devendo ser tratada como câncer até prova em contrário.
+
+3. **Indicação de Conduta:** Frente à confirmação ultrassonográfica de lesão sólida intratesticular suspeita, a conduta mandatória consiste na dosagem sérica de **marcadores tumorais** (**alfa-fetoproteína**, **beta-hCG** e **desidrogenase lática - LDH**) associada ao estadiamento radiológico e programação de **orquiectomia radical por via inguinal** com clampeamento precoce do cordão espermático (a via transescrotal é formalmente contraindicada pelo risco de disseminação linfática).
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **torção do cordão espermático** é uma emergência urológica de caráter **hiperagudo** marcada por **dor escrotal súbita e intensa**, náuseas e elevação testicular com *sinal de Prehn* negativo. Ao Doppler, observa-se **ausência de fluxo sanguíneo**, diferindo totalmente da evolução de seis meses e da lesão nodular crônica descrita.
+
+• **Alternativa B (Incorreta):** A **hérnia inguinoescrotal** decorre da passagem de conteúdo intra-abdominal (alças intestinais ou omento) para o escroto através do canal inguinal. Caracteriza-se por tumefação **extratesticular**, que aumenta com a **manobra de Valsalva** e permite palpação da continuidade com o anel inguinal externo, achados ausentes no caso.
+
+• **Alternativa D (Incorreta):** A **orquiepididimite** é uma afecção inflamatória/infecciosa de curso tipicamente **agudo ou subagudo**, acompanhada de **dor testicular importante**, febre, **sinais flogísticos** (calor, rubor e edema) e alívio da dor à elevação do testículo (*sinal de Prehn* positivo). À ultrassonografia, evidencia-se **hiperfluxo vascular** difuso e espessamento das túnicas, e não massa focal heterogênea calcificada.
 </details>
 
 ---
@@ -8299,15 +8433,23 @@ O emergencista que atende esse paciente deverá explicar-lhe que será necessár
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** 1. Justificativa Clínica e Fisiopatológica:
-O quadro clínico apresentado é clássico de Bloqueio Atrioventricular Total (BAVT) ou de 3º grau sintomático. O paciente apresenta episódios recorrentes de síncope cardiogênica (crises de Adams-Stokes) decorrentes de baixo débito cerebral secundário a bradiarritmia grave (FC de 42 bpm). 
-Fisiopatologicamente, o BAVT caracteriza-se pela interrupção completa da condução do impulso elétrico dos átrios para os ventrículos, gerando dissociação atrioventricular completa. No exame físico, essa dissociação manifesta-se tipicamente pelo achado de 'ondas a em canhão' no pulso venoso jugular (que ocorrem de forma intermitente quando o átrio direito contrai contra a valva tricúspide fechada pela sístole ventricular simultânea) e pela presença de B4 intermitente/ritmo em 3 tempos. No ECG (mencionado no caso), observa-se ritmo atrioventricular dissociado, com intervalos P-P regulares, intervalos R-R regulares, porém sem relação fixa entre as ondas P e os complexos QRS, com frequência de escape ventricular mais baixa que a atrial.
-Segundo as Diretrizes da Sociedade Brasileira de Cardiologia (SBC) e diretrizes internacionais (AHA/ACC/HRS), o BAVT permanente ou intermitente sintomático, sem causa reversível identificada, constitui indicação de Classe I para o implante de marca-passo definitivo.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O quadro clínico e eletrocardiográfico é compatível com **Bloqueio Atrioventricular Total (BAVT)** sintomático, condição que apresenta indicação formal de **Classe I** para o **implante de marca-passo definitivo**, segundo as diretrizes da **Sociedade Brasileira de Cardiologia (SBC)** e do **AHA/ACC/HRS**.
 
-2. Análise dos Distratores:
-- A (Incorreta): A cardioversão elétrica sincronizada é indicada para o tratamento de taquiarritmias instáveis (como taquicardia ventricular com pulso, flutter atrial ou fibrilação atrial com resposta ventricular rápida e instabilidade hemodinâmica). Não possui papel terapêutico em bradiarritmias.
-- B (Incorreta): A ablação de via anômala é indicada no manejo de taquicardias supraventriculares mediadas por vias acessórias (como na Síndrome de Wolff-Parkinson-White), não se aplicando à falência do sistema de condução atrioventricular.
-- D (Incorreta): O isolamento elétrico das veias pulmonares é uma técnica de ablação por cateter empregada no tratamento invasivo da fibrilação atrial recorrente ou refratária a fármacos antiarrítmicos, sem indicação para bloqueios atrioventriculares avançados.
+**Raciocínio Clínico e Fisiopatológico:**
+
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um **Bloqueio Atrioventricular de 3º grau (BAVT)** manifestando-se com síncopes recorrentes de origem cardiogênica (*crises de Morgagni-Adams-Stokes*), caracterizadas por episódios súbitos de baixo débito cerebral decorrentes de bradiarritmia grave.
+
+2. **Critério Clínico / Fisiopatologia:** O BAVT decorre da falência completa da condução atrioventricular, levando à **dissociação atrioventricular**. A frequência ventricular depende de um foco de escape infranodal, justificando a **bradicardia acentuada (42 bpm)**. O achado semiológico de **ondas "a" em canhão** intermitentes no pulso venoso jugular é patognomônico da contração atrial direita contra a **valva tricúspide fechada** (pela sístole ventricular concomitante e não sincronizada), associado a variações na intensidade de bulhas e presença de B4.
+
+3. **Indicação de Conduta:** Em pacientes com **BAVT sintomático** ou bradicardias com escape ventricular lento, sem causas reversíveis identificadas (como distúrbios hidroeletrolíticos ou intoxicação farmacológica), a intervenção obrigatória e definitiva para restauração da cronotropia e prevenção de morte súbita é o **implante de marca-passo definitivo**.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **cardioversão elétrica sincronizada** é empregada na reversão de **taquiarritmias instáveis** com pulso (como taquicardia ventricular, fibrilação atrial e flutter atrial com instabilidade hemodinâmica). Não tem aplicação em **bradiarritmias**.
+
+• **Alternativa B (Incorreta):** A **ablação de via anômala** por radiofrequência é indicada em arritmias por reentrada atrioventricular mediadas por feixes acessórios, como na **síndrome de Wolff-Parkinson-White**, não atuando sobre disfunções intrínsecas graves do sistema His-Purkinje.
+
+• **Alternativa D (Incorreta):** O **isolamento elétrico das veias pulmonares** é a técnica intervencionista padrão para o tratamento da **fibrilação atrial paroxística ou persistente** refratária ao tratamento farmacológico, inexistindo indicação para distúrbios avançados de condução AV.
 </details>
 
 ---
@@ -8476,16 +8618,23 @@ Trabalhador da construção civil, de 58 anos de idade, em tratamento regular pa
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A alternativa (B) é a correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O quadro clínico de mialgia com início após introdução recente de farmacoterapia decorrente de alterações laboratoriais é clássico dos sintomas musculares associados às **estatinas**, droga de primeira linha no manejo da **dislipidemia**, em conformidade com as diretrizes da **Sociedade Brasileira de Cardiologia (SBC)**.
 
-1. Fundamentação Clínica e Fisiopatológica:
-O quadro clínico apresentado é clássico de miopatia associada ao uso de estatinas (inibidores da HMG-CoA redutase), como sinvastatina ou atorvastatina. As estatinas constituem a classe medicamentosa de primeira linha para o tratamento da dislipidemia (hipercolesterolemia / elevação de LDL-c) e para redução de eventos cardiovasculares maiores, conforme as Diretrizes da Sociedade Brasileira de Cardiologia (SBC).
-O efeito adverso musculoesquelético (conhecido como SAMS - Statin-Associated Muscle Symptoms) é a queixa adversa mais comum dessa classe, manifestando-se tipicamente com mialgia bilateral, fraqueza ou rigidez em grandes grupos musculares proximais, com início frequente nas primeiras semanas a meses após o início ou ajuste de dose da medicação. O diagnóstico da condição que motivou a prescrição (dislipidemia) é realizado essencialmente por exames laboratoriais (perfil lipídico).
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- Alternativa A (Obesidade): O diagnóstico de obesidade é eminentemente clínico e antropométrico (cálculo do Índice de Massa Corporal - IMC e circunferência abdominal), não dependente de exames laboratoriais para sua definição. Além disso, as terapias farmacológicas para obesidade não têm a mialgia aguda como evento adverso característico clássico.
-- Alternativa C (Hipotireoidismo): O tratamento do hipotireoidismo é realizado com reposição de levotiroxina sódica. O hormônio tireoidiano não causa dor muscular como efeito adverso típico; ao contrário, o próprio hipotireoidismo descompensado pode cursar com queixas musculares e elevação de creatinoquinase (CK), as quais regridem com a introdução do tratamento hormonal.
-- Alternativa D (Diabetes mellitus): O tratamento farmacológico inicial clássico do diabetes mellitus tipo 2 (ex.: metformina, inibidores de SGLT2, sulfonilureias) cursa predominantemente com efeitos adversos gastrointestinais, geniturinários ou risco de hipoglicemia, não tendo mialgia como efeito colateral típico e característico de introdução recente.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **miopatia induzida por estatinas** (conhecida como *Statin-Associated Muscle Symptoms* - SAMS), decorrente do tratamento medicamentoso para **dislipidemia** (hipercolesterolemia primária ou prevenção cardiovascular).
+
+2. **Critério Clínico / Fisiopatologia:** As **estatinas** (inibidores da enzima HMG-CoA redutase, como **sinvastatina** e **atorvastatina**) têm como efeito adverso clássico a toxicidade muscular, manifestada por **mialgia proximal e simétrica**, fraqueza e, raramente, **rabdomiólise**. Os sintomas tipicamente surgem nas primeiras **duas a quatro semanas** após o início do tratamento ou aumento de dosagem. O achado inicial de rastreio que motiva essa prescrição é a alteração do **perfil lipídico** (elevação de LDL-c e/ou colesterol total).
+
+3. **Indicação de Conduta:** A identificação de dislipidemia em paciente hipertenso (risco cardiovascular aumentado) impõe a prescrição de **estatinas**. Diante de queixas musculares, deve-se dosar a **creatinoquinase (CK)** sérica, avaliar a função renal e considerar a suspensão temporária, redução de dose ou troca da classe farmacológica a depender da intensidade e dos níveis enzimáticos.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O diagnóstico de **obesidade** é essencialmente clínico e antropométrico, firmado pelo cálculo do **índice de massa corporal (IMC)** e medida da circunferência abdominal, sem depender de exames laboratoriais para sua constatação inicial. Ademais, fármacos antiobesidade não têm a mialgia aguda como evento adverso característico.
+
+• **Alternativa C (Incorreta):** O **hipotireoidismo** é tratado com **levotiroxina**, que não causa mialgia como efeito colateral. Pelo contrário, é o próprio hipotireoidismo descompensado que pode induzir queixas musculares e elevação de **CK**, as quais regridem com a reposição hormonal adequada.
+
+• **Alternativa D (Incorreta):** O tratamento inicial do **diabetes mellitus tipo 2** utiliza predominantemente a **metformina**, cujos efeitos adversos mais prevalentes são **gastrointestinais** (náuseas, diarreia, flatulência). Outras classes orais podem cursar com hipoglicemia ou infecções urogenitais, não sendo a mialgia de início precoce um efeito típico.
 </details>
 
 ---
@@ -8715,12 +8864,25 @@ Um paciente com 54 anos, em acompanhamento há 4 meses em função de cardiopati
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) é a correta. Trata-se de um paciente com cardiopatia isquêmica prévia que apresenta uma taquiarritmia aguda: Fibrilação Atrial (FA) com alta resposta ventricular. O paciente manifesta sinais claros de instabilidade hemodinâmica decorrentes do comprometimento do débito cardíaco: hipotensão arterial (PA 80 × 62 mmHg), sinais de congestão pulmonar aguda (estertoração bolhosa bibasal, moderado desconforto respiratório) e hipoperfusão (sudorese). Conforme as diretrizes da Sociedade Brasileira de Cardiologia (SBC) e os protocolos internacionais de suporte avançado de vida em cardiologia (ACLS/AHA), a presença de taquiarritmia associada a sinais de instabilidade ('5Ds': diminuição da PA/choque, dor torácica isquêmica, dispneia/congestão pulmonar, diminuição do nível de consciência) impõe a realização imediata de cardioversão elétrica sincronizada. Por ser um paciente consciente, o procedimento deve ser precedido por analgesia e sedação de ação rápida.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa (A) está incorreta: O paciente nega dor precordial e o eletrocardiograma não evidencia alterações agudas do segmento ST ou da onda T (apenas ondas Q patológicas antigas). A prioridade absoluta é reverter a instabilidade gerada pela taquiarritmia, não havendo indicação de cineangiocoronariografia de emergência neste momento.
-- Alternativa (B) está incorreta: O estudo eletrofisiológico (EEF) é um procedimento invasivo predominantemente diagnóstico ou terapêutico em caráter ambulatorial/eletivo, sendo totalmente contraindicado e inviável na abordagem emergencial de uma arritmia instável.
-- Alternativa (C) está incorreta: O implante de marca-passo provisório transvenoso é reservado para bradiarritmias instáveis e refratárias ao manejo medicamentoso (como BAV de 2º grau Mobitz II, BAVT ou disfunção do nó sinusal grave), não para taquiarritmias.
+O paciente em questão apresenta um histórico de miocardiopatia dilatada de etiologia isquêmica e procura a unidade de emergência devido ao surgimento súbito de palpitações e dispneia com três horas de evolução. O eletrocardiograma demonstra ritmo irregularmente irregular, com ausência de ondas P e presença de deflexões basais caóticas (ondas f), o que confirma o diagnóstico de **fibrilação atrial com alta resposta ventricular**.
+
+Na abordagem sistemática das taquiarritmias, preconizada pelas diretrizes do Advanced Cardiovascular Life Support (ACLS) e da Sociedade Brasileira de Cardiologia (SBC), a conduta inicial imperativa consiste em determinar a presença de sinais de instabilidade hemodinâmica, sintetizados clinicamente em:
+1. Hipotensão arterial ou choque manifesto (no caso, PA de 80 × 62 mmHg e sudorese fria decorrente de hipoperfusão sistêmica);
+2. Insuficiência cardíaca aguda com congestão pulmonar (evidenciada pelo desconforto respiratório moderado e pela estertoração crepitante bibasal);
+3. Dor torácica anginosa de caráter isquêmico (ausente no paciente);
+4. Rebaixamento agudo do nível de consciência ou síncope (o paciente permanece consciente, embora com queixas importantes).
+
+A fisiopatologia da descompensação súbita reside no fato de que o miocárdio com dilatação e disfunção sistólica prévia depende criticamente do enchimento ventricular diastólico. A perda súbita da contração atrial coordenada (responsável por até 20 a 30% do débito cardíaco final) somada à taquicardia com encurtamento drástico da diástole resulta em queda abrupta do volume sistólico, elevação retrógrada das pressões de enchimento pulmonar e hipotensão progressiva com choque cardiogênico. Diante de qualquer taquiarritmia associada a critérios de instabilidade hemodinâmica, a conduta mandatória e imediata é a **cardioversão elétrica sincronizada**. Devido ao fato de o paciente estar consciente e vigil, é obrigatório administrar sedação e analgesia de ação rápida prévias ao disparo para alívio do sofrimento e segurança operacional.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A cineangiocoronariografia de emergência com vistas à angioplastia coronária está formalmente indicada em cenários de infarto agudo do miocárdio com supradesnivelamento do segmento ST ou síndromes coronarianas sem supra de ST de altíssimo risco (como dor anginosa refratária ou choque primariamente isquêmico). O paciente em tela nega dor precordial e o eletrocardiograma não evidencia alterações dinâmicas da repolarização ventricular, revelando apenas ondas Q patológicas atribuíveis à sua área de necrose prévia. A instabilidade decorre primariamente do impacto hemodinâmico da arritmia.
+
+• **B) Incorreta:** O cateterismo cardíaco com estudo eletrofisiológico constitui procedimento invasivo destinado ao mapeamento de circuitos arrítmicos e eventual ablação por radiofrequência em regime eletivo ou subagudo após compensação clínica. Não possui qualquer aplicação no manejo agudo de uma taquiarritmia instável em sala de emergência.
+
+• **C) Incorreta:** O implante de marca-passo provisório transvenoso é um recurso reservado para bradiarritmias graves com repercussão hemodinâmica que não respondem à atropina ou a drogas cronotrópicas em infusão contínua, não possuindo indicação no tratamento de taquiarritmias atriais descompensadas.
 </details>
 
 ---
@@ -10043,19 +10205,19 @@ A partir da história clínica dessa paciente, assinale a opção correta.
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) é a correta. O quadro clínico descrito é clássico de Dermatite de Contato Ocupacional (DCO) das mãos, uma das dermatoses ocupacionais mais frequentes em profissionais de saúde.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O caso clínico descreve uma apresentação clássica de **dermatite de contato ocupacional (DCO)** nas mãos, afecção comum em profissionais de saúde expostos rotineiramente a substâncias irritantes e alérgenos ocupacionais, como componentes de luvas de proteção e antissépticos.
 
-Fundamentação clínica e fisiopatológica:
-1. Apresentação clínica: A presença de eritema, vesículas, fissuras e prurido caracteriza um quadro de eczema (subagudo a crônico), restrito às mãos.
-2. Vínculo ocupacional: A melhora do quadro clínico durante o período de afastamento laboral (férias) é um critério diagnóstico epidemiológico clássico de dermatose relacionada ao trabalho, refletindo a interrupção da exposição aos agentes causais.
-3. Etiologias possíveis: A DCO pode ser subdividida em:
-   - Dermatite de Contato por Irritante Primário (DCIP): É a forma mais comum (cerca de 80% dos casos), decorrente do dano físico-químico direto à barreira cutânea por lavagem frequente das mãos com água e sabão, detergentes ou fricção mecânica (não envolve mecanismos imunológicos de memória).
-   - Dermatite de Contato Alérgica (DCA): Reação de hipersensibilidade mediada por células (Tipo IV de Gell e Coombs) a alérgenos ocupacionais frequentes, como os aditivos químicos da borracha (tiurans, carbamatos) presentes em luvas de látex, ou outros componentes presentes no ambiente hospitalar.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- A (Incorreta): O acometimento isolado das mãos em uma técnica de enfermagem aponta para contato direto com substâncias laborais, não para fotodermatite. Ademais, fotodermatites costumam acometer outras áreas fotoexpostas (face, colo, antebraços) e tendem a piorar no período de férias devido ao maior lazer ao ar livre.
-- B (Incorreta): Ceratoses actínicas são lesões pré-malignas resultantes do dano actínico crônico cumulativo (radiação ultravioleta), caracterizadas por máculas ou pápulas eritematosas com escamas aderentes e ásperas, comuns em pacientes idosos com fototipos baixos, sem relação com episódios vesiculares agudos, fissuras em técnica jovem de 24 anos ou exposição direta a detergentes.
-- D (Incorreta): A remissão ou melhora dos sintomas no período de férias e nos finais de semana reforça (e não afasta) a hipótese de dermatite de contato alérgica (ou irritativa) de origem ocupacional, pois a retirada do antígeno ou do irritante cessa a reação inflamatória cutânea.
+1. **Diagnóstico da Afecção:** Trata-se de um quadro de **eczema subagudo a crônico** das mãos, evidenciado pela combinação de **eritema**, **vesículas**, **fissuras** e **prurido**. O diagnóstico mais provável é de **dermatite de contato ocupacional**, que engloba as formas irritativas e alérgicas.
+2. **Critério Epidemiológico e Ocupacional:** A **melhora clínica durante o período de férias** (afastamento laboral) é o critério epidemiológico definidor da correlação causal com a atividade profissional, pois a interrupção da exposição ao agente agressor permite a recuperação da barreira cutânea.
+3. **Fisiopatologia dos Subtipos:** A **dermatite de contato por irritante primário (DCIP)** é a forma mais prevalente e decorre do dano celular direto por fricção, água e sabões. Já a **dermatite de contato alérgica (DCA)** consiste em uma reação de hipersensibilidade mediada por células (*tipo IV de Gell e Coombs*), frequentemente desencadeada por aceleradores químicos da borracha presentes em **luvas de látex** (como tiurans e carbamatos) ou formulações tópicas.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **fotodermatite** decorre de hipersensibilidade à radiação ultravioleta e acomete áreas fotoexpostas de forma ampla (como face, decote e antebraços). Na paciente, o quadro é restrito às mãos pelo contato ocupacional direto e tenderia a piorar nas férias (maior exposição solar).
+• **Alternativa B (Incorreta):** As **ceratoses actínicas** são lesões pré-malignas resultantes do dano actínico crônico por radiação ultravioleta, caracterizadas por máculas ou pápulas ásperas e escamosas, comuns em idosos de fototipo baixo, sem relação com vesículas pruriginosas agudas ou exposição a detergentes.
+• **Alternativa D (Incorreta):** A remissão ou alívio dos sintomas durante o período de afastamento do trabalho confirma e fortalece o nexo causal de um quadro ocupacional, seja ele de natureza **alérgica** ou **irritativa**, e de modo algum afasta a etiologia alérgica.
 </details>
 
 ---
@@ -10207,14 +10369,19 @@ O médico que atende a paciente, considerando riscos e benefícios para ela, dev
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A paciente apresenta um quadro clínico clássico de reação adversa cutânea grave a drogas (farmacodermia), especificamente a Síndrome de Stevens-Johnson (SSJ), caracterizada por pródromos constitucionais (febre, mialgia, astenia), acometimento mucoso exuberante (crostas hemáticas e erosões orais/labiais) e lesões cutâneas com lesões em alvo atípicas, máculas eritematopurpuradas com centro violáceo e descolamento epidérmico cobrindo menos de 10% da superfície corporal total.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. O quadro clínico e a história medicamentosa são suficientes para o diagnóstico presuntivo de **farmacodermia grave** secundária ao anticonvulsivante, sendo a suspensão imediata do agente a medida com maior impacto prognóstico segundo as diretrizes de dermatologia e emergência médica.
 
-A correlação temporal é evidente com a introdução recente de hidantoína (fenitoína), droga aromática antiepiléptica de alto risco para o desenvolvimento de reações de hipersensibilidade mediadas por linfócitos T citotóxicos (reação do tipo IV). Segundo os consensos e diretrizes dermatológicas e de emergência, o diagnóstico da SSJ é eminentemente clínico, baseado na anamnese detalhada (histórico de exposição medicamentosa) e no exame dermatológico minucioso. O reconhecimento imediato é mandatório para a suspensão precoce do fármaco implicado e o início do suporte intensivo, fatores determinantes na redução da morbimortalidade.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa A está incorreta: O pênfigo foliáceo é uma doença bolhosa autoimune caracterizada por clivagem intraepidérmica superficial (subcórnea), não acometendo mucosas (o pênfigo com acometimento mucoso é o vulgar). O antecedente familiar funciona apenas como elemento de distração.
-- Alternativa B está incorreta: O lúpus eritematoso cutâneo subagudo tipicamente manifesta-se com lesões papuloescamosas (psoriasiformes) ou anulares policíclicas em áreas fotoexpostas, sem necrólise epidérmica bolhosa aguda nem estomatite hemática grave como a observada.
-- Alternativa C está incorreta: A síndrome da pele escaldada estafilocóccica (SSSS), mediada pelas toxinas esfoliativas A e B de *Staphylococcus aureus*, incide predominantemente em recém-nascidos e crianças pequenas e tem como marco semiológico fundamental a ausência de acometimento de mucosas.
+1. **Diagnóstico Sindrômico:** Trata-se de uma reação adversa cutânea grave, compatível com a **Síndrome de *Stevens-Johnson* (SSJ)**, caracterizada por pródromos constitucionais (febre, mal-estar e mialgia), **acometimento mucoso exuberante** com crostas hemáticas labiais e lesões cutâneas com centro violáceo e **lesões em alvo atípicas**, apresentando descolamento epidérmico restrito a **menos de 10% da superfície corporal**.
+2. **Fisiopatologia e Correlação Temporal:** A SSJ é uma reação de hipersensibilidade do tipo IV mediada por **linfócitos T citotóxicos** e liberação de **granulisina/perforina**, que culmina em apoptose generalizada de ceratinócitos. A **hidantoína (fenitoína)** é uma das drogas aromáticas mais frequentemente implicadas, com surgimento clássico dos sintomas entre 1 a 4 semanas após a sua introdução ou troca posológica.
+3. **Indicação de Conduta:** O diagnóstico da SSJ é **eminentemente clínico**, pautado na anamnese detalhada e no exame físico minucioso. Exames invasivos ou demorados não devem postergar o manejo inicial fundamental: **interrupção imediata do fármaco suspeito**, suporte hidroeletrolítico e internação em unidade de terapia intensiva ou de queimados.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O **pênfigo foliáceo** é uma afecção autoimune com clivagem intraepidérmica superficial (subcórnea) mediada por anticorpos anti-desmogleína 1, que **não acomete mucosas** (o acometimento mucoso ocorre no pênfigo vulgar). A história familiar atua meramente como distrator e a biópsia imediata não é prioritária frente à suspeita de farmacodermia.
+• **Alternativa B (Incorreta):** O **lúpus eritematoso cutâneo subagudo** manifesta-se tipicamente com lesões anulares policíclicas ou psoriasiformes em áreas fotoexpostas, sem evolução com **necrólise epidérmica aguda** ou estomatite hemossulcada grave.
+• **Alternativa C (Incorreta):** A **síndrome da pele escaldada estafilocóccica** decorre da ação de toxinas esfoliativas (ETA e ETB), é mais comum em neonatos e crianças pequenas e tem como marco diagnóstico clássico a **ausência de acometimento de mucosas**, além de não demandar a pesquisa laboratorial direta da toxina para conduta na emergência.
 </details>
 
 ---
@@ -10729,14 +10896,19 @@ Um homem com 78 anos, acamado há meses em função de quadro demencial avançad
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** O quadro clínico apresentado é de sepse com disfunção de múltiplos órgãos secundária a pneumonia aspirativa (foco pulmonar evidente pela história de broncoaspiração, febre, tosse e crepitações em base direita). O paciente preenche critérios de choque séptico/hipoperfusão tecidual induzida por sepse, manifestada por hipotensão arterial grave (PA 88 × 48 mmHg), taquicardia (FC 120 bpm), rebaixamento do nível de consciência, hiperlactatemia importante (5,1 mmol/L, bem acima do VR) e disfunção renal aguda (ureia e creatinina elevadas).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Segundo as diretrizes internacionais da *Surviving Sepsis Campaign* (SSC) e os protocolos nacionais de atendimento à sepse (ILAS / Ministério da Saúde), o pacote inicial da primeira hora preconiza intervenções simultâneas e imediatas: coleta de exames e hemoculturas, início precoce de antibioticoterapia de amplo espectro intravenosa e ressuscitação volêmica vigorosa com cristaloides (recomendação de 30 mL/kg nas primeiras 3 horas) para restauração da pré-carga, débito cardíaco e perfusão tecidual. Portanto, a administração de cristaloides intravenosos é a prioridade terapêutica mandatória.
+O quadro clínico apresentado é de um paciente idoso com pneumonia aspirativa evoluindo com disfunção orgânica múltipla (rebaixamento do nível de consciência, taquipneia, acidose metabólica, hiperlactatemia e elevação de escórias nitrogenadas associada a oligúria/desidratação), hipotensão arterial acentuada e taquicardia compensatória. Esse conjunto de achados preenche os critérios diagnósticos de sepse com sinais inequívocos de hipoperfusão tecidual, configurando a fase inicial de **choque séptico**.
 
-Análise dos distratores:
-- Alternativa A está incorreta: A elevação das escórias nitrogenadas decorre, a princípio, de injúria renal aguda mista (pré-renal por hipovolemia/má perfusão e renal associada à sepse). Não há critérios de urgência dialítica imediata (como hipercalemia refratária, edema agudo de pulmão hipervolêmico ou uremia sintomática franca); a conduta inicial consiste na restauração da volemia e pressão de perfusão renal.
-- Alternativa C está incorreta: O paciente apresenta hemoglobina de 8,5 g/dL. De acordo com as diretrizes para sepse e terapia intensiva, adota-se estratégia transfusional restritiva, com gatilho transfusional de Hb < 7,0 g/dL na ausência de sangramento ativo, isquemia miocárdica aguda ou hipoxemia refratária grave.
-- Alternativa D está incorreta: O uso de corticosteroides (hidrocortisona 200 mg/dia) está indicado apenas no choque séptico refratário, isto é, quando a estabilidade hemodinâmica não é restabelecida após ressuscitação volêmica adequada e uso de doses crescentes de vasopressores (ex.: noradrenalina), não sendo conduta prioritária inicial.
+De acordo com as diretrizes internacionais da Surviving Sepsis Campaign (SSC) e os protocolos nacionais de atendimento à sepse, a abordagem inicial imediata (bundle da primeira hora) baseia-se na coleta de exames e hemoculturas antes do início dos antimicrobianos, administração precoce de antibioticoterapia de amplo espectro, mensuração seriada do lactato sérico e **ressuscitação volêmica com cristaloides**. A recomendação padrão estabelece a infusão rápida de 30 mL/kg de solução cristaloide balanceada ou soro fisiológico a 0,9% dentro das primeiras 3 horas diante de hipotensão induzida por sepse ou lactato sérico maior ou igual a 4,0 mmol/L (o paciente apresenta lactato de 5,1 mmol/L). O objetivo do resgate volêmico é restaurar o volume intravascular efetivo, aumentar o retorno venoso (pré-carga), otimizar o débito cardíaco e restabelecer a microcirculação e a perfusão tecidual nos órgãos-alvo.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A elevação dos níveis séricos de ureia e creatinina reflete uma injúria renal aguda de etiologia mista (componente pré-renal acentuado pela desidratação e hipoperfusão somado à lesão tubular associada à sepse). Não há critérios para indicação de diálise de urgência, tais como hipercalemia refratária com repercussão eletrocardiográfica, acidose metabólica refratária não responsiva às medidas clínicas, congestão hipervolêmica refratária ou manifestações urêmicas graves (encefalopatia urêmica ou pericardite). A conduta para a disfunção renal neste momento é exatamente a otimização hemodinâmica e volêmica.
+
+• **C) Incorreta:** O paciente apresenta concentração de hemoglobina de 8,5 g/dL. Grandes ensaios clínicos e as diretrizes da SSC recomendam fortemente uma estratégia transfusional restritiva em pacientes sépticos estáveis do ponto de vista coronariano, com gatilho transfusional estabelecido para níveis de hemoglobina inferiores a 7,0 g/dL (com alvo de manutenção entre 7,0 e 9,0 g/dL), reservando limiares mais elevados apenas para pacientes com sangramento ativo grave, isquemia miocárdica aguda documentada ou hipoxemia refratária extrema.
+
+• **D) Incorreta:** A corticoterapia na sepse (habitualmente com hidrocortisona na dose de 200 mg ao dia) não é indicada como conduta de primeira linha nem na suspeita empírica inicial de insuficiência adrenal sem histórico. Sua recomendação é restrita ao choque séptico refratário, definido pela persistência de instabilidade hemodinâmica com necessidade de doses moderadas a altas de vasopressores (geralmente norepinefrina em dose superior a 0,25 mcg/kg/min) após ressuscitação volêmica adequada.
 </details>
 
 ---
@@ -11197,20 +11369,26 @@ Uma paciente com 57 anos, assintomática, foi submetida a exames complementares 
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A paciente em questão apresenta Hiperparatiroidismo Primário (HPTP), caracterizado por hipercalcemia acompanhada de níveis elevados de paratormônio (PTH). A parathyroidectomia é o único tratamento definitivo e está indicada para todos os pacientes sintomáticos. Em pacientes assintomáticos, a cirurgia é formalmente recomendada caso preencham ao menos um dos critérios estabelecidos pelos consensos internacionais (como o *International Workshop on the Management of Asymptomatic Primary Hyperparathyroidism*) e referendados pela Sociedade Brasileira de Endocrinologia e Metabologia (SBEM):
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. **Cálcio sérico:** > 1,0 mg/dL acima do limite superior da normalidade;
-2. **Comprometimento ósseo:** Presença de osteoporose (escore-T ≤ -2,5) em qualquer sítio esquelético (coluna lombar, colo femoral, fêmur total ou rádio 33%) ou fratura por fragilidade;
-3. **Comprometimento renal:** Depuração de creatinina (ClCr/TFGe) < 60 mL/min; calciúria de 24h > 400 mg/dia com perfil de risco lítico aumentado; ou presença de nefrolitíase/nefrocalcinose identificada em exames de imagem;
-4. **Idade:** Menor que 50 anos.
+A paciente em questão apresenta o diagnóstico clássico e laboratorial de **hiperparatireoidismo primário**, caracterizado pela perda do feedback inibitório fisiológico do cálcio sobre a secreção de paratormônio (PTH), cursando com hipercalcemia dependente de PTH elevado. Trata-se da causa mais comum de hipercalcemia em ambiente ambulatorial, decorrente majoritariamente de adenoma paratireóideo único (cerca de 80% a 85% dos casos).
 
-**Justificativa da alternativa correta (D):**
-A presença de escore-T menor que -2,5 na densitometria óssea define osteoporose secundária à reabsorção óssea mediada pelo PTH elevado e constitui indicação cirúrgica clássica e formal no HPTP assintomático.
+Apesar de a paciente ser classificada como assintomática (sem sintomas constitucionais graves de crise hipercalcêmica, dor óssea manifesta ou cólica nefrética ativa), a afecção acarreta lesão progressiva de órgãos-alvo, principalmente nos ossos e no sistema renal. O PTH em excesso estimula a reabsorção óssea mediada por osteoclastos e aumenta a excreção urinária de cálcio secundária à sobrecarga filtrada, culminando em osteopenia/osteoporose e nefrolitíase/nefrocalcinose.
 
-**Análise dos distratores:**
-- **A) Incorreta:** A colelitíase não faz parte dos critérios de indicação cirúrgica para o HPTP; o acometimento do trato urinário (nefrocalcinose ou litíase renal) é o que configura indicação renal, não a litíase biliar.
-- **B) Incorreta:** A indicação cirúrgica baseada na faixa etária ocorre para pacientes com **idade inferior a 50 anos** (devido ao maior risco cumulativo de complicações a longo prazo). Ter idade superior a 50 anos não é critério cirúrgico.
-- **C) Incorreta:** O SPECT com 99mTc-sestamibi e outros exames de imagem servem para localização pré-operatória e planejamento cirúrgico minimamente invasivo, mas o tamanho do nódulo visualizado não constitui indicação cirúrgica em pacientes assintomáticos.
+A **paratireoidectomia** é a única modalidade terapêutica curativa definitiva. Em pacientes assintomáticos, a indicação cirúrgica é norteada pelas diretrizes internacionais (International Workshop on the Management of Asymptomatic Primary Hyperparathyroidism), sendo necessária a presença de apenas um dos seguintes critérios:
+
+1. **Cálcio sérico:** nível de cálcio sérico superior a 1,0 mg/dL acima do limite superior da normalidade.
+2. **Acometimento esquelético:** densitometria óssea revelando escore-T ≤ -2,5 (osteoporose) em qualquer um dos sítios avaliados (coluna lombar, colo femoral, fêmur total ou rádio distal 33%), ou ocorrência de fratura prévia por fragilidade óssea.
+3. **Acometimento renal:** taxa de filtração glomerular estimada inferior a 60 mL/min/1,73 m²; presença de nefrolitíase ou nefrocalcinose detectada em exame de imagem; ou calciúria de 24 horas superior a 400 mg/dia associada a perfil de risco litogênico aumentado.
+4. **Critério etário:** idade inferior a 50 anos.
+
+Dentre as alternativas apresentadas na questão, o achado de escore-T menor que -2,5 na densitometria óssea constitui um critério formal e inequívoco para indicação cirúrgica.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** a colelitíase é um achado incidental comum na população geral e não faz parte dos critérios de indicação para tratamento cirúrgico do hiperparatireoidismo primário. O comprometimento litiásico considerado nos consensos refere-se exclusivamente ao trato urinário (nefrolitíase e nefrocalcinose).
+• **B) Incorreta:** a idade é considerada critério de paratireoidectomia quando for inferior a 50 anos (idade < 50 anos), visto que pacientes jovens apresentam maior expectativa de vida e, portanto, risco ampliado de desenvolvimento de complicações ósseas, renais e cardiovasculares a longo prazo.
+• **C) Incorreta:** os exames de imagem, incluindo a cintilografia com 99mTc-sestamibi e a ultrassonografia cervical, têm papel unicamente de localização topográfica e planejamento operatório para viabilizar procedimentos minimamente invasivos. O tamanho da lesão ou sua intensidade de captação não representam critérios de indicação cirúrgica.
 </details>
 
 ---
@@ -11258,17 +11436,23 @@ Uma mulher com 35 anos iniciou quadro de tremores, irritabilidade, aumento de ap
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A paciente em questão apresenta um quadro clínico clássico de tireotoxicose/hipertireoidismo primário secundário à Doença de Graves (bócio difuso hiperfuncionante com frêmito, fácies basedowiana/oftalmopatia de Graves, sinais adrenérgicos evidentes e perda ponderal importante), confirmado laboratorialmente por TSH suprimido e T4 livre marcadamente elevado.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Justificativa da Alternativa Correta (B):
-O manejo inicial padrão da Doença de Graves sintomática baseia-se em duas vertentes farmacológicas principais:
-- Controle Sintomático Adrenérgico: O uso de betabloqueadores é mandatório para o controle rápido das manifestações decorrentes do excesso de estímulo adrenérgico (taquicardia, tremores, ansiedade e sudorese). O propranolol é classicamente o fármaco de escolha por ser um betabloqueador não seletivo que, em doses terapêuticas adequadas, também inibe perifericamente a conversão de T4 em T3 (pela inibição da enzima 5'-desiodase).
-- Terapia Antitireoidiana (Tionamidas): O metimazol (tiamazol) atua inibindo a tireoperoxidase (TPO), bloqueando a síntese de novos hormônios tireoidianos (organificação do iodo e acoplamento das iodotirosinas). É a droga antitireoidiana de primeira linha para pacientes não gestantes (ou a partir do segundo trimestre gestacional), recomendada em dose inicial ajustada à gravidade (geralmente 20 a 30 mg/dia para níveis de T4L bastante elevados como o deste caso: 5,6 ng/dL). Ademais, a presença de oftalmopatia ativa desfavorece o uso imediato de radioiodoterapia, tornando o tratamento clínico com tionamidas a melhor conduta de escolha inicial.
+O quadro clínico descrito é clássico de tireotoxicose decorrente de **doença de Graves** (bócio difuso tóxico), uma afecção autoimune mediada por autoanticorpos estimuladores do receptor de TSH (TRAb). A ativação desregulada desses receptores na membrana dos tiócitos induz proliferação folicular e hiperprodução autônoma de hormônios tireoidianos (T3 e T4), cursando com supressão profunda do TSH e elevação expressiva do T4 livre.
 
-2. Análise dos Distratores:
-- Alternativa A: Incorreta. A levotiroxina é indicada na reposição hormonal do hipotireoidismo. Sua administração em um paciente com tireotoxicose grave agravaria o quadro clínico, podendo precipitar uma crise tireotóxica/tempestade tireoidiana.
-- Alternativa C: Incorreta. A radioiodoterapia com I-131 está associada ao risco de desencadear ou piorar a oftalmopatia de Graves preexistente ("olhos ficaram mais evidentes" / fácies basedowiana). Além disso, não confere controle sintomático imediato nem redução rápida dos níveis de hormônios circulantes.
-- Alternativa D: Incorreta. Embora utilize o propranolol de maneira adequada para alívio sintomático, indica radioiodoterapia (I-131) como conduta de primeira linha em vigência de oftalmopatia de Graves clinicamente evidente, o que constitui contraindicação relativa importante sem prévio controle ou corticoterapia profilática, além de não ser a terapia medicamentosa conservadora inicial preconizada.
+A apresentação clínica engloba a tríade típica: síndrome tireotóxica hiperadrenérgica (taquicardia sinusal, tremores finos, sudorese, perda ponderal com hiperfagia e aumento do trânsito intestinal), bócio difuso hipervascularizado (demonstrado pelo aumento simétrico da glândula com presença de frêmito) e manifestações extratireoidianas autoimunes, nomeadamente a orbitopatia de Graves (fácies basedowniana e proptose).
+
+O manejo farmacológico inicial da tireotoxicose por doença de Graves fundamenta-se em duas frentes sinérgicas:
+1. Alívio sintomático rápido do tônus simpático: O propranolol é o betabloqueador de primeira linha. Por ser não seletivo, controla eficazmente as palpitações, a taquicardia e os tremores, além de exercer um efeito benéfico adicional de inibir a enzima desiodase tipo 1, reduzindo a conversão periférica de T4 em T3.
+2. Inibição da síntese hormonal: As tionamidas inibem a enzima tireoperoxidase (TPO), bloqueando a organificação do iodo e o acoplamento das iodotirosinas. O **metimazol** (tiamazol) é o fármaco de escolha inicial para a quase totalidade dos pacientes não gestantes (ou fora do primeiro trimestre gestacional), devido à sua maior eficácia, maior adesão posológica e menor risco de hepatotoxicidade fulminante quando comparado ao propiltiouracil. A dose inicial de 30 mg ao dia é plenamente condizente com a gravidade do hipertireoidismo (T4 livre de 5,6 ng/dL, correspondendo a mais de 3 vezes o limite superior da normalidade).
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A levotiroxina é um análogo sintético da tiroxina indicado exclusivamente na reposição de estados de hipotireoidismo. A sua administração a uma paciente com tireotoxicose grave exacerbaria perigosamente os níveis circulantes de hormônios tireoidianos, com alto risco de precipitar uma tempestade tireotóxica e choque cardiogênico. Ademais, a dose de 75 mg citada seria letal, pois a posologia terapêutica habitual é expressa em microgramas (mcg).
+
+• **C) Incorreta:** A radioiodoterapia com I-131 está formalmente associada ao risco de surgimento ou piora substancial da orbitopatia de Graves preexistente, liberando grande quantidade de antígenos tireoidianos na circulação que reagem cruzadamente com os tecidos moles retro-orbitários. Além disso, o atenolol é cardioseletivo (beta-1) e não possui o benefício adicional do propranolol de inibir a conversão periférica de T4 para T3.
+
+• **D) Incorreta:** Embora a prescrição do propranolol esteja correta para o controle hiperadrenérgico, a ablação por radioiodo imediata é inadequada para este momento clínico. A presença de oftalmopatia clinicamente evidente contraindica a radioiodoterapia como terapia de primeira linha sem pré-tratamento e cobertura profilática com glicocorticoides. A conduta padrão consiste no controle medicamentoso inicial com antitireoidianos de síntese para restabelecer o eutireoidismo com segurança.
 </details>
 
 ---
@@ -11500,20 +11684,19 @@ Em atendimento em unidade de saúde da família, você atende pela primeira vez 
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta mais apropriada para a paciente é o controle clínico e imaginológico (Alternativa C), fundamentando-se nas diretrizes da American Thyroid Association (ATA) e do Departamento de Tireoide da Sociedade Brasileira de Endocrinologia e Metabologia (SBEM).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. A paciente apresenta nódulo tireoidiano com características ultrassonográficas de baixíssimo risco de malignidade, para o qual as diretrizes da *American Thyroid Association* (ATA) e da Sociedade Brasileira de Endocrinologia e Metabologia (SBEM) recomendam seguimento conservador com **controle clínico/imaginológico**.
 
-1. Justificativa da Alternativa Correta (C):
-O nódulo descrito apresenta características ultrassonográficas clássicas de baixíssimo risco de malignidade (< 3%):
-- Aspecto espongiforme (microcístico em mais de 50% de seu volume);
-- Mais largo que alto (ausência de crescimento invasivo perpendicular);
-- Margens precisas e regulares;
-- Ausência de microcalcificações.
-De acordo com os critérios de estratificação de risco (ATA e ACR TI-RADS), nódulos com padrão espongiforme são classificados como de "muito baixa suspeita" (TI-RADS 2 ou ATA Very Low Risk). Para essa categoria, a punção aspirativa por agulha fina (PAAF) é recomendada apenas se a lesão atingir diâmetro maior ou igual a 2,0 cm (ou opcionalmente a partir de 1,5–2,0 cm). Como a lesão mede exatamente 1,0 cm e a paciente encontra-se assintomática e eutireoidiana, a realização de procedimentos invasivos é dispensável e a recomendação padrão é o seguimento clínico periódico com ultrassonografia de controle.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- A (Supressão hormonal): Conduta ultrapassada e formalmente contraindicada. A terapia com levotiroxina para suprimir o TSH com o objetivo de reduzir nódulos benignos não demonstrou benefício consistente e acarreta riscos significativos a longo prazo, como osteoporose, arritmias cardíacas (ex.: fibrilação atrial) e perda de massa óssea, especialmente em mulheres.
-- B (Tratamento cirúrgico): Totalmente desproporcional. A tireoidectomia estaria indicada diante de suspeita/confirmação citológica de neoplasia maligna, sintomas compressivos locais ou bócio mergulhante/volumoso, nenhum dos quais presente no caso.
-- D (Punção aspirativa por agulha fina): Constitui sobrediagnóstico e conduta invasiva desnecessária. A PAAF em nódulos de 1 cm estaria reservada àqueles com características de alta suspeita (TI-RADS 5 ou padrão ATA de alta suspeição: nódulos sólidos, hipoecogênicos, com margens irregulares, microcalcificações ou mais altos que largos). Para nódulos espongiformes, o limiar para PAAF é de ≥ 2,0 cm.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um **nódulo tireoidiano incidental** (incidentaloma) de padrão **espongiforme**, sem comemorativos de malignidade, em paciente jovem, assintomática e **eutireoidiana** (TSH e hormônios tireoidianos normais).
+2. **Critério Clínico / Fisiopatologia:** O aspecto ultrassonográfico **espongiforme** (microcístico em > 50% do volume), com formato **mais largo que alto**, **limites precisos** e **ausência de microcalcificações** confere um risco de malignidade inferior a 3% (classificação ATA de *muito baixa suspeita* ou **ACR TI-RADS 2**).
+3. **Indicação de Conduta:** Para nódulos espongiformes e de muito baixo risco, a punção aspirativa por agulha fina (**PAAF**) só estaria indicada se a lesão atingisse diâmetro **≥ 2,0 cm**. Como o nódulo mede exatamente **1,0 cm**, a conduta padrão-ouro é a observação periódica com **ultrassonografia cervical de controle** e reavaliação clínica, evitando intervenções invasivas desnecessárias.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **supressão hormonal** com levotiroxina é uma prática em desuso e formalmente contraindicada para nódulos benignos, pois não reduz o volume nodular de forma sustentada e acarreta riscos de **tireotoxicose exógena**, **perda de densidade mineral óssea** (osteoporose) e **arritmias cardíacas** (como fibrilação atrial).
+• **Alternativa B (Incorreta):** O **tratamento cirúrgico** (tireoidectomia) seria desproporcional e iatrogênico neste cenário. A cirurgia é reservada para confirmação ou forte suspeita de **câncer de tireoide**, **bócios volumosos/mergulhantes** ou presença de **sintomas compressivos** (disfagia, dispneia, disfonia).
+• **Alternativa D (Incorreta):** A **punção aspirativa por agulha fina (PAAF)** geraria sobrediagnóstico e custos desnecessários. Nódulos de 1,0 cm só requerem punção diagnóstica se exibirem achados de **alta suspeita** (hipoecogenicidade marcante, margens microlobuladas/irregulares, microcalcificações ou diâmetro mais alto do que largo), o que não corresponde ao nódulo espongiforme (cujo ponto de corte é **≥ 2,0 cm**).
 </details>
 
 ---
@@ -11805,16 +11988,23 @@ Uma mulher de 24 anos de idade foi atendida no ambulatório de especialidades, c
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A paciente jovem apresenta um quadro clínico clássico de Doença Inflamatória Intestinal (DII), caracterizado por diarreia crônica com sangue, muco/pus, dor abdominal em cólica, tenesmo, perda ponderal e anemia. 
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. A paciente apresenta quadro clínico, endoscópico e histopatológico patognomônico de **Retocolite Ulcerativa (RCU)** em atividade moderada a grave, cuja terapia de indução de remissão padrão é realizada com corticoterapia sistêmica, prioritariamente a **prednisona**, conforme as diretrizes da *European Crohn's and Colitis Organisation* (ECCO) e os Protocolos Clínicos e Diretrizes Terapêuticas (PCDT/MS).
 
-1. **Fundamentação Diagnóstica e Conduta (Alternativa C):**
-- **Diagnóstico:** Os achados endoscópicos e histopatológicos definem o diagnóstico de **Retocolite Ulcerativa (RCU)**. A colonoscopia demonstra inflamação contínua e difusa estendendo-se do reto até o cólon esquerdo (distribuição simétrica e ascendente, restrita à mucosa/submucosa). O estudo anatomopatológico confirma a cronicidade e a atividade inflamatória da doença por meio da distorção arquitetural das criptas (ramificação, encurtamento, atrofia), infiltrado linfoplasmocitário com plasmocitose basal e microabscessos de cripta. Ademais, o histórico de cessação recente do tabagismo (ex-tabagista) é um clássico fator de risco epidemiológico associado à eclosão ou exacerbação da RCU.
-- **Tratamento Inicial:** A paciente apresenta um surto de intensidade moderada a grave (presença de repercussões sistêmicas como perda ponderal e hipocorado +/4+, além de alta frequência de evacuações sanguinolentas). Nesses casos, de acordo com as diretrizes da *European Crohn's and Colitis Organisation* (ECCO) e do Ministério da Saúde/PCDT, a terapia de indução de remissão padrão é feita com corticoterapia sistêmica (ex.: **Prednisona** oral na dose de 40 a 60 mg/dia ou 0,75 a 1 mg/kg/dia), associada ou seguida pela manutenção com derivados do 5-ASA (mesalazina) ou imunomoduladores.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. **Análise dos Distratores:**
-- **Alternativa A (Incorreta):** A Doença de Crohn cursa classicamente com acometimento transmural, descontínuo ("salteado" ou *skip lesions*), podendo afetar qualquer segmento do trato gastrointestinal (comumente íleo terminal e ceco), frequentemente associada a fístulas, estenoses e granulomas não caseosos à biópsia, o que difere do acometimento contínuo a partir do reto visto nesta paciente. Além disso, o Infliximabe não é a primeira linha isolada empírica imediata sem antes estratificar falha a corticoide/imunomodulador ou gravidade extrema refratária.
-- **Alternativa B (Incorreta):** A Colite Microscópica (colite linfocítica ou colágena) caracteriza-se por mucosa macroscopicamente normal ou quase normal à colonoscopia, sem úlceras ou inflamação difusa visível, e diarreia aquosa não sanguinolenta em pacientes tipicamente de maior faixa etária.
-- **Alternativa D (Incorreta):** A Colite Pseudomembranosa (*Clostridioides difficile*) cursa com início agudo associado fortemente ao uso recente de antibióticos e visualização de placas esbranquiçadas/amareladas (pseudomembranas) na colonoscopia; o quadro descrito é crônico (1 ano de evolução) e a primeira linha atual para infecção por *C. difficile* é a vancomicina oral ou fidaxomicina, e não mais o metronidazol.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **Retocolite Ulcerativa (RCU)**. A suspeita clínica baseia-se na diarreia sanguinolenta crônica com muco/pus, tenesmo, perda ponderal e no antecedente epidemiológico de interrupção recente do tabagismo (ex-tabagista, fator protetor quando ativo, cuja cessação frequentemente desencadeia ou agrava a RCU).
+
+2. **Critério Clínico / Fisiopatologia:** A colonoscopia demonstra acometimento **contínuo e simétrico**, estendendo-se do **reto ao cólon esquerdo**, restrito à mucosa/submucosa. O exame histopatológico consolida a cronicidade e a atividade por meio de **distorção arquitetural das criptas** (ramificação, encurtamento e atrofia), **microabscessos de cripta** e **plasmocitose basal** com agregados linfoides, achados clássicos de RCU.
+
+3. **Indicação de Conduta:** A presença de repercussão sistêmica (emagrecimento de 5 kg, palidez cutânea e dor em cólica intensa) classifica o surto como **moderado a grave** pelos critérios de *Truelove e Witts*. A conduta mandatória de primeira linha para indução da remissão clínica é a **prednisona** oral (0,75 a 1 mg/kg/dia ou 40 a 60 mg/dia), postergando imunobiológicos para refratariedade ou corticoide-dependência.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **Doença de Crohn** caracteriza-se por inflamação **transmural** e **descontínua** (*skip lesions*), podendo afetar qualquer segmento do trato digestivo (comumente íleo terminal), frequentemente associada a granulomas não caseosos e fístulas/estenoses. Ademais, o **infliximab** não constitui a primeira linha empírica de indução ambulatorial sem estratificação de gravidade extrema ou falência prévia a corticosteroides.
+
+• **Alternativa B (Incorreta):** A **Colite microscópica** (colágena ou linfocítica) acomete preferencialmente mulheres idosas e cursa com **mucosa endoscopicamente normal** à colonoscopia, sem inflamação difusa macroscópica ou diarreia com sangue/pus.
+
+• **Alternativa D (Incorreta):** A **Colite pseudomembranosa** (*Clostridioides difficile*) manifesta-se tipicamente de forma aguda e associada ao **uso recente de antibióticos**, exibindo **placas pseudomembranosas** aderidas à mucosa; ademais, o tratamento de escolha atual é a **vancomicina oral** ou fidaxomicina, não o metronidazol.
 </details>
 
 ---
@@ -12048,18 +12238,19 @@ Paciente de 40 anos de idade, sexo masculino, com história de disfagia e tosse 
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta propedêutica subsequente adequada é a realização de Endoscopia Digestiva Alta (EDA) com biópsia, tornando a alternativa (C) a correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. A realização de **endoscopia digestiva alta (EDA) com biópsia** é a conduta diagnóstica mandatória diante de sintomas sugestivos de refluxo associados a **sinais de alarme** ou **refratariedade terapêutica**, conforme preconizado pelas diretrizes da Federação Brasileira de Gastroenterologia (**FBG**) e do *American College of Gastroenterology* (**ACG**).
 
-1. Fundamentação Clínica e Diretrizes:
-O paciente apresenta manifestações típicas (pirose e dor torácica) e atípicas (tosse noturna) sugestivas de Doença do Refluxo Gastroesofágico (DRGE), além de dispepsia. Entretanto, dois elementos cruciais mudam a abordagem para uma investigação invasiva imediata:
-- Presença de sinal de alarme: A disfagia é um sinal clássico de alerta ('red flag') que exige o afastamento imediato de lesões estruturais e estenosantes (neoplasia esofágica, estenose péptica, esofagite eosinofílica).
-- Falha da prova terapêutica empírica: O paciente usou inibidor de bomba de prótons (IBP) em dose dobrada (omeprazol 40 mg/dia) por 8 semanas sem resposta adequada (DRGE refratária).
-Segundo as diretrizes brasileiras e internacionais (Colégio Brasileiro de Cirurgia Digestiva - CBCD, Federação Brasileira de Gastroenterologia - FBG e American College of Gastroenterology - ACG), a EDA é o exame inicial mandatório diante de sinais de alarme ou refratariedade ao tratamento inicial com IBP, permitindo visualização direta da mucosa, graduação de esofagite (Classificação de Los Angeles), identificação de complicações (esôfago de Barrett, úlceras, estenoses) e coleta de fragmentos para biópsia (essencial inclusive para pesquisar esofagite eosinofílica).
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- Alternativa A (Esofagomanometria): Avalia distúrbios motores esofágicos (como acalasia e espasmo esofágico distal). Embora a disfagia e dor torácica possam decorrer de discinesias, a manometria nunca deve ser o primeiro exame; ela só é indicada após o afastamento de lesões mecânicas/mucosas por meio da EDA.
-- Alternativa B (pHmetria esofágica de 24 horas): É o padrão-ouro para quantificar a exposição ácida do esôfago e correlacionar sintomas com refluxo. Todavia, sua indicação ocorre em pacientes com EDA prévia normal que mantêm sintomas atípicos ou refratários, ou no pré-operatório de cirurgia antirrefluxo. Não é o exame inicial na vigência de disfagia.
-- Alternativa D (Esofagogastroduodenografia contrastada): O exame contrastado (REED) tem valor na avaliação anatômica dinâmica (grandes hérnias de hiato, divertículos de Zenker, estenoses complexas), mas apresenta sensibilidade inferior à EDA para lesões mucosas superficiais e não permite biópsias, não sendo o exame de escolha nessa etapa.
+1. **Diagnóstico da Afecção/Quadro:** Suspeita de **Doença do Refluxo Gastroesofágico (DRGE)** refratária com sinal de alarme, cursando com manifestações típicas (**pirose**, dor torácica) e atípicas (**tosse não produtiva noturna**).
+2. **Critério Clínico / Fisiopatologia:** A presença de **disfagia** configura um **sinal de alarme** (*red flag*), que impõe o afastamento imediato de causas orgânicas e estenosantes, como **neoplasia de esôfago**, **estenose péptica** e **esofagite eosinofílica**. Ademais, o paciente apresentou falha da prova terapêutica após dose otimizada de inibidor de bomba de prótons (**omeprazol 40 mg/dia** por 8 semanas), caracterizando refratariedade.
+3. **Indicação de Conduta:** A **EDA com biópsia** é o exame padrão-ouro inicial nessa conjuntura, pois possibilita a inspeção direta da mucosa esofágica, estratificação de lesões pela classificação de *Los Angeles*, rastreio de metaplasia (**esôfago de Barrett**) e coleta de fragmentos para análise histopatológica.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **esofagomanometria** é indicada na investigação de distúrbios da motilidade esofágica (como **acalasia** e **espasmo esofágico distal**). No entanto, sua realização só deve ocorrer após afastar lesões estruturais e mucosas por meio da EDA.
+• **Alternativa B (Incorreta):** A **pHmetria esofágica de 24 horas** é o exame padrão-ouro para quantificar a exposição ácida esofágica, mas é reservada para casos de sintomas atípicos/refratários com **EDA previamente normal** ou no planejamento pré-operatório. Não é a primeira escolha na presença de disfagia.
+• **Alternativa D (Incorreta):** A **esofagogastroduodenografia contrastada** (estudo radiológico baritado) tem valor na avaliação anatômica dinâmica de estenoses complexas e grandes hérnias hiatais, porém possui baixa sensibilidade para lesões mucosas superficiais e **não permite biópsias**, sendo inferior à EDA nesta etapa propedêutica.
 </details>
 
 ---
@@ -12391,20 +12582,21 @@ Um homem com 45 anos, em uso de anti-inflamatório não hormonal há 20 dias dev
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta inicial mais adequada para o caso é a reposição volêmica com cristaloides e o uso de inibidores da bomba de prótons (IBP), conforme a alternativa (C).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Justificativa clínica e fisiopatológica:
-O paciente apresenta um quadro de hemorragia digestiva alta (HDA) não varicosa, secundária a lesões agudas de mucosa gástrica e duodenal induzidas pelo uso prolongado de anti-inflamatório não esteroidal (AINE). Os AINEs inibem a ciclo-oxigenase-1 (COX-1), reduzindo a síntese de prostaglandinas protetoras da mucosa gástrica, o que favorece a formação de erosões e sangramento. 
-Do ponto de vista hemodinâmico, o paciente encontra-se estável (PA 120 x 80 mmHg, FC 90 bpm, tempo de enchimento capilar normal), com parâmetros laboratoriais sem anemia grave (Hb: 13 g/dL, Ht: 39%), plaquetopenia (plaquetas: 220.000/mm³) ou coagulopatia (INR: 1,2). 
-Segundo as diretrizes internacionais e nacionais para o manejo de HDA (como o consenso do American College of Gastroenterology e diretrizes brasileiras):
-- A hidratação venosa com cristaloides é recomendada na fase inicial para manter ou restaurar a volemia e garantir a perfusão tecidual.
-- O uso de Inibidores da Bomba de Prótons (IBP) – inicialmente por via intravenosa – é fundamental para elevar o pH gástrico (acima de 6,0), o que estabiliza o coágulo de fibrina, impede a lise enzimática pela pepsina e acelera a cicatrização da mucosa.
-- Obviamente, deve-se suspender o AINE causador da injúria.
+O caso clínico descreve um homem jovem apresentando melena e epigastralgia após uso contínuo de anti-inflamatório não esteroidal (AINE) por 20 dias, com endoscopia digestiva alta revelando erosões agudas em antro e bulbo duodenal. A fisiopatologia reside na inibição sistêmica da ciclo-oxigenase-1 (COX-1) pelos AINEs, levando ao bloqueio da síntese de prostaglandinas gastroprotetoras (notadamente PGE2 e PGI2). Essa inibição reduz drasticamente a secreção de muco e bicarbonato, diminui o fluxo sanguíneo da microcirculação da mucosa gástrica e prejudica o reparo epitelial, favorecendo a ação lesiva do ácido clorídrico e da pepsina, o que culmina em erosões agudas e sangramento.
 
-2. Análise dos distratores:
-- Alternativa A está incorreta: O paciente não apresenta coagulopatia (INR 1,2 está dentro da faixa de normalidade) nem plaquetopenia (plaquetas normais: 220.000/mm³). Portanto, não há qualquer indicação para transfusão de plasma fresco congelado ou concentrado de plaquetas.
-- Alternativa B está incorreta: A estratégia transfusional recomendada em HDA é restritiva, indicando-se concentrado de hemácias tipicamente para níveis de hemoglobina inferiores a 7,0 g/dL (ou < 8,0 g/dL em pacientes com doença cardiovascular prévia instável). O paciente apresenta Hb de 13,0 g/dL e estabilidade hemodinâmica, contraindicando a transfusão de hemácias.
-- Alternativa D está incorreta: Embora a reposição volêmica esteja indicada, a hemotransfusão de hemácias e de plaquetas é absolutamente desnecessária e contraindicada, visto que o hemograma e o coagulograma estão em níveis normais.
+Trata-se de uma **hemorragia digestiva alta** não varicosa. Na avaliação inicial do paciente, observa-se estabilidade hemodinâmica: pressão arterial de 120 x 80 mmHg, frequência cardíaca de 90 bpm, tempo de enchimento capilar normal (2 segundos) e ausência de sinais de choque hipovolêmico. Os exames laboratoriais confirmam ausência de anemia aguda grave (hemoglobina de 13 g/dL), hemostasia preservada (plaquetas de 220.000/mm³ e INR de 1,2) e função renal praticamente normal (com leve aumento isolado de escórias nitrogenadas/ureia, achado clássico decorrente da digestão e reabsorção entérica de proteínas do sangue).
+
+A abordagem terapêutica imediata consiste em jejum, ressuscitação volêmica guiada com cristaloides para repor perdas e garantir débito urinário e perfusão tecidual, suspensão definitiva do AINE agressor e início precoce de **inibidor de bomba de prótons** (IBP) por via intravenosa. A supressão ácida profunda é fundamental para manter o pH intragástrico acima de 6,0, nível no qual a agregação plaquetária é maximizada e a atividade proteolítica da pepsina sobre a rede de fibrina dos coágulos é neutralizada, promovendo hemostasia e cicatrização mucosa.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A coagulação do paciente está íntegra (INR de 1,2) e o número de plaquetas é normal (220.000/mm³). Não há indicação para transfusão de plasma fresco congelado (reservado a coagulopatias com INR superior a 1,5–2,0 em vigência de sangramento) nem de concentrado de plaquetas (reservado a contagens inferiores a 50.000/mm³ em vigência de sangramento ativo ou disfunção plaquetária comprovada). A infusão desnecessária de hemoderivados expõe o paciente a riscos graves, como sobrecarga volêmica associada à transfusão e reações imunológicas.
+
+• **B) Incorreta:** As diretrizes mundiais para hemorragia digestiva recomendam uma estratégia transfusional restritiva de concentrado de hemácias, com gatilho transfusional em hemoglobina inferior a 7,0 g/dL (ou menor que 8,0 g/dL em pacientes com coronariopatia aguda ou instabilidade persistente refratária). Com hemoglobina de 13 g/dL e estabilidade circulatória, a hemotransfusão é totalmente contraindicada e deletéria.
+
+• **D) Incorreta:** A reposição de cristaloides está correta, porém a associação com transfusão de concentrado de hemácias e plaquetas é inadequada e contraindicada devido aos níveis normais de hemoglobina (13 g/dL) e de plaquetas (220.000/mm³).
 </details>
 
 ---
@@ -12486,16 +12678,17 @@ Em visita domiciliar da estratégia de saúde da família, é atendido um homem 
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A questão aborda a estratificação de risco e as recomendações de rastreamento do Câncer Colorretal (CCR) segundo as diretrizes do Ministério da Saúde do Brasil e do Instituto Nacional de Câncer (INCA).
+> **Comentário Médica:** O rastreamento do câncer colorretal baseia-se na estratificação de risco individual, orientada por idade, história pessoal e antecedentes familiares. Indivíduos com menos de 50 anos sem fatores predisponentes são considerados de risco baixo para neoplasia colorretal. A partir dos 50 anos até os 75 anos, na ausência de sintomas de alarme, história familiar de primeiro grau de câncer colorretal ou pólipos adenomatosos avançados, doença inflamatória intestinal ou síndromes genéticas (como polipose adenomatosa familiar e síndrome de Lynch), o indivíduo é enquadrado na categoria de **risco moderado** (também denominado risco habitual ou padrão). O achado de pólipo hiperplásico diminuto (menor que 1,0 cm) em topografia de reto ou retossigmoide não confere potencial pré-maligno clinicamente significativo, não alterando a estratificação nem indicando vigilância colonoscópica precoce.
 
-1. Justificativa da alternativa correta (D):
-- Classificação de Risco: O paciente tem 53 anos, não possui histórico familiar de CCR de primeiro grau, não é portador de doença inflamatória intestinal ou síndromes genéticas (como Lynch ou PAF). O achado de pólipo hiperplásico diminuto (< 1 cm) em reto/sigmoide não confere aumento de risco para neoplasia, sendo considerado lesão benigna/não neoplásica. Dessa forma, ele se enquadra na categoria de risco habitual da população geral a partir dos 50 anos, frequentemente denominada pelas diretrizes como "risco moderado" (ou "risco padrão/médio").
-- Estratégia de Rastreamento: Para a população de risco habitual/moderado entre 50 e 75 anos, a estratégia prioritária e de saúde pública no SUS consiste na Pesquisa de Sangue Oculto nas Fezes (PSOF) anual (ou bienal), reservando a colonoscopia para os casos com teste positivo ou para indivíduos de alto risco.
+No Sistema Único de Saúde, conforme as diretrizes do Ministério da Saúde e do Instituto Nacional de Câncer (INCA), a estratégia de rastreamento populacional de escolha para a população de risco moderado consiste na realização da **pesquisa de sangue oculto nas fezes** anual ou bienal entre 50 e 75 anos. A colonoscopia não é preconizada como método primário de rastreio populacional de rotina no SUS devido a custo, disponibilidade e invasividade, sendo reservada para indivíduos de alto risco ou para aqueles com teste imunoquímico/pesquisa fecal positiva.
 
-2. Análise das demais alternativas:
-- Alternativa A: Incorreta. Pessoas com idade ≥ 50 anos sem fatores genéticos ou história familiar não são classificadas como "risco baixo" (que seria o indivíduo assintomático com idade < 50 anos), mas sim risco padrão/médio/moderado. Ademais, colonoscopia anual é uma frequência excessiva e sem indicação para rastreamento de rotina.
-- Alternativa B: Incorreta. Embora a estratificação de risco moderado esteja adequada ao termo adotado pela diretriz para ≥ 50 anos, a realização de colonoscopia anual não tem indicação clínica para esse perfil (colonoscopia de rastreamento habitual tem intervalo recomendado de 10 anos quando realizada, não anual).
-- Alternativa C: Incorreta. O termo "risco baixo" é inadequado para o paciente de 53 anos que atingiu a faixa etária de indicação do rastreamento populacional, sendo categorizado formalmente como risco médio/moderado.
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A classificação de risco baixo restringe-se a pessoas com menos de 50 anos sem fatores adicionais de risco. Ademais, a realização de colonoscopia anual não encontra qualquer respaldo científico ou diretriz para essa situação clínica, representando sobreuso de exame invasivo.
+
+• **B) Incorreta:** Embora a estratificação de risco moderado esteja correta pela faixa etária do paciente, a periodicidade de colonoscopia anual é equivocada. Mesmo em diretrizes que utilizam a colonoscopia como método de rastreio primário, o intervalo recomendado seria de dez anos para achado isolado de pólipo hiperplásico retal diminuto.
+
+• **C) Incorreta:** A conduta proposta de pesquisa de sangue oculto nas fezes está alinhada ao Ministério da Saúde, porém a classificação de risco baixo é errônea, pois o indivíduo possui mais de 50 anos de idade, o que formalmente o insere no estrato de risco moderado para o desenvolvimento de neoplasia colorretal.
 </details>
 
 ---
@@ -12733,24 +12926,34 @@ Uma idosa com 75 anos, acompanhada de sua filha, busca a unidade básica de saú
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) é a correta.
+> **Comentário Médica:** **Raciocínio Clínico e Fundamentação:**
 
-O Índice de Vulnerabilidade Clínico-Funcional-20 (IVCF-20) é um instrumento de rastreio multidimensional rápido, validado no Brasil (UFMG/Ministério da Saúde), desenvolvido para identificar a fragilidade e a vulnerabilidade clínico-funcional de pessoas idosas na Atenção Primária à Saúde.
-O questionário é composto por 20 itens distribuídos em 8 dimensões clínicas:
-1. Idade;
-2. Autopercepção da saúde;
-3. Atividades de vida diária (AVDs - instrumentais e básicas);
-4. Cognição;
-5. Humor;
-6. Mobilidade (alcance, preensão e pinça; capacidade aeróbica e muscular; marcha; e histórico de quedas);
-7. Comunicação (visão e audição);
-8. Comorbidades múltiplas (polifarmácia e/ou internação recente).
-Na seção de Mobilidade, investiga-se especificamente a ocorrência de quedas no último ano (pergunta-se se o idoso apresentou duas ou mais quedas nos últimos 12 meses), fator preditor crítico de perda funcional, declínio motor e fragilidade.
+O envelhecimento populacional impõe à Atenção Primária à Saúde o desafio de estratificar a população idosa conforme sua reserva funcional e risco de desfechos adversos, como hospitalização, institucionalização e declínio cognitivo-funcional rápido. Para isso, o **Índice de Vulnerabilidade Clínico-Funcional-20** (IVCF-20) foi desenvolvido e validado no Brasil como uma ferramenta multidimensional rápida de triagem, capaz de identificar a síndrome de fragilidade no idoso sem exigir testes físicos complexos ou equipamentos especializados.
 
-Análise dos distratores:
-- Alternativa A (Incorreta): O IVCF-20 é focado estritamente em aspectos clínico-funcionais e de capacidade intrínseca; não contempla questões sobre renda familiar ou condição socioeconômica.
-- Alternativa B (Incorreta): A Avaliação Geriátrica Ampla (AGA) é um processo diagnóstico aprofundado, interdisciplinar e de alto consumo de tempo e recursos. Idosos classificados como 'robustos' pelo IVCF-20 (pontuação de 0 a 6) não necessitam de AGA sequencial, mantendo acompanhamento preventivo padrão na Atenção Básica.
-- Alternativa D (Incorreta): O IVCF-20 é uma ferramenta de triagem/rastreamento rápido e estratificação de risco (robusto: 0–6 pontos; pré-frágil/em risco: 7–14 pontos; frágil: ≥ 15 pontos). Identificados os pacientes frágeis, eles justamente necessitam de avaliação complementar direcionada (como a AGA) e abordagem interdisciplinar para o plano terapêutico individualizado.
+O instrumento é composto por 20 itens distribuídos em 8 seções fundamentais que compõem a capacidade intrínseca do indivíduo:
+1. **Idade:** avalia faixas etárias de risco crescente (pontuação a partir dos 75 anos e pontuação máxima para 85 anos ou mais).
+2. **Autopercepção da saúde:** percepção do paciente quanto à sua própria saúde comparada à de seus pares.
+3. **Atividades de Vida Diária (AVD):** engloba a capacidade de realizar de forma independente tarefas instrumentais (fazer compras, controlar dinheiro, tomar medicamentos) e básicas (banho, vestir-se, transferências).
+4. **Cognição:** rastreio de perda de memória recente e queixas cognitivas interferindo na rotina diária.
+5. **Humor:** detecção de sintomas depressivos, desânimo e anedonia.
+6. **Mobilidade:** avalia a mobilidade dos membros superiores (alcançar objetos acima da cabeça e pegar moedas), a velocidade e equilíbrio da marcha, além do histórico de instabilidade postural, especificamente questionando se o idoso apresentou duas ou mais quedas nos últimos 12 meses.
+7. **Comunicação:** rastreia déficits sensoriais auditivos e visuais.
+8. **Comorbidades múltiplas:** investiga a presença de múltiplas patologias crônicas, polifarmácia (uso de 5 ou mais medicamentos contínuos) e histórico de internação hospitalar nos últimos 6 meses.
+
+A pontuação total varia de 0 a 40 pontos, classificando o idoso em três categorias de estratificação de risco:
+- 0 a 6 pontos: idoso robusto, capaz de gerenciar sua vida de forma independente e com boa reserva homeostática.
+- 7 a 14 pontos: idoso em risco de fragilização (potencialmente frágil), demandando intervenções preventivas focadas para evitar a perda funcional.
+- 15 a 40 pontos: idoso frágil, com alto risco de desfechos clínicos desfavoráveis e dependência.
+
+Portanto, a aferição do número de episódios de quedas no último ano é parte integrante da dimensão de mobilidade do IVCF-20, justificando o acerto da alternativa C.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O IVCF-20 avalia domínios puramente biológicos, cognitivos, sensoriais e funcionais. Variáveis socioeconômicas, como renda familiar, escolaridade ou moradia, embora sejam determinantes sociais de saúde relevantes na avaliação geriátrica, não constituem itens pontuados no questionário do IVCF-20.
+
+• **B) Incorreta:** A Avaliação Geriátrica Ampla não é indicada universalmente para todos os idosos. Indivíduos classificados como robustos (0 a 6 pontos no IVCF-20) mantêm acompanhamento habitual na Atenção Primária com ações focadas na promoção de saúde e prevenção primária, dispensando a complexa e demorada abordagem da avaliação geriátrica interdisciplinar, que é reservada aos idosos em risco ou frágeis.
+
+• **D) Incorreta:** O IVCF-20 é concebido primariamente como um instrumento de rastreamento e triagem rápida. Quando identifica um idoso frágil (escore de 15 a 40 pontos), ele não é suficiente por si só para fechar diagnósticos etiológicos, exigindo necessariamente a realização complementar da **Avaliação Geriátrica Ampla** por equipe multiprofissional para detalhar os déficits e estruturar o plano terapêutico singular.
 </details>
 
 ---
@@ -12869,19 +13072,17 @@ Que medidas deverão ser tomadas para prevenção da queda?
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está correta porque a abordagem primária e mais eficaz para a prevenção de quedas em ambiente hospitalar baseia-se na identificação e correção dos fatores de risco modificáveis, conforme preconizado pelo Programa Nacional de Segurança do Paciente (Ministério da Saúde/Anvisa) e pelas diretrizes da Sociedade Brasileira de Cardiologia (SBC).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. A prevenção de quedas no ambiente hospitalar, conforme preconizado pelo **Programa Nacional de Segurança do Paciente (MS/Anvisa)** e pela **Sociedade Brasileira de Cardiologia (SBC)**, exige a identificação precoce e a correção imediata de fatores de risco modificáveis, sendo mandatória a revisão e o ajuste de fármacos indutores de **hipotensão sintomática**.
 
-No caso exposto, a paciente faz uso concomitante de três fármacos com potente ação vasodilatadora e hipotensora:
-1. Losartana (antagonista do receptor de angiotensina II);
-2. Nimodipino (bloqueador dos canais de cálcio do tipo di-hidropiridínico);
-3. Propatilnitrato (nitrato de ação prolongada, potente vasodilatador venoso e arterial).
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **hipotensão arterial farmacológica/iatrogênica**, manifestada clinicamente por episódios de **tontura** e **lipotimia**, os quais configuram risco iminente de **síncope** e **queda da própria altura**.
+2. **Critério Clínico / Fisiopatologia:** A paciente está exposta ao sinergismo de três classes com potente ação vasodilatadora e hipotensora: **losartana** (bloqueador dos receptores de angiotensina II), **nimodipino** (bloqueador dos canais de cálcio di-hidropiridínico) e **propatilnitrato** (nitrato de ação prolongada com potente vasodilatação venosa e arterial). Essa sobreposição terapêutica reduz de forma excessiva a **resistência vascular periférica**, culminando em múltiplos registros de **hipotensão** diurna e hipoperfusão cerebral transitória.
+3. **Indicação de Conduta:** A conduta prioritária e resolutiva consiste na **reconciliação medicamentosa** com ajuste posológico (descalonamento de doses, espaçamento de tomadas ou suspensão temporária dos anti-hipertensivos/vasodilatadores), intervindo diretamente sobre a causa-raiz dos eventos pressóricos.
 
-A sobreposição terapêutica desses medicamentos justifica fisiopatologicamente os episódios repetidos de hipotensão ao longo do dia, que se manifestam clinicamente por tontura e lipotimia — sintomas que elevam drasticamente o risco de síncope e quedas da própria altura com potencial para traumatismos graves. Dessa forma, a conduta médica prioritária e resolutiva consiste na revisão e no ajuste posológico (descalonamento, espaçamento de horários ou suspensão temporária) dos fármacos hipotensores.
-
-Análise dos distratores:
-- Alternativa B: Incorreta. A contenção física e química não é conduta de primeira linha para prevenção de quedas; seu uso indiscriminado é eticamente inadequado e clinicamente deletério, associando-se a maior risco de delirium, lesões por pressão, aspiração e declínio funcional. A idade da paciente ("por ser jovem") também não constitui indicação clínica para contenção.
-- Alternativa C: Incorreta. Embora a presença de acompanhante possa ser uma medida de suporte ao cuidado e à vigilância, ela não trata a causa-raiz dos eventos (hipotensão farmacológica grave e sintomática) e não substitui a intervenção médica mandatória sobre a prescrição.
-- Alternativa D: Incorreta. A substituição abrupta e indiscriminada de todas as medicações de uso contínuo pode descompensar comorbidades prévias (hipertensão rebote, angina instável). Além disso, a administração de contenção química para manejo de risco de queda secundário à hipotensão é formalmente contraindicada.
+**Análise dos Distratores:**
+• **Alternativa B (Incorreta):** A **contenção física e mecânica** e a contenção química não configuram condutas profiláticas para quedas; pelo contrário, são eticamente restritas e clinicamente deletérias, cursando com risco de **delirium**, lesões por fricção/pressão e broncoaspiração. A idade da paciente também não justifica tal medida.
+• **Alternativa C (Incorreta):** A presença de um acompanhante é uma medida de suporte à vigilância, mas **não soluciona a etiologia do evento** (instabilidade hemodinâmica medicamentosa) e não substitui a necessária intervenção médica na prescrição.
+• **Alternativa D (Incorreta):** A substituição abrupta e indiscriminada de todas as medicações de uso contínuo pode induzir hipertensão de rebote ou **isquemia miocárdica/cerebral**. Além disso, o uso de **contenção química** em paciente com lipotimia e hipotensão é formalmente contraindicado pelo risco de colapso circulatório e depressão do nível de consciência.
 </details>
 
 ---
@@ -13212,15 +13413,19 @@ Homem de 55 anos está, há 2 meses, com quadro de linfadenopatia cervical e axi
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta diagnóstica e a hipótese clínica apresentadas na alternativa (B) são as corretas, fundamentando-se nos seguintes aspectos clínicos e fisiopatológicos:
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O quadro clínico e radiológico é clássico de **linfoma**, e a confirmação diagnóstica padrão-ouro requer a **biópsia excisional de linfonodo periférico** acometido (preferencialmente cervical) para análise histopatológica e imunofenotípica, conforme preconizado pelas diretrizes da *World Health Organization* (OMS) e consensos de Hematologia e Oncologia.
 
-1. **Quadro Clínico e Sintomas Constitucionais (Sintomas B):** O paciente apresenta a tríade clássica de sintomas B — febre inexplicada vespertina/recorrente (> 38 °C), sudorese noturna profusa e perda ponderal involuntária significativa (6 kg em 2 meses, correspondendo a mais de 10% do peso habitual na maioria dos indivíduos). Esse conjunto é altamente sugestivo de neoplasias linforreticulares (Linfoma de Hodgkin ou Linfoma Não-Hodgkin).
-2. **Achados do Exame Físico e Imagem:** A presença de linfonodomegalias generalizadas (cadeias cervicais anteriores e posteriores bilaterais, e axilares bilaterais) com características de malignidade (diâmetro > 2 cm, consistência endurecida e fixação a planos profundos), associada a uma volumosa massa mediastinal de 8 cm de diâmetro (*bulky disease*), corrobora fortemente a hipótese de linfoma.
-3. **Confirmação Diagnóstica:** O padrão-ouro para o diagnóstico histopatológico e imunofenotípico dos linfomas é a biópsia excisional completa de um linfonodo periférico clinicamente alterado e de fácil acesso cirúrgico, preferencialmente cervical. A punção aspirativa por agulha fina (PAAF) não é suficiente, pois não preserva a arquitetura tecidual do gânglio, essencial para a classificação conforme os critérios da Organização Mundial da Saúde (OMS).
+**Raciocínio Clínico e Fisiopatológico:**
 
-**Análise dos distratores:**
-- **A e C (Citomegalovírus e Mononucleose infecciosa):** Embora infecções pelo CMV ou EBV possam cursar com linfonodomegalia e febre prolongada (síndrome mononucleose-like), os linfonodos costumam ser móveis, fibroelásticos e dolorosos à palpação, regredindo em poucas semanas. Não justificam linfonodos fixos, pétreos, de grande volume (até 4 cm) e, fundamentalmente, não produzem massa mediastinal de 8 cm com perda ponderal consuntiva progressiva.
-- **D (Metástase de carcinoma cervical, provavelmente tireoide):** Carcinomas de tireoide (papilífero/folicular) comumente metastatizam para cadeias cervicais ipsilaterais ou regionais, mas não justificam acometimento axilar bilateral concomitante, massa mediastinal de 8 cm isolada e exuberantes sintomas B sistêmicos sem sintomas locais tireoidianos descritos.
+1. **Diagnóstico da Afecção/Quadro:** Suspeita de **Linfoma** (*Hodgkin* ou *Não-Hodgkin*). O paciente é um adulto de 55 anos que evolui com **linfadenopatia generalizada** de caráter progressivo associada à presença inequívoca dos chamados **sintomas B** (febre vespertina recorrente > 38 °C, sudorese noturna profusa e perda ponderal involuntária de 6 kg em 2 meses).
+2. **Critério Clínico / Fisiopatologia:** Os linfonodos descritos apresentam características semiológicas de alta suspeição para **malignidade**: tamanho aumentado (**2,5 a 4 cm**), consistência **endurecida** e **aderência a planos profundos (fixos)**, além do acometimento de múltiplas cadeias (cervicais anterior e posterior bilaterais e axilares bilaterais). A radiografia demonstrando **massa mediastinal de 8 cm** de diâmetro caracteriza doença volumosa (*bulky disease*), achado típico da disseminação linforreticular neoplásica.
+3. **Indicação de Conduta:** O método padrão-ouro indispensável é a **biópsia excisional de gânglio cervical**, permitindo a avaliação completa da **arquitetura tecidual** e o estudo imuno-histoquímico. A punção aspirativa por agulha fina (PAAF) é insuficiente para o diagnóstico e subclassificação dos linfomas.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A infecção pelo **citomegalovírus** pode cursar com síndrome mononucleose-símile em imunocompetentes, porém os linfonodos costumam ser **móveis**, **fibroelásticos** e dolorosos, sem gerar massas mediastinais de 8 cm nem linfonodos pétreos e fixos.
+• **Alternativa C (Incorreta):** A **mononucleose infecciosa** (causada pelo vírus *Epstein-Barr*) é mais comum em adolescentes e adultos jovens, cursando com linfadenomegalia cervical dolorosa, faringite exsudativa e curso autolimitado, sendo incompatível com a presença de **massa mediastinal volumosa** e características de fixação neoplásica.
+• **Alternativa D (Incorreta):** O **carcinoma de tireoide** metastatiza preferencialmente para cadeias cervicais regionais e ipsilaterais, não explicando a presença de **linfadenopatia axilar bilateral**, volumosa **massa mediastinal isolada** e exuberante repercussão constitucional sistêmica (**sintomas B**).
 </details>
 
 ---
@@ -13432,15 +13637,19 @@ Uma paciente com 40 anos, branca, encaminhada da unidade básica de saúde, é a
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) está correta.
+> **Comentário Médica:** O caso clínico descreve uma paciente jovem (40 anos) com tromboembolismo venoso recorrente (primeiro aos 36 anos e segundo há 30 dias), uso prolongado de anticoncepcional oral combinado e história familiar positiva de trombose venosa profunda (mãe acometida). Esse perfil confere alta suspeita para **trombofilia hereditária**.
 
-1. Justificativa clínica e fisiopatológica:
-A paciente é jovem (40 anos), apresenta o segundo episódio de trombose venosa profunda (TVP recorrente), possui história familiar de primeiro grau (mãe com TVP) e uso de anticoncepcional combinado oral, sugerindo fortemente a presença de uma trombofilia, em especial de etiologia hereditária. O ponto central da questão reside na expressão temporal "nesse momento": a paciente encontra-se em vigência de tratamento com anticoagulante oral direto (DOAC - rivaroxabana) e a apenas 30 dias do evento trombótico agudo.
-O teste molecular por Reação em Cadeia da Polimerase (PCR) para o Fator V de Leiden (e para a mutação do gene da protrombina G20210A) avalia o DNA genômico do paciente. Por ser um teste genotípico, seu resultado não sofre interferência da fase aguda do evento trombótico, do uso de qualquer anticoagulante (seja heparina, varfarina ou rivaroxabana) ou de terapia hormonal, podendo ser colhido a qualquer momento.
+O ponto crítico da questão reside na expressão temporal "nesse momento". A paciente encontra-se no trigésimo dia pós-evento trombótico agudo e em vigência de anticoagulação plena com rivaroxabana (inibidor direto do fator Xa). A investigação laboratorial de trombofilias deve considerar a influência da fase aguda do trombo e o impacto dos fármacos anticoagulantes sobre os ensaios laboratoriais.
 
-2. Análise dos distratores:
-- Alternativa (C) está incorreta: As dosagens de Proteína C e Proteína S livre são testes fenotípicos/funcionais. A fase aguda da trombose consome esses fatores fisiológicos, e os níveis basais de proteína S são classicamente reduzidos pelo uso de estrogênios exógenos (ACO). Ademais, anticoagulantes (incluindo DOACs como a rivaroxabana) interferem diretamente nos ensaios coagulométricos e cromogênicos de proteína C e S, gerando resultados falso-positivos ou falso-negativos. Sua dosagem deve ser postergada para pelo menos 2 a 4 semanas após a suspensão da anticoagulação.
-- Alternativas (A) e (B) estão incorretas: Embora os anticorpos anti-beta-2 glicoproteína 1 e anticardiolipina sejam dosados por ELISA (método imunoenzimático que não sofre interferência direta da rivaroxabana, diferentemente do teste funcional do anticoagulante lúpico), a história clínica não sustenta a hipótese primária de Síndrome do Anticorpo Antifosfolipídeo (SAF). A paciente teve apenas um aborto precoce esporádico (aos 22 anos), seguido por duas gestações a termo sem intercorrências (não preenchendo critérios obstétricos de Sapporo/Sydney, que exigem ≥ 3 abortos consecutivos < 10 semanas, ou 1 perda fetal ≥ 10 semanas, ou parto prematuro grave por insuficiência placentária). Diante de forte história familiar em paciente branca com TVP desencadeada por ACO, a pesquisa de trombofilia hereditária (sendo o Fator V Leiden a mais prevalente) é a prioridade diagnóstica viável no momento.
+Os testes genéticos baseados na reação em cadeia da polimerase (PCR), como a pesquisa da **mutação do fator V Leiden** (G1691A) e da mutação do gene da protrombina (G20210A), analisam o DNA genômico do indivíduo. Por avaliarem diretamente a sequência de nucleotídeos, esses testes não sofrem qualquer interferência da fase inflamatória/trombótica aguda, da terapia anticoagulante (heparinas, varfarina ou DOACs) ou do uso de terapia hormonal. Portanto, podem ser solicitados e realizados com acurácia a qualquer momento, inclusive durante o tratamento agudo com rivaroxabana.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A pesquisa de anticorpos anti-beta-2 glicoproteína 1 faz parte da investigação da síndrome do anticorpo antifosfolipídeo (SAF). Embora testes imunológicos por método ELISA não sofram interferência farmacológica direta da rivaroxabana, a paciente não preenche os critérios clínicos de Sydney/ACR-EULAR para SAF. Ela apresentou apenas uma perda gestacional precoce isolada aos 22 anos, seguida por duas gestações a termo normais (a definição obstétrica requer três ou mais abortamentos espontâneos precoces inexplicados consecutivos, ou morte fetal além de 10 semanas, ou parto prematuro grave por pré-eclâmpsia/insuficiência placentária). Além disso, a forte história familiar direciona o raciocínio primariamente para uma alteração genética.
+
+• **B) Incorreta:** Os anticorpos anticardiolipina também compõem o painel para diagnóstico de SAF. Pela mesma razão exposta para a alternativa A, a paciente não possui comemorativos clínicos obstétricos que justifiquem a síndrome, e a transmissão familiar evidente aponta para trombofilia congênita.
+
+• **C) Incorreta:** A dosagem dos níveis plasmáticos e das atividades funcionais da proteína C e da proteína S é altamente suscetível a erros pré-analíticos e analíticos. Durante eventos trombóticos agudos, o consumo dessas proteínas anticoagulantes naturais acarreta valores transitoriamente diminuídos (falso-positivo para deficiência). Além disso, o uso de inibidores orais do fator Xa, como a rivaroxabana, interfere nos ensaios cromogênicos e coagulométricos utilizados para dosar a proteína C e a proteína S livre, gerando artefatos nos resultados. A dosagem dessas proteínas só deve ser realizada após a cessação completa da fase aguda e no mínimo duas a quatro semanas após a suspensão segura da anticoagulação.
 </details>
 
 ---
@@ -13582,18 +13791,19 @@ Em uma unidade do polo indígena onde, até o momento, não havia notificação 
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta e o diagnóstico corretos são fundamentados pelas diretrizes do Ministério da Saúde para o manejo clínico da Dengue.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. O quadro clínico de síndrome febril aguda com **prova do laço positiva** em paciente hipertenso caracteriza caso suspeito de **dengue**, classificado no **Grupo B** conforme as diretrizes do Ministério da Saúde, exigindo hidratação imediata, solicitação de **hemograma completo**, notificação epidemiológica e reforço das ações de controle vetorial.
 
-1. Justificativa da Alternativa Correta (D):
-- Diagnóstico: O quadro clínico caracteriza-se por síndrome febril aguda (febre de 38 °C há 5 dias, cefaleia e mialgia), associada à Prova do Laço positiva. A Prova do Laço positiva denota aumento da fragilidade capilar e é um marcador clínico determinante no estadiamento da dengue.
-- Classificação de Risco (Ministério da Saúde): Diante da ausência de sinais de alarme e choque, mas com manifestação hemorrágica induzida (prova do laço positiva) e comorbidade (hipertensão arterial), o paciente é classificado no Grupo B.
-- Conduta Clínica: Para pacientes do Grupo B, preconiza-se a hidratação oral supervisionada imediata (60 mL/kg/dia para adultos, sendo um terço com solução salina e dois terços com líquidos caseiros), a solicitação obrigatória de hemograma completo (para avaliação de hemoconcentração pelo hematócrito e contagem plaquetária) e a reavaliação clínica diária até 48 horas após a defervescência da febre.
-- Ações de Vigilância em Saúde: Por se tratar de área sem notificação prévia de casos autóctones, é mandatória a notificação compulsória para deflagração de investigação epidemiológica e intensificação das ações do Agente de Combate a Endemias (ACE) no bloqueio de transmissão vetorial e controle do *Aedes aegypti*.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- Alternativa A: Incorreta. Embora a ageusia possa ocorrer na COVID-19, o achado de prova do laço positiva direciona fortemente para arbovirose em fase crítica/capilaropatia. Além disso, o uso empírico de azitromicina e corticoide em casos leves/moderados de COVID-19 sem hipoxemia é contraindicado pelas diretrizes vigentes por falta de benefício comprovado e riscos de eventos adversos.
-- Alternativa B: Incorreta. Na fase aguda de arboviroses, o uso de anti-inflamatórios não esteroides (AINEs) e corticosteroides é formalmente contraindicado devido ao risco de sangramentos (inibição da agregação plaquetária) e exacerbação de formas hemorrágicas de dengue, cujo diagnóstico diferencial com chikungunya não pode ser descartado clinicamente.
-- Alternativa C: Incorreta. O quadro clássico de zika cursa predominantemente com febre baixa ou ausente, exantema pruriginoso maculopapular precoce e hiperemia conjuntival não purulenta. A conduta proposta restringe-se inadequadamente a gestantes e ignora o estadiamento de risco, a avaliação laboratorial necessária (hemograma) e as medidas sistêmicas de combate vetorial.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **dengue clássica** (síndrome febril aguda). A presença de **prova do laço positiva** evidencia fragilidade capilar e aumento da permeabilidade endotelial decorrente da resposta inflamatória induzida pelo vírus da dengue, além de servir como marcador clínico de risco de extravasamento plasmático.
+2. **Critério Clínico e Classificação de Risco:** O paciente apresenta manifestação hemorrágica induzida (**prova do laço positiva**) e comorbidade associada (**hipertensão arterial**), sem sinais de alarme ou choque. Segundo o estadiamento do Ministério da Saúde, esses achados enquadram o paciente compulsoriamente no **Grupo B**.
+3. **Indicação de Conduta:** Para o **Grupo B**, a conduta padrão-ouro preconiza o início imediato de **hidratação oral supervisionada** (60 mL/kg/dia, sendo um terço com solução salina) e a coleta obrigatória de **hemograma completo** para monitorização do hematócrito (hemoconcentração) e contagem plaquetária. Em área sem histórico prévio de transmissão autóctone, a **notificação compulsória imediata** e a articulação com o agente de combate a endemias (ACE) para bloqueio do vetor (*Aedes aegypti*) são mandatórias.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** Embora a queixa de ageusia possa levantar suspeita de **covid-19**, a **prova do laço positiva** direciona decisivamente para arbovirose com fragilidade capilar. Além disso, a prescrição empírica de **azitromicina** e **corticoide** para casos leves a moderados sem hipoxemia é contraindicada pelas diretrizes vigentes.
+• **Alternativa B (Incorreta):** A infecção por **chikungunya** cursa tipicamente com poliartralgia inflamatória simétrica e incapacitante. Ademais, na fase aguda de qualquer suspeita de arbovirose, o uso de **anti-inflamatórios não esteroides (AINEs)** e **corticosteroides** é formalmente contraindicado devido ao risco de disfunção plaquetária, hemorragias e agravamento de formas graves de dengue.
+• **Alternativa C (Incorreta):** O quadro clínico típico de **zika** é caracterizado por febre baixa ou ausente, **exantema maculopapular pruriginoso precoce** e hiperemia conjuntival não purulenta. Além disso, a conduta é incompleta e inadequada por não contemplar a hidratação, a coleta de **hemograma** e o controle vetorial ampliado, limitando-se de maneira restritiva apenas a gestantes.
 </details>
 
 ---
@@ -13742,18 +13952,17 @@ Um homem de 40 anos, funcionário de um pet shop, morador da cidade de São Paul
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. O caso clínico evidencia a apresentação clássica da **esporotricose** em sua forma **cutâneo-linfática**, fundamentada pelo contexto ocupacional em ambiente urbano de risco (trabalhador de pet shop) e pelo achado semiológico patognomônico de úlcera associada à linfangite nodular ascendente.
 
-O quadro clínico descrito é patognomônico da forma cutâneo-linfática da Esporotricose, que corresponde a cerca de 80% dos casos dessa micose subcutânea causada pelo fungo do complexo *Sporothrix* (no Brasil, predominantemente *Sporothrix brasiliensis*). 
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **esporotricose cutâneo-linfática**, micose subcutânea causada por fungos dimórficos do complexo *Sporothrix* (no Brasil, predominantemente *Sporothrix brasiliensis*), que representa cerca de 80% das manifestações clínicas da doença.
+2. **Critério Clínico / Fisiopatologia:** A infecção ocorre por **inoculação traumática** do fungo, classicamente zoonótica por mordedura ou arranhadura de gatos infectados em áreas urbanas. O quadro tem início com o **cancro de inoculação** (pápula ou nódulo que progride para úlcera). Semanas depois, ocorre disseminação pelos vasos linfáticos com formação de nódulos ou gomas em disposição linear (**linfangite nodular ascendente** ou **cordão esporotricoide**) drenando até o linfonodo regional reacional (axilar).
+3. **Indicação de Conduta:** A confirmação é realizada pelo isolamento do fungo em **cultura para fungos** (padrão-ouro) a partir de exsudato ou biópsia da lesão. O tratamento de primeira escolha preconizado pelo Ministério da Saúde é o **itraconazol** por via oral (100 a 200 mg/dia) até a cura clínica completa.
 
-1. **Epidemiologia:** A ocupação do paciente (trabalhador de pet shop) é altamente sugestiva de transmissão zoonótica, classicamente associada ao contato, arranhadura ou mordedura de gatos infectados, um cenário hiperendêmico em centros urbanos brasileiros como São Paulo e Rio de Janeiro.
-2. **Fisiopatologia e Clínica:** A inoculação traumática do fungo na pele leva ao surgimento do cancro de inoculação (nódulo inicial que amolece, fistuliza e ulcerou). Semanas depois, há disseminação pelos vasos linfáticos regionais, caracterizando a clássica linfangite nodular ascendente (padrão esporotricoide), com o aparecimento de nódulos ou gomas distribuídos linearmente ao longo do trajeto de drenagem linfática até o linfonodo regional (axilar, no caso), que se torna reacionalmente aumentado e doloroso.
-
-Análise das alternativas incorretas:
-
-- **B (Cromoblastomicose):** Micose subcutânea causada por fungos demáceos (ex.: *Fonsecaea pedrosoi*), associada ao traumatismo com vegetais em trabalhadores rurais. Manifesta-se tipicamente por lesões de evolução lenta, com aspecto verrucoso, crostoso e vegetante ("aspecto em couve-flor"), não apresentando padrão clássico de linfangite nodular ascendente.
-- **C (Leishmaniose tegumentar):** Causada por protozoários do gênero *Leishmania* e transmitida por flebotomíneos (*Lutzomyia*). Embora a lesão primária seja uma úlcera indolor com bordas elevadas em moldura e fundo granuloso, e raramente possa haver linfangite satélite, a epidemiologia ocupacional urbana em pet shop e o clássico trajeto linfangítico nodular ascendente linear tornam a esporotricose o diagnóstico de escolha.
-- **D (Blastomicose sul-americana / Paracoccidioidomicose):** Infecção fúngica sistêmica endêmica causada por *Paracoccidioides brasiliensis* ou *P. lutzii*. Atinge principalmente trabalhadores rurais por inalação primária de conídios. As lesões cutâneas decorrem de disseminação hematogênica ou contiguidade mucosal (estomatite moriforme de Aguiar-Pupo), frequentemente acompanhadas de envolvimento pulmonar e linfadenomegalia cervical exuberante, não se apresentando como úlcera de inoculação com linfangite ascendente isolada no membro.
+**Análise dos Distratores:**
+• **Alternativa B (Incorreta):** A **cromoblastomicose** é causada por fungos demáceos (*Fonsecaea pedrosoi*), tipicamente associada a traumas com vegetais em trabalhadores rurais. Manifesta-se por placas de evolução lenta, com aspecto **verrucoso**, nodular ou **vegetante em couve-flor**, sem o padrão de disseminação linfática linear ascendente.
+• **Alternativa C (Incorreta):** A **leishmaniose tegumentar americana** cursa tipicamente com uma **úlcera com bordas elevadas em moldura** e fundo granuloso grosseiro, decorrente da picada de flebotomíneos (*Lutzomyia*). Embora raramente possa apresentar linfangite satélite, não possui relação ocupacional clássica com pet shop e felinos em meio urbano.
+• **Alternativa D (Incorreta):** A **blastomicose sul-americana** (paracoccidioidomicose) decorre da inalação de propágulos de *Paracoccidioides brasiliensis*, acometendo preferencialmente trabalhadores rurais. Apresenta manifestações pulmonares e cutâneo-mucosas (como a **estomatite moriforme de Aguiar-Pupo**) e adenomegalia cervical importante, não se apresentando primariamente como úlcera cutânea de membro com linfangite ascendente isolada.
 </details>
 
 ---
@@ -13958,17 +14167,23 @@ Uma paciente com 26 anos de idade procura a unidade de saúde da família com qu
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A principal suspeita diagnóstica para o caso é a Febre Maculosa Brasileira (FMB), uma zoonose grave causada pela bactéria *Rickettsia rickettsii* e transmitida por carrapatos (principalmente *Amblyomma sculptum* ou 'carrapato-estrela'). O quadro clínico clássico envolve febre alta de início súbito, cefaleia, mialgia intensa e exantema máculo-papular que habitualmente surge entre o 2º e o 5º dia, iniciando-se nas extremidades (inclusive palmas e plantas) e progredindo centrípetamente, com histórico epidemiológico compatível (trilha, cachoeira, picadas de carrapato).
+> **Comentário Médica:** A apresentação clínica descrita — síndrome febril aguda acompanhada de cefaleia, mialgia intensa, manifestações gastrointestinais e o surgimento de exantema maculopapular com progressão centrípeta e acometimento palmoplantar, associada ao antecedente epidemiológico de trilha e picadas em membros inferiores — é clássica de **febre maculosa brasileira** (FMB), cujo principal agente etiológico no Brasil é a Rickettsia rickettsii, transmitida pelo carrapato Amblyomma sculptum (carrapato-estrela).
 
-1. Fundamentação da Alternativa A (Correta):
-- Diagnóstico sorológico: A Reação de Imunofluorescência Indireta (RIFI) é o método sorológico padrão-ouro preconizado pelo Ministério da Saúde (MS). Deve-se coletar a primeira amostra sérica (S1) imediatamente à suspeita clínica (fase aguda) e uma segunda amostra (S2) entre 14 e 21 dias após a primeira (fase de convalescença), visando demonstrar soroconversão ou aumento de pelo menos quatro vezes nos títulos de anticorpos IgG.
-- Tratamento imediato: A letalidade da FMB é elevada (podendo ultrapassar 50% nas formas graves se não tratada precocemente). O início da antibioticoterapia não deve aguardar a confirmação laboratorial e deve ser feito preferencialmente até o 5º dia de doença. A Doxiciclina (100 mg via oral a cada 12 horas) é a droga de primeira escolha para todas as faixas etárias e situações (inclusive em gestantes e crianças na suspeita de FMB, dado o risco iminente de morte).
-- Conduta com contatos: Não há indicação de antibioticoprofilaxia para indivíduos assintomáticos que frequentaram a mesma área de risco, recomendando-se apenas a vigilância ativa e a orientação para procurar assistência médica imediata caso surjam sintomas febris.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- Alternativa B: Incorreta. O tratamento de escolha para rickettsioses é a doxiciclina (ceftriaxona não tem eficácia contra patógenos intracelulares obrigatórios como *R. rickettsii*) e não está indicada profilaxia antibiótica para contatos assintomáticos.
-- Alternativa C: Incorreta. A sorologia por RIFI requer obrigatoriamente a coleta pareada (S1 e S2). Ademais, postergar o início da doxiciclina até a liberação do resultado sorológico aumenta drasticamente o risco de choque, disfunção de múltiplos órgãos e óbito. Profilaxia com doxiciclina em assintomáticos não é preconizada.
-- Alternativa D: Incorreta. A primeira amostra sérica deve ser colhida no primeiro atendimento/suspeita clínica (não se deve postergar para o 7º dia); a ceftriaxona não é o antibiótico indicado.
+A Rickettsia rickettsii apresenta tropismo primário pelas células endoteliais da microcirculação, desencadeando vasculite sistêmica proliferativa e necrosante. Esse processo leva ao aumento da permeabilidade vascular, extravasamento plasmático, edema periférico (observado nos pés da paciente), hemorragias e hipovolemia, com potencial evolução para disfunção de múltiplos órgãos e alta letalidade se o tratamento não for iniciado precocemente (idealmente até o 5º dia de doença).
+
+O diagnóstico laboratorial padrão-ouro preconizado pelo Ministério da Saúde é a reação de imunofluorescência indireta (RIFI). Por depender da produção de anticorpos, a sorologia frequentemente é negativa na fase aguda precoce. Dessa forma, é obrigatória a realização de sorologia pareada: a primeira amostra deve ser colhida imediatamente à suspeita clínica (fase aguda) e a segunda amostra colhida entre 14 e 21 dias após a primeira (fase de convalescença), buscando demonstrar soroconversão ou aumento de pelo menos quatro vezes nos títulos de IgG.
+
+Devido à rápida progressão da doença e à janela terapêutica estreita, o tratamento farmacológico com **doxiciclina** deve ser instituído de forma imediata e empírica, jamais se aguardando resultados sorológicos. Em relação ao namorado assintomático, não há indicação de antibioticoterapia profilática para pessoas expostas ou com histórico de picada de carrapato; a conduta baseia-se exclusivamente em orientações clínicas sobre vigilância ativa e procura imediata de serviço de saúde caso surjam sintomas febris.
+
+**Análise das alternativas incorretas:**
+
+• **Alternativa B:** A ceftriaxona é um betalactâmico ineficaz contra a Rickettsia rickettsii, uma bactéria intracelular obrigatória que exige antimicrobianos lipofílicos com penetração celular, como as tetraciclinas. Além disso, a antibioticoprofilaxia para contatos assintomáticos é contraindicada pelas diretrizes do Ministério da Saúde.
+
+• **Alternativa C:** A solicitação de uma amostra única de RIFI impossibilita a demonstração da variação de títulos em pacientes no início do quadro, gerando falsos-negativos. Postergar a introdução de doxiciclina para após a confirmação laboratorial está formalmente proscrito devido à elevadíssima taxa de mortalidade associada ao atraso terapêutico. Também não há recomendação de profilaxia para contatos assintomáticos.
+
+• **Alternativa D:** A primeira amostra sorológica deve ser colhida no primeiro contato médico a partir da suspeita, sem necessidade de aguardar o sétimo dia. Ademais, a ceftriaxona não possui atividade contra rickettsias, constituindo erro terapêutico grave.
 </details>
 
 ---
@@ -14343,15 +14558,24 @@ Uma paciente com 24 anos, estudante de medicina, procura atendimento no ambulat�
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A paciente em questão apresenta uma síndrome meníngea aguda clássica, caracterizada pela tríade de febre, cefaleia intensa e sinais de irritação meníngea (rigidez de nuca, sinais de Kernig e Brudzinski positivos). Diante dessa suspeita clínica, a investigação diagnóstica de urgência baseia-se na análise do líquido cefalorraquidiano (LCR).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Justificativa da alternativa correta (C):
-A punção lombar é o método diagnóstico padrão-ouro para a abordagem das meningites. A análise bioquímica do LCR (dosagem de glicose, relação glicose liquor/soro e dosagem de proteínas), associada à citometria e citologia diferencial, fornece elementos cruciais para a diferenciação rápida entre etiologias bacterianas e virais. Na meningite bacteriana clássica, observa-se pleocitose com predomínio de neutrófilos/polimorfonucleares, hiperproteinorraquia acentuada e hipoglicorraquia (relação LCR/glicemia < 0,4). Na meningite viral, o padrão típico exibe pleocitose moderada com predomínio linfomonocitário, níveis normais de glicose e discreto a moderado aumento de proteínas. Essa diferenciação bioquímica orienta a tomada de decisão terapêutica imediata, definindo a necessidade de antibioticoterapia empírica ou apenas suporte/antivirais.
+A paciente em questão, jovem e previamente hígida, apresenta um quadro clássico de início agudo caracterizado por febre alta, cefaleia intensa holocraniana e presença de sinais nítidos de irritação meníngea (rigidez de nuca, sinais de Kernig e de Brudzinski positivos). Esse conjunto sindrômico define uma **síndrome meníngea**, cuja principal hipótese etiológica é a meningite infecciosa aguda (bacteriana ou viral).
 
-Análise das alternativas incorretas:
-- Alternativa A: Incorreta. O local de escolha para punção liquórica é a região lombar (espaços intervertebrais L3-L4 ou L4-L5), abaixo do cone medular, conferindo alta segurança. A punção suboccipital (cisternal) é reservada para situações excepcionais de impossibilidade técnica anatômica ou contraindicação local na coluna lombar (como celulite no sítio de punção), devido ao risco elevado de lesão de estruturas bulbares e hemorragia.
-- Alternativa B: Incorreta. O *Streptococcus pneumoniae* (pneumococo) é microbiologicamente classificado como diplococo Gram-positivo (em ponta de lança ou formato ovóide). Bastonetes Gram-negativos correspondem a patógenos como *Escherichia coli*, *Klebsiella pneumoniae* ou *Pseudomonas aeruginosa*.
-- Alternativa D: Incorreta. A realização de tomografia de crânio antes da punção lombar não é necessária para todos os pacientes. Segundo as diretrizes do Ministério da Saúde e consensos internacionais (IDSA), a neuroimagem prévia à punção só está indicada se houver critérios de risco para lesão expansiva ou herniação cerebral: déficit neurológico focal, rebaixamento do nível de consciência (Escala de Coma de Glasgow < 10), convulsões de início recente, papiledema e imunossupressão grave. Como a paciente está lúcida, sem déficits focais e com fundoscopia normal (ausência de papiledema), a punção lombar deve ser realizada imediatamente, sem atrasos decorrentes de neuroimagem.
+Diante da suspeita de infecção do sistema nervoso central, a **punção lombar** com análise completa do líquido cefalorraquidiano (LCR) é o procedimento de escolha e deve ser realizada de forma rápida para guiar a abordagem terapêutica. A avaliação dos parâmetros bioquímicos (glicose e proteínas) associada à citometria/citologia diferencial desempenha papel central:
+
+1. Meningites bacterianas purulentas: tipicamente cursam com acentuada pleocitose neutrofílica (frequentemente superior a 1.000 células/mm³ com predomínio de polimorfonucleares), hiperproteinorraquia acentuada e hipoglicorraquia expressiva (relação glicose LCR/sérica menor que 0,4).
+2. Meningites virais: caracterizam-se por pleocitose discreta a moderada de padrão linfomonocitário, discreto aumento de proteínas e níveis de glicose habitualmente normais (relação LCR/sérica preservada).
+
+A diferenciação precoce orientada pela bioquímica e celularidade é crucial para embasar a introdução imediata de antibioticoterapia empírica em casos bacterianos ou permitir manejo de suporte adequado nos casos virais, além de determinar a necessidade de quimioprofilaxia de contatos caso se identifique Neisseria meningitidis ou Haemophilus influenzae tipo b.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A punção da cisterna magna (suboccipital) é um procedimento de exceção técnica, reservado a situações específicas de deformidade lombar grave, bloqueio liquórico espinhal ou infecção ativa extensa de pele no sítio habitual. O acesso padrão de escolha é a via lombar nos interespaços L3-L4 ou L4-L5, região anatomicamente segura situada caudalmente ao término do cone medular (que finaliza em L1-L2 nos adultos).
+
+• **B) Incorreta:** O Streptococcus pneumoniae (pneumococo) é um diplococo Gram-positivo com morfologia em chama de vela ou ponta de lança. A visualização de bastonetes Gram-negativos corresponderia a bactérias entéricas como Escherichia coli e Klebsiella pneumoniae, ou a patógenos não fermentadores como Pseudomonas aeruginosa, não ao pneumococo.
+
+• **D) Incorreta:** A realização de tomografia computadorizada de crânio antes da punção lombar não está indicada de rotina para todos os pacientes. As diretrizes estabelecem critérios formais de rastreio por imagem prévia apenas em situações com risco elevado de herniação cerebral: rebaixamento do nível de consciência, déficits neurológicos focais, papiledema no exame de fundo de olho, convulsões de início recente (menos de 7 dias) ou imunossupressão grave. A paciente encontra-se lúcida, sem déficits focais e com fundoscopia demonstrando papilas normais, sendo a neuroimagem desnecessária e causadora de atraso inaceitável no diagnóstico e na terapêutica.
 </details>
 
 ---
@@ -14465,16 +14689,21 @@ Um homem com 38 anos foi encaminhado ao ambulatório de referência em infectolo
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está correta. O quadro clínico e laboratorial apresentado é clássico de meningite tuberculosa, uma forma grave de tuberculose extrapulmonar comum em pacientes vulneráveis ou imunossuprimidos (como etilistas crônicos e tabagistas). 
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Aspectos Clínicos: O paciente apresenta uma evolução subaguda (sintomas ao longo de semanas, incluindo perda ponderal prévia, cefaleia progressiva, febre baixa e alteração progressiva do sensório até o rebaixamento de consciência), refletindo o acometimento preferencial das meninges basais e vasculite associada ao Mycobacterium tuberculosis.
-2. Marcadores Sistêmicos: Destaca-se a presença de VHS marcadamente elevada (120 mm/1ª hora), leucopenia relativa e anemia de doença crônica/carencial associada ao etilismo.
-3. Análise do Líquor (LCR): O padrão liquórico é caracterizado por pleocitose moderada (200 leucócitos/mm³) com predomínio linfomononuclear (78% de linfócitos), hiperproteinorraquia acentuada e consumo significativo de glicose (hipoglicorraquia). Esse perfil — 'linfocítico com hipoglicorraquia' — é o padrão clássico que direciona fortemente para meningite tuberculosa ou fúngica.
+O quadro clínico e laboratorial apresentado é compatível com o diagnóstico de **meningite tuberculosa**, a forma mais letal e incapacitante de infecção extrapulmonar pelo Mycobacterium tuberculosis.
 
-Análise dos distratores:
-- Alternativa B (Incorreta): A meningite bacteriana aguda comumente tem instalação hiperaguda (horas a poucos dias), pleocitose intensa (geralmente > 1.000 células/mm³) com franco predomínio de polimorfonucleares/neutrófilos (> 80%), e não linfocitose.
-- Alternativa C (Incorreta): Embora a neurocriptococose também curse com pleocitose linfocítica e hipoglicorraquia, a negatividade do exame com tinta nanquim (que possui sensibilidade de cerca de 70-85% em imunodeprimidos), associada à história epidemiológica e evolução subaguda típica com alta resposta de fase aguda (VHS 120), torna a tuberculose a hipótese primária mais provável.
-- Alternativa D (Incorreta): A meningite viral apresenta pleocitose com predomínio de linfócitos e proteinorraquia discreta a moderada, mas caracteristicamente cursa com glicorraquia normal (ausência de consumo de glicose no LCR).
+1. **Quadro Clínico e Epidemiologia:** O paciente apresenta evolução subaguda, caracterizada por cefaleia, febre e sintomas consumptivos (perda ponderal prévia ao longo do último mês), evoluindo com rebaixamento do nível de consciência e letargia. O consumo crônico e excessivo de álcool atua como importante fator predisponente para imunossupressão celular, favorecendo a reativação de focos primários ou a disseminação hematogênica do bacilo. A patogênese envolve a ruptura de pequenos tubérculos subependimários ou subpiais (focos de Rich) no espaço subaracnóideo, gerando exsudato gelatinoso espesso que acomete preferencialmente a base do crânio, envolvendo nervos cranianos e artérias do polígono de Willis.
+
+2. **Padrão Liquórico e Marcadores Sistêmicos:** A análise do líquido cefalorraquidiano revela um padrão clássico caracterizado por **pleocitose linfomononuclear com hipoglicorraquia**. Observa-se celularidade moderada (geralmente entre 100 e 500 leucócitos/mm³ com mais de 70% a 80% de linfócitos), acentuada elevação dos níveis de proteínas (frequentemente acima de 100 a 500 mg/dL devido ao bloqueio liquórico e exsudação inflamatória basilar) e consumo acentuado de glicose (relação líquor/soro menor que 0,5 ou glicorraquia absoluta reduzida). Adicionalmente, a velocidade de hemossedimentação marcadamente elevada (120 mm na 1ª hora) e a presença de anemia de doença crônica reforçam a etiologia inflamatória granulomatosa crônica/subaguda sistêmica.
+
+**Análise das alternativas incorretas:**
+
+• **B) Incorreta:** A meningite bacteriana purulenta aguda apresenta evolução hiperaguda e fulminante, com pleocitose acentuada, frequentemente superior a 1.000 células/mm³, associada a nítido predomínio de polimorfonucleares (neutrófilos habitualmente acima de 80%), o que destoa francamente do predomínio linfocítico de 78% em curso de evolução subaguda demonstrado pelo paciente.
+
+• **C) Incorreta:** Embora a meningite fúngica, particularmente por Cryptococcus neoformans, também curse com líquor de padrão linfocítico e hipoglicorraquia, o exame direto pela microscopia com tinta nanquim (tinta da China) é altamente sensível na detecção da cápsula polissacarídica desse agente, atingindo sensibilidade superior a 70% a 85% em pacientes sintomáticos. Sua negatividade afasta consideravelmente a hipótese, tornando a meningite tuberculosa a hipótese central inconteste, sobretudo diante da marcante síndrome consuntiva e do VHS expressivamente elevado.
+
+• **D) Incorreta:** As meningites virais comumente apresentam pleocitose com predomínio linfomononuclear e hiperproteinorraquia discreta a moderada, porém a concentração de glicose no líquor mantém-se tipicamente rigorosamente dentro dos limites da normalidade (glicorraquia normal). A presença inequívoca de hipoglicorraquia exclui a etiologia viral clássica desprovida de complicações.
 </details>
 
 ---
@@ -14982,12 +15211,19 @@ A explicação mais adequada para o quadro apresentado no início da sessão de 
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) é a correta. O quadro clínico descrito caracteriza uma reação de hipersensibilidade aguda (tipo A), também conhecida como 'reação ao dialisador'. Trata-se de uma reação anafilática ou anafilactoide mediada por IgE ou por ativação do complemento, que tipicamente se manifesta logo nos primeiros minutos (geralmente nos primeiros 5 a 30 minutos) do início da sessão de hemodiálise (HD). Os principais sinais e sintomas incluem rubor facial (flush), dispneia, broncoespasmo (sibilância), prurido, urticária, dor torácica/lombar e colapso circulatório com hipotensão arterial. O agente etiológico clássico mais associado a esse tipo de reação é o óxido de etileno, um gás frequentemente utilizado para a esterilização das linhas de sangue e dos dialisadores capilares, contra o qual o paciente desenvolve anticorpos anti-óxido de etileno conjugado à albumina humana. O manejo imediato exige interrupção mandatória da diálise, suspensão da reinfusão do sangue presente no circuito (pois contém o alérgeno) e instituição do suporte farmacológico para anafilaxia (adrenalina intramuscular, fluidoterapia, anti-histamínicos e corticosteroides).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. O quadro clínico súbito com colapso hemodinâmico, manifestações cutâneas e broncoespasmo logo no início da hemodiálise caracteriza uma **reação anafilática/anafilactoide ao dialisador (tipo A)**, classicamente associada ao **óxido de etileno** utilizado na esterilização dos circuitos e capilares.
 
-Análise dos distratores:
-- Alternativa (A) está incorreta: A embolia gasosa secundária a punção ou conexão de cateter venoso central manifesta-se tipicamente com dispneia súbita, taquipneia, hipoxemia grave, tosse, dor torácica pleurítica, cianose, hipotensão e eventual sopro em 'roda de moinho' à ausculta cardíaca precordial. O achado de flush facial e sibilância generalizada de padrão anafilático é atípico para embolia aérea pura.
-- Alternativa (B) está incorreta: A síndrome de desequilíbrio da diálise ocorre devido à rápida remoção de solutos (ureia) da circulação em relação ao líquor/sistema nervoso central, gerando gradiente osmótico que atrai água para o parênquima cerebral (edema cerebral). Manifesta-se tipicamente com cefaleia, náuseas, vômitos, turvação visual, agitação, mioclonias e convulsões, geralmente ao término ou horas após a primeira sessão de HD, não nos minutos iniciais e sem sinais alérgicos/broncoespasmo.
-- Alternativa (C) está incorreta: A hipotensão intradialítica decorrente de ultrafiltração excessiva/rápida geralmente ocorre no decorrer da sessão (conforme o volume programado é retirado) e não subitamente nos primeiros minutos de conexão. Além disso, não justificaria a tríade com sinais alérgicos (flush facial e sibilância).
+**Raciocínio Clínico e Fisiopatológico:**
+
+1. **Diagnóstico da Afecção:** Trata-se de uma **reação de hipersensibilidade ao dialisador tipo A** (anafilática/anafilactoide), caracterizada pelo aparecimento hiperagudo (primeiros 5 a 30 minutos de sessão) de **hipotensão arterial**, **_flush_ facial**, **urticária**, dispneia e **sibilância**.
+2. **Critério Clínico / Fisiopatologia:** O principal agente etiológico incriminado é o **óxido de etileno**, substância química empregada para esterilização de linhas e capilares de diálise. O mecanismo envolve hipersensibilidade mediada por **IgE** contra o alérgeno conjugado a proteínas séricas humanas (ou ativação direta do **sistema complemento**), desencadeando desgranulação massiva de mastócitos e liberação de histamina.
+3. **Indicação de Conduta:** Diante da suspeita, a conduta mandatória é a **interrupção imediata da hemodiálise** com **descarte do sangue presente no circuito** (contraindicada a reinfusão para não agravar a carga alergênica), seguida do manejo imediato de anafilaxia com **adrenalina intramuscular**, reposição volêmica e oxigenoterapia.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **embolia gasosa** manifesta-se tipicamente com dispneia súbita, dor torácica pleurítica, hipoxemia e eventual **sopro em roda de moinho** (*mill-wheel murmur*), não sendo acompanhada por sinais clássicos de hipersensibilidade como **_flush_ facial** e **broncoespasmo generalizado**.
+• **Alternativa B (Incorreta):** A **síndrome de desequilíbrio dialítico** decorre da rápida remoção intravascular de ureia, gerando gradiente osmótico com **edema cerebral**. Seus sintomas predominantes são neurológicos (**cefaleia**, náuseas, vômitos, turvação visual e **convulsões**), ocorrendo ao final ou após a primeira sessão de diálise, e não nos minutos iniciais.
+• **Alternativa C (Incorreta):** A **hipotensão intradialítica por ultrafiltração** rápida costuma surgir progressivamente ao longo da sessão conforme o volume é retirado pela máquina. Jamais se instala de forma instantânea nos primeiros minutos e não é acompanhada de sintomas alérgicos/mediados por histamina.
 </details>
 
 ---
@@ -15010,16 +15246,17 @@ Considerando-se o risco cardiovascular da paciente, os níveis tensionais observ
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A conduta padrão e indicada para a paciente é a alternativa (A).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. Em pacientes com **hipertensão arterial sistêmica** associada a **doença renal crônica** com **albuminúria**, as diretrizes da **KDIGO** e da **Sociedade Brasileira de Cardiologia (SBC)** preconizam a introdução de fármacos que bloqueiam o sistema renina-angiotensina-aldosterona, como **IECA** ou **BRA**, devido ao seu comprovado efeito nefroprotetor e controle pressórico.
 
-1. Fundamentação clínica e fisiopatológica:
-A paciente apresenta Doença Renal Crônica (DRC) estágio 3a (TFGe = 54 ml/min/1,73 m²) associada à albuminúria moderadamente aumentada (A2: 120 mg/g de creatinina), além de níveis pressóricos não controlados (150 x 90 mmHg). Segundo as diretrizes da KDIGO (Kidney Disease: Improving Global Outcomes) e as Diretrizes Brasileiras de Hipertensão Arterial (SBC/SBN), a meta pressórica para pacientes com DRC e albuminúria é rigorosa (< 130 x 80 mmHg ou PAS < 120 mmHg se tolerado).
-Além do controle pressórico per se, o bloqueio do sistema renina-angiotensina-aldosterona (SRAA) com Inibidores da Enzima Conversora de Angiotensina (IECA) ou Bloqueadores dos Receptores de Angiotensina II (BRA) constitui a intervenção farmacológica de primeira escolha. Fisiopatologicamente, o IECA/BRA promove vasodilatação preferencial da arteríola eferente glomerular, reduzindo a hipertensão intraglomerular, a hiperfiltração e a proteinúria, exercendo efeito nefroprotetor demonstrado e desacelerando a progressão da perda de função renal. Como a paciente já utiliza um diurético tiazídico e um bloqueador de canal de cálcio (BCC), a adição de um IECA ou BRA compõe a terapia tríplice clássica recomendada para o caso.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Paciente portadora de **hipertensão arterial sistêmica não controlada** (150 x 90 mmHg) associada a **doença renal crônica (DRC) estágio G3aA2** (evidenciada por TFGe de **54 ml/min/1,73 m²** e **albuminúria moderadamente aumentada** de 120 mg/g de creatinina).
+2. **Critério Clínico / Fisiopatologia:** A presença de albuminúria reflete aumento da permeabilidade vascular e **hipertensão intraglomerular**. A angiotensina II promove vasoconstrição predominante da **arteríola eferente**, elevando a pressão intraglomerular e perpetuando a lesão renal. O bloqueio farmacológico desse eixo com **IECA** ou **BRA** promove **vasodilatação da arteríola eferente**, aliviando a hiperfiltração intraglomerular, reduzindo a proteinúria e retardando a progressão da nefropatia.
+3. **Indicação de Conduta:** A paciente já utiliza um diurético tiazídico (**hidroclorotiazida**) e um bloqueador de canal de cálcio (**anlodipino**). A conduta padrão-ouro consiste em associar um **IECA** ou **BRA** para consolidar a **terapia tríplice anti-hipertensiva**, buscando atingir a meta pressórica estrita (< 130 x 80 mmHg) recomendada para nefropatas com albuminúria.
 
-2. Análise das demais alternativas (distratores):
-- Alternativa B: Incorreta. A substituição do diurético tiazídico por diurético de alça é indicada prioritariamente quando a taxa de filtração glomerular cai abaixo de 30 ml/min/1,73 m² ou na presença de sobrecarga volêmica evidente, o que não é o caso (TFGe de 54 ml/min/1,73 m²). Ademais, a dose de anlodipino já se encontra em limite máximo ou supramáximo (10 mg 2x/dia = 20 mg/dia; dose máxima habitual de 10 mg/dia), não havendo espaço para aumento.
-- Alternativa C: Incorreta. Betabloqueadores (como o carvedilol) não são fármacos de primeira linha no manejo da HAS primária sem indicação compulsória (ex.: insuficiência cardíaca com fração de ejeção reduzida ou coronariopatia prévia). Além disso, a adição de espironolactona sem a prévia introdução de IECA/BRA desrespeita o algoritmo terapêutico escalonado e aumenta o risco de hiperpotassemia sem o benefício clássico do bloqueio inicial do SRAA.
-- Alternativa D: Incorreta. A paciente apresenta lesão de órgão-alvo ativa (albuminúria persistente), perda funcional renal (estágio 3a) e pressão arterial francamente descontrolada. Manter o esquema sem ajustes expõe a paciente a elevado risco de progressão para doença renal terminal e eventos cardiovasculares maiores.
+**Análise dos Distratores:**
+• **Alternativa B (Incorreta):** A troca de tiazídico por **diurético de alça** é indicada prioritariamente quando a **TFGe for < 30 ml/min/1,73 m²** ou em casos de sobrecarga volêmica sintomática, condições não observadas na paciente (TFGe = 54 ml/min/1,73 m²). Ademais, a dose de **anlodipino** já se encontra em 20 mg/dia (10 mg 12/12h), excedendo a dose terapêutica máxima padronizada de **10 mg/dia**.
+• **Alternativa C (Incorreta):** O **carvedilol** (betabloqueador) não é fármaco de primeira linha para HAS sem indicação compulsória (como insuficiência cardíaca com fração de ejeção reduzida ou coronariopatia prévia). A **espironolactona** seria a 4ª droga na hipertensão resistente, não devendo ser prescrita antes da adição de **IECA** ou **BRA**.
+• **Alternativa D (Incorreta):** A manutenção da conduta diante de **pressão arterial descontrolada** e **dano renal progressivo** representa inércia terapêutica inaceitável, expondo a paciente a alto risco de evolução para falência renal e desfechos cardiovasculares desfavoráveis.
 </details>
 
 ---
@@ -15398,15 +15635,19 @@ Uma paciente com 54 anos, portadora de nefropatia diabética em estágio 5 da KD
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A paciente em questão apresenta um quadro clínico clássico de peritonite associada à diálise peritoneal ambulatorial contínua (CAPD), caracterizado por efluente peritoneal turvo e dor abdominal.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Justificativa da alternativa correta (D):
-De acordo com as diretrizes da Sociedade Internacional de Diálise Peritoneal (ISPD - International Society for Peritoneal Dialysis), infecções peritoneais causadas por bastonetes Gram-negativos não fermentadores/hidrofílicos, especialmente Pseudomonas aeruginosa, são de difícil erradicação devido à formação precoce de biofilme no cateter e resistência antimicrobiana. A terapia com dois antibióticos antipseudomonas pode ser tentada, mas, caso a resposta clínica não ocorra rapidamente (ou haja infecção concomitante do sítio de saída/túnel), a remoção do cateter de diálise peritoneal é fortemente indicada para resolução da infecção e preservação da membrana peritoneal.
+A paciente com doença renal crônica em estágio 5 em terapia substitutiva renal por CAPD apresenta quadro clássico de dor abdominal e efluente turvo, achados altamente sugestivos de **peritonite associada à diálise peritoneal**. O diagnóstico segundo a International Society for Peritoneal Dialysis (ISPD) requer a presença de pelo menos dois dos seguintes critérios: (1) sintomas consistentes com peritonite (dor abdominal, febre, náuseas); (2) efluente peritoneal turvo com contagem de leucócitos superior a 100/µL e mais de 50% de polimorfonucleares (após tempo de permanência mínimo de 2 horas); (3) identificação de microrganismos pelo método de Gram ou cultura do líquido peritoneal.
 
-Análise dos distratores:
-- A) Incorreta: Embora dor abdominal e efluente turvo sejam os comemorativos mais sensíveis e frequentes, febre e sintomas constitucionais (como náuseas e vômitos) não são considerados 'raros', ocorrendo em cerca de um terço a metade dos casos.
-- B) Incorreta: O ponto de corte de 250 polimorfonucleares/mm³ é utilizado para o diagnóstico de Peritonite Bacteriana Espontânea (PBE) na cirrose hepática com ascite. Na peritonite relacionada à diálise peritoneal, o critério laboratorial da ISPD é a contagem de leucócitos no efluente peritoneal > 100/mm³ (com tempo de permanência de pelo menos 2 horas), com predomínio de mais de 50% de polimorfonucleares.
-- C) Incorreta: O próprio método de CAPD utiliza soluções hipertônicas de glicose como agente osmótico, propiciando absorção sistêmica contínua de carboidratos (favorecendo hiperglicemia e ganho ponderal) associada à perda contínua de albumina no banho peritoneal (induzindo hipoalbuminemia), independentemente de infecção intercorrente.
+Microbiologicamente, infecções causadas por bastonetes Gram-negativos não fermentadores ou hidrofílicos, especialmente Pseudomonas aeruginosa e outras espécies de Pseudomonas, são temidas pela sua virulência e capacidade intrínseca de sintetizar biofilme denso sobre o material sintético do cateter peritoneal. Em tais casos, o tratamento medicamentoso isolado apresenta elevadas taxas de falha terapêutica, recorrência e perda definitiva da membrana peritoneal. Por conseguinte, as diretrizes da ISPD e da Sociedade Brasileira de Nefrologia preconizam que infecções graves, refratárias ou associadas a infecção de túnel por Pseudomonas frequentemente exigem a **remoção do cateter** de diálise para permitir a erradicação do microrganismo e a resolução do quadro séptico.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** Embora a dor abdominal e a turbidez do efluente dialítico sejam as manifestações mais sensíveis e precoces, a febre e sintomas gerais não são eventos raros, ocorrendo em proporção expressiva dos pacientes acometidos, especialmente em infecções por patógenos mais agressivos.
+
+• **B) Incorreta:** O ponto de corte de mais de 250 polimorfonucleares/mm³ define a peritonite bacteriana espontânea na ascite do paciente cirrótico. Na vigência de diálise peritoneal ambulatorial contínua, o critério laboratorial de efluente dialítico requer mais de 100 leucócitos/µL com predomínio de polimorfonucleares acima de 50%.
+
+• **C) Incorreta:** Tanto a hiperglicemia quanto a hipoalbuminemia são complicações metabólicas crônicas inerentes à própria técnica de diálise peritoneal. A absorção peritoneal contínua da glicose usada como agente osmótico nas bolsas de infusão predispõe à hiperglicemia e ganho de peso, enquanto o clareamento passivo contínuo de proteínas plasmáticas para o líquido drenado contribui para a hipoalbuminemia crônica, independentemente de sepse ativa.
 </details>
 
 ---
@@ -15460,19 +15701,21 @@ Considerando-se o caso descrito, é correto afirmar que a indicação de TSR foi
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A indicação de Terapia de Substituição Renal (TSR) de urgência no paciente baseou-se na presença de **hipercalemia refratária** ao tratamento clínico otimizado.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-### Raciocínio Clínico e Fisiopatológico:
-1. **Quadro de Base e Injúria Renal Aguda (IRA):** O paciente desenvolveu rabdomiólise por esforço físico extenuante e desidratação (urina avermelhada com fita falso-positiva para hemoglobinúria indicando mioglobinúria), cursando com IRA oligúrica, hipercatabolismo e liberação maciça de potássio intracelular para a circulação sistêmica.
-2. **Abordagem Inicial da Hipercalemia:** A hipercalemia inicial de 6,2 mEq/L associada a alterações eletrocardiográficas (ondas T apiculadas/em tenda) foi adequadamente manejada de forma emergencial com:
-   - Estabilização da membrana miocárdica: Gluconato de cálcio a 10% IV.
-   - Medidas de redistribuição intracelular (shift): Solução de glicoinsulina, inalação com agonista beta-2 adrenérgico e bicarbonato de sódio IV.
-3. **Avaliação da Resposta Terapêutica (Refratariedade):** Após algumas horas, enquanto os níveis de ureia (189 para 165 mg/dL), creatinina (4,2 para 3,9 mg/dL) e bicarbonato (14 para 20 mmol/L) apresentaram melhora, o potássio sérico manteve-se criticamente elevado (6,1 mEq/L). Segundo as diretrizes de IRA (KDIGO) e emergências nefrológicas, a falha das medidas clínicas de desvio intracelular em reduzir o potássio sérico, associada ao risco iminente de arritmias ventriculares fatais, configura **hipercalemia refratária**, que é uma indicação clássica e mandatória de TSR de urgência.
+1. **Fisiopatologia da rabdomiólise e lesão renal aguda:** O quadro clínico do jovem recruta submetido a esforço físico extenuante e desidratação sob calor intenso é clássico de **rabdomiólise** por esforço. A lise muscular maciça acarreta a liberação de constituintes intracelulares na circulação sistêmica, como mioglobina, creatina fosfoquinase (CPK), purinas e eletrólitos (potássio e fosfato). A mioglobina é filtrada pelos glomérulos e causa nefrotoxicidade direta por meio de vasoconstrição intrarrenal, estresse oxidativo, formação de cilindros intratubulares com obstrução dos túbulos renais (especialmente em urina ácida) e citotoxicidade direta nas células epiteliais tubulares. Isso resulta em lesão renal aguda de padrão tubular e teste de fita urinária positivo para heme sem a presença de hemácias na microscopia (falso-positivo para hemoglobinúria).
 
-### Análise das Alternativas Incorretas (Distratores):
-- **B (Incorreta):** A ureia sérica decresceu de 189 para 165 mg/dL. Além disso, o enunciado explicita que o paciente não apresentava sinais de uremia clínica (encefalopatia, pericardite, sangramento urêmico).
-- **C (Incorreta):** A acidose metabólica não foi refratária; houve evidente melhora laboratorial do bicarbonato sérico, que subiu de 14 mmol/L para 20 mmol/L após a infusão de bicarbonato de sódio.
-- **D (Incorreta):** A creatinina apresentou queda de 4,2 mg/dL para 3,9 mg/dL, não havendo elevação refratária. Ademais, o valor isolado de creatinina sérica não constitui, per se, indicação de diálise de urgência na ausência de disfunções orgânicas ou complicações metabólicas refratárias.
+2. **Manejo da hipercalemia grave:** O paciente apresentava hiperpotassemia grave (6,2 mEq/L) com repercussão eletrocardiográfica (ondas T apiculadas em tenda), exigindo estabilização imediata da membrana miocárdica com gluconato de cálcio a 10% IV (cujo objetivo é aumentar o potencial de limiar sem alterar os níveis séricos de potássio), seguida de medidas de redistribuição intracelular (solução de glicoinsulina, beta-2 agonistas inalatórios e bicarbonato de sódio).
+
+3. **Indicação de terapia de substituição renal de urgência:** As indicações clássicas de diálise de urgência na lesão renal aguda são sintetizadas pelo mnemônico AEIOU: Acidose metabólica grave refratária; Eletrólitos (hipercalemia grave refratária); Intoxicação por drogas dialisáveis; Sobrecarga volêmica ("Overload") refratária a diuréticos com congestão pulmonar; e Uremia sintomática (pericardite, encefalopatia, hemorragia por disfunção plaquetária). Após horas de tratamento intensivo, observou-se melhora da volemia, melhora dos níveis de escórias nitrogenadas (ureia caiu de 189 para 165 mg/dL; creatinina caiu de 4,2 para 3,9 mg/dL) e correção substancial da acidose (bicarbonato elevou-se de 14 para 20 mmol/L). Entretanto, a calemia permaneceu praticamente inalterada e perigosamente elevada (de 6,2 para 6,1 mEq/L), configurando **hipercalemia refratária** às medidas farmacológicas, o que torna a diálise mandatória para prevenir arritmias ventriculares fatais e parada cardiorrespiratória.
+
+**Análise das alternativas incorretas:**
+
+• **B) Incorreta:** Houve declínio dos valores séricos de ureia de 189 para 165 mg/dL. Além disso, a elevação isolada da ureia sem síndrome urêmica manifesta (ausência de pericardite, encefalopatia, soluços incoercíveis ou hemorragia) não constitui indicação formal de terapia de substituição renal de urgência.
+
+• **C) Incorreta:** A acidose metabólica respondeu de forma satisfatória ao tratamento instituído, com elevação do bicarbonato sérico de 14 para 20 mmol/L, não havendo critério de acidose refratária (geralmente caracterizada por pH persistentemente menor que 7,10 a 7,15 apesar de medidas conservadoras).
+
+• **D) Incorreta:** A creatinina apresentou queda de 4,2 para 3,9 mg/dL, demonstrando recuperação inicial do ritmo de filtração glomerular após a ressuscitação volêmica. Adicionalmente, níveis isolados de creatinina sérica não representam indicação de diálise de emergência, sendo a indicação fundamentada em complicações hidroeletrolíticas, metabólicas ou urêmicas ameaçadoras à vida.
 </details>
 
 ---
@@ -15584,12 +15827,17 @@ Paciente de 72 anos, com diagnóstico recente (e já em início de tratamento) d
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) é a correta. O quadro clínico e laboratorial apresentado pela paciente é clássico de Síndrome Nefrótica, caracterizada pela tríade ou tétrade fundamental: proteinúria maciça em faixa nefrótica (> 3,5 g/24h; paciente apresenta 4,2 g/24h), hipoalbuminemia (< 3,0 g/dL; paciente apresenta 2,4 g/dL), edema periférico e periorbitário bilateral (com a queixa associada de urina espumosa) e dislipidemia com predomínio de LDL-colesterol. No contexto de pacientes idosos portadores de neoplasias malignas sólidas (como o adenocarcinoma de mama, carcinomas de pulmão e trato gastrointestinal), a glomerulopatia paraneoplásica mais frequentemente associada é a Nefropatia Membranosa (secundária a antígenos tumorais ou deposição de imunocomplexos circulantes in situ, classicamente anti-PLA2R negativos). 
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. O quadro clínico e laboratorial apresentado define indiscutivelmente uma **síndrome nefrótica**, cuja etiologia mais comum associada a neoplasias sólidas em idosos (como o **adenocarcinoma de mama**) é a **nefropatia membranosa paraneoplásica**, conforme diretrizes da Sociedade Brasileira de Nefrologia e do KDIGO.
 
-Análise dos distratores:
-- Alternativa (A) está incorreta: Embora a disfunção hepática avançada possa cursar com hipoalbuminemia e edema, ela não justifica a proteinúria nefrótica maciça (4,2 g/24h) e o edema tipicamente se manifesta com ascite precoce (hipertensão portal), além de outros estigmas de hepatopatia crônica que não foram relatados.
-- Alternativa (B) está incorreta: O angioedema manifesta-se tipicamente com edema assimétrico, não compressível, súbito, frequentemente acometendo lábios, língua, laringe e face por mecanismo histaminérgico ou bradicinérgico, sem qualquer relação com proteinúria nefrótica, hipoalbuminemia ou dislipidemia.
-- Alternativa (C) está incorreta: A insuficiência cardíaca descompensada pode levar a edema de membros inferiores por congestão sistêmica, porém a paciente nega expressamente dispneia (sintoma cardeal de congestão pulmonar no perfil B), e a disfunção miocárdica não cursa com proteinúria maciça de 4,2 g/24h nem com a tétrade nefrótica observada.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção:** **Nefropatia membranosa paraneoplásica** manifestada clinicamente como **síndrome nefrótica** plena.
+2. **Critério Clínico / Fisiopatologia:** A paciente preenche a tétrade clássica da síndrome nefrótica: **proteinúria maciça** em faixa nefrótica (> 3,5 g/24h, aferida em **4,2 g/24h**), **hipoalbuminemia** (< 3,0 g/dL, aferida em **2,4 g/dL**), **edema difuso** (periorbitário matutino e de membros inferiores vespertino) e **dislipidemia** (hipercolesterolemia com predomínio de LDL). Em pacientes acima de 60 anos com diagnóstico de neoplasia sólida, a etiologia glomerular paraneoplásica mais prevalente é a **nefropatia membranosa**, desencadeada pela deposição de imunocomplexos contendo antígenos tumorais na vertente subepitelial da membrana basal glomerular (frequentemente com anticorpos *anti-PLA2R* negativos na forma secundária).
+3. **Indicação de Conduta:** O reconhecimento da glomerulopatia paraneoplásica impõe seguimento conjunto com nefrologia para indicação de **biópsia renal** e otimização do tratamento oncológico, visto que o controle do tumor primário é o fator determinante para a remissão da lesão podocitária e da proteinúria.
+
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A falência hepática e a **hipertensão portal** podem gerar hipoalbuminemia e edema periférico, porém manifestam-se precocemente com **ascite volumosa**, icterícia e estigmas periféricos, sendo totalmente incapazes de provocar **proteinúria em faixa nefrótica** (4,2 g/24h).
+• **Alternativa B (Incorreta):** O **angioedema** é um processo súbito e assimétrico de tumefação do subcutâneo ou mucosas mediado por **histamina** ou **bradicinina** (frequentemente envolvendo face, lábios e vias aéreas superiores), sem qualquer relação causal com **perda proteica renal maciça** ou alteração do lipidograma.
+• **Alternativa C (Incorreta):** A **insuficiência cardíaca descompensada (perfil B)** cursa com congestão mista e edema de estase em membros inferiores; entretanto, a paciente **negou dispneia** (sintoma cardeal da congestão pulmonar), e a sobrecarga volêmica por disfunção ventricular não produz **proteinúria nefrótica** de 4,2 g/24h.
 </details>
 
 ---
@@ -15743,17 +15991,19 @@ Visando-se ao melhor prognóstico do paciente, com menores limitações neuroló
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** O caso clínico descreve um paciente de 63 anos com déficit neurológico focal agudo (disfasia/afasia e hemiparesia braquiofacial à direita) com tempo de evolução de aproximadamente 2 horas e 45 minutos (início há 2 horas + 45 minutos até o resultado da TC). Trata-se de um Acidente Vascular Cerebral Isquêmico (AVCI), muito provavelmente de etiologia cardioembólica secundária à fibrilação atrial não anticoagulada.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O paciente apresenta quadro de acidente vascular cerebral isquêmico agudo dentro da janela de intervenção e sem contraindicações, sendo a trombólise química com **alteplase (rtPA)** a conduta padrão-ouro recomendada pelas diretrizes da *American Heart Association/American Stroke Association* (AHA/ASA) e pelo Ministério da Saúde para reduzir sequelas neurológicas.
 
-A tomografia computadorizada (TC) de crânio sem contraste excluiu hemorragia intracraniana (critério indispensável), e o tempo decorrido situa-se perfeitamente dentro da janela terapêutica de até 4,5 horas para trombólise química endovenosa. Ademais, a pressão arterial encontra-se em 160 x 100 mmHg, valor abaixo do limite de segurança exigido para a infusão do trombolítico (PA < 185 x 110 mmHg), e o paciente não faz uso de anticoagulantes orais. Portanto, segundo as Diretrizes Brasileiras para o Tratamento da Fase Aguda do AVCI e as recomendações da AHA/ASA, a administração de alteplase (rtPA) intravenosa é a medida com maior nível de evidência para restabelecer a perfusão do tecido cerebral em penumbra e reduzir sequelas funcionais a longo prazo.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise das alternativas incorretas:
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um **Acidente Vascular Cerebral Isquêmico (AVCI)** agudo de provável etiologia cardioembólica, decorrente de **fibrilação atrial** não anticoagulada. A tomografia computadorizada de crânio sem alterações precoces afasta hemorragia intracraniana, confirmando a natureza isquêmica do evento.
+2. **Critério Clínico / Fisiopatologia:** O paciente encontra-se com tempo de evolução de aproximadamente **2 horas e 45 minutos** desde o *íctus*, situando-se perfeitamente dentro da **janela terapêutica de até 4,5 horas** para trombólise endovenosa. Ademais, a pressão arterial de **160 x 100 mmHg** está abaixo do limite de segurança exigido para o procedimento (< 185 x 110 mmHg).
+3. **Indicação de Conduta:** A administração de **rtPA intravenoso** promove a recanalização do vaso ocluído e a restauração do fluxo sanguíneo para a **área de penumbra isquêmica**, sendo a intervenção medicamentosa de maior impacto comprovado na redução de morbidade e incapacidade funcional a longo prazo.
 
-- Alternativa A: A cardioversão (seja química ou elétrica) está contraindicada na ausência de instabilidade hemodinâmica grave imediata ou ecocardiograma transesofágico que exclua trombos atriais, especialmente em paciente sem anticoagulação prévia, sob risco iminente de novos eventos tromboembólicos. A frequência cardíaca está controlada (< 110 bpm).
+**Análise dos Distratores:**
 
-- Alternativa C: Embora a hiperglicemia (320 mg/dL) deva ser corrigida na fase aguda do AVC para mitigar a lesão neuronal e o estresse oxidativo, a administração de bólus de insulina intravenosa não é a prioridade modificadora de prognóstico comparada à reperfusão tecidual, além de carregar risco de hipoglicemia inadvertida. O controle glicêmico deve ser feito paralelamente, preferencialmente com insulina regular por via subcutânea ou infusão contínua titulada, sem atrasar a trombólise.
-
-- Alternativa D: A pressão arterial aferida (160 x 100 mmHg) está espontaneamente dentro dos níveis permissivos para a trombólise (< 185 x 110 mmHg) e para a fase aguda do AVC. A redução intempestiva e agressiva da PA com nitroprussiato de sódio diminuiria criticamente a pressão de perfusão cerebral na área de penumbra isquêmica, ampliando a área de infarto definitivo.
+• **Alternativa A (Incorreta):** A **cardioversão** (seja química ou elétrica) está contraindicada na ausência de instabilidade hemodinâmica grave imediata ou de ecocardiograma transesofágico que exclua a presença de **trombos intracavitários**, apresentando elevado risco de novos eventos tromboembólicos em paciente sem anticoagulação prévia.
+• **Alternativa C (Incorreta):** O controle da hiperglicemia aguda é uma medida adjuvante importante, porém deve ser realizado de forma gradual com **insulina regular**, evitando **bólus intravenoso** pelo risco de hipoglicemia inadvertida e sem jamais atrasar o início da reperfusão tecidual com trombolítico.
+• **Alternativa D (Incorreta):** O uso de **nitroprussiato de sódio** é inadequado porque a pressão arterial do paciente (160 x 100 mmHg) já atende aos critérios para trombólise. A redução abrupta da pressão arterial compromete drasticamente a **pressão de perfusão cerebral**, transformando a área de penumbra em necrose definitiva.
 </details>
 
 ---
@@ -15774,14 +16024,24 @@ Uma mulher com 40 anos é encaminhada da unidade básica de saúde para o ambula
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta adequada para o caso é solicitar ressonância magnética de encéfalo (Alternativa C).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Fundamentação clínica e critérios de alarme (Red Flags):
-A paciente apresenta um histórico típico de enxaqueca (migrânea) com aura desde a juventude. Contudo, há 3 meses houve uma mudança drástica no padrão da dor: evolução para cefaleia diária, aumento progressivo de intensidade, mudança de caráter hemicraniano para holocraniano e, crucialmente, despertares noturnos decorrentes da dor. Pelos mnemônicos internacionais de sinais de alerta em cefaleias (como os critérios SNOOP – Systemic symptoms, Neurologic signs, Onset, Older age, Pattern change), a mudança recente de padrão (Pattern change) e os despertares noturnos (sugestivos de hipertensão intracraniana ou lesão expansiva estrutural) configuram sinais de alarme claros para cefaleia secundária. Diante de 'red flags', a diretriz da Academia Brasileira de Neurologia (ABN) e os consensos internacionais preconizam a realização mandatória de exame de neuroimagem para elucidação diagnóstica e exclusão de etiologias secundárias com risco à vida (tumores, trombose venosa cerebral, hematomas, etc.), sendo a Ressonância Magnética (RM) o método de escolha por sua maior sensibilidade anatômica e tecidual.
+A paciente apresenta uma história clássica e de longa data de migrânea com aura (cefaleia hemicraniana pulsátil, associada a náuseas e escotomas visuais, com início na adolescência e boa resposta prévia a betabloqueador). No entanto, o ponto central da questão reside na mudança drástica do padrão habitual da dor nos últimos três meses. 
 
-2. Análise dos distratores:
-- Alternativa A (Incorreta): A punção lombar é contraindicada antes da realização de exame de neuroimagem em pacientes com suspeita de hipertensão intracraniana ou sinais focais/de alarme, devido ao risco iminente de herniação cerebral (herniação uncal ou tonsilar) decorrente do gradiente pressórico.
-- Alternativas B e D (Incorretas): Reiniciar o propranolol ou prescrever amitriptilina seriam condutas focadas unicamente na profilaxia de cefaleia primária (migrânea crônica). Instituir tratamento profilático sem antes investigar os sinais de alarme configura erro crasso de conduta médica, pois mascara os sintomas de uma possível lesão expansiva ou outra etiologia secundária grave, retardando o diagnóstico definitivo e o tratamento apropriado.
+Na abordagem clínica das cefaleias, a ferramenta mnemônica SNOOP10 (Systemic symptoms, Neoplasm history, Neurologic deficit, Onset sudden, Older age, Pattern change, Positional, Precipitated by Valsava, Papilledema, Progressive, etc.) é amplamente recomendada pelas diretrizes internacionais e pela Sociedade Brasileira de Cefaleia para identificar sinais de alarme. No caso descrito, identificam-se múltiplos sinais de alerta:
+1. Mudança de padrão (Pattern change): evolução de crises episódicas mensais para episódios diários e transição de dor hemicraniana para holocraniana.
+2. Cefaleia progressiva: aumento sustentado da intensidade e da frequência ao longo de semanas.
+3. Despertar noturno devido à dor: a dor que acorda o indivíduo durante o sono é um marcador clássico de elevação da pressão intracraniana, associando-se ao aumento fisiológico da pCO2 durante o sono (que induz vasodilatação cerebral) e à posição supina, sugerindo processo expansivo intracraniano ou disfunção na dinâmica do líquor.
+
+Diante desses achados, torna-se imperativo investigar uma etiologia de **cefaleia secundária**. O exame de escolha para avaliação estrutural detalhada do parênquima encefálico, fossa posterior, transição craniocervical e meninges é a **ressonância magnética de encéfalo**, devido à sua acurácia superior em relação à tomografia computadorizada na detecção de lesões expansivas neoplásicas, vasculares, infecciosas ou inflamatórias subagudas e crônicas.
+
+**Análise das alternativas incorretas:**
+
+• **Alternativa A:** Incorreta. A realização de punção lombar é contraindicada como primeiro passo na vigência de sinais de alarme sugestivos de hipertensão intracraniana ou lesão expansiva intracraniana, sem que haja uma neuroimagem prévia descartando efeito de massa. A punção lombar sob gradiente pressórico intracraniano elevado pode precipitar herniação cerebral (uncal ou amigdaliana), complicação potencialmente fatal. Além disso, a história clínica não aponta para meningite aguda ou hemorragia subaracnóidea hiperaguda com tomografia normal, que seriam as principais indicações de análise liquórica de urgência.
+
+• **Alternativa B:** Incorreta. A prescrição de tratamento profilático para migrânea, como o propranolol, seria adequada caso se tratasse apenas de uma descompensação da cefaleia primária sem sinais de alarme. Adotar essa conduta diante de uma mudança substancial de padrão e de sintomas noturnos de hipertensão intracraniana negligencia a investigação etiológica e retarda o diagnóstico de uma possível condição estrutural grave com risco à vida.
+
+• **Alternativa D:** Incorreta. O uso de amitriptilina é uma excelente opção profilática para migrânea crônica e cefaleia do tipo tensional, mas jamais deve ser introduzido como conduta inicial em um paciente com sinais de alarme não investigados. O alívio parcial sintomático promovido pelo medicamento pode mascarar a evolução clínica de uma neoplasia encefálica ou outra patologia expansiva.
 </details>
 
 ---
@@ -15919,19 +16179,17 @@ A principal hipótese diagnóstica nesse caso é
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A principal hipótese diagnóstica para o caso é a Doença de Parkinson (Alternativa C).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O quadro clínico e radiológico apresentado preenche com precisão os critérios clínicos da *Movement Disorder Society* (MDS) e do Ministério da Saúde para o diagnóstico de **doença de Parkinson**, caracterizado pela síndrome parkinsoniana clássica assimétrica e manifestações não motoras típicas.
 
-1. Justificativa clínica e fisiopatológica:
-De acordo com os critérios diagnósticos da Sociedade Internacional de Doença de Parkinson e Distúrbios do Movimento (MDS) e diretrizes do Ministério da Saúde, o diagnóstico clínico da Doença de Parkinson requer a presença obrigatória de Síndrome Parkinsoniana (Parkinsonismo), definida por:
-- Bradicinesia: lentificação motora e perda progressiva de velocidade/amplitude em movimentos repetitivos (no caso: dificuldade para amarrar sapatos, abotoar roupas, digitar, hipomimia facial e marcha em passos curtos com redução do balanço dos braços);
-- Associada a pelo menos um dos seguintes sinais cardinais: tremor de repouso (4 a 6 Hz, caracteristicamente assimétrico ao início) e/ou rigidez plástica com sinal da 'roda dentada' (hipertonia plástica).
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção:** Trata-se de **doença de Parkinson** idiopática, uma afecção neurodegenerativa crônica marcada pela perda progressiva de neurônios dopaminérgicos pigmentados da *pars compacta* da substância negra encefálica.
+2. **Critério Clínico / Fisiopatologia:** Para o diagnóstico clínico, é mandatória a identificação do **parkinsonismo**, definido pela presença obrigatória de **bradicinesia** (lentificação do movimento e redução progressiva da amplitude, visível na dificuldade motora fina, hipomimia e marcha em passos curtos) associada a pelo menos um sinal adicional: **tremor de repouso** (assimétrico e de baixa frequência, 4 a 6 Hz) ou **rigidez plástica** (com sinal da *roda dentada*). O caso agrega ainda marcadores da hipótese de *Braak* (estágios pré-motores com acometimento do bulbo olfatório e tronco encefálico), evidenciados por **hiposmia**, **constipação intestinal** e **distúrbio do sono REM**.
+3. **Achados Complementares:** A ressonância magnética corrobora a fisiopatologia ao descrever a **redução da espessura da pars compacta** e **hipointensidade de sinal no putâmen**, descartando lesões expansivas, hidrocefalia ou lesões vasculares estratégicas.
 
-O paciente preenche plenamente os critérios essenciais de parkinsonismo com assimetria dos sintomas (típico da forma idiopática). Além dos sinais motores, o quadro é classicamente corroborado pela presença de sintomas não motores prodrômicos e concomitantes (neurodegeneração iniciada no tronco encefálico e bulbo olfatório segundo os estágios de Braak), representados por: alteração olfativa (hiposmia/anosmia), constipação intestinal e distúrbios do padrão de sono (provável distúrbio comportamental do sono REM). As alterações em neuroimagem (redução da espessura da pars compacta da substância negra e alterações no putâmen) corroboram a perda de neurônios dopaminérgicos nigroestriatais.
-
-2. Análise dos distratores:
-- Alternativa A (Demência vascular): Exige declínio cognitivo proeminente com relação temporal evidente a eventos cerebrovasculares (acometimento em degraus, déficits focais piramidais). O paciente explicitamente nega alterações de memória e cognição, e a neuroimagem não evidenciou infartos múltiplos ou leucoencefalopatia vascular grave.
-- Alternativa B (Tremores essenciais): Caracteriza-se fundamentalmente por tremor de ação/postural, tipicamente bilateral e simétrico, de longa data, sem bradicinesia, sem rigidez em roda dentada, sem alterações de marcha parkinsoniana e sem sintomas autonômicos/olfativos.
-- Alternativa D (Doença de Alzheimer): Apresenta-se tipicamente com comprometimento precoce da memória episódica recente e de funções executivas, evoluindo progressivamente para apraxia, agnosia e afasia. Sinais motores parkinsonianos só costumam surgir em fases moderadas a avançadas da doença, o que contrasta com o quadro puramente motor e sem declínio cognitivo apresentado.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A **demência vascular** exige **declínio cognitivo** documentado, frequentemente com evolução em degraus e sinais focais piramidais, achados ausentes no paciente, que mantém a cognição preservada e neuroimagem sem lesões isquêmicas relevantes.
+• **Alternativa B (Incorreta):** O **tremor essencial** caracteriza-se classicamente por **tremor postural e de ação** (cinético), de caráter bilateral e simétrico, comumente familial, sem associação com **bradicinesia**, **rigidez em roda dentada** ou marcha parkinsoniana.
+• **Alternativa D (Incorreta):** A **doença de Alzheimer** inicia-se tipicamente com déficit precoce e proeminente de **memória episódica recente** e funções executivas; manifestações motoras extrapiramidais surgem apenas em fases avançadas da neurodegeneração cortical.
 </details>
 
 ---
@@ -15952,12 +16210,23 @@ Nesse caso, a provável evolução do quadro clínico do paciente está relacion
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) está CORRETA. A Doença de Parkinson (DP) é classicamente conhecida pela sua tétrade motora (tremor de repouso, bradicinesia, rigidez muscular em roda dentada e instabilidade postural), decorrente da degeneração dos neurônios dopaminérgicos da substância negra pars compacta. No entanto, a fisiopatologia da doença é sistêmica e multineurotransmissora (acometendo sistemas noradrenérgico, serotoninérgico e colinérgico), o que resulta em um amplo espectro de sintomas não motores (SNM) e neuropsiquiátricos que podem surgir antes mesmo dos sintomas motores (fase prodrômica) ou se agravar ao longo da evolução da doença. Os sintomas apresentados pelo paciente — anosmia (disfunção olfatória típica da deposição de alfa-sinucleína no bulbo olfatório), fadiga, sonolência diurna excessiva (frequentemente multifatorial, decorrente de degeneração dos centros promotores do despertar no tronco encefálico e hipotálamo, além do uso de dopaminérgicos) e apatia (perda de motivação intrínseca, comum e distinta da depressão maior) — constituem manifestações não motoras e neuropsiquiátricas intrínsecas da própria progressão da DP.
+> **Comentário Médica:** A alternativa C está correta.
 
-Análise dos distratores:
-- Alternativa (A) INCORRETA: Não há dados clínicos (como febre, taquicardia, hipotensão ou foco infeccioso) e os exames laboratoriais complementares estão estritamente dentro dos parâmetros de normalidade, afastando delirium secundário a quadro infeccioso oculto.
-- Alternativa (B) INCORRETA: Todas as manifestações descritas (anosmia, sonolência, fadiga e apatia) são amplamente reconhecidas como parte integrante do espectro da própria Doença de Parkinson, não havendo necessidade de invocar outra síndrome neurodegenerativa sobreposta para justificar a clínica.
-- Alternativa (D) INCORRETA: O paciente faz uso de levodopa, dipirona, losartana e AAS. Nenhuma dessas medicações é bloqueadora dos receptores dopaminérgicos D2 (como neurolépticos, metoclopramida, flunarizina ou cinarizina), o que afasta etiologia iatrogênica/parkinsonismo farmacológico secundário.
+**Raciocínio Clínico e Fisiopatológico:**
+
+A **doença de Parkinson** é classicamente definida pela tétrade motora composta por bradicinesia, rigidez muscular em roda dentada, tremor de repouso e instabilidade postural, decorrente da degeneração progressiva dos neurônios dopaminérgicos da substância negra parte compacta. No entanto, a patologia é uma sinucleinopatia multissistêmica cuja progressão patológica extrapola amplamente a via nigroestriatal, envolvendo neurônios colinérgicos, noradrenérgicos e serotonérgicos em múltiplos níveis do sistema nervoso central e periférico.
+
+De acordo com o estadiamento anatomopatológico proposto por Heiko Braak, o acúmulo de alfa-sinucleína e corpos de Lewy inicia-se precocemente no núcleo motor dorsal do vago e no bulbo olfatório (estágios 1 e 2 de Braak), muito antes do acometimento do mesencéfalo. Por essa razão, manifestações como anosmia ou hiposmia são frequentes e frequentemente precedem os sintomas motores por anos. À medida que a doença progride e acomete estruturas do tronco encefálico e áreas corticais e límbicas (estágios 3 a 6), emergem os chamados **sintomas não motores** e neuropsiquiátricos.
+
+O quadro apresentado pelo paciente reúne alterações olfatórias (anosmia), distúrbios do sono e da vigília (sonolência diurna excessiva, relacionada tanto à degeneração dos circuitos de alerta do tronco cerebral e hipotálamo quanto ao uso de fármacos dopaminérgicos), apatia (disfunção dos circuitos frontoestriatais mesocorticolímbicos) e fadiga central. Todas essas queixas integram a história natural da patologia de base e tornam-se progressivamente mais proeminentes com o avançar da idade e do tempo de evolução.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** Quadros infecciosos em idosos com doenças neurodegenerativas podem precipitar delirium ou flutuações cognitivas agudas. Todavia, a ausência de febre, de alterações em sinais vitais, de achados focais e a normalidade completa dos exames laboratoriais tornam a hipótese infecciosa remota e incapaz de justificar a anosmia e a evolução lenta típica dos sintomas relatados.
+
+• **B) Incorreta:** Os sintomas observados não justificam a suspeição de uma segunda síndrome neurodegenerativa sobreposta. A anosmia, a sonolência diurna excessiva, a fadiga e a apatia são amplamente documentadas e reconhecidas pelas diretrizes internacionais como manifestações não motoras inerentes à própria doença de Parkinson.
+
+• **D) Incorreta:** O parkinsonismo secundário farmacológico decorre do bloqueio dos receptores dopaminérgicos D2, classicamente provocado por neurolépticos típicos ou atípicos, antieméticos antidopaminérgicos (metoclopramida, bromoprida) ou bloqueadores de canais de cálcio específicos (flunarizina, cinarizina). O paciente está em uso de levodopa, dipirona, losartana e ácido acetilsalicílico, fármacos que comprovadamente não induzem parkinsonismo secundário.
 </details>
 
 ---
@@ -16006,16 +16275,21 @@ Um homem com 50 anos chega ao pronto-socorro após queda da própria altura e do
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) está correta e descreve com precisão a etiologia e a conduta padrão na Síndrome de Wernicke-Korsakoff (SWK).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Justificativa clínica e fisiopatológica:
-O quadro clínico apresentado é clássico da Síndrome de Wernicke-Korsakoff, uma emergência neuropsiquiátrica decorrente da deficiência grave de tiamina (vitamina B1), cofator essencial para o metabolismo da glicose no ciclo de Krebs e na via das pentoses-fosfato (enzimas transcetolase, piruvato desidrogenase e alfa-cetoglutarato desidrogenase). A depleção de tiamina gera disfunção mitocondrial, estresse oxidativo e morte neuronal seletiva em regiões altamente metabólicas, como a substância cinzenta periaquedutal, corpos mamilares, tecto mesencefálico e núcleos talâmicos (refletido nos achados típicos de hipersinal em T2 na ressonância magnética).
-O principal fator etiopatogênico envolvido é o alcoolismo crônico associado à má nutrição, que reduz a ingestão, absorção intestinal e ativação hepática da tiamina, além de acelerar o consumo das reservas corporais. A Encefalopatia de Wernicke caracteriza-se pela tríade clássica (oftalmoparesia/nistagmo, ataxia e alteração do estado mental), enquanto o componente de Korsakoff engloba a amnésia anterógrada e retrógrada associada a confabulações.
-O tratamento definitivo requer reposição imediata de tiamina em altas doses por via parenteral (intravenosa ou intramuscular). A recomendação padrão preconiza tiamina parenteral (comumente 500 mg, IV, 2 a 3 vezes ao dia por 3 a 5 dias, seguido por 250 mg/dia até melhora e posterior transição para via oral). Vale ressaltar que a tiamina DEVE ser administrada antes ou concomitantemente a qualquer infusão de soluções contendo glicose, e a hipomagnesemia concomitante (como a observada no caso: Mg = 0,9 mg/dL) deve ser obrigatoriamente corrigida, pois o magnésio é cofator para a ativação enzimática da tiamina.
+O quadro clínico apresentado é clássico da **síndrome de Wernicke-Korsakoff**, uma emergência neuropsiquiátrica decorrente da deficiência grave de tiamina (vitamina B1). A tiamina pirofosfato atua como coenzima essencial para enzimas-chave do metabolismo glicídico e da respiração celular mitocondrial cerebral, notadamente a piruvato desidrogenase, a alfa-cetoglutarato desidrogenase e a transcetolase. A carência de tiamina leva à incapacidade de metabolização da glicose, disfunção bioenergética, acúmulo de lactato, estresse oxidativo e excitotoxicidade glutamatérgica, culminando em edema citotóxico e necrose de áreas com alta demanda metabólica, como os corpos mamilares, a substância cinzenta periaquedutal, o tecto do mesencéfalo e o tálamo medial, achados compatíveis com as alterações descritas na ressonância magnética do paciente.
 
-2. Análise dos distratores:
-- Alternativa A: Incorreta. A via oral de tiamina é inadequada na fase aguda de encefalopatia devido à baixa e errática absorção gastrintestinal em etilistas crônicos desnutridos. Ademais, administrar soro glicosado antes da tiamina parenteral pode agravar rapidamente a lesão neurológica ao consumir as reservas residuais de tiamina.
-- Alternativas B e C: Incorretas. O traumatismo decorrente da queda foi uma consequência da ataxia da marcha e confusão mental causadas pela SWK, e não o fator etiopatogênico da síndrome. O uso isolado de soro glicosado sem tiamina parenteral é formalmente contraindicado nesta situação.
+A apresentação clínica clássica da Encefalopatia de Wernicke reúne a tríade: encefalopatia/confusão mental, disfunção oculomotora (nistagmo, oftalmoparesia com acometimento frequente do nervo abducente e diplopia) e ataxia de marcha. A evolução ou coexistência com a Síndrome de Korsakoff manifesta-se por amnésia anterógrada e retrógrada associada a confabulações (descritas como distorção de histórias passadas). O principal fator etiopatogênico subjacente no mundo ocidental é o alcoolismo crônico associado à desnutrição calórico-proteica grave, no qual ocorrem ingestão dietética deficiente, diminuição da absorção gastrintestinal de tiamina e comprometimento da ativação hepática em tiamina pirofosfato.
+
+O manejo terapêutico imediato preconizado por diretrizes internacionais (como as da European Federation of Neurological Societies e do British Association for Psychopharmacology) consiste na administração de **tiamina intravenosa** em altas doses (comumente 500 mg, a cada 8 horas, por 3 a 5 dias, seguido de 250 mg ao dia até estabilização). É mandatório administrar a tiamina antes ou concomitantemente a qualquer solução glicosada, pois a oferta de carboidratos sem o cofator metabólico acelera a depleção de tiamina residual e pode precipitar ou agravar a deterioração neurológica irreversível. Adicionalmente, deve-se realizar a reposição de magnésio, uma vez que a hipomagnesemia inibe a tiamina pirofosfato transferase, impedindo a ação celular da tiamina.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A via oral de administração é completamente inadequada no paciente sintomático agudo, visto que o alcoolismo crônico e a desnutrição causam atrofia das vilosidades intestinais e bloqueio dos transportadores de tiamina, tornando a absorção oral imprevisível e insuficiente. Ademais, a infusão de soro com glicose a 10% sem a administração prévia de tiamina parenteral pode induzir dano neuronal maciço e morte.
+
+• **B) Incorreta:** O traumatismo cranioencefálico foi um evento secundário à queda decorrente da instabilidade postural e da marcha atáxica induzidas pela encefalopatia, não correspondendo ao fator etiopatogênico da síndrome. Além disso, a internação em UTI per se não define o tratamento farmacológico causal obrigatório (reposição parenteral de tiamina).
+
+• **C) Incorreta:** O trauma decorrente da queda não constitui a causa da doença. A hidratação isolada com soro glicofisiológico a 10% sem a suplementação parenteral imediata de tiamina é uma conduta contraindicada e iatrogênica, pois consome os estoques intracelulares residuais da vitamina e precipita morte celular neuronal e coma.
 </details>
 
 ---
@@ -16422,17 +16696,23 @@ Considerando-se a principal hipótese diagnóstica, qual é o agente etiológico
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A apresentação clínica descrita — prurido ocular, lacrimejamento, hiperemia conjuntival, associados de forma marcante a pálpebras edemaciadas com margens ciliares ulceradas e crostosas — é patognomônica de blefarite anterior ulcerativa (ou blefaroconjuntivite estafilocócica).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O quadro clínico de prurido ocular, lacrimejamento, hiperemia conjuntival e, fundamentalmente, margens palpebrais edemaciadas com crostas e pequenas ulcerações na base dos cílios define a **blefarite anterior ulcerativa**, cujo agente etiológico predominante é o ***Staphylococcus aureus***, em conformidade com as diretrizes do Conselho Brasileiro de Oftalmologia (CBO).
 
-1. Fundamentação e Raciocínio Clínico:
-- A blefarite anterior afeta a borda externa da pálpebra, onde os cílios estão inseridos. A forma estafilocócica decorre da colonização e infecção bacteriana direta e da resposta imune mediada por exotoxinas estafilocócicas.
-- O quadro é caracterizado pelo acúmulo de colaretes/crostas duras e quebradiças ao redor da base dos cílios, que, ao serem removidas, podem revelar pequenas úlceras sangrantes na borda palpebral (blefarite ulcerativa), além de hiperemia conjuntival reativa.
-- O agente etiológico bacteriano mais frequentemente isolado e responsável pelas formas ulcerativas e inflamatórias agudas/subagudas é o *Staphylococcus aureus* (seguido por *Staphylococcus epidermidis*). O tratamento envolve higiene palpebral rigorosa e, nos casos inflamatórios/ulcerativos, antibioticoterapia tópica (como pomadas de eritromicina, tobramicina ou ciprofloxacino).
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- A (Adenovírus): Causa clássica de conjuntivite folicular viral aguda, cursando com hiperemia conjuntival intensa, quemose, secreção aquosa/serosa e linfadenopatia pré-auricular dolorosa. Não produz ulceração da margem palpebral nem crostas ciliares endurecidas típicas de acometimento folicular bacteriano.
-- B (Herpes simples): Causa blefaroceratoconjuntivite que se manifesta primariamente por vesículas cutâneas sobre base eritematosa na pele palpebral e periorbital (frequentemente unilaterais) que se rompem formando crostas melicéricas superficiais, além de potencial acometimento corneano com úlcera dendrítica típica sob coloração por fluoresceína, quadro distinto da blefarite marginal difusa aqui descrita.
-- D (Chlamydia trachomatis): Responsável pela conjuntivite de inclusão no adulto e pelo tracoma. Caracteriza-se por conjuntivite folicular subaguda ou crônica com secreção mucopurulenta profusa e ceratite ponteada superior, sem as lesões ulceradas e crostas características nas margens palpebrais ciliares.
+1. **Diagnóstico Clínico:** Trata-se de uma **blefarite anterior bacteriana** (forma ulcerativa). A inflamação acomete a borda palpebral anterior externa, região de inserção dos cílios, caracterizada pelo acúmulo de **colaretes e crostas duras**, cuja remoção revela **leitos ulcerados sangrantes**.
+
+2. **Fisiopatologia:** A patogênese decorre da invasão bacteriana direta dos folículos ciliares e das glândulas associadas (*glândulas de Zeis e Moll*), somada à resposta inflamatória induzida pela liberação de **exotoxinas estafilocócicas**, que causam a ceratoconjuntivite reativa e a necrose epitelial focal (úlceras).
+
+3. **Agente Etiológico e Conduta:** O micro-organismo mais frequentemente isolado nas formas bacterianas agudas e ulcerativas é o ***Staphylococcus aureus*** (seguido pelo *Staphylococcus epidermidis*). A conduta padrão-ouro envolve **higiene palpebral com compressas mornas** associada ao uso de **pomadas oftálmicas antibióticas** (como eritromicina, bacitracina ou ciprofloxacino).
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O **Adenovírus** é o principal causador da **ceratoconjuntivite folicular aguda**, cursando tipicamente com secreção aquosa/serosa profusa, quemose conjuntival e **linfadenopatia pré-auricular dolorosa**, sem formação de crostas aderidas aos cílios ou ulcerações marginais.
+
+• **Alternativa B (Incorreta):** O vírus **Herpes simples** causa lesões cutâneas vesiculares agrupadas sobre base eritematosa na região periocular ou palpebral, com tendência a distribuição unilateral e evolução para crostas melicéricas rasas, além de acometimento corneano clássico por **úlcera dendrítica**, distorção que não corresponde à blefarite ciliar bilateral e difusa descrita.
+
+• **Alternativa D (Incorreta):** A ***Chlamydia trachomatis*** está relacionada à conjuntivite de inclusão do adulto e ao **tracoma**, quadros marcados por reação folicular tarsal intensa e secreção mucopurulenta crônica, sem acometimento ulcerativo folicular das margens palpebrais ciliares.
 </details>
 
 ---
@@ -16455,20 +16735,19 @@ Nesse caso, qual é o diagnóstico mais provável?
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** O diagnóstico mais provável para o caso apresentado é o de **calázio** (Alternativa A).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. O quadro clínico de nódulo tarsal circunscrito, de consistência firme, **indolor** e sem sinais flogísticos ativos, que surge após um episódio agudo inflamatório autolimitado, é clássico de **calázio**, conforme as diretrizes do Conselho Brasileiro de Oftalmologia (**CBO**).
 
-### Fundamentação Clínica e Fisiopatológica:
-O calázio é uma reação inflamatória granulomatosa crônica estéril, decorrente da obstrução do ducto de uma glândula sebácea meibomiana (ou, mais raramente, de Zeis). Sua fisiopatologia frequentemente tem início com um episódio inflamatório ou infeccioso agudo (como um hordéolo interno), que se manifesta com sinais flogísticos (dor, rubor e edema palpebral). 
+**Raciocínio Clínico e Fisiopatológico:**
 
-Com a resolução espontânea ou tratamento da fase aguda, o material lipídico retido e extravasado para os tecidos tarsais adjacentes induz uma reação granulomatosa de corpo estranho. Clinicamente, essa fase crônica caracteriza-se exatamente pelo achado do caso: uma nodulação focal, endurecida, bem delimitada, tipicamente **indolor** e sem sinais inflamatórios ativos (ausência de calor ou eritema local importante), comumente visível ou palpável na face conjuntival/interna da placa tarsal.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um **calázio**, uma reação inflamatória granulomatosa crônica e estéril que acomete as glândulas sebáceas palpebrais, predominantemente as *glândulas de Meibômio*.
+2. **Critério Clínico / Fisiopatologia:** A fisiopatologia se inicia pela obstrução ductal glandular, provocando retenção lipídica e inflamação aguda prévia (responsável pelo **edema**, **rubor** e **dor** autolimitados há 48 horas). Com a cronificação e o extravasamento do sebo para o estroma tarsal, forma-se um granuloma de corpo estranho, caracterizado semiologicamente por **nódulo firme**, móvel sob a pele, **indolor** e localizado na face conjuntival da pálpebra.
+3. **Indicação de Conduta:** O tratamento inicial de escolha baseia-se em **compressas mornas** locais associadas à massagem palpebral para fluidificar a secreção retida. Casos refratários ou com prejuízo estético/visual podem necessitar de **injeção intralesional de corticoide** ou **incisão e curetagem cirúrgica**.
 
-### Análise das Alternativas Incorretas (Distratores):
+**Análise dos Distratores:**
 
-- **B) Hordéolo:** Trata-se de um processo infeccioso agudo (geralmente estafilocócico) das glândulas de Zeis/Moll (hordéolo externo) ou de Meibômio (hordéolo interno). Apresenta-se classicamente com sinais flogísticos exuberantes: dor local aguda, eritema, edema e ponto de flutuação/supuração purulenta. A paciente teve um quadro compatível com hordéolo há dias, mas este já se resolveu, restando a lesão crônica indolor (calázio).
-
-- **C) Canaliculite:** Consiste na inflamação crônica ou infecciosa (comumente por *Actinomyces israelensis*) dos canalículos lacrimais. Manifesta-se tipicamente no canto medial da pálpebra, associada a epífora crônica, hiperemia conjuntival medial, secreção mucopurulenta expressível pelo ponto lacrimal e edema focal peri-canalicular, não como um nódulo isolado no terço médio da pálpebra.
-
-- **D) Dacriocistite:** É a infecção do saco lacrimal, secundária à obstrução do ducto nasolacrimal. O quadro cursa com tumefação dolorosa, eritematosa e tensa especificamente na região inferomedial da órbita (abaixo do tendão cantal medial), frequentemente associada a febre, epífora e drenagem de conteúdo purulento à compressão, topografia e clínica incompatíveis com o caso.
+• **Alternativa B (Incorreta):** O **hordéolo** (terçol) é um processo infeccioso agudo supurativo, habitualmente decorrente de infecção por *Staphylococcus aureus* nas *glândulas de Zeis/Moll* (externo) ou de *Meibômio* (interno). Cursa obrigatoriamente com **dor aguda**, calor, **eritema intenso** e ponto de flutuação/supuração, manifestações que já se resolveram na paciente.
+• **Alternativa C (Incorreta):** A **canaliculite** consiste na inflamação/infecção dos canalículos lacrimais (frequentemente por *Actinomyces israelensis*). Apresenta-se tipicamente com **edema peri-canalicular no canto medial**, epífora e saída de secreção purulenta à **expressão do ponto lacrimal**, incompatível com nódulo isolado no terço médio tarsal.
+• **Alternativa D (Incorreta):** A **dacriocistite** é o acometimento infeccioso agudo do saco lacrimal secundário à estenose do ducto nasolacrimal. Localiza-se na **região inferomedial da órbita** (abaixo do tendão cantal medial), manifestando-se com tumefação tensa, **dor intensa**, hiperemia local e, frequentemente, refluxo purulento à digitopressão.
 </details>
 
 ---
@@ -16487,15 +16766,19 @@ Uma paciente com 25 anos apresentou edema, rubor e dor em pálpebra superior dir
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** O caso clínico descreve a evolução clássica de um calázio, justificando a alternativa (A) como correta.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Raciocínio Clínico e Fisiopatológico (Calázio):
-O calázio é uma inflamação granulomatosa crônica, estéril e não infecciosa, decorrente da obstrução dos ductos das glândulas sebáceas palpebrais — mais comumente as glândulas de Meibômio (localizadas na placa tarsal interna). É extremamente frequente que o calázio suceda um quadro agudo de hordéolo interno (caracterizado por dor, hiperemia e edema local), que tem remissão da fase inflamatória/infecciosa aguda, deixando como sequela o represamento lipídico e consequente reação granulomatosa de corpo estranho. A apresentação clássica é justamente a de um nódulo firme, circunscrito, de crescimento lento e indolor à palpação, localizado no corpo palpebral (face conjuntival ou sob a pele tarsal), sem sinais flogísticos ativos e sem sintomas sistêmicos.
+O quadro clínico retrata a história natural característica do **calázio**. Trata-se de uma inflamação granulomatosa crônica, idiopática e estéril provocada pela retenção de secreção lipídica e oclusão do ducto excretor das **glândulas de Meibômio** (glândulas sebáceas modificadas situadas profundamente na placa tarsal). A estase do conteúdo sebáceo rompe a parede glandular, induzindo uma intensa reação inflamatória granulomatosa do tipo corpo estranho no estroma tarsal, composta por macrófagos, células gigantes multinucleadas, linfócitos e plasmócitos.
 
-2. Análise dos Distratores:
-- Alternativa B (Hordéolo): Corresponde a um processo infeccioso agudo (geralmente por Staphylococcus aureus) das glândulas de Zeis/Moll (hordéolo externo) ou de Meibômio (hordéolo interno). Apresenta-se com sinais cardinais de flogose: dor importante, rubor, edema difuso e coleção purulenta visível. Embora a paciente tenha tido um episódio compatível com hordéolo há 48 horas, o quadro atual é de nódulo indolor e sem sinais flogísticos, caracterizando a evolução para calázio.
-- Alternativa C (Canaliculite): É a inflamação do canalículo lacrimal (frequentemente causada por Actinomyces israelensis), manifestando-se com epífora crônica, secreção purulenta no ponto lacrimal, hiperemia conjuntival nasal e dilatação do ponto lacrimal ("pouting punctum"), localização anatômica completamente distinta do terço médio da pálpebra superior.
-- Alternativa D (Dacriocistite): Trata-se da infecção do saco lacrimal secundária à obstrução do ducto nasolacrimal. Localiza-se tipicamente abaixo do ligamento palpebral medial (canto interno do olho e dorso nasal ipsilateral), manifestando-se como tumefação eritematosa, tensa e muito dolorosa, com refluxo de secreção purulenta à compressão do saco lacrimal.
+Frequentemente, o calázio é precedido por um episódio agudo de hordéolo interno (infecção bacteriana focal aguda da glândula meibomiana), manifestado por dor, hiperemia e edema palpebral. Com a resolução da fase infecciosa aguda espontaneamente ou após tratamento, a resposta inflamatória crônica residual consolida-se na forma de um nódulo circunscrito, de consistência firme a fibroelástica, imóvel sob o tarso e indolor à palpação, localizado tipicamente na face conjuntival da pálpebra (visível à eversão palpebral). A ausência atual de sinais flogísticos agudos e de sintomas sistêmicos corrobora definitivamente a natureza crônica e benigna da lesão.
+
+**Análise das alternativas incorretas:**
+
+• **B) Incorreta:** O hordéolo caracteriza-se por um abscesso agudo estafilocócico das glândulas palpebrais. O hordéolo externo acomete as glândulas de Zeis ou de Moll na margem ciliar, enquanto o interno acomete as glândulas de Meibômio. Apresenta-se tipicamente com dor aguda pronunciada, calor local, eritema importante e tumefação com ponto de flutuação purulenta. A paciente teve um pródromo inflamatório agudo prévio, porém o quadro atual de nódulo residual indolor e frio define calázio e não hordéolo ativo.
+
+• **C) Incorreta:** A canaliculite consiste na inflamação/infecção crônica ou subaguda dos canalículos lacrimais, frequentemente causada por Actinomyces israelii. Manifesta-se anatomicamente no canto interno da pálpebra (superior ou inferior) com epífora crônica, hiperemia conjuntival setorial nasal, edema do bordo palpebral medial e um achado semiótico típico: orifício do ponto lacrimal evertido, dilatado e avermelhado, associado à saída de secreção mucopurulenta ou concreções amareladas (grânulos de enxofre) à compressão canalicular.
+
+• **D) Incorreta:** A dacriocistite é a infecção do saco lacrimal, comumente secundária à obstrução do ducto nasolacrimal. Seu acometimento é classicamente infrapalpebral e medial, manifestando-se como uma tumoração eritematosa, tensa e muito dolorosa localizada na região do canto interno do olho, inferiormente ao tendão cantal medial, frequentemente associada a celulite periorbital adjacente e refluxo de pus pelos pontos lacrimais à digitopressão do saco lacrimal.
 </details>
 
 ---
@@ -17237,16 +17520,17 @@ Um homem de 65 anos compareceu a unidade de pronto atendimento, por apresentar d
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** O quadro clínico apresentado é de uma infecção respiratória aguda baixa (febre, tosse, dispneia, taquipneia e hipoxemia) associada a uma síndrome de derrame pleural (provável derrame parapneumônico) em hemitórax esquerdo.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. O quadro clínico e o exame físico são diagnósticos de síndrome de derrame pleural (neste caso, um provável **derrame parapneumônico** decorrente de infecção respiratória aguda), achado que se traduz na radiografia de tórax como **opacificação** homogênea dependente da gravidade.
 
-Fundamentação fisiopatológica e semiológica:
-- A semiologia clássica do derrame pleural caracteriza-se pela interposição de líquido entre o parênquima pulmonar e a parede torácica, resultando em: diminuição da expansibilidade torácica, redução ou abolição do murmúrio vesicular (sons respiratórios diminuídos), redução do frêmito toracovocal (o líquido atua como barreira acústica para a transmissão das vibrações vocais) e macicez à percussão torácica.
-- Na radiografia de tórax em incidência póstero-anterior (PA) e perfil, o acúmulo de líquido no espaço pleural manifesta-se tipicamente como uma opacificação (radiopacidade/densidade líquida) homogênea no hemitórax acometido, frequentemente acompanhada de apagamento dos seios costofrênico e cardiofrênico e formação do sinal do menisco (parábola de Damoiseau). Portanto, a alternativa A é a correta.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Síndrome de **derrame pleural** à esquerda em vigência de provável pneumonia bacteriana adquirida na comunidade (**derrame parapneumônico**).
+2. **Critério Clínico / Fisiopatologia:** A interposição de líquido entre a pleura parietal e visceral atua como isolante acústico e barreira mecânica, resultando na tétrade semiológica clássica: **expansibilidade torácica diminuída**, **murmúrio vesicular diminuído/abolido**, **frêmito toracovocal (FTV) diminuído** e **macicez à percussão**. Esse perfil afasta pneumonia pura/não complicada (na qual o FTV encontra-se aumentado com broncofonia e sopro tubário) e pneumotórax (no qual a percussão revela hipertimpanismo).
+3. **Achado Radiológico Padrão:** Na radiografia de tórax, a presença de líquido livre na cavidade pleural acumula-se nas porções pendentes, produzindo **opacificação homogênea** na base do hemitórax acometido, frequentemente associada ao apagamento dos recessos costofrênicos e à conformação da clássica *parábola de Damoiseau* (sinal do menisco).
 
-Análise das alternativas incorretas:
-- Alternativa B: A hipertransparência radiológica decorre do aumento do conteúdo aéreo (como em pneumotórax ou enfisema pulmonar). Clinicamente, o pneumotórax cursa com hipertimpanismo à percussão e não macicez.
-- Alternativa C: A visualização da linha pleural visceral descolada da parede torácica com ausência de trama vascular periférica é o achado radiográfico diagnóstico de pneumotórax, o qual se manifesta com timpanismo/hipertimpanismo à percussão, diferindo do padrão semiológico de macicez deste paciente.
-- Alternativa D: Linhas horizontais periféricas correspondem às linhas B de Kerley, achados associados ao espessamento dos septos interlobulares decorrente de congestão pulmonar/edema intersticial (geralmente por insuficiência cardíaca descompensada) ou pneumopatias intersticiais, não sendo o achado radiológico típico de consolidação ou derrame pleural agudo unilateral.
+**Análise dos Distratores:**
+• **Alternativa B (Incorreta):** A **hipertransparência** reflete aumento do conteúdo aéreo intrapulmonar ou pleural (como em **enfisema pulmonar** ou **pneumotórax**), condições que cursam semiologicamente com **hipertimpanismo**, e não macicez.
+• **Alternativa C (Incorreta):** A visualização de **linha pleural visível** com ausência de trama vascular periférica é o sinal patognomônico de **pneumotórax**, patologia que não se coaduna com a macicez à percussão encontrada.
+• **Alternativa D (Incorreta):** Linhas horizontais periféricas representam as **linhas B de Kerley**, que decorrem de espessamento dos septos interlobulares por **congestão venocapilar pulmonar** (edema intersticial em insuficiência cardíaca) ou pneumopatias intersticiais, sem correlação direta com a síndrome do derrame pleural unilateral agudo.
 </details>
 
 ---
@@ -17298,17 +17582,21 @@ Uma paciente com 54 anos apresenta tosse com expectoração e astenia há 5 dias
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A questão aborda a interpretação laboratorial do líquido pleural no contexto de um derrame parapneumônico complicado/empiema pleural.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-O empiema pleural é definido pela presença de pus franco no espaço pleural ou derrame parapneumônico com evidência de invasão bacteriana (Gram ou cultura positivos) e/ou alterações bioquímicas compatíveis com intensa atividade metabólica e inflamatória local.
+O quadro clínico apresentado é de pneumonia bacteriana adquirida na comunidade complicada com derrame pleural, cuja evolução culminou em **empiema pleural**. As fases evolutivas do acometimento pleural parapneumônico compreendem: a fase exsudativa (derrame parapneumônico simples), a fase fibrinopurulenta (derrame parapneumônico complicado e empiema) e a fase de organização (com formação de carapaça pleural e encarceramento pulmonar).
 
-1. **Justificativa da alternativa correta (B):**
-No empiema, a intensa resposta inflamatória neutrofílica associada à lise celular maciça (tanto de leucócitos quanto de células parenquimatosas) eleva acentuadamente a concentração de lactato desidrogenase (LDH) no líquido pleural. Os critérios clássicos (Light e diretrizes da *British Thoracic Society* - BTS / *American College of Chest Physicians* - ACCP) definem que um derrame parapneumônico complicado ou empiema cursa tipicamente com **LDH > 1.000 UI/L**, indicando a necessidade de drenagem torácica de urgência.
+O empiema pleural é caracterizado pela presença macroscópica de pus na cavidade pleural ou pela presença de microrganismos identificados na bacterioscopia/cultura. Sob a perspectiva bioquímica, a maciça invasão bacteriana associada a um afluxo exuberante de neutrófilos gera intenso metabolismo anaeróbico local e extensa lise celular. Como consequência dessa destruição de polimorfonucleares e atividade celular tecidual, ocorre grande liberação intracelular de desidrogenase lática, elevando a dosagem de lactato desidrogenase para patamares marcadamente elevados, caracteristicamente com **LDH superior a 1.000 UI/L**.
 
-2. **Análise dos distratores (incorretos):**
-- **A) Incorreta:** Em virtude do metabolismo anaeróbico intenso pelas bactérias e pelos polimorfonucleares, há acúmulo de ácido lático e dióxido de carbono, resultando em acidose pleural acentuada, com **pH tipicamente < 7,20** (frequentemente < 7,00 no empiema frank).
-- **C) Incorreta:** O consumo ativo de glicose pelos microrganismos invasores e pelos neutrófilos, associado ao bloqueio do transporte facilitado através da pleura inflamada, leva a níveis muito baixos de glicose pleural, habitualmente **inferiores a 40–60 mg/dL**.
-- **D) Incorreta:** O empiema é, por definição patológica, um exsudato inflamatório exuberante. Portanto, a concentração proteica é alta, tipicamente com **proteínas totais > 3,0 g/dL** (relação proteína pleural/sérica > 0,5).
+Além disso, o consumo desproporcional de substrato pelos neutrófilos e bactérias reduz significativamente a glicose no espaço pleural, enquanto a produção excessiva de ácido lático e gás carbônico gera acidose local acentuada (queda do pH), consolidando os critérios diagnósticos e de indicação de toracostomia com drenagem pleural fechada.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O metabolismo glicolítico anaeróbico de neutrófilos e bactérias resulta em grande acúmulo de ácido lático na cavidade pleural. No empiema e nos derrames parapneumônicos complicados, o pH encontra-se invariavelmente diminuído, sendo caracteristicamente menor que 7,20 e muitas vezes menor que 7,00.
+
+• **C) Incorreta:** Em virtude do intenso consumo metabólico promovido pela proliferação bacteriana e pela atividade fagocítica dos leucócitos, a concentração de glicose no líquido pleural reduz de forma importante, atingindo níveis inferiores a 40 a 60 mg/dL.
+
+• **D) Incorreta:** Todo derrame parapneumônico, especialmente o empiema, é um exsudato inflamatório clássico decorrente do aumento da permeabilidade capilar microvascular e do influxo proteico. Portanto, os níveis de proteína pleural são elevados, apresentando dosagem tipicamente superior a 3,0 g/dL e relação entre a proteína pleural e a proteína sérica superior a 0,5, de acordo com os critérios de Light.
 </details>
 
 ---
@@ -17329,17 +17617,27 @@ Um paciente com 20 anos, previamente hígido, é recebido em pronto atendimento 
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) está correta. O quadro clínico e o exame físico são clássicos de Pneumonia Adquirida na Comunidade (PAC) bacteriana complicada com derrame pleural (derrame parapneumônico). 
+> **Comentário Médica:** A alternativa D está correta.
 
-1. Fundamentação clínica e semiológica:
-- Quadro infeccioso agudo: Paciente jovem, previamente hígido, com história de 5 dias de febre alta diária (38 a 39 °C), tosse produtiva e astenia, curso típico de pneumonia bacteriana.
-- Complicação pleural: O surgimento de dor torácica ventilatório-dependente (pleurítica) associada à piora da dispneia decorre da inflamação da pleura parietal e do acúmulo de líquido no espaço pleural.
-- Síndrome de derrame pleural ao exame físico: A presença de líquido entre o parênquima pulmonar e a parede torácica atenua a transmissão de sons e vibrações. Caracteriza-se classicamente pela tríade semiológica observada no paciente: (1) Frêmito Toracovocal (FTV) diminuído ou abolido; (2) Percussão com submacicez ou macicez; e (3) Murmúrio Vesicular (MV) diminuído ou abolido, além de diminuição da expansibilidade torácica unilateral.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos distratores:
-- Alternativa A (Incorreta): Pneumonias virais costumam cursar com tosse seca, sintomas sistêmicos mais difusos e padrão intersticial, raramente evoluindo agudamente com grande derrame ou atelectasia lobar isolada em paciente jovem hígido. Ademais, a evolução clínica e o escarro produtivo favorecem etiologia bacteriana.
-- Alternativa B (Incorreta): Neoplasia pulmonar é um diagnóstico altamente improvável na faixa etária de 20 anos, sem história prévia e com início hiperagudo (5 dias) de sintomas febris proeminentes e tosse produtiva.
-- Alternativa C (Incorreta): O pneumotórax cursa com hipersonoridade ou timpanismo à percussão torácica, e não submacicez. Além disso, a tuberculose pulmonar manifesta-se tipicamente com curso subagudo a crônico (tosse por mais de 2 a 3 semanas, febre vespertina e sudorese noturna).
+1. **Quadro Clínico e Epidemiologia:**
+Trata-se de um jovem previamente hígido com história aguda de cinco dias de tosse produtiva, febre alta diária (38 a 39 °C) e astenia, quadro que caracteriza classicamente uma **pneumonia adquirida na comunidade**. A evolução subsequente com dor torácica ventilatório-dependente (dor pleurítica) e dispneia progressiva indica o acometimento da pleura parietal e o acúmulo de exsudato no espaço pleural, definindo um **derrame parapneumônico**.
+
+2. **Síndrome do Derrame Pleural à Semiologia:**
+A presença de líquido na cavidade pleural interpõe uma barreira física entre o parênquima pulmonar e a parede torácica, resultando nos achados semiológicos clássicos descritos no exame físico:
+- Inspeção: expansibilidade torácica reduzida no hemitórax acometido, decorrente de dor e restrição mecânica.
+- Palpação: frêmito toracovocal diminuído ou abolido, uma vez que o líquido dissipa e reflete as ondas sonoras geradas pela fonação, impedindo sua transmissão à parede do tórax (ao contrário da consolidação pura sem derrame, na qual o frêmito estaria aumentado).
+- Percussão: macicez ou submacicez em base pulmonar, pela substituição do ar alveolar pelo meio líquido de maior densidade acústica.
+- Ausculta: murmúrio vesicular abolido na base afetada, devido ao colapso alveolar subjacente e à atenuação da condução do som através da lâmina líquida.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** As infecções virais do trato respiratório inferior costumam manifestar-se por tosse seca, sintomas sistêmicos prodrômicos e infiltrados intersticiais bilaterais difusos, raramente cursando com escarro purulento agudo e derrame parapneumônico em pacientes jovens hígidos. Ademais, a atelectasia primária por tampão mucoso produziria desvio das estruturas mediastinais para o lado acometido e não explicaria a febre alta persistente sem uma infecção bacteriana subjacente.
+
+• **B) Incorreta:** Neoplasia pulmonar é uma hipótese extremamente improvável em um indivíduo de 20 anos previamente hígido, com início agudo de sintomas há apenas cinco dias. O câncer de pulmão apresenta evolução subaguda a crônica, com sintomas constitucionais arrastados, hemoptise e perda ponderal, podendo até complicar com pneumonia pós-obstrutiva ou atelectasia, mas totalmente incompatível com a epidemiologia e história relatadas.
+
+• **C) Incorreta:** O pneumotórax caracteriza-se pela presença de ar no espaço pleural, determinando timpanismo ou hipersonoridade à percussão, o que contraria frontalmente a submacicez encontrada ao exame físico. Além disso, a tuberculose pulmonar tipicamente cursa de forma crônica ou subaguda, com tosse persistente por mais de três semanas, sudorese noturna e febre vespertina de baixa intensidade.
 </details>
 
 ---
@@ -17459,16 +17757,23 @@ Paciente do sexo masculino, de 76 anos, pardo, tabagista 40 anos/maço, foi inte
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A alternativa (B) é a correta pois integra harmonicamente os achados clínicos, epidemiológicos e propedêuticos do caso:
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O quadro clínico integra a tríade de **neoplasia pulmonar**, **pneumonia pós-obstrutiva** de repetição e **derrame pleural** associado, segundo as diretrizes de propedêutica e oncologia torácica da Sociedade Brasileira de Pneumologia e Tisiologia (SBPT).
 
-1. Neoplasia pulmonar (câncer de pulmão): O paciente apresenta perfil epidemiológico clássico (sexo masculino, idoso, carga tabágica elevada de 40 anos-maço) associado a manifestações consumptivas (astenia, hiporexia e perda ponderal), tosse com escarro hemoptoico e rouquidão (sinal de invasão ou compressão mediastinal do nervo laríngeo recorrente, frequente em tumores centrais).
-2. Pneumonia pós-obstrutiva: A presença de consolidação ou processo infeccioso recorrente no mesmo sítio (segunda internação em três meses com melhora prévia transitória após antibioticoterapia) é altamente sugestiva de obstrução mecânica brônquica por lesão endoluminal ou compressão extrínseca neoplásica, predispondo ao acúmulo de secreções e infecções bacterianas de repetição.
-3. Derrame pleural: O exame físico revela macicez à percussão em base pulmonar direita associada à abolição do murmúrio vesicular, achados semióticos clássicos de acúmulo de líquido no espaço pleural (derrame pleural), que pode ser de etiologia metapneumônica (complicando a pneumonia pós-obstrutiva) ou neoplásica (invasão pleural direta ou carcinomatose pleural). A hipersonoridade logo acima da macicez traduz o fenômeno de skodismo (hipersonoridade de Skoda), decorrente do parênquima pulmonar parcialmente comprimido ou com hiperinsuflação vicariante acima do nível líquido.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa A (Incorreta): A silicose decorre de exposição ocupacional inalatória crônica à sílica livre (como mineração e jateamento de areia), dado ausente na história. O pneumotórax cursa classicamente com hipersonoridade (timpanismo) à percussão de todo o hemitórax acometido, e não com macicez em base.
-- Alternativa C (Incorreta): O tromboembolismo pulmonar (TEP) costuma apresentar início súbito de dispneia e dor torácica pleurítica, sem febre elevada ou escarro purulento recorrente responsivo a amoxicilina-clavulanato. A rouquidão é mais bem explicada por acometimento do nervo laríngeo recorrente secundário à própria neoplasia pulmonar/linfonodomegalias mediastinais do que por neoplasia primária de cabeça e pescoço associada a TEP.
-- Alternativa D (Incorreta): A granulomatose eosinofílica com poliangiíte (síndrome de Churg-Strauss) é uma vasculite necrotizante sistêmica associada a asma grave de início tardio, rinite alérgica/polipose nasal e eosinofilia periférica marcante, achados que não foram descritos no caso.
+1. **Neoplasia pulmonar primária:** Paciente idoso com **carga tabágica elevada (40 anos/maço)** apresentando **síndrome consumptiva** (astenia, hiporexia e perda ponderal), tosse com escarro hemoptoico e **rouquidão**. A disfonia/rouquidão decorre tipicamente do comprometimento ou compressão do **nervo laríngeo recorrente** por invasão tumoral direta ou linfonodomegalias mediastinais.
+
+2. **Pneumonia pós-obstrutiva:** A recorrência de infecção respiratória baixa no mesmo sítio anatômico (segunda internação em três meses), com resposta apenas temporária a antimicrobiano (**amoxicilina-clavulanato**), caracteriza a obstrução brônquica por lesão endoluminal ou extrínseca. A estase de secreções a jusante da lesão tumoral perpetua episódios infecciosos de repetição.
+
+3. **Derrame pleural:** O exame físico do hemitórax direito evidencia **macicez à percussão** associada a **murmúrio vesicular abolido** em base, achados semióticos clássicos de acúmulo líquido no espaço pleural (metapneumônico complicado ou carcinomatose pleural). A presença de hipersonoridade adjacente acima da área de macicez representa o fenômeno semiológico conhecido como *som skódico* (hipersonoridade de Skoda), decorrente do parênquima pulmonar relaxado/hiperinsuflado vicariante.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **silicose** é uma pneumoconiose que exige histórico ocupacional específico (mineração, jateamento de areia ou pedreiras), ausente no relato. Ademais, o **pneumotórax** manifesta-se classicamente com **timpanismo/hipersonoridade** difusa e não macicez em base.
+
+• **Alternativa C (Incorreta):** O **tromboembolismo pulmonar (TEP)** apresenta instalação aguda com dor pleurítica súbita e dispneia desproporcional, sem febre de 38 °C com escarro francamente purulento e responsivo a antibióticos. A disfonia é explicada de forma muito mais coesa pela compressão neoplásica do nervo laríngeo recorrente do que por uma segunda neoplasia primária sincrônica de cabeça e pescoço.
+
+• **Alternativa D (Incorreta):** A **granulomatose eosinofílica com poliangiíte** (antiga síndrome de *Churg-Strauss*) é uma vasculite necrotizante de pequenos vasos caracterizada obrigatoriamente por **asma grave**, rinite alérgica/polipose nasal e **eosinofilia periférica** acentuada, ausentes na história do paciente.
 </details>
 
 ---
@@ -17706,15 +18011,19 @@ Paciente de 40 anos de idade, sexo masculino, compareceu ao pronto-socorro com h
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta subsequente adequada e prioritária é a toracocentese diagnóstica à direita (Alternativa B).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. Diante de uma **pneumonia adquirida na comunidade (PAC)** associada a **derrame pleural parapneumônico**, as diretrizes da **Sociedade Brasileira de Pneumologia e Tisiologia (SBPT)** e da *British Thoracic Society* (**BTS**) preconizam a realização imediata de **toracocentese diagnóstica** para afastar derrame complicado ou empiema e guiar a terapia cirúrgica e antimicrobiana.
 
-1. Fundamentação Clínica e Diretrizes:
-O paciente apresenta um quadro clássico de pneumonia adquirida na comunidade (PAC) associada a derrame pleural parapneumônico (consolidação em lobo médio associada a derrame pleural na incidência de Laurell). De acordo com as diretrizes da Sociedade Brasileira de Pneumologia e Tisiologia (SBPT), do American College of Chest Physicians (ACCP) e da British Thoracic Society (BTS), todo derrame pleural parapneumônico significativo (espessura > 10 mm na incidência em decúbito lateral/Laurell) deve ser submetido à toracocentese diagnóstica imediata. A punção é essencial para a diferenciação entre derrame parapneumônico não complicado, derrame complicado e empiema, analisando-se o aspecto macroscópico, pH (< 7,2 indica complicação), glicose (< 40–60 mg/dL), DHL (> 1.000 UI/L), bacterioscopia (Gram) e cultura. Essa diferenciação define a necessidade de drenagem torácica em selo d'água de urgência, além da antibioticoterapia sistêmica.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- Alternativa A (Tomografia de tórax): Embora a tomografia de tórax tenha excelente acurácia para avaliação do parênquima pulmonar e de coleções pleurais loculadas, ela não substitui a necessidade imediata de análise bioquímica e microbiológica do líquido pleural e não deve atrasar a toracocentese diagnóstica.
-- Alternativa C (Ultrassonografia de tórax): A ultrassonografia torácica é uma excelente ferramenta adjunta para guiar a toracocentese e identificar loculações (septações), mas a conduta clínica mandatória em si é o procedimento invasivo para coleta do líquido (a toracocentese), e não apenas a solicitação de um exame de imagem adicional.
-- Alternativa D (Exame de escarro com pesquisa de BAAR): O quadro agudo com tosse produtiva purulenta, dor pleurítica e febre alta de uma semana é típico de PAC bacteriana típica. A pesquisa de BAAR é indicada na suspeita de tuberculose pulmonar (sintomas respiratórios arrastados há mais de 2 a 3 semanas), não sendo a prioridade condutora da abordagem de um derrame parapneumônico agudo com potencial de empiema.
+1. **Diagnóstico da Afecção/Quadro:** Paciente jovem com apresentação típica de **pneumonia adquirida na comunidade** complicada por **derrame pleural parapneumônico à direita**, evidenciado pela consolidação no lobo médio e líquido livre demonstrado na incidência de *Laurell* (decúbito lateral com raios horizontais).
+2. **Critério Clínico / Fisiopatologia:** A presença de lâmina líquida visualizada na incidência de *Laurell* (tipicamente com **espessura ≥ 10 mm**) configura um derrame clinicamente significativo. O líquido pleural parapneumônico pode evoluir por fases: exudativa, fibropurulenta e de organização. Para definir se o derrame é **não complicado**, **complicado** ou um **empiema**, é indispensável a coleta e análise laboratorial imediata do líquido.
+3. **Indicação de Conduta:** A **toracocentese à direita** é mandatória e prioritária para avaliar macroscopia (pus franco), mensuração de **pH (< 7,2)**, **glicose (< 40–60 mg/dL)**, **desidrogenase lática (DHL > 1.000 UI/L)**, além de bacterioscopia pelo método de **Gram** e **cultura**. Esses parâmetros definem a necessidade imediata de **drenagem torácica tubular em selo d'água** associada à antibioticoterapia sistêmica.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **tomografia computadorizada de tórax** é útil para caracterizar coleções loculadas complexas e lesões parenquimatosas associadas, mas trata-se de um método de imagem que **não substitui** a necessidade urgente de punção diagnóstica e posterga a conduta invasiva essencial.
+• **Alternativa C (Incorreta):** A **ultrassonografia de tórax** pode ser utilizada como método auxiliar para localizar e guiar a punção com maior segurança (evitando acidentes de punção), contudo a conduta médica resolutiva e diagnóstica primordial é a execução da **toracocentese**, e não a simples solicitação de outro exame de imagem.
+• **Alternativa D (Incorreta):** A pesquisa de **bacilos álcool-ácido resistentes (BAAR)** no escarro destina-se à investigação de **tuberculose pulmonar**, tipicamente caracterizada por tosse com evolução subaguda a crônica (superior a 2–3 semanas), sudorese noturna e perda ponderal, divergindo do quadro agudo e purulento de uma pneumonia bacteriana típica.
 </details>
 
 ---
@@ -18224,20 +18533,28 @@ Uma paciente com 22 anos foi atendida na atenção primária, acompanhada pelos 
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** O quadro clínico apresentado é clássico de Anorexia Nervosa Grave/Extrema em descompensação clínica aguda e com alto risco de óbito por causas cardiovasculares ou distúrbios hidroeletrolíticos.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
+O quadro clínico é representativo de **anorexia nervosa grave** do subtipo restritivo em fase de descompensação clínica aguda. Trata-se de uma paciente jovem com restrição crônica persistente da ingestão calórica, histórico de hospitalização prévia para suporte nutricional e emagrecimento severo, sem relato de episódios purgativos.
 
-1. Fundamentação da conduta correta (Alternativa A):
-De acordo com as diretrizes internacionais (American Psychiatric Association - APA, The National Institute for Health and Care Excellence - NICE) e nacionais (Ministério da Saúde) sobre transtornos alimentares, existem critérios formais de instabilidade clínica que indicam a necessidade imediata de internação hospitalar em ambiente de maior complexidade, tais como:
-- Desnutrição grave: Índice de Massa Corporal (IMC) < 15 kg/m² (na paciente, IMC = 14,8 kg/m²);
-- Alterações hemodinâmicas e cardiovasculares: Bradicardia sinusal de repouso (FC < 40-50 bpm; na paciente, FC = 42 bpm), hipotensão postural e hipotensão arterial;
-- Desidratação e risco iminente de síndrome de realimentação e arritmias ventriculares potencialmente fatais (p. ex., prolongamento do intervalo QTc e Torsades de Pointes);
-- Histórico de internações prévias e falha de controle da ingestão alimentar.
-Portanto, diante da gravidade e instabilidade clínica, o paciente não pode ser mantido em nível ambulatorial primário, devendo ser referenciado urgentemente para avaliação em serviço terciário/hospitalar para suporte clínico, estabilização hidroeletrolítica e planejamento seguro de suporte nutricional.
+A desnutrição calórico-proteica extrema acarreta adaptações neuroendócrinas e metabólicas, que culminam em diminuição do metabolismo basal, disfunção miocárdica e instabilidade autonômica. A atrofia do miocárdio associada a alterações hidroeletrolíticas eleva substancialmente o risco de prolongamento do intervalo QT, taquiarritmias ventriculares fatais (como Torsades de Pointes) e parada cardíaca súbita.
 
-2. Análise dos distratores:
-- Alternativa B está incorreta: O topiramato é um anticonvulsivante que induz supressão do apetite e perda de peso; seu uso é formalmente contraindicado em quadros restritivos de anorexia nervosa, sob risco de piorar dramaticamente a desnutrição.
-- Alternativa C está incorreta: Os antidepressivos tricíclicos (como a amitriptilina) possuem efeitos anticolinérgicos e potencial arritmogênico importante (prolongamento do intervalo QT, bloqueios de condução e piora da hipotensão postural). Em uma paciente caquética com bradicardia e alto risco cardiovascular, seu uso eleva sobremaneira a mortalidade.
-- Alternativa D está incorreta: O encaminhamento para ambulatório adia uma intervenção que exige urgência hospitalar imediata. Além disso, a via e a forma de suporte nutricional devem ser instituídas de maneira monitorizada intra-hospitalar, prevenindo a temida síndrome de realimentação (hipofosfatemia, hipomagnesemia e hipocalemia agudas).
+**Critérios de Gravidade e Indicação de Internação:**
+As principais diretrizes de psiquiatria e medicina interna (como as da American Psychiatric Association e do National Institute for Health and Care Excellence) estabelecem critérios objetivos de instabilidade clínica que exigem **internação hospitalar** imediata:
+1. **Estado Nutricional Crítico:** Índice de massa corporal (IMC) inferior a 15 kg/m² (no caso, 14,8 kg/m²), caracterizando gravidade extrema pelo DSM-5.
+2. **Instabilidade Hemodinâmica:** Bradicardia sinusal de repouso significativa com frequência cardíaca menor que 50 bpm (a paciente apresenta 42 bpm) e hipotensão ortostática com desidratação clínica.
+3. **Risco de Síndrome de Realimentação:** A desnutrição severa e prolongada predispõe a quedas abruptas de fósforo, potássio e magnésio com a reintrodução alimentar, o que pode causar falência cardíaca e óbito caso não haja monitorização hospitalar contínua.
+
+Portanto, a abordagem inicial deve ser realizada em ambiente de urgência e emergência ou hospital terciário para estabilização hidroeletrolítica, monitorização eletrocardiográfica contínua e introdução gradual e segura da terapia nutricional.
+
+**Análise das alternativas:**
+
+• **A) Correta:** O encaminhamento com prioridade para hospital de complexidade terciária com o objetivo de internação hospitalar é a conduta mandatória diante do risco iminente de colapso circulatório e morte súbita.
+
+• **B) Incorreta:** O topiramato é um anticonvulsivante/estabilizador do humor com efeito anorexígeno e indutor de perda de peso, sendo formalmente contraindicado em transtornos alimentares restritivos com desnutrição severa.
+
+• **C) Incorreta:** A amitriptilina é um antidepressivo tricíclico com potente ação arritmogênica, bloqueio de canais de sódio e cálcio, prolongamento do intervalo QT e efeito bloqueador alfa-1 adrenérgico (que acentua a hipotensão postural), sendo altamente perigosa para pacientes desnutridos e bradicárdicos.
+
+• **D) Incorreta:** O encaminhamento para acompanhamento ambulatorial impõe atraso diagnóstico e terapêutico inaceitável frente à gravidade do quadro. Ademais, a passagem de sonda nasoentérica e a realimentação exigem ambiente intra-hospitalar para monitorização de fósforo sérico e prevenção da síndrome de realimentação.
 </details>
 
 ---
@@ -18327,16 +18644,19 @@ Nesse caso, qual é a conduta adequada?
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta padrão para este caso é referenciar a paciente à equipe multiprofissional do Centro de Atenção Psicossocial (CAPS), tornando a alternativa (D) a correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. A paciente apresenta evolução com sintomas psicóticos e ideação suicida, configurando transtorno mental grave que requer acompanhamento pela equipe multiprofissional do **Centro de Atenção Psicossocial (CAPS)**, serviço de base comunitária da **Rede de Atenção Psicossocial (RAPS)**, conforme as diretrizes do Ministério da Saúde e a Lei da Reforma Psiquiátrica.
 
-1. **Fundamentação clínica e organizacional (Rede de Atenção Psicossocial - RAPS):**
-A paciente apresenta um quadro de Transtorno Depressivo Maior grave com características psicóticas (alucinações auditivas e visuais há cerca de 1 mês) associado à ideação suicida sem planejamento, além de resposta inadequada ao tratamento de primeira linha otimizado na Atenção Primária à Saúde (APS) — uso de fluoxetina 40 mg/dia por 6 meses com apenas discreta melhora. 
-Segundo a Portaria nº 3.088/2011 do Ministério da Saúde (que institui a RAPS) e as diretrizes de saúde mental no SUS, o CAPS é o serviço comunitário de referência para o acolhimento e tratamento de pessoas com transtornos mentais graves e persistentes, que requerem intervenção intensiva de equipe multiprofissional (médicos psiquiatras, psicólogos, terapeutas ocupacionais, enfermeiros e assistentes sociais). Como a paciente possui ideação suicida sem planejamento estruturado e conta com suporte familiar presente e vigilante (mora com a irmã, que a acompanhou à unidade), não há indicação de internação hospitalar de urgência, sendo o cuidado territorial e de base comunitária no CAPS a melhor estratégia terapêutica.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. **Análise dos distratores:**
-- **Alternativa A (Incorreta):** Manter o manejo exclusivo na UBS é inadequado diante do surgimento de sintomas psicóticos (vozes e vultos) e ideação suicida, configurando gravidade clínica que ultrapassa o escopo de manejo isolado pela Atenção Básica, necessitando de matriciamento e cuidado compartilhado ou referenciamento especializado ao CAPS.
-- **Alternativa B (Incorreta):** A Lei nº 10.216/2001 (Lei da Reforma Psiquiátrica) preconiza a desinstitucionalização e a restrição ao modelo asilar de hospitais psiquiátricos, priorizando os serviços comunitários da RAPS. Ademais, a paciente não apresenta critérios clínicos para internação psiquiátrica involuntária ou imediata (ausência de risco iminente de auto ou heteroagressividade, ausência de plano de suicídio e suporte social preservado).
-- **Alternativa C (Incorreta):** A internação em leito de saúde mental em hospital geral é indicada em situações de crise aguda grave com risco iminente à vida (ex.: tentativa prévia recente, plano suicida estruturado de alta letalidade, agitação psicomotora grave ou recusa alimentar com risco biológico), o que não é o caso, já que a paciente expressa ideação sem planejamento e dispõe de suporte da irmã.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um **Transtorno Depressivo Maior grave com características psicóticas** e ideação de morte, associado à **refratariedade terapêutica parcial** ao uso otimizado de inibidor seletivo da recaptação de serotonina (**fluoxetina 40 mg/dia** por 6 meses).
+2. **Critério Clínico / Fisiopatologia:** A paciente desenvolveu alucinações auditivas e visuais (ouvir vozes e ver vultos) e **ideação suicida sem plano estruturado**. Apesar da gravidade clínica acrescida pela psicose, ela mantém vínculo e suporte social ativo (mora com a irmã, que a acompanha e demonstra preocupação e vigilância), inexistindo risco iminente de autoagressão letal imediata.
+3. **Indicação de Conduta:** Segundo as diretrizes da **Portaria MS nº 3.088/2011**, os **CAPS** são os pontos de atenção especializados destinados ao acolhimento e tratamento de pessoas com sofrimento psíquico grave e persistente. O caso demanda abordagem multiprofissional (médico psiquiatra, psicólogo, terapeuta ocupacional, enfermagem) e ajuste farmacológico em ambiente comunitário e territorial, sem necessidade de ruptura com o meio social.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O surgimento de **sintomas psicóticos** e ideação suicida ultrapassa o escopo de manejo exclusivo da Atenção Primária à Saúde (**UBS**), exigindo avaliação especializada e suporte multiprofissional intensivo.
+• **Alternativa B (Incorreta):** A **Lei nº 10.216/2001** restringe internações psiquiátricas a situações excepcionais de esgotamento de recursos extra-hospitalares. O modelo hospitalocêntrico/asilar é contraindicado, devendo-se priorizar os serviços abertos e territoriais da RAPS.
+• **Alternativa C (Incorreta):** A **internação em hospital geral** é reservada para crises agudas com **risco iminente de suicídio** (tentativa recente, plano estruturado de alta letalidade) ou grave comprometimento físico, o que não se aplica, pois a paciente tem ideação sem planejamento e conta com suporte familiar protetor.
 </details>
 
 ---
@@ -18597,22 +18917,23 @@ Nesse caso, qual é a conduta adequada?
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta padrão e correta é a **Alternativa (C)**.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. De acordo com as diretrizes do **Ministério da Saúde** e do *National Institute for Health and Care Excellence* (**NICE**) para atenção primária, o manejo de transtornos de ansiedade com resposta terapêutica subótima após tempo adequado exige a otimização da abordagem multimodal, combinando **psicoterapia estruturada** e **reavaliação farmacológica**.
 
-### **Fundamentação Clínica e Raciocínio Terapêutico**
-A paciente apresenta um quadro compatível com transtorno de ansiedade com componentes de pânico e agorafobia (ataques recorrentes desencadeados pela perspectiva ou ato de sair de casa, com prejuízo funcional marcante nas atividades diárias). Ela foi iniciada em sertralina 50 mg/dia há 10 semanas (tempo mais do que suficiente para avaliação de resposta, que habitualmente ocorre entre 4 e 8 semanas), obtendo apenas melhora discreta e evolução com novos sintomas incapacitantes.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Segundo as diretrizes clínicas para manejo de transtornos de ansiedade na Atenção Primária à Saúde (como as do Ministério da Saúde e do *National Institute for Health and Care Excellence* - NICE):
-1. **Psicoterapia Estruturada:** A Terapia Cognitivo-Comportamental (TCC) é o padrão-ouro de abordagem não farmacológica, com alto nível de evidência especialmente para o tratamento de agorafobia e transtorno de pânico, promovendo técnicas de reestruturação cognitiva e dessensibilização sistemática/exposição gradual.
-2. **Reavaliação e Otimização Farmacológica:** Como a paciente utilizou a dose inicial mínima eficaz (50 mg/dia) por período adequado e a resposta foi subótima, impõe-se a reavaliação da prescrição. A conduta medicamentosa lógica envolve o ajuste posológico (titulação para 100 mg a 200 mg/dia) antes de se considerar a troca de classe ou de molécula, monitorando a adesão e eventuais efeitos adversos.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um quadro compatível com **transtorno de ansiedade** associado a **ataques de pânico** e sintomas de **agorafobia**, evidenciados pela ansiedade intensa e incapacitante disparada pela necessidade de sair de casa, com prejuízo funcional diário importante.
 
----
+2. **Critério Clínico / Fisiopatologia:** A paciente fez uso de **sertralina 50 mg/dia** por **10 semanas**, tempo significativamente superior à janela mínima habitual de **4 a 8 semanas** para avaliação de resposta. Apresentou apenas **melhora discreta** e evolução com novos sintomas fobico-ansiosos limitantes, caracterizando uma **resposta terapêutica subótima** à dose inicial.
 
-### **Análise dos Distratores:**
+3. **Indicação de Conduta:** A abordagem padrão-ouro consiste na integração de **Terapia Cognitivo-Comportamental (TCC)** — intervenção de escolha para dessensibilização sistemática e reestruturação cognitiva na agorafobia — associada à **reavaliação da medicação**, com indicação primordial de **aumento de dose** (titulação até 150–200 mg/dia) ou eventual troca de antidepressivo caso não haja tolerância ou resposta após titulação máxima.
 
-* **A) Incorreta:** O encaminhamento a um pronto-socorro psiquiátrico é reservado para emergências psiquiátricas com risco iminente de auto ou heteroagressão, episódios psicóticos agudos graves ou estados confusionais/intoxicações. O caso em tela é de manejo estritamente ambulatorial. Ademais, o uso isolado de benzodiazepínicos não trata a etiologia de base e traz riscos de dependência e tolerância.
-* **B) Incorreta:** Manter a dose de 50 mg/dia e apenas observar é inadequado. A sertralina foi mantida por 10 semanas sem remissão dos sintomas e com piora do quadro funcional. A inércia terapêutica prolonga o sofrimento e a cronificação do transtorno.
-* **D) Incorreta:** Configura polifarmácia irracional e conduta iatrogênica. Não há indicação para a associação empírica de um antipsicótico de primeira geração (clorpromazina) para transtorno de ansiedade/pânico sem sintomas psicóticos. A troca desregulada de sertralina por fluoxetina em dose inicial associada a benzodiazepínico e antipsicótico foge a qualquer diretriz terapêutica baseada em evidências.
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O encaminhamento para **emergência psiquiátrica** é restrito a situações de risco iminente de auto/heteroagressão, episódios psicóticos agudos ou agitação psicomotora grave. O caso é de manejo ambulatorial na **Atenção Primária à Saúde**, e a prescrição isolada de **benzodiazepínicos** não trata a causa de base, trazendo risco de **tolerância e dependência**.
+
+• **Alternativa B (Incorreta):** Manter a dose de **50 mg/dia** após **10 semanas** sem benefício substancial configura **inércia terapêutica**, prolongando o sofrimento da paciente e favorecendo a cronificação dos sintomas agorafóbicos.
+
+• **Alternativa D (Incorreta):** Configura **polifarmácia irracional** e conduta iatrogênica. Não há indicação para a associação empírica de um **antipsicótico típico** de primeira geração (**clorpromazina**) em transtorno ansioso sem manifestações psicóticas, além de promover substituição abrupta por outro ISRS associado a **clonazepam** sem justificativa técnica fundamentada.
 </details>
 
 ---
@@ -19160,12 +19481,23 @@ O diagnóstico e a conduta para esse caso são, respectivamente,
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) está correta. A esclerose sistêmica (esclerodermia) acomete o trato gastrointestinal em até 90% dos pacientes, sendo o esôfago o órgão digestivo mais frequentemente envolvido tanto na forma difusa quanto na limitada. O mecanismo fisiopatológico decorre de vasculopatia de pequenos vasos e deposição tecidual excessiva de colágeno, promovendo atrofia do músculo liso e neuropatia autonômica, que afetam predominantemente os dois terços distais do esôfago. Isso resulta em incompetência acentuada (hipotonia) do esfíncter esofágico inferior (EEI) e hipomotilidade ou aperistalse do corpo esofágico. Clinicamente, manifesta-se por pirose retroesternal intensa, regurgitação ácida, disfagia de transporte e manifestações extraesofágicas decorrentes de microaspiração (como tosse seca noturna e broncoespasmo). O exame padrão-ouro para caracterizar, quantificar e confirmar a dismotilidade esofágica e a hipotonia do EEI é a manometria esofágica (idealmente de alta resolução).
+> **Comentário Médica:** O caso aborda uma paciente jovem com esclerose sistêmica na forma difusa apresentando sintomas digestivos altos clássicos associados a sintomas respiratórios atípicos decorrentes de refluxo.
 
-Análise dos distratores:
-- Alternativa A (Incorreta): A pleurite cursa tipicamente com dor torácica ventilatório-dependente (pontada que piora à inspiração profunda ou tosse), sem relação com deglutição, regurgitação ou pirose.
-- Alternativa B (Incorreta): A dor da angina instável é tipicamente em aperto, opressiva ou em peso, precipitada por esforço ou estresse e sem relação direta com disfagia, regurgitação ou decúbito; o cateterismo é um método invasivo desproporcional frente a um quadro francamente gastroesofágico.
-- Alternativa D (Incorreta): Embora a doença pulmonar intersticial (DPI) seja uma complicação frequente e grave da esclerose sistêmica difusa, seu quadro clássico é caracterizado por dispneia progressiva aos esforços e estertores crepitantes teleinspiratórios ("em velcro") nas bases pulmonares. Os sintomas apresentados pela paciente (dor em queimação, disfagia e regurgitação) apontam primariamente para comprometimento digestivo, sendo a tosse seca ao deitar secundária ao refluxo gastroesofágico grave e microaspiração.
+**Raciocínio Clínico e Fisiopatológico:**
+
+A esclerose sistêmica é uma doença do tecido conjuntivo caracterizada por disfunção endotelial, vasculopatia obliterante de pequenos vasos, ativação imunológica e fibrose tecidual progressiva. O trato gastrointestinal é o sítio visceral mais frequentemente afetado, estando comprometido em cerca de 90% dos pacientes, sendo o esôfago o segmento mais acometido.
+
+A fisiopatologia do envolvimento esofágico inicia-se com vasculopatia dos vasos neurais (vasa nervorum), provocando dano neurogênico colinérgico, seguida de atrofia progressiva da musculatura lisa e deposição fibrótica na lâmina própria e submucosa dos dois terços inferiores do esôfago. Essa sequência fisiopatológica resulta em aperistalse ou hipocinesia dos dois terços distais do corpo esofágico e acentuada hipotonia do esfíncter esofágico inferior.
+
+Clinicamente, essa combinação acarreta incompetência da barreira antirrefluxo e falha do clareamento esofágico, manifestando-se por dor torácica retroesternal em queimação (pirose), regurgitação ácida, disfagia mista (inicialmente funcional pela aperistalse e, tardiamente, mecânica por estenose péptica) e sintomas extraesofágicos de refluxo, como a tosse seca desencadeada pelo decúbito decorrente de microaspiração ou reflexo vagal esôfago-brônquico. O diagnóstico da **dismotilidade esofágica** é caracterizado e mensurado com maior sensibilidade e especificidade por meio da **manometria esofágica** (idealmente de alta resolução), que evidencia a hipotonia esfincteriana e a ausência de contrações peristálticas coordenadas.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A pleurite, embora possa ocorrer em colagenoses, caracteriza-se por dor torácica aguda, ventilatório-dependente, em pontada, que piora com a inspiração profunda, tosse ou movimentação do tronco, sem qualquer correlação com disfagia, queimação retroesternal ou regurgitação alimentar.
+
+• **B) Incorreta:** A angina instável manifesta-se tipicamente como dor ou desconforto torácico em aperto, opressão ou queimação desencadeada por esforço ou estresse emocional, frequentemente associada a irradiação para mandíbula ou membro superior esquerdo e sudorese fria, não justificando disfagia e regurgitação.
+
+• **D) Incorreta:** A doença pulmonar intersticial é uma complicação grave e comum na esclerose sistêmica difusa, mas seu quadro clínico cardinal é composto por dispneia aos esforços progressiva e tosse seca crônica, com estertores crepitantes finos tipo velcro às bases na ausculta pulmonar. Os sintomas apresentados pela paciente são primariamente digestivos, e a tosse noturna/ao deitar é explicada pela microaspiração decorrente do refluxo gastroesofágico maciço provocado pela dismotilidade.
 </details>
 
 ---
@@ -19293,22 +19625,19 @@ Assinale a opção que apresenta, respectivamente, a correta hipótese diagnóst
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) é a correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O caso clínico descreve a evolução clássica para a **fase crônica da febre de Chikungunya**, caracterizada por poliartrite persistente além de 3 meses, refratária ao manejo inicial com analgésicos e AINEs, tendo como indicação formal de tratamento o uso de **metotrexato**, conforme as diretrizes do Ministério da Saúde e da Sociedade Brasileira de Reumatologia (SBR).
 
-1. Raciocínio Clínico e Fisiopatológico:
-O quadro clínico inicial é clássico de infecção aguda pelo vírus Chikungunya (CHIKV), caracterizado por início súbito de febre alta, exantema cutâneo, hiperemia conjuntival e poliartralgia/poliartrite intensa. A infecção por Chikungunya evolui classicamente em três fases:
-- Fase aguda (até o 14º dia);
-- Fase pós-aguda ou subaguda (do 15º dia até o fim do 3º mês);
-- Fase crônica (além de 3 meses de evolução dos sintomas articulares).
+**Raciocínio Clínico e Fisiopatológico:**
 
-A paciente apresenta 4 meses de evolução com queixa exclusiva e persistente de artrite periférica inflamatória (acometimento de metacarpofalangeanas, interfalangeanas proximais, joelhos e tornozelos), configurando a fase crônica da febre de Chikungunya. Nessa fase, a resposta inflamatória articular crônica mimetiza a artrite reumatoide.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **Chikungunya na fase crônica**. A infecção pelo vírus Chikungunya (*CHIKV*) apresenta três fases temporais bem delimitadas: a **fase aguda** (até o 14º dia), a **fase pós-aguda ou subaguda** (do 15º dia ao final do 3º mês) e a **fase crônica** (acometimento articular persistente por **mais de 3 meses**).
+2. **Critério Clínico / Fisiopatologia:** O quadro agudo manifestou-se com febre de início súbito, exantema, hiperemia conjuntival e poliartralgia. A paciente evoluiu com **sinovite inflamatória persistente** por 4 meses em metacarpofalangeanas, interfalangeanas proximais, joelhos e tornozelos, simulando o padrão de acometimento da artrite reumatoide. A cronificação decorre de persistência de debris virais e inflamação imunomediada local.
+3. **Indicação de Conduta:** Diante da refratariedade aos analgésicos e anti-inflamatórios não hormonais (AINEs) na fase crônica, o protocolo preconiza a introdução de medicamentos modificadores do curso da doença (DMARDs), sendo o **metotrexato** a droga imunossupressora de **primeira linha**, visando controlar a inflamação articular e prevenir deformidades permanentes.
 
-Segundo as Diretrizes Nacionais para o Manejo Clínico do Chikungunya (Ministério da Saúde, 2017/2020) e da Sociedade Brasileira de Reumatologia (SBR), pacientes que persistem com artrite inflamatória refratária ao uso de analgésicos e anti-inflamatórios não hormonais (AINEs) devem ser conduzidos com medicamentos modificadores do curso da doença (DMARDs/DARM), sendo o Metotrexato (associado ou não à hidroxicloroquina) o imunossupressor de primeira linha recomendado para controle da sinovite crônica e prevenção de sequelas articulares.
+**Análise dos Distratores:**
 
-2. Análise dos distratores:
-- Alternativa A (Citomegalovirose; paracetamol): A citomegalovirose em imunocompetentes manifesta-se tipicamente como síndrome semelhante à mononucleose infecciosa (febre prolongada, astenia, linfadenopatia, esplenomegalia discreta e alteração transitória de transaminases). Não causa poliartrite crônica de padrão reumatológico, e o paracetamol seria ineficaz para controlar sinovite persistente.
-- Alternativa B (Febre do Mayaro; metotrexato): O vírus Mayaro (outro alfavírus) também provoca febre e artralgia aguda, mas ocorre majoritariamente em áreas silvestres/florestais da região Norte e Centro-Oeste e raramente evolui com cronicidade articular grave na mesma magnitude do Chikungunya. Ademais, o protocolo brasileiro consolidado e validado de DMARD (metotrexato) refere-se especificamente ao Chikungunya.
-- Alternativa D (Dengue; paracetamol): A dengue caracteriza-se por prostração e dor predominantemente muscular (mialgia intensa/quebra-ossos), cefaleia retro-orbitária e plaquetopenia, não cursando com cronificação de poliartrite inflamatória por meses. Além disso, o paracetamol é um analgésico simples que não tem ação anti-inflamatória sobre a sinovite crônica.
+• **Alternativa A (Incorreta):** A **citomegalovirose** em indivíduos imunocompetentes manifesta-se tipicamente como **síndrome mononucleose-like** (febre, astenia, linfadenopatia e alteração de transaminases), sem causar poliartrite inflamatória crônica periférica; ademais, o **paracetamol** não tem poder anti-inflamatório suficiente para tratar sinovite estabelecida.
+• **Alternativa B (Incorreta):** A **febre do Mayaro** é uma arbovirose restrita a regiões silvestres/florestais (sobretudo bacia amazônica) e, embora possa causar queixas articulares agudas, raramente evolui com **sinovite erosiva crônica grave**, não havendo protocolo ministerial padronizado para o uso de **metotrexato** nesta afecção como no Chikungunya.
+• **Alternativa D (Incorreta):** A **dengue** caracteriza-se predominantemente por **mialgia difusa severa** ("febre quebra-ossos"), cefaleia retro-orbitária e manifestações hemorrágicas/plaquetopenia transitória, sem a ocorrência de artrite crônica incapacitante de meses de evolução.
 </details>
 
 ---
@@ -19329,16 +19658,17 @@ Mulher de 32 anos, professora de educação básica, procurou assistência médi
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** O quadro clínico apresentado é clássico de Fibromialgia (Alternativa B), uma síndrome dolorosa crônica não inflamatória caracterizada por dor musculoesquelética difusa e generalizada associada a sintomas somáticos e cognitivos, como sono não reparador, fadiga crônica, rigidez matinal e distúrbios de humor.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O quadro clínico apresentado é clássico de **fibromialgia**, uma síndrome dolorosa crônica não articular caracterizada por dor musculoesquelética generalizada, distúrbio do sono e fadiga, sem alterações em provas de atividade inflamatória, de acordo com os critérios do **Colégio Americano de Reumatologia (ACR)** e da **Sociedade Brasileira de Reumatologia (SBR)**.
 
-1. Fundamentação da resposta correta (Fibromialgia):
-- Epidemiologia e Clínica: É mais comum em mulheres em idade fértil (20 a 55 anos). A paciente apresenta dor difusa há mais de 3 meses (está afastada há 6 meses), sono não restaurador ('acorda exausta') e hiperalgesia/alodinia manifestada pela dor à palpação de múltiplos grupamentos musculares (antigos tender points, hoje integrados ao Índice de Dor Generalizada - WPI e Escala de Gravidade de Sintomas - SSS do Colégio Americano de Reumatologia/ACR).
-- Exames complementares: A fibromialgia é uma síndrome de sensibilização central e não possui caráter inflamatório articular ou muscular. Portanto, provas de atividade inflamatória (VHS, PCR) e função tireoidiana (TSH) encontram-se rigorosamente dentro dos limites da normalidade, afastando diagnósticos diferenciais autoimunes e endócrinos.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção:** O quadro clínico aponta para **fibromialgia**, condição que acomete predominantemente **mulheres em idade fértil** (20 a 55 anos) e se fundamenta em um mecanismo de **sensibilização central**, no qual ocorre desregulação das vias de processamento e modulação da dor no sistema nervoso central.
+2. **Critério Clínico e Fisiopatologia:** A paciente atende aos pilares diagnósticos essenciais: dor musculoesquelética generalizada por período superior a **3 meses** (afastamento há 6 meses), **sono não reparador** ("acorda exausta") e fenômenos de **alodinia** e **hiperalgesia** (dor à digitopressão em múltiplos grupamentos musculares, refletindo o Índice de Dor Generalizada - *Widespread Pain Index*).
+3. **Avaliação Laboratorial de Exclusão:** Na fibromialgia, não há processo inflamatório sinovial ou destruição tecidual subjacente. A normalidade dos marcadores inflamatórios (**VHS** e **proteína C reativa**) e do **TSH** confirma a ausência de doenças reumáticas inflamatórias sistêmicas ou endocrinopatias (como o hipotireoidismo).
 
-2. Análise dos distratores:
-- A) Polimiosite: É uma miopatia inflamatória idiopática que se manifesta primariamente com fraqueza muscular proximal, simétrica e progressiva (dificuldade para pentear o cabelo, subir escadas), e não primariamente por dor generalizada. Além disso, cursa com elevação expressiva de enzimas musculares (CPK, aldolase) e marcadores inflamatórios alterados.
-- C) Fadiga Crônica (Encefalomielite Miálgica): Embora compartilhe queixas de astenia e sono não reparador, a fadiga extrema e o mal-estar pós-esforço são os sintomas cardinais e incapacitantes obrigatórios. A presença proeminente de dor musculoesquelética generalizada com pontos dolorosos múltiplos à digitopressão estabelece a fibromialgia como a principal hipótese.
-- D) Polimialgia Reumática: Ocorre quase que exclusivamente em indivíduos com mais de 50 anos (pico aos 70-80 anos). Caracteriza-se por dor e rigidez matinal prolongada em cinturas escapular e pélvica, associando-se invariavelmente a uma elevação acentuada das provas de atividade inflamatória (VHS tipicamente > 40-50 mm/h e PCR elevada).
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A **polimiosite** manifesta-se clinicamente por **fraqueza muscular proximal**, simétrica e progressiva (dificuldade para pentear o cabelo ou subir degraus), e não por dor difusa isolada, cursando obrigatoriamente com elevação importante de **enzimas musculares** (como **CPK**) e provas inflamatórias.
+• **Alternativa C (Incorreta):** A **síndrome da fadiga crônica** (encefalomielite miálgica) tem como manifestação cardinal e obrigatória a **fadiga extrema** e o **mal-estar pós-esforço**. Embora possa apresentar mialgias secundárias, a presença dominante de **dor musculoesquelética difusa** com dor à palpação de múltiplos grupamentos musculares define a **fibromialgia** como o diagnóstico primário.
+• **Alternativa D (Incorreta):** A **polimialgia reumática** é uma doença que surge quase que exclusivamente em pacientes com idade superior a **50 anos** (pico após os 70 anos), concentrando dor e rigidez matinal nas **cinturas escapular e pélvica**, acompanhada invariavelmente de elevação acentuada de reagentes de fase aguda (**VHS tipicamente > 40-50 mm/h** e **PCR elevada**).
 </details>
 
 ---
@@ -19357,20 +19687,23 @@ Uma mulher com 52 anos comparece à consulta médica na unidade básica de saúd
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) é a correta. O quadro clínico descrito é clássico e patognomônico de Fibromialgia, uma síndrome de dor crônica generalizada caracterizada por sensibilização central (amplificação da percepção dolorosa no sistema nervoso central). 
+> **Comentário Médica:** O quadro clínico apresentado é clássico de **fibromialgia**, uma síndrome de dor crônica nociplástica de alta prevalência no sexo feminino, cujo mecanismo fisiopatológico primordial envolve a **sensibilização central**.
 
-A paciente preenche rigorosamente tanto os critérios de classificação tradicionais do Colégio Americano de Reumatologia (ACR 1990) quanto os critérios revisados mais recentes (ACR 2010/2016):
-1. Dor musculoesquelética generalizada (acima e abaixo da cintura, nos hemicorpos direito e esquerdo e no esqueleto axial) com duração superior a 3 meses (4 meses de evolução);
-2. Gatilho desencadeante infeccioso frequente (episódio recente de dengue atuando como evento estressor fisiológico);
-3. Comorbidades clássicas associadas a síndromes de sensibilização central: transtorno da articulação temporomandibular (ATM), síndrome do intestino irritável (SII), fadiga e sintomas depressivos;
-4. Fenômeno de alodinia (dor desencadeada por estímulos normalmente indolores, exemplificada pela dor à insuflação do esfigmomanômetro a 2 cm do epicôndilo lateral);
-5. Positividade nos tender points (pontos dolorosos específicos à palpação de aproximadamente 4 kgf/cm²: inserção dos suboccipitais, borda superior do trapézio, eminência supraescapular/supraspinhal, quadrante superior externo das nádegas, grande trocanter, segunda articulação condroesternal e coxim adiposo medial do joelho);
-6. Exames laboratoriais normais (hemograma, VHS, PCR, TSH e T4 livre), o que exclui causas inflamatórias sistêmicas, miopatias e disfunções endócrinas.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa B (Hipotireoidismo subclínico): Incorreta. O hipotireoidismo pode cursar com fadiga e mialgias difusas, mas as dosagens de TSH e T4 livre da paciente encontram-se normais, afastando qualquer distúrbio funcional tireoidiano (clínico ou subclínico).
-- Alternativa C (Transtorno psicossomático): Incorreta. A fibromialgia é uma síndrome neurobiológica bem caracterizada, com alterações na modulação da dor em vias aferentes e descendentes inibitórias, não devendo ser rotulada puramente como psicossomática na presença de critérios diagnósticos objetivos e específicos.
-- Alternativa D (Transtorno depressivo maior): Incorreta. Sintomas depressivos frequentemente coexistem com a fibromialgia (comorbidade em até 30-50% dos casos), mas a depressão por si só não justifica o padrão anatômico específico de tender points, a alodinia acentuada e o conjunto de manifestações álgicas periféricas generalizadas sem perda de apetite ou anedonia grave descrita.
+1. **Fisiopatologia da Dor Nociplástica:** A fibromialgia caracteriza-se por um processamento sensorial anômalo no sistema nervoso central, associado à hiperexcitabilidade de vias ascendentes nociceptivas (mediadas por substância P e glutamato) e à disfunção dos circuitos inibitórios descendentes de dor (noradrenérgicos e serotoninérgicos). Isso resulta em hiperalgesia (resposta exagerada a estímulos dolorosos) e alodinia (dor decorrente de estímulos habitualmente inócuos), como a referida dor à insuflação do manguito do esfigmomanômetro.
+
+2. **Critérios Diagnósticos:** O examinador detalhou os pontos dolorosos anatômicos do Colégio Americano de Reumatologia de 1990 (ACR 1990), demonstrando dor à palpação de múltiplos tender points padronizados (occipital, trapézio, supraespinhal/escapular, segunda junção condroesternal, epicôndilo lateral, glúteo, trocanter maior e joelho). Concomitantemente, a paciente atende aos critérios contemporâneos (ACR 2010/2016), que valorizam a dor generalizada com duração superior a 3 meses e a associação com distúrbios do sono, fadiga crônica, sintomas cognitivos e comorbidades de sensibilidade central (síndrome do intestino irritável e disfunção da articulação temporomandibular).
+
+3. **Fatores Desencadeantes e Exclusão Laboratorial:** Quadros infecciosos sistêmicos, como a dengue, traumas físicos ou estresse emocional atuam frequentemente como gatilhos para a eclosão da síndrome. A normalidade dos marcadores de fase aguda (PCR e VHS), do hemograma e das provas tireoidianas corrobora o diagnóstico, afastando colagenoses ativas, polimialgia reumática e miopatias endócrinas.
+
+**Análise das alternativas incorretas:**
+
+• **Alternativa B: Incorreta.** O hipotireoidismo pode manifestar-se com mialgia, fraqueza proximal, fadiga e câimbras. Contudo, as dosagens séricas normais de TSH e T4 livre excluem formalmente qualquer disfunção tireoidiana, clínica ou subclínica, como etiologia dos sintomas.
+
+• **Alternativa C: Incorreta.** Embora fatores psicológicos influenciem a percepção dolorosa, a condição possui substrato neurobiológico comprovado por neuroimagem funcional e alterações de neurotransmissores liquóricos. Classificá-la meramente como transtorno psicossomático desconsidera as diretrizes reumatológicas modernas e estigmatiza o paciente.
+
+• **Alternativa D: Incorreta.** O transtorno depressivo maior pode cursar com queixas somáticas vagas e fadiga crônica, constituindo comorbidade frequente na fibromialgia. Entretanto, ele não explica a alodinia mecânica ao manguito nem a distribuição focal simétrica nos pontos dolorosos característicos da síndrome dolorosa generalizada.
 </details>
 
 ---
@@ -20389,19 +20722,26 @@ Uma paciente com 35 anos, casada, nuligesta, procurou atendimento especializado,
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A paciente de 35 anos apresenta quadro clínico clássico de Insuficiência Ovariana Prematura (IOP) — anteriormente denominada falência ovariana prematura —, definida como a perda da atividade folicular ovariana antes dos 40 anos de idade, cursando com irregularidade menstrual/amenorreia e sintomas vasomotores e urogenitais decorrentes do hipoestrogenismo.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Fisiopatologicamente, o esgotamento ou a disfunção do pool de folículos ovarianos leva à queda acentuada na produção dos hormônios ovarianos pelas células da granulosa e da teca, resultando em:
-1. Níveis reduzidos de estradiol (hipoestrogenismo);
-2. Níveis diminuídos de inibina (especialmente inibina B), peptídeo produzido pelas células da granulosa folicular que exerce feedback negativo sobre a hipófise anterior;
-3. Como consequência da perda do feedback negativo exercido pelo estradiol e pela inibina sobre o eixo hipotálamo-hipófise, a secreção gonadotrófica eleva-se expressivamente, caracterizando um hipogonadismo hipergonadotrófico, com níveis séricos elevados de FSH (tipicamente > 25–40 mUI/mL em duas dosagens com intervalo de pelo menos 4 semanas) e de LH.
+A paciente em questão apresenta 35 anos de idade e quadro clínico típico de hipoestrogenismo e disfunção ovulatória, manifestado por irregularidade menstrual, sintomas vasomotores (fogachos), distúrbios do sono, atrofia urogenital (ressecamento vaginal) e queda da libido. O quadro clínico em mulheres com idade inferior a 40 anos define a síndrome de **insuficiência ovariana prematura** (IOP).
 
-Portanto, a confirmação diagnóstica baseia-se no achado de FSH elevado acompanhado de estradiol e inibina baixos, confirmando a alternativa (B).
+1. **Fisiopatologia do Eixo Hipotálamo-Hipófise-Ovário:**
+O ovário contém uma reserva finita de folículos primordiais. Na falência ovariana prematura, ocorre depleção acelerada ou disfunção folicular grave. As células da granulosa dos folículos em desenvolvimento são as principais responsáveis pela produção de estradiol e de inibinas (primordialmente a inibina B na fase folicular). Com a perda ou senescência folicular, a produção ovariana de estradiol e inibina diminui criticamente.
 
-Análise dos distratores:
-- Alternativa A: Incorreta. O estradiol encontra-se diminuído na IOP em decorrência da falência folicular, e não elevado.
-- Alternativa C: Incorreta. Este perfil (FSH baixo com estradiol e inibina elevados) é oposto ao da falência ovariana; poderia sugerir tumores ovarianos produtores de estrogênio (ex.: tumor de células da granulosa) ou a fase pré-ovulatória de um ciclo ovulatório normal.
-- Alternativa D: Incorreta. Um padrão com FSH e estradiol concomitantemente baixos caracterizaria hipogonadismo hipogonadotrófico (causa central: hipotalâmica ou hipofisária), e não insuficiência ovariana primária (periférica); ademais, a inibina estaria baixa, e não elevada.
+2. **Mecanismo de Feedback Neuroendócrino:**
+Em condições fisiológicas, o estradiol e a inibina exercem retroalimentação negativa (feedback negativo) sobre a adeno-hipófise e o hipotálamo, modulando a síntese e a secreção de gonadotrofinas (FSH e LH). Diante da queda pronunciada do estradiol e da inibina, cessa o feedback inibitório hipofisário. Como resposta compensatória, a hipófise anterior aumenta de forma expressiva a secreção de hormônio folículo-estimulante (FSH), estabelecendo o padrão hormonal clássico de **hipogonadismo hipergonadotrófico**.
+
+3. **Confirmação Laboratorial:**
+Segundo as diretrizes internacionais da European Society of Human Reproduction and Embryology (ESHRE) e da Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO), o diagnóstico de falência ovariana prematura é confirmado pela presença de amenorreia ou oligomenorreia por pelo menos 4 meses associada a níveis séricos elevados de FSH (geralmente acima de 25 a 40 mUI/mL, em duas dosagens com intervalo de 4 a 6 semanas) acompanhados de concentrações basais reduzidas de estradiol e inibina.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O estradiol não se encontra elevado na falência ovariana. A perda da integridade das células foliculares ovarianas cursa invariavelmente com níveis baixos de estradiol.
+
+• **C) Incorreta:** Apresenta um perfil totalmente invertido ao da falência gonadal. FSH baixo com estradiol e inibina elevados pode ser observado na vigência de tumores ovarianos produtores de estrogênio (como os tumores de células da granulosa) ou na fase periovulatória fisiológica.
+
+• **D) Incorreta:** Níveis reduzidos de FSH e de estradiol caracterizam o hipogonadismo hipogonadotrófico, decorrente de causas centrais (hipotalâmicas ou hipofisárias, como hiperprolactinemia, síndrome de Sheehan, tumores selares, anorexia nervosa ou exercício físico extenuante), e não de causa ovariana primária. Ademais, na ausência de recrutamento folicular, a inibina também estaria diminuída, e não elevada.
 </details>
 
 ---
@@ -20727,15 +21067,17 @@ A síndrome do ovário policístico (SOP), caracterizada pela anovulação frequ
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) está correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. Na **Síndrome dos Ovários Policísticos (SOP)**, a alteração na pulsatilidade hipotalâmica de GnRH promove hipersecreção de **LH** com níveis basais ou relativamente suprimidos de **FSH**, tornando a relação **LH:FSH > 2:1 a 2,5:1** uma alteração laboratorial clássica e frequentemente observável, conforme respaldado pela **FEBRASGO** e pelas diretrizes internacionais (**ESHRE/ASRM**).
 
-Fundamentação fisiopatológica e clínica:
-Na Síndrome dos Ovários Policísticos (SOP), há uma disfunção neuroendócrina central caracterizada pelo aumento da frequência e da amplitude dos pulsos de secreção do Hormônio Liberador de Gonadotrofinas (GnRH). Esse padrão de pulsatilidade rápida favorece a transcrição da subunidade beta do Hormônio Luteinizante (LH) em detrimento do Hormônio Folículo-Estimulante (FSH). Como consequência, observa-se frequentemente uma hipersecreção de LH com níveis de FSH normais ou relativamente reduzidos (supressão parcial pela inibina e estrogênios periféricos), resultando em uma inversão da relação LH:FSH, habitualmente superior a 2:1 ou 2,5:1. Embora a relação LH/FSH alterada não faça parte dos critérios diagnósticos obrigatórios do Consenso de Rotterdam (2003) nem das diretrizes da FEBRASGO/ASRM/ESHRE, trata-se de um achado laboratorial clássico e frequentemente observável na prática clínica.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** A **Síndrome dos Ovários Policísticos (SOP)** é uma desordem endócrino-metabólica prevalente, caracterizada clinicamente por anovulação crônica, manifestações de hiperandrogenismo e infertilidade anovulatória.
+2. **Critério Clínico / Fisiopatologia:** Na etiopatogenia neuroendócrina da SOP, observa-se aumento da frequência e da amplitude dos pulsos de secreção do **GnRH** (*gonadotropin-releasing hormone*). Essa pulsatilidade acelerada induz prioritariamente a síntese e a liberação de **LH** pela hipófise anterior, em detrimento do **FSH** (cuja síntese requer pulsos mais lentos e é atenuada pelo feedback negativo de estrógenos periféricos e inibina).
+3. **Achados Laboratoriais e Repercussões:** A hipersecreção gonadotrófica gera elevação dos níveis séricos de **LH** e inversão da relação **LH:FSH** para valores tipicamente **maiores que 2,5** (ou superiores a 2:1). O excesso de LH atua nas **células da teca**, hiperestimulando a esteroidogênese e aumentando a síntese de androgênios ovarianos.
 
-Análise dos distratores:
-- Alternativa (A) está incorreta: A resistência à insulina com hiperinsulinemia compensatória (e não insulinemia abaixo do normal) é um dos pilares fisiopatológicos da SOP. O excesso de insulina atua diretamente nos receptores de IGF-1 nos queratinócitos e fibroblastos dérmicos, induzindo proliferação celular que culmina na acanthosis nigricans.
-- Alternativa (B) está incorreta: Na SOP, há redução do tônus inibitório de dopamina e de opioides endógenos hipotalâmicos, somada a um aumento da frequência de pulsos do GnRH, o que leva a uma maior (e não menor) síntese e secreção de pulsos de LH, elevando seus níveis sistêmicos.
-- Alternativa (C) está incorreta: Não existe um exame isolado considerado "padrão-ouro" para SOP; o diagnóstico é sindrômico e de exclusão, baseado nos Critérios de Rotterdam (presença de pelo menos 2 de 3: oligo/anovulação, hiperandrogenismo clínico e/ou laboratorial e morfologia ovariana policística ao ultrassom). O sulfato de deidroepiandrosterona (S-DHEA) reflete a produção androgênica adrenal e, quando marcadamente elevado (geralmente > 700–800 mcg/dL), deve suscitar a investigação de tumores adrenais secretores de androgênios, afastando o diagnóstico de SOP.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A fisiopatologia da síndrome envolve **resistência à insulina** associada à **hiperinsulinemia** compensatória (e não hipoinsulinemia). A insulina em excesso liga-se a receptores de **IGF-1** na pele, estimulando a proliferação de queratinócitos e fibroblastos, originando a *acanthosis nigricans*.
+• **Alternativa B (Incorreta):** Ocorre **diminuição do tônus inibitório dopaminérgico** e opioide central, o que facilita o aumento da frequência dos pulsos de GnRH e acarreta **maior** amplitude e secreção de pulsos de **LH**, elevando os níveis sistêmicos dessa gonadotrofina.
+• **Alternativa C (Incorreta):** O diagnóstico de SOP é sindrômico e de exclusão (Critérios de *Rotterdam*), não existindo teste isolado considerado padrão-ouro. Além disso, o **sulfato de deidroepiandrosterona (S-DHEA)** marcadamente elevado (> 700–800 mcg/dL) é marcador de etiologia adrenal e impõe a investigação de **tumor adrenal secretor de androgênios**, excluindo a SOP.
 </details>
 
 ---
@@ -20817,18 +21159,24 @@ Uma paciente com 21 anos, nuligesta, comparece à consulta em um centro de saúd
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A paciente jovem apresenta um quadro clínico clássico de hiperandrogenismo (acne inflamatória e hirsutismo) associado a disfunção ovulatória crônica (ciclos oligomenorreicos desde a menarca evoluindo para amenorreia secundária) e obesidade (IMC = 30 kg/m²). Esse fenótipo levanta forte suspeita diagnóstica de Síndrome dos Ovários Policísticos (SOP), conforme os Critérios de Rotterdam (presença de pelo menos dois entre: hiperandrogenismo clínico ou laboratorial, oligo/anovulação crônica e ovários policísticos à ultrassonografia).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Contudo, segundo os consensos internacionais (Rotterdam, Endocrine Society) e as diretrizes da FEBRASGO, a SOP é essencialmente um diagnóstico de exclusão. Antes de confirmar a síndrome e iniciar tratamentos definitivos, é mandatória a exclusão de outras endocrinopatias que cursam com anovulação crônica e/ou sinais de hiperandrogenismo:
-- Tireoidopatias (hipo ou hipertireoidismo): dosagem de TSH e T4 livre;
-- Hiperprolactinemia: dosagem de prolactina sérica;
-- Hiperplasia Adrenal Congênita na forma não clássica (HAC-NC): dosagem matinal de 17-hidroxiprogesterona (17-OHP).
-Com o teste de gravidez (beta-hCG) já negativo, a dosagem dessas escórias hormonais representa a conduta inicial mais adequada e prioritária, tornando a Alternativa A correta.
+A paciente em questão é uma mulher jovem com queixa de amenorreia secundária (ausência de menstruação por período superior a 3 ciclos prévios ou 6 meses), associada a manifestações clínicas de hiperandrogenismo (acne inflamatória com pústulas e hirsutismo em face e membros inferiores) e obesidade grau I. Com a exclusão de gestação pelo teste rápido negativo, a principal hipótese clínica levantada é a **síndrome dos ovários policísticos**.
 
-Análise dos distratores:
-- Alternativa B: Incorreta. O hiperandrogenismo da paciente já está firmado clinicamente (acne e hirsutismo). O rastreio rotineiro para Síndrome de Cushing (cortisol livre urinário ou teste de supressão) não é rotina obrigatória inicial na ausência de estigmas típicos (pletora facial, estrias violáceas largas, miopatia proximal). O perfil metabólico é importante após o diagnóstico para estratificação de risco, mas não tem foco na exclusão etiológica de base.
-- Alternativa C: Incorreta. O teste do estrogênio com progestagênio para avaliar integridade anatômica endometrial/canalicular é reservado para falha no teste da progesterona. Ademais, a dose citada de 'etinilestradiol 10 mg' é absurdamente tóxica e errônea (doses usuais são expressas em microgramas, ex.: 20 a 35 mcg), e a história de ciclos menstruais anteriores já afasta amenorreia anatômica primária.
-- Alternativa D: Incorreta. A espironolactona é um antagonista da aldosterona com efeito antiandrogênico que pode ser teratogênico (feminização de feto masculino); por isso, nunca deve ser iniciada sem o estabelecimento do diagnóstico etiológico, sem exclusão das demais patologias e sem contracepção segura associada. Além disso, a ultrassonografia não é estritamente necessária se a paciente já preencher os critérios clínicos de anovulação e hiperandrogenismo (embora frequentemente realizada).
+De acordo com os critérios de Rotterdam e com as diretrizes da Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO) e do consenso internacional de SOP, o diagnóstico exige a presença de pelo menos dois dos três critérios: oligo/anovulação crônica, hiperandrogenismo clínico e/ou laboratorial, e ovários com aspecto policístico à ultrassonografia. No entanto, o ponto angular para a confirmação é que se trata de um **diagnóstico de exclusão**. É obrigatório descartar outras doenças que cursam com anovulação e/ou hiperandrogenismo, tais como:
+1. Disfunções tireoidianas (hipotireoidismo ou hipertireoidismo), por meio da dosagem de TSH e T4 livre;
+2. Hiperprolactinemia, dosando-se a prolactina sérica;
+3. Hiperplasia adrenal congênita na sua forma não clássica por deficiência da 21-hidroxilase, avaliada pela dosagem de 17-hidroxiprogesterona (preferencialmente coletada pela manhã na fase folicular).
+
+Portanto, a solicitação desses exames é a conduta inicial prioritária e indispensável antes de se fechar o diagnóstico de SOP e orientar terapias específicas a longo prazo.
+
+**Análise das alternativas incorretas:**
+
+• **B) Incorreta:** O hiperandrogenismo já se encontra evidente clinicamente pela presença de acne e hirsutismo, tornando desnecessária a dosagem imediata de androgênios séricos para confirmar o perfil androgênico. A dosagem de cortisol livre destina-se ao rastreio de síndrome de Cushing, que não deve ser solicitada rotineiramente sem que haja estigmas específicos, como pletora facial, estrias violáceas largas, fáscies em lua cheia ou miopatia proximal. O perfil metabólico, embora relevante na avaliação de risco cardiovascular em pacientes com SOP confirmada, não tem papel na exclusão etiológica primária.
+
+• **C) Incorreta:** A paciente já apresentou menarca e ciclos prévios, o que afasta causas anatômicas congênitas, e não há histórico de procedimentos intrauterinos agressivos que justifiquem sinéquias graves como primeira suspeita. Além disso, o teste do estrogênio associado a progesterona só é realizado após a falha do teste da progesterona isolada na investigação escalonada da amenorreia secundária. Por fim, a dose descrita de 10 mg de etinilestradiol é um erro grosseiro e potencialmente tóxico, uma vez que a posologia desse fármaco é padronizada em microgramas (geralmente entre 20 a 35 mcg).
+
+• **D) Incorreta:** A introdução de antiandrogênicos como a espironolactona é inadequada no primeiro atendimento, especialmente porque a paciente é sexualmente ativa e o fármaco tem efeito teratogênico (risco de feminização de feto masculino), exigindo método contraceptivo seguro prévio. Ademais, a ultrassonografia pélvica ou transvaginal não é estritamente obrigatória caso a paciente já preencha os critérios clínico-laboratoriais após a exclusão de diagnósticos diferenciais.
 </details>
 
 ---
@@ -21130,17 +21478,17 @@ Paciente de 30 anos, com 25 semanas de gestação, portadora de diabetes mellitu
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A paciente apresenta um quadro clínico clássico de candidíase vulvovaginal (prurido, disúria externa/ardência, corrimento esbranquiçado em placas/grumoso, edema, eritema e fissuras vulvares). O histórico de 4 episódios tratados durante a gestação atual preenche o critério diagnóstico de Candidíase Vulvovaginal Recorrente (CVVR), definida formalmente pela presença de 4 ou mais episódios sintomáticos documentados no período de 12 meses. O diabetes mellitus tipo 1 descompensado e as alterações hormonais da gravidez (hiperestrogenismo com aumento do glicogênio vaginal) constituem importantes fatores de risco e perpetuação.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. Em gestantes com diagnóstico de **candidíase vulvovaginal recorrente (CVVR)**, as diretrizes da **FEBRASGO**, **Ministério da Saúde** e **CDC** preconizam a utilização exclusiva de **antifúngicos tópicos (intravaginais)**, sendo o esquema padrão composto por **indução prolongada por 10 a 14 dias** seguida de **manutenção tópica por 6 meses**.
 
-Fundamentação da Alternativa Correta (C):
-O manejo da CVVR exige duas fases terapêuticas: indução (remissão clínica e micológica) e manutenção (profilaxia secundária por 6 meses para prevenir recidivas).
-1. Via de administração na gestação: Os antifúngicos azólicos orais (como fluconazol e itraconazol) são contraindicados na gravidez devido ao risco teratogênico (anomalias craniofaciais e esqueléticas com altas doses) e associação com abortamento espontâneo. Portanto, as diretrizes da FEBRASGO, Ministério da Saúde e CDC preconizam exclusivamente o uso de antifúngicos tópicos (intravaginais).
-2. Esquema terapêutico: Para candidíase complicada/recorrente na gestação, o protocolo estabelecido consiste em terapia de indução com azólico tópico (ex.: nitrato de miconazol a 2% em creme vaginal) aplicado à noite por 10 a 14 dias (prolongado), seguido por regime de manutenção com o mesmo agente tópico 2 vezes por semana durante 6 meses.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **candidíase vulvovaginal recorrente (CVVR)**, manifestada classicamente por **prurido intenso**, **ardência/disúria externa**, **corrimento grumoso** em placas aderidas, associado a **edema vulvar**, **eritema** e **fissuras**.
+2. **Critério Clínico / Fisiopatologia:** A CVVR é formalmente definida pela ocorrência de **≥ 4 episódios sintomáticos em 12 meses**. A paciente apresenta dois fatores predisponentes sinérgicos: o **hiperestrogenismo gestacional**, que aumenta o depósito de glicogênio epitelial facilitando o crescimento de *Candida albicans*, e o **diabetes mellitus tipo 1**, cuja glicosúria/hiperglicemia favorece a virulência fúngica e prejudica a imunidade celular local.
+3. **Indicação de Conduta:** Os azólicos por via oral apresentam risco de embriopatia e abortamento, sendo **formalmente contraindicados na gravidez**. Portanto, preconiza-se estritamente o tratamento tópico: **indução com miconazol creme vaginal a 2% por 10 a 14 dias** (fase de remissão clínica e micológica) e **manutenção com miconazol creme vaginal 2 vezes por semana durante 6 meses** (prevenção de recidivas).
 
-Análise dos Distratores:
-- Alternativa A (Incorreta): O esquema de indução e manutenção oral com fluconazol (150 mg nos D1, D4 e D7, seguido de 150 mg semanal por 6 meses) é o tratamento de escolha para mulheres não grávidas. Na gestante, o fluconazol oral é formalmente contraindicado.
-- Alternativa B (Incorreta): O itraconazol oral é contraindicado no ciclo gravídico-puerperal. Ademais, a posologia proposta de dose única diária e o tempo de manutenção de apenas 3 meses são inadequados para CVVR.
-- Alternativa D (Incorreta): Embora utilize a via tópica, o tempo de indução de 7 dias é insuficiente para casos complicados/recorrentes (que exigem 10 a 14 dias), e a fase de manutenção em CVVR deve se estender rotineiramente por 6 meses, e não 3 meses.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** O protocolo de indução e manutenção com **fluconazol oral** é a primeira linha para CVVR exclusivamente em **mulheres não gestantes**. Seu uso é **contraindicado** no período gestacional devido ao potencial teratogênico.
+• **Alternativa B (Incorreta):** O **itraconazol oral** é contraindicado na gestação. Além disso, a indução em apenas 1 dia e a fase de manutenção restrita a **3 meses** são esquemas comprovadamente ineficazes para casos de CVVR.
+• **Alternativa D (Incorreta):** A indução tópica por apenas **7 dias** aplica-se a episódios esporádicos e não complicados; casos complicados ou recorrentes exigem **10 a 14 dias** de tratamento inicial. Da mesma forma, a manutenção por **3 meses** é insuficiente, pois a recomendação consensual é de **6 meses**.
 </details>
 
 ---
@@ -21589,22 +21937,25 @@ Uma paciente com 30 anos, primigesta, tipagem sanguínea B+, sem comorbidades, s
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A paciente em questão apresenta um quadro clássico de gravidez ectópica íntegra (massa anexial de 2,0 cm sem gestação tópica visível e elevação atípica do beta-hCG de 1.500 para 2.500 mUI/mL em 72 horas). Conforme os consensos da FEBRASGO (Federação Brasileira das Associações de Ginecologia e Obstetrícia) e do ACOG (American College of Obstetricians and Gynecologists), o tratamento medicamentoso conservador com metotrexato (MTX) é a conduta de primeira linha preferencial para pacientes que atendem a todos os seguintes critérios de elegibilidade:
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
+O quadro clínico apresentado caracteriza uma **gravidez ectópica íntegra** em paciente assintomática e hemodinamicamente estável. A ultrassonografia transvaginal evidencia a ausência de saco gestacional intrauterino associada a uma massa anexial de 2,0 cm sem embrião com atividade cardíaca, concomitante a níveis de beta-hCG de 2.500 mUI/mL que apresentaram ascensão subótima (de 1.500 para 2.500 mUI/mL em 72 horas, caracterizando tempo de duplicação inadequado para gestação tópica viável). Por se tratar de uma paciente primigesta com desejo reprodutivo futuro, a preservação da arquitetura e da patência tubária é uma prioridade assistencial.
 
-1. Estabilidade hemodinâmica;
-2. Ectópica não rota (ausência de dor intensa, hemoperitônio volumoso ou sinais de peritonite);
-3. Níveis séricos de beta-hCG < 5.000 mUI/mL (no caso, 2.500 mUI/mL);
-4. Diâmetro da massa anexial < 3,5 a 4,0 cm (no caso, 2,0 cm);
-5. Ausência de atividade cardíaca embrionária à ultrassonografia transvaginal;
-6. Função renal, hepática e hematológica preservadas (outros exames laboratoriais normais);
-7. Termo de consentimento e garantia de adesão e seguimento ambulatorial estrito.
+**Critérios de Elegibilidade e Conduta:**
+O tratamento medicamentoso com **metotrexato** é a conduta de primeira linha estabelecida pelas diretrizes da Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO) e do American College of Obstetricians and Gynecologists (ACOG), desde que cumpridos os critérios de elegibilidade para alta taxa de sucesso clínico:
 
-Além disso, como a paciente deseja gestar no futuro, a conduta medicamentosa evita as complicações e as aderências inerentes ao ato cirúrgico na tuba uterina, preservando o potencial reprodutivo.
+1. **Estabilidade clínica e hemodinâmica:** Paciente assintomática, sem sinais de peritonite, hemoperitônio ou rotura tubária.
+2. **Dimensão da massa anexial:** Massa menor que 3,5 cm a 4,0 cm (no caso, mede 2,0 cm).
+3. **Nível sérico de gonadotrofina coriônica humana:** Título de beta-hCG inferior a 5.000 mUI/mL (no caso, 2.500 mUI/mL), nível associado a taxas de sucesso superiores a 90% com dose única.
+4. **Ausência de batimentos cardíacos embrionários:** Presença de embrião vivo contraindica formalmente a abordagem clínica padrão em virtude da menor taxa de resposta e maior risco de falha.
+5. **Adesão e ausência de contraindicações clínicas:** Exames laboratoriais normais (funções renal e hepática íntegras, hemograma sem alterações) e garantia de seguimento ambulatorial estrito (dosagens de controle nos dias 4 e 7 pós-injeção intramuscular de 50 mg/m²).
 
-Análise dos distratores:
-- A (Incorreta): A laparotomia exploradora (cirurgia aberta) é reservada precipuamente para situações de instabilidade hemodinâmica grave decorrente de rotura tubária ou na indisponibilidade/contraindicação à via laparoscópica.
-- B (Incorreta): A conduta expectante só é recomendada se o beta-hCG inicial for baixo (geralmente < 1.000 a 1.500 mUI/mL) e estiver em declínio espontâneo documentado, o que não ocorre aqui (houve ascensão de 1.500 para 2.500 mUI/mL).
-- D (Incorreta): Embora a videolaparoscopia (com salpingostomia ou salpingectomia) seja a via cirúrgica padrão quando há indicação cirúrgica, a paciente é a candidata ideal para a terapia farmacológica com MTX, que tem eficácia comparável à cirurgia conservadora sem a invasividade do procedimento cirúrgico.
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A cirurgia aberta via laparotomia é reservada primariamente a casos de rotura tubária com instabilidade hemodinâmica grave, choque hipovolêmico, hemoperitônio maciço ou quando há contraindicação técnica absoluta para a via laparoscópica.
+
+• **B) Incorreta:** A conduta expectante exige premissas estritas de involução espontânea: níveis séricos basais de beta-hCG baixos (habitualmente inferiores a 1.000 a 1.500 mUI/mL) e documentação de títulos em declínio progressivo espontâneo em dosagens seriadas com intervalo de 48 horas. No caso exposto, os valores subiram de 1.500 para 2.500 mUI/mL, denotando trofoblasto metabolicamente ativo e contraindicando a observação isolada.
+
+• **D) Incorreta:** Embora a cirurgia videolaparoscópica seja a via de escolha na vigência de indicação cirúrgica, o procedimento operatório correto seria a salpingostomia ou salpingectomia, e não a salpingoplastia (termo habitualmente empregado para reconstrução tubária eletiva em infertilidade). Ademais, a intervenção cirúrgica desnecessária expõe a paciente a riscos anestésico-cirúrgicos e potenciais danos à fertilidade futura quando comparada à terapia médica conservadora.
 </details>
 
 ---
@@ -21623,15 +21974,18 @@ Uma mulher de 19 anos comparece a uma unidade de emergência com dor em fossa il
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está CORRETA. O quadro clínico exposto é clássico de gravidez ectópica (GE): mulher jovem em idade fértil, com vida sexual ativa e uso irregular de método contraceptivo, que apresenta a tríade clássica de atraso menstrual (última menstruação há 45 dias), dor pélvica/em fossa ilíaca esquerda e sangramento uterino anormal discreto. Adicionalmente, a presença de hipotensão arterial (PA 90 × 50 mmHg), taquicardia (FC 110 bpm) e sinais de irritação peritoneal (descompressão dolorosa positiva) sugere hemoperitônio secundário à rotura tubária. De acordo com as diretrizes da FEBRASGO e do Ministério da Saúde, a abordagem inicial mandatória para confirmação diagnóstica consiste na dosagem de fração beta da gonadotrofina coriônica humana (Beta-hCG) — para confirmar o estado gravídico — associada à ultrassonografia transvaginal (USTV), padrão-ouro para localizar o sítio da gestação (ausência de saco gestacional intrauterino e identificação de massa anexial) e avaliar a presença e o volume de líquido livre na cavidade peritoneal (hemoperitônio).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
+O quadro clínico apresentado é clássico da tríade de gravidez ectópica: mulher em idade fértil com vida sexual ativa e contracepção irregular, atraso menstrual significativo (última menstruação há 45 dias, correspondendo a mais de 6 semanas), sangramento uterino anormal discreto e dor pélvica localizada em fossa ilíaca esquerda. A piora da dor no dia da consulta associada a sinais inequívocos de irritação peritoneal (descompressão dolorosa positiva) e instabilidade hemodinâmica (taquicardia com 110 bpm e hipotensão com 90 × 50 mmHg) caracteriza um abdome agudo hemorrágico por **gravidez ectópica rota** com hemoperitônio volumoso.
 
-Análise das alternativas incorretas:
+Em qualquer mulher no menacme com quadro de abdome agudo e atraso menstrual, a pesquisa de gonadotrofina coriônica humana (Beta-hCG) é mandatória e urgente para confirmar o estado gravídico. Paralelamente, a **ultrassonografia transvaginal** constitui o método de imagem de escolha para avaliar o sítio de implantação gestacional, demonstrando com alta sensibilidade e especificidade a cavidade uterina vazia, presença de massa anexial com ou sem embrião vivo e a magnitude do líquido livre (sangue) na cavidade pélvica e peritoneal (fundo de saco de Douglas e espaço de Morrison). Enquanto os exames confirmatórios são realizados ou mediante ultrassom à beira do leito (POCUS/FAST), deve-se instituir prontamente a ressuscitação volêmica e preparar a paciente para abordagem cirúrgica de urgência (laparoscopia ou laparotomia exploradora).
 
-- Alternativa (B) está INCORRETA: A torção anexial é um evento isquêmico agudo que cursa com dor súbita e intensa, frequentemente associada a náuseas e vômitos, mas não justifica o atraso menstrual de 45 dias nem o sangramento genital. Ademais, o exame de imagem de escolha para afecções anexiais é a ultrassonografia transvaginal com Doppler, e não a ultrassonografia de abdome total.
+**Análise das alternativas incorretas:**
 
-- Alternativa (C) está INCORRETA: A Doença Inflamatória Pélvica (DIP) tipicamente se manifesta com dor pélvica progressiva, corrimento vaginal mucopurulento, dor à mobilização do colo uterino e febre. No caso relatado, a paciente é afebril (36,7 °C), apresenta atraso menstrual e cursa com instabilidade hemodinâmica aguda secundária a provável abdome agudo hemorrágico, incompatível com DIP não complicada.
+• **B) Incorreta:** A torção anexial decorre da torção do ovário e tuba sobre seu pedículo vascular, determinando isquemia aguda. Apresenta-se tipicamente com dor unilateral súbita e intensa, associada a náuseas e vômitos, sem relação intrínseca com amenorreia ou sangramento vaginal. Além disso, o exame de imagem padrão-ouro para sua investigação é a ultrassonografia pélvica transvaginal com Doppler colorido para avaliar o fluxo arterial e venoso ovariano, e não a ultrassonografia de abdome total, cuja resolução anatômica na pelve menor é inferior.
 
-- Alternativa (D) está INCORRETA: Embora o cisto de ovário roto (especialmente o hemorrágico) possa cursar com dor em fossa ilíaca e líquido livre, o atraso menstrual de 45 dias e o sangramento uterino discreto tornam a gestação a principal hipótese a ser descartada. Além disso, a tomografia computadorizada não é o exame de primeira linha em mulheres em idade reprodutiva com suspeita de abdome agudo ginecológico, sendo a ultrassonografia transvaginal o método de escolha devido à ausência de radiação ionizante e maior acurácia para avaliação ginecológica.
+• **C) Incorreta:** A doença inflamatória pélvica é uma afecção infecciosa ascendente do trato genital feminino que habitualmente cursa com dor pélvica progressiva, febre, dor à mobilização cervical e corrimento vaginal mucopurulento. A paciente está afebril, não há menção a corrimento e o quadro atual é de choque hipovolêmico secundário a hemoperitônio agudo, incompatível com infecção pélvica isolada sem sepse grave. A propedêutica proposta não soluciona a emergência ginecológica apresentada.
+
+• **D) Incorreta:** A rotura de cisto ovariano, especialmente o cisto de corpo lúteo hemorrágico, pode provocar dor aguda e hemoperitônio. No entanto, o atraso menstrual de 45 dias associado a sangramento uterino e choque hipovolêmico impõe a gestação ectópica como principal diagnóstico diferencial. Além disso, a tomografia computadorizada não é indicada como primeira linha na avaliação de urgências ginecológicas em mulheres jovens em idade reprodutiva, devido à exposição à radiação ionizante e à menor acurácia para avaliação endometrial e anexial em relação ao ultrassom transvaginal.
 </details>
 
 ---
@@ -21869,16 +22223,21 @@ Uma paciente com 45 anos, casada, G2P2, 2 partos normais, comparece ao ambulató
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A conduta padrão para o caso apresentado é a conduta expectante com acompanhamento clínico e ultrassonográfico periódico, conforme preconizado pelas diretrizes da Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO) e do American College of Obstetricians and Gynecologists (ACOG).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Fundamentação clínica:
-A leiomiomatose uterina é a neoplasia benigna mais comum do trato genital feminino. A imensa maioria dos casos cursa de forma assintomática, e o achado ultrassonográfico é incidental. A indicação de intervenção terapêutica (seja farmacológica ou cirúrgica) fundamenta-se estritamente na presença de sintomas — tais como sangramento uterino anormal (SUA), dor pélvica, sintomas compressivos (urinários ou intestinais) ou infertilidade — ou em crescimento rápido com suspeita de malignidade (leiomiossarcoma), o que é raro.
-No caso em tela, a paciente de 45 anos encontra-se completamente assintomática (ciclos regulares, fluxo moderado, sem dismenorreia ou queixas compressivas), com nódulos miomatosos de pequenas dimensões (o maior com ~2,0 cm) e endométrio normal. Apesar do volume uterino estar discretamente aumentado (198,6 cm³), o aumento isolado do volume uterino em paciente assintomática, na ausência de sintomas compressivos significativos ou lesões suspeitas, não justifica intervenções cirúrgicas ou medicamentosas.
+A paciente em questão apresenta achados ultrassonográficos incidentais compatíveis com **leiomiomatose uterina**, caracterizados por pequenos nódulos intramurais e subserosos, sendo o maior de apenas 2,0 cm, com aumento discreto do volume uterino global (198,6 cm³). Os leiomiomas são os tumores benignos mais comuns do trato genital feminino, originados a partir de células musculares lisas do miométrio, com dependência de estrogênio e progesterona para seu desenvolvimento.
 
-Análise dos distratores:
-- B está incorreta: A miomectomia é indicada tipicamente para pacientes com miomas sintomáticos que desejam preservar a fertilidade ou o útero. A paciente é assintomática e não tem queixas, não havendo indicação cirúrgica.
-- C está incorreta: A histerectomia é um procedimento cirúrgico de grande porte com riscos inerentes (infecção, sangramento, lesão de vísceras adjacentes). Indicá-la apenas pelo tamanho uterino ou pela paridade constituída em uma mulher assintomática configura sobretratamento injustificado (iatrogenia).
-- D está incorreta: O ácido tranexâmico (antifibrinolítico) é uma opção de primeira linha para o tratamento do sangramento uterino anormal (fluxo menstrual abundante). Não há indicação profilática do seu uso em mulheres com fluxo menstrual normal/moderado.
+A manifestação clínica dos miomas varia de acordo com seu número, dimensões e, principalmente, sua localização segundo a classificação da Federação Internacional de Ginecologia e Obstetrícia (FIGO). Miomas submucosos (FIGO 0, 1 e 2) alteram a arquitetura endometrial, a angiogênese local e os mecanismos hemostáticos endometriais, manifestando-se frequentemente com sangramento uterino anormal. Em contrapartida, nódulos puramente intramurais de pequenas dimensões e subserosos (FIGO 4, 5 e 6) raramente causam sangramentos expressivos ou sintomas compressivos sobre a bexiga e o reto.
+
+No caso descrito, a paciente encontra-se perfeitamente assintomática: apresenta ciclos efluxo regulares, duração fisiológica de 5 dias, ausência de dor pélvica, dismenorreia ou dispareunia, além de não referir queixas compressivas. De acordo com as diretrizes da Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO) e do Colégio Americano de Obstetras e Ginecologistas (ACOG), miomas uterinos assintomáticos, independentemente da paridade ou da idade da mulher, não necessitam de intervenção cirúrgica nem de terapia medicamentosa. A indicação padrão e segura é a **conduta expectante**, que consiste no acompanhamento clínico ambulatorial e ultrassonográfico periódico para avaliar estabilidade dimensional e surgimento de eventuais queixas.
+
+**Análise das alternativas incorretas:**
+
+• **B) Incorreta:** A miomectomia, seja por via laparoscópica, laparotômica ou histeroscópica, é indicada em pacientes sintomáticas que desejam preservar a fertilidade ou o útero, ou naquelas com sintomas compressivos e dor intratável clinicamente. A simples presença de miomas subserosos e intramurais pequenos em paciente assintomática não constitui indicação cirúrgica, configurando sobretratamento com morbidade desnecessária.
+
+• **C) Incorreta:** A histerectomia é o tratamento definitivo para miomatose sintomática refratária ao tratamento clínico ou em casos de sintomas volumosos graves quando a prole já está constituída. Contudo, a idade de 45 anos, a prole constituída e um útero com aumento volumétrico discreto sem qualquer sintoma clínico associado não justificam a realização de procedimento cirúrgico de grande porte com riscos anestésicos, hemorrágicos e infecciosos inerentes.
+
+• **D) Incorreta:** Os antifibrinolíticos, como o ácido tranexâmico, atuam inibindo a degradação de fibrina e são utilizados para reduzir o fluxo menstrual em pacientes com diagnóstico estabelecido de sangramento uterino anormal. Não há qualquer indicação para uso profilático ou preventivo de antifibrinolíticos em pacientes com fluxo menstrual habitual e moderado.
 </details>
 
 ---
@@ -21984,20 +22343,27 @@ Uma paciente com 29 anos, nuligesta, sexualmente ativa, foi submetida a exame ci
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta correta é orientar a paciente a repetir a citologia em 3 anos, conforme preconizado pelas Diretrizes Brasileiras para o Rastreamento do Câncer do Colo do Útero (Ministério da Saúde/INCA).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Fundamentação clínica e raciocínio fisiopatológico:
-O laudo citopatológico descreve três achados:
-- Metaplasia escamosa: processo fisiológico normal e benigno de substituição do epitélio colunar eversor (ectrópio) pelo epitélio escamoso na zona de transformação do colo uterino, não configurando atipia ou lesão pré-neoplásica.
-- Alterações inflamatórias moderadas: achado reativo celular inespecífico, extremamente frequente e esperado em mulheres sexualmente ativas, que, na ausência de sintomas ou atipias celulares, não requer intervenção médica.
-- Bacilos de Döderlein (*Lactobacillus* spp.): compõem a microbiota protetora normal da cavidade vaginal.
+O laudo citopatológico apresentado descreve três componentes fundamentais da biologia cervical normal: metaplasia escamosa, alterações inflamatórias moderadas e bacilos de Döderlein. 
 
-Portanto, o exame é classificado como negativo para lesão intraepitelial ou malignidade (dentro dos limites da normalidade com alterações benignas/reativas). Segundo o Ministério da Saúde, o rastreamento citopatológico é bienal inicialmente (dois exames anuais consecutivos negativos) e, atingindo-se essa meta, o intervalo entre os exames deve ser espaçado para cada 3 anos. Como a paciente realizou exame há 1 ano sem alterações e agora apresenta o segundo resultado consecutivo negativo, a conduta padrão é a realização do próximo exame citopatológico em 3 anos.
+A metaplasia escamosa é um processo fisiológico e adaptativo no qual o epitélio colunar simples da endocérvice, exposto ao ambiente ácido vaginal (ectopia fisiológica ou eversão), é gradualmente substituído por epitélio escamoso estratificado mais resistente, dando origem à zona de transformação (ZT). Esse fenômeno não constitui neoplasia nem atipia. 
 
-2. Análise dos distratores:
-- Alternativa A (Incorreta): A cauterização do colo uterino não tem indicação na metaplasia escamosa, visto que se trata de uma adaptação tecidual fisiológica protetora. A cauterização desnecessária pode causar estenose cervical ou distorção da junção escamocolunar (JEC).
-- Alternativa C (Incorreta): A repetição em 6 meses é indicada para situações de atipia de significado indeterminado em células escamosas, possivelmente não neoplásicas (ASC-US) em mulheres a partir de 30 anos, o que não é o caso desta paciente.
-- Alternativa D (Incorreta): O uso de metronidazol é indicado para vaginite infecciosa (como vaginose bacteriana ou tricomoníase). A presença de bacilos de Döderlein representa a flora endógena normal, e sua preservação é essencial para a higidez do microambiente vaginal.
+As alterações inflamatórias moderadas são achados citológicos reativos e inespecíficos extremamente frequentes, refletindo mecanismos locais de reparo tecidual decorrentes de variações do pH vaginal, microbiota habitual ou atividade sexual, sem qualquer conotação patológica se desacompanhados de sintomas clínicos. 
+
+Os bacilos de Döderlein (espécies do gênero Lactobacillus) representam os principais constituintes da microbiota saprófita vaginal normal em mulheres em menacme, responsáveis pela conversão do glicogênio em ácido lático, mantendo o pH vaginal ácido (entre 3,8 e 4,5) e protegendo o trato genital contra a colonização por patógenos.
+
+Dessa forma, de acordo com o Sistema Bethesda e a Nomenclatura Brasileira para Laudos Citopatológicos, esse exame é categorizado formalmente como **negativo para lesão intraepitelial ou malignidade** (dentro dos limites da normalidade no que tange à oncogênese).
+
+Segundo as Diretrizes Brasileiras para o Rastreamento do Câncer do Colo do Útero do Ministério da Saúde e do Instituto Nacional de Câncer (INCA), o rastreamento citopatológico é preconizado para mulheres entre 25 e 64 anos que já iniciaram atividade sexual. A estratégia recomendada consiste na realização de exames anuais; após dois exames anuais consecutivos negativos e satisfatórios, a mulher deve passar para a periodicidade de rastreio de rotina, devendo **repetir citologia em 3 anos**. Como a paciente realizou exame há 1 ano sem alterações e o atual também é negativo, a conduta correta é o espaçamento do rastreamento para o intervalo trienal.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A cauterização de colo uterino não é indicada para metaplasia escamosa, que consiste em um processo adaptativo normal. A intervenção física (térmica ou química) sobre uma área de metaplasia fisiológica é desnecessária, iatrogênica e pode gerar complicações anatômicas importantes, como estenose do canal endocervical, dor crônica, alterações no muco cervical e prejuízo à fertilidade futura em uma paciente jovem e nuligesta.
+
+• **C) Incorreta:** A repetição do exame em 6 meses não se aplica a exames normais ou reativos. Essa conduta de intervalo curto é reservada para cenários específicos de atipias celulares de baixo grau ou indeterminadas, notadamente na presença de células escamosas atípicas de significado indeterminado, possivelmente não neoplásicas (ASC-US), em mulheres com 30 anos ou mais, ou em acompanhamentos pós-tratamento de lesões precursoras.
+
+• **D) Incorreta:** O metronidazol é um antimicrobiano indicado primariamente para infecções como vaginose bacteriana e tricomoníase sintomática. Prescrever metronidazol diante da presença de bacilos de Döderlein é um erro conceitual grave, pois esses microrganismos compõem a flora protetora natural. O uso indevido de antibióticos perturba a homeostase vaginal, podendo desencadear disbiose real ou candidíase secundária.
 </details>
 
 ---
@@ -22018,14 +22384,21 @@ Ao entrar em contato com essas mulheres, a médica deve solicitar que
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta preconizada frente a um exame citopatológico do colo do útero evidenciando Lesão Intraepitelial Escamosa de Alto Grau (HSIL / LIE-AG) está fundamentada nas *Diretrizes Brasileiras para o Rastreamento do Câncer do Colo do Útero* (Ministério da Saúde/INCA).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. **Justificativa da alternativa correta (C):**
-O achado de HSIL indica uma alta probabilidade de lesão precursora verdadeira (Neoplasia Intraepitelial Cervical graus 2 ou 3 - NIC II/III) ou até mesmo de carcinoma invasor oculto (cerca de 1% a 2% dos casos). Por essa razão, a conduta mandatória imediata não é conservadora nem de repetição citológica, mas sim o **encaminhamento para a Unidade de Atenção Secundária para a realização de colposcopia**. A colposcopia permite a identificação da Zona de Transformação (ZT), a avaliação da extensão da lesão e a realização de biópsia dirigida para confirmação diagnóstica histopatológica prévia a qualquer tratamento definitivo.
+O rastreamento do câncer do colo do útero no Brasil baseia-se na citopatologia oncótica convencional (Papanicolau), conforme preconizado pelas Diretrizes Brasileiras para o Rastreamento do Câncer do Colo do Útero do Ministério da Saúde e Instituto Nacional de Câncer (INCA). O laudo citopatológico que evidencia **lesão intraepitelial escamosa de alto grau** (HSIL, do inglês High-Grade Squamous Intraepithelial Lesion) carrega uma probabilidade considerável de associação com neoplasia intraepitelial cervical de graus 2 ou 3 (NIC II/NIC III) e um risco não desprezível de carcinoma escamoso microinvasor ou invasor subjacente.
 
-2. **Análise dos distratores:**
-- **A e B (Incorretas):** A repetição do exame citopatológico (em 6 meses ou imediata) é reservada para alterações celulares de menor gravidade e com alta taxa de regressão espontânea, como células escamosas atípicas de significado indeterminado (ASC-US) ou lesão intraepitelial escamosa de baixo grau (LSIL) em mulheres a partir de 25 anos. Postergar a investigação de uma HSIL com repetição de citologia atrasa o diagnóstico e expõe a paciente a risco inaceitável de progressão neoplásica.
-- **D (Incorreta):** A conização (ou procedimento de excisão da zona de transformação - EZT) é um procedimento terapêutico/diagnóstico que não deve ser indicado de forma cega ou sem prévia avaliação colposcópica. A avaliação colposcópica detalhada é etapa indispensável prévia para graduar a suspeita, delimitar os limites da lesão e determinar o tipo de excisão necessário.
+Diante desse achado citológico, a conduta mandatória na atenção primária à saúde é o encaminhamento da paciente para a atenção secundária (unidade de referência) para realização de **colposcopia**. A colposcopia permite avaliar a junção escamocolunar (JEC), classificar a zona de transformação (tipos 1, 2 ou 3), identificar atipias vasculares ou epiteliais maiores (como pontilhado grosseiro, mosaico grosseiro e epitélio acetobranco denso) e realizar biópsia dirigida das áreas mais suspeitas.
+
+Embora exista a estratégia de "ver e tratar" por meio de cirurgia de alta frequência (CAF) ou excisão da zona de transformação (EZT), ela requer precondições colposcópicas estritas (visibilização completa da JEC, ausência de suspeita de invasão ou doença glandular e idade mínima de 25 anos). Em nenhuma circunstância o tratamento cirúrgico excisional, como a conização a frio ou a CAF, deve ser prescrito às cegas diretamente a partir da citologia, sem a etapa intermediária imprescindível da propedêutica colposcópica.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A conduta de repetir a citologia oncótica em 6 meses está reservada para alterações celulares escamosas com baixo risco imediato de progressão para malignidade, especificamente atipias escamosas de significado indeterminado possivelmente não neoplásicas (ASC-US) e lesão intraepitelial de baixo grau (LSIL) em mulheres com 25 anos ou mais. Na vigência de HSIL, postergar a investigação gera atraso diagnóstico inaceitável.
+
+• **B) Incorreta:** A repetição imediata do exame citopatológico na unidade básica de saúde não agrega valor propedêutico e não descarta lesão subjacente caso venha negativa (devido à sensibilidade limitada do método citológico isolado). A citologia alterada para alto grau já é suficiente para exigir a colposcopia.
+
+• **D) Incorreta:** A conização cervical é um procedimento cirúrgico excisional diagnóstico e terapêutico que possui indicações precisas, como limites endocervicais da lesão não visíveis à colposcopia (ZT tipo 3), discordância cito-histológica ou suspeita de invasão microinvasora/adenocarcinoma in situ. Indicar cirurgia de conização diretamente pelo laudo citológico representa sobrediagnóstico e conduta iatrogênica, acarretando riscos desnecessários à saúde reprodutiva da paciente (como incompetência istmocervical e estenose de canal cervical).
 </details>
 
 ---
@@ -22390,15 +22763,17 @@ Considerando a história clínica e os exames físico e complementar da paciente
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A paciente jovem apresenta sangramento uterino anormal (SUA) caracterizado por menorragia (aumento da intensidade e da duração do fluxo menstrual) de caráter crônico (8 meses). De acordo com a classificação FIGO (PALM-COEIN), as causas estruturais de SUA intrauterino incluem Pólipos (P), Adenomiose (A), Leiomioma (L) e Malignidade/hiperplasia (M).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. O quadro clínico de **sangramento uterino anormal (SUA)** associado a achado ultrassonográfico de **espessamento endometrial** com lesão intracavitária **hiperecoica** e regular é característico de **pólipo endometrial**, sendo a **histeroscopia diagnóstica** o exame padrão-ouro para sua confirmação e programação terapêutica, conforme as diretrizes da **FEBRASGO**.
 
-1. Justificativa da Alternativa D (Correta):
-Ao exame ultrassonográfico transvaginal, a identificação de espessamento endometrial (36 mm) associado a uma imagem intracavitária hiperecoica, focal e de contornos regulares é a apresentação ultrassonográfica clássica do pólipo endometrial (o mioma submucoso, por sua vez, tende a se apresentar como lesão hipoecoica ou isoecoica). Conforme as diretrizes da Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO), o exame padrão-ouro para a avaliação e confirmação diagnóstica de lesões endometriais focais é a video-histeroscopia diagnóstica (que permite visualização direta da cavidade uterina e biópsia dirigida ou polipectomia concomitante).
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção:** **Pólipo endometrial**, inserido no grupo das causas estruturais (*PALM*) da classificação *PALM-COEIN* da FIGO para o sangramento uterino anormal.
+2. **Critério Clínico e Ultrassonográfico:** Paciente em idade reprodutiva com **menorragia** (aumento do volume e da duração do fluxo) há 8 meses. A ultrassonografia transvaginal evidenciou espessamento endometrial acentuado (**36 mm**, referência normal até 15 mm na menacme) e imagem intracavitária **hiperecoica** de **contornos regulares**, ecotextura clássica dos pólipos endometriais (em contraste com os leiomiomas, que são tipicamente hipoecoicos).
+3. **Indicação de Conduta:** A **histeroscopia diagnóstica** é o método padrão-ouro para avaliar lesões focais da cavidade uterina, pois possibilita visão panorâmica direta, localização topográfica, diagnóstico diferencial e planejamento da abordagem cirúrgica (*polipectomia histeroscópica*).
 
-2. Análise dos Distratores:
-- Alternativa A (Incorreta): O sangramento da paciente é menstrual (cíclico e aumentado), e a colpocitologia oncótica é normal (alterações reativas/reparativas são benignas), não havendo qualquer indicação para colposcopia ou suspeita de patologia do colo uterino.
-- Alternativa B (Incorreta): A queixa é crônica (8 meses), sem dor pélvica aguda, atraso menstrual recente ou instabilidade hemodinâmica, afastando o diagnóstico de gravidez ectópica.
-- Alternativa C (Incorreta): Embora miomas submucosos possam cursar com menorragia e espessamento cavitário, a característica ultrassonográfica de lesão hiperecoica é típica de pólipo (miomas são tipicamente hipoecoicos). Ademais, a laparoscopia avalia a superfície peritoneal/serosa e os órgãos pélvicos externos, sendo inadequada e invasiva para investigar lesões intracavitárias (endometriais).
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A paciente apresenta sangramento de padrão uterino/menstrual e a colpocitologia cervical evidenciou apenas alterações celulares reativas/reparativas benignas, afastando **patologia cervical** e tornando a **colposcopia** desprovida de indicação clínica.
+• **Alternativa B (Incorreta):** A história é crônica (**8 meses de evolução**), sem relato de atraso menstrual recente, dor pélvica aguda ou sinais de instabilidade, descartando formalmente o diagnóstico de **gestação ectópica** e a necessidade de **laparotomia exploratória**.
+• **Alternativa C (Incorreta):** A lesão típica da **miomatose uterina** submucosa apresenta-se como formação nodular **hipoecoica** (ou isoecoica). Ademais, a **laparoscopia diagnóstica** visualiza a superfície serosa e os órgãos peritoneais pélvicos, sendo um procedimento invasivo e totalmente inadequado para investigar o lúmen endometrial.
 </details>
 
 ---
@@ -22927,17 +23302,19 @@ O quadro clínico apresentado é característico de
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** O quadro clínico e ultrassonográfico é clássico de torção anexial/ovariana secundária a cisto de ovário, tornando a alternativa (A) a correta segundo as diretrizes da FEBRASGO e da literatura ginecológica padrão.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. O quadro clínico e ultrassonográfico é clássico de **torção anexial/ovariana** secundária a um cisto ovariano volumoso, emergência ginecológica cirúrgica respaldada pelas diretrizes da **FEBRASGO**.
 
-1. Raciocínio Clínico e Fisiopatológico:
-- A torção anexial é uma emergência ginecológica que ocorre mais frequentemente em mulheres jovens em idade reprodutiva, especialmente na presença de massas ovarianas benignas maiores que 5 cm (no caso, 10 cm).
-- A história de dor pélvica intermitente que evolui para dor intensa e contínua é altamente sugestiva de episódios de torção e distorção espontânea parcial, culminando na torção completa do pedículo vascular ovariano.
-- Ao Doppler, a ausência de fluxo arterial e/ou venoso é o achado que sela o diagnóstico de sofrimento vascular/isquemia ovariana decorrente da torção do pedículo vascular, demandando intervenção cirúrgica imediata (laparoscopia diagnóstica/terapêutica com detorção e avaliação de viabilidade).
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- B) Abscesso tubo-ovariano: É uma complicação da Doença Inflamatória Pélvica (DIP). Cursaria classicamente com febre, leucocitose, elevação de provas inflamatórias (PCR/VHS) e corrimento vaginal purulento. Na ultrassonografia, apresenta-se como massa complexa, multiloculada, com paredes espessadas e hipervascularização periférica (anel de fogo/hiperemia ao Doppler).
-- C) Endometrioma de ovário: Caracteriza-se ultrassonograficamente pelo padrão de ecos internos homogêneos de baixa intensidade (aspecto em 'vidro fosco' ou 'ground-glass'), não sendo anecoico puro, e habitualmente cursa com história crônica de dismenorreia progressiva, dispareunia e infertilidade.
-- D) Cisto hemorrágico ovariano: Apresenta-se tipicamente com ecotextura interna reticular (aspecto em 'rede de pesca' ou 'teia de aranha') ou áreas de retração de coágulo, com ausência de fluxo interno no coágulo, mas com preservação da vascularização do parênquima ovariano ao Doppler (diferente da ausência total de fluxo decorrente de torção).
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **torção de cisto ovariano** (*torsio ovarii*). A apresentação com dor pélvica inicialmente intermitente (sugerindo episódios transitórios de torção e detorção) que evolui para dor contínua e lancinante, associada à massa anexial sem fluxo vascular, define a afecção.
+2. **Critério Clínico / Fisiopatologia:** O principal fator de risco para torção é a presença de massas ovarianas **maiores que 5 cm** (no caso, **10 cm de diâmetro**). O pedículo vascular sofre rotação sobre seu próprio eixo, comprometendo inicialmente o retorno venoso e linfático (gerando edema volumoso) e, subsequentemente, o suprimento arterial. O achado de **ausência de fluxo ao Doppler** confirma a isquemia e o sofrimento vascular tecidual.
+3. **Indicação de Conduta:** A abordagem padrão-ouro consiste em **laparoscopia cirúrgica de urgência** com detorção imediata e avaliação da viabilidade ovariana, buscando a preservação do parênquima gonadal, especialmente em mulheres nuligestas e em idade fértil.
+
+**Análise dos Distratores:**
+
+• **Alternativa B (Incorreta):** O **abscesso tubo-ovariano** é uma complicação grave da Doença Inflamatória Pélvica (DIP) e classicamente cursa com **febre**, leucocitose com desvio à esquerda e secreção vaginal purulenta. À ultrassonografia, caracteriza-se por massa complexa multiloculada com **hiperfluxo periférico** ao Doppler decorrente da hiperemia inflamatória.
+• **Alternativa C (Incorreta):** O **endometrioma ovariano** apresenta aspecto ultrassonográfico clássico em **"vidro fosco"** (*ground-glass*), com ecos internos homogêneos de baixa intensidade, em vez de imagem puramente anecoica, além de cursar com quadro crônico de dismenorreia secundária, dispareunia de profundidade e dor pélvica crônica.
+• **Alternativa D (Incorreta):** O **cisto hemorrágico ovariano** exibe padrão ecográfico reticular interno em **"teia de aranha"** ou retração de coágulo, mantendo **fluxo vascular preservado** no parênquima ovariano ao redor da lesão, diferindo da ausência global de fluxo observada na torção.
 </details>
 
 ---
@@ -23473,15 +23850,26 @@ Uma adolescente de 17 anos procura atendimento médico, com queixa de lesões vu
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** O quadro clínico apresentado é clássico de Hidradenite Supurativa (HS), tornando a alternativa (C) a correta.
+> **Comentário Médica:** O quadro clínico apresentado é clássico de hidradenite supurativa, tornando a alternativa C a correta.
 
-1. Fundamentação Clínica e Fisiopatológica:
-A hidradenite supurativa (ou acne inversa) é uma doença inflamatória crônica, recorrente e debilitante do folículo pilosebáceo terminal, acometendo preferencialmente áreas intertriginosas ricas em glândulas apócrinas, como axilas, virilhas, regiões perineal, perianal e vulvar. A fisiopatologia primária envolve a oclusão infundibular folicular com subsequente dilatação, ruptura do folículo e desencadeamento de intensa resposta imuno-inflamatória dérmica. Clinicamente, caracteriza-se pela tríade diagnóstica: lesões típicas (nódulos dolorosos profundos, abscessos estéreis, tratos fistulosos com drenagem purulenta/fétida e cicatrizes fibróticas retráteis), localização típica (áreas de dobras corporais/axila/vulva) e cronicidade com recorrência (duração de semanas a meses e episódios repetidos). O caso da adolescente contempla rigorosamente todos esses critérios, incluindo a apresentação em mais de um sítio anatômico (vulva e axila).
+**Raciocínio Clínico e Diagnóstico:**
 
-2. Análise dos Distratores:
-- Alternativa A (Sífilis primária): Caracteriza-se pelo cancro duro (úlcera única, indolor, de base limpa e bordas endurecidas), acompanhado de linfonodomegalia regional satélite não supurativa. Não produz múltiplos abscessos crônicos, cicatrizes profundas nem acometimento axilar concomitante.
-- Alternativa B (Vulvite herpética): Infecção aguda ou recidivante pelo Herpes simplex (geralmente HSV-2), que se manifesta por vesículas agrupadas sobre base eritematosa, que rapidamente se rompem originando úlceras rasas e muito dolorosas com resolução em 1 a 2 semanas. Não evolui com abscessos profundos, fístulas persistentes ou cicatrizes extensas.
-- Alternativa D (Linfogranuloma venéreo): Infecção sexualmente transmissível causada pelos sorotipos L1, L2 e L3 de Chlamydia trachomatis. Classicamente cursa com lesão primária fugaz (pequena pápula ou úlcera indolor genital) que cicatriza rapidamente, sucedida semanas após por linfadenopatia inguinal/femoral dolorosa e tipicamente unilateral que pode flutuar, fistulizar em múltiplos orifícios ("bubu") e apresentar o "sinal do sulco". Não é caracterizada por abscessos labiais recorrentes crônicos associados a lesões axilares.
+A **hidradenite supurativa**, também conhecida como acne inversa, é uma doença inflamatória crônica, recorrente e debilitante do epitélio folicular terminal. A fisiopatologia primária envolve a oclusão folicular, hiperceratose, dilatação e subsequente ruptura do folículo piloso, deflagrando uma intensa resposta inflamatória tecidual mediada por citocinas pró-inflamatórias (como TNF-alfa, IL-1beta e IL-17). Secundariamente, ocorre envolvimento das glândulas apócrinas adjacentes, com formação de abscessos profundos, trajetos fistulosos interconectados e fibrose tecidual exuberante com cicatrizes retráteis ou em ponte.
+
+O diagnóstico da hidradenite supurativa é essencialmente clínico e fundamenta-se na presença obrigatória de três critérios:
+1. **Morfologia típica das lesões:** nódulos dolorosos profundos que evoluem para abscessos, tratos fistulosos com drenagem de secreção purulenta fétida e cicatrizes profundas (comedões abertos e fístulas confluentes são achados característicos);
+2. **Distribuição anatômica característica:** áreas intertriginosas ricas em folículos terminais e glândulas apócrinas, tais como axilas, virilhas, região anogenital/vulvar, períneo e dobras inframamárias;
+3. **Cronicidade e recorrência:** persistência ou recorrência das lesões (definida habitualmente como pelo menos dois episódios em seis meses ou nódulos que duram semanas a meses).
+
+A paciente em questão preenche integralmente todos os critérios diagnósticos, apresentando múltiplos abscessos e cicatrizes profundas nos grandes lábios com drenagem fétida, nódulos com duração de semanas a meses e acometimento concomitante da axila, fechando com precisão o diagnóstico de **hidradenite supurativa** (classificada clinicamente pelo escore de Hurley, provavelmente estadio II ou III).
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A sífilis primária é causada pelo Treponema pallidum e tem como marco semiológico o cancro duro. Caracteriza-se classicamente por uma úlcera única, indolor, de base limpa, com bordas endurecidas e infiltradas, que surge no sítio de inoculação cerca de 10 a 90 dias após o contágio. Acompanha-se habitualmente de linfadenopatia regional satélite não supurativa e indolente. A lesão cicatriza espontaneamente em 3 a 8 semanas, mesmo sem tratamento. A sífilis não evolui com múltiplos abscessos purulentos, fístulas, cicatrizes profundas deformantes ou lesões axilares crônicas.
+
+• **B) Incorreta:** A infecção genital pelo vírus herpes simples (HSV-1 ou HSV-2) manifesta-se por vesículas agrupadas sobre base eritematosa que rapidamente se rompem, transformando-se em pequenas úlceras superficiais policíclicas, rasas e intensamente dolorosas. Embora a infecção seja recorrente, cada surto agudo apresenta curso autolimitado de 7 a 14 dias. A vulvite herpética não cursa com nódulos crônicos que persistem por semanas a meses, abscessos profundos drenando secreção fétida espessa, nem com formação de fístulas ou cicatrizes fibróticas retráteis.
+
+• **D) Incorreta:** O linfogranuloma venéreo é uma infecção sexualmente transmissível causada pelos sorotipos invasivos L1, L2 e L3 de Chlamydia trachomatis. A doença divide-se em três fases: a primária exibe uma pequena pápula ou úlcera genital fugaz e indolor que frequentemente passa despercebida; a secundária manifesta-se tipicamente após algumas semanas por linfadenite inguinal ou femoral subaguda, unilateral e dolorosa (o bubão venéreo), separada pelo ligamento inguinal (sinal do sulco) e que pode fistulizar por múltiplos orifícios; e a terciária pode levar a sequelas linfáticas tardias (elefantíase genital). O quadro não corresponde a abscessos vulvares recorrentes associados a lesões axilares crônicas independentes de linfonodos.
 </details>
 
 ---
@@ -23591,24 +23979,21 @@ Uma paciente de 20 anos, primigesta, idade gestacional de 12 semanas, comparece 
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A alternativa (B) é a correta.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Fundamentação Clínica e Diretrizes (Ministério da Saúde / FEBRASGO):
-O quadro clínico apresentado pela gestante é clássico de sífilis secundária:
-- Lesões genitais em relevo, aveludadas e úmidas: correspondem ao condiloma plano (condyloma lata), altamente infectante.
-- Lesões cutâneas papulosas eritêmato-acastanhadas com acometimento palmo-plantar: clássicas sifilides papulosas secundárias à disseminação hematogênica do Treponema pallidum.
-- VDRL reagente: confirma o diagnóstico sorológico no contexto clínico típico.
+O quadro clínico apresentado pela gestante é clássico de disseminação hematogênica e linfática do Treponema pallidum, o que caracteriza a fase secundária da infecção. As lesões aveludadas, hipertróficas e em alto relevo na região anogenital correspondem aos condilomas planos (condiloma lata), altamente infectantes por conterem grande carga treponêmica. A erupção cutânea papulosa e eritêmato-acastanhada com acometimento característico palmo-plantar (sifílides) consolida a manifestação da **sífilis recente secundária**.
 
-Classificação temporal:
-- A sífilis é classificada como recente quando a infecção tem até 1 ano de evolução, englobando as formas primária, secundária e latente recente. Como a paciente apresenta manifestações clínicas ativas de disseminação, trata-se de sífilis recente secundária.
+A classificação cronológica da sífilis divide a infecção em recente (menos de um ano de evolução, que engloba as formas primária, secundária e latente recente) e tardia (mais de um ano de evolução ou com tempo de contágio indeterminado, englobando a latente tardia e a terciária). Como os sinais clínicos secundários surgem habitualmente entre 6 semanas e 6 meses após a infecção inicial, trata-se inequivocamente de uma forma recente.
 
-Tratamento preconizado:
-- De acordo com o Protocolo Clínico e Diretrizes Terapêuticas (PCDT) para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST) do Ministério da Saúde, o esquema terapêutico de escolha para sífilis recente (primária, secundária e latente recente) — inclusive em gestantes — é a Penicilina G Benzatina na dose total de 2.400.000 UI, administrada por via intramuscular (1.200.000 UI em cada glúteo) em dose única.
+De acordo com as diretrizes do Ministério da Saúde e da FEBRASGO para o manejo da infecção na gravidez, a única droga com eficácia comprovada para o tratamento materno e prevenção ou cura da sífilis congênita é a **penicilina benzatina**. Para a sífilis recente (primária, secundária ou latente recente), o esquema terapêutico padrão consiste na aplicação de 2.400.000 UI por via intramuscular, administrada em dose única (1.200.000 UI em cada glúteo).
 
-2. Análise dos Distratores:
-- Alternativa A está incorreta: O estágio primário caracteriza-se classicamente pelo cancro duro (úlcera única, indolor, de base limpa e bordas endurecidas, geralmente acompanhada de linfonodomegalia regional não supurativa). O acometimento mucoso (condiloma lata) e cutâneo disseminado (palmo-plantar) define a fase secundária.
-- Alternativa C está incorreta: A sífilis latente tardia é assintomática e ocorre após 1 ano de contaminação (ou de tempo indeterminado). A paciente em questão apresenta rica sintomatologia clínica cutaneomucosa (sífilis secundária evidente) e necessita de dose única (2,4 milhões de UI), e não de 3 doses semanais (7,2 milhões de UI no total).
-- Alternativa D está incorreta: O termo 'latente' aplica-se a indivíduos assintomáticos com sorologia reagente. Havendo manifestações clínicas, a doença não é latente. Ademais, se fosse latente recente (< 1 ano), o tratamento também seria em dose única (2.400.000 UI IM) e não em 3 semanas.
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A sífilis primária tem como marco o cancro duro, que é uma úlcera geralmente única, indolor, de base limpa e bordas endurecidas no sítio de inoculação, habitualmente acompanhada de linfadenopatia regional indolor, sem acometimento cutâneo disseminado nem condilomas planos.
+
+• **C) Incorreta:** A sífilis latente tardia é uma forma assintomática com tempo de infecção superior a 1 ano ou duração desconhecida, detectada apenas por sorologia reativa. Seu esquema de tratamento é de 2.400.000 UI semanais por 3 semanas consecutivas (total de 7.200.000 UI). A paciente descrita apresenta lesões mucocutâneas floridas ativas, excluindo o estado de latência.
+
+• **D) Incorreta:** A sífilis latente recente é definida pela positividade sorológica na ausência total de manifestações clínicas em paciente com infecção confirmada há menos de 1 ano. Além de a paciente ser sintomática, o esquema posológico da sífilis latente recente seria em dose única de 2.400.000 UI, e não em 3 semanas.
 </details>
 
 ---
@@ -23770,15 +24155,17 @@ Nesse contexto, considerando a importância do diagnóstico etiológico, assinal
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A questão aborda o diagnóstico diferencial das vulvovaginites e cervicites, tema de altíssima relevância na prática ginecológica e frequentemente cobrado em exames de revalidação e residência médica.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Justificativa da alternativa correta (C):
-A candidíase vulvovaginal, provocada predominantemente pela *Candida albicans*, caracteriza-se clinicamente por prurido vulvar intenso (sintoma cardinal), hiperemia, edema vulvovaginal e corrimento tipicamente branco, espesso, com aspecto grumoso ('em nata de leite' ou 'queijo cottage'), aderente às paredes vaginais e ao colo uterino. O pH vaginal mantém-se tipicamente ácido (geralmente < 4,5), e o exame microscópico a fresco ou corado pelo Gram evidencia hifas, pseudo-hifas e blastoconídios. Portanto, a alternativa C descreve com exatidão a apresentação clínica macroscópica clássica recomendada pelas diretrizes da FEBRASGO e do Ministério da Saúde.
+A abordagem das queixas de corrimento vaginal exige a distinção precisa entre as afecções que acometem a mucosa vaginal (vulvovaginites) e aquelas restritas ao epitélio endocervical (cervicites). A **candidíase vulvovaginal**, causada em cerca de 80% a 90% dos casos por *Candida albicans*, é uma infecção fúngica oportunista facilitada por fatores como uso recente de antimicrobianos, imunossupressão, diabetes descompensado, gestação e estados de hiperestrogenismo. O quadro clínico clássico é marcado por prurido vulvar intenso (sintoma mais marcante), ardor miccional externo, dispaureunia superficial e hiperemia com edema vulvovaginal. Ao exame especular, observa-se corrimento branco, espesso, em grumos ou placas aderidas à mucosa vaginal e ao colo uterino, lembrando o aspecto de nata de leite ou coalhada, sem odor fétido e com teste das aminas negativo. O pH vaginal permanece tipicamente na faixa normal ácida (menor que 4,5), e a microscopia a fresco revela a presença de pseudo-hifas e blastóporos (leveduras).
 
-Análise dos distratores:
-- Alternativa A (Incorreta): A *Chlamydia trachomatis* é um agente causador de cervicite (endocervicite) e não de vaginite primária, uma vez que tem tropismo pelo epitélio colunar e escamocolunar do colo uterino. Cursa com colo friável, sangramento ao toque e exsudato endocervical mucopurulento, sem provocar reação inflamatória primária nas paredes vaginais.
-- Alternativa B (Incorreta): Na tricomoníase vaginal (*Trichomonas vaginalis*), o corrimento é habitualmente abundante (não escasso), fluido, bolhoso, de coloração amarelo-esverdeada e odor fétido. Além disso, o método diagnóstico de escolha à beira do leito é o exame a fresco da secreção vaginal (revelando protozoários flagelados móveis), e não a bacterioscopia com cultura sistemática.
-- Alternativa D (Incorreta): A vaginite citolítica decorre da hiperproliferação de lactobacilos (bastonetes Gram-positivos, e não germes Gram-negativos), gerando lise das células epiteliais intermediárias por hiperacidez. Por consequência, o pH vaginal encontra-se marcadamente ácido (tipicamente entre 3,5 e 4,5, portanto ≤ 4,5, e não maior que 4,5). O esfregaço mostra lactobacilos aumentados, citólise com núcleos nus e ausência de outros patógenos.
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A infecção por Chlamydia trachomatis tem tropismo estrito pelo epitélio colunar e escamocolunar do colo uterino, configurando um quadro de cervicite mucopurulenta e não de vaginite primária. O epitélio estratificado pavimentoso da vagina adulta é resistente à invasão por clamídia. Portanto, a infecção manifesta-se tipicamente com colo friável que sangra ao contato, exsudato endocervical purulento ou amarelado e ausência de reação inflamatória nas paredes vaginais.
+
+• **B) Incorreta:** Na tricomoníase, infecção sexualmente transmissível causada pelo protozoário flagelado Trichomonas vaginalis, o corrimento é tipicamente abundante (e não escasso), amarelo-esverdeado, bolhoso e com odor fétido característico. Além disso, o diagnóstico preferencial e mais custo-efetivo à beira do leito é realizado por meio do exame microscópico a fresco do conteúdo vaginal em solução salina fisiológica, o qual evidencia a presença de protozoários ovais e móveis com flagelos. A bacterioscopia pelo Gram e a cultura não constituem a propedêutica de primeira linha para essa entidade.
+
+• **D) Incorreta:** A vaginite citolítica, também conhecida como vaginose por lactobacilos, decorre da proliferação excessiva de lactobacilos (bastonetes Gram-positivos), que metabolizam o glicogênio em ácido lático de forma exagerada, gerando um ambiente de hiperacidez. Dessa forma, o pH vaginal encontra-se marcadamente ácido, habitualmente entre 3,5 e 4,5 (e não maior que 4,5). O achado bacterioscópico característico consiste na presença maciça de grandes bastonetes Gram-positivos associada a núcleos celulares nus e lise evidente de células epiteliais escamosas, com ausência de bactérias Gram-negativas, Trichomonas ou Candida.
 </details>
 
 ---
@@ -23923,14 +24310,23 @@ Uma mulher de 49 anos procurou uma unidade básica de saúde, com queixa de “c
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) é a correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. O acometimento metastático dos **linfonodos axilares** (status linfonodal) constitui isoladamente o principal fator prognóstico independente clássico no **câncer de mama** inicial e locorregional, correlacionando-se com maior risco de recidiva sistêmica e menor sobrevida global, conforme as diretrizes da **FEBRASGO**, **SBO** e **NCCN**.
 
-No câncer de mama, o estadiamento e a estratificação de risco prognóstico baseiam-se em fatores clínicos, histopatológicos e moleculares consolidados (conforme diretrizes do INCA/Ministério da Saúde, FEBRASGO e NCCN). Dentre os fatores anatômicos e patológicos clássicos, o acometimento de linfonodos axilares (status linfonodal) é isoladamente o fator prognóstico independente mais relevante no câncer de mama em estágios iniciais/locorregionais. A presença de metástase em linfonodos sentinelas indica disseminação tumoral para a cadeia linfática regional, correlacionando-se diretamente com maior taxa de recorrência à distância e redução significativa das taxas de sobrevida global e livre de doença.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa (A) está incorreta: O carcinoma ductal infiltrante (sem outra especificação) é o tipo histológico mais prevalente (70–80% dos casos) e define o padrão usual de tratamento e comportamento biológico, não configurando, por si só, o fator de pior prognóstico no contexto apresentado.
-- Alternativa (B) está incorreta: O tamanho tumoral de 1,5 cm classifica a lesão como T1c (tumores entre 1,0 e 2,0 cm), o que reflete uma lesão relativamente pequena e com perfil favorável de estadiamento primário local (estágio T1).
-- Alternativa (C) está incorreta: A positividade para receptores hormonais (estrogênio e progesterona) é um fator de BOM prognóstico (subtipo Luminal), além de ser um biomarcador preditivo essencial para uma resposta favorável à terapia de privação hormonal (endocrinoterapia com moduladores seletivos como tamoxifeno ou inibidores de aromatase).
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de uma paciente de 49 anos diagnosticada com **carcinoma ductal invasor** (denominado no laudo como carcinoma intraductal infiltrante) de mama esquerda, com estadiamento patológico demonstrando doença locorregionalmente disseminada para a cadeia linfática axilar.
+
+2. **Critério Clínico / Fisiopatologia:** A invasão de células neoplásicas para o estroma adjacente e a consequente embolização para os vasos linfáticos resulta em **metástases em linfonodos sentinelas** (neste caso, 2 linfonodos acometidos). O status linfonodal reflete a capacidade de disseminação à distância do tumor e é o determinante patológico mais forte de prognóstico desfavorável no estadiamento TNM.
+
+3. **Fator Prognóstico e Conduta:** Enquanto fatores como tamanho tumoral e grau histológico conferem risco, o **comprometimento linfonodal** altera significativamente o estadiamento (estágio patológico II ou superior) e define a necessidade de terapias adjuvantes mais agressivas, incluindo **quimioterapia sistêmica** e **radioterapia loco-regional**, devido ao risco elevado de micrometástases à distância.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O **carcinoma ductal invasor** (sem outra especificação) é o tipo histológico mais comum (responsável por 70% a 80% dos casos). Por representar o padrão epidemiológico habitual, sua histologia isolada não configura o fator de pior prognóstico no caso apresentado.
+
+• **Alternativa B (Incorreta):** O diâmetro de **1,5 cm** classifica o tumor primário como **T1c** (maior que 1,0 cm e menor ou igual a 2,0 cm). Trata-se de uma lesão de dimensões reduzidas, associada a um prognóstico local favorável quando comparada a tumores T2, T3 ou T4.
+
+• **Alternativa C (Incorreta):** A presença de **receptores de estrogênio e progesterona positivos** confere um fenótipo tumoral do subtipo **luminal**, que classicamente apresenta comportamento biológico menos agressivo (**bom prognóstico**), além de servir como biomarcador preditivo para excelente resposta à **hormonioterapia** adjuvante (ex.: tamoxifeno ou inibidores de aromatase).
 </details>
 
 ---
@@ -24015,16 +24411,19 @@ Assinale a opção que indica a hipótese diagnóstica desse caso e a conduta ad
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) está correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. Diante de uma paciente idosa com quadro clínico característico de **líquen escleroso vulvar** que desenvolve uma **lesão ulcerada persistente**, a principal hipótese a ser considerada é o **câncer de vulva**, sendo a **biópsia da lesão** o padrão-ouro imediato para confirmação diagnóstica e planejamento terapêutico, conforme as diretrizes da **FEBRASGO** e da **Sociedade Brasileira de Oncologia Clínica (SBOC)**.
 
-Fundamentação clínica e fisiopatológica:
-O quadro clínico da paciente (idosa de 70 anos com prurido vulvar crônico, queimação, apagamento dos pequenos lábios e áreas hipocrômicas perineais) é clássico de líquen escleroso vulvar, uma dermatose inflamatória crônica comum na pós-menopausa. O líquen escleroso confere risco aumentado (cerca de 4 a 5%) para o desenvolvimento de carcinoma espinocelular (CEC) de vulva, tipicamente através da via independente do HPV (associada à neoplasia intraepitelial vulvar diferenciada - dVIN).
-A presença de uma nova lesão ulcerada, persistente, vegetante ou endurecida sobre uma área de líquen escleroso deve ser considerada suspeita de malignidade (câncer de vulva) até que se prove o contrário. Conforme as diretrizes da FEBRASGO e as normas oncológicas vigentes, a conduta imperativa e mandatória diante de qualquer lesão vulvar suspeita é a realização de biópsia incisional (ou por punch) para confirmação diagnóstica e planejamento terapêutico/estadiamento cirúrgico adequado.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa A (Incorreta): O cancroide é uma infecção sexualmente transmissível causada pelo *Haemophilus ducreyi*, caracterizada por úlceras dolorosas, de bordas amolecidas e fundo necrótico purulento, frequentemente acompanhadas de linfonodomegalia inguinal dolorosa e flutuante. Além de não justificar o apagamento anatômico crônico, o tratamento padrão é feito com azitromicina ou ceftriaxona, e não doxiciclina.
-- Alternativa B (Incorreta): A Doença de Behçet é uma vasculite sistêmica que cursa com úlceras orais e genitais recidivantes, lesões oculares e cutâneas, incidindo preferencialmente em adultos jovens. Em uma paciente de 70 anos com atrofia/apagamento arquitetural prévio e úlcera vulvar, presumir etiologia inflamatória e introduzir corticoterapia sem afastar malignidade por biópsia constitui erro grave.
-- Alternativa D (Incorreta): A neoplasia intraepitelial vulvar usual (uVIN ou lesão de alto grau - HSIL) está associada à infecção pelo HPV e é mais frequente em mulheres jovens e tabagistas. No contexto de líquen escleroso, a via oncogênica típica é a dVIN (diferenciada). Ademais, a conduta inicial não é a exérese ampla imediata, mas sim a biópsia dirigida para elucidação diagnóstica e definição de margens e profundidade.
+1. **Diagnóstico da Afecção/Quadro:** Os achados de **prurido vulvar crônico**, **queimação**, **apagamento de pequenos lábios** e **placas hipocrômicas** constituem a apresentação típica de *líquen escleroso*, uma dermatose inflamatória crônica frequente na pós-menopausa. O surgimento de uma **lesão ulcerada** sobre esse tecido atrófico impõe a suspeita mandatória de **carcinoma espinocelular (CEC) de vulva**.
+2. **Critério Clínico / Fisiopatologia:** O líquen escleroso é uma afecção precursora com risco de transformação maligna em torno de **4 a 5%**, evoluindo por via independente do HPV associada a mutações do gene *TP53* (**neoplasia intraepitelial vulvar diferenciada - dVIN**). Toda úlcera, nódulo ou placa endurecida de evolução insidiosa em vulva com arquitetura distorcida deve ser considerada neoplasia invasora até prova em contrário.
+3. **Indicação de Conduta:** Diante de lesão vulvar clinicamente suspeita de malignidade, a indicação formal e imperativa é a realização de **biópsia incisional** (preferencialmente por *punch* ou bisturi), abrangendo a borda da lesão com tecido são adjacente, permitindo avaliar profundidade de invasão estromal e diferenciação histológica antes de qualquer intervenção cirúrgica radical.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O **cancroide** é uma infecção sexualmente transmissível de evolução aguda causada pelo *Haemophilus ducreyi*, que se manifesta por **úlceras dolorosas com exsudato purulento** e **adenite inguinal fistulizante**, quadro incompatível com a cronologia e o apagamento anatômico crônico da paciente. Além disso, o tratamento de escolha é **azitromicina** ou **ceftriaxona**, e não **doxiciclina**.
+• **Alternativa B (Incorreta):** A **Doença de *Behçet*** é uma vasculite multissistêmica típica de **adultos jovens**, caracterizada por **úlceras orais e genitais recidivantes** e manifestações oculares. Prescrever **corticoide** sem descartar malignidade mediante biópsia em uma paciente idosa configuraria atraso diagnóstico potencialmente fatal.
+• **Alternativa D (Incorreta):** A **neoplasia intraepitelial vulvar usual (uVIN)** ou **HSIL** está relacionada à infecção pelo **HPV de alto risco** e acomete classicamente mulheres mais jovens. Ademais, a conduta primária frente a uma lesão ulcerada é a **biópsia diagnóstica dirigida**, e não a **exérese ampla imediata**, a qual só tem lugar após estadiamento histopatológico preciso.
 </details>
 
 ---
@@ -24557,19 +24956,27 @@ Com relação à foto, é correto afirmar que se trata de uma apresentação cef
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A questão aborda a estática fetal, especificamente a atitude da cabeça fetal na apresentação cefálica, avaliada por meio do toque vaginal.
+> **Comentário Médica:** O diagnóstico da estática fetal baseia-se na determinação da atitude, situação, posição e apresentação fetais. Quando o feto se encontra em situação longitudinal e polo cefálico inferior, a atitude da cabeça em relação ao tronco define se a apresentação é fletida ou defletida, o que modifica radicalmente os diâmetros de insinuação fetal na bacia materna e os pontos de referência anatômicos identificáveis ao toque vaginal.
 
-Justificativa da alternativa correta (C):
-Na apresentação cefálica, a cabeça do feto pode apresentar diferentes graus de flexão ou deflexão em relação ao tronco:
-1. Apresentação cefálica fletida (vértice ou occipital): atitude fisiológica mais comum, na qual o polo cefálico atinge flexão máxima e o ponto de referência ao toque é o occipício/fontanela posterior (lambda). O diâmetro de insinuação é o suboccipitobregmático (9,5 cm).
-2. Apresentação cefálica defletida de 1º grau (bregmática): ocorre leve extensão (deflexão moderada), tendo como ponto de referência a fontanela anterior (bregma). O diâmetro de insinuação é o occipitofrontal (12 cm).
-3. Apresentação cefálica defletida de 2º grau (fronte): extensão intermediária, na qual o ponto de referência é a raiz do nariz (glabela). O diâmetro de insinuação é o occipitomentoniano (13,5 cm), sendo a forma mais desfavorável e geralmente impeditiva de parto vaginal a termo.
-4. Apresentação cefálica defletida de 3º grau (face): extensão máxima da cabeça sobre a coluna cervical, de modo que o occipício toca o dorso fetal. Ao toque vaginal, identificam-se estruturas faciais (boca, nariz, órbitas e queixo). O ponto de referência do feto é o mento (queixo), e a linha de orientação é a linha facial. O diâmetro de insinuação é o submentobregmático (9,5 cm). Pela imagem clínica fornecida pela prova, observa-se a palpação/exteriorização direta da face fetal (com identificação dos orifícios orofacial e mento), caracterizando tipicamente a deflexão de 3º grau (apresentação de face).
+**Raciocínio Clínico e Diagnóstico:**
 
-Análise dos distratores:
-- A (Incorreta): Na deflexão de 1º grau (bregmática), a estrutura palpável como ponto de referência é o bregma (fontanela losângica), sem exposição da face fetal.
-- B (Incorreta): Na deflexão de 2º grau (fronte), palpa-se a fronte e a raiz do nariz (glabela), mas o mento e a boca não são acessíveis com facilidade da forma mostrada na apresentação de face.
-- D (Incorreta): Na apresentação cefálica fletida, palpa-se o lambda (fontanela triangular) e as suturas sagitais; a face fica totalmente recolhida contra o tórax fetal, inacessível ao toque vaginal inferior.
+1. **Apresentação Cefálica Fletida (Vértice ou Occipital):** É a atitude fisiológica por excelência (ocorre em cerca de 95% dos partos). O queixo fetal está encostado no esterno, oferecendo o diâmetro suboccipitobregmático (9,5 cm), que é o menor diâmetro anteroposterior da cabeça fetal. Seu ponto de referência ao toque vaginal é o occipício ou a fontanela posterior (lambda, de formato triangular), e sua linha de orientação é a sutura sagital.
+
+2. **Deflexão de 1° Grau (Apresentação de Bregma):** Caracteriza-se por uma deflexão leve ou atitude militar indiferente. O diâmetro de insinuação passa a ser o occipitofrontal (12 cm). O ponto de referência ao exame digital é a fontanela anterior (bregma, de formato losângico), e a linha de orientação é a sutura sagitometópica.
+
+3. **Deflexão de 2° Grau (Apresentação de Fronte):** Corresponde a uma deflexão moderada na qual o polo cefálico oferece o maior diâmetro da cabeça fetal, o occipitomentoniano (13,5 cm). Ao toque vaginal, o ponto de referência é a raiz do nariz (glabela) e a linha de orientação é a sutura metópica. Trata-se da apresentação mais distócica, sendo o parto vaginal praticamente impossível a termo em pelve de dimensões normais, tornando a cesariana mandatória se a atitude persistir.
+
+4. **Deflexão de 3° Grau (Apresentação de Face):** Consiste na extensão máxima da cabeça sobre a coluna vertebral, encostando o occipício no dorso fetal. O diâmetro de insinuação passa a ser o submentobregmático (9,5 cm), idêntico em medida ao da apresentação fletida, o que teoricamente permite a evolução para o parto por via baixa. Ao toque vaginal, identificam-se nitidamente as órbitas, a pirâmide nasal, as comissuras labiais e o mento. O ponto de referência anatômico é o mento (queixo fetal) e a linha de orientação é o sulco interocular e a rima bucal. 
+
+No exame demonstrado na questão, a visualização direta das estruturas anatômicas faciais (boca, nariz e queixo) confirma com precisão a **apresentação de face**, classificada como **defletida de 3° grau**. Vale destacar na prática obstétrica que a via de parto vaginal só se concretiza se a rotação interna ocorrer para a variedade mento-anterior (o queixo gira para a sínfise púbica materna); se houver persistência em mento-posterior, ocorre impactação mecânica e o parto cesáreo torna-se imperativo.
+
+**Análise das Alternativas Incorretas:**
+
+• **A) Incorreta:** Na apresentação defletida de 1° grau (bregmática), a estrutura palpável centralmente é a grande fontanela anterior (losângica), não ocorrendo exposição ou palpação dos componentes faciais como boca, nariz e mento.
+
+• **B) Incorreta:** Na apresentação de fronte (defletida de 2° grau), o toque vaginal alcança a fronte fetal e tem como limite caudal palpável a raiz do nariz (glabela). As estruturas inferiores da face, como boca e mento, não estão ao alcance direto do examinador.
+
+• **D) Incorreta:** Na apresentação cefálica fletida, a cabeça encontra-se hiperfletida, sendo palpáveis unicamente os ossos parietais, o occipício e a fontanela lambdoide (triangular), com a face totalmente inacessível ao exame digital vaginal.
 </details>
 
 ---
@@ -24971,16 +25378,23 @@ Com relação à proposta da amniotomia, o médico estava
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta proposta pelo médico está CORRETA. No manejo do descolamento prematuro de placenta (DPP), a realização precoce da amniotomia (rotura artificial das membranas ovulares) é uma intervenção clássica e fortemente recomendada pelas diretrizes obstétricas (como FEBRASGO e Ministério da Saúde), desde que o acesso seja viável e seguro (colo pérvio e apresentação cefálica adaptada/fixa, como demonstrado no caso: 4 cm de dilatação e De Lee +1).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Fundamentação fisiopatológica e clínica da alternativa (C):
-1. Redução da pressão intrauterina e da passagem de tromboplastina: o hematoma retroplacentário eleva a pressão intramedular e intrauterina. A descompressão imediata decorrente da drenagem do líquido amniótico diminui essa pressão transmural, reduzindo a passagem de tromboplastina tecidual rica da decídua/placenta para a circulação venosa materna aberta. Isso mitiga diretamente o consumo maciço de fatores de coagulação e previne a coagulação intravascular disseminada (CIVD), que é uma das complicações mais temidas do DPP.
-2. Efeito hemostático/tamponamento e progressão do parto: o alívio da hipertonia uterina favorece contrações rítmicas mais eficientes, acelera o trabalho de parto e permite a descida da apresentação fetal, promovendo compressão mecânica (efeito tampão) sobre o leito placentário e reduzindo o sangramento ativo.
+O quadro clínico de dor abdominal de início súbito acompanhada de sangramento vaginal escuro ou vermelho vivo, associado a hipertonia uterina em paciente no terceiro trimestre, caracteriza o **descolamento prematuro de placenta**. Trata-se de uma emergência obstétrica cuja conduta depende da vitalidade fetal, da estabilidade hemodinâmica materna e das condições do colo uterino.
 
-Análise dos distratores:
-- Alternativa A (Incorreta): A amniotomia diminui a pressão intrauterina e o gradiente de pressão cavitário, o que reduz (e não aumenta) a probabilidade de passagem de líquido amniótico ou antígenos para a circulação venosa materna (embolia por líquido amniótico).
-- Alternativa B (Incorreta): O principal benefício da amniotomia no DPP relaciona-se à diminuição da pressão intrauterina, prevenção de CIVD e aceleração da fase ativa do parto; a redução do tempo de dequitação da placenta após o parto não é o objetivo fisiopatológico primário nem o mecanismo definidor da conduta.
-- Alternativa D (Incorreta): A descompressão intrauterina não piora a área de descolamento; pelo contrário, permite que as fibras miometriais realizem a hemostasia mecânica (ligaduras vivas de Pinard) mais eficazmente e que o polo cefálico atue tamponando a área sangrante.
+1. **Fisiopatologia da coagulopatia no descolamento:** Na separação intempestiva da placenta de sua inserção decidual, há formação de hematoma retroplacentário e destruição tecidual, com liberação maciça de tromboplastina tecidual (fator tecidual III) na circulação local. Devido à sobredistensão e à hipertonia uterina, o gradiente de pressão intramiometrial empurra essa substância rica em pró-coagulantes para o interior dos seios venosos maternos abertos, desencadeando a ativação sistêmica em cascata da coagulação e consumo de fibrinogênio e plaquetas, processo que culmina em coagulação intravascular disseminada (CIVD).
+
+2. **Efeitos da amniotomia na prevenção de CIVD:** A realização de **amniotomia precoce**, recomendada pelas diretrizes da FEBRASGO e do Ministério da Saúde sempre que o colo for favorável e a apresentação insinuada (como na paciente, com 4 cm de dilatação e plano +1 de De Lee), reduz de imediato a pressão intrauterina. Com a descompressão da cavidade amniótica, reduz-se expressivamente o gradiente pressórico que força a entrada de tromboplastina tecidual para a circulação venosa sistêmica da mãe, prevenindo o esgotamento dos fatores de coagulação e a instalação ou piora da CIVD.
+
+3. **Mecanismo hemostático adicional:** Além da prevenção da coagulopatia de consumo, a ruptura das membranas alivia a hipertonia basal do miométrio, melhora a efetividade das contrações rítmicas e permite a descida do polo cefálico fetal, que passa a exercer compressão mecânica direta (tamponamento) sobre a zona sangrante da placenta, encurtando o tempo até o parto vaginal.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A redução da pressão intracavitária proporcionada pela amniotomia atua diminuindo o gradiente que poderia forçar a entrada de líquido amniótico na circulação venosa materna desprovida de barreira endotelial íntegra, logo não há aumento do risco de embolia amniótica.
+
+• **B) Incorreta:** A dequitação placentária pode ocorrer normalmente ou requerer manejo ativo após a saída fetal, mas a justificativa primordial para indicar amniotomia no descolamento prematuro reside no controle pressórico, prevenção de coagulopatia materna e aceleração do parto, e não na redução do tempo do terceiro período.
+
+• **D) Incorreta:** A amniotomia não expande a zona de clivagem placentária. Pelo contrário, o esvaziamento parcial da cavidade reduz a sobredistensão da parede uterina e favorece o encaixamento do polo fetal, auxiliando na hemostasia local por compressão mecânica do sítio de sangramento.
 </details>
 
 ---
@@ -25147,26 +25561,35 @@ Uma paciente com 10 semanas de idade gestacional comparece a consulta para avali
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta padrão recomendada pelo Ministério da Saúde (MS), Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO) e Associação Americana de Diabetes (ADA/IADPSG) determina que toda gestante deve realizar a dosagem de glicemia de jejum no primeiro trimestre (idealmente na primeira consulta de pré-natal):
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. **Interpretação da Glicemia de Primeiro Trimestre:**
-   - Glicemia de jejum < 92 mg/dL: Considerada normal. A paciente deve prosseguir para a reavaliação no segundo trimestre.
-   - Glicemia de jejum entre 92 e 125 mg/dL: Estabelece o diagnóstico de Diabetes Mellitus Gestacional (DMG).
-   - Glicemia de jejum ≥ 126 mg/dL: Estabelece o diagnóstico de Diabetes Mellitus pré-gestacional (Overt Diabetes).
+Durante a gestação, ocorrem importantes adaptações metabólicas para assegurar o aporte contínuo de nutrientes ao feto. A partir da segunda metade da gravidez, a placenta aumenta substancialmente a produção de hormônios contrainsulínicos, destacando-se o lactogênio placentário humano, cortisol, estrogênio, progesterona e prolactina. Esses hormônios elevam a resistência periférica à insulina na gestante, exigindo uma hipersecreção compensatória de insulina pelas células beta pancreáticas. Quando a reserva pancreática materna é insuficiente para superar essa resistência fisiológica, instala-se o **diabetes mellitus gestacional**.
 
-Como a paciente em questão apresenta glicemia de jejum de 91 mg/dL às 10 semanas de gestação, o resultado é estritamente normal, afastando DMG no primeiro trimestre. 
+Segundo o Ministério da Saúde, a Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO) e a Sociedade Brasileira de Diabetes (SBD), o rastreamento deve seguir a estratégia em etapas universais:
 
-2. **Rastreamento no Segundo Trimestre:**
-   Entre a 24ª e a 28ª semana de gestação (período de pico de ação dos hormônios contrarreguladores da insulina, como o lactogênio placentário humano, cortisol e prolactina), deve ser realizado o Teste Oral de Tolerância à Glicose com sobrecarga de 75 g de glicose anidra (TOTG 75 g), com coletas em jejum, 1 hora e 2 horas.
-   - Pontos de corte: Jejum ≥ 92 mg/dL; 1 hora ≥ 180 mg/dL; 2 horas ≥ 153 mg/dL.
-   - Critério diagnóstico: A alteração de **pelo menos um (≥ 1)** dos três valores confirma o diagnóstico de Diabetes Gestacional.
+1. **Glicemia de jejum no primeiro trimestre:**
+Deve ser solicitada na primeira consulta de pré-natal. Os pontos de corte estabelecidos são:
+- Menor que 92 mg/dL: glicemia normal. A paciente é considerada euglicêmica no primeiro trimestre, devendo prosseguir o rastreamento no segundo trimestre.
+- Entre 92 mg/dL e 125 mg/dL: confirmação diagnóstica direta de diabetes mellitus gestacional, dispensando testes adicionais de sobrecarga.
+- Igual ou superior a 126 mg/dL: diagnóstico de diabetes mellitus pré-gestacional (overt diabetes), devendo ser confirmado com nova dosagem caso a paciente esteja assintomática.
 
-Portanto, a conduta correta é realizar o TOTG com 75 g entre 24 e 28 semanas de gestação, sendo necessária apenas uma dosagem alterada para o diagnóstico (Alternativa B).
+Como a paciente apresenta glicemia de jejum de 91 mg/dL na 10ª semana de gestação, o resultado encontra-se estritamente normal.
 
-**Análise dos Distratores:**
-- **Alternativa A está incorreta:** A sobrecarga recomendada pela IADPSG/FEBRASGO/MS é de 75 g (e não 100 g), e a idade gestacional preconizada é de 24 a 28 semanas, não de 32 a 36 semanas.
-- **Alternativa C está incorreta:** O intervalo padronizado é de 24 a 28 semanas e, segundo os critérios modernos vigentes, o diagnóstico é firmado com apenas um valor alterado, não dois.
-- **Alternativa D está incorreta:** Erra a sobrecarga (100 g é do critério antigo de Carpenter & Coustan em dois passos), a idade gestacional (34 a 36 semanas) e o número de valores alterados (exige apenas um).
+2. **Rastreamento no segundo trimestre:**
+Para todas as gestantes que apresentaram glicemia de jejum normal no primeiro trimestre (< 92 mg/dL), a conduta padrão ouro recomendada é a realização do **teste oral de tolerância à glicose de 75 g** entre a 24ª e a 28ª semana de gestação. Este intervalo coincide cronologicamente com o ápice da resistência insulínica imposta pelos hormônios placentários. Aferem-se três amostras: em jejum, 1 hora e 2 horas após a ingestão de 75 g de glicose anidra. Os valores de referência são:
+- Jejum: 92 mg/dL;
+- 1 hora: 180 mg/dL;
+- 2 horas: 153 mg/dL.
+
+De acordo com os critérios do IADPSG e das diretrizes nacionais vigentes, a alteração de apenas um valor igual ou superior aos limites supracitados é suficiente e diagnóstica para diabetes gestacional.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O teste preconizado não utiliza sobrecarga de 100 g de glicose nem deve ser postergado para 32 a 36 semanas gestacionais. Realizar a investigação tão tardiamente atrasaria de forma deletéria o início do controle glicêmico, expondo o feto a complicações precoces como macrossomia, polidrâmnio e distocia de ombro.
+
+• **C) Incorreta:** Embora a carga de 75 g esteja correta, o período de rastreamento indicado internacionalmente é de 24 a 28 semanas, e não de 22 a 28 semanas. Ademais, sob a padronização atual em etapa única, não é necessária a presença de dois valores alterados, bastando apenas um valor alterado para selar o diagnóstico.
+
+• **D) Incorreta:** A utilização de 100 g de glicose e a exigência de dois valores alterados eram próprias de estratégias antigas de rastreio em dois passos (critérios de Carpenter-Coustan ou NDDG), associadas ao teste prévio de O'Sullivan com 50 g. Esse modelo foi amplamente substituído no Brasil pelo protocolo simplificado de etapa única com 75 g entre 24 e 28 semanas.
 </details>
 
 ---
@@ -25992,17 +26415,24 @@ Uma paciente com 24 anos apresenta sangramento vaginal volumoso no puerpério im
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A paciente apresenta um quadro clássico de Hemorragia Pós-Parto (HPP) primária complicada por choque hemorrágico (classe III/IV, evidenciado por confusão mental, taquicardia importante de 138 bpm e hipotensão arterial de 80 x 50 mmHg). O exame físico abdominal demonstra útero amolecido e com fundo situado 8 cm acima da cicatriz umbilical, o que sela o diagnóstico etiológico de atonia uterina — responsável por cerca de 70% a 80% dos casos de HPP (regra dos "4 Ts": Tônus). A condução prolongada do trabalho de parto (14 horas) sob uso de ocitocina representa um fator de risco clássico para a fadiga da musculatura miometrial.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
+O quadro clínico descreve uma puérpera imediata com sangramento vaginal volumoso acompanhado de sinais clássicos de choque hipovolêmico descompensado classe III/IV (frequência cardíaca de 138 bpm, pressão arterial de 80 x 50 mmHg e rebaixamento do nível de consciência/confusão mental). O índice de choque (frequência cardíaca dividida pela pressão arterial sistólica) é de 1,72, valor muito superior ao ponto de corte de alerta de 0,9, sinalizando hipovolemia crítica com necessidade de intervenção imediata. Ao exame físico, a presença de útero amolecido e com fundo palpável 8 cm acima da cicatriz umbilical confirma o diagnóstico de **atonia uterina**, que é a principal etiologia de **hemorragia pós-parto** no mundo (responsável por cerca de 70% a 80% dos casos, dentro da mnemônica dos 4 Ts: Tônus, Trauma, Tecido e Trombina).
 
-Segundo os protocolos do Ministério da Saúde, da Organização Mundial da Saúde (OMS) e da FEBRASGO para o manejo da hemorragia pós-parto, a abordagem inicial imediata e simultânea envolve:
-1. Ressuscitação hemodinâmica: obtenção de acessos venosos calibrosos (jelco 14 ou 16G) e infusão rápida de cristaloides aquecidos (preferencialmente Ringer Lactato);
-2. Medidas mecânicas imediatas: massagem uterina bimanual contínua (manobra de Hamilton);
-3. Medidas farmacológicas: administração imediata de uterotônicos (ocitocina intravenosa como primeira linha, associada ou seguida de metilergonovina, misoprostol e ácido tranexâmico).
+A fisiopatologia da atonia uterina envolve a falência do miométrio em manter a contração tônica sustentada após a dequitação placentária, impedindo a obliteração mecânica dos vasos da ferida placentária (ligaduras vivas de Pinard). Na paciente em tela, a infusão prolongada de ocitocina sintética por 14 horas de trabalho de parto atua como importante fator de risco, promovendo saturação e dessensibilização dos receptores miometriais de ocitocina.
 
-Análise dos distratores:
-- Alternativa B está incorreta: O diagnóstico de atonia uterina é eminentemente clínico. Encaminhar uma paciente instável hemodinamicamente para a realização de ultrassonografia atrasa o manejo de emergência e contraria os princípios de reanimação do choque hemorrágico.
-- Alternativa C está incorreta: A laparotomia exploradora e a histerectomia são medidas cirúrgicas de resgate, indicadas apenas quando as medidas conservadoras (clínicas, farmacológicas e mecânicas, como o balão de tamponamento intrauterino) falharem no controle da hemorragia.
-- Alternativa D está incorreta: O quadro não corresponde à loquiação fisiológica, mas sim a um sangramento patológico grave e volumoso com repercussão sistêmica crítica, exigindo intervenção imediata para prevenir a parada cardiorrespiratória por choque hipovolemológico.
+**Pilares do Manejo Imediato:**
+De acordo com os consensos nacionais e internacionais (Ministério da Saúde, FEBRASGO, ACOG e OMS), diante de hemorragia puerperal com choque, deve-se adotar uma estratégia de ressuscitação em equipe, rápida, agressiva e simultânea:
+1. **Ressuscitação volêmica:** Obtenção imediata de dois acessos venosos periféricos de grosso calibre (14G ou 16G) e infusão rápida de cristaloides aquecidos (Ringer Lactato até 1.000 a 2.000 ml), evitando hiper-hidratação tardia, além de coletar exames laboratoriais, tipagem sanguínea com prova cruzada e ativar protocolo de transfusão maciça.
+2. **Manobras mecânicas:** Realização precoce de massagem uterina contínua externa ou bimanual (manobra de Hamilton), que eleva o tônus miometrial e comprime o leito placentário.
+3. **Farmacoterapia uterotônica:** Administração sequencial de agentes uterotônicos (ocitocina em infusão contínua venosa como primeira escolha, seguida de metilergonovina caso não haja contraindicações hipertensivas e misoprostol), associada à infusão precoce de ácido tranexâmico (1 g intravenoso nos primeiros 10 minutos, administrado nas primeiras 3 horas do parto).
+
+**Análise das alternativas incorretas:**
+
+• **B) Incorreta:** O diagnóstico da atonia uterina é clínico e imediato à beira do leito. É formalmente contraindicado transportar uma paciente hemodinamicamente instável e em choque ativo para setores externos como a radiologia, pois tal atraso eleva criticamente a mortalidade materna. Os exames laboratoriais e a solicitação de sangue devem ser feitos à beira do leito, mas nunca postergar o início das medidas imediatas de suporte e hemostasia.
+
+• **C) Incorreta:** A laparotomia com histerectomia puerperal é uma medida de exceção cirúrgica definitiva. Ela só é indicada quando há falha de todo o tratamento escalonado, o qual inclui medidas clínicas farmacológicas, mecânicas (compressão bimanual e balão de tamponamento intrauterino) e cirúrgicas conservadoras (suturas hemostáticas como B-Lynch e ligaduras vasculares seletivas).
+
+• **D) Incorreta:** A loquiação fisiológica no puerpério imediato apresenta volume hemático modesto, útero bem contraído abaixo da cicatriz umbilical (globo de segurança de Pinard) e estabilidade hemodinâmica plena. Classificar um quadro de sangramento copioso com taquicardia marcante e hipotensão severa como fisiológico constitui erro crasso que resultaria em desfecho fatal.
 </details>
 
 ---
@@ -26107,15 +26537,21 @@ Diante do quadro apresentado, assinale a opção que estabelece a conduta apropr
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A paciente apresenta um quadro clássico de Hemorragia Pós-Parto (HPP) com choque hipovolêmico grave (frequência cardíaca de 128 bpm, pressão arterial de 80 x 30 mmHg e tempo de enchimento capilar de 6 segundos). A abordagem inicial da HPP baseia-se na reanimação hemodinâmica imediata concomitante à identificação e tratamento da etiologia subjacente, tradicionalmente sistematizada pela mnemônica dos '4 Ts': Tônus (atonia uterina), Trauma (lacerações do canal de parto), Tecido (retenção de restos placentários ou coágulos) e Trombina (coagulopatias).
+> **Comentário Médica:** O gabarito correto é a **Alternativa D**.
 
-1. Fundamentação da Alternativa Correta (D):
-O exame físico afasta atonia uterina, pois o 'útero encontra-se contraído abaixo da cicatriz umbilical' (Globo de Segurança de Pinard evidente). Da mesma forma, afasta-se a hipótese de trauma perineal ou cervical pela observação de ausência de lesões no canal de parto. Excluídos tônus e trauma (responsáveis por cerca de 90% dos casos), a principal suspeita clínica recai sobre o componente 'Tecido' (retenção de fragmentos placentários ou membranas). Portanto, a conduta recomendada pelas diretrizes da FEBRASGO, Ministério da Saúde e OMS é a revisão minuciosa da placenta expulsada, avaliando sua integridade (face materna e fetal). A constatação de falhas nos cotilédones ou escavações indica retenção de restos ovulares, exigindo esvaziamento da cavidade uterina (curagem ou curetagem uterina sob anestesia/sedação), associado a medidas de suporte volêmico.
+A paciente apresenta um quadro de **hemorragia pós-parto (HPP)** associada a **choque hemorrágico grave**. Diante da exclusão de atonia uterina e de lacerações do canal de parto, a investigação etiológica deve direcionar-se à retenção de restos ovulares (componente *Tecido* da mnemônica dos 4 Ts), conforme as diretrizes da **FEBRASGO**, **Ministério da Saúde** e **OMS**.
 
-2. Análise das Alternativas Incorretas (Distratores):
-- Alternativa A (Incorreta): O misoprostol é um uterotônico de segunda linha indicado para o manejo da atonia uterina. Como o útero da paciente já está firmemente contraído, a administração de uterotônicos não tratará a causa de base do sangramento.
-- Alternativa B (Incorreta): A histerectomia puerperal é medida de exceção, reservada a casos refratários a todas as condutas conservadoras (uterotônicos, balão de tamponamento intrauterino, suturas hemostáticas como B-Lynch e ligaduras vasculares) ou rotura uterina catastrófica. Indicar laparotomia de urgência sem antes definir a causa e esgotar medidas menos invasivas é conduta desproporcional e iatrogênica, especialmente em uma primípara de 14 anos.
-- Alternativa C (Incorreta): A conduta expectante é terminantemente contraindicada em uma paciente com instabilidade hemodinâmica e choque hemorrágico estabelecido, configurando negligência que eleva drasticamente o risco de parada cardiorrespiratória e óbito materno.
+**Raciocínio Clínico e Fisiopatológico:**
+
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **hemorragia pós-parto primária** complicada com **choque hipovolêmico classe III/IV**, caracterizado por taquicardia marcante (**FC de 128 bpm**), hipotensão severa (**PA de 80 x 30 mmHg**), taquipneia (**FR de 23 irpm**) e perfusão periférica lentificada (**tempo de enchimento capilar de 6 segundos**).
+2. **Critério Clínico / Fisiopatologia:** A investigação sistemática da HPP baseia-se nos '4 Ts': Tônus, Trauma, Tecido e Trombina. O exame físico evidencia **útero contraído abaixo da cicatriz umbilical** (presença do *globo de segurança de Pinard*, afastando atonia uterina) e **ausência de lesões no canal de parto** (afastando trauma genital). Descartadas as causas mais frequentes (que perfazem cerca de 90% dos casos), a suspeita recai obrigatoriamente sobre o **Tecido** (retenção de cotilédones ou membranas ovulares).
+3. **Indicação de Conduta:** A conduta imediata, concomitante à reanimação volêmica agressiva, consiste no **exame minucioso da placenta** expulsada. A visualização de soluções de continuidade, falhas de cotilédones ou escavações confirma a retenção de fragmentos placentários, impondo a realização de **curagem ou curetagem uterina** sob anestesia/analgesia para controle hemostático definitivo.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O **misoprostol** é um análogo sintético de prostaglandina E1 utilizado como uterotônico para tratamento da atonia uterina. Como o útero já se encontra adequadamente **contraído e normotenso**, o sangramento não decorre de falha de tônus, tornando a medicação ineficaz.
+• **Alternativa B (Incorreta):** A **histerectomia puerperal** é uma medida cirúrgica radical de última linha, indicada apenas em hemorragias refratárias a todas as medidas clínicas e conservadoras (uterotônicos, balão de tamponamento intrauterino, suturas hemostáticas como *B-Lynch* e ligaduras vasculares) ou rotura uterina catastrófica. É desproporcional e iatrogênica como primeira abordagem em uma primípara de 14 anos.
+• **Alternativa C (Incorreta):** A **conduta expectante** é formalmente contraindicada diante de instabilidade hemodinâmica manifesta e choque estabelecido, pois retarda o controle do foco hemorrágico e culmina rapidamente em parada cardiorrespiratória e óbito materno.
 </details>
 
 ---
@@ -26476,19 +26912,19 @@ Diante das informações apresentadas, qual é a melhor conduta a ser adotada?
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A questão aborda a profilaxia contra a infecção neonatal pelo Streptococcus agalactiae (Streptococcus beta-hemolítico do grupo B - EGB) em gestante colonizada e com relato de alergia à penicilina.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. Em gestantes colonizadas por *Streptococcus agalactiae* (EGB) com histórico de **alergia a penicilinas**, a **clindamicina 900 mg por via intravenosa** a cada 8 horas até o nascimento é a droga alternativa preconizada pelas diretrizes do **CDC**, **ACOG** e **FEBRASGO**, condicionada à confirmação de suscetibilidade microbiana.
 
-1. Justificativa da Alternativa Correta (D):
-De acordo com os protocolos de prevenção da sepse neonatal precoce por EGB (CDC, ACOG e FEBRASGO), a profilaxia antimicrobiana intraparto (IAP) de primeira linha consiste no uso de Penicilina Cristalina ou Ampicilina. Quando a paciente relata alergia à penicilina:
-- Se a reação alérgica não for de alto risco para anafilaxia (ou seja, sem histórico de anafilaxia, angioedema, broncoespasmo ou urticária imediata), cefazolina costuma ser a opção mais segura.
-- Na presença de alergia com risco de anafilaxia ou na impossibilidade do uso de beta-lactâmicos, a Clindamicina (na dose de 900 mg por via intravenosa a cada 8 horas até o parto) é o fármaco de escolha preconizado, condicionada idealmente à confirmação de sensibilidade antimicrobiana no antibiograma.
-A banca examinadora do Revalida adotou a Clindamicina 900 mg IV como a conduta farmacológica padrão de substituição à penicilina diante do rastreamento positivo com swab vaginal/retal.
-*Nota técnica pedagógica:* Cabe ressaltar que, de acordo com os consensos formais da FEBRASGO e do ACOG, a profilaxia intraparto para EGB não é indicada em cesarianas eletivas realizadas antes do início do trabalho de parto e com membranas amnióticas íntegras. Todavia, a banca examinadora optou por priorizar a avaliação do conhecimento sobre o esquema antimicrobiano alternativo para EGB na vigência de alergia a penicilinas, mantendo o gabarito definitivo na alternativa D.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- Alternativa A: Incorreta segundo a banca examinadora. Embora a literatura obstétrica preconize que a profilaxia para EGB seja dispensada na ausência de trabalho de parto e com membranas íntegras, a banca considerou o rastreamento positivo como critério suficiente para instituir a antibioticoprofilaxia contra o EGB.
-- Alternativa B: Incorreta. A vancomicina (20 mg/kg IV a cada 8 horas, máx. 2 g) é indicada apenas em gestantes com alto risco de anafilaxia a penicilina caso o isolado de EGB seja resistente à clindamicina ou se o teste de sensibilidade antimicrobiana não estiver disponível.
-- Alternativa C: Incorreta. A ampicilina é uma aminopenicilina e compartilha o anel beta-lactâmico com a penicilina benzatina, apresentando elevado risco de reatividade cruzada, sendo formalmente contraindicada em pacientes com alergia documentada a derivados da penicilina.
+1. **Diagnóstico da Afecção/Quadro:** Gestante a termo com **colonização por *Streptococcus agalactiae*** (Estreptococo do Grupo B ou EGB) evidenciada por cultura positiva em swab anovaginal de rastreio com 36 semanas, associada a relato de **alergia à penicilina**.
+2. **Critério Clínico / Fisiopatologia:** O EGB é o principal agente etiológico de **sepse neonatal precoce**, pneumonia e meningite por transmissão vertical intraparto decorrente de infecção ascendente ou contato direto durante a passagem pelo canal de parto. O regime padrão de primeira linha utiliza **penicilina cristalina** ou **ampicilina**; no entanto, em pacientes com histórico de hipersensibilidade aos derivados penicilínicos, deve-se eleger um esquema alternativo eficaz que transponha a barreira placentária.
+3. **Indicação de Conduta:** Diante de alergia a penicilina, a **clindamicina 900 mg intravenosa** é o antimicrobiano de escolha estabelecido nos protocolos oficiais para prevenir a transmissão vertical de EGB. *Nota técnica:* Embora as diretrizes da **FEBRASGO** e do **ACOG** contraindiquem a profilaxia intraparto para EGB em **cesarianas eletivas** realizadas fora de trabalho de parto e com **membranas amnióticas íntegras**, a banca examinadora do Revalida desconsiderou essa exceção obstétrica específica, priorizando a avaliação sobre a alternativa terapêutica farmacológica para gestantes alérgicas à penicilina.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** Sob a ótica estrita dos consensos obstétricos formais, a profilaxia intraparto não é recomendada se não há trabalho de parto e as membranas estão íntegras. Contudo, a banca examinadora julgou que o resultado positivo no rastreamento exigia a prescrição da profilaxia antimicrobiana.
+• **Alternativa B (Incorreta):** A **vancomicina** (20 mg/kg IV a cada 8 horas) é reservada exclusivamente para gestantes com alto risco de anafilaxia cujo isolado de EGB apresente **resistência comprovada à clindamicina** ou quando o teste de sensibilidade antimicrobiana não estiver disponível.
+• **Alternativa C (Incorreta):** A **ampicilina** é uma aminopenicilina e compartilha o anel beta-lactâmico com a penicilina, apresentando elevado risco de **reatividade cruzada**, sendo contraindicada em pacientes com histórico de hipersensibilidade à penicilina.
 </details>
 
 ---
@@ -26742,18 +27178,24 @@ Após solicitar todos os exames laboratoriais para o pré-natal de baixo risco e
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A alternativa (B) é a correta, pois sintetiza rigorosamente o protocolo clínico de manejo da sífilis na gestação preconizado pelo Ministério da Saúde e pela FEBRASGO.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Justificativa do Esquema Terapêutico e Seguimento:
-- Diagnóstico e Estadiamento: Diante de uma gestante assintomática, com teste treponêmico positivo e VDRL reagente, sem histórico documentado prévio de tratamento, enquadra-se o caso como sífilis latente de duração indeterminada (tardia).
-- Esquema Posológico: O tratamento preconizado para sífilis latente tardia ou de tempo indeterminado consiste na dose total de 7.200.000 UI de benzilpenicilina benzatina, dividida em 3 doses semanais consecutivas de 2.400.000 UI intramuscular. Como o enunciado especifica a apresentação de ampolas de 1.200.000 UI, devem ser administradas 2 doses (uma aplicação de 1.200.000 UI em cada glúteo) por semana, durante 3 semanas.
-- Seguimento Sorológico: Na gestante, o monitoramento com teste não treponêmico (VDRL) deve ser obrigatoriamente mensal até o parto, permitindo a detecção precoce de possíveis falhas terapêuticas ou reinfecções.
-- Critério de Cura / Resposta Imunológica Adequada: Considera-se resposta sorológica satisfatória (sucesso terapêutico) a redução de pelo menos 2 diluições (ou seja, queda de quatro vezes nos títulos, por exemplo, de 1:32 para 1:8) em até 6 meses após o término do tratamento.
+1. **Classificação e Estadiamento:**
+De acordo com as diretrizes do Ministério da Saúde do Brasil e da FEBRASGO para a prevenção da sífilis congênita, toda gestante com sorologia treponêmica reagente confirmada por teste não treponêmico (VDRL), sem documentação de tratamento prévio adequado e sem sinais ou sintomas clínicos de sífilis primária (cancro duro) ou secundária (roséolas, sifílides, condiloma plano), deve ser enquadrada e tratada como portadora de **sífilis latente tardia** (ou de duração indeterminada). A transmissão vertical do Treponema pallidum pode ocorrer por via transplacentária em qualquer fase da gestação e estágio da doença, com sérias repercussões perinatais (óbito fetal, prematuridade, restrição de crescimento e malformações congênitas).
 
-2. Análise dos Distratores:
-- Alternativa A: Incorreta. Uma dose semanal de 1.200.000 UI representaria subdosagem (o correto são 2.400.000 UI/semana, logo 2 ampolas/semana). Além disso, a queda esperada para critério de cura é de no mínimo 2 diluições (quatro vezes a titulação inicial), e não apenas 1 diluição.
-- Alternativa C: Incorreta. O tratamento para sífilis tardia/indeterminada requer 3 semanas consecutivas (e não 2). O acompanhamento da gestante é estritamente mensal, e não trimestral/semestral como realizado em pacientes fora do ciclo gravídico-puerperal. Ademais, aponta erroneamente redução de apenas 1 diluição.
-- Alternativa D: Incorreta. Apresenta erro na posologia semanal (1 ampola de 1.200.000 UI em vez de 2), no tempo de duração (2 semanas em vez de 3) e na periodicidade de monitorização sorológica, que deve ser mensal durante a gestação.
+2. **Esquema Terapêutico e Posologia:**
+O tratamento de escolha e único comprovadamente eficaz para tratar a gestante e prevenir a sífilis congênita é a **benzilpenicilina benzatina**. Para a sífilis tardia, latente tardia ou latente com tempo de evolução indeterminado, a dose total recomendada é de 7.200.000 UI por via intramuscular, fracionada em 3 doses semanais de 2.400.000 UI. Como o enunciado especifica frascos/ampolas de 1.200.000 UI, a aplicação semanal consiste na administração de 2 doses (1 frasco em cada glúteo) uma vez por semana, durante 3 semanas consecutivas. Vale ressaltar que o intervalo entre as doses não deve ultrapassar 7 a 9 dias; se ultrapassar 14 dias, o esquema deve ser reiniciado.
+
+3. **Seguimento Sorológico e Critérios de Cura:**
+O monitoramento sorológico da gestante difere da população geral. Enquanto na população não gestante o controle pode ser trimestral, na gestante o seguimento com teste não treponêmico quantitativo (VDRL) deve ser estritamente mensal até o momento do parto, permitindo a identificação precoce de falha terapêutica ou reinfecção. O critério clássico de resposta imunológica adequada (cura sorológica) é a diminuição da titulação em pelo menos duas diluições (o equivalente a uma queda de quatro vezes no título, como de 1:32 para 1:8 ou de 1:64 para 1:16) no intervalo de até seis meses após o término do tratamento.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A administração de 1 frasco de 1.200.000 UI por semana representaria uma subdosagem crítica (metade da dose recomendada de 2.400.000 UI semanais). Além disso, a redução de apenas 1 diluição (por exemplo, de 1:16 para 1:8) não atende aos critérios formais de resposta terapêutica, que exigem queda mínima de 2 diluições (ou quatro vezes o título).
+
+• **C) Incorreta:** O tempo total de tratamento para sífilis latente tardia é de 3 semanas, totalizando 7.200.000 UI, e não 2 semanas. Ademais, o monitoramento no 3°, 9° e 12° mês é indicado para pacientes fora do período gestacional; durante o pré-natal, o controle deve ser obrigatoriamente mensal. Por fim, o parâmetro de cura exige queda de no mínimo 2 diluições, e não 1 diluição.
+
+• **D) Incorreta:** Apresenta triplo erro conceitual: subdosagem posológica semanal (prescreve 1 frasco de 1.200.000 UI em vez de 2 frascos), tempo de duração insuficiente (2 semanas em vez de 3) e intervalo de acompanhamento sorológico inadequado para o pré-natal (o seguimento deve ser mensal, e não trimestral/anual).
 </details>
 
 ---
@@ -26933,21 +27375,21 @@ Uma paciente primigesta de 16 anos, com 36 semanas de idade gestacional, procura
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) é a correta.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-O quadro clínico apresentado é clássico de sepse neonatal precoce (aquela que se manifesta nas primeiras 48 a 72 horas de vida), cursando com acometimento pulmonar (pneumonia) e rápida deterioração clínica. O principal agente etiológico bacteriano responsável pela sepse precoce em recém-nascidos por transmissão vertical é o Streptococcus agalactiae, também conhecido como Streptococcus β-hemolítico do grupo B de Lancefield (GBS).
+O quadro clínico retrata um recém-nascido pré-termo tardio (36 semanas de idade gestacional) que, com 36 horas de vida, apresenta insuficiência respiratória por pneumonia com rápida deterioração clínica, evoluindo para choque séptico. O início dos sintomas antes de 48 a 72 horas de vida caracteriza a **sepse neonatal precoce**, cuja fisiopatologia está intrinsecamente ligada à transmissão vertical intraparto ou ascendente de bactérias colonizadoras do trato geniturinário e gastrointestinal materno.
 
-A colonização materno-vaginal e anorretal assintomática pelo GBS ocorre em 15% a 40% das gestantes. Durante a passagem pelo canal de parto ou após a ruptura das membranas ovulares, a bactéria pode ascender e colonizar o concepto, levando à aspiração de líquido amniótico infectado ou secreções vaginais e consequente invasão alveolar e sistêmica.
+Historicamente e epidemiologicamente, o principal agente bacteriano implicado na sepse de início precoce é o Streptococcus beta-hemolítico do grupo B de Lancefield (GBS), denominado **Streptococcus agalactiae**. A colonização materna por GBS costuma ser assintomática e intermitente, acometendo entre 15% e 40% das gestantes no trato anovaginal. Durante o trabalho de parto ou após a ruptura das membranas, a aspiração do líquido amniótico colonizado ou a passagem pelo canal de parto infectado expõe o trato respiratório do feto à bactéria, acarretando pneumonia fulminante, bacteremia e sepse sistêmica.
 
-Conforme as diretrizes da FEBRASGO, CDC e Sociedade Brasileira de Pediatria (SBP), a prevenção primária da sepse neonatal precoce por GBS é feita por meio do rastreamento universal com swab retovaginal entre 35 e 37 semanas de gestação (ou atualmente 36 a 37 semanas e 6 dias, segundo atualizações do CDC/ACOG). Caso a cultura seja positiva, ou na presença de fatores de risco associados a status desconhecido (como trabalho de parto prematuro < 37 semanas, bolsa rota ≥ 18 horas ou febre materna intraparto ≥ 38 °C), está formalmente indicada a antibioticoprofilaxia intraparto (habitualmente com penicilina cristalina intravenosa ou ampicilina, administrada pelo menos 4 horas antes do nascimento).
+Para prevenir essa grave morbimortalidade, as diretrizes da FEBRASGO, da Sociedade Brasileira de Pediatria (SBP), do CDC e do ACOG preconizam o rastreio universal de colonização materna por meio de cultura de swab anovaginal colhido entre 35 e 37 semanas de gestação. Se a cultura resultar positiva, ou caso a paciente entre em trabalho de parto pré-termo com menos de 37 semanas com status de colonização desconhecido, está formalmente indicada a **quimioprofilaxia intraparto** com penicilina cristalina ou ampicilina intravenosa, a qual reduz drasticamente as taxas de infecção invasiva no recém-nascido.
 
-Análise dos distratores:
+**Análise das alternativas incorretas:**
 
-- Alternativa B (Chlamydia trachomatis): Embora seja causa de infecção neonatal por transmissão vertical, a infecção por C. trachomatis manifesta-se tipicamente de forma subaguda ou tardia, na forma de conjuntivite neonatal (geralmente entre o 5º e o 14º dia de vida) ou pneumonia afebril/intersticial do lactente (habitualmente entre a 2ª e a 12ª semana de vida), não se manifestando como sepse fulminante com 36 horas de vida.
+• **B) Incorreta:** A infecção perinatal por Chlamydia trachomatis costuma apresentar manifestação tardia ou subaguda. O quadro ocular característico é a conjuntivite de inclusão neonatal, que surge habitualmente entre o 5º e o 14º dia de vida. O acometimento respiratório apresenta-se classicamente como a pneumonia afebril do lactente, diagnosticada entre a 2ª e a 12ª semana de vida, caracterizada por tosse espasmódica ou em estacato, taquipneia e infiltrado pulmonar intersticial, sem repercussão séptica precoce.
 
-- Alternativa C (Staphylococcus aureus): É um importante agente etiológico de infecções hospitalares, sepse neonatal tardia (após 72 horas de vida) e infecções de pele e partes moles (como impetigo bolhoso e onfalite), não sendo objeto de triagem e profilaxia intraparto de rotina no pré-natal.
+• **C) Incorreta:** O Staphylococcus aureus é uma etiologia típica de sepse neonatal tardia, ocorrendo predominantemente após 72 horas de vida, sobretudo em ambiente de unidade de terapia intensiva neonatal associada a dispositivos invasivos (como cateteres venosos centrais e intubação orotraqueal) ou a infecções cutâneas e de partes moles. Não constitui alvo de rastreio geniturinário ou quimioprofilaxia no pré-natal.
 
-- Alternativa D (Escherichia coli): É a segunda principal causa de sepse neonatal precoce (e a principal em prematuros extremos). Contudo, a E. coli faz parte da microbiota entérica habitual e não há protocolo preconizado de rastreio de rotina em swab anovaginal pré-natal ou quimioprofilaxia intraparto direcionada especificamente a ela.
+• **D) Incorreta:** A Escherichia coli é a segunda bactéria mais frequente como causa de sepse precoce, ganhando destaque de modo particular em recém-nascidos prematuros e de muito baixo peso. No entanto, por fazer parte da microbiota enterocólica universal de seres humanos e não haver teste preditivo de patogenicidade, não existe protocolo obstétrico de rastreio de rotina ou profilaxia antimicrobiana direcionada para E. coli durante o pré-natal.
 </details>
 
 ---
@@ -27097,18 +27539,17 @@ Puérpera de 40 anos de idade, no 1º dia após cesariana, apresentou insuficiê
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A alternativa (B) é a correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. Trata-se de uma **morte materna indireta**, conceituada pela **Organização Mundial da Saúde (OMS)** e pelo **Ministério da Saúde (MS)** como o óbito resultante de doença preexistente ou que evoluiu durante a gestação (não devida a causas obstétricas diretas), mas agravada pelos efeitos fisiológicos do ciclo gravídico-puerperal.
 
-Segundo a Organização Mundial da Saúde (OMS) e o Ministério da Saúde (MS), morte materna é definida como a morte de uma mulher durante a gestação ou até 42 dias após o término da gravidez, independentemente da duração ou da localização da gestação, decorrente de qualquer causa relacionada ou agravada pela gravidez ou por medidas a ela relacionadas, excluindo-se causas acidentais ou incidentais.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** **Morte materna indireta** por **insuficiência respiratória aguda grave** secundária à **COVID-19** (*SARS-CoV-2*) no puerpério imediato (dentro do intervalo definidor de até **42 dias** após o parto).
+2. **Critério Clínico / Fisiopatologia:** Durante a gestação e o puerpério imediato, a mulher apresenta adaptações fisiológicas significativas, incluindo modificações na resposta imune celular, aumento do consumo de oxigênio e alterações na mecânica ventilatória (como a elevação da cúpula diafragmática). Essas alterações predispõem a formas graves e aumentam a morbimortalidade de viroses respiratórias sistêmicas como a **COVID-19** e a *influenza*.
+3. **Indicação de Conduta:** Para fins de declaração de óbito e vigilância epidemiológica, quando uma doença infecciosa sistêmica pré-existente ou adquirida é desfavoravelmente influenciada pela condição gestacional ou puerperal, a causa básica deve ser enquadrada rigorosamente como **morte obstétrica indireta**.
 
-As mortes maternas dividem-se em:
-1. Mortes maternas diretas: resultam de complicações obstétricas do estado gravídico-puerperal, devidas a intervenções, omissões, tratamento incorreto ou a uma cadeia de eventos resultante de qualquer uma dessas causas (exemplos: hemorragia puerperal, pré-eclâmpsia/eclâmpsia, infecção puerperal, embolia de líquido amniótico).
-2. Mortes maternas indiretas: resultam de doenças preexistentes ou desenvolvidas durante a gestação, não devidas a causas obstétricas diretas, mas agravadas pelos efeitos fisiológicos do ciclo gravídico-puerperal. Como as alterações imunológicas, cardiovasculares e respiratórias da gestação e puerpério aumentam expressivamente a morbimortalidade por infecções respiratórias virais (como influenza e SARS-CoV-2), o óbito por COVID-19 ocorrido no período de até 42 dias após o parto classifica-se tecnicamente como morte materna obstétrica indireta.
-
-Análise dos distratores:
-- A (Direta): Incorreta. A COVID-19 é uma infecção sistêmica que afeta o trato respiratório, não sendo uma afecção intrinsecamente obstétrica (como atonia uterina ou rotura uterina), mas sim agravada pela condição puerperal.
-- C (Suspeita): Incorreta. Refere-se a uma etapa de vigilância epidemiológica e qualificação do óbito (morte de mulher em idade fértil que requer investigação), e não à classificação clínica e nosológica final do tipo de óbito materno.
-- D (Não obstétrica): Incorreta. Mortes não obstétricas são causadas por fatores estritamente acidentais ou incidentais (ex.: acidentes de trânsito, causas externas), nos quais a condição gravídico-puerperal não influenciou o desfecho letal, o que não se aplica à evolução grave da COVID-19.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A morte materna **direta** decorre exclusivamente de complicações intrinsecamente obstétricas do estado gravídico-puerperal (ex.: **hemorragia pós-parto por atonia uterina**, **pré-eclâmpsia/eclâmpsia**, **infecção puerperal/endometrite** ou **embolia de líquido amniótico**), não sendo o caso de uma infecção viral respiratória primária.
+• **Alternativa C (Incorreta):** O termo **suspeita** representa uma etapa operacional de **vigilância epidemiológica** e triagem de óbitos de mulheres em idade fértil (MIF) para investigação pelos comitês de mortalidade materna, não sendo uma categoria de classificação nosológica final.
+• **Alternativa D (Incorreta):** As mortes **não obstétricas** ocorrem por causas estritamente acidentais ou incidentais (ex.: acidentes de trânsito, causas externas), nas quais o estado gravídico-puerperal não influenciou o curso evolutivo ou a gravidade do evento letal, o que não se aplica ao curso grave da **COVID-19** no ciclo gravídico.
 </details>
 
 ---
@@ -27298,12 +27739,22 @@ O nascimento prematuro continua sendo a principal causa de mortalidade e morbida
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) é a CORRETA. A infecção do trato urinário (ITU) é um dos fatores de risco mais bem estabelecidos para o desencadeamento do trabalho de parto prematuro (TPP) e para a rotura prematura de membranas ovulares (RPMO). Fisiopatologicamente, endotoxinas bacterianas (lipopolissacarídeos) e mediadores inflamatórios locais (IL-1, IL-6, TNF-alfa) estimulam a síntese e liberação de prostaglandinas pela decídua e pelo córion/âmnio, induzindo contrações miometriais e amadurecimento cervical prematuro. Durante a gestação, alterações anatômicas e hormonais (como a dilatação pielocalicial e o relaxamento do músculo liso ureteral mediado pela progesterona) aumentam em até 40% a progressão da bacteriúria assintomática (BA) para pielonefrite aguda se não tratada. Por essa razão, conforme as diretrizes do Ministério da Saúde, FEBRASGO e ACOG, o rastreamento universal de BA com urocultura no primeiro trimestre (e idealmente repetido no terceiro) é mandatório, e toda gestante identificada com bacteriúria assintomática (≥ 10^5 UFC/mL) deve receber antibioticoterapia orientada por antibiograma, seguida de urocultura de controle (teste de cura).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
+O parto prematuro (nascimento antes de 37 semanas gestacionais completas) permanece como a principal causa de mortalidade e morbidade neonatal em todo o mundo. Entre as suas vias etiopatogênicas fundamentais, a inflamação e a infecção intrauterina/ascendente destacam-se como determinantes cruciais da contratilidade miometrial precoce e do amadurecimento cervical prematuro.
 
-Análise dos distratores:
-- Alternativa (A) está incorreta: Não há indicação de progesterona para "toda gestante" (uso universal). O benefício da progesterona micronizada natural na prevenção da prematuridade é restrito a populações específicas de alto risco: gestantes com colo curto (≤ 25 mm ao ultrassom transvaginal morfológico de segundo trimestre) e/ou história de parto prematuro espontâneo prévio.
-- Alternativa (B) está incorreta: A Escala de Avaliação de Risco Pré-natal de Hobel classifica o risco gestacional em estágios/escores; pacientes com escores elevados ou classificadas no Estágio 3 (alto risco periparto/intraparto) apresentam alto risco de desfechos neonatais desfavoráveis e requerem manejo em nível terciário ou internação hospitalar, e não continuidade de seguimento ambulatorial habitual/baixo risco.
-- Alternativa (D) está incorreta: Os bloqueadores dos canais de cálcio, notadamente a nifedipina oral, não são proibidos; pelo contrário, a nifedipina é um dos tocolíticos de primeira linha mais recomendados mundialmente (pelo Ministério da Saúde, FEBRASGO e ACOG) para o manejo agudo do trabalho de parto prematuro (com a finalidade de viabilizar a corticoterapia antenatal e o neuroproteção com sulfato de magnésio), apresentando excelente perfil de eficácia e segurança quando respeitadas as doses terapêuticas e contraindicações formais.
+Durante a gravidez, alterações fisiológicas como o efeito relaxante da progesterona sobre a musculatura lisa do trato urinário, associado à hidronefrose fisiológica e à compressão ureteral pelo útero gravídico, geram estase urinária e refluxo vesicoureteral. Esses fatores aumentam significativamente a propensão para que a colonização bacteriana ascenda pelo trato geniturinário. A presença de **bacteriúria assintomática** não tratada pode progredir para pielonefrite aguda em até 30% a 40% das gestantes.
+
+Bactérias uropatogênicas (com predomínio de Escherichia coli) liberam endotoxinas, como lipopolissacarídeos (LPS), que interagem com receptores toll-like na decídua e membranas fetais. Essa ativação estimula a secreção de citocinas pró-inflamatórias (IL-1, IL-6, IL-8 e TNF-alfa), levando à superexpressão da ciclooxigenase-2 (COX-2) e consequente síntese de prostaglandinas (PGE2 e PGF2-alfa), além da secreção de metaloproteinases da matriz extracelular. O resultado final é a indução de contrações uterinas, apagamento cervical e eventual rotura de membranas.
+
+Por esses motivos, consensos nacionais e internacionais (Ministério da Saúde, FEBRASGO e ACOG) estabelecem o rastreamento universal com urocultura no primeiro trimestre (e repetição conforme o perfil de risco) e a prescrição mandatória de **antibioticoterapia** dirigida por antibiograma para todas as gestantes com urocultura positiva, independentemente de sintomatologia, medida altamente eficaz na prevenção da pielonefrite materna e do parto prematuro.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O uso de progesterona para prevenção da prematuridade não deve ser universal. As evidências mostram benefício restrito a grupos populacionais específicos de alto risco, como mulheres com antecedente de parto prematuro espontâneo prévio e gestantes assintomáticas identificadas com colo uterino curto (menor ou igual a 20 a 25 mm) pela ultrassonografia transvaginal no segundo trimestre. Prescrever progesterona para gestantes de risco habitual sem esses critérios não demonstrou redução nos desfechos perinatais adversos.
+
+• **B) Incorreta:** O sistema de Hobel estratifica o risco gestacional e perinatal em estágios e pontuações progressivas. Pacientes situadas no estágio 3 apresentam sobreposição de fatores de alto risco materno-fetal, exigindo abordagem em centro de atenção terciária, vigilância materno-fetal especializada e, habitualmente, internação hospitalar para compensação clínica ou condução de intercorrências, sendo contraindicada a simples manutenção do acompanhamento ambulatorial habitual de baixo risco.
+
+• **D) Incorreta:** Os bloqueadores dos canais de cálcio, particularmente a nifedipina por via oral, não são proibidos; ao contrário, representam o fármaco tocolítico de primeira escolha na maioria dos protocolos mundiais (incluindo FEBRASGO e ACOG) entre 24 e 34 semanas. A inibição do influxo de cálcio reduz as contrações miometriais por até 48 horas, janela essencial para realizar a corticoterapia antenatal plena e a infusão de sulfato de magnésio para neuroproteção fetal, mantendo excelente tolerabilidade e preservando a perfusão uteroplacentária nas posologias preconizadas.
 </details>
 
 ---
@@ -27355,15 +27806,23 @@ Secundigesta de 25 anos de idade procurou a clínica da família para iniciar se
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta padrão para a prevenção do parto pré-termo recorrente baseia-se na estratificação de risco clínico e na mensuração do comprimento do colo uterino, conforme as diretrizes da Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO) e do Ministério da Saúde.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. De acordo com as diretrizes da **FEBRASGO** e do **Ministério da Saúde**, gestantes com antecedente de parto pré-termo espontâneo ou perda gestacional tardia no segundo trimestre têm indicação formal de profilaxia com **progesterona natural micronizada** por via vaginal, mesmo com colo uterino atualmente longo (≥ 25 mm).
 
-1. Justificativa da Alternativa Correta (B):
-O antecedente de perda gestacional tardia ou parto pré-termo espontâneo anterior (na 21ª semana) é o principal fator de risco para recorrência de prematuridade na gestação atual. A conduta de maior impacto comprovado para essa população é a introdução de progesterona natural micronizada (200 mg/dia por via vaginal, ao deitar), iniciada entre a 16ª e a 24ª semanas e mantida até a 36ª semana de gestação. A progesterona atua promovendo a quiescência miometrial, diminuindo a síntese de citocinas inflamatórias, inibindo a expressão de receptores de ocitocina e mantendo a integridade tecidual do colo do útero, reduzindo expressivamente o risco de novo evento.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- Alternativa A (Incorreta): A cerclagem uterina eletiva por indicação histórica requer geralmente um quadro clássico de incompetência istmocervical (duas a três perdas gestacionais prévias de segundo trimestre indolores e rápidas) ou por indicação ultrassonográfica (colo curto < 25 mm antes de 24 semanas em pacientes com histórico de prematuridade). Como a paciente apresenta um único antecedente e seu colo uterino está preservado (43 mm), a cerclagem não tem indicação neste momento, devendo-se manter o acompanhamento seriado do comprimento cervical por ultrassonografia transvaginal.
-- Alternativa C (Incorreta): O ácido fólico é recomendado no período pré-concepcional e no primeiro trimestre para prevenir defeitos do tubo neural, e o ômega-3 não possui evidência científica robusta que respalde sua eficácia na prevenção de parto pré-termo.
-- Alternativa D (Incorreta): O rastreamento de Streptococcus agalactiae (GBS) mediante swab vaginal e retal deve ser realizado universalmente entre a 35ª e a 37ª semanas de gestação, não estando indicado rotineiramente na 16ª semana como medida de prevenção de prematuridade.
+1. **Diagnóstico da Afecção/Quadro:** Paciente de alto risco para **parto pré-termo recorrente** devido a histórico prévio de perda gestacional tardia na **21ª semana de gestação**.
+
+2. **Critério Clínico / Fisiopatologia:** A história de parto pré-termo espontâneo anterior constitui o fator de risco isolado mais relevante para a sua recorrência. A **progesterona** desempenha papel protetor crucial ao promover a **quiescência miometrial**, reduzir a liberação de citocinas inflamatórias e inibir a formação de gap junctions e a expressão de **receptores de ocitocina**, além de contribuir para a estabilidade do colágeno cervical.
+
+3. **Indicação de Conduta:** A conduta de primeira linha padrão-ouro consiste na prescrição de **progesterona natural micronizada 200 mg/dia** por via vaginal (ao deitar), iniciada entre a **16ª e 24ª semana** e mantida até a **36ª semana**, associada ao seguimento ultrassonográfico seriado do colo uterino.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **cerclagem uterina** por indicação de histórico baseia-se tipicamente no diagnóstico de *incompetência istmocervical* (duas a três perdas prévias de segundo trimestre indolores e rápidas) ou por indicação ultrassonográfica (presença de **colo curto < 25 mm** antes de 24 semanas em paciente com histórico de prematuridade). Como o comprimento cervical atual é de **43 mm** (preservado), a cerclagem não está indicada.
+
+• **Alternativa C (Incorreta):** O **ácido fólico** tem indicação primordial no período periconcepcional para prevenção de **defeitos do tubo neural**, e a suplementação com **ômega 3** não demonstrou benefício clínico consistente na redução de novas perdas gestacionais ou prematuridade.
+
+• **Alternativa D (Incorreta):** O rastreamento universal de colonização por *Streptococcus agalactiae* (**GBS**) mediante cultura retovaginal deve ser realizado rotineiramente entre a **35ª e a 37ª semana de gestação**, não havendo indicação da sua realização na 16ª semana como medida preventiva de parto prematuro.
 </details>
 
 ---
@@ -27472,15 +27931,17 @@ Qual situação clínica determinou acertadamente essa conduta?
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta de encaminhar imediatamente a gestante do ambulatório para a maternidade decorre do diagnóstico de Pré-Eclâmpsia com Sinais de Gravidade (antigamente denominada pré-eclâmpsia grave), condição que impõe internação hospitalar para monitorização materno-fetal, estabilização hemodinâmica, sulfatação profilática e planejamento do parto.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. O encaminhamento imediato da gestante do ambulatório para o ambiente hospitalar fundamenta-se na identificação de **pré-eclâmpsia com sinais de gravidade**, determinada pela constatação de **pressão arterial diastólica (PAD) ≥ 110 mmHg**, em conformidade com as diretrizes da **FEBRASGO** e do **Ministério da Saúde**.
 
-Justificativa da alternativa correta (D):
-De acordo com as diretrizes da Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO) e do Ministério da Saúde, a pré-eclâmpsia é classificada como grave na presença de hipertensão arterial grave, definida por pressão arterial sistólica (PAS) ≥ 160 mmHg e/ou pressão arterial diastólica (PAD) ≥ 110 mmHg, confirmada em repouso com intervalo de minutos a horas. No caso, a PAD de 110 mmHg sustentada por 4 horas define gravidade por si só, justificando plenamente a internação hospitalar de urgência.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **pré-eclâmpsia com sinais de gravidade** (anteriormente denominada pré-eclâmpsia grave) em uma primigesta na 32ª semana gestacional.
+2. **Critério Clínico / Fisiopatologia:** A hipertensão arterial grave na gestação é definida por **pressão arterial sistólica (PAS) ≥ 160 mmHg** e/ou **pressão arterial diastólica (PAD) ≥ 110 mmHg**, aferidas com intervalo mínimo de 15 minutos ou sustentadas ao longo do tempo. No quadro apresentado, a **PAD de 110 mmHg mantida por 4 horas** reflete vasoespasmo arteriolar intenso e risco iminente de complicações cerebrovasculares maternas, configurando isoladamente sinal inequívoco de gravidade.
+3. **Indicação de Conduta:** Diante de pré-eclâmpsia com sinais de gravidade, impõe-se a **internação hospitalar imediata** em maternidade de referência para estabilização hemodinâmica com **anti-hipertensivos**, profilaxia anticonvulsivante com **sulfato de magnésio**, monitorização do bem-estar fetal e avaliação criteriosa para resolução da gestação.
 
-Análise dos distratores:
-- Alternativa A (Incorreta): Historicamente, a proteinúria > 5 g/24h era listada como critério de gravidade. Contudo, consensos contemporâneos (ACOG, FEBRASGO) removeram a magnitude da proteinúria dos critérios de gravidade, pois a quantidade de perda proteica não se correlaciona linearmente com desfechos materno-fetais adversos adversos e não deve, isoladamente, guiar a decisão de interrupção ou internação de urgência.
-- Alternativa B (Incorreta): O ponto de corte para definição de lesão renal aguda e sinal de gravidade na pré-eclâmpsia é a creatinina sérica > 1,1 mg/dL (ou o dobro do valor basal). O valor de 0,9 mg/dL encontra-se dentro dos limites aceitáveis para a gestação, não caracterizando disfunção orgânica definidora de gravidade.
-- Alternativa C (Incorreta): A desidrogenase lática (LDH) é marcador de hemólise (síndrome HELLP). O critério laboratorial de gravidade para elevação da LDH é comumente estabelecido em valores > 600 UI/L (ou o dobro do limite superior da normalidade). Portanto, 490 UI/L não atinge o limiar de gravidade.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A magnitude da **proteinúria** (mesmo ≥ 5 g/24h) foi formalmente **excluída dos critérios de gravidade** pelos consensos atuais (**FEBRASGO** e **ACOG**), pois o volume de perda proteica não se correlaciona linearmente com piores desfechos materno-fetais e não orienta, por si só, a internação de urgência ou a antecipação do parto.
+• **Alternativa B (Incorreta):** O parâmetro para definição de disfunção renal associada à gravidade é a **creatinina sérica > 1,1 mg/dL** (ou duplicação do valor basal na ausência de nefropatia prévia). A taxa de **0,9 mg/dL** encontra-se dentro do padrão aceitável para o ciclo gravídico-puerperal.
+• **Alternativa C (Incorreta):** A **desidrogenase láctica (LDH)** atua como biomarcador de hemólise microangiopática no contexto da *síndrome HELLP*. O limiar laboratorial padronizado para caracterização de gravidade é **LDH > 600 UI/L**; logo, a dosagem de **490 UI/L** não atinge o ponto de corte definidor.
 </details>
 
 ---
@@ -27499,16 +27960,19 @@ Uma paciente secundigesta, com 27 anos, foi encaminhada pela atenção primária
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta padrão indicada para o caso é a introdução de ácido acetilsalicílico (AAS) em baixas doses, conforme a alternativa C.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Fundamentação Clínica e Diretrizes (AAS para prevenção de Pré-Eclâmpsia):
-A paciente apresenta múltiplos fatores de alto risco para o desenvolvimento de pré-eclâmpsia (PE) e desfechos perinatais adversos na gestação atual: antecedente pessoal de pré-eclâmpsia e antecedente de descolamento prematuro de placenta (DPP). 
-Segundo as diretrizes da FEBRASGO, Ministério da Saúde, ACOG e OMS, pacientes com histórico prévio de pré-eclâmpsia têm indicação formal de profilaxia farmacológica com AAS em baixas doses (100 a 150 mg/dia, idealmente administrado à noite), iniciado entre a 12ª e a 16ª semana de gestação (podendo ser iniciado até a 20ª semana) e mantido até 36 semanas. A fisiopatologia da pré-eclâmpsia decorre de uma deficiente invasão trofoblástica das artérias espiraladas uterinas, gerando hipóxia placentária, desequilíbrio entre prostaciclina (vasodilatadora e antiagregante) e tromboxano A2 (vasoconstritor e pró-agregante), além de disfunção endotelial sistêmica. O uso de AAS em baixas doses inibe preferencialmente a síntese de tromboxano A2 pelas plaquetas, reestabelecendo o equilíbrio e reduzindo significativamente a recorrência de pré-eclâmpsia, restrição de crescimento fetal e prematuridade.
+A paciente em questão é uma secundigesta de 16 semanas com dois fatores de risco maiores para recorrência de morbidades hipertensivas: histórico obstétrico de descolamento prematuro de placenta e de **pré-eclâmpsia** na gestação anterior. A pré-eclâmpsia decorre essencialmente de uma falha na segunda onda de invasão trofoblástica entre a 16ª e a 20ª semana, momento em que as artérias espiraladas maternas deixam de ser adequadamente remodeladas em vasos de alta complacência e baixa resistência. Esse processo resulta em hipóxia e isquemia placentárias relativas, liberação de fatores antiangiogênicos na circulação materna e disfunção endotelial sistêmica, com desequilíbrio entre substâncias vasodilatadoras (prostaciclina) e vasoconstritoras/pró-trombóticas (tromboxano A2).
 
-2. Análise dos Distratores:
-- Alternativa A (Hidralazina): Incorreta. A hidralazina é um vasodilatador arteriolar direto utilizado primordialmente no tratamento das crises hipertensivas na gestação (PA ≥ 160 x 110 mmHg), preferencialmente por via intravenosa. A paciente encontra-se com PA de 135 x 83 mmHg (normotensa / pré-hipertensa), sem critérios para tratamento anti-hipertensivo no momento, além de a hidralazina não exercer papel preventivo na gênese da PE.
-- Alternativa B (Metildopa): Incorreta. O uso de anti-hipertensivo oral não previne o desenvolvimento da pré-eclâmpsia; seu objetivo é o controle pressórico materno e prevenção de eventos cerebrovasculares. As diretrizes nacionais e internacionais recomendam início de terapia farmacológica oral em gestantes quando a PA atinge níveis ≥ 140 x 90 mmHg (ou ≥ 150 x 100 mmHg a depender do protocolo e comorbidades). Com PA de 135 x 83 mmHg, não há indicação de hipotensor.
-- Alternativa D (Enoxaparina): Incorreta. A dose apresentada (1 mg/kg, 12/12h) é plena/terapêutica, inadequada e com elevado risco hemorrágico sem uma indicação formal de anticoagulação (como tromboembolismo venoso agudo ou síndrome do anticorpo antifosfolipídio com trombose prévia). O uso de heparinas para prevenção primária de PE não é respaldado pelas evidências científicas como conduta isolada de rotina apenas pelo histórico de PE anterior.
+Para modificar favoravelmente essa fisiopatologia, as principais diretrizes obstétricas nacionais e internacionais (FEBRASGO, Ministério da Saúde, ACOG, NICE e OMS) preconizam a introdução de **ácido acetilsalicílico** em baixas doses (100 a 150 mg ao dia) para gestantes de alto risco. O fármaco inibe de modo irreversível a ciclo-oxigenase 1 (COX-1) plaquetária, reduzindo a síntese de tromboxano A2 sem afetar de forma significativa a síntese de prostaciclina pelo endotélio vascular. Para obter o máximo benefício profilático, o início da medicação deve ocorrer idealmente entre a 12ª e a 16ª semana de gestação (podendo ser iniciado até a 20ª semana) e ser mantido até 36 semanas, preferencialmente administrado à noite. Além disso, a aferição pressórica atual de 135 x 83 mmHg e a fita urinária negativa afastam crise hipertensiva ou pré-eclâmpsia em atividade neste momento.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A hidralazina é um vasodilatador periférico direto de ação rápida, reservado primordialmente para o tratamento de emergências e urgências hipertensivas no ciclo gravídico-puerperal (níveis tensionais sistólicos iguais ou superiores a 160 mmHg ou diastólicos iguais ou superiores a 110 mmHg). A paciente apresenta níveis pressóricos normotensos/limítrofes (135 x 83 mmHg) e a hidralazina não possui nenhuma propriedade profilática contra o desenvolvimento de pré-eclâmpsia.
+
+• **B) Incorreta:** A metildopa é um anti-hipertensivo de ação central agonista alfa-2 adrenérgico de escolha para o manejo da hipertensão crônica ou gestacional a partir do momento em que os níveis pressóricos ultrapassam os alvos recomendados (em geral a partir de 140 x 90 mmHg). O uso de fármacos anti-hipertensivos serve apenas para prevenir complicações vasculares agudas maternas decorrentes da hipertensão, mas não impede a placentação anômala, o surgimento da pré-eclâmpsia ou o descolamento de placenta.
+
+• **D) Incorreta:** A dose de 1 mg/kg a cada 12 horas consiste em anticoagulação plena terapêutica, reservada para tromboembolismo venoso agudo confirmado ou portadoras de próteses valvares mecânicas. Além de impor risco hemorrágico relevante, a enoxaparina não tem indicação na prevenção primária ou secundária de pré-eclâmpsia isolada; sua indicação profilática associada ao ácido acetilsalicílico é restrita a condições específicas documentadas, como a síndrome do anticorpo antifosfolípide com critérios clínicos e laboratoriais estabelecidos.
 </details>
 
 ---
@@ -27719,15 +28183,19 @@ Primigesta de 24 anos, vendedora, compareceu a unidade de saúde da família (US
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta preconizada baseia-se nas diretrizes de assistência pré-natal do Ministério da Saúde e da FEBRASGO para a interpretação sorológica da toxoplasmose na gestação.
+> **Comentário Médica:** O gabarito correto é a **Alternativa C**. O perfil sorológico apresentado demonstra imunidade prévia à toxoplasmose, afastando o risco de transmissão vertical e permitindo a continuidade do pré-natal habitual na Atenção Primária, conforme os protocolos do **Ministério da Saúde** e da **FEBRASGO**.
 
-1. **Fundamentação clínica e interpretação sorológica:**
-O perfil sorológico apresentado pela gestante revela **IgG reagente** e **IgM não reagente**. Em pacientes imunocompetentes, a presença isolada de anticorpos da classe IgG (marcadores de memória imunológica) na ausência de anticorpos da classe IgM (marcadores de fase aguda) atesta **imunidade adquirida** ou **infecção pregressa** (ocorrida antes da gestação). Uma vez que a infecção ocorreu previamente à concepção, não há risco significativo de transmissão vertical do *Toxoplasma gondii*, dispensando a realização de novos testes sorológicos para toxoplasmose ao longo do pré-natal. A conduta adequada consiste em tranquilizar a gestante quanto à ausência de risco fetal para essa patologia e manter o acompanhamento pré-natal habitual de risco habitual na Unidade de Saúde da Família (USF).
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. **Análise dos distratores:**
-- **Alternativa A (Incorreta):** O padrão IgG(+) e IgM(-) é altamente concordante com imunidade consolidada, não havendo suspeita de resultado falso-positivo ou necessidade de encaminhamento ao pré-natal de alto risco.
-- **Alternativa B (Incorreta):** A toxoplasmose aguda é caracterizada tipicamente pela presença de IgM reagente (com IgG não reagente na fase muito inicial ou IgG reagente com baixa avidez nas primeiras semanas/meses). O tratamento específico (espiramicina ou esquema tríplice) e o encaminhamento para alto risco só são indicados na suspeita ou confirmação de infecção aguda materna.
-- **Alternativa D (Incorreta):** A condição de 'suscetibilidade' refere-se ao perfil de gestante não imune, caracterizado por **IgG não reagente e IgM não reagente**. Nestes casos, sim, há indicação de orientações higienodietéticas preventivas rigorosas e repetição periódica da sorologia trimestralmente.
+1. **Diagnóstico da Afecção/Quadro:** **Imunidade adquirida** ou **toxoplasmose pregressa** ao período gestacional pelo protozoário *Toxoplasma gondii*.
+2. **Critério Clínico / Fisiopatologia:** A presença de **IgG reagente** com **IgM não reagente** indica infecção crônica e consolidação de **memória imunológica**. Na gestante imunocompetente, a reativação da infecção crônica é um evento extraordinariamente raro, o que virtualmente anula o risco de **transmissão vertical** e acometimento fetal.
+3. **Indicação de Conduta:** A conduta padrão-ouro consiste em **tranquilizar a gestante**, suspender a solicitação de novas sorologias para toxoplasmose ao longo da gestação e manter o acompanhamento no **pré-natal de risco habitual** na Unidade de Saúde da Família (**USF**).
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** Não há indicativo de **falso-positivo**; o resultado de IgG(+) e IgM(-) reflete o perfil imune mais comum e esperado na população exposta, não justificando repetição de exames nem encaminhamento ao **pré-natal de alto risco**.
+• **Alternativa B (Incorreta):** A **toxoplasmose aguda** materna cursa tipicamente com **IgM reagente** (associada ou não a IgG de baixa avidez). Apenas nesses cenários agudos impõe-se a introdução de farmacoterapia específica (como a **espiramicina**) e o encaminhamento terciário.
+• **Alternativa D (Incorreta):** A condição de **suscetibilidade** é definida pelo perfil **IgG não reagente e IgM não reagente** (soronegativa). Nessas pacientes, preconiza-se a educação em medidas higienodietéticas e o rastreio sorológico periódico **trimestral**.
 </details>
 
 ---
@@ -27746,11 +28214,17 @@ Mulher com 20 semanas de gestação foi diagnosticada com sífilis, sendo ela e 
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) é a correta. De acordo com o Protocolo Clínico e Diretrizes Terapêuticas (PCDT) para Atenção Integral às Pessoas com Infecções Sexualmente Transmissíveis (IST) do Ministério da Saúde e as diretrizes da FEBRASGO, o seguimento pós-tratamento da sífilis em gestantes deve ser realizado com testes não treponêmicos quantitativos, sendo o VDRL (ou RPR) o teste de escolha. Na gestação, a monitorização sorológica deve ser mensal até o parto para assegurar a resposta adequada ao tratamento (queda de pelo menos dois títulos ou quatro vezes em até 6 meses) e identificar precocemente possíveis falhas terapêuticas ou reinfecções, prevenindo a transmissão vertical (sífilis congênita). Fisiopatologicamente, os testes não treponêmicos detectam anticorpos anticardiolipina (IgM e IgG) que se correlacionam diretamente com a atividade da doença e tendem a declinar após a erradicação do Treponema pallidum.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. De acordo com o Protocolo Clínico e Diretrizes Terapêuticas (PCDT) para Atenção Integral às Pessoas com IST do **Ministério da Saúde** e as diretrizes da **FEBRASGO**, o controle de cura pós-tratamento da sífilis em gestantes deve ser realizado obrigatoriamente com **testes não treponêmicos quantitativos**, sendo o **VDRL** o método de escolha, avaliado com periodicidade **mensal até o parto**.
 
-Análise dos distratores:
-- Alternativa B (TPHA) e Alternativa C (FTA-ABS): Incorretas. Ambos são testes treponêmicos. Embora apresentem alta sensibilidade e especificidade para o diagnóstico inicial, a grande maioria dos indivíduos tratados mantém reatividade nesses testes por toda a vida (fenômeno conhecido como "cicatriz sorológica"). Portanto, testes treponêmicos não servem para controle de cura nem para monitorar resposta terapêutica.
-- Alternativa D (penicilina procaína): Incorreta. Trata-se de uma opção terapêutica antimicrobiana (não recomendada para controle ou seguimento) e que, ademais, não é a droga de escolha para o tratamento da sífilis na gestação (cujo padrão-ouro exclusivo é a penicilina G benzatina).
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Paciente no segundo trimestre gestacional com **sífilis adequadamente tratada**, em fase de seguimento ambulatorial para prevenção da **sífilis congênita** decorrente da transmissão vertical do *Treponema pallidum*.
+2. **Critério Clínico / Fisiopatologia:** Os **testes não treponêmicos** (como o **VDRL** e o **RPR**) mensuram anticorpos anticardiolipina (IgM e IgG), os quais refletem a atividade de replicação bacteriana e a resposta tecidual inflamatória. A erradicação treponêmica acarreta queda progressiva das titulações, sendo a cura caracterizada pela **queda de pelo menos duas titulações (ou 4 vezes)** dos títulos basais em até 6 meses.
+3. **Indicação de Conduta:** Na gestação, a verificação com **VDRL mensal** na Atenção Primária é mandatória para atestar a resposta terapêutica e flagrar precocemente casos de **falha terapêutica** ou **reinfecção**, garantindo tratamento oportuno antes do parto.
+
+**Análise dos Distratores:**
+• **Alternativa B (Incorreta):** O **TPHA** é um **teste treponêmico**. Estes testes mantêm-se reagentes por tempo indeterminado na quase totalidade dos pacientes (fenômeno da **cicatriz sorológica**), sendo inadequados para avaliar cura ou atividade de doença.
+• **Alternativa C (Incorreta):** O **FTA-ABS** também é um **teste treponêmico**, utilizado primariamente para elucidação diagnóstica inicial em situações de dúvida. Por gerar **cicatriz sorológica** perene, é contraindicado para o seguimento e monitoramento terapêutico.
+• **Alternativa D (Incorreta):** A **penicilina procaína** é uma opção terapêutica antimicrobiana, não um exame para controle de cura. Ademais, o único regime terapêutico considerado eficaz para o tratamento materno e prevenção da sífilis congênita é a **penicilina G benzatina**.
 </details>
 
 ---
@@ -27830,19 +28304,25 @@ Uma primigesta com 22 anos, dona de casa, comparece à unidade de saúde da fam�
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) está correta.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-A interpretação da sorologia para Hepatite B baseia-se na identificação de marcadores antigênicos e de anticorpos:
-1. AgHBs (antígeno de superfície): marcador de infecção ativa (aguda ou crônica). Encontra-se **não reagente**, descartando replicação e infecção ativa.
-2. Anti-HBc total (anticorpo contra o antígeno do core): marcador de contato prévio com o vírus nativo (infecção natural). Encontra-se **não reagente**, o que exclui infecção passada por via natural.
-3. Anti-HBs (anticorpo contra o antígeno de superfície): confere imunidade protetora. Encontra-se **reagente** de forma isolada, o que define imunidade adquirida por vacinação prévia.
+A triagem de rotina para hepatite B durante a assistência pré-natal é mandatória no primeiro trimestre e tem como objetivo primário a detecção precoce de gestantes infectadas para prevenir a transmissão vertical e indicar a imunoprofilaxia adequada ao recém-nascido. A interpretação sorológica do vírus da hepatite B (HBV) baseia-se na dinâmica dos seguintes marcadores:
 
-Portanto, segundo as diretrizes do Ministério da Saúde e da FEBRASGO para a assistência pré-natal, a paciente está imune ao vírus da hepatite B, não havendo risco de transmissão vertical ou infecção materna. Como a gestação é de risco habitual e os demais exames estão normais, o acompanhamento pré-natal deve ser mantido na Unidade de Saúde da Família (USF), tranquilizando a gestante.
+1. **AgHBs (Antígeno de superfície):** É o primeiro marcador a se elevar na infecção pelo HBV, indicando presença viral ativa no organismo (doença aguda ou crônica). Sendo não reagente nesta paciente, afasta-se viremia e infecção em curso.
 
-Análise dos distratores:
-- Alternativa A: Incorreta. A infecção aguda cursa com AgHBs reagente e Anti-HBc IgM reagente.
-- Alternativa B: Incorreta. A infecção crônica é caracterizada pela persistência do AgHBs por mais de 6 meses, associado a Anti-HBc total reagente (geralmente IgG) e Anti-HBs não reagente.
-- Alternativa C: Incorreta. A suscetibilidade à infecção ocorre quando todos os marcadores são negativos (AgHBs não reagente, Anti-HBc não reagente e Anti-HBs não reagente), situação na qual a vacinação estaria formalmente indicada no pré-natal.
+2. **Anti-HBc total (Anticorpo contra o antígeno do core viral):** O antígeno do core (HBcAg) não é secretado na circulação e não faz parte da vacina recombinante, que contém apenas a proteína de superfície (HBsAg). Dessa forma, a presença de Anti-HBc total denota contato prévio com o vírus selvagem replicante. O resultado não reagente confirma que a gestante nunca foi infectada pelo vírus natural.
+
+3. **Anti-HBs (Anticorpo contra o antígeno de superfície):** É um anticorpo neutralizante protetor. Quando se apresenta como o único marcador reagente (com AgHBs e Anti-HBc não reagentes), define com precisão o estado de **imunidade vacinal** prévia. Caso houvesse cura de infecção natural, o Anti-HBc total também estaria positivo.
+
+Diante de uma gestante assintomática, sem infecção ativa, com sorologia protetora induzida por vacina e exames de rotina preservados, a gestação é classificada como de risco habitual. Não há necessidade de encaminhamento para centros secundários ou terciários, devendo o seguimento pré-natal prosseguir na **atenção primária à saúde**, orientando a paciente e desmistificando o resultado reagente como um sinal positivo de proteção imunológica.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O diagnóstico de hepatite B aguda exigiria obrigatoriamente a positividade do AgHBs e do Anti-HBc IgM, marcadores de replicação e infecção recente, os quais estão ausentes no caso.
+
+• **B) Incorreta:** A hepatite B crônica caracteriza-se pela persistência do AgHBs por mais de 6 meses, acompanhada de Anti-HBc total positivo e Anti-HBs não reagente. O perfil da paciente não demonstra cronicidade nem requer encaminhamento para o pré-natal de alto risco.
+
+• **C) Incorreta:** A condição de suscetibilidade ao HBV se manifesta quando todos os três marcadores são não reagentes (AgHBs, Anti-HBc e Anti-HBs negativos), situação em que haveria indicação formal de início do esquema vacinal em três doses durante a gestação. A presença do Anti-HBs comprova que a paciente já está imunizada.
 </details>
 
 ---
@@ -28055,17 +28535,17 @@ Durante o pré-natal de uma primigesta com 18 semanas, o médico da unidade bás
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) é a correta. 
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. Conforme as diretrizes do **Ministério da Saúde** e da **FEBRASGO**, toda gestante com teste não treponêmico reagente sem comprovação documental de tratamento prévio adequado deve ser tratada imediatamente para evitar desfechos perinatais desfavoráveis.
 
-Fundamentação clínica e diretrizes:
-De acordo com as diretrizes do Ministério da Saúde do Brasil e da FEBRASGO para o controle e eliminação da sífilis congênita, toda gestante com teste não treponêmico reagente (VDRL/RPR) em qualquer titulação, sem histórico comprovado de tratamento prévio adequado, deve ser considerada portadora de sífilis ativa e ter seu tratamento instituído imediatamente para prevenir a transmissão vertical do *Treponema pallidum*. Como a paciente não tem sintomas clínicos pregressos nem exames anteriores que permitam datar a infecção em menos de um ano, o quadro é classificado como **sífilis latente tardia ou de duração indeterminada**. 
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **sífilis latente de duração indeterminada** (ou tardia) na gestação, causada pelo *Treponema pallidum*. Como a paciente desconhece infecção prévia e não há registros laboratoriais nos últimos 12 meses que permitam datar o contágio, o quadro deve ser enquadrado como latente tardio/indeterminado.
+2. **Critério Clínico / Fisiopatologia:** Qualquer título em teste não treponêmico (**VDRL 1:4**) em gestante sem histórico terapêutico comprovado confirma infecção ativa para fins de manejo clínico. A transmissão vertical do espiroqueta pode ocorrer por via hematogênica transplacentária, resultando em **óbito fetal**, **hidropsia não imune**, **prematuridade** e **sífilis congênita**.
+3. **Indicação de Conduta:** Para sífilis latente tardia, terciária ou de tempo ignorado, o esquema padrão-ouro é a **penicilina G benzatina**, administrada na dose de **2,4 milhões de UI**, por via intramuscular, **semanalmente durante 3 semanas consecutivas**, totalizando uma dose cumulativa de **7,2 milhões de UI**.
 
-O esquema terapêutico padrão-ouro e preconizado para sífilis latente tardia, terciária ou de duração ignorada é a **Penicilina G Benzatina na dose de 2,4 milhões de UI (1,2 milhão de UI em cada glúteo), por via intramuscular, administrada uma vez por semana, durante 3 semanas consecutivas** (dose total acumulada de 7,2 milhões de UI).
-
-Análise dos distratores:
-- **Alternativa A (Incorreta):** Títulos baixos (como 1:4) podem ocorrer tanto na sífilis primária inicial quanto nas fases latentes e tardias da doença. Em gestantes, nunca se deve aguardar exames seriados antes de tratar, pois o retardo terapêutico eleva criticamente o risco de desfechos perinatais adversos (óbito fetal, prematuridade e sífilis congênita grave).
-- **Alternativa B (Incorreta):** A penicilina G benzatina é o único antimicrobiano capaz de tratar eficazmente a mãe e atravessar a barreira placentária em concentrações suficientes para tratar o feto. Macrolídeos (como eritromicina) têm taxa de falha inaceitável e não tratam adequadamente o concepto. Na suspeita ou confirmação de alergia à penicilina na gestação, a conduta mandatória é a **dessensibilização com penicilina em ambiente hospitalar**, seguida pelo tratamento convencional.
-- **Alternativa C (Incorreta):** O seguimento sorológico da gestante tratada deve ser **mensal** (com o mesmo teste não treponêmico) até o momento do parto, e não restrito ao último trimestre. Além disso, a simples positividade do VDRL não indica novo tratamento imediato, uma vez que a paciente pode permanecer com cicatriz sorológica (títulos baixos e estáveis). O retratamento só é indicado se houver elevação do título em 2 diluições (ex.: de 1:4 para 1:16), persistência de títulos elevados após tempo hábil ou novos sinais/sintomas clínicos.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** Em gestantes, nunca se aguarda exames seriados para confirmar o diagnóstico diante de um **VDRL reagente**, mesmo em títulos baixos (1:4), pois o atraso terapêutico eleva criticamente o risco de transmissão congênita.
+• **Alternativa B (Incorreta):** A penicilina é o único antimicrobiano capaz de tratar a mãe e ultrapassar a barreira placentária para tratar o concepto. A **eritromicina** não atinge concentrações terapêuticas adequadas no feto. Em caso de alergia, a conduta padrão é a **dessensibilização com penicilina** em ambiente hospitalar.
+• **Alternativa C (Incorreta):** O monitoramento sorológico durante o pré-natal deve ser **mensal** até o parto. A simples positividade do teste não impõe retratamento, pois pode representar **cicatriz sorológica**; o retratamento só é formalmente indicado se houver **aumento do título em 2 diluições** (ex.: de 1:4 para 1:16) ou novos sinais clínicos.
 </details>
 
 ---
@@ -28088,15 +28568,19 @@ Considerando as informações anteriores, assinale a opção correta.
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está CORRETA. As diretrizes nacionais e internacionais (como FEBRASGO, ACOG e Ministério da Saúde) recomendam postergar a gestação por um período mínimo de 12 a 24 meses após a cirurgia bariátrica. Esse período coincide com a fase catabólica e de perda ponderal rápida, além de maior instabilidade nutricional. Gestantes que engravidam em um intervalo inferior a 12 meses da cirurgia apresentam maior incidência de desnutrição materna, deficiências de micronutrientes e risco elevado de complicações perinatais, como prematuridade, recém-nascidos pequenos para a idade gestacional (PIG) e baixo peso ao nascer.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. De acordo com consensos da **FEBRASGO**, **ACOG** e **Ministério da Saúde**, a concepção em um intervalo inferior a **12 a 24 meses** após cirurgia bariátrica ocorre durante o período catabólico de rápida perda ponderal e desequilíbrio nutricional, elevando significativamente o risco de **prematuridade** e de conceptos **pequenos para a idade gestacional (PIG)**.
 
-Análise das alternativas incorretas:
+**Raciocínio Clínico e Fisiopatológico:**
 
-- Alternativa (B) está INCORRETA: O Teste Oral de Tolerância à Glicose com 75g (TOTG-75g) é formalmente desaconselhado/contraindicado em pacientes submetidas a bypass gástrico em Y de Roux. A sobrecarga oral súbita de glicose líquida pode desencadear episódios graves de síndrome de dumping precoce ou tardio (hipoglicemia hiperinsulinêmica reativa), com pouca acurácia diagnóstica. O rastreamento de diabetes mellitus gestacional (DMG) nessas pacientes deve ser realizado por meio do perfil glicêmico capilar ambulatorial (glicemias pré e pós-prandiais) ou monitoramento contínuo da glicose.
+1. **Diagnóstico e Contexto Clínico:** Gestante com histórico de **bypass gástrico em Y de Roux** realizado há apenas 10 meses (intervalo curto), cursando com sintomas sugestivos de **síndrome de dumping** (mal-estar e tontura pós-prandiais).
+2. **Fisiopatologia do Intervalo Pós-Bariátrica:** O primeiro ano após a cirurgia caracteriza-se por **balanço energético negativo**, perda maciça de peso e maior prevalência de carências de micronutrientes (como ferro, folato, vitamina B12, cálcio e vitamina D). Essa restrição nutricional intrauterina e as oscilações metabólicas maternas comprometem a perfusão placentária e o aporte de substratos ao feto.
+3. **Indicação e Repercussões Perinatais:** A recomendação formal é **postergar a gestação por pelo menos 12 a 18 meses** (idealmente 24 meses) para estabilização ponderal e metabólica. A gestação precoce nesse intervalo associa-se a maiores taxas de **parto pré-termo**, **baixo peso ao nascer** e fetos **pequenos para a idade gestacional (PIG)**.
 
-- Alternativa (C) está INCORRETA: A suplementação oral profilática de ferro elementar continua sendo a primeira linha na ausência de anemia grave ou intolerância refratária. O ferro intravenoso é reservado para casos de falha terapêutica oral, anemia ferropriva grave ou intolerância gastrointestinal severa. Além disso, a anemia megaloblástica decorre da deficiência de vitamina B12 ou ácido fólico, e não de ferro.
+**Análise dos Distratores:**
 
-- Alternativa (D) está INCORRETA: A síndrome de dumping é precipitada exatamente pela chegada rápida de quimo hiperosmolar ao intestino delgado, sendo os carboidratos de absorção rápida (açúcares simples) os principais deflagradores do quadro. A orientação dietética consiste justamente em restringir carboidratos simples, fracionar a dieta em pequenas porções, aumentar o aporte de proteínas e fibras, e evitar a ingestão de líquidos durante as refeições.
+• **Alternativa B (Incorreta):** O **TOTG-75g** é **contraindicado** em pacientes submetidas a *bypass* gástrico com reconstrução em Y de Roux, pois a sobrecarga rápida de glicose hipertônica no jejuno deflagra episódios graves de **síndrome de dumping** e hipoglicemia reativa. O rastreamento de **diabetes mellitus gestacional (DMG)** deve ser realizado por **perfil glicêmico capilar ambulatorial** ou monitorização contínua da glicose.
+• **Alternativa C (Incorreta):** A via de escolha inicial para profilaxia ou reposição de ferro na gestação continua sendo a **via oral**. A via intravenosa é reservada para **anemia ferropriva grave**, intolerância gástrica refratária ou falha na absorção. Ademais, a deficiência de ferro causa **anemia microcítica e hipocrômica**, e não **anemia megaloblástica** (que decorre da deficiência de **vitamina B12** ou **ácido fólico**).
+• **Alternativa D (Incorreta):** Os carboidratos simples e de rápida absorção são os principais **fatores desencadeantes** da síndrome de dumping. A conduta dietética indicada consiste em **restringir carboidratos simples**, priorizar **carboidratos complexos**, fracionar as refeições em pequenas porções e evitar a ingestão concomitante de líquidos.
 </details>
 
 ---
@@ -28363,14 +28847,19 @@ Tercigesta, com ambas as gravidezes anteriores acometidas por pré-eclâmpsia, a
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está CORRETA. O caso retrata uma gestação de 35 semanas complicada por Restrição de Crescimento Fetal (RCF) secundária à insuficiência placentária grave, evidenciada pela presença de diástole zero na dopplervelocimetria da artéria umbilical. De acordo com os consensos da FEBRASGO, da ISUOG (International Society of Ultrasound in Obstetrics and Gynecology) e do Ministério da Saúde: 
-1. A presença de diástole zero (ausência de fluxo diastólico final na artéria umbilical) reflete obliteração de mais de 60-70% do leito vascular viloso placentário, indicando sofrimento fetal crônico e risco iminente de acidemia e morte intrauterina.
-2. O ponto de corte clássico para resolução da gestação em fetos com diástole zero é atingir 32 a 34 semanas. Estando a paciente com 35 semanas completas (idade gestacional em que a morbimortalidade associada à prematuridade é significativamente menor que o risco de óbito intrauterino), a conduta mandatória é a interrupção da gestação.
-3. A via de parto preferencial na diástole zero é a via alta (cesariana eletiva), pois o feto não possui reserva de oxigenação suficiente para suportar o estresse das contrações uterinas do trabalho de parto sem entrar em sofrimento fetal agudo grave.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. Em gestantes com **restrição de crescimento fetal (RCF)** e dopplervelocimetria demonstrando **diástole zero** na **artéria umbilical**, a diretriz da **FEBRASGO**, do **Ministério da Saúde** e da **ISUOG** preconiza a interrupção da gestação a partir de **32 a 34 semanas**, sendo a **cesariana eletiva** a via de escolha devido à baixa reserva funcional fetal.
 
-Análise das alternativas incorretas:
-- Alternativa B: Incorreta. A neuroproteção fetal com sulfato de magnésio é recomendada pelas diretrizes obstétricas (MS e FEBRASGO) em partos prematuros iminentes com idade gestacional inferior a 32 semanas (ou até 33 semanas e 6 dias em alguns protocolos selecionados). Na 35ª semana, não há indicação formal de neuroproteção com sulfato de magnésio.
-- Alternativas C e D: Incorretas. Ambas sugerem conduta expectante/monitoramento ambulatorial (perfil biofísico a cada 3 dias ou Doppler semanal). Em uma gestação de 35 semanas com diástole zero na artéria umbilical, a conduta expectante é contraindicada pelo risco inaceitável de morte súbita fetal intrauterina. A conduta expectante seria reservada apenas para gestações muito prematuras (abaixo de 32-34 semanas) em centros terciários com monitorização intensiva rigorosa diária, e não semanal/a cada 3 dias.
+**Raciocínio Clínico e Fisiopatológico:**
+
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de uma gestação de **35 semanas** com **restrição de crescimento fetal (RCF)** associada à **insuficiência placentária grave**, caracterizada por alteração hemodinâmica com **diástole zero** na **artéria umbilical** e **ducto venoso normal**.
+2. **Critério Clínico / Fisiopatologia:** A **diástole zero** (ausência de fluxo diastólico final na artéria umbilical) sinaliza a obliteração de mais de **60% a 70% da árvore vascular vilositária**, conferindo elevado risco de **acidemia metabólica**, hipóxia progressiva e **óbito fetal intrauterino**.
+3. **Indicação de Conduta:** O limiar seguro para interrupção da gestação em fetos com diástole zero é entre **32 e 34 semanas**. Estando a paciente com **35 semanas completas**, os riscos associados à prematuridade tardia são consideravelmente menores do que o risco de morte súbita intrauterina. A via de parto mandatória é a **cesariana eletiva**, haja vista que a perda de complacência vascular impede a tolerância ao estresse hipóxico inerente às contrações do trabalho de parto.
+
+**Análise dos Distratores:**
+
+• **Alternativa B (Incorreta):** A **neuroproteção fetal** com **sulfato de magnésio** é formalmente indicada apenas em partos prematuros iminentes com idade gestacional inferior a **32 semanas** (ou até 33 semanas e 6 dias em diretrizes selecionadas). Com **35 semanas**, não há respaldo técnico para essa intervenção.
+• **Alternativa C (Incorreta):** A manutenção de conduta expectante com **perfil biofísico fetal** a cada 3 dias é contraindicada, pois diante de **35 semanas** e **diástole zero**, o feto já atingiu idade gestacional viável e o risco de descompensação aguda e morte intrauterina não justifica postergar o parto.
+• **Alternativa D (Incorreta):** O acompanhamento com **dopplervelocimetria fetal semanal** configura conduta excessivamente permissiva e negligente para um quadro de grave comprometimento hemodinâmico em feto próximo ao termo, com probabilidade inaceitável de desfecho perinatal desfavorável.
 </details>
 
 ---
@@ -28974,16 +29463,24 @@ Paciente secundigesta, pesando 70 kg, é encaminhada ao pré-natal de alto risco
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A conduta correta é o seguimento em pré-natal habitual (Alternativa A).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Fundamentação Clínica e Diretrizes:
-- Abortamento esporádico: A perda gestacional precoce única (8ª semana) é um evento frequente na população geral (ocorre em 10% a 15% das gestações clinicamente reconhecidas), sendo decorrente, na grande maioria das vezes, de aneuploidias cromossômicas embrionárias esporádicas. Um único abortamento de primeiro trimestre não preenche critérios para abortamento de repetição (definido pela FEBRASGO e ASRM como a perda de 2 ou mais gestações clínicas consecutivas) e não justifica a investigação de trombofilias hereditárias ou adquiridas.
-- Mutação do gene da MTHFR (metilenotetrahidrofolato redutase): As diretrizes das principais sociedades médicas (FEBRASGO, ACOG, RCOG e American Society of Hematology - ASH) contraindicam formalmente o rastreio e o tratamento da mutação do gene da MTHFR em pacientes obstétricas. Trata-se de uma variante polimórfica comum na população, que não apresenta correlação causal comprovada com perdas gestacionais ou eventos tromboembólicos venosos. Logo, a presença da mutação homozigótica, de forma isolada e sem hiper-homocisteinemia significativa ou trombose clínica, não confere status de alto risco nem indicação de anticoagulação/antiagregação plaquetária. A paciente deve receber o seguimento pré-natal habitual na Atenção Primária.
+1. **Abortamento esporádico vs. Abortamento de repetição:**
+A perda gestacional precoce isolada é uma ocorrência comum, afetando cerca de 15% a 20% das gestações clinicamente reconhecidas. Na grande maioria dos casos, abortamentos no primeiro trimestre (especialmente antes de 10 semanas) decorrem de anomalias cromossômicas embrionárias numéricas esporádicas (aneuploidias, com destaque para as trissomias autossômicas), sem relação com patologias maternas subjacentes e com excelente prognóstico reprodutivo para as gestações subsequentes. A definição clássica de abortamento habitual ou de repetição exige duas ou três perdas consecutivas, momento em que uma propedêutica estruturada se justifica.
 
-2. Análise das alternativas incorretas:
-- Alternativa B: Incorreta. Não há indicação de prosseguir a investigação para trombofilias gestacionais. O rastreio laboratorial indiscriminado após uma única perda precoce gera custos desnecessários, sobrediagnósticos e intervenções inadequadas.
-- Alternativa C: Incorreta. O uso associado de ácido acetilsalicílico (AAS) e enoxaparina está reservado para condições clínicas específicas com benefício comprovado, destacando-se a Síndrome do Anticorpo Antifosfolipídeo (SAAF) que preencha critérios clínicos e laboratoriais internacionais. O uso empírico ou guiado por mutação de MTHFR não traz benefícios e expõe a gestante a riscos hemorrágicos e eventos adversos desnecessários.
-- Alternativa D: Incorreta. A pesquisa dos anticorpos da SAAF (anticoagulante lúpico, anticardiolipina e anti-beta 2 glicoproteína 1) é indicada apenas se houver critérios clínicos de Sydney/Sapporo: 3 ou mais abortos espontâneos consecutivos < 10 semanas; 1 ou mais perdas fetais morfologicamente normais ≥ 10 semanas; ou parto prematuro < 34 semanas por pré-eclâmpsia grave/insuficiência placentária. Uma perda única na 8ª semana não atende a esses critérios.
+2. **Polimorfismo do gene da MTHFR e trombofilias:**
+A enzima metilenotetrahidrofolato redutase atua no metabolismo do folato e da homocisteína. A presença de variantes genéticas (como C677T e A1298C), mesmo em homozigose, é extremamente prevalente na população geral e atua como polimorfismo benigno. Diretrizes das principais sociedades internacionais e nacionais (ACOG, RCOG, ASH e FEBRASGO) recomendam enfaticamente contra a triagem da **mutação da MTHFR** e contra a sua classificação como trombofilia hereditária causadora de perdas gestacionais ou de eventos tromboembólicos venosos. Como a paciente não apresenta antecedente pessoal ou familiar de trombose, nem critérios para investigação de trombofilias, esse resultado laboratorial não possui relevância clínica.
+
+3. **Conduta obstétrica:**
+Na ausência de patologias de base e com histórico exclusivo de uma única perda embrionária precoce, a paciente não se enquadra em critérios de gestação de alto risco, devendo ter o seu seguimento conduzido na rotina de **pré-natal habitual** na atenção primária, recebendo apenas as orientações gerais e a suplementação preconizada de ácido fólico e ferro.
+
+**Análise das alternativas incorretas:**
+
+• **Alternativa B:** Incorreta. Não existe indicação de rastreio de trombofilias hereditárias (como fator V de Leiden, mutação do gene da protrombina, deficiência de proteína C, proteína S ou antitrombina) em pacientes com apenas um episódio de perda gestacional e sem história prévia de tromboembolismo venoso. A investigação indiscriminada gera ansiedade, sobrecarga do sistema e prescrições inadequadas de anticoagulantes.
+
+• **Alternativa C:** Incorreta. A anticoagulação combinada com enoxaparina e antiagregante plaquetário (ácido acetilsalicílico) está formalmente indicada em casos confirmados de síndrome do anticorpo antifosfolipídeo com perdas gestacionais recorrentes ou trombose prévia. O uso de tais medicações com base em polimorfismo da MTHFR é considerado má prática médica, pois não melhora o prognóstico gestacional e submete a gestante a riscos potenciais de sangramento, plaquetopenia induzida por heparina e hematomas.
+
+• **Alternativa D:** Incorreta. Os exames citados constituem o painel laboratorial para diagnóstico da síndrome do anticorpo antifosfolipídeo (SAAF). Pelos critérios de Sapporo revisados (Critérios de Sydney), a indicação obstétrica para pesquisa de anticorpos antifosfolípides requer: uma ou mais mortes inexplicadas de feto morfologicamente normal com 10 semanas ou mais; um ou mais partos prematuros antes de 34 semanas por pré-eclâmpsia grave, eclampsia ou insuficiência placentária; ou três ou mais perdas consecutivas e inexplicadas antes da 10ª semana de gestação. Um único abortamento com 8 semanas não cumpre esses critérios.
 </details>
 
 ---
@@ -29004,20 +29501,23 @@ Secundigesta de 25 anos de idade foi encaminhada para o pré-natal de alto risco
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta terapêutica para a paciente em questão exige a abordagem simultânea de duas condições clínicas de alto risco: a prevenção secundária da pré-eclâmpsia e a anticoagulação adequada para uma trombofilia de altíssimo risco associada a evento tromboembólico prévio.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. A paciente apresenta duas indicações clínicas mandatórias concomitantes: prevenção secundária de **pré-eclâmpsia** com **ácido acetilsalicílico (AAS)** em baixas doses e **anticoagulação em dose terapêutica** plena com **enoxaparina**, segundo diretrizes da **FEBRASGO**, **ACOG** e **American Society of Hematology (ASH)**.
 
-1. **Prevenção de Pré-Eclâmpsia:** 
-A paciente apresenta antecedente de pré-eclâmpsia grave com desfecho adverso precoce (parto cesáreo com 32 semanas de gestação). Conforme os consensos da Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO), ACOG e Ministério da Saúde, mulheres com histórico de pré-eclâmpsia prévia (especialmente com desfecho prematuro) têm indicação formal de profilaxia com Ácido Acetilsalicílico (AAS) em baixas doses (100 a 150 mg/dia), iniciado preferencialmente entre a 12ª e a 16ª semanas e mantido até 36 semanas, a fim de modular a placentação e reduzir a reincidência da síndrome hipertensiva.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. **Manejo da Trombofilia de Alto Risco:**
-A deficiência de antitrombina III é considerada uma das trombofilias hereditárias mais trombogênicas existentes. A presença concomitante de história pessoal prévia de Trombose Venosa Profunda (TVP) enquadra a paciente na categoria de risco extremamente alto para eventos tromboembólicos durante o ciclo gravídico-puerperal. Segundo as diretrizes internacionais (como ACOG e American Society of Hematology - ASH) e nacionais, gestantes com deficiência de antitrombina e evento prévio de TEV devem receber **anticoagulação em dose terapêutica** durante toda a gestação e puerpério (e não apenas dose profilática). O esquema padrão é a Enoxaparina na dose de 1 mg/kg a cada 12 horas (ou 1,5 mg/kg/dia).
+1. **Diagnóstico da Afecção/Quadro:** Paciente com sobreposição de **alto risco para pré-eclâmpsia recorrente** (antecedente de pré-eclâmpsia grave com desfecho prematuro a 32 semanas) e **trombofilia hereditária de alto risco** (**deficiência de antitrombina homozigótica**) associada a **evento tromboembólico venoso (TEV) prévio**.
 
-Portanto, a estratégia farmacológica completa e adequada é a associação de **AAS 100 mg/dia + Enoxaparina em dose terapêutica (1 mg/kg de 12/12h)**, tornando a alternativa (D) a correta.
+2. **Critério Clínico / Fisiopatologia:** A deficiência de antitrombina é a trombofilia hereditária mais trombogênica conhecida, reduzindo criticamente a inativação da trombina e do fator Xa. Somada ao estado pró-trombótico fisiológico da gestação e ao histórico pessoal de **trombose venosa profunda**, enquadra a paciente no estrato de risco máximo de recorrência trombótica. Paralelamente, o histórico de pré-eclâmpsia precoce sinaliza falha grave da placentação inicial mediada por disfunção endotelial.
+
+3. **Indicação de Conduta:** Para a prevenção de pré-eclâmpsia, está indicada a prescrição de **AAS (100 a 150 mg/dia)** iniciado entre 12 e 16 semanas de gestação. Para a trombofilia de altíssimo risco com TEV prévio, as diretrizes internacionais e nacionais exigem anticoagulação com **dose terapêutica plena de heparina de baixo peso molecular** (**enoxaparina 1 mg/kg a cada 12 horas** ou 1,5 mg/kg/dia), mantida durante toda a gestação e no puerpério, não sendo admitida dose apenas profilática.
 
 **Análise dos Distratores:**
-- **Alternativa A:** Incorreta. Não prescreve o AAS necessário para a profilaxia da pré-eclâmpsia e utiliza dose profilática de enoxaparina (40 mg/dia), que é insuficiente para paciente com trombofilia de alto risco (deficiência de antitrombina) e história pessoal de TVP.
-- **Alternativa B:** Incorreta. Contempla apenas a prevenção da pré-eclâmpsia e omite completamente a anticoagulação, expondo a gestante a um risco crítico de tromboembolismo venoso fatal.
-- **Alternativa C:** Incorreta. Embora inclua o AAS para a pré-eclâmpsia, prescreve dose baixa/profilática de enoxaparina (40 mg/dia). Em pacientes com deficiência de antitrombina e episódio prévio de trombose venosa, as diretrizes exigem dose plena (terapêutica) de heparina de baixo peso molecular.
+
+• **Alternativa A (Incorreta):** Utiliza **enoxaparina em dose profilática** (40 mg/dia), a qual é inadequada e insuficiente para pacientes com **deficiência de antitrombina** e antecedente de TVP, além de omitir o **AAS**, privando a paciente da profilaxia secundária para pré-eclâmpsia.
+
+• **Alternativa B (Incorreta):** Prescreve apenas o **AAS**, ignorando completamente a necessidade de **anticoagulação**, o que expõe a gestante a um risco crítico e inaceitável de tromboembolismo venoso recorrente fatal.
+
+• **Alternativa C (Incorreta):** Embora contemple acertadamente o **AAS**, prescreve a **enoxaparina na dose de 40 mg/dia** (dose profilática padrão). Pacientes com deficiência de antitrombina e antecedente trombótico requerem obrigatoriamente **dose terapêutica** (ajustada ao peso corporal).
 </details>
 
 ---
@@ -29430,21 +29930,26 @@ Segundo a OMS, com relação aos critérios de elegibilidade dos métodos contra
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A questão aborda os Critérios Médicos de Elegibilidade para Uso de Métodos Anticoncepcionais da Organização Mundial da Saúde (OMS), amplamente adotados pelo Ministério da Saúde e pela Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Os critérios classificam as condições clínicas em quatro categorias de segurança:
-- Categoria 1: Condição para a qual não há restrição ao uso do método (uso irrestrito).
-- Categoria 2: As vantagens superam os riscos teóricos ou comprovados (geralmente pode ser usado).
-- Categoria 3: Os riscos superam as vantagens (o uso não é recomendado a menos que outros métodos mais adequados não estejam disponíveis ou não sejam aceitos).
-- Categoria 4: Condição que representa um risco inaceitável à saúde se o método for utilizado (contraindicação absoluta; o método não deve ser utilizado).
+Os Critérios Médicos de Elegibilidade para Uso de Métodos Contraceptivos da Organização Mundial da Saúde (OMS), amplamente adotados pelo Ministério da Saúde e pela Federação Brasileira das Associações de Ginecologia e Obstetrícia (FEBRASGO), sistematizam a segurança da prescrição anticoncepcional em quatro categorias clínicas operacionais:
 
-Justificativa da alternativa correta (B):
-A presença de mutações trombogênicas conhecidas (ex.: Fator V de Leiden, mutação da protrombina, deficiência de proteína C, S ou antitrombina) eleva sinergicamente o risco de tromboembolismo venoso quando associada ao estrogênio contido nos contraceptivos orais combinados (COC). Portanto, a trombofilia conhecida é classificada como Categoria 4 da OMS (contraindicação absoluta / não se deve utilizar o método).
+1. Categoria 1: Uma condição para a qual não há restrição ao uso do método contraceptivo;
+2. Categoria 2: Uma condição em que as vantagens de utilizar o método superam os riscos teóricos ou comprovados;
+3. Categoria 3: Uma condição em que os riscos teóricos ou comprovados superam as vantagens do uso do método (o método não é recomendado, a não ser que outros métodos mais adequados não estejam disponíveis ou não sejam aceitos);
+4. Categoria 4: Uma condição que representa um risco inaceitável à saúde se o método contraceptivo for utilizado (contraindicação absoluta).
 
-Análise dos distratores:
-- Alternativa (A) está incorreta: Cefaleia tensional não constitui contraindicação ao uso de métodos combinados (enquadra-se na Categoria 1 ou 2). A forma de cefaleia que se enquadra na Categoria 4 é a enxaqueca (migrânea) COM aura, devido ao risco substancialmente aumentado de acidente vascular cerebral isquêmico.
-- Alternativa (C) está incorreta: O texto traz a definição conceitual de Categoria 3 ('não é recomendado o uso... a menos que métodos mais adequados não estejam disponíveis...'), mas cita o câncer de mama atual, que é uma condição de Categoria 4 para o uso de métodos hormonais combinados.
-- Alternativa (D) está incorreta: Assim como na alternativa C, o texto descreve a definição de Categoria 3, porém a história atual ou pregressa de trombose venosa profunda (TVP) ou tromboembolismo pulmonar (TEP) é classificada como Categoria 4 para contraceptivos hormonais combinados.
+Os contraceptivos orais combinados contêm um componente estrogênico (geralmente etinilestradiol ou estradiol) associado a um progestagênio. O estrogênio administrado por via oral sofre metabolismo de primeira passagem hepática, promovendo aumento na síntese de fatores pró-coagulantes (fatores II, VII, VIII, X e fibrinogênio) e redução de inibidores fisiológicos da coagulação (como antitrombina e proteína S), além de gerar resistência adquirida à proteína C ativada. 
+
+Quando a paciente apresenta **trombofilia conhecida** (como mutação do Fator V de Leiden, mutação do gene da protrombina G20210A, deficiências congênitas de proteína C, proteína S ou antitrombina, ou síndrome do anticorpo antifosfolípide), o estado de hipercoagulabilidade basal interage de maneira multiplicativa com o efeito trombogênico do estrogênio, elevando exponencialmente o risco de tromboembolismo venoso e arterial. Por esse motivo, a presença de mutações trombogênicas conhecidas classifica-se invariavelmente como **categoria 4**, configurando contraindicação formal e absoluta ao método combinado.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A cefaleia do tipo tensional não confere aumento do risco vascular e não contraindica a pílula combinada, sendo enquadrada na Categoria 1 (sem restrições). O tipo de cefaleia que se enquadra na Categoria 4 da OMS é a enxaqueca com aura em qualquer idade, devido ao risco substancialmente sinérgico de acidente vascular cerebral isquêmico.
+
+• **C) Incorreta:** O texto descreve textualmente o conceito de Categoria 3, mas o câncer de mama atual é classificado como Categoria 4 para todos os contraceptivos hormonais (inclusive os combinados), uma vez que a grande maioria dos carcinomas mamários expressa receptores para estrogênio e progesterona, havendo risco direto de estímulo à proliferação neoplásica.
+
+• **D) Incorreta:** A alternativa associa o enunciado conceitual da Categoria 3 a condições que são formalmente de Categoria 4. O antecedente de trombose venosa profunda ou tromboembolismo pulmonar, bem como a doença tromboembólica venosa em atividade, confere risco inaceitável de novos episódios tromboembólicos graves ou fatais, sendo uma contraindicação absoluta ao uso de métodos contendo estrogênio.
 </details>
 
 ---
@@ -29465,12 +29970,19 @@ A equipe de uma unidade de saúde da família está organizando atividades educa
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) está CORRETA. Segundo os Critérios Médicos de Elegibilidade para Uso de Métodos Anticoncepcionais da Organização Mundial da Saúde (OMS), reiterados pelos Manuais de Planejamento Reprodutivo do Ministério da Saúde e da FEBRASGO, o início do uso de anticoncepcionais hormonais orais combinados (ou de progestagênio isolado) não depende da realização prévia de colpocitologia oncótica (preventivo/Papanicolau) nem de exame clínico das mamas ou exame ginecológico especular/toque vaginal. O único exame físico considerado essencial (Categoria A) antes da prescrição de anticoncepcionais orais combinados é a aferição da pressão arterial, acompanhada de anamnese clínica criteriosa para avaliar contraindicações (trombofilias, migrânea com aura, tabagismo em mulheres com mais de 35 anos, etc.). Condicionar o acesso à contracepção à realização de exames de rastreio cria barreiras desnecessárias ao exercício dos direitos sexuais e reprodutivos.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. Segundo os **Critérios Médicos de Elegibilidade para Uso de Métodos Anticoncepcionais** da **Organização Mundial da Saúde (OMS)**, referendados pelo **Ministério da Saúde** e pela **FEBRASGO**, o início da contracepção hormonal oral não exige a realização prévia de colpocitologia oncótica ou de exame clínico das mamas.
 
-Análise das demais alternativas:
-- Alternativa (A) está INCORRETA: O acolhimento com escuta qualificada e a avaliação inicial são atribuições compartilhadas por todos os membros da equipe de Atenção Primária à Saúde (médicos, enfermeiros, técnicos de enfermagem, agentes comunitários de saúde e equipe de apoio), caracterizando uma diretriz da Política Nacional de Humanização (PNH) e da Política Nacional de Atenção Básica (PNAB), não sendo exclusivos de médicos e enfermeiros.
-- Alternativa (B) está INCORRETA: A orientação, distribuição e aconselhamento sobre métodos contraceptivos de barreira (como preservativos masculino e feminino) constituem competências multiprofissionais e de saúde pública amplas, não se configurando como ato ou função privativa/específica da enfermagem.
-- Alternativa (C) está INCORRETA: Historicamente, pela redação original da Lei nº 9.263/1996 (Lei do Planejamento Familiar), a esterilização cirúrgica voluntária exigia capacidade civil plena e idade de pelo menos 25 anos OU pelo menos dois filhos vivos (critérios alternativos, e não cumulativos com conectivo 'e'). Além disso, a Lei nº 14.443/2022 (vigente a partir de 2023) atualizou a idade mínima para 21 anos OU pelo menos dois filhos vivos.
+**Raciocínio Clínico e Fisiopatológico:**
+
+1. **Diagnóstico da Afecção/Quadro:** Abordagem de **planejamento reprodutivo** e prescrição de **anticoncepcionais hormonais orais** na **Atenção Primária à Saúde (APS)**.
+2. **Critério Clínico / Fisiopatologia:** O rastreamento de neoplasia cervical (*Papanicolau*) e o exame das mamas são práticas essenciais de saúde preventiva da mulher, mas não possuem relação causal ou preditiva com eventos adversos agudos decorrentes do início de anticoncepcionais hormonais. Exigir exames de rastreio como pré-requisito atua como barreira indevida de acesso aos direitos sexuais e reprodutivos. O único exame físico mandatório (Categoria A da OMS) antes da prescrição de anticoncepcionais orais combinados é a **aferição da pressão arterial**, além de uma **anamnese clínica detalhada** para investigar contraindicações como enxaqueca com aura, tabagismo acima dos 35 anos e risco de tromboembolismo venoso.
+3. **Indicação de Conduta:** A prescrição de contracepção hormonal oral deve ser realizada prontamente após anamnese dirigida e medida da pressão arterial, sem condicionamento a resultados de exames complementares ou procedimentos ginecológicos invasivos prévios.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O **acolhimento com escuta qualificada** e a avaliação inicial são atribuições de **toda a equipe multiprofissional** da APS (incluindo técnicos de enfermagem e agentes comunitários de saúde), conforme preconizado pela **Política Nacional de Atenção Básica (PNAB)** e pela **Política Nacional de Humanização (PNH)**, não sendo exclusivos de médicos e enfermeiros.
+• **Alternativa B (Incorreta):** A orientação, distribuição e conscientização sobre **métodos de barreira** (como preservativos masculinos e femininos) competem a todos os membros da equipe de saúde, não constituindo ato privativo ou específico da enfermagem.
+• **Alternativa C (Incorreta):** A Lei nº 9.263/1996 (Lei do Planejamento Familiar) estabelecia como critérios para esterilização voluntária a idade mínima de 25 anos **OU** pelo menos dois filhos vivos, tratando-se de requisitos **alternativos** e não cumulativos. Posteriormente, a Lei nº 14.443/2022 reduziu a idade mínima para **21 anos** (ou pelo menos dois filhos vivos).
 </details>
 
 ---
@@ -29639,12 +30151,17 @@ A dispareunia é um problema comum na saúde da mulher e um distúrbio complexo 
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) é a correta, pois a deficiência de lubrificação vaginal é uma das causas mais prevalentes de dispareunia de intróito (ou de penetração), e os contraceptivos hormonais combinados estão diretamente envolvidos em sua fisiopatologia. Esses fármacos suprimem o eixo hipotálamo-hipófise-ovário, diminuindo a produção endógena de estradiol, e induzem o aumento hepático da globulina carreadora de hormônios sexuais (SHBG), reduzindo os níveis de testosterona livre. Esse ambiente hipoandrogênico e hipoestrogênico relativo pode promover adelgaçamento e atrofia do epitélio do vestíbulo vulvar e da mucosa vaginal, diminuindo a transudação vascular e a resposta lubrificatória, o que culmina em dor ao contato e penetração (vestibulodinia hormonalmente mediada).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. De acordo com os consensos da **FEBRASGO** e da *International Society for the Study of Women's Sexual Health* (ISSWSH), a **falta de lubrificação vaginal** constitui uma causa frequente de **dispareunia de penetração**, podendo ser desencadeada ou agravada pelo uso de **contraceptivos hormonais combinados**.
 
-Análise dos distratores:
-- Alternativa A está incorreta: a etiologia da dispareunia é multifatorial e biopsicossocial, envolvendo fatores orgânicos/anatômicos, inflamatórios, neuroproliferativos e, fundamentalmente, aspectos psicológicos (como ansiedade de desempenho, depressão e traumas prévios) e relacionais.
-- Alternativa B está incorreta: a endometriose é uma das principais causas de dispareunia profunda (associada ao acometimento dos ligamentos uterossacrais, septo retovaginal e fundo de saco posterior). Ademais, o quadro clínico da endometriose não é restrito ao período perimenstrual, cursando frequentemente com dor pélvica crônica não cíclica, disquezia e disúria.
-- Alternativa D está incorreta: a dispareunia de penetração não se limita a infecções. Engloba uma ampla gama de afecções, como vaginismo (hipertonia do assoalho pélvico), vestibulodinia provocada, atrofia urogenital pós-menopausa/lactação, dermatoses vulvares (líquen escleroso, líquen plano) e alterações anatômicas pós-cirúrgicas ou pós-parto.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **dispareunia de intróito** secundária à **atrofia vulvovaginal** e **vestibulodinia hormonalmente mediada**, provocada pela alteração da homeostase tecidual e redução da resposta lubrificatória.
+2. **Critério Clínico / Fisiopatologia:** Os **contraceptivos hormonais combinados** exercem potente inibição sobre o **eixo hipotálamo-hipófise-ovário**, suprimindo a secreção folicular de **estradiol**. Concomitantemente, o componente estrogênico oral promove aumento na síntese hepática da **globulina carreadora de hormônios sexuais (SHBG)**, o que leva à acentuada depleção de **testosterona livre**. O microambiente resultante (hipoestrogênico e hipoandrogênico) reduz o trofismo da mucosa vaginal e do vestíbulo vulvar, prejudicando a **transudação vascular** e gerando atrito e dor durante o intercurso sexual.
+3. **Indicação de Conduta:** A abordagem padrão-ouro exige anamnese sexual detalhada, exame físico com **teste do cotonete** (*Q-tip test*), uso de **lubrificantes à base de água ou silicone**, hidratantes vaginais e, se clinicamente indicado, a substituição do método contraceptivo ou introdução de **estrogênio tópico**.
+
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A etiologia da dispareunia é intrinsecamente **biopsicossocial** e multifatorial; fatores como **ansiedade**, **depressão**, conflitos conjugais, vaginismo e histórico de traumas sexuais interagem dinamicamente com as causas orgânicas.
+• **Alternativa B (Incorreta):** A **endometriose** é uma das causas clássicas e mais prevalentes de **dispareunia profunda**, decorrente do acometimento dos **ligamentos uterossacrais**, septo retovaginal e fundo de saco de Douglas. Além disso, a sintomatologia da endometriose não é restrita ao período menstrual, cursando frequentemente com **dor pélvica crônica não cíclica**.
+• **Alternativa D (Incorreta):** A dispareunia de intróito não está restrita a infecções, englobando afecções estruturais, musculares e inflamatórias não infecciosas, tais como **hipertonia do assoalho pélvico** (vaginismo), **líquen escleroso**, vestibulodinia provocada, himen imperfurado/septos e cicatrizes pós-episiotomia.
 </details>
 
 ---
@@ -29761,14 +30278,17 @@ Mulher de 35 anos fez contato com seu ginecologista habitual, via aplicativo de 
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A conduta correta baseia-se no Código de Ética Médica (CEM - Resolução CFM nº 2.217/2018), especificamente no Artigo 37, o qual veda ao médico: "Prescrever tratamento ou outros procedimentos sem exame direto do paciente, salvo em casos de urgência ou emergência e impossibilidade comprovada de realizá-lo, devendo, nesse caso, fazer a imediata recomendação para que a consulta presencial ocorra logo que possível". 
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. De acordo com o **Código de Ética Médica** (**Resolução CFM nº 2.217/2018**, Art. 37), é vedado prescrever sem exame direto da paciente, *salvo* em casos de **urgência** e **impossibilidade comprovada** de realizá-lo. Sendo a contracepção de emergência uma medida tempo-dependente e a paciente incapaz de comparecer presencialmente por encontrar-se em outro estado, o médico assistente habitual deve orientar e prescrever o tratamento.
 
-No contexto clínico apresentado, a paciente realizou coito desprotegido há 10 horas e encontra-se em outro estado. A contracepção de emergência (por exemplo, com levonorgestrel 1,5 mg em dose única) é uma medida tempo-dependente cuja eficácia na inibição ou no atraso do pico de LH (e consequente ovulação) decresce com o passar das horas, sendo máxima se administrada nas primeiras 24 a 72 horas. Portanto, configura-se uma situação de urgência com impossibilidade fática de exame presencial imediato, legitimando que seu ginecologista assistente habitual forneça as devidas orientações e a prescrição necessária.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Demanda de **contracepção de emergência** decorrente de coito desprotegido ocorrido há 10 horas, associada à impossibilidade de consulta presencial por deslocamento geográfico interestadual.
+2. **Critério Clínico / Fisiopatologia:** A contracepção hormonal de emergência (como o **levonorgestrel 1,5 mg** em dose única) atua retardando ou impedindo o pico do **LH** (*luteinizing hormone*) e a consequente ovulação. A sua eficácia preventiva contra gestação não planejada é máxima nas primeiras **24 horas**, decrescendo com o transcorrer do tempo. Configura-se, portanto, uma situação clínica de **urgência tempo-dependente**.
+3. **Indicação de Conduta:** O **Artigo 37 do CEM** abre exceção expressa à obrigatoriedade do exame clínico presencial perante urgência e impossibilidade fática de sua execução. Portanto, o ginecologista habitual deve prestar os esclarecimentos necessários e **prescrever a medicação**, orientando consulta presencial oportuna quando possível.
 
-Análise dos distratores:
-- Alternativa B está incorreta: Negar orientação e prescrição ignora a exceção prevista no Art. 37 do CEM para urgências na impossibilidade de avaliação física, incorrendo em omissão que prejudica a janela de oportunidade profilática da paciente.
-- Alternativa C está incorreta: Ao contrário do que afirma a assertiva, o médico está eticamente respaldado não apenas para orientar, mas também para prescrever a medicação diante da impossibilidade de consulta presencial e da urgência reprodutiva.
-- Alternativa D está incorreta: Em situações urgentes pontuais, o contato inicial e o fornecimento de orientação/prescrição não ficam estritamente condicionados ao agendamento de teleconsulta formalizada prévia, tampouco existe impedimento para a prescrição à distância, a qual é expressamente autorizada pela legislação de telemedicina (Resolução CFM nº 2.314/2022) mediante assinatura eletrônica válida.
+**Análise dos Distratores:**
+• **Alternativa B (Incorreta):** A recusa em orientar ou prescrever desconsidera a exceção legal do **Artigo 37 do CEM**, caracterizando conduta omissiva prejudicial à paciente pela perda da janela terapêutica profilática.
+• **Alternativa C (Incorreta):** A afirmação de que não é permitido prescrever sem exame físico direto está equivocada, pois a situação de **urgência documentada** autoriza tanto a orientação quanto a prescrição medicamentosa à distância.
+• **Alternativa D (Incorreta):** Não há obrigatoriedade de condicionar a assistência urgente ao rito prévio de uma **teleconsulta formalizada**, além de ser incorreta a afirmação de que o médico estaria impedido de prescrever à distância, prática legitimada pela **Resolução CFM nº 2.314/2022**.
 </details>
 
 ---
@@ -29858,15 +30378,19 @@ Conforme os dados dos gráficos apresentados, assinale a opção correta acerca 
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A questão aborda a interpretação de indicadores epidemiológicos de morbimortalidade por Covid-19 no Brasil (Boletim Epidemiológico nº 13 do Ministério da Saúde, abril de 2020), com foco nas disparidades sociodemográficas e raciais em saúde.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. Os dados epidemiológicos do Ministério da Saúde demonstram que pacientes autodeclarados brancos apresentaram menor taxa de letalidade hospitalar e, portanto, maior **taxa de sobrevida** por covid-19 em comparação às demais raças/etnias somadas no período analisado.
 
-JUSTIFICATIVA DO GABARITO (Alternativa B):
-A análise comparativa entre as taxas de hospitalização e as taxas de mortalidade/letalidade por Síndrome Respiratória Aguda Grave (SRAG) evidencia que indivíduos autodeclarados brancos apresentaram maior taxa de sobrevida (menor letalidade intra-hospitalar) em comparação com as demais raças/etnias somadas (pretos, pardos, amarelos e indígenas). Naquele período inicial da pandemia, enquanto os indivíduos brancos concentravam a maior proporção de hospitalizações e uma proporção proporcionalmente menor dos óbitos (refletindo melhor prognóstico e acesso a leitos de maior complexidade e suporte ventilatório), as populações não brancas (com destaque para pretos e pardos) apresentavam desfechos desfavoráveis desproporcionais, com letalidade significativamente superior. Logo, a sobrevida dos brancos foi superior à do conjunto das demais etnias.
+**Raciocínio Clínico e Fisiopatológico:**
 
-ANÁLISE DOS DISTRATORES:
-- Alternativa A (Incorreta): No início da pandemia (abril de 2020), o número absoluto e relativo de óbitos registrados em pessoas da raça/etnia amarela foi superior ao de indígenas, grupo que ainda apresentava pouquíssimas notificações computadas no sistema de vigilância SIVEP-Gripe naquele momento.
-- Alternativa C (Incorreta): O número de hospitalizações entre pessoas pardas foi consideravelmente maior do que entre pessoas pretas, refletindo tanto a distribuição demográfica brasileira quanto os padrões de notificação epidemiológica.
-- Alternativa D (Incorreta): A soma das hospitalizações de pessoas amarelas e indígenas foi muito inferior ao quantitativo de pessoas pretas internadas por SRAG por Covid-19.
+1. **Diagnóstico da Afecção/Quadro:** Análise epidemiológica da **Síndrome Respiratória Aguda Grave (SRAG) por covid-19** segundo o quesito raça/etnia, com foco nas **iniquidades em saúde** e desfechos clínicos intra-hospitalares.
+2. **Critério Clínico / Fisiopatologia:** A relação entre o percentual de internações e o percentual de óbitos reflete a **letalidade intra-hospitalar**. No Boletim Epidemiológico nº 13 (abril de 2020), a população branca concentrava maior proporção de internações em relação aos óbitos, enquanto as populações não brancas (pretos, pardos e indígenas) exibiam desfechos desfavoráveis desproporcionais. Esse padrão confere aos brancos uma **maior sobrevida hospitalar**, reflexo de menores barreiras de acesso precoce a serviços de **terapia intensiva** e menor carga de comorbidades descompensadas.
+3. **Indicação de Conduta:** Em saúde pública e epidemiologia clínica, a correta interpretação de dados do **SIVEP-Gripe** exige a distinção entre números absolutos e coeficientes de mortalidade/letalidade, identificando os **determinantes sociais da saúde** para direcionar políticas equitativas de alocação de recursos.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** No período inicial da pandemia, o quantitativo de óbitos notificados entre pessoas de raça/etnia **amarela** foi numericamente superior ao de pessoas **indígenas**, que ainda apresentavam baixíssima notificação absoluta no sistema.
+• **Alternativa C (Incorreta):** O número absoluto de hospitalizações entre pessoas **pardas** superou amplamente o observado entre pessoas **pretas**, acompanhando a distribuição demográfica censitária do Brasil.
+• **Alternativa D (Incorreta):** A soma das hospitalizações de indivíduos das etnias **amarela e indígena** resultou em valores substancialmente inferiores ao total de internações de pessoas **pretas**.
 </details>
 
 ---
@@ -31529,16 +32053,19 @@ Um paciente com 42 anos, assintomático, compareceu, pela primeira vez, a uma un
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta correta é a **Alternativa (C)**, fundamentada nos princípios da Atenção Primária à Saúde (APS), no funcionamento da Rede de Atenção Psicossocial (RAPS) e nas diretrizes de manejo da Síndrome Metabólica induzida por antipsicóticos.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. **Coordenação do Cuidado e Longitudinalidade na APS:** O paciente apresenta esquizofrenia estável, sem crises há 3 anos, portando relatório médico do CAPS. De acordo com as diretrizes do Ministério da Saúde para a RAPS, usuários com transtornos mentais estabilizados devem ser acompanhados primordialmente na APS, que tem competência para renovar o receituário de psicofármacos e garantir a continuidade do tratamento, prevenindo descompensações por descontinuidade medicamentosa abrupta.
-2. **Manejo da Síndrome Metabólica:** Os antipsicóticos (especialmente os de segunda geração/atípicos) estão fortemente associados a ganho ponderal, dislipidemia e intolerância à glicose/diabetes mellitus (o paciente apresenta IMC de 36,2 kg/m², glicemia de jejum de 189 mg/dL e dislipidemia aterogênica com HDL baixo e LDL elevado). A médica de família deve acolher essa demanda e iniciar imediatamente a abordagem metabólica (mudanças no estilo de vida, confirmação diagnóstica e tratamento medicamentoso do diabetes e dislipidemia conforme Diretrizes da SBD e SBC), apoiando-se na equipe multiprofissional do Núcleo Ampliado de Saúde da Família e Atenção Básica (NASF-AB), como nutricionistas e profissionais de educação física.
+1. **Coordenação do Cuidado e Longitudinalidade na APS:** A Atenção Primária à Saúde (APS) atua como porta de entrada preferencial e centro ordenador das Redes de Atenção à Saúde (RAS). Pacientes com transtornos mentais graves e persistentes (como a esquizofrenia) que se encontram clinicamente estáveis e sem crises há anos (neste caso, há 3 anos) devem ser acompanhados rotineiramente na Unidade Básica de Saúde (UBS). A médica de família e comunidade é plenamente capacitada para realizar a **renovação da receita** de psicofármacos, garantindo a adesão terapêutica contínua, prevenindo descompensações psicóticas e estabelecendo vínculo com o usuário recém-chegado ao território.
 
-**Análise dos distratores:**
+2. **Manejo das Repercussões Metabólicas dos Psicofármacos:** Os antipsicóticos de segunda geração (atípicos), frequentemente prescritos no manejo da esquizofrenia, exercem bloqueio sobre receptores serotoninérgicos (5-HT2C), histaminérgicos (H1) e dopaminérgicos, culminando em hiperfagia, sedação, redução da taxa metabólica basal e resistência periférica à insulina. Como consequência, o paciente desenvolveu **síndrome metabólica** manifestada por obesidade grau II (IMC de 36,2 kg/m²), dislipidemia mista aterogênica (elevação de colesterol total e LDL-colesterol com redução de HDL) e disglicemia significativa (glicemia de jejum de 189 mg/dL). A conduta clínica exige a intervenção imediata sobre as comorbidades cardiometabólicas, associando medidas de estilo de vida, plano farmacológico adequado e matriciamento com a equipe do Núcleo Ampliado de Saúde da Família e Atenção Básica (NASF-AB), que agrega profissionais como nutricionistas e educadores físicos.
 
-- **A está incorreta:** A recusa em renovar a receita médica submete o paciente à suspensão inadvertida do tratamento psicofarmacológico, com risco iminente de recaída psicótica e quebra de vínculo terapêutico na primeira consulta.
-- **B está incorreta:** Sulfonilureias não são fármacos de primeira linha para o tratamento do diabetes mellitus, particularmente em indivíduos com obesidade, pois promovem ganho ponderal e apresentam risco de hipoglicemia. A metformina associada a mudanças no estilo de vida é a terapia farmacológica inicial de escolha recomendada pela Sociedade Brasileira de Diabetes (SBD).
-- **D está incorreta:** Encaminhar ao CAPS apenas para renovar a receita burocratiza e fragmenta o cuidado, sobrecarregando o serviço de atenção secundária com um caso que está estável há 3 anos. Além disso, a especialidade médica de endocrinologia não faz parte da composição padrão do NASF-AB (que é voltado para apoio multiprofissional e matricial na APS).
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** Recusar a prescrição dos psicofármacos até consulta psiquiátrica quebra a continuidade assistencial e acarreta interrupção abrupta do tratamento medicamentoso. Isso expõe o paciente a síndrome de retirada e elevado risco de recidiva psicótica aguda, além de romper a criação de vínculo na primeira consulta na APS.
+
+• **B) Incorreta:** O paciente está clinicamente estável há três anos e não necessita de retorno imediato ao CAPS apenas para renovação de receituário. Além disso, a escolha de sulfonilureia é inadequada como primeira linha para este paciente obeso, uma vez que as sulfonilureias promovem secreção sustentada de insulina e ganho adicional de peso, além de risco de hipoglicemia. O fármaco de primeira linha para o controle glicêmico nesta condição é a metformina.
+
+• **D) Incorreta:** Encaminhar o paciente ao serviço de atenção terciária ou secundária (CAPS) com o único intuito de emitir uma receita médica fragmenta a assistência e desrespeita os atributos de resolutividade e primeiro contato da atenção primária. Ademais, o NASF-AB é formado por equipe multiprofissional de apoio (como nutricionistas, assistentes sociais e fisioterapeutas), não integrando a especialidade médica de endocrinologia na atenção básica.
 </details>
 
 ---
@@ -31653,16 +32180,21 @@ Uma paciente com 25 anos chega para consulta na unidade básica de saúde devido
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta padrão para o caso é a prescrição empírica de antibiótico (Alternativa B).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Fundamentação clínica e diagnóstica:
-O quadro clínico apresentado — mulher jovem de 25 anos, previamente hígida, não gestante, com queixas típicas de trato urinário inferior (disúria, polaciúria e dor suprapúbica) de início agudo e ausência de sinais de alarme (febre, calafrios, dor em flanco, náuseas/vômitos ou sinal de Giordano positivo) — caracteriza um episódio de Cistite Aguda Não Complicada. A presença de hematúria macroscópica (cistite hemorrágica) é comum decorrente da inflamação e escoriação da mucosa vesical e não reclassifica o caso como cistite complicada, nem requer investigação urológica extensa imediata na ausência de outros fatores de risco.
-Segundo as diretrizes do Ministério da Saúde, da FEBRASGO e da Infectious Diseases Society of America (IDSA), a probabilidade diagnóstica pré-teste de infecção do trato urinário (ITU) em mulheres com sintomas clássicos na ausência de sintomas vaginais excede 90%. Portanto, o diagnóstico é eminentemente clínico, autorizando o início imediato de antibioticoterapia empírica (preferencialmente com nitrofurantoína ou fosfomicina trometamol) sem necessidade de exames complementares adicionais.
+A paciente apresenta uma síndrome miccional clássica caracterizada por disúria, polaciúria e dor à palpação de hipogástrio (dor suprapúbica), associada ao surgimento recente de hematúria macroscópica. Trata-se de uma mulher jovem, em idade fértil, previamente hígida, sem febre, sem dor em flancos ou sinal de Giordano positivo e sem corrimento vaginal ou queixas ginecológicas associadas. Esse quadro clínico fecha o diagnóstico sindrômico de **cistite aguda não complicada**.
 
-2. Análise dos distratores:
-- Alternativa A (Incorreta): A urocultura não está indicada na abordagem inicial de cistite aguda não complicada em mulheres hígidas. Suas indicações reservam-se para suspeita de pielonefrite, ITU complicada, gestantes, falha terapêutica prévia, sintomas atípicos ou ITUs de repetição/recorrentes.
-- Alternativa C (Incorreta): O agente etiológico predominante é a *Escherichia coli* (> 75-80% dos casos), seguida por outros uropatógenos bacterianos (*Staphylococcus saprophyticus*, *Klebsiella pneumoniae*, *Proteus mirabilis*). A infecção fúngica (como por *Candida* spp.) é extremamente rara em pacientes imunocompetentes da comunidade sem uso recente de antibióticos ou sondagem vesical, não havendo indicação para antifúngico empírico.
-- Alternativa D (Incorreta): A paciente nega queixas ginecológicas (como corrimento vaginal, prurido ou dispareunia de intróito), o que torna a hipótese de vulvovaginite ou cervicite improvável. A bacterioscopia de conteúdo vaginal estaria indicada apenas se houvesse suspeita clínica de síndrome de corrimento vaginal.
+A fisiopatologia envolve a colonização do vestíbulo vaginal e da uretra por uropatógenos entéricos (predominantemente a Escherichia coli em 75% a 95% dos casos, seguida por Staphylococcus saprophyticus, Klebsiella pneumoniae e Proteus mirabilis), que ascendem até a bexiga, aderem ao urotélio e desencadeiam uma resposta inflamatória local. A presença de hematúria decorre da intensa inflamação e congestão vascular da mucosa vesical, sendo um achado frequente na cistite aguda que não confere gravidade, não indica lesão renal parenquimatosa e nem transforma o caso em infecção do trato urinário complicada.
+
+De acordo com as diretrizes internacionais (Infectious Diseases Society of America - IDSA, European Association of Urology - EAU) e nacionais (Ministério da Saúde e Sociedade Brasileira de Urologia), mulheres jovens com sintomas típicos de cistite e sem comorbidades têm uma probabilidade pré-teste de infecção urinária superior a 90%. Portanto, a investigação laboratorial com exame de urina tipo 1 (EAS) ou urocultura é dispensável para a conduta inicial. A abordagem recomendada é o início imediato de **antibioticoterapia empírica** direcionada aos uropatógenos comunitários mais comuns, utilizando opções de primeira linha como fosfomicina trometamol em dose única, nitrofurantoína por 5 dias ou sulfametoxazol-trimetoprima por 3 dias (quando a resistência local for conhecida e inferior a 20%).
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A urocultura com antibiograma é dispensável no primeiro episódio de cistite aguda não complicada em mulheres hígidas e não gestantes, pois a etiologia e o perfil de sensibilidade são altamente previsíveis. O exame microbiológico estaria indicado apenas na suspeita de pielonefrite, em gestantes, homens, crianças, pacientes com anomalias anatômicas do trato urinário, falha terapêutica ou recorrência precoce dos sintomas.
+
+• **C) Incorreta:** A infecção do trato urinário por fungos (como Candida spp.) é extremamente rara na população geral da atenção primária. A candidúria surge tipicamente em contextos hospitalares, em indivíduos portadores de cateter vesical de demora, diabéticos descompensados, usuários crônicos de imunossupressores ou após antibioticoterapia de amplo espectro prolongada, não tendo indicação de terapia empírica neste caso.
+
+• **D) Incorreta:** A bacterioscopia ou propedêutica do canal vaginal estaria indicada apenas se houvesse queixas ginecológicas concomitantes, como corrimento vaginal patológico, prurido, odor fétido ou dispareunia de intróito, que sugerissem vulvovaginite ou cervicite. A paciente nega outras queixas e os sintomas são estritamente do trato urinário inferior.
 </details>
 
 ---
@@ -32020,15 +32552,15 @@ O gestor de um município de pequeno porte pretende organizar os serviços de at
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está CORRETA. De acordo com a Política Nacional de Atenção Básica (PNAB, 2017), a definição do número de Agentes Comunitários de Saúde (ACS) por Equipe de Saúde da Família (ESF) não possui mais um número mínimo fixo obrigatório por equipe, devendo ser estabelecida com base em critérios demográficos, epidemiológicos e socioeconômicos do território adscrito. O objetivo é garantir a cobertura de até 100% da população em áreas de maior vulnerabilidade social e risco epidemiológico (respeitando o limite de até 750 pessoas por ACS). O cruzamento de dados do Censo Demográfico do IBGE (que avalia renda, saneamento, escolaridade e faixas etárias) com indicadores epidemiológicos locais é exatamente o instrumento preconizado para dimensionar essa força de trabalho.
+> **Comentário Médica:** O planejamento e a reestruturação da Atenção Primária à Saúde (APS) em um município devem seguir as diretrizes da **PNAB 2017** (Portaria de Consolidação nº 2/2017, Anexo XXII). De acordo com a referida política, o dimensionamento do quantitativo de **agentes comunitários de saúde** (ACS) por equipe de Saúde da Família (ESF) não possui mais um número rígido universal fixo, devendo ser estabelecido a partir de critérios demográficos, epidemiológicos e socioeconômicos da população do território adscrito. A norma define que deve ser garantida a cobertura de 100% da população em situação de maior vulnerabilidade e risco social, respeitando-se o teto máximo de até 750 pessoas acompanhadas por cada ACS. O Censo Demográfico do IBGE fornece com precisão os dados populacionais, faixas etárias, características domiciliares e indicadores de renda e saneamento, servindo como ferramenta basilar para cruzar com o perfil epidemiológico local e dimensionar o número ideal de agentes.
 
-Análise das alternativas incorretas:
+**Análise das alternativas incorretas:**
 
-- Alternativa (B) está INCORRETA: A função precípua do NASF-AB (Núcleo Ampliado de Saúde da Família e Atenção Básica) é atuar na retaguarda assistencial e técnico-pedagógica por meio do apoio matricial e da clínica ampliada, compartilhando o cuidado com as equipes de referência. Não tem como finalidade a prestação de assistência médica especializada focal ambulatorial ou substituição de centros de especialidades.
+• **B) Incorreta:** O Núcleo Ampliado de Saúde da Família e Atenção Básica (NASF-AB) não tem como objetivo ofertar assistência especializada focal ou ambulatorial clássica de atenção secundária. A lógica do NASF-AB fundamenta-se no apoio matricial, exercendo retaguarda técnico-pedagógica e assistencial compartilhada com as equipes de referência para qualificar a clínica ampliada e a resolutividade na atenção básica.
 
-- Alternativa (C) está INCORRETA: O Censo Demográfico do IBGE não coleta dados epidemiológicos clínicos sobre condições de saúde bucal (como índice CPO-D ou prevalência de doença periodontal). Esses dados são obtidos por meio de inquéritos populacionais específicos de saúde bucal (como o SB Brasil) ou pelo próprio diagnóstico territorial das equipes de saúde da APS.
+• **C) Incorreta:** O Censo Demográfico do IBGE investiga aspectos gerais da população, como perfil etário, gênero, escolaridade e condições socioeconômicas e de saneamento, não coletando dados clínicos de morbidade bucal. O levantamento de saúde bucal é obtido por inquéritos epidemiológicos populacionais específicos (como o SB Brasil) e por meio do diagnóstico territorial das próprias equipes locais.
 
-- Alternativa (D) está INCORRETA: A PNAB recomenda uma média de 2.000 a 3.500 pessoas por equipe de Saúde da Família. Para uma população de pelo menos 12.366 habitantes, 3 equipes cobririam no máximo 10.500 pessoas (3 x 3.500), sendo manifestamente insuficientes para garantir 100% de cobertura; seriam necessárias, no mínimo, 4 a 6 equipes de Saúde da Família.
+• **D) Incorreta:** A PNAB 2017 preconiza uma população adscrita recomendada de 2.000 a 3.500 pessoas por equipe de Saúde da Família. Considerando que o município já possuía 12.366 habitantes em 2010, mesmo sem crescimento adicional, a implantação de apenas 3 equipes cobriria no máximo 10.500 pessoas (3 x 3.500), mantendo uma parcela significativa da população desassistida. Para assegurar cobertura de mais de 12.000 habitantes, seriam necessárias, no mínimo, 4 equipes de Saúde da Família.
 </details>
 
 ---
@@ -32262,16 +32794,17 @@ Conforme as recomendações do Ministério da Saúde, a conduta mais adequada no
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta mais adequada é **não indicar o rastreamento** (Alternativa D), com base em sólidos preceitos da Medicina Baseada em Evidências e nas diretrizes oficiais do Ministério da Saúde (MS) e do Instituto Nacional de Câncer (INCA).
+> **Comentário Médica:** O gabarito correto é a **Alternativa D**. Conforme as diretrizes oficiais do **Ministério da Saúde** e do **Instituto Nacional de Câncer (INCA)**, a conduta preconizada é **não indicar o rastreamento** populacional sistemático para o câncer de próstata em homens assintomáticos, decisão ainda mais mandatória diante da idade avançada e da presença de comorbidades clínicas graves que limitam a expectativa de vida.
 
-### Fundamentação Clínica e Diretrizes Oficiais:
-1. **Diretriz do Ministério da Saúde / INCA:** O posicionamento oficial no Brasil é de **contraindicação ao rastreamento populacional sistemático** do câncer de próstata em homens assintomáticos (tanto por PSA quanto por toque retal). Ensaios clínicos randomizados de larga escala (como o ERSPC e o PLCO) demonstraram que o rastreamento em massa confere benefício incerto ou modesto sobre a mortalidade específica, ao custo de taxas expressivas de sobrediagnóstico (*overdiagnosis*), sobretratamento (*overtreatment*) e morbidades associadas (incontinência urinária, disfunção erétil, infecções e sangramentos pós-biópsia).
-2. **Expectativa de Vida e Perfil do Paciente:** Mesmo entre as sociedades médicas que consideram o rastreamento individualizado/compartilhado (como SBU, AUA, EAU e USPSTF), existe consenso absoluto de que o rastreamento **não deve ser realizado** em indivíduos com mais de 70 anos de idade ou com expectativa de vida inferior a 10 a 15 anos. O adenocarcinoma de próstata apresenta, na grande maioria dos casos, curso biológico indolente, necessitando de uma a duas décadas para causar desfechos clínicos desfavoráveis. O paciente em questão tem 83 anos, histórico de infarto agudo do miocárdio prévio com angioplastia multivascular (2 stents), diabetes mellitus, dislipidemia e ausência de controle de fatores de risco, o que confere elevada gravidade cardiovascular e expectativa de vida substancialmente reduzida. Rastreá-lo acarretaria apenas riscos iatrogênicos, sem qualquer possibilidade de benefício em sobrevida.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Perfil Clínico e Expectativa de Vida:** O paciente tem **83 anos** e apresenta fatores de risco de alta gravidade, incluindo **diabetes mellitus**, dislipidemia e antecedente de **infarto agudo do miocárdio** tratado com **stents**, associados à ausência de adesão terapêutica. A presença dessas afecções confere uma **expectativa de vida inferior a 10 anos**, cenário em que o rastreamento oncológico não traz benefício clínico comprovado.
+2. **História Natural e Risco de Iatrogenia:** O adenocarcinoma de próstata geralmente tem comportamento biológico indolente e longa latência clínica. O rastreamento populacional sistemático não reduz significativamente a mortalidade global e acarreta riscos substanciais de **sobrediagnóstico** (*overdiagnosis*) e **sobretratamento** (*overtreatment*), expondo o paciente a complicações graves como **disfunção erétil**, **incontinência urinária** e sepse pós-biópsia.
+3. **Indicação de Conduta:** O **Ministério da Saúde** desaconselha a triagem sistemática em indivíduos sem sintomas urinários. Diretrizes que admitem discussão compartilhada (como a **USPSTF** e a Sociedade Brasileira de Urologia) estabelecem que o rastreamento é formalmente **contraindicado acima dos 70 anos** de idade ou em indivíduos com expectativa de vida menor que 10 a 15 anos.
 
-### Análise dos Distratores:
-- **A) Incorreta:** A ultrassonografia transretal não é método de rastreamento para neoplasia prostática. Trata-se de exame de imagem utilizado essencialmente para guiar biópsias quando há suspeita clínica ou laboratorial fundamentada, não tendo acurácia nem indicação para triagem populacional.
-- **B) Incorreta:** O rastreamento combinado (PSA + toque retal) está contraindicado nas diretrizes do Ministério da Saúde para homens assintomáticos e, especificamente neste paciente, é inadequado pela idade avançada (83 anos) e pelas graves comorbidades cardiovasculares com baixa expectativa de vida.
-- **C) Incorreta:** O rastreamento isolado com PSA incorre nas mesmas falhas e contraindicações expostas para a alternativa B, expondo o paciente a intervenções desnecessárias por potenciais resultados falso-positivos ou detecção de tumores clinicamente insignificantes.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A **ultrassonografia transretal** não é teste de rastreamento; sua utilidade restringe-se ao direcionamento de biópsias na presença de suspeita diagnóstica prévia fundamentada, carecendo de sensibilidade e especificidade para triagem.
+• **Alternativa B (Incorreta):** A abordagem combinada com **toque retal** e dosagem de **PSA** para rastreamento populacional em assintomáticos é contraindicada pelo **Ministério da Saúde** e expõe o paciente octogenário a procedimentos diagnósticos invasivos desnecessários.
+• **Alternativa C (Incorreta):** A requisição isolada de **PSA** incorre no mesmo erro de triar paciente assintomático com baixa sobrevida estimada, promovendo potenciais resultados **falso-positivos** e iatrogenias sem nenhum ganho prognóstico.
 </details>
 
 ---
@@ -32510,15 +33043,21 @@ Um homem com 62 anos comparece, acompanhado de sua filha, a uma unidade básica 
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta preconizada pelo Ministério da Saúde (MS), pelo Instituto Nacional de Câncer (INCA) e por importantes órgãos internacionais (como a US Preventive Services Task Force - USPSTF) fundamenta-se nos princípios da Prevenção Quaternária e na tomada de decisão compartilhada.
+> **Comentário Médica:** **Raciocínio Clínico e Diretrizes:**
 
-1. Justificativa da Alternativa Correta (D):
-O Ministério da Saúde e o INCA NÃO recomendam a implementação de programas de rastreamento populacional organizado para o câncer de próstata em homens assintomáticos. Evidências científicas robustas demonstram que o rastreio sistemático (com PSA e toque retal) confere redução incerta ou muito pequena na mortalidade específica por esse câncer, ao passo que acarreta riscos elevados e bem documentados de sobrediagnóstico (*overdiagnosis*) e sobretratamento (*overtreatment*). Esses malefícios incluem resultados falso-positivos, complicações de biópsias prostáticas (sangramento, sepse) e sequelas definitivas decorrentes de tratamentos cirúrgicos ou radioterápicos desnecessários (como incontinência urinária e disfunção erétil). Dessa forma, diante de um paciente assintomático que busca a unidade motivado por campanhas, a conduta correta é o diálogo transparente e a decisão compartilhada com o paciente (e familiares), esclarecendo que os potenciais danos dos testes e das intervenções subsequentes frequentemente superam os benefícios.
+A abordagem preventiva para o **câncer de próstata** em indivíduos assintomáticos é um tema clássico da Atenção Primária e de provas de revalidação e residência médica. No Brasil, o Ministério da Saúde (MS) e o Instituto Nacional de Câncer (INCA) alinham-se às principais agências internacionais de saúde baseada em evidências, como a US Preventive Services Task Force (USPSTF), contraindicando expressamente o rastreamento populacional sistemático e organizado para essa neoplasia.
 
-2. Análise dos Distratores:
-- Alternativa A: Incorreta. O Ministério da Saúde não preconiza o rastreio universal de homens assintomáticos. Além disso, o PSA não possui alta especificidade para neoplasia maligna prostática em estágios precoces, elevando-se comumente em condições benignas prevalentes como hiperplasia prostática benigna (HPB), prostatites, infecções urinárias e manipulações urológicas.
-- Alternativa B: Incorreta. O Ministério da Saúde expressamente contraindica o rastreamento populacional organizado. Ademais, a ultrassonografia (seja transretal ou de vias urinárias) não é exame indicado ou validado para triagem/rastreamento de câncer de próstata.
-- Alternativa C: Incorreta. Reitera o equívoco de indicar o rastreamento como rotina populacional e inclui a ultrassonografia de próstata, método que não tem papel estabelecido como ferramenta de rastreio para o adenocarcinoma prostático.
+Estudos clínicos randomizados em larga escala, como o ensaio europeu ERSPC e o norte-americano PLCO, demonstraram que o rastreamento universal baseado na dosagem de antígeno prostático específico (PSA) e no toque retal apresenta impacto nulo ou discreto na redução da mortalidade global e específica por câncer prostático. Em contrapartida, acarreta uma taxa substancial de malefícios decorrentes de sobrediagnóstico e sobretratamento (overtreatment). Indivíduos com tumores de comportamento indolente, que nunca se manifestariam clinicamente ao longo da vida, acabam submetidos a biópsias prostáticas transretais (associadas a riscos de sepse, sangramento e dor) e a intervenções invasivas, como prostatectomia radical e radioterapia, as quais apresentam elevada incidência de complicações permanentes, como incontinência urinária e disfunção erétil.
+
+Dessa forma, diante de um paciente assintomático que comparece à unidade básica de saúde motivado por campanhas de conscientização como o Novembro Azul, a conduta recomendada fundamenta-se na **decisão compartilhada**. O médico deve acolher a demanda e esclarecer de maneira transparente os limites dos testes, a ausência de benefício comprovado em sobrevida global e o fato de que os danos inerentes à cascata diagnóstica e terapêutica superam os eventuais benefícios.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** Não há indicação formal para rastreio universal na faixa etária de 50 a 70 anos pelo Ministério da Saúde. Além disso, a afirmativa erra tecnicamente ao classificar o PSA como um teste de grande especificidade para diagnóstico precoce; o PSA é um marcador órgão-específico e não tumor-específico, elevando-se significativamente em afecções benignas prevalentes, como hiperplasia prostática benigna, prostatites, infecções do trato urinário e após retenção urinária ou manipulações urológicas.
+
+• **B) Incorreta:** O Ministério da Saúde não recomenda a realização de rastreamento de rotina. Além de contrariar as diretrizes nacionais vigentes, a inclusão da ultrassonografia de próstata como exame de triagem é completamente descabida, visto que o método não possui sensibilidade nem especificidade para rastreamento de neoplasia prostática.
+
+• **C) Incorreta:** Reitera erroneamente a necessidade de rastreio populacional mandatário e preconiza a solicitação de ultrassonografia de próstata como ferramenta de triagem, exame que não possui papel como teste de rastreamento, servindo apenas para guiar procedimentos biópsicos quando houver indicação formal por suspeita clínica ou laboratorial bem documentada.
 </details>
 
 ---
@@ -32988,15 +33527,17 @@ Você atende em uma unidade de saúde da família e está em reunião com a equi
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A questão aborda os princípios da Atenção Primária à Saúde (APS), com ênfase nos atributos derivados (orientação comunitária e competência cultural), nas ferramentas de Educação Popular em Saúde e no Método Clínico Centrado na Pessoa (MCCP).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. O manejo da hesitação vacinal na **Atenção Primária à Saúde (APS)** fundamenta-se nos princípios da **Educação Popular em Saúde (PNEPS-SUS)** e no **Método Clínico Centrado na Pessoa (MCCP)**, exigindo metodologias participativas e dialógicas, como a **roda de conversa**, para acolher tanto os aspectos positivos quanto as resistências da comunidade antes de instrumentalizar os dados científicos.
 
-1. Justificativa da Alternativa Correta (D):
-O enfrentamento da hesitação vacinal requer uma abordagem dialógica, participativa e não impositiva. No âmbito da APS e da Educação Popular em Saúde (conforme preconizado pela Política Nacional de Educação Popular em Saúde - PNEPS-SUS), a 'roda de conversa' é o instrumento metodológico de escolha, pois estabelece uma relação horizontal entre profissionais e comunidade. Para aplicar a competência cultural e a abordagem centrada na pessoa, é fundamental dar voz aos usuários para acolher e compreender tanto as percepções positivas quanto as negativas (dúvidas, medos, crenças culturais e desinformação). Somente a partir do levantamento dessas percepções reais é possível desconstruir mitos, validar sentimentos e formular estratégias comunicativas culturalmente congruentes, integrando os dados científicos e estatísticos sobre a eficácia vacinal de maneira contextualizada e compreensível.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Abordagem da **hesitação vacinal** contra a COVID-19 no contexto da **Estratégia Saúde da Família (ESF)**, mobilizando os atributos derivados da APS: **competência cultural** e **orientação comunitária**.
+2. **Critério Clínico / Fisiopatologia:** A tomada de decisão em saúde não é estritamente racional ou biomédica; ela é mediada por crenças, medos, desinformação e valores socioculturais. O MCCP preconiza a exploração da **experiência da pessoa** em relação ao processo saúde-doença, tornando indispensável escutar ativamente o que gera desconfiança para intervir de maneira efetiva.
+3. **Indicação de Conduta:** A utilização da **roda de conversa** promove uma relação horizontal entre equipe e usuários. É mandatório levantar as **percepções positivas e negativas**, pois somente ao acolher as dúvidas e os receios concretos é possível ressignificar crenças equivocadas e apresentar **dados científicos de eficácia e segurança** de forma contextualizada e não punitiva.
 
-2. Análise dos Distratores:
-- Alternativa A: Incorreta. A 'palestra' constitui um formato unidirecional e bancário de transmissão de informações, contrário aos princípios da Educação Popular em Saúde e da abordagem centrada na pessoa. A mera exposição de dados estatísticos, sem escuta ativa das preocupações comunitárias, tem baixa eficácia para reverter a hesitação vacinal.
-- Alternativa B: Incorreta. Ao priorizar apenas as percepções positivas, a equipe negligencia os reais motivos da resistência (medos, efeitos adversos temidos, fake news). O silenciamento das percepções negativas impede o acolhimento qualificado e a abordagem direta das causas da não adesão.
-- Alternativa C: Incorreta. Utiliza um formato diretivo ('palestra') e uma postura punitiva/coercitiva ('tentando-se, dessa forma, pressioná-los a se vacinar'). O constrangimento ou a indução de medo rompe o vínculo de confiança terapêutica e amplifica a resistência da população.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** O formato de **palestra** constitui uma abordagem pedagógica vertical, prescritiva e unilateral. A mera exposição de evidências sem espaço de escuta viola a **abordagem centrada na pessoa** e demonstra baixa eficácia na mudança de atitude dos mais resistentes.
+• **Alternativa B (Incorreta):** Focar unicamente nas **percepções positivas** negligencia o cerne da hesitação vacinal. O silenciamento das angústias e das **percepções negativas** impede que a equipe compreenda as barreiras reais de adesão, inviabilizando a construção de argumentos direcionados.
+• **Alternativa C (Incorreta):** Além do modelo diretivo de **palestra**, propõe uma tática coercitiva baseada no medo ao tentar **pressioná-los a se vacinar**. Práticas de intimidação ferem a autonomia do paciente, destroem o **vínculo longitudinal** e tendem a exacerbar a resistência comunitária.
 </details>
 
 ---
@@ -33046,15 +33587,19 @@ Mulher de 45 anos compareceu a consulta médica em unidade de saúde da família
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A paciente apresenta um quadro clássico de sofrimento psíquico (insônia, medo, humilhação) decorrente de violência doméstica interpessoal, especificamente nas formas psicológica e patrimonial (conforme tipificadas pela Lei Maria da Penha – Lei nº 11.340/2006). Diante desse cenário na Atenção Primária à Saúde (APS), a conduta médica baseia-se nos seguintes pilares:
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. A paciente é vítima de violência conjugal (psicológica e patrimonial), situação que impõe a realização de **notificação compulsória** para fins de vigilância epidemiológica e a garantia de **acompanhamento longitudinal** na própria **Unidade de Saúde da Família (USF)**, conforme diretrizes do **Ministério da Saúde** e da **Lei nº 11.340/2006 (Lei Maria da Penha)**.
 
-1. Notificação de Agravo (Notificação Compulsória): Segundo a Portaria de Consolidação nº 4/2017 do Ministério da Saúde e a Lei nº 10.778/2003, todos os casos suspeitos ou confirmados de violência doméstica e intrafamiliar atendidos em serviços de saúde públicos ou privados devem ser objeto de Notificação Compulsória no Sistema de Informação de Agravos de Notificação (SINAN). Trata-se de uma notificação sanitária, de caráter epidemiológico e de proteção à saúde coletiva, que não quebra o sigilo profissional em esfera judicial nem equivale a uma denúncia policial.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de sofrimento psíquico adaptativo decorrente de **violência doméstica contra a mulher**, manifestada nas formas **psicológica** (humilhações, intimidação, gritos) e **patrimonial** (privação de autonomia financeira ao impedi-la de trabalhar).
+2. **Critério Clínico / Fisiopatologia:** A queixa de **insônia** reflete o estado de hiperalerta e medo situacional crônico. Prescrever psicotrópicos como o **clonazepam** nesse contexto constitui **medicalização do sofrimento social**, agregando riscos de tolerância, dependência e sedação, sem intervir na causa de base.
+3. **Indicação de Conduta:** 
+- A **notificação de agravo** no **SINAN** é obrigatória para todos os casos suspeitos ou confirmados de violência interpessoal atendidos nos serviços de saúde (**Lei nº 10.778/2003** e **Portaria de Consolidação MS nº 4/2017**). Essa notificação tem finalidade sanitária/epidemiológica e não se equipara a uma comunicação policial de crime.
+- O **acompanhamento na USF** assegura o acolhimento contínuo, a avaliação sistemática do risco de letalidade, a elaboração de um **Projeto Terapêutico Singular (PTS)** e a articulação intersetorial com a rede socioassistencial (**CRAS** e **CREAS**).
 
-2. Acompanhamento Longitudinal na USF: A Unidade de Saúde da Família é o nível de atenção prioritário e competente para o acolhimento, criação de vínculo, elaboração de um Projeto Terapêutico Singular (PTS), suporte multiprofissional (assistência social, psicologia, e-Multi) e articulação com a Rede de Atenção e Proteção à Mulher (CREAS/CRAS). A prescrição intempestiva de psicotrópicos (clonazepam) sem abordagem da causa de base seria iatrogênica e medicalizadora.
-
-Análise das alternativas incorretas:
-- B e D: O encaminhamento para o psiquiatra é incorreto neste momento inicial. A queixa de insônia e sofrimento psíquico é reativa à situação de violência conjugal; a grande maioria desses casos deve ser manejada e acolhida pela equipe da Atenção Primária, reservando-se a atenção secundária/psiquiatria apenas para transtornos psiquiátricos graves e refratários.
-- C e D: A denúncia pelo Disque 180 não cabe ao profissional de saúde de forma impositiva sem o consentimento da paciente. O serviço de saúde deve empoderar e informar a mulher sobre seus direitos e canais de apoio (como o 180 e a Delegacia da Mulher), respeitando sua autonomia e avaliando a segurança e o risco de violência iminente. A quebra não autorizada de sigilo com realização de denúncia externa por parte do médico pode aumentar drasticamente o risco de violência letal (feminicídio) e romper o vínculo terapêutico.
+**Análise dos Distratores:**
+• **Alternativa B (Incorreta):** O **encaminhamento para psiquiatra** é inadequado neste momento inicial. A manifestação clínica é reativa ao estressor psicossocial, devendo ser acolhida e conduzida longitudinalmente pela própria equipe da **Atenção Primária**, reservando-se a atenção especializada para transtornos mentais graves ou refratários.
+• **Alternativa C (Incorreta):** A realização de **denúncia pelo número 180** de forma heterônoma pelo médico viola a **autonomia da paciente** e o sigilo profissional (em casos sem risco iminente à vida de terceiros incapazes). A denúncia não consentida pode expor a paciente a uma escalada súbita de agressões e a um risco iminente de **feminicídio**; cabe ao profissional informar e empoderar a mulher sobre os canais existentes para que ela decida o momento de acioná-los.
+• **Alternativa D (Incorreta):** Apresenta dupla incorreção técnica ao retirar a paciente do seu território de cuidado com o **encaminhamento desnecessário para psiquiatria** e ao indicar a **denúncia pelo número 180** sem a anuência da vítima.
 </details>
 
 ---
@@ -33166,15 +33711,21 @@ Uma paciente com 40 anos comparece à consulta médica no posto de saúde contan
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta médica preconizada baseia-se nos princípios da Atenção Primária à Saúde (APS), no uso racional de medicamentos e nas diretrizes da Política Nacional de Práticas Integrativas e Complementares (PNPIC) do Ministério da Saúde.
+> **Comentário Médica:** **Raciocínio Clínico e Abordagem na Atenção Primária:**
 
-1. Justificativa da Alternativa Correta (C):
-A paciente apresenta quadro prévio de insônia crônica que evoluiu com excelente resposta clínica e controle sintomático após a introdução de medidas não farmacológicas escalonadas (higiene do sono, auriculoterapia) e fitoterapia tradicional (tintura de mulungu - *Erythrina mulungu/verna*). O mulungu é uma espécie medicinal tradicionalmente empregada para ansiedade e insônia, contemplada na Farmacopeia Brasileira e na Relação Nacional de Plantas Medicinais de Interesse ao SUS (RENISUS). A queixa atual restringe-se a um único episódio isolado de insônia há uma semana, evento pontual que não caracteriza falha terapêutica ou recidiva patológica, sendo comum na fisiologia do sono frente a estressores cotidianos. Diante do quadro clinicamente estável, sem efeitos adversos relatados e com boa eficácia percebida, a conduta mais adequada e prudente consiste em manter a terapêutica atual, orientar a paciente de forma desmedicalizadora (tranquilizando-a sobre a normalidade de oscilações esporádicas do sono) e estabelecer retorno se houver piora ou surgimento de novos sintomas.
+A paciente apresenta um quadro prévio de **insônia**, que obteve excelente resposta clínica após a associação de medidas não farmacológicas de higiene do sono, práticas integrativas e complementares (auriculoterapia realizada por enfermeira capacitada) e fitoterapia tradicional com tintura de mulungu (Erythrina spp.). A procura pelo serviço decorre da ansiedade gerada por uma única noite de sono ruim ocorrida há uma semana, fenômeno fisiológico comum que não configura recidiva da doença nem falha terapêutica.
 
-2. Análise dos Distratores:
-- Alternativa A: Incorreta. A suspensão abrupta é desnecessária e prejudicial à relação médico-paciente e ao controle clínico já alcançado. O mulungu possui uso tradicional consolidado e respaldo pelo SUS (RENISUS); a paciente encontra-se assintomática e bem adaptada, inexistindo sinais ou sintomas de toxicidade que justifiquem a interrupção.
-- Alternativa B: Incorreta. A introdução de hipnótico Z (zolpidem 10 mg) configuraria sobretratamento (medicalização desnecessária) para um único episódio isolado de insônia em paciente previamente estável. Os agonistas do receptor GABA-A associam-se a riscos relevantes de dependência, tolerância, sonambulismo e quedas, não sendo indicados para oscilações pontuais do sono.
-- Alternativa D: Incorreta. A PNPIC estimula fortemente a oferta da auriculoterapia e da acupuntura na Atenção Básica/Saúde da Família. Conforme resoluções do Conselho Federal de Enfermagem (COFEN) e diretrizes do Ministério da Saúde, profissionais de enfermagem devidamente capacitados têm plena competência e autonomia legal para aplicar a auriculoterapia na rede primária, não havendo exigência de exclusividade em centros especializados.
+No âmbito da Atenção Primária à Saúde (APS), a conduta médica deve ser pautada no princípio da **prevenção quaternária**, cujo objetivo central é evitar intervenções desnecessárias, iatrogenias e a medicalização excessiva da vida. Variações esporádicas no padrão de sono ocorrem em indivíduos saudáveis devido a estressores cotidianos pontuais. Diante de uma paciente assintomática na maior parte do tempo, funcionalmente adaptada e sem queixas de sonolência diurna ou outros prejuízos, a intervenção farmacológica alopática é contraindicada.
+
+Adicionalmente, a Política Nacional de Práticas Integrativas e Complementares (PNPIC) incentiva o uso de fitoterápicos e da auriculoterapia na APS. O mulungu integra a Relação Nacional de Plantas Medicinais de Interesse ao SUS (RENISUS), possuindo alcaloides com ação ansiolítica e sedativa de uso tradicional amplamente documentado. Dessa forma, cabe ao médico acolher a angústia da paciente, desmistificar o episódio isolado, reforçar a segurança do plano terapêutico que vem funcionando bem e orientar reavaliação apenas em caso de piora sustentada ou novos sintomas.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A suspensão da tintura de mulungu seria prejudicial à relação médico-paciente e à autonomia da usuária. O mulungu é uma planta medicinal com uso tradicional reconhecido no Brasil, pertencente à RENISUS do Ministério da Saúde. Na ausência de sintomas de intoxicação, hepatotoxicidade ou interações medicamentosas adversas, e diante de benefício clínico evidente, a descontinuação súbita e impositiva é inadequada.
+
+• **B) Incorreta:** Prescrever hipnóticos não benzodiazepínicos (fármacos Z, como o zolpidem) configuraria sobretratamento grosseiro para um único episódio de insônia. O uso de hipnóticos está associado a efeitos adversos importantes, risco de tolerância, dependência psíquica e física, além de efeito rebote. Encaminhar ao psiquiatra nesse cenário sobrecarrega a atenção secundária com um caso de baixa complexidade, perfeitamente manejável na APS.
+
+• **D) Incorreta:** A auriculoterapia não é de execução privativa de médicos nem restrita a centros especializados. No Brasil, o Conselho Federal de Enfermagem (COFEN) e a PNPIC respaldam expressamente a realização de auriculoterapia e acupuntura por profissionais de enfermagem devidamente capacitados, sendo a Atenção Primária o cenário prioritário para a oferta dessas práticas de cuidado integral.
 </details>
 
 ---
@@ -33289,15 +33840,19 @@ Conforme a Política Nacional de Atenção à Saúde dos Povos Indígenas, qual 
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está correta e fundamenta-se nas diretrizes da Política Nacional de Atenção à Saúde dos Povos Indígenas (PNASPI - Portaria GM/MS nº 254/2002) e nos princípios da Atenção Primária à Saúde (APS) e da Saúde Coletiva.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. A conduta alinha-se com a **Política Nacional de Atenção à Saúde dos Povos Indígenas (PNASPI)** e os princípios da **Atenção Primária à Saúde (APS)**, valorizando a **interculturalidade**, o respeito à **territorialidade** e metodologias ativas e participativas (como rodas de conversa) pactuadas com lideranças locais.
 
-1. **Atenção Diferenciada e Interculturalidade:** A abordagem de agravos complexos em comunidades indígenas, como o uso abusivo de álcool, exige respeito às particularidades socioculturais, aos saberes tradicionais e à territorialidade. Intervenções baseadas em metodologias participativas, como as 'rodas de conversa', favorecem a horizontalidade do cuidado, a escuta qualificada e a co-construção de estratégias terapêuticas e preventivas no próprio espaço comunitário (aldeia), em parceria com as lideranças locais.
-2. **Pactuação e Empoderamento Comunitário:** O enfrentamento do etilismo não deve ser prescritivo ou impositivo; a pactuação dos passos futuros com os próprios sujeitos envolvidos aumenta o vínculo, a adesão e a sustentabilidade das ações.
+**Raciocínio Clínico e Fisiopatológico:**
 
-**Análise dos distratores:**
-- **Alternativa B:** Incorreta. Propõe uma metodologia pedagógica bancária e verticalizada ('palestra expositiva'), retira a comunidade de seu território ao transferi-la para o polo base e apresenta erro técnico farmacológico grave ao sugerir midazolam (um benzodiazepínico de ação ultracurta, de uso predominantemente anestésico/sedativo intra-hospitalar) para cessação do uso de álcool, o que carece de evidência clínica e impõe risco de depressão respiratória e dependência.
-- **Alternativa C:** Incorreta. Adota um modelo centrado unicamente na equipe de saúde, sem protagonismo comunitário, e recorre à palestra expositiva no polo base, modelo com baixa eficácia para mudanças de comportamento e que desrespeita a abordagem intercultural e territorial preconizada pela PNASPI.
-- **Alternativa D:** Incorreta. Embora utilize a estratégia da roda de conversa no território, desvia sua finalidade para a medicalização precoce e indiscriminada. O uso de benzodiazepínicos (ex.: diazepam, clordiazepóxido) possui indicação clínica formal apenas no manejo agudo da síndrome de abstinência alcoólica (sob avaliação clínica individualizada e monitoramento de sintomas com escalas validadas como o CIWA-Ar), não sendo uma intervenção de base comunitária para 'pessoas com dificuldade de cessar o uso'.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um problema comunitário de **uso nocivo e dependência de álcool** em população adstrita a um **Distrito Sanitário Especial Indígena (DSEI)**.
+2. **Critério Clínico / Fisiopatologia:** O manejo de transtornos por uso de substâncias em populações tradicionais requer uma abordagem de **atenção diferenciada**. Modelos verticais, bancários e puramente biomédicos apresentam baixa efetividade. A intervenção deve ocorrer no próprio território (aldeia) para preservar o vínculo, utilizando espaços dialógicos e de corresponsabilização.
+3. **Indicação de Conduta:** A realização de **roda de conversa** na própria aldeia, mediada em conjunto com as **lideranças locais**, estimula a escuta qualificada e permite a **pactuação de metas terapêuticas** de forma horizontal e culturalmente segura, fortalecendo a autonomia comunitária.
+
+**Análise dos Distratores:**
+
+• **Alternativa B (Incorreta):** Apresenta erro técnico grave ao sugerir **midazolam** (um benzodiazepínico de ação ultracurta, voltado para sedação e indução anestésica) como fármaco para cessação do etilismo, gerando risco iminente de **depressão respiratória** e dependência. Além disso, a **palestra expositiva** descontextualizada e o deslocamento para o polo base desrespeitam o princípio da **territorialidade**.
+• **Alternativa C (Incorreta):** Utiliza um modelo biomédico tradicional e verticalizado, centrado na equipe e com **palestra expositiva** no polo base, negligenciando a **interculturalidade**, o protagonismo das lideranças e a co-construção de soluções com a comunidade.
+• **Alternativa D (Incorreta):** Embora proponha a roda de conversa na aldeia, desvirtua o objetivo para a medicalização precoce. O uso de **benzodiazepínicos** tem indicação técnica restrita ao manejo farmacológico agudo da **síndrome de abstinência alcoólica** sob monitoramento clínico rigoroso (ex.: escore **CIWA-Ar**), não devendo ser prescrito de forma empírica ou coletiva como intervenção comunitária preventiva.
 </details>
 
 ---
@@ -33371,20 +33926,21 @@ A Lei n. 8.142/1990 constitui uma conquista para a democratização dos serviço
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A questão aborda a legislação estruturante do Sistema Único de Saúde (SUS), especificamente a Lei Federal n.º 8.142/1990 e a Resolução n.º 453/2012 do Conselho Nacional de Saúde (CNS), que regulamentam a participação da comunidade na gestão do SUS e as transferências intergovernamentais de recursos financeiros.
+> **Comentário Médica:** **Fundamentação Normativa e Controle Social no SUS:**
 
-Fundamentação da Alternativa Correta (B):
-De acordo com o Art. 1º, § 2º, da Lei n.º 8.142/1990, o Conselho de Saúde atua em caráter permanente e deliberativo, sendo um órgão colegiado que atua na formulação de estratégias e no controle da execução da política de saúde na instância correspondente, inclusive nos aspectos econômicos e financeiros. 
-Quanto à sua composição, o § 4º da mesma lei estabelece o princípio da paridade representativa: a representação dos usuários é paritária em relação ao conjunto dos demais segmentos. Isso significa que:
-- 50% das vagas são destinadas a representantes dos usuários do SUS;
-- 25% a representantes dos trabalhadores de saúde;
-- 25% a representantes de governo (gestores) e prestadores de serviços de saúde (públicos e privados/conveniados).
-Portanto, os conselhos são deliberativos e apresentam a exata proporção de 50% de usuários, 25% de trabalhadores e 25% de gestores/prestadores.
+A criação do Sistema Único de Saúde (SUS) pela Constituição Federal de 1988 consagrou a participação da comunidade como um de seus princípios basilares, expresso no artigo 198, inciso III. Para regulamentar esse comando constitucional e instituir os mecanismos formais de controle social, foi promulgada a Lei Federal n.º 8.142/1990, que complementou a Lei n.º 8.080/1990 após os vetos presidenciais que incidiam sobre o financiamento e a participação popular.
 
-Análise dos Distratores:
-- Alternativa A: Incorreta. Os conselhos de saúde não possuem natureza meramente consultiva (opinativa), mas sim deliberativa, tendo poder decisório no direcionamento e fiscalização das políticas de saúde pública.
-- Alternativa C: Incorreta. Embora acerte o caráter deliberativo, erra a proporção. A divisão tripartite igualitária (33,3% para cada segmento) violaria o princípio da paridade fixado pela Lei n.º 8.142/1990, no qual os usuários devem obrigatoriamente compor metade (50%) do colegiado.
-- Alternativa D: Incorreta. Apresenta duplicidade de erros: classifica erroneamente os conselhos como órgãos meramente consultivos e indica uma distribuição percentual tripartite (33,3%), desrespeitando a paridade legal que assegura 50% de representação aos usuários.
+A Lei n.º 8.142/1990 estruturou duas instâncias colegiadas fundamentais em cada esfera de governo: as Conferências de Saúde e os Conselhos de Saúde. De acordo com o Art. 1º, § 2º, o Conselho de Saúde atua como órgão colegiado com **caráter deliberativo** e permanente, atuando na formulação de estratégias e no controle da execução da política de saúde, inclusive nos aspectos econômicos e financeiros. As decisões tomadas pelos conselhos são formalizadas por meio de resoluções homologadas pelo chefe do Poder Executivo de cada nível federativo.
+
+No que tange à sua arquitetura representativa, o § 4º da mesma lei, posteriormente detalhado pela Resolução n.º 453/2012 do Conselho Nacional de Saúde, consagrou o princípio da **paridade representativa**. Essa paridade é estabelecida entre os usuários e o conjunto dos demais segmentos: 50% das vagas são destinadas a representantes de entidades e movimentos sociais de usuários do SUS, 25% a entidades de trabalhadores da saúde e 25% a gestores e prestadores de serviços de saúde públicos ou conveniados/privados.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O erro reside em classificar o conselho de saúde como mero órgão consultivo. Diferente das conferências de saúde, que têm caráter propositivo e avaliativo para formular diretrizes gerais, os conselhos possuem poder de deliberação sobre a execução das políticas e sobre a fiscalização dos orçamentos e dos planos de saúde em caráter contínuo.
+
+• **C) Incorreta:** Embora acerte a natureza deliberativa, a proporção tripartite de 33,3% para cada segmento viola a exigência legal de paridade. O segmento dos usuários não tem o mesmo peso numérico que cada um dos demais isoladamente, mas sim o equivalente à soma dos trabalhadores somados aos gestores/prestadores, totalizando metade da composição global do órgão.
+
+• **D) Incorreta:** Apresenta equívoco duplo ao caracterizar o órgão como consultivo e propor a divisão matemática em terços iguais (33,3%), o que contraria as determinações da Lei Federal n.º 8.142/1990 e das normas infralegais do Conselho Nacional de Saúde.
 </details>
 
 ---
@@ -33411,15 +33967,27 @@ Considerando o modelo de determinação social da saúde apresentado, os profiss
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** O modelo de Determinantes Sociais da Saúde (DSS) proposto por Göran Dahlgren e Margaret Whitehead (1991) — amplamente adotado pela Organização Mundial da Saúde (OMS) e pela Comissão Nacional sobre Determinantes Sociais da Saúde (CNDSS) no Brasil — organiza os determinantes em camadas concêntricas concêntricas de acordo com seu grau de proximidade com o indivíduo.
+> **Comentário Médica:** **Raciocínio Clínico e Fundamentação:**
 
-Justificativa da alternativa correta (D):
-No centro (ou base) da mandala proposta por Dahlgren e Whitehead encontram-se os indivíduos com suas características biológicas e constitucionais intrínsecas e não modificáveis: idade, sexo e fatores genéticos/hereditários. Imediatamente adjacente ao centro está a camada dos 'estilos de vida individuais', que se posiciona exatamente na interface ou limiar entre os fatores estritamente individuais/biológicos e as influências sociais, visto que as escolhas e comportamentos em saúde (como dieta, sedentarismo e tabagismo) são moldados tanto por preferências individuais quanto por condições estruturais e pressões sociais.
+Os **determinantes sociais da saúde** constituem as condições em que as pessoas nascem, crescem, vivem, trabalham e envelhecem, bem como os sistemas estruturais que moldam as condições da vida cotidiana. No contexto da Atenção Primária à Saúde (APS) e da Estratégia Saúde da Família (ESF), a territorialização e o planejamento das ações em saúde exigem a compreensão profunda dessas dinâmicas para além do modelo biomédico tradicional.
 
-Análise das alternativas incorretas:
-- Alternativa A: Incorreta. O modelo de DSS é integrador e ecossistêmico; restringir a avaliação populacional a "apenas" fatores genéticos, estilo de vida e redes sociais exclui deliberadamente as condições de vida, trabalho e os macrodeterminantes socioeconômicos, culturais e ambientais, contrariando a lógica da Atenção Primária à Saúde (APS).
-- Alternativa B: Incorreta. As condições de vida e trabalho (como saneamento, habitação, emprego e acesso a serviços) são fundamentais na determinação do processo saúde-doença e devem, obrigatoriamente, subsidiar o planejamento territorial e as ações programáticas das equipes de Saúde da Família.
-- Alternativa C: Incorreta. O modelo não estabelece uma hierarquia de valor em que determinados níveis sejam taxados isoladamente como os "mais importantes" em detrimento de outros (como as redes comunitárias ou condições de trabalho). O princípio central da teoria é a interdependência e a determinação recíproca entre todas as camadas.
+O **modelo de Dahlgren e Whitehead** é uma das representações teóricas mais consagradas e adotadas pela Organização Mundial da Saúde (OMS) e pela Comissão Nacional sobre Determinantes Sociais da Saúde. Ele organiza os determinantes em camadas concêntricas segundo seu nível de abrangência e proximidade com o indivíduo:
+
+1. Centro ou base do modelo: abriga os indivíduos com suas características biológicas e genéticas inatas e não modificáveis, representadas por idade, sexo e fatores genéticos/hereditários.
+2. Segunda camada (limiar): contempla os comportamentos e estilos de vida individuais. Essa camada posiciona-se exatamente no limiar entre os aspectos individuais intrínsecos e as influências sociais, reconhecendo que escolhas como tabagismo, sedentarismo e padrões dietéticos não decorrem unicamente da vontade livre do sujeito, mas são fortemente moduladas e constrangidas pelas camadas exteriores.
+3. Terceira camada: abrange as redes sociais e comunitárias, que expressam o capital social, o suporte mútuo e a coesão social da comunidade.
+4. Quarta camada: envolve as condições de vida e de trabalho, integrando acesso à educação, habitação digna, saneamento básico, emprego e condições laborais seguras, água potável e serviços de saúde.
+5. Quinta camada (macrodeterminantes): engloba as condições socioeconômicas, culturais e ambientais gerais, onde atuam as políticas públicas estruturantes, conjunturas macroeconômicas e fatores globais.
+
+Portanto, os indivíduos com idade, sexo e fatores genéticos ocupam o centro ou base do modelo, enquanto os estilos de vida individuais se situam no limiar de interação entre o biológico e o social, justificando com precisão técnica a alternativa D.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A proposição é redutora ao utilizar o termo restritivo apenas. O modelo ecossistêmico de Dahlgren e Whitehead requer uma visão ampliada e integradora, em que as condições materiais de existência, trabalho, moradia e as macroestruturas socioeconômicas e ambientais são fundamentais para diagnosticar as necessidades de saúde do território adstrito.
+
+• **B) Incorreta:** Na atenção básica, as condições de vida e de trabalho definem diretamente os padrões de morbimortalidade local e devem nortear ativamente o diagnóstico comunitário, o planejamento em saúde e a programação das atividades da equipe no território, contrariando a afirmação de que elas não influenciariam o processo de trabalho.
+
+• **C) Incorreta:** O modelo não estabelece uma primazia ou hierarquia arbitrária de importância entre camadas selecionadas, excluindo indevidamente as redes comunitárias e as condições materiais intermediárias de vida e trabalho. O paradigma fundamenta-se na interdependência e na transversalidade de todos os níveis de determinação.
 </details>
 
 ---
@@ -33468,15 +34036,19 @@ Para o primeiro encontro, qual das propostas abaixo está de acordo com os princ
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A questão aborda os pressupostos teóricos e metodológicos da Educação Popular em Saúde (EPS), formalizada no Sistema Único de Saúde (SUS) por meio da Política Nacional de Educação Popular em Saúde (PNEPS-SUS, Portaria GM/MS nº 2.761/2013), cuja base epistemológica fundamenta-se na pedagogia libertadora e dialógica de Paulo Freire.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. A proposta alinha-se diretamente às diretrizes da **Política Nacional de Educação Popular em Saúde (PNEPS-SUS)** e ao referencial teórico da **pedagogia libertadora de Paulo Freire**, que prioriza o diálogo, a horizontalidade e a problematização da realidade vivenciada pela comunidade.
 
-Fundamentação da alternativa correta (D):
-A Educação Popular em Saúde contrapõe-se ao modelo pedagógico tradicional ("educação bancária"), no qual o profissional de saúde atua como detentor exclusivo do saber e o educando como receptor passivo. A EPS orienta-se pelos princípios do diálogo, amorosidade, problematização, construção compartilhada do conhecimento, emancipação e compromisso com a transformação social. Sob essa ótica, o processo educativo deve partir da realidade vivida pelos sujeitos, valorizando o saber popular e suas experiências cotidianas. Portanto, a ação mais adequada consiste em problematizar a temática da violência por meio de perguntas norteadoras e escuta qualificada, com o propósito de desvelar a percepção de mundo, as vivências e os valores dos próprios adolescentes, construindo criticamente as estratégias de superação da violência.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa A: Incorreta. O modelo de "palestra" é essencialmente transmissivo e verticalizado (unidirecional), caracterizando a abordagem hegemônica tradicional, incompatível com o protagonismo juvenil e o método dialógico preconizado pela EPS.
-- Alternativa B: Incorreta. A utilização de recursos audiovisuais com mera "adaptação da linguagem" ao contexto popular constitui apenas uma roupagem atrativa para a transmissão unilateral de mensagens normativas/prescritivas, sem promover a reflexão crítica e a coparticipação ativa dos adolescentes.
-- Alternativa C: Incorreta. Centralizar o processo educativo na figura de um "especialista detentor do saber" reforça a assimetria na relação de poder e saber entre os profissionais e a comunidade, distanciando-se do princípio freiriano de horizontalidade das relações educativas.
+1. **Diagnóstico da Afecção/Quadro:** Abordagem coletiva de **violência comunitária e juvenil** na Atenção Primária à Saúde (APS), demandando intervenção educativa fundamentada nos princípios da **Educação Popular em Saúde (EPS)**.
+2. **Critério Clínico / Fisiopatologia:** O método da EPS opõe-se diametralmente ao modelo biomédico tradicional ou "educação bancária", no qual há transmissão verticalizada e passiva de conteúdos. O modelo fundamenta-se na **construção compartilhada do conhecimento**, na **problematização** das experiências cotidianas dos sujeitos e na **valorização dos saberes prévios** para gerar reflexão crítica e transformação social.
+3. **Indicação de Conduta:** A conduta padrão-ouro no primeiro encontro consiste em problematizar o tema por meio de **perguntas norteadoras** e **escuta qualificada**, permitindo compreender a visão de mundo, crenças e valores dos adolescentes para, a partir dessa realidade, construir coletivamente estratégias de enfrentamento da violência.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O formato de **palestra** constitui intervenção essencialmente **transmissiva e vertical**, tratando os adolescentes como meros receptores passivos e desconsiderando o protagonismo juvenil preconizado pela EPS.
+• **Alternativa B (Incorreta):** A mera **adaptação de linguagem** com apoio audiovisual mantém a lógica da **comunicação unidirecional e prescritiva**, maquiando uma postura tutelar sem estimular o pensamento crítico ou a horizontalidade dialógica.
+• **Alternativa C (Incorreta):** A centralização da atividade em um **especialista externo** reforça a **assimetria de saber e poder**, contrariando o princípio da EPS que rejeita a figura do detentor exclusivo do conhecimento em detrimento da vivência comunitária.
 </details>
 
 ---
@@ -33592,15 +34164,19 @@ A implementação da Política Nacional de Atenção à Saúde dos Povos Indíge
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) é a CORRETA. O Subsistema de Atenção à Saúde Indígena (SasiSUS), instituído pela Lei nº 9.836/1999 (Lei Arouca) como parte integrante do Sistema Único de Saúde (SUS), foi concebido para viabilizar um modelo de atenção diferenciado que respeite as especificidades etnoculturais, epidemiológicas e territoriais dos povos originários. Para a plena efetivação dessa política, faz-se necessária a busca contínua pelo aperfeiçoamento da rede assistencial e da capacidade gerencial, assegurando a concretização dos preceitos constitucionais do SUS: universalidade, descentralização, equidade (justiça distributiva às populações historicamente vulnerabilizadas), além de controle social e participação comunitária (estruturados por meio dos Conselhos Locais e Distritais de Saúde Indígena - CONDISI).
+> **Comentário Médica:** **Raciocínio Clínico e Fundamentação:**
 
-Análise das alternativas incorretas:
+A Política Nacional de Atenção à Saúde dos Povos Indígenas (PNASPI) foi consolidada no arcabouço jurídico brasileiro pela Lei nº 9.836/1999, historicamente conhecida como **Lei Arouca**, que introduziu os artigos 19-A a 19-H na Lei Orgânica da Saúde (Lei nº 8.080/1990), instituindo formalmente o **Subsistema de Atenção à Saúde Indígena** (SasiSUS).
 
-- Alternativa (A) está INCORRETA: O SasiSUS não constitui uma organização paralela ou concorrente ao SUS, mas sim um subsistema oficial, complementar e integrado à sua rede de serviços. Os casos de média e alta complexidade, por exemplo, são referenciados para a rede assistencial regular do SUS.
+O SasiSUS é parte integrante e indissociável do SUS, desenhado para prover atenção primária diferenciada, contextualizada culturalmente e executada nas próprias terras indígenas, ao mesmo tempo em que garante o acesso referenciado aos níveis secundário e terciário de complexidade na rede assistencial comum. Por lidar com populações historicamente vulnerabilizadas, dispersão geográfica extrema, barreiras linguísticas e diversidade sociocultural de mais de trezentas etnias, a consolidação desse subsistema demanda esforço contínuo do Estado. É imperativo o constante aprimoramento estrutural, logístico e de recursos humanos para que os princípios fundamentais do SUS — como universalidade, descentralização, equidade, participação comunitária e controle social — sejam plenamente efetivados na prática cotidiana das aldeias.
 
-- Alternativa (B) está INCORRETA: A territorialização dos Distritos Sanitários Especiais Indígenas (DSEI) baseia-se em critérios etnoculturais, epidemiológicos, demográficos e de ocupação geográfica das terras indígenas, não coincidindo nem se limitando às fronteiras político-administrativas dos municípios ou estados.
+**Análise das alternativas incorretas:**
 
-- Alternativa (C) está INCORRETA: A gestão do SasiSUS não está subordinada à Fundação Nacional dos Povos Indígenas (antiga Funai). Desde 1999, a saúde indígena foi transferida para o Ministério da Saúde e, a partir de 2010 (Decreto nº 7.336/2010), é gerida de forma exclusiva e direta pela Secretaria de Saúde Indígena (SESAI/MS).
+• **A) Incorreta:** O SasiSUS não é um sistema paralelo e tampouco concorre com o SUS. Trata-se de um subsistema complementar, federativamente articulado e integrado. Os Distritos Sanitários Especiais Indígenas cobrem a atenção básica no território indígena e referenciam as demandas de média e alta densidade tecnológica para a rede convencional do SUS nas regiões de saúde.
+
+• **B) Incorreta:** Os Distritos Sanitários Especiais Indígenas (DSEI) não coincidem com os limites político-administrativos de municípios ou estados. O critério de delimitação territorial de um DSEI é eminentemente etnocultural, epidemiológico e geográfico, respeitando as redes de parentesco e a ocupação ancestral das terras indígenas, sendo frequente que um único DSEI englobe territórios de múltiplos municípios ou até de mais de uma unidade federativa.
+
+• **C) Incorreta:** A gestão da saúde indígena não compete à Fundação Nacional dos Povos Indígenas (Funai). Historicamente, a responsabilidade saiu da Funai para o Ministério da Saúde em 1999, ficando inicialmente sob responsabilidade da Fundação Nacional de Saúde (Funasa) e, desde 2010, sob gestão direta da Secretaria de Saúde Indígena (SESAI), vinculada ao Ministério da Saúde.
 </details>
 
 ---
@@ -33721,12 +34297,15 @@ Acerca da perspectiva sindêmica da Covid-19, assinale a opção correta.
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está CORRETA. O conceito de sindemia, cunhado pelo antropólogo médico Merrill Singer na década de 1990 e amplamente discutido durante a pandemia de Covid-19 (notadamente por Richard Horton no periódico *The Lancet*), define a coexistência e interação biológica e social de duas ou mais afecções (como a infecção pelo SARS-CoV-2 associada a doenças crônicas não transmissíveis) potencializadas por disparidades socioeconômicas e ambientais. Sob a ótica dos Determinantes Sociais da Saúde (DSS) e dos referenciais da Saúde Coletiva e do Ministério da Saúde, a Covid-19 não afetou a população de maneira homogênea: populações em situação de vulnerabilidade, com menor renda, baixa escolaridade, piores condições de moradia e saneamento, e com barreiras de acesso aos serviços de saúde apresentaram maiores taxas de contaminação, hospitalização e letalidade. Assim, as taxas de morbimortalidade expressam diretamente as desigualdades estruturais da sociedade.
+> **Comentário Médica:** O conceito de **sindemia**, cunhado pelo antropólogo médico Merrill Singer na década de 1990 e amplamente difundido por Richard Horton no periódico The Lancet em 2020 durante a crise do coronavírus, refere-se à copresença e interação biológica entre duas ou mais epidemias ou condições de saúde crônicas, potencializada e exacerbada por um contexto de profundas vulnerabilidades sociais e econômicas. Em vez de analisar a infecção viral isoladamente sob o paradigma puramente biomédico, a abordagem sindêmica demonstra que o impacto da SARS-CoV-2 foi catalisado pela concomitância de doenças crônicas não transmissíveis (como hipertensão arterial, diabetes mellitus, obesidade e doenças cardiovasculares) e intensificado pelas disparidades de moradia, saneamento, emprego, renda e barreiras de acesso aos serviços de saúde. Portanto, a distribuição desigual do adoecimento e dos desfechos fatais é a manifestação direta das assimetrias estruturais que compõem os **determinantes sociais da saúde**, tornando a alternativa A a resposta correta.
 
-Análise dos distratores:
-- Alternativa (B) está INCORRETA: A descontinuidade da assistência aos portadores de condições crônicas (como hipertensão arterial sistêmica e diabetes mellitus) agravou o desfecho desses indivíduos, aumentando a morbimortalidade cardiovascular e metabólica e tornando-os ainda mais suscetíveis às formas graves de Covid-19. As diretrizes da Organização Mundial da Saúde (OMS) e do Ministério da Saúde enfatizam a necessidade de manutenção do cuidado integral na Atenção Primária à Saúde mesmo em cenários de emergência em saúde pública.
-- Alternativa (C) está INCORRETA: O cerne do conceito de sindemia é a sinergia negativa e a amplificação mútua entre as afecções, resultando no agravamento da severidade dos casos, aumento das repercussões negativas e sobrecarga dos sistemas de saúde, e não na redução da incidência ou severidade de qualquer uma das doenças.
-- Alternativa (D) está INCORRETA: Embora a retaguarda hospitalar e de terapia intensiva tenha sido crucial para o manejo agudo dos pacientes graves, a teoria sindêmica defende que abordagens estritamente biomédicas e curativas são insuficientes. O modelo sindêmico preconiza intervenções multissetoriais, com foco na promoção da saúde, prevenção de doenças, redução de iniquidades sociais e fortalecimento da Atenção Primária à Saúde para agir sobre os determinantes estruturais.
+**Análise das alternativas incorretas:**
+
+• **B) Incorreta:** A suspensão, postergação ou descontinuidade dos atendimentos ambulatoriais e preventivos de usuários com patologias crônicas representou uma grave falha nas redes de atenção à saúde. O abandono do seguimento longitudinal descompensou condições de base, aumentou a letalidade por complicações cardiovasculares e metabólicas evitáveis e tornou esses indivíduos ainda mais vulneráveis a apresentações graves da infecção viral. O manejo de emergências sanitárias deve integrar o fluxo para síndromes respiratórias sem desestruturar o cuidado continuado na atenção primária.
+
+• **C) Incorreta:** Na dinâmica sindêmica não ocorre atenuação da morbimortalidade nem a anulação de um agravo em função do outro. Pelo contrário, existe uma sinergia negativa e multiplicadora na qual a sobreposição das doenças amplia a taxa de complicações, acelera a deterioração clínica e sobrecarrega os sistemas de suporte social e comunitário de maneira cumulativa.
+
+• **D) Incorreta:** A premissa central da perspectiva sindêmica reside na constatação de que modelos puramente hospitalocêntricos, curativos e focados na ampliação de terapia intensiva são incapazes, por si sós, de controlar o fenômeno. Embora a garantia de leitos de suporte avançado seja essencial para o manejo do choque e da insuficiência respiratória aguda, o controle eficaz e sustentável requer ações intersetoriais, equidade social, fortalecimento da atenção primária e intervenções sobre as causas basilares das vulnerabilidades populacionais.
 </details>
 
 ---
@@ -33870,15 +34449,16 @@ Um paciente com 32 anos, enfermeiro em hospital de referência em urgência e em
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) está CORRETA. No âmbito da Saúde do Trabalhador e das diretrizes do Ministério da Saúde para Doenças Relacionadas ao Trabalho (DRT), diante da suspeita clínica fundamentada ou confirmação de dermatose ocupacional (neste caso, dermatite de contato por equipamento de proteção individual - N95), a medida primária e essencial consiste na cessação ou redução da exposição ao agente causal. Para tanto, deve-se avaliar o afastamento temporário da função que exige o uso do EPI em questão, a readaptação funcional, a troca do modelo/marca do EPI por alternativas hipoalergênicas ou, em casos graves e refratários, o remanejo definitivo de setor/função. Adicionalmente, a suspeita impõe a emissão da Comunicação de Acidente de Trabalho (CAT) e a notificação compulsória no SINAN.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
+O quadro apresentado pelo profissional de saúde caracteriza uma dermatite de contato na face decorrente do uso prolongado de equipamento de proteção individual (máscara N95). As dermatites de contato podem ser divididas em duas formas principais: a dermatite de contato por irritante primário, decorrente do atrito mecânico, oclusão, calor e umidade na barreira cutânea, e a dermatite alérgica de contato, mediada por hipersensibilidade tardia (tipo IV de Gell e Coombs) a componentes específicos do dispositivo, como tiras elásticas, colas, clipe metálico ou resinas. No âmbito da Medicina do Trabalho e da Saúde Pública, diante da suspeita clínica de uma **dermatose ocupacional**, a premissa prioritária de manejo é o controle da exposição e a cessação do contato com o agente agressor. Desse modo, o **afastamento temporário ou permanente** do trabalhador de postos ou atividades que exijam o uso do dispositivo desencadeante deve ser ativamente considerado e avaliado, viabilizando a reabilitação da integridade cutânea, a substituição do equipamento por materiais hipoalergênicos e a devida emissão da Comunicação de Acidente de Trabalho (CAT), além da notificação compulsória no Sistema de Informação de Agravos de Notificação (SINAN).
 
-Análise das alternativas incorretas:
+**Análise das alternativas incorretas:**
 
-- Alternativa (A) está INCORRETA: O tratamento medicamentoso não requer a associação obrigatória com antibióticos tópicos, os quais são reservados estritamente para infecções bacterianas secundárias comprovadas (impetinização). O uso empírico e indiscriminado de antibióticos tópicos eleva o risco de sensibilização de contato adicional. Além disso, corticoides tópicos na face devem ser usados com extrema cautela (preferindo-se baixa potência e por tempo limitado) pelo risco de atrofia cutânea, telangiectasias e dermatite perioral.
+• **A) Incorreta:** O tratamento medicamentoso não exige a prescrição mandatória de antibióticos tópicos associados a corticoides. O uso empírico e profilático de antibacterianos tópicos, como neomicina ou bacitracina, não é indicado na ausência de infecção bacteriana secundária documentada e pode, inclusive, precipitar dermatite de contato alérgica adicional por sensibilização iatrogênica. Ademais, o uso de corticosteroides na região facial deve ser criterioso, restrito a formulações de baixa potência e por curtos períodos, para evitar complicações como atrofia cutânea, telangiectasias, dermatite perioral e rosácea esteroide.
 
-- Alternativa (B) está INCORRETA: Embora o teste epicutâneo (patch test) seja o padrão-ouro confirmatório para dermatite de contato alérgica, ele não é uma ferramenta amplamente disponível ou rotineiramente aplicada na Atenção Primária à Saúde (APS), tratando-se de um procedimento de competência da atenção secundária/especializada (Dermatologia e Alergologia) devido à necessidade de insumos específicos e treinamento para interpretação técnica.
+• **B) Incorreta:** Embora o teste epicutâneo (patch test) seja o padrão-ouro confirmatório para a dermatite alérgica de contato, diferenciando-a da dermatite por irritante primário, sua execução demanda baterias padronizadas de alérgenos, técnica de oclusão específica e leituras cronometradas em 48 e 96 horas por especialistas. Trata-se de exame de nível secundário ou terciário (dermatologia ou alergologia), não estando amplamente disponível e nem sendo de execução rotineira na Atenção Primária à Saúde.
 
-- Alternativa (D) está INCORRETA: As dermatoses ocupacionais são marcadas historicamente por expressiva subnotificação (altos índices de sub-registro) no Brasil e no mundo, e não por "baixa prevalência de sub-registros". Fatores como a falta de reconhecimento do nexo causal, a rotatividade de empregos e a ausência de notificação no SINAN/CAT contribuem para que os dados oficiais representem apenas uma fração da morbidade real.
+• **D) Incorreta:** As doenças ocupacionais, e especificamente as dermatoses relacionadas ao trabalho, sofrem historicamente com altas taxas de subnotificação e sub-registro nos sistemas oficiais de saúde do Brasil. A baixa percepção de nexo causal por parte de trabalhadores e profissionais, somada à descontinuidade dos fluxos de notificação na rede básica, faz com que a prevalência oficial registrada seja significativamente inferior à morbidade real existente na população trabalhadora.
 </details>
 
 ---
@@ -34326,12 +34906,19 @@ A respeito dessa política, assinale a opção correta.
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) está correta. A Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP), instituída pela Portaria Interministerial nº 1/2014 (Ministérios da Saúde e da Justiça), estabelece a garantia do direito à saúde no âmbito do SUS às pessoas sob custódia estatal. O financiamento, planejamento e a execução das ações ocorrem mediante gestão tripartite cooperada (acordo e pactuação entre a União/Governo Federal, os Estados/Distrito Federal e os Municípios), integrando o sistema prisional à Rede de Atenção à Saúde (RAS).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. A **Política Nacional de Atenção Integral à Saúde das Pessoas Privadas de Liberdade no Sistema Prisional (PNAISP)**, instituída pela **Portaria Interministerial nº 1/2014**, fundamenta-se no princípio de cogestão solidária e tripartite, garantindo o direito à saúde integral no SUS sob responsabilidade compartilhada entre a **União**, os **Estados** e os **Municípios**.
 
-Análise dos distratores:
-- Alternativa (B) está incorreta: Pelo princípio da territorialização e universalidade da Atenção Primária à Saúde (APS), os municípios são responsáveis pela saúde da população adscrita em seu território. Caso a unidade prisional não conte com Equipe de Atenção Primária Prisional (eAPP) própria, a rede municipal de APS, por meio das Equipes de Saúde da Família locais, deve garantir a cobertura e o cuidado àquela população.
-- Alternativa (C) está incorreta: A PNAISP prevê modalidades de equipes multidisciplinares com arranjos ampliados específicos que podem incorporar profissionais de saúde mental (como psicólogos, assistentes sociais e psiquiatras). O matriciamento e articulação com a Rede de Atenção Psicossocial (RAPS/CAPS) existem, mas não excluem a presença de componentes de saúde mental nas equipes prisionais.
-- Alternativa (D) está incorreta: A adesão à PNAISP por parte dos estados e municípios é voluntária, dependente de pactuação na Comissão Intergestores Bipartite (CIB) e homologação pelo Ministério da Saúde, não se caracterizando como adesão obrigatória.
+**Raciocínio Clínico e Fisiopatológico:**
+
+1. **Marco Regulatório e Conceitual:** A PNAISP foi concebida para superar a fragmentação histórica da assistência médica prisional, integrando os estabelecimentos penais à **Rede de Atenção à Saúde (RAS)** e elegendo a **Atenção Primária à Saúde (APS)** como a porta de entrada preferencial e ordenadora do cuidado.
+2. **Pactuação e Financiamento Compartilhado:** A operacionalização dos serviços prisionais é formalizada por meio de acordos interfederativos tripartite, nos quais o **governo federal** repassa incentivos financeiros específicos, os **estados** e os **municípios** pactuam responsabilidades assistenciais, recursos humanos e fluxos de referência e contrarreferência.
+3. **Integralidade da Assistência:** A política determina que a perda do direito de locomoção não extingue a titularidade do direito à saúde, exigindo ações contínuas de **promoção**, **prevenção**, **rastreamento de infecções** (como tuberculose e ISTs) e manejo de condições crônicas.
+
+**Análise dos Distratores:**
+
+• **Alternativa B (Incorreta):** Fere os princípios de **territorialização** e de **adscrição de clientela**. Caso a unidade prisional não conte com uma **Equipe de Atenção Primária Prisional (eAPP)** constituída, a responsabilidade sanitária sobre essa população recai sobre a equipe de APS/Saúde da Família do território onde o presídio está localizado.
+• **Alternativa C (Incorreta):** A PNAISP prevê expressamente modalidades ampliadas de eAPP com núcleos e equipes complementares de **saúde mental** (compostas por psicólogos, assistentes sociais e psiquiatras) no próprio ambiente prisional, atuando de maneira matriciada com a **Rede de Atenção Psicossocial (RAPS)** e os **CAPS**.
+• **Alternativa D (Incorreta):** A adesão à PNAISP é de caráter **voluntário** (não obrigatório) por parte dos estados e municípios, exigindo aprovação prévia em **Comissão Intergestores Bipartite (CIB)** e posterior homologação pelo Ministério da Saúde.
 </details>
 
 ---
@@ -34440,15 +35027,15 @@ Em reunião de equipe de saúde de uma unidade básica de saúde (UBS) localizad
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A questão aborda a Política Nacional de Saúde Integral de Lésbicas, Gays, Bissexuais, Travestis e Transexuais (Portaria MS/GM nº 2.836/2011, consolidada na Portaria de Consolidação nº 2/2017), a qual visa promover a equidade em saúde e combater a discriminação institucional no âmbito do Sistema Único de Saúde (SUS).
+> **Comentário Médica:** A **Política Nacional de Saúde Integral LGBT**, instituída pela Portaria GM/MS nº 2.836/2011, foi formulada com o objetivo de eliminar as iniquidades e as discriminações em saúde, garantindo o acesso universal e equânime dessa população a todos os níveis de atenção do Sistema Único de Saúde (SUS). Entre suas diretrizes e objetivos prioritários, a política reconhece o impacto negativo do preconceito, da estigmatização e da violência institucional sobre o bem-estar psicológico desses indivíduos (conceito conhecido na saúde coletiva como estresse de minoria). Por essa razão, estabelece expressamente a articulação com a **Rede de Atenção Psicossocial** para a promoção da saúde mental, prevenção do sofrimento psíquico, enfrentamento das ideações suicidas e cuidado direcionado ao uso abusivo e prejudicial de álcool e outras substâncias psicoativas.
 
-Justificativa da alternativa correta (B):
-A Política Nacional de Saúde Integral LGBT inclui expressamente diretrizes e ações voltadas à atenção integral em saúde mental, com ênfase na prevenção do sofrimento psíquico, do suicídio e dos transtornos relacionados ao uso abusivo de álcool e outras substâncias psicoativas. Reconhece-se o impacto do 'estresse de minoria' (minority stress) decorrente do preconceito, estigma e violência social, o que demanda estratégias articuladas na Rede de Atenção Psicossocial (RAPS) específicas e humanizadas para essa população.
+**Análise das alternativas incorretas:**
 
-Análise dos distratores (incorretos):
-- Alternativa (A): O uso e respeito ao nome social no SUS é um direito do usuário assegurado por instrumentos federais (Decreto Presidencial nº 8.727/2016 e Portaria MS/GM nº 1.820/2009 - Carta dos Direitos dos Usuários da Saúde). Portanto, seu cumprimento é compulsório em todos os serviços do SUS e não uma prerrogativa ou decisão discricionária de cada unidade.
-- Alternativa (C): Evidências epidemiológicas demonstram exatamente o oposto: mulheres lésbicas e bissexuais apresentam menor adesão e menor cobertura de rastreamento de câncer do colo do útero (exame colpocitopatológico de Papanicolau). Isso ocorre tanto por barreiras de acesso e preconceito quanto pelo mito (compartilhado por usuárias e profissionais) de que mulheres que mantêm relações sexuais exclusivamente com mulheres não teriam risco de infecção pelo papilomavírus humano (HPV).
-- Alternativa (D): O Processo Transexualizador no SUS é plenamente amparado por regulamentação técnica e legal, tendo sido instituído pela Portaria MS/GM nº 1.707/2008 e redefinido/ampliado pela Portaria MS/GM nº 2.803/2013, garantindo tanto a atenção ambulatorial (hormonioterapia e acompanhamento multiprofissional) quanto a atenção hospitalar (procedimentos cirúrgicos de modificação corporal e afirmação de gênero).
+• **A) Incorreta:** O uso do nome social não constitui prerrogativa discricionária de cada unidade ou profissional de saúde. Trata-se de um direito assegurado em âmbito nacional pela Portaria nº 1.820/2009 (Carta dos Direitos dos Usuários da Saúde) e pelo Decreto Presidencial nº 8.727/2016, sendo obrigatório o registro do nome social no Cartão Nacional de Saúde (CNS), nos prontuários e a forma como a pessoa deve ser chamada publicamente em qualquer serviço do SUS.
+
+• **C) Incorreta:** Estudos epidemiológicos e dados do Ministério da Saúde demonstram exatamente o oposto: mulheres lésbicas e bissexuais apresentam taxas significativamente menores de realização do exame citopatológico (papanicolau) quando comparadas a mulheres heterossexuais. Essa disparidade decorre tanto de barreiras atitudinais de profissionais desinformados quanto da falsa crença de que relações sexuais entre mulheres não oferecem risco de transmissão do Papilomavírus Humano (HPV) e de desenvolvimento de neoplasias cervicais.
+
+• **D) Incorreta:** O Processo Transexualizador no SUS já é legalmente regulamentado e estruturado desde 2008, tendo sido expandido pela Portaria GM/MS nº 2.803/2013 (atualmente incorporada às portarias de consolidação do Ministério da Saúde). Esse serviço abrange tanto a modalidade ambulatorial (acompanhamento multiprofissional e hormonioterapia para usuárias e usuários a partir de 18 anos) quanto a modalidade hospitalar (cirurgias de modificação e afirmação corporal/genital a partir de 21 anos, com no mínimo dois anos de acompanhamento prévio).
 </details>
 
 ---
@@ -34932,12 +35519,19 @@ Diante desse cenário, um médico de família e comunidade de um município pró
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) é a correta. O principal temor da expansão da febre amarela silvestre para áreas antropizadas ou periurbanas é o risco de reurbanização da doença pelo vetor urbano *Aedes aegypti* (o último caso documentado de febre amarela urbana no Brasil ocorreu em 1942). O período de viremia da febre amarela dura, em média, do final do período de incubação até o 3º a 5º dia do início dos sintomas (podendo alcançar o 7º dia). Durante este intervalo, a picada de um mosquito vetor urbano viabiliza a transmissão para outros humanos. Portanto, conforme as diretrizes do Ministério da Saúde para vigilância e manejo da febre amarela, caso o município apresente infestação por *Aedes aegypti*, recomenda-se o isolamento vetorial de casos suspeitos durante a fase virêmica (utilização de mosquiteiros, aplicação de repelentes, telas em portas e janelas) para impedir o estabelecimento do ciclo de transmissão urbana.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa A (Incorreta): A febre amarela é uma doença de notificação compulsória imediata (em até 24 horas após a suspeita clínica) para as esferas municipal, estadual e federal, dado o seu elevado potencial epidêmico e gravidade, e não notificação de periodicidade semanal.
-- Alternativa B (Incorreta): Pelo Calendário Nacional de Vacinação do Ministério da Saúde, a vacina é recomendada aos 9 meses de vida, com dose de reforço aos 4 anos. A vacinação abaixo dos 6 meses é contraindicada pelo risco de encefalite vacinal; a administração a partir dos 6 meses é uma conduta de exceção em emergências epidemiológicas sob deliberação específica dos órgãos centrais de saúde pública, não sendo uma diretriz preventiva de rotina local.
-- Alternativa C (Incorreta): Desde abril de 2017, o Brasil segue a recomendação da Organização Mundial da Saúde (OMS), abolindo a necessidade de reforço a cada 10 anos. Atualmente, o esquema é de 2 doses para crianças vacinadas entre 9 meses e menores de 5 anos (aos 9 meses e aos 4 anos) ou dose única para indivíduos vacinados a partir dos 5 anos de idade.
+A transmissão da **febre amarela** no Brasil ocorre, classicamente, por meio de dois ciclos epidemiológicos distintos que compartilham o mesmo agente etiológico, um arbovírus do gênero Flavivirus: o ciclo silvestre, mantido entre primatas não humanos e mosquitos dos gêneros Haemagogus e Sabethes, e o ciclo urbano, no qual o ser humano atua como hospedeiro e o Aedes aegypti como vetor primário. Desde 1942, o Brasil não registra transmissão urbana da doença. Contudo, a expansão da fronteira agrícola e o desmatamento aumentam o contato da população suscetível com o ecótopo silvestre, favorecendo o surgimento de casos humanos e o risco iminente de reurbanização quando esses indivíduos retornam para áreas com alta densidade vetorial de Aedes aegypti.
+
+O período de viremia no ser humano tem início entre 24 a 48 horas antes das manifestações clínicas e estende-se, em média, até o 3º ao 5º dia de doença. Durante essa fase, o vírus atinge títulos plasmáticos suficientes para infectar mosquitos vetores durante o repasto sanguíneo. Caso um indivíduo virêmico permaneça exposto em uma área urbana ou periurbana infestada por Aedes aegypti, há risco concreto de infecção do vetor e reinício do ciclo urbano da doença. Por essa razão, as diretrizes de vigilância epidemiológica do Ministério da Saúde determinam que pacientes com suspeita clínica de infecção aguda que se encontrem no período virêmico sejam submetidos ao **isolamento vetorial** (uso de mosquiteiros, telas, repelentes e controle de vetores no domicílio ou na unidade de internação), impedindo a picada pelo mosquito e bloqueando a cadeia de transmissão.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A febre amarela integra a lista de doenças de notificação compulsória imediata do Ministério da Saúde. Todo caso suspeito deve ser notificado em até 24 horas às autoridades de vigilância epidemiológica locais e centrais pelo meio de comunicação mais rápido disponível, a fim de viabilizar medidas imediatas de bloqueio vacinal e controle vetorial, sendo errônea a periodicidade semanal.
+
+• **B) Incorreta:** Pelo Calendário Nacional de Vacinação, a primeira dose da vacina contra febre amarela é administrada aos 9 meses de idade, com dose de reforço aos 4 anos. A vacinação em lactentes na faixa etária de 6 a 8 meses é contraindicada como conduta de rotina devido ao risco aumentado de eventos adversos graves, como a doença neurotrópica associada à vacina, sendo reservada exclusivamente para situações extremas de surto epidemiológico ativo com comprovação de circulação viral expressiva e sob deliberação específica dos órgãos centrais de saúde pública, não cabendo ao médico da atenção primária antecipá-la isoladamente.
+
+• **C) Incorreta:** Desde abril de 2017, o Ministério da Saúde do Brasil alinhou suas diretrizes às recomendações da Organização Mundial da Saúde, abolindo a necessidade de revacinação decenal. Atualmente, preconiza-se esquema com duas doses na infância (uma aos 9 meses e um reforço aos 4 anos) ou dose única vitalícia para pessoas vacinadas a partir dos 5 anos de idade, tornando obsoleta a orientação de reforço a cada 10 anos.
 </details>
 
 ---
@@ -36124,14 +36718,19 @@ Equipe multiprofissional de uma unidade de saúde da família deseja criar um gr
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta e o julgamento ético do caso fundamentam-se nas normas do Conselho Federal de Medicina (CFM), em especial no Parecer CFM nº 14/2017 (que regulamenta o uso do WhatsApp e plataformas similares no ambiente médico) e no Código de Ética Médica (Resolução CFM nº 2.217/2018).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. De acordo com o **Parecer CFM nº 14/2017** e a **Resolução CFM nº 2.217/2018** (*Código de Ética Médica*), grupos de mensagens instantâneas voltados à discussão de condutas diagnósticas e terapêuticas são permitidos apenas se constituídos **exclusivamente por médicos**, com as informações mantidas sob **caráter estritamente confidencial** e restritas aos limites do grupo.
 
-Segundo o Parecer CFM nº 14/2017, é permitida a criação de grupos de mensagens instantâneas para a discussão de casos clínicos e condutas diagnósticas e terapêuticas, desde que esses grupos sejam constituídos exclusivamente por médicos. Além disso, todas as informações compartilhadas mantêm caráter estritamente confidencial, não podendo ultrapassar os limites do grupo, e sob nenhuma circunstância deve haver a identificação direta ou indireta do paciente. Portanto, a alternativa (D) reflete com precisão a exigência regulamentar do CFM.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa A (Incorreta): O uso de aplicativos de mensagens para discussão clínica não é proibido. O CFM expressamente autorizou essa prática no Parecer nº 14/2017, reconhecendo sua utilidade no aprimoramento assistencial, desde que cumpridos os requisitos de sigilo e exclusividade profissional.
-- Alternativa B (Incorreta): O Código de Ética Médica (Art. 75) e o Parecer CFM nº 14/2017 vedam expressamente a identificação do paciente em discussões e divulgações de casos clínicos em mídias sociais ou plataformas de mensagens, mesmo que haja consentimento ou autorização do paciente ou de seu responsável legal.
-- Alternativa C (Incorreta): O sigilo médico é um dever ético e legal individual e indelegável. A responsabilidade pela manutenção do sigilo não é restrita ao administrador do grupo ou ao responsável técnico da unidade de saúde, recaindo solidariamente sobre todos os médicos participantes que tiverem acesso aos dados.
+1. **Normatização Deontológica:** O uso de aplicativos de mensagens para finalidades clínicas é regulado pelo **Parecer CFM nº 14/2017**, que visa equilibrar o avanço da telemedicina e da comunicação digital com o dever fundamental de preservação do **sigilo médico** (*segredo profissional*).
+2. **Exclusividade Profissional:** O CFM estabelece que debates de casos clínicos concretos envolvendo diagnóstico e terapêutica em plataformas digitais não podem envolver equipes multiprofissionais, devendo ser restritos **unicamente a médicos**. A extensão a outros profissionais da equipe de saúde descaracteriza a segurança do sigilo regido sob a jurisdição do Conselho de Medicina.
+3. **Preservação de Dados e Confidencialidade:** As mensagens trocadas possuem **natureza sigilosa indelegável**. É vedado exportar áudios, textos ou imagens para além dos limites do grupo, permanecendo obrigatório o **anonimato completo** do paciente, sem que haja elementos diretos ou indiretos que permitam seu reconhecimento.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A criação de grupos eletrônicos não é ilícita em si. O **Parecer CFM nº 14/2017** autoriza expressamente essa ferramenta entre médicos como suporte para interconsultas e tomadas de decisão ágeis, desde que resguardado o **sigilo profissional**.
+• **Alternativa B (Incorreta):** O **Artigo 75** do Código de Ética Médica proíbe a identificação de pacientes em discussões clínicas compartilhadas em mídias públicas ou redes sociais, mesmo com a **autorização expressa** do paciente ou responsável legal.
+• **Alternativa C (Incorreta):** O dever ético de manter o segredo de dados clínicos é **pessoal e intransferível**. A responsabilidade recai solidariamente sobre **todos os médicos participantes** que têm acesso aos casos, não sendo exclusiva do **administrador** ou do **responsável técnico**.
 </details>
 
 ---
@@ -36150,18 +36749,19 @@ Um médico de família e comunidade atende, pela primeira vez, um paciente com q
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A questão aborda os preceitos éticos e as normas deontológicas estabelecidas pelo Conselho Federal de Medicina (CFM) quanto ao uso de aplicativos de mensagens instantâneas (como WhatsApp e Telegram) para fins de comunicação médica e discussão de casos clínicos, respaldado principalmente pelo Parecer CFM nº 14/2017 e pelo Código de Ética Médica (CEM).
+> **Comentário Médica:** **Raciocínio Clínico e Normativo:**
 
-1. Justificativa da Alternativa Correta (C):
-O Parecer CFM nº 14/2017 autoriza expressamente a criação e o uso de grupos em aplicativos de mensagens instantâneas para discussão técnica e científica de casos clínicos, desde que atendidos critérios fundamentais de segurança e sigilo:
-- O grupo deve ser composto exclusivamente por médicos devidamente inscritos e ativos em seus respectivos Conselhos Regionais de Medicina (CRMs);
-- O objetivo do grupo deve ser restrito e exclusivo à discussão clínica e assistência ao paciente;
-- O dever de sigilo e confidencialidade médica (Artigos 73 a 79 do CEM) deve ser rigorosamente mantido, sendo vedada a exposição de dados que permitam a identificação direta do paciente a terceiros não envolvidos no cuidado.
+A prática médica contemporânea frequentemente se apoia em ferramentas tecnológicas de comunicação rápida para aprimorar o cuidado ao paciente e agilizar tomadas de decisão clínica. O uso de aplicativos de mensagens instantâneas entre médicos é regulamentado fundamentalmente pelo Parecer CFM nº 14/2017, com respaldo nas diretrizes do Código de Ética Médica e da Lei Geral de Proteção de Dados Pessoais (LGPD).
 
-2. Análise dos Distratores:
-- Alternativa A: Incorreta. É expressamente vedado o compartilhamento de casos clínicos, informações ou dados de pacientes em grupos de caráter 'recreativo' ou social, mesmo que formados unicamente por médicos. O grupo deve ter finalidade estritamente técnica/assistencial.
-- Alternativa B: Incorreta. A discussão colegiada de casos clínicos entre pares médicos (interconsulta informal/colegialidade para benefício do cuidado) faz parte do exercício profissional sob o manto do sigilo inerente à profissão médica compartilhada, não sendo mandatória uma autorização formal expressa (termo de consentimento) do paciente para este fim intraprofissional, desde que observada a anonimização e a confidencialidade.
-- Alternativa D: Incorreta. O CFM reconhece a utilidade das tecnologias de informação e comunicação na agilidade do diagnóstico e conduta, permitindo formalmente o uso de tais ferramentas, contanto que as normas de segurança, pertinência técnica e confidencialidade sejam estritamente respeitadas.
+De acordo com a normativa do Conselho Federal de Medicina, é ético e lícito o uso de grupos em aplicativos de mensagens para discussão de casos clínicos, desde que sejam atendidos critérios rígidos de segurança e privacidade. O grupo deve ser composto exclusivamente por médicos com registro ativo em seus respectivos Conselhos Regionais de Medicina e possuir finalidade puramente técnica, assistencial ou científica. É mandatório preservar o **sigilo profissional**, promovendo a desidentificação do paciente (ocultação de nome, prontuário, imagens da face ou traços distintivos) e garantindo a estrita **confidencialidade das informações**, sendo expressamente proibido o repasse das mensagens ou imagens para fora do ambiente seguro de discussão.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O compartilhamento de dados de saúde ou imagens diagnósticas em grupos recreativos, sociais ou de entretenimento é terminantemente vedado pelo CFM, mesmo que o grupo seja integrado unicamente por médicos. As discussões clínicas exigem ambientes virtuais exclusivos e dedicados ao propósito técnico-assistencial.
+
+• **B) Incorreta:** A discussão de conduta ou elucidação diagnóstica entre pares médicos em grupos técnicos dedicados não depende de termo formal de autorização por escrito do paciente, desde que os dados compartilhados sejam restritos ao estritamente necessário para o suporte clínico e mantenham a anonimização e a confidencialidade.
+
+• **D) Incorreta:** O Conselho Federal de Medicina não proíbe a utilização de ferramentas de mensagens instantâneas; ao contrário, reconhece sua utilidade para o aperfeiçoamento assistencial e a obtenção de segundas opiniões diagnósticas ágeis, contanto que sejam estritamente respeitadas as normas deontológicas de sigilo e pertinência temática.
 </details>
 
 ---
@@ -36182,16 +36782,21 @@ Uma paciente com 35 anos, que vive com o marido e dois filhos pequenos, procurou
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta médica correta está descrita na **Alternativa D**, fundamentada nas diretrizes do Ministério da Saúde (MS) para a Atenção Integral à Saúde de Pessoas em Situação de Violência e na legislação brasileira vigente (Lei nº 10.778/2003 e Portaria de Consolidação nº 4/GM/MS de 2017).
+> **Comentário Médica:** **Raciocínio Clínico e Conduta:**
 
-1. **Abordagem Multiprofissional:** O manejo da violência doméstica e interpessoal é complexo e transcende o cuidado das lesões físicas agudas. Exige suporte interdisciplinar (médico, enfermagem, serviço social e psicologia) para elaboração de um plano de segurança, avaliação de risco de feminicídio e acolhimento psicossocial contínuo.
-2. **Notificação Compulsória (SINAN):** Casos suspeitos ou confirmados de violência doméstica/intrafamiliar constituem agravo de notificação compulsória para fins epidemiológicos. A Ficha de Notificação/Investigação Individual de Violência Interpessoal/Autoprovocada do SINAN deve ser obrigatoriamente preenchida pelos profissionais de saúde da rede pública ou privada. Vale ressaltar que a notificação epidemiológica possui caráter confidencial e visa dimensionar o problema para a formulação de políticas públicas, não se confundindo com denúncia policial.
+O caso retrata uma situação crônica e grave de **violência doméstica e familiar** contra a mulher, com risco iminente à integridade física e psíquica da paciente, evidenciado pela agressão física com socos, pontapés e ameaça por arma branca. Diante desse cenário na Atenção Primária à Saúde, a conduta deve ser pautada pelas diretrizes do Ministério da Saúde e pelas normas ético-legais vigentes.
 
-**Análise dos distratores:**
+1. **Acolhimento e Abordagem Multiprofissional:** O manejo clínico não se restringe à sutura ou curativo das lesões físicas. É imperativa a atuação integrada da equipe multidisciplinar (médico, enfermagem, psicologia e serviço social) para realizar escuta qualificada sem julgamentos, avaliar a escala de risco letal, pactuar um plano de segurança individualizado e articular os pontos da Rede de Atenção à Saúde e de proteção social (como CRAS, CREAS e Centros de Referência da Mulher).
 
-* **Alternativa A:** Incorreta. Encaminhar a paciente de imediato à psiquiatria patologiza a vítima de violência, cuja reação emocional decorre de um trauma agudo/crônico real, e não primariamente de um transtorno mental. Ademais, acionar o Conselho Tutelar de forma intempestiva e sem indícios de violência direta ou negligência contra as crianças quebra a relação de confiança com a mãe e pode desestabilizá-la no momento de maior vulnerabilidade.
-* **Alternativa B:** Incorreta. A formalização de boletim de ocorrência (notícia-crime) é uma prerrogativa e decisão autônoma da mulher adulta e capaz. A equipe de saúde deve orientar e informar sobre os serviços de proteção (como a Delegacia Especializada de Atendimento à Mulher – DEAM), mas não pode coagir, exigir ou registrar a ocorrência policial à revelia da paciente, sob risco de expô-la a retaliações ainda mais graves pelo agressor.
-* **Alternativa C:** Incorreta. Revelar fatos confidenciais obtidos durante a consulta a vizinhos e familiares configura quebra flagrante do sigilo profissional (Artigo 73 do Código de Ética Médica), além de violar a privacidade e potencialmente amplificar a exposição e o risco de morte da paciente na comunidade.
+2. **Notificação Compulsória pelo SINAN:** A violência interpessoal é um agravo de notificação obrigatória no território nacional, em conformidade com a Lei nº 10.778/2003 e a Portaria de Consolidação nº 4/GM/MS. O preenchimento da Ficha de Notificação do Sistema de Informação de Agravos de Notificação é um ato médico-sanitário com finalidade estritamente epidemiológica e de garantia de direitos no âmbito da saúde pública. Deve-se ressaltar que a **notificação compulsória** possui caráter confidencial e não substitui e nem equivale à representação criminal ou denúncia policial.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** Encaminhar a paciente de plano para atendimento psiquiátrico constitui uma conduta que patologiza a reação emocional compreensível ao estresse e ao trauma vivenciados, transferindo indevidamente a responsabilidade do problema para uma suposta doença mental da vítima. Além disso, acionar o Conselho Tutelar de forma intempestiva, sem indício claro de negligência ou violência direta cometida pela genitora contra os filhos, responsabiliza e pune a mulher agredida, rompendo o vínculo terapêutico e afastando-a do serviço de saúde.
+
+• **B) Incorreta:** O registro de boletim de ocorrência e a representação penal constituem prerrogativas personalíssimas e autônomas da mulher adulta e capaz. A equipe de saúde tem o dever de informar e orientar sobre a existência da Delegacia Especializada de Atendimento à Mulher e dos recursos da Lei Maria da Penha (como medidas protetivas de urgência), mas não deve forçar ou conduzir a paciente compulsoriamente à delegacia, pois a quebra da sua autonomia e do tempo necessário para sua tomada de decisão pode deflagrar represálias fatais por parte do agressor.
+
+• **C) Incorreta:** Revelar a situação de violência para vizinhos ou familiares viola frontalmente o segredo profissional médico preconizado pelo Código de Ética Médica. Tal atitude expõe a paciente ao constrangimento e ao julgamento comunitário, além de colocá-la em risco ainda maior caso a informação chegue de modo inadequado ao agressor.
 </details>
 
 ---
@@ -36288,26 +36893,23 @@ Recém-nascido com 36 h de vida é avaliado por médico assistente em maternidad
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta padrão para o caso é repetir o exame em 1 hora, conforme as diretrizes do Ministério da Saúde e da Sociedade Brasileira de Pediatria (SBP).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O recém-nascido apresenta um **resultado suspeito/duvidoso** na triagem neonatal de cardiopatias congênitas críticas, sendo mandatória a **repetição do exame em 1 hora**, de acordo com as diretrizes do **Ministério da Saúde** e da **Sociedade Brasileira de Pediatria (SBP)**.
 
-1. Fundamentação e Raciocínio Clínico:
-O Teste de Triagem Neonatal para Cardiopatias Congênitas Críticas (conhecido como "teste do coraçãozinho") deve ser realizado em todo recém-nascido (RN) aparentemente saudável com idade gestacional > 35 semanas, entre 24 e 48 horas de vida, antes da alta da maternidade. A oximetria de pulso é aferida no membro superior direito (pré-ductal) e em um dos membros inferiores (pós-ductal).
+**Raciocínio Clínico e Fisiopatológico:**
 
-Os critérios de interpretação do teste são:
-- **Teste Normal (Negativo):** Saturação periférica de oxigênio (SpO2) ≥ 95% em ambos os membros E diferença entre as medidas (pré e pós-ductal) ≤ 3% (ou seja, menor que 3 ou até 3%). O RN pode receber alta habitual.
-- **Teste Suspeito/Duvidoso:** SpO2 < 95% em qualquer um dos membros OU diferença entre as medidas ≥ 4% (diferença maior que 3%). Nesses casos, a recomendação formal é **repetir o teste em 1 hora**, por até duas vezes adicionais (totalizando até três medidas).
-- **Teste Positivo (Alterado confirmado):** Caso a alteração persista nas reavaliações consecutivas, o teste é considerado positivo, estando formalmente indicada a realização de Ecocardiograma transtorácico em até 24 horas (ainda antes da alta).
+1. **Diagnóstico da Afecção/Quadro:** Avaliação da **Triagem Neonatal para Cardiopatias Congênitas Críticas** (*teste do coraçãozinho*) com **resultado duvidoso/inconclusivo**, indicando a necessidade de reavaliação seriada para descartar **cardiopatias canal-dependentes**.
 
-No caso clínico apresentado:
-- SpO2 em MSD (pré-ductal) = 99%
-- SpO2 em MID (pós-ductal) = 95%
-- Diferença = 99% - 95% = 4% (diferença ≥ 4%, isto é, > 3%).
-Portanto, o resultado é considerado suspeito/duvidoso na primeira aferição, impondo a repetição do exame em 1 hora.
+2. **Critério Clínico / Fisiopatologia:** O teste é realizado entre **24 e 48 horas de vida** em recém-nascidos assintomáticos com idade gestacional > 35 semanas, aferindo a **saturação periférica de oxigênio (SpO2)** no **membro superior direito** (pré-ductal) e em um dos **membros inferiores** (pós-ductal). Considera-se normal SpO2 ≥ 95% em ambos os sítios e diferença ≤ 3%. Define-se como **suspeito/alterado** quando a SpO2 for < 95% ou a **diferença entre as medidas for ≥ 4%**. No caso relatado, a SpO2 MSD foi de **99%** e no MID de **95%**, resultando em uma **diferença de 4%**, o que classifica o teste como suspeito na primeira aferição.
 
-2. Análise dos Distratores:
-- **A (dar alta hospitalar):** Incorreta. Como a diferença entre as saturações foi de 4% (superior ao limite de tolerância de 3%), o teste não é considerado normal; liberar o paciente sem investigação implica risco de descompensação domiciliar por cardiopatia congênita canal-dependente não diagnosticada.
-- **C (requerer ecocardiograma):** Incorreta. O ecocardiograma é o exame definitivo, porém só está indicado se a alteração persistir após a repetição seriada do teste (após 1 hora).
-- **D (solicitar eletrocardiograma):** Incorreta. O eletrocardiograma não faz parte do algoritmo de triagem ou elucidação diagnóstica inicial para cardiopatias congênitas críticas na triagem neonatal assintomática.
+3. **Indicação de Conduta:** Diante de uma primeira aferição suspeita, o algoritmo preconiza **repetir o teste em 1 hora** (podendo ser repetido mais uma vez após 1 hora se persistir a alteração). O encaminhamento para propedêutica avançada só ocorre se a alteração se mantiver após a reavaliação.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **alta hospitalar** está contraindicada, pois uma diferença de saturação de **4%** extrapola o limite fisiológico (≤ 3%), havendo risco de descompensação domiciliar grave com o fechamento do **canal arterial**.
+
+• **Alternativa C (Incorreta):** A realização de **ecocardiograma** transtorácico é indicada apenas quando o teste for **positivo definitivo**, isto é, caso a alteração persista após a repetição preconizada em 1 hora (ou se SpO2 < 90% em qualquer membro de imediato).
+
+• **Alternativa D (Incorreta):** O **eletrocardiograma** não integra o protocolo de triagem nem o algoritmo inicial de investigação das cardiopatias congênitas críticas canal-dependentes no período neonatal imediato.
 </details>
 
 ---
@@ -36719,17 +37321,25 @@ Considerando-se o quadro apresentado, são características dessa dermatose
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** O quadro clínico descrito — lactente jovem (30 dias de vida) com escamas espessas, amareladas, untuosas/gordurosas e aderentes no couro cabeludo (conhecidas popularmente como 'crosta láctea'), estendendo-se para sobrancelhas e regiões retroauriculares — é patognomônico de Dermatite Seborreica Infantil.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-A dermatite seborreica é uma afecção inflamatória cutânea comum, benigna e autolimitada dos primeiros meses de vida (pico entre 2 e 8 semanas), associada à estimulação transitória das glândulas sebáceas por andrógenos maternos residuais e colonização por leveduras do gênero *Malassezia*. Diferentemente da dermatite atópica (seu principal diagnóstico diferencial), a dermatite seborreica infantil caracteriza-se fundamentalmente por:
-1. Ausência ou intensidade mínima de prurido (o lactente alimenta-se bem, dorme confortavelmente e não se coça ativamente);
-2. Ausência de estigmas atópicos laboratoriais, como eosinofilia periférica e elevação de IgE sérica.
-Portanto, a alternativa (D) está plenamente correta.
+O quadro clínico apresentado é clássico de **dermatite seborreica infantil**, manifestação dermatológica extremamente comum nas primeiras semanas e meses de vida, cujo pico de incidência ocorre entre a 3ª e a 8ª semana após o nascimento. A afecção decorre da hiperatividade transitória das glândulas sebáceas do recém-nascido, estimuladas pela passagem transplacentária de androgênios maternos no final da gestação, associada à colonização comensal por leveduras lipofílicas do gênero Malassezia e à consequente resposta inflamatória local.
 
-Análise das alternativas incorretas:
-- A) Incorreta. Exudação e vesículas caracterizam a fase aguda do eczema atópico (dermatite atópica). A dermatite seborreica não cursa tipicamente com lesões vesiculares.
-- B) Incorreta. A liquenificação (espessamento da pele com acentuação dos sulcos cutâneos) resulta do ato crônico de coçar/friccionar, sendo um marcador de cronicidade da dermatite atópica em crianças maiores, não ocorrendo na dermatite seborreica do lactente.
-- C) Incorreta. Embora a descamação esteja presente, o aumento de IgE sérica é típico de condições atópicas (como dermatite atópica grave e asma), permanecendo em níveis fisiológicos/normais na dermatite seborreica.
+Clinicamente, manifesta-se por escamas espessas, untuosas, amareladas e aderentes sobre base eritematosa suave, acometendo preferencialmente o vértex e a fontanela anterior (quadro popularmente conhecido como crosta láctea), além de sobrancelhas, sulcos nasolabiais, região retroauricular e dobras cutâneas intertriginosas.
+
+A diferenciação entre a dermatite seborreica e a dermatite atópica no lactente jovem é um tema de extrema relevância na prática pediátrica e em exames de certificação:
+
+1. **Ausência de prurido e bem-estar do lactente:** Ao contrário da dermatite atópica, na qual o prurido é intenso, intratável e interfere no sono, no humor e na amamentação, a dermatite seborreica infantil é assintomática ou oligossintomática. O lactente mantém-se tranquilo, mama ativamente e dorme sem sinais de irritabilidade ou coçadura.
+
+2. **Perfil laboratorial e ausência de atopia:** A dermatite seborreica não faz parte da marcha atópica. Dessa forma, não cursa com eosinofilia no sangue periférico e tampouco apresenta níveis séricos elevados de imunoglobulina E (IgE total ou específica). Trata-se de uma entidade puramente inflamatória, benigna e autolimitada, cuja abordagem principal envolve medidas conservadoras, como a aplicação de óleos vegetais ou minerais para amolecimento das crostas e posterior remoção mecânica suave durante o banho.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A presença de exsudação serosa e vesículas agrupadas é a marca registrada da fase aguda do eczema atópico e das dermatites de contato agudas. Na dermatite seborreica infantil, as lesões são predominantemente ceratósicas, descamativas e oleosas, sem vesiculação.
+
+• **B) Incorreta:** A liquenificação corresponde ao espessamento da epiderme com acentuação dos sulcos e linhas naturais da pele, originada pelo traumatismo mecânico crônico do ato de friccionar ou coçar (prurigo/coçadura). Trata-se de um estigma da dermatite atópica crônica, comumente observado em crianças maiores e adolescentes nas dobras flexurais, sendo incompatível com a dermatite seborreica, que não coça.
+
+• **C) Incorreta:** Embora a descamação seja um componente elementar presente, o aumento da IgE sérica total reflete uma desregulação imunológica de perfil Th2 associada à diátese atópica, mantendo-se estritamente normal na dermatite seborreica.
 </details>
 
 ---
@@ -36752,15 +37362,19 @@ Considerando-se essa situação, o diagnóstico da dermatose apresentada é
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** O quadro clínico apresentado é clássico de Eritema Tóxico Neonatal (Erythema toxicum neonatorum), tornando a alternativa B a correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa B**. O quadro clínico descrito é patognomônico de **eritema tóxico neonatal** (*erythema toxicum neonatorum*), uma dermatose transitória e benigna clássica do período neonatal imediato, conforme as diretrizes da **Sociedade Brasileira de Pediatria (SBP)**.
 
-1. Fundamentação Clínica e Fisiopatológica:
-O eritema tóxico é uma condição benigna, idiopática e autolimitada extremamente comum em recém-nascidos a termo (acomete de 30% a 70% dos neonatos). Clinicamente, caracteriza-se pelo surgimento típico entre o 1º e o 3º dia de vida (com pico por volta do 2º dia) de máculas eritematosas, pápulas e pequenas pústulas ou vesículas estéreis de 1 a 3 mm, circundadas por um halo eritematoso evidente (aspecto frequentemente descrito como 'picada de pulga'). As lesões acometem predominantemente o tronco, face e extremidades proximais, classicamente poupando as regiões palmoplantares. O recém-nascido mantém-se em excelente estado geral, afebril e com sinais vitais preservados. A citologia do conteúdo das pústulas revela predomínio característico de eosinófilos. A evolução é espontaneamente favorável, ocorrendo resolução completa em 7 a 14 dias, sem necessidade de intervenção terapêutica além da orientação aos pais.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- A) Miliária rubra: decorre da obstrução das glândulas sudoríparas écrinas intraepidérmicas, geralmente associada ao calor excessivo e agasalhamento. Apresenta-se com micropápulas e microvesículas eritematosas punctiformes, preferencialmente em áreas de dobras cutâneas, face e tronco superior, não exibindo o clássico halo eritematoso amplo (1 a 2 cm) ao redor de pústulas centrais típico do eritema tóxico.
-- C) Pustulose cefálica neonatal: anteriormente denominada acne neonatal, manifesta-se mais tardiamente (geralmente entre a 2ª e a 3ª semana de vida) e localiza-se primariamente na face (fronte, bochechas, queixo) e couro cabeludo, associando-se à colonização por fungos do gênero *Malassezia*, sem a dispersão pelo tronco e abdome observada no caso.
-- D) Melanose pustulosa transitória neonatal: comumente já está presente ao nascimento (1º dia de vida). Caracteriza-se por pústulas superficiais frágeis que NÃO possuem halo eritematoso subjacente e que, ao romperem, deixam máculas hiperpigmentadas residuais com colarete descamativo periférico; além disso, diferentemente do eritema tóxico, pode acometer palmas e plantas e tem predomínio de neutrófilos à citologia.
+1. **Diagnóstico da Afecção:** Trata-se de **eritema tóxico neonatal**, dermatose inflamatória benigna, autolimitada e estéril, que acomete de 30% a 70% dos recém-nascidos a termo.
+2. **Critério Clínico / Fisiopatologia:** O pico de incidência ocorre tipicamente entre o **2º e o 3º dia de vida**. As lesões elementares consistem em **pápulas**, **vesículas** e **pústulas** milimétricas sobre base amplamente eritematosa (halo de 1 a 2 cm, com aspecto clássico de "picada de pulga"). Distribuem-se predominantemente em tronco, face e porção proximal das extremidades, caracteristicamente **poupando palmas e plantas**. O neonato mantém-se em **bom estado geral**, ativo e afebril. Caso realizada, a citologia da lesão evidencia infiltrado rico em **eosinófilos**.
+3. **Indicação de Conduta:** A evolução natural é a **resolução espontânea** em 7 a 14 dias sem sequelas. A conduta padrão-ouro é estritamente **expectante**, consistindo na orientação parental e garantia de que não se trata de processo infeccioso, evitando intervenções desnecessárias.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A **miliária rubra** decorre da obstrução dos ductos das **glândulas écrinas intraepidérmicas**, tipicamente precipitada por sobreaquecimento cutâneo. Apresenta micropápulas e microvesículas puntiformes eritematosas em áreas de dobras, pescoço e tronco superior, sem o **halo eritematoso amplo** (1 a 2 cm) característico do eritema tóxico.
+• **Alternativa C (Incorreta):** A **pustulose cefálica neonatal** (anteriormente chamada de acne neonatal) surge mais tardiamente (geralmente entre a **2ª e 3ª semana de vida**), restringe-se primariamente à **face e couro cabeludo** e está relacionada à colonização pelo fungo comensal ***Malassezia* spp.**, não acometendo difusamente o tronco.
+• **Alternativa D (Incorreta):** A **melanose pustulosa transitória neonatal** costuma estar presente já ao **nascimento** (1º dia). Suas pústulas são superficiais, frágeis e **não possuem halo eritematoso** periférico; ao se romperem, deixam máculas hiperpigmentadas residuais com colarete descamativo. Além disso, pode envolver **palmas e plantas** e seu raspado citológico demonstra predomínio de **neutrófilos**.
 </details>
 
 ---
@@ -37024,17 +37638,25 @@ Um pré-escolar aguardando um atendimento eletivo foi vítima de colapso súbito
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A conduta descrita na alternativa (A) segue com exatidão as Diretrizes de Reanimação Cardiopulmonar (RCP) e Atendimento Cardiovascular de Emergência Pediátrico (PALS) da American Heart Association (AHA, 2020), amplamente adotadas pela Sociedade Brasileira de Pediatria (SBP).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. **Fundamentação da Alternativa Correta (A):**
-- **Avaliação inicial:** Diante de uma vítima em colapso, o socorrista deve garantir a segurança da cena e avaliar a responsividade (tocando nos ombros e chamando a criança em voz alta). Constatada a irresponsividade, deve-se convocar ajuda imediatamente (acionar o time de emergência/código azul e solicitar o desfibrilador/carrinho de parada).
-- **Checagem de pulso e respiração:** Profissionais de saúde devem checar a respiração (ausente ou apenas *gasping*) e o pulso simultaneamente em um intervalo de 5 a 10 segundos para não atrasar as intervenções. Em crianças maiores de 1 ano (pré-escolares e escolares), a palpação deve ser feita em pulso central (carotídeo ou femoral), nunca periférico.
-- **Relação compressão-ventilação:** Na ausência de pulso detectável (ou frequência cardíaca < 60 bpm com sinais de má perfusão), iniciam-se as compressões torácicas. Para profissionais de saúde em ambiente intra-hospitalar (onde o socorro é prestado em equipe ou com a pronta chegada do segundo socorrista), a relação preconizada para parada cardiopulmonar (PCP) pediátrica é de **15 compressões para 2 ventilações** (15:2).
+O manejo da parada cardiorrespiratória pediátrica intra-hospitalar fundamenta-se nas diretrizes do Pediatric Advanced Life Support da American Heart Association (PALS/AHA, 2020). Em crianças, a etiologia mais frequente de colapso envolve a insuficiência respiratória ou choque descompensado que evoluem para hipóxia tecidual e bradicardia extrema, culminando em assistolia ou atividade elétrica sem pulso, embora ritmos chocáveis também possam ocorrer em colapsos súbitos.
 
-2. **Análise dos Distratores:**
-- **Alternativa B:** Incorreta. Indica a palpação de pulso radial (um pulso periférico, inapropriado e não confiável na parada cardíaca/estados de choque profundo) e prescreve a relação de 30:2, que na pediatria é restrita ao socorrista leigo único ou profissional isolado sem previsão de auxílio imediato.
-- **Alternativa C:** Incorreta. Inverte a ordem inicial (chama por ajuda antes de checar a responsividade), além de indicar erroneamente a palpação de pulso periférico (radial).
-- **Alternativa D:** Incorreta. Também inverte a cronologia de suporte básico de vida (chama ajuda sem previamente testar a resposta do paciente) e estabelece a relação de 30:2 em vez do padrão pediátrico de 15:2 para equipes de saúde.
+A abordagem sequencial preconizada para profissionais de saúde estrutura-se nas seguintes etapas:
+
+1. **Avaliação de responsividade e acionamento de socorro:** Ao presenciar a vítima colapsada, a equipe deve primeiramente constatar a segurança do local e avaliar a responsividade. Confirmada a inconsciência, deve-se chamar por ajuda imediatamente, ativando o sistema de resposta rápida ou código de parada do hospital e solicitando o carrinho de emergência com desfibrilador.
+
+2. **Checagem simultânea de pulso e respiração:** O profissional deve avaliar simultaneamente a presença de respiração espontânea eficaz (observando expansão torácica ou respiração agônica/gasping) e a palpação de um pulso central, sem retardar a avaliação por mais de 10 segundos (mínimo de 5 e máximo de 10 segundos). Em pré-escolares e escolares (crianças maiores de 1 ano de idade), os pulsos centrais indicados são o carotídeo ou o femoral. O pulso braquial é reservado para lactentes (menores de 1 ano). Pulsos periféricos jamais devem ser avaliados nesse cenário.
+
+3. **Início da ressuscitação cardiopulmonar:** Caso o pulso central não seja detectado de forma inequívoca em até 10 segundos, ou se a frequência cardíaca for inferior a 60 batimentos por minuto acompanhada de sinais de má perfusão periférica, inicia-se imediatamente a **parada cardiorrespiratória** pediátrica com manobras de RCP de alta qualidade. No contexto intra-hospitalar com atuação de profissionais de saúde, adota-se a relação de **15 compressões para 2 ventilações** (15:2), visto que o suporte à ventilação é crucial na faixa etária pediátrica devido à prevalência da hipoxemia como gatilho do evento.
+
+**Análise das alternativas incorretas:**
+
+• **Alternativa B:** Incorreta. Apresenta dois erros técnicos graves: preconiza a palpação de pulso periférico (radial), o qual perde a detectabilidade muito precocemente em situações de baixo débito e choque profundo, sendo proscrito para verificação de PCR; e traz a relação de compressão-ventilação de 30:2, que não representa a conduta recomendada para equipes de saúde em ambiente intra-hospitalar pediátrico.
+
+• **Alternativa C:** Incorreta. Altera a sequência lógica das diretrizes ao orientar chamar por ajuda antes de certificar a inconsciência do paciente, além de indicar erroneamente a palpação do pulso radial periférico em vez de um pulso central como o carotídeo ou femoral.
+
+• **Alternativa D:** Incorreta. Apresenta falha cronológica ao propor o acionamento de socorro sem a prévia testagem de responsividade, além de preconizar a relação 30:2 em vez do padrão pediátrico de 15:2 indicado para o ambiente intra-hospitalar com múltiplos profissionais.
 </details>
 
 ---
@@ -37188,16 +37810,22 @@ Nesse caso, o paciente apresenta
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A alternativa (B) é a correta. O quadro clínico e propedêutico preenche todos os critérios diagnósticos para Baixa Estatura Familiar (Genética), uma variante normal do crescimento:
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O quadro clínico e propedêutico preenche com precisão os critérios da Sociedade Brasileira de Pediatria (**SBP**) para o diagnóstico de **baixa estatura familiar**, uma variante normal do crescimento em que o paciente mantém crescimento adequado para o seu potencial genético.
 
-1. **Estatura atual e Alvo Genético:** O paciente apresenta estatura entre os escores-z -2 e -3 (caracterizando baixa estatura, definida como escore-z < -2 ou abaixo do percentil 3). Calculando o canal familiar (alvo parental): [Altura do pai (161) + Altura da mãe (150) + 13] / 2 = 324 / 2 = 162 cm. Essa estatura-alvo situa-se também em torno do escore-z -2 para a idade adulta, demonstrando que a projeção de crescimento da criança é totalmente compatível com o potencial genético de sua família.
-2. **Velocidade de Crescimento (VC):** O paciente cresceu 2,5 cm em 6 meses, o que corresponde a uma velocidade de 5,0 cm/ano. Trata-se de uma VC normal para a faixa etária antes do pico do estirão puberal (espera-se no mínimo 4 a 5 cm/ano).
-3. **Idade Óssea (IO):** A radiografia revelou IO de 11 anos, rigorosamente igual à idade cronológica (IC = IO = 11 anos), achado típico e definidor da Baixa Estatura Familiar.
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise das alternativas incorretas:
-- **A está incorreta:** Define-se atraso puberal no sexo masculino pela ausência de sinais de puberdade (volume testicular < 4 mL ou estágio G1 de Tanner) aos 14 anos de idade. O paciente tem 11 anos e já iniciou a puberdade fisiologicamente, encontrando-se no estágio G2P1.
-- **C está incorreta:** Uma velocidade de crescimento de 2,5 cm em 6 meses (5,0 cm/ano) é normal para a fase pré-estirão. Uma VC reduzida (< 4 cm/ano) sugeriria causas patológicas (como hipotireoidismo ou deficiência de GH), o que não é o caso.
-- **D está incorreta:** No Retardo Constitucional do Crescimento e da Puberdade (RCCP), a idade óssea é tipicamente atrasada em relação à idade cronológica (diferença geralmente maior que 1 a 2 anos). Como neste caso a IO coincide com a IC, exclui-se o RCCP.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **baixa estatura familiar** (genética). O paciente apresenta estatura atual com **escore-z entre -2 e -3**, o que define baixa estatura (escore-z < -2 ou percentil < 3), porém compatível com o **alvo parental** (canal genético estimado em 162 cm).
+2. **Critério Clínico / Fisiopatologia:** Os três pilares para diferenciar as variantes normais do crescimento consistem em:
+   - **Velocidade de crescimento (VC) normal:** O ganho estatural foi de 2,5 cm em 6 meses, projetando uma VC de **5,0 cm/ano**, perfeitamente fisiológica para a faixa etária pré-estirão (normal ≥ 4 a 5 cm/ano).
+   - **Idade óssea (IO) compatível:** A radiografia revelou **IO de 11 anos**, rigorosamente igual à **idade cronológica (IC)** (IC = IO = 11 anos), achado patognomônico que afasta distúrbios de maturação lenta.
+   - **Desenvolvimento puberal adequado:** O estadiamento de **Tanner G2 P1** aos 11 anos evidencia início puberal fisiológico (aumento testicular ≥ 4 mL).
+3. **Indicação de Conduta:** Nas variantes normais do crescimento como a **baixa estatura familiar**, a conduta padrão-ouro é o **acompanhamento clínico longitudinal** com reavaliações periódicas da velocidade de crescimento e orientação/tranquilização da família, sem necessidade de intervenções farmacológicas.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O **atraso puberal** no sexo masculino é conceituado pela ausência de caracteres sexuais secundários (volume testicular < 4 mL ou estágio **Tanner G1**) após os **14 anos de idade**. O paciente tem 11 anos e já se encontra em **G2P1**, evidenciando puberdade em curso e em tempo fisiológico.
+• **Alternativa C (Incorreta):** A velocidade de crescimento calculada é de **5,0 cm/ano** (2,5 cm em 6 meses), padrão considerado normal para a idade. Uma velocidade reduzida (< 4 cm/ano) sugeriria condições patológicas, tais como **hipotireoidismo** ou **deficiência de GH**.
+• **Alternativa D (Incorreta):** O distúrbio constitucional de estatura (retardo constitucional do crescimento e da puberdade – *RCCP*) cursa caracteristicamente com **idade óssea atrasada** em relação à idade cronológica (diferença geralmente superior a 1,5 a 2 anos), além de puberdade tardia. No caso relatado, a **IO é idêntica à IC**.
 </details>
 
 ---
@@ -37426,15 +38054,17 @@ No que diz respeito ao Código de Ética Médica, o médico
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A conduta médica está fundamentada no Código de Ética Médica (CEM - Resolução CFM nº 2.217/2018) e nas diretrizes do Conselho Federal de Medicina (Parecer CFM nº 25/2013) e da Sociedade Brasileira de Pediatria (SBP) sobre o atendimento a adolescentes.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O médico não cometeu infração ética ao informar a mãe do paciente, pois agiu amparado pela excludente de **justa causa**, fundamentada no **Artigo 73 do Código de Ética Médica (CEM - Resolução CFM nº 2.217/2018)** e nas diretrizes da **Sociedade Brasileira de Pediatria (SBP)**, uma vez que a omissão deliberada do tratamento configurava risco iminente de morte.
 
-1. **Fundamentação ética e clínica da alternativa B:**
-O Artigo 73 do CEM veda ao médico revelar segredo profissional referente a paciente menor de idade, desde que este tenha capacidade de discernimento, *salvo quando a não revelação possa acarretar dano ao paciente*. A autonomia e a confidencialidade do adolescente são garantidas quando há capacidade de avaliação e autocuidado; contudo, esse sigilo **não é absoluto**. A quebra de sigilo por **justa causa** é imperativa em situações que envolvem risco iminente de morte ou danos graves à integridade física/psíquica do menor. No caso clínico, a omissão deliberada da insulinoterapia pelo paciente já resultou em duas internações por cetoacidose diabética (CAD) em três meses — uma complicação metabólica aguda potencialmente fatal decorrente da insulinopenia absoluta (lipólise exacerbada, cetogênese descontrolada e acidose metabólica grave). Diante do risco vital concreto decorrente da recusa terapêutica, a comunicação aos responsáveis legais torna-se um dever ético de proteção, descaracterizando infração ética.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Paciente de 13 anos com diagnóstico de **diabetes mellitus tipo 1** apresentando episódios recorrentes de **cetoacidose diabética (CAD)** secundários à **recusa e omissão deliberada da insulinoterapia**.
+2. **Critério Clínico / Fisiopatologia:** A suspensão da insulina deflagra um quadro de **insulinopenia absoluta**, estimulando **lipólise exacerbada**, geração massiva de corpos cetônicos no fígado e grave **acidose metabólica**, complicação aguda com elevada taxa de letalidade. O histórico de **duas internações em três meses** e o descarte ativo das medicações caracterizam um **risco vital concreto e iminente** decorrente da falta de discernimento crítico do adolescente quanto à gravidade da doença.
+3. **Indicação de Conduta:** Conforme o **Artigo 73 do CEM**, é vedado revelar segredo referente a paciente menor de idade dotado de discernimento, *salvo quando a não revelação possa acarretar dano ao paciente*. A preservação do sigilo médico em adolescentes não é absoluta; a constatação de **risco de dano grave ou morte** impõe ao médico a comunicação aos responsáveis legais por **justa causa**, afastando qualquer ilicitude ética.
 
-2. **Análise dos distratores:**
-- **A: Incorreta.** O médico não cometeu infração, pois agiu sob a excludente de ilicitude ética da "justa causa" (Art. 73 do CEM), priorizando a vida e a integridade do menor.
-- **C: Incorreta.** A justificativa legal e ética para a quebra de sigilo decorre exclusivamente da existência de situação de risco grave e iminente à saúde (justa causa), e não do conhecimento prévio da genitora sobre as internações anteriores.
-- **D: Incorreta.** A autonomia de menores de idade, embora deva ser respeitada e estimulada, encontra limites claros no princípio da beneficência e da não maleficência quando as decisões do paciente colocam sua própria vida em perigo iminente.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** O profissional não incorreu em infração ética, pois a quebra de confidencialidade foi devidamente respaldada pela presença de **justa causa** (risco de morte por descompensação metabólica grave).
+• **Alternativa C (Incorreta):** O respaldo ético e legal da comunicação decorre unicamente da existência de **risco iminente à integridade física** do paciente, sendo irrelevante o fato de a mãe já ter ciência prévia das hospitalizações anteriores.
+• **Alternativa D (Incorreta):** A **autonomia do paciente**, em especial de menores de idade, não é ilimitada; ela é sobreposta pelos princípios da **beneficência** e da **não maleficência** sempre que as escolhas do indivíduo acarretarem **autolesão grave ou perigo iminente à vida**.
 </details>
 
 ---
@@ -37453,15 +38083,20 @@ Um escolar com 8 anos, acompanhado da mãe, chega à unidade básica de saúde c
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** O quadro clínico descrito é clássico de Diabetes Mellitus tipo 1 (DM1) abrindo como Cetoacidose Diabética (CAD). A tríade clássica (polidipsia/polifagia/perda ponderal associada à poliúria, aqui manifestada como enurese noturna secundária), combinada com desidratação, dor abdominal, vômitos e padrão respiratório de Kussmaul (taquipneia com incursões amplas e profundas para compensação da acidose metabólica), sela a suspeita diagnóstica de CAD em uma criança.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
+O quadro clínico descrito é clássico de **diabetes mellitus tipo 1** em sua apresentação inicial com descompensação aguda em **cetoacidose diabética**. A perda de peso expressiva (5 kg em 20 dias) associada a polifagia e enurese noturna secundária (em criança previamente continente desde os 5 anos) traduz a presença da síndrome consumptiva e da poliúria osmótica por hiperglicemia e glicosúria. A evolução de 5 dias com náuseas, vômitos, dor abdominal difusa, desidratação (mucosas secas) e hipoatividade reflete a cetonemia, acidose metabólica e o estresse peritoneal associado à cetoacidose. O achado de taquipneia acentuada com movimentos respiratórios amplos (frequência respiratória de 50 irpm) caracteriza o padrão ventilatório de Kussmaul, mecanismo compensatório do centro respiratório para eliminar dióxido de carbono e tamponar a acidose metabólica de ânion gap elevado.
 
-Justificativa da alternativa correta (A):
-O DM1 é uma afecção crônica autoimune caracterizada pela destruição progressiva das células beta pancreáticas e deficiência absoluta de insulina. O seguimento a longo prazo impõe uma rotina terapêutica complexa que inclui insulinoterapia intensiva basal-bolus, automonitorização glicêmica frequente, contagem de carboidratos e ajustes em situações de intercorrências ou exercícios físicos. Na faixa etária pediátrica, as diretrizes da Sociedade Brasileira de Pediatria (SBP) e da Sociedade Brasileira de Diabetes (SBD) destacam que o apoio e a educação da família constituem um pilar essencial para a adesão ao tratamento, alcance do controle glicêmico adequado, prevenção de complicações agudas (como episódios recorrentes de CAD e hipoglicemias) e cronodegenerativas a longo prazo (micro e macrovasculares).
+Após o manejo intensivo intra-hospitalar da descompensação com hidratação venosa e insulinoterapia em bomba contínua, o seguimento a longo prazo requer uma abordagem ambulatorial multidisciplinar e permanente. A etiologia autoimune do diabetes tipo 1 culmina na destruição das células beta pancreáticas, gerando deficiência absoluta de insulina. Sendo uma doença crônica, de curso vitalício, seu manejo ambulatorial engloba insulinoterapia plena, automonitorização glicêmica, contagem de carboidratos e vigilância de complicações agudas (como hipoglicemia e novas crises de cetoacidose) e micro e macrovasculares a longo prazo. Na faixa etária pediátrica, o engajamento e o suporte familiar são essenciais, visto que a criança é dependente de seus cuidadores para a administração correta das doses, vigilância alimentar e tomada de decisões terapêuticas diárias.
 
-Análise dos distratores:
-- B: Incorreta. Desmopressina (análogo de vasopressina) e terapias comportamentais com alarme são estratégias para o manejo da enurese noturna monossintomática primária. No caso, a enurese é secundária à poliúria osmótica decorrente da hiperglicemia do DM1.
-- C: Incorreta. A 'fase de lua de mel' (remissão parcial) decorre de uma recuperação temporária de secreção residual de insulina endógena e costuma durar semanas a alguns meses (raramente excedendo 1 a 2 anos), jamais 'décadas'. Ao término dessa fase, a insulinoterapia plena é mandatória e vitalícia.
-- D: Incorreta. Embora a alimentação balanceada e a prática de exercícios físicos sejam pilares fundamentais no estilo de vida de pacientes com diabetes, no DM1 a terapia farmacológica com insulina exógena é estritamente necessária e insubstituível para toda a vida, dada a ausência de produção endógena do hormônio.
+**Análise das alternativas incorretas:**
+
+• **A) Correta:** Descreve de forma precisa a natureza crônica da patologia e destaca a importância central da família na adesão ao plano terapêutico e na prevenção de complicações a longo prazo.
+
+• **B) Incorreta:** O uso de desmopressina (análogo sintético da vasopressina) e a terapia com alarme noturno são estratégias destinadas à enurese noturna monossintomática primária. No caso clínico, a perda urinária é uma enurese secundária decorrente da diurese osmótica induzida pela hiperglicemia acentuada, não possuindo indicação de desmopressina, além de não se tratar de uma condição autolimitada que remita aos 15 anos.
+
+• **C) Incorreta:** A fase de remissão parcial, conhecida como lua de mel, decorre de uma discreta e transitória recuperação de células beta residuais logo após a estabilização inicial do paciente. Contudo, essa fase dura habitualmente poucas semanas ou meses, raramente ultrapassando um a dois anos, e nunca dura décadas. Ao final desse período, a reposição hormonal exógena com insulina torna-se mandatória e vitalícia.
+
+• **D) Incorreta:** Estilo de vida saudável, plano nutricional individualizado e exercícios físicos são indispensáveis, mas a base fisiopatológica da doença é a ausência absoluta de insulina. Portanto, a terapia farmacológica com insulina exógena é mandatória, contínua e insubstituível ao longo de toda a vida do paciente.
 </details>
 
 ---
@@ -37796,21 +38431,21 @@ Uma adolescente com 16 anos procura a unidade básica de saúde para avaliação
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) é a correta, pois integra com precisão o diagnóstico dermatológico e o diagnóstico genético/endocrinológico apresentados pelo caso clínico.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Diagnóstico Dermatológico (Dermatite de Contato):
-A paciente desenvolveu placa eritematosa, liquenificada (sinal de cronicidade decorrente do ato de coçar) e pruriginosa restrita à região peri-umbilical, topograficamente associada à inserção de um piercing. Trata-se de um quadro clássico de dermatite de contato por hipersensibilidade tipo IV (mediada por células), habitualmente desencadeada por metais presentes em adornos corporais, principalmente o níquel. 
+1. **Componente Dermatológico:**
+A paciente apresenta uma placa eritematosa, liquenificada (espessamento da epiderme decorrente de prurido e fricção crônicos) e intensamente pruriginosa, estritamente circunscrita à topografia adjacente à inserção recente de adorno metálico (piercing). O quadro decorre de hipersensibilidade mediada por células (tipo IV de Gell e Coombs), desencadeada pela exposição a haptenos metálicos, predominantemente o níquel. A anamnese ocupacional e hábitos associados ao padrão morfológico e topográfico confirmam o diagnóstico de **dermatite de contato** alérgica.
 
-2. Diagnóstico Genético/Endocrinológico (Síndrome de Turner):
-A paciente tem 16 anos e apresenta atraso puberal significativo com amenorreia primária (ausência de menarca até os 15 anos ou 3 anos após telarca) e estadiamento M1P1 de Tanner (infantilismo sexual decorrente de hipogonadismo hipergonadotrófico por disgenesia gonadal). Associam-se achados fenotípicos marcantes: baixa estatura, pescoço alado (pterygium colli) e implantação baixa das orelhas. Essa constelação clínica é patognomônica da Síndrome de Turner (geralmente com cariótipo 45,X ou variantes em mosaico).
+2. **Componente Genético-Endocrinológico:**
+A paciente com 16 anos preenche critérios inequívocos para puberdade atrasada e amenorreia primária (definida pela ausência de caracteres sexuais secundários após os 13 anos ou ausência de menarca após os 15 anos). O estadiamento de Tanner M1P1 reflete infantilismo sexual por hipogonadismo hipergonadotrófico decorrente de disgenesia gonadal (estrias fibrosas ovarianas). A associação obrigatória com fenótipo dismórfico — baixa estatura proporcional, pescoço alado (pterygium colli) e implantação baixa dos pavilhões auriculares — define o quadro clínico clássico da **síndrome de Turner** (monossomia do cromossomo X ou mosaicismos correlatos), cuja investigação definitiva requer cariótipo com contagem mínima de 30 metáfases.
 
-Análise das alternativas incorretas:
+**Análise das alternativas incorretas:**
 
-- Alternativa A (Incorreta): A tinea corporis caracteriza-se por lesões anulares com bordas eritematodescamativas ativas e clareamento central, sem relação causal direta com ligas metálicas de piercings. A síndrome de Kabuki cursa com fácies característica (alongamento de fendas palpebrais com eversão do terço lateral da pálpebra inferior, sobrancelhas arqueadas), persistência de coxins digitais fetais e deficiência intelectual, não sendo a principal hipótese para pescoço alado com amenorreia primária.
+• **A) Incorreta:** A tinea corporis é uma infecção fúngica superficial caracterizada morfologicamente por placas anulares de bordas ativas, eritematosas e descamativas, com resolução/clareamento central, não guardando nexo causal com perfurações dérmicas ou joias. A síndrome de Kabuki é uma desordem genética com fácies característica composta por eversão do terço lateral da pálpebra inferior, sobrancelhas arqueadas e esparsas lateralmente, associada a deficiência intelectual e coxins digitais fetais persistentes, sem o quadro gonadal descrito.
 
-- Alternativa B (Incorreta): A dermatite atópica caracteriza-se por lesões pruriginosas preferencialmente em áreas de dobras flexurais (fossas cubitais e poplíteas) e associação com história pessoal/familiar de atopia, não se justificando como lesão isolada após perfuração cutânea. A síndrome de Noonan tem herança autossômica dominante, atinge ambos os sexos e pode mimetizar o fenótipo de Turner (baixa estatura, pescoço alado), mas meninas com Noonan geralmente apresentam desenvolvimento puberal e fertilidade normais, além de anomalias cardíacas predominantemente do lado direito (como estenose pulmonar).
+• **B) Incorreta:** A dermatite atópica manifesta-se tipicamente em superfícies flexurais (fossas antecubitais e poplíteas), com xerose cutânea difusa e história pessoal ou familiar de atopia. A síndrome de Noonan é uma condição autossômica dominante decorrente de mutações na via RAS-MAPK (como no gene PTPN11) que afeta ambos os sexos e pode mimetizar o pescoço alado e a baixa estatura, porém a função ovariana e a fertilidade nas mulheres são habitualmente preservadas, não cursando com infantilismo sexual e amenorreia primária como regra.
 
-- Alternativa D (Incorreta): A dermatite seborreica manifesta-se tipicamente com eritema e escamas amareladas/gordurosas em couro cabeludo, face e tórax superior, sem relação com piercing. A síndrome de Carpenter é uma afecção autossômica recessiva rara caracterizada por craniossinostose, polissindactilia, obesidade e deficiência intelectual, incompatível com o fenótipo apresentado.
+• **D) Incorreta:** A dermatite seborreica manifesta-se como placas eritematosas cobertas por escamas gordurosas e amareladas em áreas de alta densidade de glândulas sebáceas (couro cabeludo, face, região interciliar e pré-esternal). A síndrome de Carpenter consiste em um distúrbio autossômico recessivo do grupo das acrocefalopolissindactilias, cursando com craniossinostose precoce, alterações faciais assimétricas e polissindactilia, sem qualquer congruência com o fenótipo turneriano.
 </details>
 
 ---
@@ -38216,15 +38851,19 @@ Com base nas informações descritas, a principal hipótese diagnóstica é
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A principal hipótese diagnóstica para o caso é a **Púrpura Trombocitopênica Imunológica (PTI) grave** (Alternativa D).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-### Fundamentação Clínica e Fisiopatológica:
-1. **Apresentação Clínica:** Paciente jovem com síndrome hemorrágica predominantemente cutâneo-mucosa (petéquias, sangramento gengival e hemorragia bolhosa em mucosa oral). O achado de bolhas hemorrágicas em mucosa bucal ('púrpura úmida') é um marcador clínico clássico de trombocitopenia acentuada (frequentemente < 20.000/mm³) e denota maior risco de sangramento do sistema nervoso central, caracterizando o quadro como **grave** conforme as diretrizes da Associação Brasileira de Hematologia, Hemoterapia e Terapia Celular (ABHH) e consensos internacionais.
-2. **Achados Laboratoriais e Fisiopatologia:** A presença de macroplaquetas no sangue periférico reflete trombopoiese acelerada em resposta à destruição plaquetária periférica imunomediada (anticorpos anti-glicoproteínas de membrana plaquetária, como GPIIb/IIIa, com depuração pelo sistema reticuloendotelial esplênico). O restante das séries hematológicas preservadas (ou com leve anemia ferropriva/espúria por sangramento) e a ausência de esquizócitos caracterizam a trombocitopenia isolada.
+1. **Manifestação Clínica e Gravidade:** O caso descreve uma mulher jovem previamente hígida apresentando um quadro clássico de síndrome purpúrica cutâneo-mucosa de início subagudo, caracterizada por petéquias em membros inferiores, gengivorragia e, criticamente, bolhas hemorrágicas na mucosa oral. O achado de bolhas hemorrágicas em cavidade oral define o conceito clínico de **púrpura úmida**, indicativo de trombocitopenia profunda, tipicamente com contagem de plaquetas inferior a 20.000/mm³ ou mesmo 10.000/mm³. Essa manifestação confere gravidade imediata ao quadro pelo risco iminente de sangramentos de maior morbimortalidade, como hemorragia digestiva alta e hemorragia intracraniana. O diagnóstico que melhor unifica esses achados é a **púrpura trombocitopênica imunológica grave**.
 
-### Análise dos Distratores:
-- **A e B (Síndrome Hemolítico-Urêmica e Púrpura Trombocitopênica Trombótica):** Ambas são microangiopatias trombóticas (MAT) marcadas por anemia hemolítica microangiopática com presença obrigatória de **esquizócitos** no esfregaço de sangue periférico e consumo plaquetário. A PTT tipicamente cursa com a pêntade clássica (febre, plaquetopenia, anemia hemolítica microangiopática, disfunção renal e alterações neurológicas flutuantes) mediada por deficiência grave da enzima ADAMTS13. A SHU cursa com predomínio de insuficiência renal aguda oligúrica (frequentemente pós-diarreica associada a Shiga-toxina). Nenhum desses elementos está presente no caso.
-- **C (Trombocitopenia induzida por fármaco):** Foi explicitamente afastada na anamnese, uma vez que a paciente nega qualquer uso recente de medicamentos ou ingestão de bebidas à base de quinino (típico gatilho de trombocitopenia imune induzida por substâncias).
+2. **Mecanismo Fisiopatológico e Achados Laboratoriais:** A destruição plaquetária na púrpura trombocitopênica imunológica decorre da produção de autoanticorpos (predominantemente da classe IgG) direcionados contra glicoproteínas da membrana plaquetária, como as integrinas GPIIb/IIIa e GPIb/IX. As plaquetas opsonizadas são subsequentemente depuradas pelos macrófagos teciduais, principalmente no baço. Em resposta à destruição acelerada no leito esplênico, a medula óssea aumenta a trombopoiese e libera plaquetas jovens, imaturas e maiores na circulação, o que justifica a presença de macroplaquetas observadas no esfregaço de sangue periférico. Trata-se de um diagnóstico de exclusão, no qual a trombocitopenia é isolada, sem anemia hemolítica, leucopenia ou disfunções orgânicas sistêmicas.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A síndrome hemolítico-urêmica é uma microangiopatia trombótica caracterizada pela tríade de anemia hemolítica microangiopática, trombocitopenia de consumo e injúria renal aguda com oligúria ou anúria. O esfregaço de sangue periférico mostraria obrigatoriamente esquizócitos (hemácias fragmentadas) e a paciente teria disfunção renal e frequentemente sintomas gastrointestinais prévios causados por bactérias produtoras de toxina Shiga, achados ausentes no quadro.
+
+• **B) Incorreta:** A púrpura trombocitopênica trombótica é outra microangiopatia trombótica grave, mediada pela deficiência da metaloproteinase ADAMTS13. Manifesta-se classicamente pela pêntade de febre, anemia hemolítica microangiopática com esquizócitos, trombocitopenia de consumo, manifestações neurológicas focais ou flutuantes e disfunção renal. A paciente nega febre, não apresenta alterações neurológicas e o quadro é restrito a manifestações hemorrágicas isoladas por plaquetopenia imune.
+
+• **C) Incorreta:** A trombocitopenia induzida por fármacos é um diagnóstico que exige correlação temporal com o uso recente de substâncias químicas desencadeantes, como heparina, quininicos, sulfonamidas, anticonvulsivantes ou anti-inflamatórios. A anamnese documentou expressamente a ausência de uso de qualquer medicação ou ingesta de bebidas tônicas à base de quinino, afastando essa hipótese etiológica.
 </details>
 
 ---
@@ -38279,15 +38918,23 @@ Lactente de 40 dias de vida apresenta quadro de vômitos há cerca de 15 dias. S
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A apresentação clínica do lactente — vômitos pós-prandiais imediatos, em jato, não biliosos, de início entre a 3ª e a 5ª semanas de vida, associados a perda ponderal/baixo ganho de peso, desidratação e palpação da clássica 'oliva pilórica' no quadrante superior direito do abdome — é patognomônica de Estenose Hipertrófica do Piloro (EHP).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. A **ultrassonografia abdominal** é o método de imagem de primeira escolha (padrão-ouro prático) para a confirmação diagnóstica de **estenose hipertrófica do piloro**, conforme as diretrizes da **Sociedade Brasileira de Pediatria (SBP)** e consensos de Cirurgia Pediátrica.
 
-1. Justificativa da Alternativa Correta (A):
-Segundo as diretrizes da Sociedade Brasileira de Pediatria (SBP) e consensos internacionais de Cirurgia Pediátrica, a Ultrassonografia (USG) abdominal é o exame complementar de primeira escolha (padrão-ouro na prática clínica) para a confirmação diagnóstica da EHP. Trata-se de um método não invasivo, de ampla disponibilidade, isento de radiação ionizante e com sensibilidade e especificidade próximas a 100% quando realizado por examinador experiente. Os critérios ultrassonográficos diagnósticos clássicos incluem: espessura da musculatura pilórica ≥ 3 mm (ou ≥ 4 mm em alguns consensos), diâmetro pilórico total > 10 a 14 mm e comprimento do canal pilórico ≥ 15 a 16 mm, além da ausência de abertura do piloro durante a observação dinâmica.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- Alternativa B (Ressonância magnética): Exame de alto custo, de difícil acesso, demorado e que frequentemente exige sedação em lactentes, sendo desnecessário e inadequado para o diagnóstico de estenose hipertrófica do piloro.
-- Alternativa C (Radiografia panorâmica): A radiografia simples de abdome pode demonstrar dilatação gástrica com escassez de ar no restante do trato gastrointestinal ('sinal da bolha única'), mas apresenta baixa acurácia e não fecha o diagnóstico com precisão anatômica do músculo pilórico. Quando a USG é inconclusiva, o estudo contrastado (SEGD - seriografia esôfago-gastro-duodenal) pode ser utilizado, mas não a radiografia simples panorâmica isolada.
-- Alternativa D (Tomografia computadorizada): Além de expor o lactente a doses elevadas de radiação ionizante desnecessárias, não tem indicação na avaliação de rotina de patologias mecânicas hipertróficas do piloro em pediatria, não constituindo exame de escolha.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um quadro clássico de **estenose hipertrófica do piloro (EHP)**. O caso clínico reúne a tríade e marcos patognomônicos: lactente jovem (entre a 3ª e a 6ª semanas de vida), com **vômitos em jato**, **não biliosos** e pós-prandiais imediatos, associados a desidratação, déficit pôndero-estatural e palpação da **oliva pilórica** no andar superior do abdome.
+
+2. **Critério Clínico / Fisiopatologia:** A fisiopatologia baseia-se na hipertrofia e hiperplasia das camadas musculares circular e longitudinal do canal pilórico, provocando obstrução progressiva do trato de saída gástrico. Pela obstrução mecânica ser suprapapilar (acima da ampola de Vater), os vômitos são tipicamente **não biliosos**. A retenção gástrica leva a peristalse visível (ondas de *Kussmaul*) e ao sinal físico clássico da **oliva pilórica** palpável.
+
+3. **Indicação de Conduta:** A **ultrassonografia** é o exame de escolha por ser não invasiva, de alta disponibilidade, livre de radiação ionizante e com sensibilidade e especificidade próximas a 100%. Os critérios ultrassonográficos diagnósticos clássicos incluem **espessura da musculatura pilórica ≥ 3 mm**, **comprimento do canal pilórico ≥ 15 mm** e diâmetro transverso total aumentado, além da ausência de abertura pilórica dinâmica durante o exame.
+
+**Análise dos Distratores:**
+
+• **Alternativa B (Incorreta):** A **ressonância magnética** é um exame de alto custo, execução demorada, baixa disponibilidade para urgências e que frequentemente exige **sedação** em lactentes, sendo totalmente desnecessária e inadequada para essa finalidade.
+
+• **Alternativa C (Incorreta):** A **radiografia panorâmica** (simples) de abdome pode evidenciar apenas distensão gástrica com escassez de ar distal, achado inespecífico que não quantifica a hipertrofia muscular. O estudo contrastado (**seriografia esôfago-gastro-duodenal**) é reservado apenas para casos com ultrassom duvidoso, não sendo a radiografia simples o método de escolha.
+
+• **Alternativa D (Incorreta):** A **tomografia computadorizada** expõe o lactente a doses elevadas e desnecessárias de **radiação ionizante**, além de apresentar acurácia inferior à ultrassonografia para a avaliação anatômica e dinâmica da musculatura pilórica na infância.
 </details>
 
 ---
@@ -38695,18 +39342,24 @@ Uma lactente com 6 meses, nascida a termo, sem doenças prévias, encontra-se em
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A alternativa (B) é a correta.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Fundamentação clínica e fisiopatológica:
-O quadro clínico e laboratorial apresentado é clássico de anemia megaloblástica decorrente do consumo exclusivo de leite de cabra in natura. 
-1. Fisiopatologia: O leite de cabra apresenta teores extremamente baixos de folato (vitamina B9) e níveis reduzidos de cobalamina (vitamina B12) em comparação ao leite humano e às fórmulas infantis adequadas. A deficiência de ácido fólico e/ou cobalamina compromete a síntese de DNA nas células precursoras hematopoieticas (assincronia núcleo-citoplasma), resultando em eritropoiese ineficaz com formação de macrovalócitos (anemia macrocítica) e redução das outras linhagens hematológicas (neutropenia e plaquetopenia, configurando pancitopenia periférica).
-2. Achados clássicos: A presença de hipersegmentação de neutrófilos (pleocariócitos) é um dos achados morfológicos mais sensíveis e precoces da carência de folato/B12. A 'língua lisa' reflete a glossite atrófica de Hunter, com desnudamento das papilas linguais pela rápida taxa de renovação do epitélio gastrointestinal na vigência de déficit de DNA. O mielograma 'normal' afasta causas primárias medulares graves (como aplasia medular pura ou leucemias agudas).
-3. Conduta: De acordo com os consensos de Pediatria e Hematologia (SBP e Ministério da Saúde), o manejo dessas crianças exige a correção do erro alimentar e a reposição de ácido fólico e vitamina B12. A administração concomitante de vitamina B12 previne a progressão ou mascaramento de sequelas neurológicas irreversíveis caso haja deficiência mista.
+1. **Fisiopatologia da Dieta com Leite de Cabra:**
+O aleitamento com leite de cabra in natura exclusivo é uma causa clássica e bem documentada de carência nutricional grave na infância. O leite de cabra não modificado apresenta concentrações insignificantes de ácido fólico (cerca de 6 mcg/L, comparado a cerca de 50 mcg/L no leite humano) e também baixos teores de cobalamina e ferro biodisponível. O folato e a vitamina B12 atuam como cofatores essenciais na síntese de timidilato e purinas, fundamentais para a replicação do DNA. A carência desses elementos leva a um assincronismo núcleo-citoplasmático: o citoplasma continua a crescer e a produzir RNA e proteínas, enquanto a divisão nuclear fica lentificada ou bloqueada. Esse fenômeno culmina em hematopoiese ineficaz e destruição intramedular prematura de precursores celulares, caracterizando a **anemia megaloblástica**.
 
-Análise dos distratores:
-- Alternativa (A) - vitamina E e iodo: A deficiência de vitamina E pode gerar anemia hemolítica em prematuros, e o déficit de iodo cursa com hipotireoidismo (bócio, atraso do desenvolvimento), não explicando a pancitopenia macrocítica com hipersegmentação neutrofílica.
-- Alternativa (C) - zinco e ácido ascórbico: A deficiência de vitamina C (escorbuto) e de zinco (acrodermatite enteropática, diarreia, déficit imune) não mimetiza a pancitopenia megaloblástica observada.
-- Alternativa (D) - sais de ferro e vitamina A: A deficiência de ferro (anemia ferropriva) é a causa mais comum de anemia carencial na infância, porém caracteristicamente cursa com anemia microcítica e hipocrômica, frequentemente acompanhada de trombocitose reativa, e não macrocitose com hipersegmentação neutrofílica.
+2. **Manifestações Clínicas e Laboratoriais:**
+A deficiência de folato e cobalamina afeta todos os tecidos com alta taxa de renovação celular. Clinicamente, a glossite atrófica (língua lisa, despapilada e eritematosa) decorre do turnover acelerado das células epiteliais da mucosa oral. No sangue periférico, observa-se macrocitose eritrocitária (aumento do VCM) e redução de linhagens celulares, podendo atingir bicitopenia ou pancitopenia (anemia, neutropenia e plaquetopenia). A presença de neutrófilos hipersegmentados (pleocariócitos, definidos pela presença de neutrófilos com cinco ou mais lobulações nucleares) é a alteração morfológica mais precoce e sensível do déficit de folato e vitamina B12. O mielograma citado no enunciado afasta diagnósticos diferenciais graves de falência medular primária, como aplasia medular ou leucemias agudas.
+
+3. **Abordagem Terapêutica:**
+O manejo imperativo dessa condição consiste na correção do erro alimentar associada à reposição medicamentosa de **vitamina B12 e folato**. A reposição de ambos os compostos é fundamental, uma vez que o tratamento isolado com ácido fólico em pacientes com deficiência concomitante de cobalamina pode corrigir as alterações hematológicas, mas permite a progressão ou o agravamento das manifestações neurológicas irreversíveis decorrentes da desmielinização.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A deficiência de vitamina E manifesta-se tipicamente em recém-nascidos pré-termo como anemia hemolítica com acantocitose, edema periférico e trombocitose, além de sintomas neurológicos posteriores. O déficit de iodo relaciona-se a distúrbios da tireoide, como bócio endêmico e hipotireoidismo congênito, não cursando com macrocitose e hipersegmentação neutrofílica.
+
+• **C) Incorreta:** A carência de ácido ascórbico resulta em escorbuto, caracterizado por hemorragias periféricas, sangramento gengival, hiperceratose folicular e dores ósseas por defeito na síntese de colágeno. A deficiência de zinco causa acrodermatite enteropática, alopecia, diarreia crônica e atraso de desenvolvimento, mas nenhuma dessas carências justifica o padrão hematológico megaloblástico descrito.
+
+• **D) Incorreta:** A deficiência de ferro causa anemia microcítica e hipocrômica, frequentemente acompanhada de trombocitose reativa e anisocitose com RDW elevado, sem hipersegmentação nuclear de leucócitos. A deficiência de vitamina A cursa principalmente com xeroftalmia, manchas de Bitot e cegueira noturna.
 </details>
 
 ---
@@ -38820,12 +39473,18 @@ Um menino com 13 anos, previamente saudável, foi avaliado no ambulatório de pn
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) é a correta. O quadro clínico apresentado pelo adolescente de 13 anos é altamente sugestivo de uma síndrome linfoproliferativa maligna, com destaque para o Linfoma de Hodgkin (LH), cuja incidência apresenta um pico bimodal, iniciando-se justamente na adolescência e início da idade adulta jovem. O paciente exibe os clássicos 'sintomas B' (febre persistente > 38 °C, sudorese noturna profusa e mal-estar) associados a tosse seca e linfadenopatia com características francamente malignas: linfonodos aumentados (2 a 5 cm), de consistência endurecida, indolores, aderidos aos planos profundos (fixos) e acometendo a cadeia supraclavicular (o linfonodo supraclavicular, ou de Virchow/Troisier, tem valor preditivo extremamente elevado para malignidade). O acometimento hilar e mediastinal é comum no LH (mais de 60-70% dos casos). Para a confirmação diagnóstica do Linfoma de Hodgkin, o padrão-ouro é a biópsia excisional do linfonodo (retirada do gânglio íntegro), pois a punção aspirativa por agulha fina (PAAF) não preserva a arquitetura tecidual necessária para identificar o estroma e as raras células de Reed-Sternberg (CD30+ e CD15+). O estadiamento complementar e a avaliação de resposta terapêutica exigem exames de imagem metabólica/anatômica, sendo a tomografia computadorizada por emissão de pósitrons de corpo inteiro (PET-CT com 18F-FDG) a modalidade de escolha.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
+O paciente em questão apresenta um quadro clínico clássico de neoplasia linfoproliferativa, caracterizado por sintomas constitucionais B (febre persistente há 20 dias, sudorese noturna profusa e astenia), tosse seca e linfadenopatia periférica com claros estigmas de malignidade. A presença de linfonodos endurecidos, fixos a planos profundos, indolores, com diâmetro superior a 2 cm (atingindo até 5 cm) e acometimento da cadeia supraclavicular esquerda (sinal de Troisier/linfonodo de Virchow) constitui forte alerta clínico para doença hematológica ou metastática. O acometimento hilar e mediastinal associado à faixa etária pediátrica tardia/adolescência consolida a principal suspeita de **linfoma de Hodgkin**, cuja incidência tem início expressivo nessa faixa etária.
 
-Análise das alternativas incorretas:
-- Alternativa A (Incorreta): A mononucleose infecciosa (Epstein-Barr vírus) cursa tipicamente com febre, faringite exsudativa e linfadenopatia cervical dolorosa, fibroelástica e móvel, não justificada por linfonodos endurecidos, fixos, supraclaviculares de até 5 cm com massas hilares bilaterais. Além disso, a PAAF não é o método indicado para avaliação diagnóstica de linfonodomegalias suspeitas de malignidade.
-- Alternativa B (Incorreta): Embora a tuberculose ganglionar e pulmonar componha o diagnóstico diferencial em nosso meio, a investigação diagnóstica de TB não inclui 'TC de alta resolução de corpo inteiro' nem hemocultura como exames de primeira linha de confirmação; o diagnóstico exige pesquisa de BAAR/TRM-TB no escarro, teste tuberculínico/IGRA e biópsia excisional/cultura do linfonodo.
-- Alternativa C (Incorreta): Uma pneumonia bacteriana aguda adquirida na comunidade não justificaria a evolução subaguda (20 dias), ausência de resposta à amoxicilina, linfonodomegalias supraclaviculares pétreas e fixas nem indicação de PET-CT torácico como conduta inicial.
+A confirmação diagnóstica de qualquer adenopatia suspeita de linfoma exige obrigatoriamente a **biópsia excisional** do gânglio mais representativo, mantendo a integridade da sua cápsula e arquitetura tecidual. A biópsia aspirativa ou por agulha fina é contraindicada para confirmação primária, pois não permite a avaliação histotopográfica da arquitetura nodal nem a detecção confiável das raras células de Reed-Sternberg envoltas pelo infiltrado inflamatório típico. Complementarmente, de acordo com as diretrizes internacionais (critérios de Lugano), o estadiamento metabólico e anatômico padrão-ouro de corpo inteiro deve ser realizado por tomografia computadorizada por emissão de pósitrons associada à tomografia computadorizada (PET-CT de corpo inteiro).
+
+**Análise das alternativas incorretas:**
+
+• **Alternativa A (Incorreta):** A mononucleose infecciosa tipicamente cursa com faringoamigdalite exsudativa, esplenomegalia e linfadenopatia cervical móvel, fibroelástica e dolorosa, não justificando linfonodos pétreos, fixos e supraclaviculares de até 5 cm. Além disso, a biópsia aspirativa não é indicada para diagnóstico de mononucleose e não tem sensibilidade adequada para descartar linfomas.
+
+• **Alternativa B (Incorreta):** A tuberculose ganglionar e pulmonar compõe o diagnóstico diferencial, mas sua confirmação não é obtida por hemoculturas e tomografia computadorizada de alta resolução de corpo inteiro. A confirmação de tuberculose requer a identificação do Mycobacterium tuberculosis por teste molecular, baciloscopia ou cultura de espécime clínico, ou análise histopatológica evidenciando granulomas com necrose caseosa.
+
+• **Alternativa C (Incorreta):** A evolução subaguda de 20 dias, refratária a betalactâmico, e a presença de linfonodomegalias supraclaviculares endurecidas e fixas afastam o diagnóstico de pneumonia bacteriana comunitária típica. Adicionalmente, a solicitação de PET-CT não faz parte da abordagem de pneumonia comunitária.
 </details>
 
 ---
@@ -38906,18 +39565,19 @@ Lactente de 23 meses, sexo masculino, encaminhado para ambulatório de referênc
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A questão descreve o quadro clínico clássico e exuberante de um **neuroblastoma**, o tumor extracraniano sólido mais comum da infância, derivado de células da crista neural simpática (comumente na medula adrenal ou gânglios paravertebrais).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O quadro clínico de lactente com massa abdominal volumosa que cruza a linha média, associado a estigmas de disseminação metastática orbitária, sinais de síndrome paraneoplásica neurológica e níveis marcadamente elevados de metabólitos de catecolaminas, é patognomônico de **neuroblastoma**, segundo os consensos da **Sociedade Brasileira de Pediatria (SBP)** e da literatura oncológica pediátrica.
 
-1. **Justificativa da alternativa correta (B - Neuroblastoma):**
-- **Idade e apresentação abdominal:** Ocorre predominantemente em menores de 2 anos (pico em lactentes). A massa abdominal típica é firme, nodular, mal delimitada, fixa e **ultrapassa a linha média** (ao contrário do tumor de Wilms, que habitualmente respeita a linha média).
-- **Metástases características:** A disseminação para a órbita e ossos cranianos causa proptose e equimose periorbitária bilateral típica, denominada sinal dos "olhos de guaxinim" (*raccoon eyes*).
-- **Manifestações neurológicas e paraneoplásicas:** Nistagmo e ataxia cerebelar associados configuram a síndrome paraneoplásica de opsoclonia-mioclonia-ataxia (síndrome de Kinsbourne), altamente específica do neuroblastoma.
-- **Hipertensão arterial e marcadores laboratoriais:** A hipertensão decorre tanto da compressão da artéria renal quanto da hipersecreção de catecolaminas. O achado patognomônico e definidor no contexto é a elevação substancial de metabólitos de catecolaminas na urina, como o **ácido vanilmandélico (VMA)** e o ácido homovanílico (HVA), presentes em mais de 90% dos casos.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. **Análise dos distratores:**
-- **A) Linfoma:** O linfoma não Hodgkin (como o de Burkitt) pode se manifestar como massa abdominal de crescimento rápido em crianças, mas não se associa à elevação de ácido vanilmandélico, metástases periorbitárias clássicas ("olhos de guaxinim") ou síndrome de opsoclonia-mioclonia.
-- **C) Tumor de Wilms (Nefroblastoma):** É o principal diagnóstico diferencial pediátrico de massa abdominal, porém tipicamente apresenta-se como massa lisa, unilateral, restrita ao flanco e que **não ultrapassa a linha média**. Ademais, o tumor de Wilms não cursa com elevação de VMA/HVA e não apresenta síndrome de opsoclonia-mioclonia nem metástases orbitárias habituais.
-- **D) Feocromocitoma:** Embora curse com elevação de catecolaminas e hipertensão arterial, é extremamente raro em lactentes (< 2 anos), sendo diagnosticado tipicamente em escolares, adolescentes e adultos, sem as características sindrômicas (ataxia/opsoclonia) ou o padrão metastático periorbitário descrito.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um **neuroblastoma**, o tumor extracraniano sólido mais comum da infância, com pico de incidência em **menores de 2 anos** de idade, originário de precursores da crista neural simpática (medula adrenal ou cadeia simpática paravertebral).
+2. **Critério Clínico / Fisiopatologia:** A semiologia abdominal revela massa firme, fixa e que **ultrapassa a linha média**, característica clássica que a distingue de tumores intrarrenais. A proptose associada à equimose periorbitária bilateral compõe o sinal dos **"olhos de guaxinim"** (*raccoon eyes*), resultante de metástases osteomedulares para a órbita. O nistagmo e a ataxia cerebelar representam a manifestação paraneoplásica da **síndrome de opsoclonia-mioclonia-ataxia** (*síndrome de Kinsbourne*). A hipertensão decorre tanto da compressão da artéria renal quanto do excesso de catecolaminas, corroborada pela elevação expressiva do **ácido vanilmandélico (VMA)** e ácido homovanílico (HVA).
+3. **Indicação de Conduta:** A confirmação diagnóstica requer estadiamento por **tomografia computadorizada** ou ressonância magnética, **biópsia tecidual** com análise histopatológica e molecular (como amplificação do oncogene *MYCN*), além de avaliação de medula óssea para pesquisa de micrometástases e planejamento terapêutico multimodal.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O **linfoma** (notadamente o linfoma de Burkitt) pode cursar com massa abdominal de crescimento acelerado em pediatria, porém acomete crianças maiores, não causa elevação de **ácido vanilmandélico** e não se apresenta com síndrome de opsoclonia-mioclonia ou metástases periorbitárias típicas.
+• **Alternativa C (Incorreta):** O **tumor de Wilms** (nefroblastoma) é o principal diagnóstico diferencial renal, mas tem pico aos 3-4 anos, caracteriza-se por massa abdominal lisa que habitualmente **respeita a linha média**, não produz metabólitos de catecolaminas (**VMA normal**) e raramente gera metástases orbitárias.
+• **Alternativa D (Incorreta):** O **feocromocitoma** sintetiza catecolaminas e induz hipertensão arterial, mas é **extremamente raro em lactentes** (predomina em adolescentes e adultos) e não cursa com o padrão de metástases orbitárias nem com manifestações cerebelares paraneoplásicas.
 </details>
 
 ---
@@ -40403,17 +41063,17 @@ Criança de 5 anos foi levada por familiar para consulta na unidade básica de s
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A conduta padrão para o caso clínico apresentado é a descrita na Alternativa (A).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (A)**. A conduta preconizada pelo **Ministério da Saúde** e pela **Sociedade Brasileira de Pediatria (SBP)** diante da síndrome mão-pé-boca é o suporte sintomático associado ao **afastamento escolar** por cerca de sete dias ou até a remissão das lesões ativas, visando interromper a cadeia de transmissão.
 
-1. Fundamentação Clínica e Raciocínio Fisiopatológico:
-A Síndrome Mão-Pé-Boca (SMPB) é uma infecção viral altamente contagiosa, causada principalmente por enterovírus da família Picornaviridae, com destaque para o Coxsackievirus A16 e o Enterovírus 71 (EV-71). Acomete predominantemente crianças menores de 5 anos e é caracterizada clinicamente por pródromo de febre baixa e odinofagia, seguido pelo surgimento de enantema vesicular/ulcerativo na cavidade oral (língua, mucosa jugal e palato) e exantema papulovesicular em mãos e pés (palmas e plantas), podendo estender-se a nádegas e região perineal.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se da **Síndrome Mão-Pé-Boca (SMPB)**, uma infecção viral altamente contagiosa causada por enterovírus da família *Picornaviridae*, principalmente o *Coxsackievirus A16* e o *Enterovírus 71 (EV-71)*. O quadro clássico associa pródromo febril a enantema vesicular ulcerado oral e exantema papulovesicular palmar e plantar.
+2. **Critério Clínico / Fisiopatologia:** A transmissão ocorre por **contato fecal-oral**, **gotículas respiratórias** e contato direto com o **líquido das vesículas**. O período de maior contagiosidade coincide com a fase aguda febril e a presença de lesões cutaneomucosas ativas (habitualmente os primeiros **7 dias**).
+3. **Indicação de Conduta:** Sendo uma doença autolimitada (resolução em 7 a 10 dias), o tratamento consiste em **analgésicos**, **antitérmicos** e **hidratação oral**. Para controle epidemiológico e prevenção de surtos escolares, indica-se o **isolamento domiciliar** com afastamento da creche por 7 dias ou até o desaparecimento das lesões.
 
-A transmissão ocorre por via fecal-oral, por gotículas respiratórias e pelo contato direto com o fluido das vesículas. A fase de maior transmissibilidade coincide com a fase aguda (primeiros 7 dias do quadro clínico ou enquanto houver vesículas ativas e febre). O curso da doença é habitualmente autolimitado (resolvendo-se em 7 a 10 dias). As diretrizes da Sociedade Brasileira de Pediatria (SBP) e do Ministério da Saúde preconizam tratamento puramente sintomático (analgésicos, antitérmicos e hidratação oral rigorosa) e medidas de controle higiênico, com o afastamento temporário de creches/escolas por cerca de 7 dias (ou até que a febre cesse e as lesões cutaneomucosas tenham involuído/cicrizado) para mitigar surtos institucionais.
-
-2. Análise dos Distratores:
-- Alternativa B está incorreta: Casos isolados de síndrome mão-pé-boca não são de notificação compulsória imediata nacional e não justificam busca ativa imediata in loco pela equipe da atenção básica. A notificação à vigilância epidemiológica só se faz mandatória caso seja configurado um surto institucional (aumento desproporcional de casos agregados no tempo e espaço).
-- Alternativa C está incorreta: O pleconaril (citado na opção) não tem indicação clínica ou aprovação no Brasil para o manejo da SMPB. Não há terapia antiviral específica indicada rotineiramente para essa enfermidade; o manejo é exclusivamente de suporte clínico e sintomático.
-- Alternativa D está incorreta: A criança não apresenta sinais de gravidade, prostração intensa, desidratação refratária ou complicações neurológicas/cardiopulmonares (como encefalite, meningite asséptica ou edema pulmonar neurogênico associados ao EV-71). Portanto, não há indicação de internação hospitalar e muito menos de imunoglobulina intravenosa (restrita a cenários raros e graves de infecção por EV-71 com acometimento neurológico/cardiovascular).
+**Análise dos Distratores:**
+• **Alternativa B (Incorreta):** Casos esporádicos e isolados de SMPB **não são de notificação compulsória imediata nacional**, inexistindo indicação de busca ativa imediata pela equipe de saúde da família; a notificação só é obrigatória na vigência de **surtos institucionais**.
+• **Alternativa C (Incorreta):** O fármaco **pleconaril** não possui eficácia comprovada, recomendação clínica nem registro para uso em SMPB no Brasil; **não há antiviral específico** indicado para essa patologia.
+• **Alternativa D (Incorreta):** A criança encontra-se estável, sem sinais de **desidratação grave** ou complicações sistêmicas (como **encefalite** ou **edema pulmonar neurogênico**). A indicação de **imunoglobulina endovenosa** é restrita a casos atípicos e graves de neuroinfecção por *EV-71*, não se aplicando à apresentação habitual da doença.
 </details>
 
 ---
@@ -40434,12 +41094,26 @@ Um recém-nascido de 2 dias de vida, a termo, sem pré-natal adequado e que est�
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A alternativa (B) é a correta. A toxoplasmose congênita decorre da transmissão vertical do protozoário *Toxoplasma gondii*. Embora a maioria dos recém-nascidos infectados seja assintomática ao nascimento, manifestações clínicas sistêmicas e neurológicas podem estar presentes, tais como icterícia, hepatoesplenomegalia, prematuridade, febre e linfadenopatia. Classicamente, as sequelas e manifestações tardias ou graves da doença envolvem a 'Tétrade de Sabin', composta por: 1) Coriorretinite (manifestação ocular mais comum e principal sequela da infecção, podendo ocorrer de forma congênita ou surgir tardiamente na infância/adolescência); 2) Hidrocefalia obstrutiva (decorrente de estenose do aqueduto de Sylvius); 3) Calcificações intracranianas difusas (periféricas e periventriculares); e 4) Retardo/déficit no desenvolvimento neuropsicomotor ou convulsões. Portanto, segundo as diretrizes do Ministério da Saúde e da Sociedade Brasileira de Pediatria (SBP), o acometimento oftalmológico (notadamente a coriorretinite cicatricial ou exsudativa ativa) é uma das complicações mais frequentes e determinantes do prognóstico visual desses pacientes.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa A (Incorreta): A hipoglicemia neonatal não é uma complicação específica ou característica da toxoplasmose congênita, relacionando-se tipicamente a filhos de mães diabéticas, restrição de crescimento intrauterino, asfixia perinatal ou prematuridade extrema.
-- Alternativa C (Incorreta): A 'pneumonia alba' (pneumonia branca) é uma manifestação patognomônica da sífilis congênita grave em fetos e neomortos, caracterizada por infiltração inflamatória intersticial pulmonar pálida e fibrose, não estando relacionada à toxoplasmose.
-- Alternativa D (Incorreta): A toxoplasmose congênita cursa tipicamente com elevação de imunoglobulinas (hipergamaglobulinemia, notadamente produção de IgM e IgA específicas pelo feto/neonato, além de IgG materna transferida), não provocando hipogamaglobulinemia primária ou secundária.
+A transmissão vertical do protozoário intracelular obrigatório Toxoplasma gondii ocorre quando a gestante adquire infecção primária durante a gestação ou, mais raramente, por reativação em gestantes imunocomprometidas. A taxa de transmissão transplacentária aumenta proporcionalmente com a idade gestacional, sendo maior no terceiro trimestre; no entanto, a gravidade clínica das lesões fetais é inversamente proporcional, sendo as infecções do primeiro trimestre as responsáveis pelas apresentações mais graves.
+
+O recém-nascido do caso clínico apresenta sinais de doença congênita aguda, evidenciada por icterícia e hepatomegalia, que decorrem da disseminação hematogênica do parasita pelos tecidos fetais, gerando resposta inflamatória tecidual e necrose. Dentre as complicações e sequelas a médio e longo prazos da **toxoplasmose congênita**, destaca-se a clássica **tétrade de Sabin**, composta por:
+
+1. **Coriorretinite:** É o achado oftalmológico mais comum e a principal complicação visual da doença. Ocorre por invasão direta da retina e da coroide pelos taquizoítos, gerando necrose e intensa reação inflamatória focal ou multifocal, frequentemente com envolvimento macular bilateral, podendo levar à perda visual grave, microftalmia e estrabismo.
+2. **Hidrocefalia obstrutiva:** Decorre da ependimite e ventriculite inflamatória necrosante, causando estenose inflamatória ou cicatricial do aqueduto cerebral (aqueduto de Sylvius).
+3. **Calcificações intracranianas difusas:** Correspondem a áreas de necrose do parênquima cerebral que sofrem distrofia cálcica, distribuindo-se difusamente pelo cérebro e núcleos da base (diferenciando-se do citomegalovírus, que classicamente produz calcificações periventriculares).
+4. **Retardo no neurodesenvolvimento ou convulsões:** Secundários à destruição do parênquima cerebral e à hipertensão intracraniana crônica.
+
+Portanto, a coriorretinite é a complicação típica e mais frequente esperada nesse paciente.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A hipoglicemia neonatal é um distúrbio metabólico frequente no período neonatal imediato decorrente de causas como restrição de crescimento intrauterino, prematuridade, hipotermia, asfixia perinatal ou hiperinsulinismo fetal (filho de mãe diabética), não constituindo complicação direta ou característica da infecção congênita por Toxoplasma gondii.
+
+• **C) Incorreta:** A pneumonia alba é uma entidade anatomopatológica clássica e patognomônica da sífilis congênita grave, caracterizada macroscopicamente por pulmões volumosos, pálidos e densos, com espessamento intersticial fibrosante e infiltrado mononuclear associado a espiroquetas, não guardando relação etiológica com a toxoplasmose.
+
+• **D) Incorreta:** A resposta imune do feto e do concepto frente à invasão pelo toxoplasma envolve ativação do sistema imune adaptativo, resultando em síntese endógena de imunoglobulinas (notadamente IgM e IgA específicas), comumente associando-se à hipergamaglobulinemia, e não à hipogamaglobulinemia, que se relaciona a imunodeficiências primárias congênitas (como a agamaglobulinemia ligada ao X).
 </details>
 
 ---
@@ -40555,16 +41229,17 @@ Lactente hígido de 12 meses foi levado pela mãe a consulta de rotina. No exame
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta padrão e correta é orientar a mãe e não revacinar a criança (Alternativa D), de acordo com as diretrizes vigentes do Ministério da Saúde do Brasil e da Organização Mundial da Saúde (OMS).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. A conduta recomendada para uma criança hígida que não desenvolveu a cicatriz da BCG, mas que apresenta **registro comprobatório de vacinação** na caderneta, é **orientar os responsáveis e não revacinar**, conforme as diretrizes do **Programa Nacional de Imunizações (PNI/MS)** e da **Organização Mundial da Saúde (OMS)**.
 
-1. Justificativa técnica e fundamentação teórica:
-Historicamente, crianças que não desenvolviam a cicatriz vacinal até seis meses após a aplicação da vacina BCG eram submetidas a uma nova dose. No entanto, com base nas recomendações da OMS e respaldado pela Nota Informativa nº 10/2019-CGPNI/DEVIT/SVS/MS, o Ministério da Saúde aboliu a necessidade de revacinação de crianças que não desenvolveram a cicatriz vacinal, desde que haja comprovação documental (registro no cartão ou caderneta de vacinação) de que a dose foi efetivamente administrada.
-Estudos imunológicos demonstraram que a ausência de cicatriz queloidiana/vacinal não é sinônimo de falha vacinal ou de ausência de imunidade protetora contra as formas graves da tuberculose (miliar e meningoencefálica). O desenvolvimento da resposta imune celular protetora mediada por linfócitos T ocorre na grande maioria dos indivíduos vacinados, independentemente da reação cicatricial cutânea local. Portanto, comprovada a aplicação aos 20 dias de vida, a criança é considerada adequadamente vacinada e imunizada, sendo contraindicada a repetição da dose.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Quadro Clínico:** Lactente de 12 meses com **ausência de cicatriz vacinal pós-BCG**, porém com vacinação prévia devidamente comprovada aos 20 dias de vida.
+2. **Fisiopatologia e Imunogenicidade:** A formação da cicatriz cutânea reflete a reação inflamatória local induzida pela cepa atenuada de *Mycobacterium bovis*, mas a sua ausência **não é sinônimo de falha vacinal**. A indução de **imunidade celular protetora** (mediada por linfócitos T auxiliares CD4+ e citotóxicos CD8+) ocorre na maioria dos indivíduos vacinados de forma independente do desenvolvimento da lesão cicatricial externa, garantindo a proteção contra formas graves (miliar e meningoencefálica) de tuberculose.
+3. **Indicação de Conduta:** Com base na Nota Informativa nº 10/2019-CGPNI/MS, o Ministério da Saúde suspendeu formalmente a orientação de revacinação de crianças que não evoluíram com a cicatriz vacinal. Diante de **comprovação documental**, a criança é considerada imunizada e o esquema vacinal contra a tuberculose é dado como completo.
 
-2. Análise crítica dos distratores:
-- Alternativa A (Incorreta): A prova tuberculínica (PT / PPD) avalia a resposta de hipersensibilidade do tipo tardia ao derivado proteico purificado, mas não tem indicação para avaliar a 'pega' vacinal nem para definir necessidade de revacinação em crianças assintomáticas e previamente vacinadas com registro em caderneta.
-- Alternativa B (Incorreta): A revacinação imediata está em desacordo com as diretrizes do Programa Nacional de Imunizações (PNI) desde 2019. A revacinação não confere proteção adicional significativa e expõe a criança desnecessariamente a eventos adversos locais e sistêmicos.
-- Alternativa C (Incorreta): Trata-se de um lactente hígido de 12 meses, sem histórico de infecções de repetição, infecções oportunistas, falha de crescimento ou sinais de alarme para erros inatos da imunidade. A ausência isolada de cicatriz de BCG em criança clinicamente bem não preenche critérios para triagem de imunodeficiência primária.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A **prova tuberculínica (PT / PPD)** afere a reação de hipersensibilidade do tipo tardia para detecção de **infecção latente da tuberculose (ILTB)**; não tem indicação nem valor preditivo para verificar a "pega" vacinal ou definir necessidade de revacinação.
+• **Alternativa B (Incorreta):** A **administração de nova dose da BCG** está em desacordo com as diretrizes vigentes desde 2019. A revacinação não confere proteção imunológica adicional e expõe o lactente ao risco de **eventos adversos pós-vacinais**, como abscessos locais e linfadenite supurada.
+• **Alternativa C (Incorreta):** Trata-se de um lactente clinicamente hígido, com crescimento e desenvolvimento normais e ausência de história de infecções graves ou oportunistas. A falta isolada de cicatriz queloidiana não configura sinal de alerta para **erros inatos da imunidade** (imunodeficiências primárias).
 </details>
 
 ---
@@ -40587,16 +41262,27 @@ Um paciente desnutrido, com 6 meses, deu entrada no pronto-socorro, acompanhado 
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) é a correta. Trata-se de uma acidose mista (metabólica e respiratória), identificada por meio da interpretação sistemática da gasometria arterial:
+> **Comentário Médica:** A interpretação sistemática do equilíbrio acidobásico em pediatria exige a análise sequencial do pH, do componente metabólico, da resposta compensatória esperada e do contexto clínico.
 
-1. Avaliação do pH: O pH de 7,22 caracteriza acidemia importante (valor de referência: 7,35 a 7,45).
-2. Avaliação do componente metabólico: O bicarbonato (HCO3-) encontra-se acentuadamente reduzido em 12,5 mEq/L (referência: 22 a 26 mEq/L) e o Base Excess (BE) em -13 mEq/L, o que define uma acidose metabólica primária, plenamente justificada pelo quadro clínico de diarreia volumosa (perda digestiva baixa de bicarbonato) e possível hipoperfusão tecidual decorrente da desidratação (acidose láctica).
-3. Avaliação da resposta compensatória respiratória: Em uma acidose metabólica pura, a resposta fisiológica esperada é a hiperventilação alveolar compensatória para eliminar CO2, calculada pela fórmula de Winter: PaCO2 esperada = (1,5 × HCO3-) + 8 ± 2. Aplicando os valores do paciente: PaCO2 esperada = (1,5 × 12,5) + 8 ± 2 = 18,75 + 8 ± 2 = 26,75 ± 2 (faixa de 24,75 a 28,75 mmHg).
-4. Conclusão diagnóstica: A PaCO2 medida é de 48 mmHg, valor não apenas substancialmente superior ao esperado para compensação, mas acima do limite superior da normalidade (35 a 45 mmHg). A retenção de CO2 decorre de hipoventilação alveolar, explicada pela depressão do sistema nervoso central (paciente sonolento/comatoso) associada à fadiga muscular (lactente desnutrido). Portanto, há a sobreposição de dois distúrbios primários que reduzem o pH: acidose metabólica associada a acidose respiratória (acidose mista).
+**Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa B e D: Incorretas. Não há compensação respiratória. Para haver compensação de uma acidose metabólica, a PaCO2 deveria estar marcadamente diminuída (< 28,75 mmHg) por meio de taquipneia/hiperventilação, e não elevada (48 mmHg).
-- Alternativa C: Incorreta. O distúrbio com pH < 7,35 é uma acidemia, excluindo prontamente a presença de alcalose respiratória primária como base do quadro. Além disso, a PaCO2 elevada reflete acidose respiratória, e não alcalose.
+1. **Avaliação do pH (Acidemia vs. Alcalemia):** O pH sérico encontra-se em 7,22, o que define um estado de acidemia importante (valores de referência: 7,35 a 7,45).
+
+2. **Avaliação do componente metabólico:** O bicarbonato sérico está acentuadamente reduzido (12,5 mEq/L; referência: 22 a 26 mEq/L) com excesso de bases (Base Excess) de -13 mEq/L. Esse achado estabelece a presença de acidose metabólica. Fisiopatologicamente, esse distúrbio decorre da perda intestinal direta de bicarbonato e fluidos ricos em eletrólitos devido ao quadro de diarreia volumosa, associada à hipoperfusão tecidual e acúmulo de lactato secundários à desidratação em uma criança desnutrida.
+
+3. **Cálculo da compensação respiratória:** Frente a uma acidose metabólica, a resposta fisiológica esperada é a hiperventilação alveolar compensatória para eliminar CO2, estimulada pelos quimiorreceptores centrais e periféricos. A previsibilidade dessa resposta é avaliada pela fórmula de Winter:
+   PaCO2 esperada = (1,5 × HCO3-) + 8 ± 2
+   PaCO2 esperada = (1,5 × 12,5) + 8 ± 2 = 18,75 + 8 ± 2 = 26,75 ± 2 mmHg (faixa aceitável entre 24,75 e 28,75 mmHg).
+
+4. **Síntese diagnóstica:** A PaCO2 medida no paciente foi de 48 mmHg. Este valor situa-se muito acima da faixa de compensação prevista (24,75 a 28,75 mmHg) e ultrapassa o limite superior da normalidade (45 mmHg). A retenção inapropriada de dióxido de carbono evidencia hipoventilação alveolar, causada pela depressão do centro respiratório decorrente da piora neurológica (coma) e pela fadiga da musculatura ventilatória agravada pelo estado de desnutrição. A presença simultânea de um componente metabólico e um componente respiratório somando-se para acidificar o meio confirma o diagnóstico de **acidose mista**.
+
+**Análise das alternativas incorretas:**
+
+• **B) Incorreta:** Para que a acidose metabólica estivesse compensada por hiperventilação alveolar, a PaCO2 deveria estar reduzida e situada dentro do intervalo calculado pela fórmula de Winter (24,75 a 28,75 mmHg), o que não ocorre, pois a PaCO2 está francamente elevada em 48 mmHg.
+
+• **C) Incorreta:** O pH de 7,22 reflete acidemia e exclui categoricamente alcalose respiratória como distúrbio primário. Além disso, a PaCO2 de 48 mmHg traduz retenção de ácido volátil (hipoventilação) e não hiperventilação.
+
+• **D) Incorreta:** Uma alcalose respiratória compensatória implicaria hiperventilação com níveis de PaCO2 consideravelmente reduzidos. O achado de hipercapnia (PaCO2 de 48 mmHg) associado a acidemia define acidose respiratória primária coexistente, e não um mecanismo compensatório.
 </details>
 
 ---
@@ -40736,15 +41422,26 @@ Uma pré-escolar com queixa principal de febre e dor ao urinar está sendo atend
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A paciente pré-escolar apresenta manifestações clínicas típicas de Infecção do Trato Urinário (ITU) febril (febre alta, dor em baixo ventre e disúria), com histórico de episódio prévio. O padrão-ouro para confirmação diagnóstica de ITU na infância é a urocultura quantitativa com isolamento de um único uropatógeno, associada à análise do sedimento urinário (leucocitúria/piúria e/ou bacteriúria), cujos pontos de corte de unidades formadoras de colônias por mililitro (UFC/mL) variam conforme o método de coleta empregado.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Justificativa da alternativa correta (B):
-Conforme as diretrizes da Sociedade Brasileira de Pediatria (SBP) e a literatura clássica pediátrica, na urina colhida por cateterismo vesical (sondagem vesical de alívio), o crescimento bacteriano de um único patógeno em contagem superior a 1.000 a 10.000 UFC/mL (a depender da presença inequívoca de piúria e sintomas) confirma a infecção. Em diversas diretrizes e referências adotadas em concursos (como o Ministério da Saúde e Nelson Tratado de Pediatria), valores > 1.000 UFC/mL a 50.000 UFC/mL obtidos por cateterismo vesical em crianças sintomáticas são clinicamente diagnósticos, tornando a alternativa B o gabarito oficial definitivo da questão.
+A paciente em questão é uma pré-escolar que apresenta sintomas miccionais baixos associados a febre, dor abdominal e vômito, com histórico prévio sugestivo, delineando o diagnóstico sindrômico de **infecção do trato urinário** (ITU). Em crianças pré-escolares, a distinção clínica precisa entre cistite e pielonefrite é desafiadora, devendo a presença de febre elevada e vômitos ser interpretada como ITU febril, potencialmente envolvendo o parênquima renal.
 
-Análise dos distratores:
-- A) Incorreta: A técnica de *clean catch* (jato médio em crianças com controle esfincteriano ou com higienização estrita) está sujeita à contaminação da microbiota perineal e uretral distal; portanto, "qualquer contagem de colônias" não sela diagnóstico. O limiar exigido é classicamente de ≥ 100.000 UFC/mL.
-- C) Incorreta: A presença de piócitos (leucocitúria/piúria) reflete apenas inflamação das vias urinárias, podendo ocorrer em vulvovaginites, apendicite, desidratação, febre de outras origens ou nefropatias intersticiais. Não é diagnóstica nem suficiente para confirmar ITU sem o isolamento microbiológico na urocultura.
-- D) Incorreta: Na coleta por jato médio (*midstream/clean catch*), o ponto de corte clássico e validado para confirmação de ITU é ≥ 100.000 UFC/mL de uma única bactéria. O valor de 10.000 UFC/mL é considerado inconclusivo ou sugestivo de contaminação pré-analítica.
+A confirmação definitiva de ITU na infância exige a demonstração de bacteriúria significativa em urocultura quantitativa com isolamento de um único uropatógeno, idealmente correlacionada a alterações no exame de urina tipo 1 (como leucocitúria ou teste de nitrito positivo). O limiar diagnóstico quantitativo para definir positividade na urocultura varia de acordo com o método de coleta empregado:
+
+1. Punção suprapúbica: padrão-ouro anatômico com o menor índice de contaminação; qualquer crescimento de bastonetes gram-negativos ou mais de 1.000 UFC/mL de cocos gram-positivos confirma o diagnóstico.
+2. Cateterismo vesical transuretral: método invasivo de escolha em crianças sem controle esfincteriano. De acordo com diversas referências pediátricas clássicas e diretrizes nacionais e internacionais (como as da Sociedade Brasileira de Pediatria e da European Association of Urology), a presença de mais de 1.000 UFC/mL (ou entre 1.000 e 10.000 UFC/mL em pacientes claramente sintomáticos) colhida por **cateterismo vesical** é considerada patológica e suficiente para a confirmação diagnóstica.
+3. Jato médio (técnica do clean catch): viável em crianças com controle de esfíncteres; o ponto de corte validado internacionalmente para confirmação de ITU é de pelo menos 100.000 UFC/mL de um único patógeno.
+4. Saco coletor: apresenta elevado índice de resultados falso-positivos (contaminação de até 85%), sendo útil unicamente pelo seu alto valor preditivo negativo (cultura negativa descarta infecção; cultura positiva não confirma).
+
+Portanto, a alternativa B é a única que contempla um método estéril com limiar bacteriológico correspondente e validado pelas bancas para o diagnóstico de certeza.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A coleta por jato médio (clean catch) apresenta elevado risco de carreamento de microbiota comensal do períneo e do introito vaginal. Sendo assim, qualquer crescimento bacteriano não é confirmatório, exigindo-se a contagem padrão de pelo menos 100.000 UFC/mL de um único microrganismo para afastar contaminação superficial.
+
+• **C) Incorreta:** A leucocitúria ou piúria revela apenas a presença de inflamação no trato geniturinário, mas carece de especificidade microbiológica. Pode decorrer de quadros infecciosos não bacterianos, vulvovaginites, febre de qualquer origem, apendicite, litíase ou desidratação grave. Não é capaz, isoladamente, de confirmar o diagnóstico de infecção bacteriana do trato urinário sem a comprovação na cultura quantitativa.
+
+• **D) Incorreta:** Em amostras obtidas por micção espontânea ou jato médio, o crescimento de 10.000 UFC/mL é classicamente categorizado como duvidoso ou intermediário, não sendo suficiente para confirmar a presença de ITU, visto que o limiar diagnóstico consagrado é igual ou superior a 100.000 UFC/mL.
 </details>
 
 ---
@@ -40918,15 +41615,17 @@ Pré-escolar de três anos de idade foi admitido na emergência, com quadro de e
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A apresentação clínica e laboratorial do paciente é clássica da Síndrome Nefrótica (SN) na infância: paciente pré-escolar (3 anos) com quadro de edema periorbitário e de membros inferiores de início insidioso, associado a oligúria e proteinúria maciça (3+/4+ ao EAS), na ausência de hematúria significativa (apenas 3 hemácias/campo) e sem hipertensão arterial (PA 80 x 60 mmHg, compatível com normalidade ou limites inferiores para a faixa etária). Em pediatria (especialmente entre 1 e 10 anos), a principal etiologia da síndrome nefrótica primária é a Doença por Lesões Mínimas (DLM), responsável por mais de 85% a 90% dos casos.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. O quadro clínico e laboratorial é típico de **síndrome nefrótica primária**, cuja principal causa na infância é a **doença por lesões mínimas (DLM)**, sendo o tratamento de primeira linha e padrão-ouro preconizado pela **Sociedade Brasileira de Pediatria (SBP)** e pelas diretrizes do **KDIGO** a **corticoterapia oral** empírica com **prednisona** ou **prednisolona**.
 
-Justificativa da alternativa correta (B):
-Conforme as diretrizes da Sociedade Brasileira de Pediatria (SBP) e do KDIGO (Kidney Disease: Improving Global Outcomes), a corticoterapia oral com Prednisona ou Prednisolona (na dose padrão de 60 mg/m²/dia ou 2 mg/kg/dia) constitui o tratamento de primeira linha e padrão-ouro empírico para crianças nessa faixa etária com suspeita de DLM, prescindindo de biópsia renal prévia em apresentações típicas. O corticoide atua estabilizando os podócitos e a barreira de filtração glomerular, revertendo a perda da eletronegatividade dos podócitos e promovendo a remissão completa da proteinúria na grande maioria dos pacientes córtico-sensíveis.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de **síndrome nefrótica** na infância, presumivelmente por **doença por lesões mínimas** (*minimal change disease*), responsável por cerca de 85% a 90% dos casos de nefrolose em pré-escolares.
+2. **Critério Clínico / Fisiopatologia:** O paciente manifesta a tríade clínica e laboratorial clássica: **edema periorbitário e de membros inferiores**, **oligúria** e **proteinúria nefrótica** (3+/4+ no EAS), sem hematúria relevante (**3 hemácias/campo**) e com **pressão arterial normal ou limítrofe inferior** (80 x 60 mmHg). O defeito fisiopatológico primário consiste na desestruturação dos podócitos e perda da carga negativa da barreira de filtração glomerular.
+3. **Indicação de Conduta:** Diante de uma apresentação típica em criança entre 1 e 10 anos de idade, a realização de biópsia renal prévia é dispensada e a conduta preconizada é a introdução imediata de **corticoide** (**prednisona** ou **prednisolona** a **2 mg/kg/dia** ou **60 mg/m²/dia**), visando à estabilização podocitária e à remissão da proteinúria.
 
-Análise dos distratores:
-- A) Diurético: Não é a terapia medicamentosa principal ou etiológica. Ademais, o uso de diuréticos em pacientes com síndrome nefrótica e hipovolemia intravascular relativa (sugerida pela PA no limite inferior de 80 x 60 mmHg) é potencialmente perigoso, pois pode precipitar colapso circulatório, trombose e lesão renal aguda pré-renal. Seu uso é restrito a casos específicos de edema refratário ou hipervolemia comprovada, com monitorização rigorosa.
-- C) Antibiótico: Embora os pacientes nefróticos sejam suscetíveis a infecções graves por germes encapsulados (como peritonite bacteriana espontânea e celulite) devido à perda urinária de imunoglobulinas e fatores do complemento, não há menção de febre, dor abdominal, sinais flogísticos ou processo infeccioso ativo que justifique antibioticoterapia.
-- D) Anti-inflamatório não hormonal (AINE): É terminantemente contraindicado. Os AINEs inibem a síntese de prostaglandinas intrarrenais vasodilatadoras, reduzindo a taxa de filtração glomerular e elevando substancialmente o risco de nefrite intersticial e lesão renal aguda hemodinâmica.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** O uso de **diuréticos** não trata a causa subjacente da afecção e é contraindicado como monoterapia inicial nesta condição; devido ao sequestro de fluido para o terceiro espaço, o paciente pode apresentar **hipovolemia intravascular relativa** (sugerida pela PA de 80 x 60 mmHg), de modo que diuréticos podem precipitar **lesão renal aguda pré-renal**, **colapso circulatório** e eventos tromboembólicos.
+• **Alternativa C (Incorreta):** Embora nefróticos tenham maior risco de infecções bacterianas graves (peritonite espontânea, celulite) pela perda urinária de **imunoglobulinas** e de componentes do **sistema complemento**, não há sinais de sepse, febre ou foco infeccioso documentado que justifique o uso de **antibióticos**.
+• **Alternativa D (Incorreta):** Os **anti-inflamatórios não esteroidais (AINEs)** são terminantemente contraindicados, pois inibem as **prostaglandinas vasodilatadoras renais**, gerando vasoconstrição da arteríola aferente, queda acentuada do **ritmo de filtração glomerular** e toxicidade tubular direta.
 </details>
 
 ---
@@ -41297,16 +41996,19 @@ Recém-nascido de 36 semanas de idade gestacional encontra- se em alojamento con
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A conduta padrão recomendada pela Sociedade Brasileira de Pediatria (SBP) e pela Academia Americana de Pediatria (AAP) para este caso é o início imediato de fototerapia.
+> **Comentário Médica:** O gabarito correto é a **Alternativa A**. A conduta preconizada pela **Sociedade Brasileira de Pediatria (SBP)** e pela **Academia Americana de Pediatria (AAP)** para o caso é o início imediato de **fototerapia**, visando prevenir a neurotoxicidade da hiperbilirrubinemia e a progressão para *kernicterus*.
 
-1. Fundamentação e Raciocínio Clínico:
-O recém-nascido (RN) em questão é pré-termo tardio (36 semanas de idade gestacional), filho de mãe diabética, com risco iminente de incompatibilidade sanguínea materno-fetal por fator Rh (mãe A negativo e RN Rh positivo). Apresenta icterícia precoce, com início nas primeiras 24 horas de vida, o que define a icterícia como obrigatoriamente patológica até que se prove o contrário. 
-A dosagem sérica de bilirrubina total (BT) revelou o valor alarmante de 12 mg/dL com apenas 18 horas de vida. Ao plotar este valor nas curvas e nomogramas de estratificação de risco e indicação terapêutica (SBP/AAP/Bhutani), verifica-se que o RN está classificado na zona de altíssimo risco (> percentil 95), ultrapassando com ampla margem o limiar de indicação de fototerapia para um RN de 36 semanas com fatores de risco hemolítico. A principal complicação a ser prevenida é a encefalopatia bilirrubínica aguda e sua forma crônica (kernicterus), causada pela impregnação da bilirrubina indireta lipossolúvel nos núcleos da base e tronco encefálico. Portanto, a instituição imediata de fototerapia (de preferência de alta eficácia/intensiva) é a conduta mandatória.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos Distratores:
-- Alternativa B (Observação clínica): Incorreta. A atitude expectante é contraindicada diante de icterícia precoce (< 24h de vida) e nível de BT de 12 mg/dL às 18h de vida. Adiar o tratamento exporia o neonato a um risco inaceitável de neurotoxicidade e kernicterus.
-- Alternativa C (Hidratação venosa): Incorreta. O RN encontra-se ativo, clinicamente estável, mamando e sem sinais clínicos ou laboratoriais de desidratação. A hiper-hidratação de rotina não reduz os níveis séricos de bilirrubina e não substitui a fototerapia.
-- Alternativa D (Exsanguineotransfusão): Incorreta como conduta inicial isolada. Embora exista risco de doença hemolítica por incompatibilidade Rh, os níveis de indicação de exsanguineotransfusão imediata para este perfil de idade gestacional e cronológica encontram-se em patamares superiores (em geral ≥ 15 a 17 mg/dL às 18-24 horas, ou perante falha documentada da fototerapia intensiva com curva em ascensão rápida > 0,5 mg/dL/h ou presença de encefalopatia bilirrubínica). A conduta correta no momento é a fototerapia intensiva associada à monitorização seriada da bilirrubina e pesquisa de Coombs direto/reticulócitos para reavaliar a necessidade de exsanguineotransfusão se houver falha terapêutica.
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de um quadro de **icterícia neonatal patológica precoce**, definida pelo aparecimento clínico nas primeiras 24 horas de vida, em um recém-nascido pré-termo tardio (36 semanas) com risco elevado de **doença hemolítica perinatal por incompatibilidade Rh** (mãe Rh negativo e concepto Rh positivo).
+2. **Critério Clínico / Fisiopatologia:** O neonato apresenta nível sérico de **bilirrubina total (BT) de 12 mg/dL com apenas 18 horas de vida**. Ao correlacionar esse valor com a idade gestacional e o tempo de vida nos nomogramas de estratificação de risco de *Bhutani*, o paciente situa-se na **zona de alto risco** (> percentil 95), excedendo largamente o ponto de corte para fototerapia. A forma não conjugada (lipossolúvel) da bilirrubina é neurotóxica e capaz de atravessar a barreira hematoencefálica, com risco iminente de **encefalopatia bilirrubínica aguda** e sequelas motoras e auditivas permanentes (*kernicterus*).
+3. **Indicação de Conduta:** A instituição imediata de **fototerapia de alta eficácia** (preferencialmente intensiva) é a conduta padrão-ouro mandatória. A fototerapia atua por fotoisomerização estrutural e conversão da bilirrubina indireta em lumirrubina (hidrossolúvel), que é prontamente excretada por vias biliar e urinária sem necessidade de conjugação hepática.
+
+**Análise dos Distratores:**
+
+• **Alternativa B (Incorreta):** A **observação clínica** (conduta expectante) é formalmente contraindicada diante de icterícia com início precoce (< 24 horas de vida) e níveis de BT em zona de alto risco, pois atrasa a intervenção e expõe o paciente a dano neurológico irreversível.
+• **Alternativa C (Incorreta):** A **hidratação venosa** de rotina não tem indicação terapêutica para redução de bilirrubina em neonatos clinicamente estáveis, ativos, bem amamentados e sem sinais de desidratação, além de não substituir o tratamento fototerápico.
+• **Alternativa D (Incorreta):** A **exsanguineotransfusão** não está indicada de imediato neste patamar de bilirrubina (geralmente reservada para valores ≥ 15 a 17 mg/dL nesta faixa etária e perfil de risco, ou perante falha da fototerapia intensiva e/ou sinais de encefalopatia bilirrubínica aguda). A conduta inicial correta é a fototerapia intensiva com monitorização seriada da bilirrubina.
 </details>
 
 ---
@@ -41327,17 +42029,21 @@ Considerando o caso clínico, assinale a opção que apresenta, corretamente, a 
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A questão aborda o diagnóstico etiológico, a fisiopatologia, a propedêutica e a conduta imediata diante de um quadro de hiperbilirrubinemia indireta grave em recém-nascido a termo.
+> **Comentário Médica:** O caso clínico descreve um recém-nascido a termo, com 72 horas de vida, apresentando hiperbilirrubinemia indireta grave com bilirrubina total de 25,6 mg/dL e progressão céfalo-caudal importante (Zona 4 de Kramer). Níveis séricos dessa magnitude ultrapassam a barreira hematoencefálica e oferecem risco iminente de encefalopatia bilirrubínica aguda e kernicterus.
 
-1. Justificativa da alternativa correta (A):
-- Fisiopatologia e Causa: A alfa-talassemia é uma hemoglobinopatia hereditária decorrente da redução ou ausência da síntese de cadeias alfa da hemoglobina, configurando uma clássica etiologia de **doença hemolítica** intrínseca dos eritrócitos. Diferente das isoimunizações Rh e ABO (que foram afastadas no caso), as hemoglobinopatias e as enzimopatias (como a deficiência de G6PD) são causas importantes de hemólise não imune que provocam hiperbilirrubinemia indireta acentuada.
-- Avaliação complementar: A triagem neonatal biológica básica e ampliada (**teste do pezinho**) inclui a eletroforese de hemoglobina (triagem de hemoglobinopatias), permitindo a detecção precoce de variantes anormais e talassemias (como a presença de hemoglobina de Bart).
-- Conduta imediata: Diante de hiperbilirrubinemia grave (BT = 25,6 mg/dL às 72 horas de vida), a conduta prioritária e emergencial é a instalação imediata de **fototerapia intensiva/de alta eficácia** (múltiplas fontes de luz, alta irradiância), visando à rápida fotoisomerização da bilirrubina para prevenir neurotoxicidade (encefalopatia bilirrubínica / kernicterus). Concomitantemente, prepara-se o material e a reserva de sangue para eventual exsanguinotransfusão caso os níveis permaneçam na faixa crítica após 4-6 horas de fototerapia intensiva.
+**Raciocínio Clínico e Fisiopatológico:**
 
-2. Análise dos distratores:
-- Alternativa B está incorreta: O hipotireoidismo congênito leva à icterícia por diminuição da captação e conjugação hepática da bilirrubina pela enzima glicuroniltransferase (UGT), além de redução da motilidade intestinal, e **não por policitemia**.
-- Alternativa C está incorreta: A síndrome de Crigler-Najjar é decorrente de uma deficiência genética (parcial no tipo II ou total no tipo I) da enzima uridino-difosfoglicuroniltransferase (UGT1A1), sendo um distúrbio de **conjugação hepática**, e **não uma doença hemolítica**. Além disso, o teste do pezinho clássico não a diagnostica.
-- Alternativa D está incorreta: A estenose hipertrófica de piloro associa-se à icterícia pela redução da atividade da glicuroniltransferase e aumento da circulação êntero-hepática de bilirrubina decorrente da estase gástrica/obstrução, e **não por coleção sanguínea extravascular** (esta última refere-se a cefaloematomas, equimoses ou hemorragias intracranianas).
+1. **Etiopatogenia e Diagnóstico:** Na ausência de isoimunização por incompatibilidade eritrocitária clássica (ABO ou Rh), a investigação de icterícia grave com perfil hemolítico deve contemplar causas não imunes. Entre elas destacam-se as hemoglobinopatias, como a **alfa-talassemia**, as enzimopatias (deficiência de G6PD) e os defeitos de membrana eritrocitária (esferocitose hereditária). A alfa-talassemia é caracterizada por redução ou ausência de síntese das cadeias alfa da hemoglobina, culminando em instabilidade da hemoglobina, precipitação de tetrâmeros anormais e hemólise intravascular e extravascular. A triagem neonatal biológica (teste do pezinho) utiliza métodos como focalização isoelétrica ou cromatografia líquida de alta performance (HPLC) para rastrear variantes de hemoglobina, permitindo a identificação precoce dessas alterações.
+
+2. **Conduta Imediata:** Diante de uma hiperbilirrubinemia crítica, a intervenção imediata mandatória é a **fototerapia intensiva** com múltiplos focos de luz azul especial e irradiância adequada. Essa modalidade terapêutica promove a fotoisomerização estrutural da bilirrubina indireta em lumirrubina, um composto hidrossolúvel excretado por via biliar e urinária sem necessidade de conjugação hepática. Embora níveis acima de 25 mg/dL estejam no limiar para exsanguinotransfusão segundo os nomogramas da Sociedade Brasileira de Pediatria e da American Academy of Pediatrics, a fototerapia deve ser iniciada sem qualquer atraso enquanto a resposta terapêutica é monitorizada ou enquanto se prepara material e sangue para eventual procedimento invasivo.
+
+**Análise das alternativas incorretas:**
+
+• **Alternativa B: Incorreta.** O hipotireoidismo congênito causa icterícia neonatal prolongada devido à diminuição da atividade da enzima UDP-glicuroniltransferase hepática e ao retardo do trânsito gastrointestinal com lentificação da motilidade, e não por mecanismo de policitemia. Além disso, a conduta inicial padrão para icterícia sintomática aguda é o suporte fototerápico, não a exsanguinotransfusão como primeira linha isolada antes da fototerapia.
+
+• **Alternativa C: Incorreta.** A síndrome de Crigler-Najjar decorre de mutações no gene UGT1A1, gerando ausência completa (tipo I) ou deficiência parcial marcante (tipo II) da enzima glicuroniltransferase, tratando-se, portanto, de um distúrbio genético da conjugação hepática e não de uma doença hemolítica. Ademais, essa enzimopatia hepática não é contemplada na triagem neonatal biológica básica ou ampliada habitual.
+
+• **Alternativa D: Incorreta.** A estenose hipertrófica de piloro associa-se à icterícia neonatal principalmente pelo aumento da circulação êntero-hepática decorrente da estase gástrica e desidratação, somado à inibição funcional transitória da conjugação hepática (síndrome icteropilórica). O mecanismo de coleção sanguínea extravascular é a fisiopatologia observada em cefaloematomas, bossas e equimoses extensas.
 </details>
 
 ---
@@ -41585,15 +42291,21 @@ Um pediatra é chamado para atendimento de um recém-nascido (RN) em sala de par
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta padrão e prioritária nesse cenário é iniciar a Ventilação com Pressão Positiva (VPP) com máscara facial, conforme as Diretrizes de Reanimação Neonatal da Sociedade Brasileira de Pediatria (SBP) e do International Liaison Committee on Resuscitation (ILCOR).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Fundamentação e Raciocínio Clínico:
-Após o nascimento, caso o recém-nascido (RN) apresente respiração ausente (apneia), respiração irregular (gasping) ou frequência cardíaca (FC) < 100 bpm, realizam-se os passos iniciais (aquecer, posicionar a cabeça em leve extensão, aspirar vias aéreas se houver obstrução evidente e secar/remover campos úmidos) em no máximo 30 segundos. Se, após a execução dos passos iniciais, o RN persistir em apneia, respiração irregular ou FC < 100 bpm, a intervenção imediata e de maior eficácia para restabelecer a função cardiorrespiratória é a VPP com máscara facial, a ser instituída dentro do chamado 'Minuto de Ouro' (primeiros 60 segundos de vida). A fisiopatologia da asfixia perinatal cursa com vasoconstrição pulmonar e hipoxemia decorrente do não estabelecimento da aeração alveolar; a VPP promove a expansão dos alvéolos, reduz a resistência vascular pulmonar e restabelece a troca gasosa adequada.
+O atendimento ao recém-nascido em sala de parto segue as diretrizes do Programa de Reanimação Neonatal da Sociedade Brasileira de Pediatria (PRN-SBP) e do International Liaison Committee on Resuscitation (ILCOR). Imediatamente após o nascimento, avalia-se a vitalidade por meio de três perguntas fundamentais: gestação a termo? Respirando ou chorando? Tônus muscular em flexão? No caso apresentado, o concepto nasceu em **apneia neonatal**, indicando ausência de vitalidade imediata, o que justificou o clampeamento imediato do cordão e o transporte à mesa de reanimação sob calor radiante.
 
-2. Análise dos Distratores:
-- Alternativa A (Incorreta): O oxigênio inalatório passivo (fluxo livre) é indicado apenas para o RN que respira espontaneamente, tem FC ≥ 100 bpm, mas mantém desconforto respiratório ou saturação de oxigênio abaixo do alvo para os minutos de vida. Diante de apneia, a oferta de O2 passivo é ineficaz, pois não promove a abertura mecânica dos alvéolos nem ventilação.
-- Alternativa B (Incorreta): A intubação traqueal é uma via aérea avançada indicada quando a VPP com máscara facial é ineficaz (após correção de técnica/ajuste de selamento), quando há necessidade de compressões torácicas ou em situações clínicas específicas (como suspeita de hérnia diafragmática congênita). A máscara facial é a primeira interface recomendada para iniciar a VPP.
-- Alternativa C (Incorreta): O estímulo tátil breve (feito de maneira delicada na planta dos pés ou no dorso) está restrito aos passos iniciais (primeiros 30 segundos). Fricção vigorosa ou circular no abdome é contraindicada pelo risco de lesão de vísceras parenquimatosas (fígado/baço). Além disso, insistir em estímulos táteis em um RN que permanece em apneia após os passos iniciais apenas retarda o início da VPP mandatória.
+Na mesa de reanimação, são executados os passos iniciais da estabilização dentro dos primeiros 30 segundos de vida: prover calor (manter temperatura entre 36,5 °C e 37,5 °C), posicionar a cabeça em leve extensão para abertura da via aérea, aspirar vias aéreas apenas se houver secreção obstrutiva e secar o concepto removendo os campos úmidos, manobra que já fornece estímulo tátil suave. Decorridos esses 30 segundos iniciais, realiza-se a reavaliação mandatória da frequência cardíaca e da respiração.
+
+Constatada a persistência da apneia, respiração irregular/gasping ou frequência cardíaca inferior a 100 bpm, a intervenção prioritária, isolada e de maior eficácia na reanimação neonatal é o início imediato da **ventilação com pressão positiva** com máscara facial conectada a um ressuscitador manual (balão autoinflável ou ventilador mecânico manual em T). Essa conduta deve ser estabelecida antes de completar o chamado "Minuto de Ouro" (60 segundos de vida), pois a aeração pulmonar e a consequente queda da resistência vascular pulmonar são os determinantes primordiais para a transição cardiorrespiratória bem-sucedida e reversão da hipoxemia tecidual.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A oferta de oxigênio inalatório sob fluxo livre depende obrigatoriamente da presença de incursões respiratórias espontâneas e eficazes por parte do recém-nascido para que o gás atinja o leito alveolar. Em um paciente em apneia, a administração passiva de oxigênio é completamente inócua, além de atrasar o suporte ventilatório mandatório.
+
+• **B) Incorreta:** A intubação traqueal representa uma via aérea avançada e não é a intervenção de primeira linha neste momento. Suas principais indicações na sala de parto incluem insucesso ou ineficácia da ventilação com máscara facial após correções técnicas, necessidade de massagem cardíaca externa, administração traqueal de medicações de resgate ou em casos específicos como hérnia diafragmática congênita suspeita ou confirmada. O manejo inicial preconiza o uso prioritário de interface com máscara.
+
+• **C) Incorreta:** O estímulo tátil adicional é contraindicado nessa fase. Os estímulos permitidos restringem-se ao ato de secar o paciente e a discretas fricções na região dorsal ou nas plantas dos pés, sempre limitados aos passos iniciais. Insistir em estímulos táteis quando a apneia persiste apenas consome tempo precioso do Minuto de Ouro. Ademais, a realização de fricção no abdome é estritamente proscrita devido ao alto risco de laceração de vísceras parenquimatosas relativamente aumentadas no período neonatal, como fígado e baço.
 </details>
 
 ---
@@ -41645,18 +42357,21 @@ Com base no relato do caso e no provável diagnóstico para esse neonato, além 
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A apresentação clínica e radiológica do recém-nascido é clássica da **Taquipneia Transitória do Recém-Nascido (TTRN)**, também conhecida como síndrome do pulmão úmido. Trata-se de uma condição decorrente do atraso na reabsorção e depuração do líquido pulmonar fetal após o nascimento.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. O quadro clínico e radiológico apresentado é típico de **Taquipneia Transitória do Recém-Nascido (TTRN)**, e a **asma materna** é reconhecida pela Sociedade Brasileira de Pediatria (**SBP**) e pela literatura internacional como um fator de risco materno independente para essa afecção respiratória.
 
-**Diagnóstico e Fisiopatologia:**
-- **Quadro clínico:** Neonato prematuro tardio (35 semanas e 5 dias), nascido de parto cesáreo, que desenvolve desconforto respiratório precoce de intensidade moderada, com evolução autolimitada e melhora progressiva até o 3º dia de vida com suporte não invasivo.
-- **Achados radiológicos:** Hiperinsuflação pulmonar (retificação de arcos costais), estrias vasculares proeminentes/linhas de líquido perihilares e espessamento das cissuras interlobares, sem padrão de reticulogranulado difuso ou broncogramas aéreos típicos da Doença da Membrana Hialina (DMH).
-- **Fatores de risco clássicos:** Além da prematuridade tardia, do parto cesáreo sem trabalho de parto prévio e do diabetes gestacional, a **asma materna** é descrita na literatura pediátrica e pelas diretrizes da Sociedade Brasileira de Pediatria (SBP) como um fator de risco independente bem documentado para o desenvolvimento de TTRN (possivelmente relacionado a alterações na reatividade beta-adrenérgica e clareamento mediado pelos canais epiteliais de sódio - ENaC).
+**Raciocínio Clínico e Fisiopatológico:**
+
+1. **Diagnóstico da Afecção:** Trata-se de **Taquipneia Transitória do Recém-Nascido (TTRN)**, também denominada *síndrome do pulmão úmido*. Acomete comumente prematuros tardios ou a termo, gerando desconforto precoce que melhora progressivamente em **24 a 72 horas** sob suporte ventilatório não invasivo, com exames infecciosos negativos.
+
+2. **Achados Radiológicos e Mecanismo Fisiopatológico:** Ocorre por atraso na depuração do líquido pulmonar fetal pelos canais epiteliais de sódio (**ENaC**). A radiografia demonstra **hiperinsuflação pulmonar**, retificação de arcos costais, **estrias vasculares perihilares** e líquido cisural, sem o padrão de infiltrado reticulogranular difuso ou broncograma aéreo típico da Doença da Membrana Hialina (**DMH**).
+
+3. **Fatores de Risco:** Além do nascimento por **parto cesáreo** eletivo (ausência do pico adrenérgico do trabalho de parto), da **prematuridade limítrofe/tardia** e do **diabetes gestacional**, a presença de **asma brônquica materna** altera a reatividade beta-adrenérgica e o transporte iônico no epitélio alveolar fetal, configurando fator de risco estabelecido para a TTRN.
 
 **Análise dos Distratores:**
-- **A) Incorreta (cor branca):** Embora a etnia branca seja fator associado à maior incidência de Doença da Membrana Hialina quando comparada à etnia negra, não configura fator predisponente clássico para a TTRN no contexto deste caso.
-- **B) Incorreta (tamanho PIG):** O tamanho corporal que classicamente confere risco aumentado para TTRN é a macrossomia ou ser grande para a idade gestacional (GIG), frequentemente associado ao diabetes materno, e não ser pequeno para a idade gestacional (PIG).
-- **C) Incorreta (sexo feminino):** O sexo masculino é o fator de risco associado tanto à TTRN quanto a outros distúrbios respiratórios neonatais. O sexo feminino atua como um fator protetor em relação à maturação pulmonar e sensibilidade hormonal.
-- **D) Correta (asma materna):** A asma brônquica materna está firmemente estabelecida em estudos epidemiológicos como um fator de risco materno específico e independente que predispõe à ocorrência de Taquipneia Transitória do Recém-Nascido.
+
+• **Alternativa A (Incorreta):** A **cor branca** é descrita como fator de maior incidência para a **Doença da Membrana Hialina** em relação à etnia negra, mas não constitui fator predisponente clássico para a **TTRN**.
+• **Alternativa B (Incorreta):** O desvio de crescimento associado à TTRN é ser **grande para a idade gestacional (GIG)** ou a **macrossomia**, comumente decorrente do hiperinsulinismo no diabetes materno, e não ser pequeno para a idade gestacional (**PIG**).
+• **Alternativa C (Incorreta):** O **sexo masculino** é o fator epidemiológico predisponente tanto para a TTRN quanto para outros distúrbios respiratórios precoces do período neonatal; o sexo feminino confere relativa **proteção maturativa pulmonar**.
 </details>
 
 ---
@@ -42048,17 +42763,17 @@ Criança de 4 anos de idade, sexo feminino, foi levada ao pronto-socorro (PS) de
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta padrão e o projeto terapêutico adequado para o caso baseiam-se no reconhecimento da Crise Febril Simples (ou Típica) e no manejo biopsicossocial da família na Atenção Primária à Saúde.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O quadro clínico é compatível com **crise febril simples (típica)** em paciente já assintomática e recuperada, cuja abordagem padrão-ouro prioriza o acolhimento, a elucidação da benignidade do evento aos responsáveis e o seguimento longitudinal na **Atenção Primária à Saúde**, conforme as diretrizes da **Sociedade Brasileira de Pediatria (SBP)** e da **Academia Americana de Pediatria (AAP)**.
 
-1. **Fundamentação clínica e diretrizes (SBP e Academia Americana de Pediatria - AAP):**
-- **Definição de Crise Febril Simples:** Ocorre em crianças entre 6 meses e 5 anos de idade, associada a febre (≥ 37,8–38,0 °C), de padrão generalizado (geralmente tônico-clônico), duração inferior a 15 minutos, com recuperação rápida do sensório (período pós-ictal curto), sem déficits neurológicos focais e sem recorrência em 24 horas. A paciente preenche perfeitamente todos os critérios clínicos.
-- **Prognóstico e Manejo:** Trata-se de uma condição benigna que não eleva significativamente o risco de desenvolvimento futuro de epilepsia nem causa dano cognitivo. Exames complementares (como neuroimagem, punção lombar ou eletroencefalograma) não são indicados de rotina na crise febril simples em crianças alertas, com exame neurológico normal e sem sinais de infecção do sistema nervoso central.
-- **Abordagem Biopsicossocial e Longitudinalidade:** O histórico de morte súbita do irmão lactente e o contexto de vulnerabilidade social aumentam enormemente o nível de angústia, ansiedade e estresse dos cuidadores diante de qualquer evento agudo. Portanto, o pilar central da conduta consiste em tranquilizar e orientar a família quanto à benignidade do quadro, orientar o manejo básico de eventuais novas crises e garantir o acompanhamento longitudinal pela equipe de Atenção Primária/Saúde da Família.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Trata-se de uma **crise febril simples (típica)** recidivada (primeiro episódio aos 18 meses). Ocorre tipicamente na faixa etária entre **6 meses e 5 anos**, desencadeada por ascensão térmica rápida em vigência de febre (> 37,8–38,0 °C).
+2. **Critério Clínico / Fisiopatologia:** Para ser classificada como simples, a crise deve ter padrão **generalizado (tônico-clônico)**, duração **menor que 15 minutos**, ausência de sinais neurológicos focais (como a *paralisia de Todd*) e ausência de recorrência em **24 horas**. Trata-se de evento benigno, autolimitado e que não causa dano estrutural encefálico nem eleva substancialmente o risco de **epilepsia** futura.
+3. **Indicação de Conduta:** Com exame físico e neurológico normais e período de observação sem intercorrências, não há indicação de investigação invasiva ou propedêutica armada. Considerando o contexto de **vulnerabilidade social** e o luto prévio por morte súbita do irmão lactente, a intervenção médica prioritária consiste em **tranquilizar os pais**, fornecer orientações sobre o manejo de novos episódios febris e pactuar o **acompanhamento longitudinal** na rede básica.
 
-2. **Análise dos distratores:**
-- **Alternativa A (Incorreta):** Não há história clínica, exame físico ou evidências no caso que sugiram traumatismo cranioencefálico, violência ou abuso infantil. Além disso, o seguimento prioritário deve ser na atenção primária e não focado em afastar violência por especialista.
-- **Alternativa B (Incorreta):** A tomografia de crânio expõe a criança à radiação ionizante de forma desnecessária, não tendo indicação em crises febris simples com exame neurológico normal. A história de morte súbita do irmão lactente (provavelmente Síndrome da Morte Súbita do Lactente - SMSL) não justifica neuroimagem na paciente.
-- **Alternativa D (Incorreta):** O padrão tônico-clônico generalizado é exatamente o tipo mais comum e característico da crise febril simples/típica. A internação hospitalar prolongada é desnecessária após o período de observação clínica que demonstrou plena recuperação da criança.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** Não há dados clínicos, epidemiológicos ou semiológicos que levantem suspeita de **traumatismo cranioencefálico** ou **violência física**, sendo desnecessário o encaminhamento focal a especialista para esse fim.
+• **Alternativa B (Incorreta):** A realização de **tomografia de crânio** não é indicada de rotina na crise febril simples e submete a criança desnecessariamente à **radiação ionizante**. O antecedente de provável **síndrome da morte súbita do lactente (SMSL)** no irmão não é fator de risco nem justificativa para neuroimagem na paciente.
+• **Alternativa D (Incorreta):** A crise **tônico-clônica generalizada** é precisamente a apresentação típica e mais comum da crise febril na infância. A manutenção de internação hospitalar não tem respaldo clínico após 12 horas de observação com recuperação completa do sensório.
 </details>
 
 ---
@@ -42696,15 +43411,21 @@ Um adolescente de 12 anos, pesando 85 kg e com índice de massa corpórea de 30 
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A hipótese diagnóstica mais provável é a epifisiólise proximal da cabeça femoral (Alternativa A).
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Justificativa da Alternativa Correta (A):
-A epifisiólise femoral proximal (ou escorregamento epifisário da cabeça femoral) é a afecção do quadril mais comum na faixa etária da puberdade e adolescência (com pico de incidência entre 10 e 14 anos no sexo masculino). Caracteriza-se pelo deslocamento mecânico (geralmente posteromedial) da epífise femoral proximal em relação ao colo do fêmur, ao nível da cartilagem de crescimento (fise). O perfil clássico do paciente inclui: sexo masculino, sobrepeso/obesidade (conforme o paciente do caso, com IMC de 30 kg/m² e 85 kg aos 12 anos) e estirão de crescimento puberal, fatores que aumentam substancialmente as forças de cisalhamento sobre a placa fisiária enfraquecida por estímulos hormonais. A apresentação clínica pode ser crônica ou aguda sobreposta à crônica, cursando com dor na virilha, coxa ou mesmo referida no joelho, claudicação e impotência funcional, frequentemente sem histórico de trauma significativo. Ao exame físico, é patognomônica a redução da rotação interna e flexão do quadril, manifestando rotação externa obrigatória à flexão (sinal de Drehmann).
+O quadro clínico apresentado é clássico de **epifisiólise femoral proximal** (também conhecida como escorregamento epifisário da cabeça femoral), afecção ortopédica que acomete caracteristicamente adolescentes durante o estirão de crescimento puberal (faixa etária dos 10 aos 16 anos), com forte predomínio no sexo masculino e associação direta com sobrepeso ou obesidade. 
 
-2. Análise dos Distratores:
-- Alternativa B (Artrite séptica do quadril): É uma emergência infecciosa caracterizada por início agudo, febre alta, sinais de toxemia sistêmica, impotência funcional absoluta (recusa total de apoio do membro) e elevação acentuada de reagentes de fase aguda (PCR, VHS, leucocitose com desvio). O quadro clínico do paciente não cita febre ou manifestações sistêmicas infecciosas.
-- Alternativa C (Artrite reumatoide juvenil / Artrite idiopática juvenil): Condição inflamatória crônica caracterizada por artrite persistente por pelo menos 6 semanas em indivíduos menores de 16 anos. O início abrupto com forte dor e impotência funcional aguda não é a apresentação típica monoarticular isolada do quadril dessa patologia.
-- Alternativa D (Sinovite transitória do quadril): É uma das causas mais comuns de dor no quadril na infância, porém afeta predominantemente crianças em faixa etária pré-escolar/escolar precoce (pico entre 3 e 8 anos), sendo rara na adolescência. Além disso, frequentemente sucede infecções de vias aéreas superiores e apresenta curso autolimitado e benigno, com intensidade de dor consideravelmente menor do que a descrita no caso.
+Sob a perspectiva biomecânica e fisiopatológica, a fise proximal do fêmur sofre um enfraquecimento fisiológico decorrente da rápida proliferação celular durante o estirão puberal somado a alterações na orientação anatômica da placa de crescimento, que se torna mais oblíqua. Em pacientes obesos (como o adolescente do caso, pesando 85 kg e com IMC de 30 kg/m²), a sobrecarga de estresse mecânico cisalhante sobre a placa fisária supera a sua resistência mecânica, provocando a delaminação e o deslizamento da cabeça femoral através da zona hipertrófica da cartilagem de crescimento (mecanicamente análogo a uma fratura tipo Salter-Harris I). O colo femoral desvia-se anterior e superiormente, enquanto a epífise femoral proximal permanece contida no acetábulo, assumindo posição posterior e inferior.
+
+Clinicamente, manifesta-se por claudicação, dor na região inguinal que pode irradiar para a face medial da coxa ou para o joelho (o que frequentemente retarda o diagnóstico devido à inervação compartilhada pelo nervo obturador) e limitação marcante da amplitude articular, com perda da rotação interna, abdução e flexão do quadril. Ao exame, a flexão passiva do quadril frequentemente induz uma rotação externa obrigatória (sinal de Drehmann). Pela classificação de Loder, o quadro pode ser estável (capacidade de marcha, mesmo claudicante) ou instável (incapacidade de apoiar o membro e deambular, associada a alto risco de necrose avascular). Trata-se de uma urgência ortopédica que impõe a suspensão imediata de carga no membro e fixação cirúrgica, usualmente por epifisiodese in situ percutânea com parafuso canulado, com o intuito de prevenir maiores deslocamentos e necrose avascular.
+
+**Análise das alternativas incorretas:**
+
+• **B) Incorreta:** A artrite séptica do quadril é uma emergência infecciosa bacteriana aguda da cavidade sinovial. O quadro clínico cursa tipicamente com sinais sistêmicos evidentes, incluindo febre alta, toxemia, recusa absoluta de qualquer movimentação articular ativa ou passiva devido à dor em repouso e marcadores inflamatórios séricos muito elevados (leucocitose com desvio, proteína C reativa e velocidade de hemossedimentação elevadas), parâmetros sumarizados pelos critérios preditivos de Kocher. O enunciado não relata febre, estado infeccioso prévio ou repercussão sistêmica.
+
+• **C) Incorreta:** A artrite idiopática juvenil é uma enfermidade inflamatória osteoarticular autoimune de caráter eminentemente crônico, cuja definição diagnóstica exige a persistência de sinovite documentada em uma ou mais articulações por um período mínimo de 6 semanas em indivíduos menores de 16 anos, excluídas outras etiologias. O acometimento agudo, isolado e abrupto do quadril em um paciente previamente hígido não preenche critérios para essa doença.
+
+• **D) Incorreta:** A sinovite transitória do quadril é uma condição inflamatória autolimitada e benigna comum, porém tem seu pico epidemiológico restrito a crianças entre 3 e 8 anos de idade, sendo evento excepcional na adolescência. Além disso, costuma ser precedida por infecção das vias aéreas superiores de 1 a 2 semanas antes do início dos sintomas e apresenta intensidade dolorosa mais branda, permitindo frequentemente a deambulação com claudicação leve a moderada, sem o perfil de gravidade ou o biótipo associado à epifisiólise.
 </details>
 
 ---
@@ -42754,15 +43475,19 @@ Uma adolescente de 13 anos foi levada pela mãe à unidade básica de saúde, po
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A paciente apresenta quadro clássico de escoliose idiopática do adolescente (EIA), a forma mais comum de deformidade tridimensional da coluna vertebral nessa faixa etária. O exame físico evidencia assimetria de ombros, escápula proeminente e positividade na manobra de Adams (teste de inclinação anterior do tronco), caracterizada pela presença de gibosidade decorrente da rotação vertebral e consequente elevação das costelas (deformidade rotacional e tridimensional). Diante de um teste de Adams positivo, a investigação complementar com radiografia panorâmica da coluna vertebral (em incidências anteroposterior e perfil) em ortostase é indispensável. A mensuração do ângulo de Cobb é o método padrão-ouro para quantificar a magnitude da curva escoliótica e definir o planejamento terapêutico, associado à avaliação da maturidade esquelética (pelo sinal de Risser):
-- Curvas < 20° a 25°: acompanhamento clínico e radiológico regular;
-- Curvas entre 25° e 40°-45° em pacientes com potencial de crescimento: indicação de colete ortopédico (tratamento conservador);
-- Curvas > 45° a 50°: indicação de correção cirúrgica (artrodese com instrumentação).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O quadro clínico e semiológico é característico de **escoliose**, sendo mandatória a realização de radiografia panorâmica da coluna vertebral para a mensuração do **ângulo de Cobb**, parâmetro padrão-ouro que orienta a escolha entre observação, tratamento conservador com órtese ou abordagem cirúrgica, em consonância com as diretrizes da Sociedade Brasileira de Ortopedia e Traumatologia (**SBOT**) e da Sociedade Brasileira de Pediatria (**SBP**).
 
-Análise dos distratores:
-- Alternativa A: Incorreta. A investigação radiológica é mandatória após o rastreio clínico positivo para confirmar o diagnóstico, quantificar a curva (Cobb) e estabelecer a conduta terapêutica.
-- Alternativa B: Incorreta. A alteração descrita e evidenciada pelo teste de Adams é uma escoliose (desvio coronal com componente rotacional), e não uma hiperlordose (deformidade no plano sagital).
-- Alternativa D: Incorreta. O teste de Adams avalia assimetrias rotacionais indicativas de escoliose estrutural, não servindo para diagnóstico de lordose ou espinha bífida.
+**Raciocínio Clínico e Fisiopatológico:**
+
+1. **Diagnóstico da Afecção:** Trata-se de **escoliose idiopática do adolescente (EIA)**, a deformidade tridimensional da coluna mais frequente na faixa etária pediátrica, com maior prevalência e risco de progressão em meninas durante o estirão do crescimento puberal.
+2. **Critério Clínico e Fisiopatologia:** A paciente apresenta assimetria de ombros, escápula proeminente e positividade no **teste de *Adams*** (manobra de flexão anterior do tronco). O aparecimento da **gibosidade torácica** evidencia a rotação dos corpos vertebrais com consequente projeção posterior dos arcos costais, confirmando a existência de uma **deformidade estrutural tridimensional** (envolvendo os planos coronal, sagital e axial).
+3. **Indicação de Conduta:** Diante da suspeita clínica, indica-se **radiografia panorâmica da coluna em ortostase** para mensuração do **ângulo de Cobb** e avaliação da maturidade esquelética pelo **sinal de *Risser***. Curvas **< 20° a 25°** demandam apenas **acompanhamento clínico e radiológico** regular; curvas entre **25° e 40°-45°** com esqueleto imaturo indicam uso de **colete ortopédico**; e curvas **> 45° a 50°** possuem indicação formal de **correção cirúrgica com artrodese**.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** A investigação por imagem **não é dispensada**; os exames radiográficos são indispensáveis para confirmação diagnóstica, aferição do **ângulo de Cobb** e definição da conduta terapêutica.
+• **Alternativa B (Incorreta):** A alteração patológica descrita no exame físico e no teste de *Adams* corresponde à **escoliose**, e não à **lordose**, que constitui uma curvatura fisiológica ou deformidade restrita ao plano sagital.
+• **Alternativa D (Incorreta):** O teste de *Adams* avalia assimetria e rotação tridimensional próprias da **escoliose estrutural**, não tendo relação ou valor diagnóstico para **lordose** ou **espinha bífida** (disrafismo espinhal).
 </details>
 
 ---
@@ -43143,17 +43868,19 @@ Lactente de 6 meses, sexo masculino, foi levado à unidade básica de saúde, co
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) é a correta.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O caso clínico descreve um primeiro episódio de sibilância em lactente precedido por pródromo viral, caracterizando **bronquiolite viral aguda (BVA)**, cujo manejo preconizado pelas diretrizes da **Sociedade Brasileira de Pediatria (SBP)** e da **Academia Americana de Pediatria (AAP)** baseia-se estritamente em **medidas de suporte e monitorização**.
 
-Fundamentação Clínica e Fisiopatológica:
-O caso clínico descreve um lactente de 6 meses de vida com quadro clássico de Bronquiolite Viral Aguda (BVA): pródromo de infecção de vias aéreas superiores (coriza, tosse e febre) que, após cerca de 3 a 5 dias, evolui com acometimento de vias aéreas inferiores caracterizado por taquipneia (frequência respiratória de 56 irpm para a idade), sinais de desconforto respiratório (tiragem de fúrcula e subcostal), tempo expiratório prolongado e sibilos difusos, além de hipoxemia (SatO2 de 88%). A radiografia com hiperinsuflação é compatível com o aprisionamento aéreo gerado pela obstrução e espessamento bronquiolar causados, mais frequentemente, pelo Vírus Sincicial Respiratório (VSR).
+**Raciocínio Clínico e Fisiopatológico:**
 
-Segundo as diretrizes da Sociedade Brasileira de Pediatria (SBP) e da Academia Americana de Pediatria (AAP), o diagnóstico da BVA é eminentemente clínico e representa o primeiro episódio de sibilância em lactentes menores de dois anos após infecção viral. O manejo padrão fundamenta-se estritamente em medidas de suporte: oxigenoterapia (para manter a saturação acima de 90-92%), hidratação adequada, desobstrução/aspiração suave de vias aéreas superiores e monitorização rigorosa em ambiente hospitalar, dada a presença de sinais de gravidade (hipoxemia e tiragens).
+1. **Diagnóstico da Afecção:** Trata-se de **bronquiolite viral aguda (BVA)**, a afecção respiratória baixa mais comum em lactentes menores de dois anos, tipicamente causada pelo **Vírus Sincicial Respiratório (VSR)**. O quadro clínico clássico caracteriza-se por pródromo de **infecção de vias aéreas superiores** (coriza, tosse e febre) que evolui em 3 a 5 dias para o trato respiratório inferior.
+2. **Critério Clínico e Fisiopatologia:** A invasão viral dos bronquíolos terminais provoca necrose epitelial, edema de submucosa e hipersecreção de muco, resultando em obstrução e aprisionamento aéreo. Clinicamente, isso se manifesta por **tempo expiratório prolongado**, **sibilos difusos**, **taquipneia** (FR de 56 irpm; ponto de corte para ≥ 2 meses e < 12 meses é ≥ 50 irpm) e **hiperinsuflação pulmonar** ao raio-X de tórax. A presença de **tiragem subcostal e de fúrcula** e a **SatO2 de 88%** sinalizam desconforto respiratório importante e hipoxemia.
+3. **Indicação de Conduta:** O pilar terapêutico da BVA envolve **medidas de suporte**, incluindo **oxigenoterapia** para manter a saturação de oxigênio ≥ 90-92%, hidratação adequada, desobstrução das vias aéreas superiores com soro fisiológico e **monitorização contínua**. Medicações broncodilatadoras, corticoides ou antibióticos não têm indicação de rotina.
 
-Análise dos Distratores:
-- Alternativa (A) está incorreta: O quadro ultrapassa uma infecção de vias aéreas superiores isolada (resfriado comum), pois há nítido acometimento de vias aéreas inferiores (dispneia, sibilos difusos, hipoxemia e hiperinsuflação). Ademais, broncodilatadores não têm benefício comprovado na BVA e o paciente requer internação devido à hipoxemia, não sendo indicado o manejo ambulatorial.
-- Alternativa (B) está incorreta: A pneumonia bacteriana classicamente se manifesta com febre alta persistente, comprometimento do estado geral e achados de consolidação focal (ausculta de estertores crepitantes localizados e infiltrado radiológico com broncograma aéreo), e não com sibilância difusa e hiperinsuflação bilateral típica de acometimento bronquiolar viral difuso.
-- Alternativa (D) está incorreta: Não se estabelece o diagnóstico de asma no primeiro episódio de sibilância desencadeado por infecção viral típica nessa faixa etária, mesmo com história materna positiva. Diretrizes pediátricas contraindicam o uso rotineiro de corticoides sistêmicos e beta-2 agonistas para o tratamento da bronquiolite viral aguda típica.
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O paciente ultrapassou o quadro de **resfriado comum** ao apresentar nítido comprometimento de vias aéreas inferiores com **hipoxemia** (SatO2 de 88%) e **esforço respiratório**, o que contraindica o manejo ambulatorial e exige internação hospitalar; além disso, broncodilatadores não possuem benefício na BVA.
+• **Alternativa B (Incorreta):** A **pneumonia bacteriana** cursa com febre alta contínua, toxemia e achados localizados (como estertores crepitantes focais e consolidação alveolar ao raio-X), e não com sibilância bilateral difusa e hiperinsuflação generalizada; logo, não há indicação de **antibioticoterapia**.
+• **Alternativa D (Incorreta):** O primeiro episódio de sibilância após pródromo catarral em lactente jovem define BVA e não **asma**, mesmo diante de histórico materno positivo. O uso rotineiro de **beta-agonistas** e **corticoide** é expressamente contraindicado pelos consensos pediátricos para a bronquiolite típica.
 </details>
 
 ---
@@ -43205,24 +43932,28 @@ Nesse caso, as condutas médicas para o controle da crise e para o tratamento de
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A conduta diante de uma criança de 8 anos com crise asmática moderada a grave e histórico de asma não controlada deve ser dividida em duas etapas: manejo da exacerbação aguda e ajuste da terapia de manutenção.
+> **Comentário Médica:** A questão aborda o manejo imediato de uma exacerbação aguda de asma na faixa etária pediátrica associado à revisão e ao escalonamento da terapia profilática de manutenção, conforme as diretrizes da Sociedade Brasileira de Pediatria (SBP) e da Global Initiative for Asthma (GINA).
 
-1. **Manejo da Crise Aguda (Exacerbação Moderada/Grave):**
-- **Classificação:** A criança apresenta fala entrecortada, tiragem intercostal, taquipneia (FR: 32 irpm), taquicardia (FC: 110 bpm) e hipoxemia importante (SpO₂ de 89% em ar ambiente), caracterizando uma crise asmática grave.
-- **Oxigenoterapia:** Em pediatria, as diretrizes da Sociedade Brasileira de Pediatria (SBP) e da Global Initiative for Asthma (GINA) recomendam ofertar oxigênio para atingir e manter uma SpO₂ entre 94% e 98% (diferente de adultos, cuja meta usual é 93-95%).
-- **Broncodilatador de curta ação (SABA):** Recomenda-se o uso de salbutamol spray acoplado a espaçador na dose de 4 a 10 jatos (no caso, 6 jatos), podendo ser repetido a cada 20 minutos na primeira hora.
-- **Anticolinérgico (SAMA):** O brometo de ipratrópio deve ser associado ao beta-2 agonista na primeira hora em crises moderadas a graves, reduzindo a taxa de hospitalização.
-- **Corticoide sistêmico:** Indicado precocemente em todas as crises moderadas a graves. A dose recomendada de prednisolona é de 1 a 2 mg/kg/dia (dose máxima de 40 a 50 mg), mantida por 3 a 5 dias (cursos curtos são suficientes e dispensam desmame).
-- **Regulação/Internação:** Devido à gravidade inicial e à baixa SpO₂, o paciente deve ser estabilizado e encaminhado para ambiente hospitalar.
+**Classificação e Fisiopatologia da Exacerbação:**
+A paciente de 8 anos apresenta agitação, fala entrecortada, taquipneia (FR 32 irpm), taquicardia (FC 110 bpm), tiragem intercostal e SpO₂ de 89% em ar ambiente refratária ao uso prévio de broncodilatador. A presença de hipoxemia (< 92%), uso de musculatura acessória evidente e comprometimento da capacidade de falar frases completas estabelece o diagnóstico de **crise asmática grave**. Nessa situação, há broncoespasmo difuso acentuado, inflamação da via aérea e formação de rolhas de muco que levam ao desequilíbrio ventilação-perfusão grave.
 
-2. **Ajuste da Terapia de Manutenção (Follow-up):**
-- A criança vinha em monoterapia com corticoide inalatório (CI) em dose baixa (Beclometasona 200 mcg/dia – Etapa 2) e apresentava asma não controlada (uso de medicação de resgate > 2 vezes na semana e sintomas frequentes).
-- Para crianças de 6 a 11 anos, a diretriz recomenda o avanço para a Etapa 3 ou 4: aumento para dose média de corticoide inalatório (ex.: Beclometasona 200 mcg de 12/12h = 400 mcg/dia) associado a um beta-2 agonista de longa duração (LABA), além da manutenção do corticoide oral prescrito na crise pelo período de 3 a 5 dias.
+1. **Manejo da Crise Aguda:**
+- Oxigenoterapia: indicada prontamente visando a uma meta de saturação entre 94% e 98% (a faixa de 93% a 95% é o alvo padronizado para adultos, enquanto em pediatria a saturação mínima desejada é de 94%).
+- Broncodilatador de curta ação (SABA): uso de salbutamol em aerossol dosimetrado com espaçador na dose de 4 a 10 jatos (no caso, 6 jatos), administrados a cada 20 minutos durante a primeira hora (fase de resgate rápido).
+- Brometo de ipratrópio: o anticolinérgico inalatório deve ser associado rotineiramente ao SABA nas crises moderadas a graves durante a primeira hora, pois reduz significativamente as taxas de hospitalização.
+- Corticoterapia sistêmica: mandatório nas crises graves. A via preferencial é a oral (prednisolona na dose de 1 a 2 mg/kg/dia, dose máxima diária de 40 a 50 mg), mantida por um ciclo curto de 3 a 5 dias, período suficiente sem necessidade de desmame gradual.
+- Destino do paciente: dada a gravidade inicial com hipoxemia e resposta insuficiente ao tratamento domiciliar prévio, a criança deve ser estabilizada na atenção primária e transferida para ambiente hospitalar (leito de observação ou enfermaria pediátrica).
 
-**Análise dos distratores:**
-- **A:** Incorreta. Estabelece a meta de saturação de adultos (93-95%), erra a posologia da prednisolona (2-4 mg/kg é dose excessiva; o padrão é 1-2 mg/kg), coloca o ipratrópio como condicional ('se necessário') e não associa LABA na terapia de manutenção.
-- **B:** Incorreta. Subdose de resgate (apenas 2 puffs de SABA são insuficientes para crise grave, que requer 4 a 10 puffs), coloca o corticoide oral como 'se necessário' (é mandatório na crise moderada/grave) e não otimiza a manutenção com LABA.
-- **D:** Incorreta. Traz a meta de SpO₂ de adultos (93-95%), subdose de SABA (2 puffs), corticoide oral condicional, sugere manter a criança apenas em observação na USF (inadequado para gravidade com SpO₂ 89%) e mantém a dose baixa de Beclometasona (200 mcg/dia).
+2. **Ajuste da Terapia de Manutenção:**
+A criança apresentava asma não controlada (sintomas e necessidade de resgate 3 a 4 vezes por semana) em vigência do tratamento de Etapa 2 (corticoide inalatório em dose baixa: beclometasona 200 mcg/dia). Para a faixa etária de 6 a 11 anos com perda de controle, o escalonamento terapêutico (step up) para a Etapa 3/4 preconiza o aumento da dose do corticoide inalatório para dose intermediária (beclometasona 200 mcg de 12/12h, totalizando 400 mcg/dia) em associação a um **beta-2 agonista de longa duração** (LABA), além de garantir a conclusão do ciclo de corticoide oral por 3 a 5 dias.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** Traz como meta de saturação a faixa de 93% a 95% (meta aplicada a adultos), prescreve dose excessiva de prednisolona (2 a 4 mg/kg), coloca o ipratrópio apenas como condicional e falha ao não associar o agonista beta-2 de longa duração no tratamento de manutenção, além de indicar tempo prolongado desnecessário de corticoide oral (5 a 7 dias).
+
+• **B) Incorreta:** Prescreve subdose de broncodilatador para crise grave (apenas 2 jatos de salbutamol, quando são necessários de 4 a 10 jatos), coloca a prednisolona como condicional quando sua prescrição é mandatória na exacerbação grave e não acrescenta o broncodilatador de longa duração (LABA) ao plano de manutenção.
+
+• **D) Incorreta:** Erra na meta de oximetria para a faixa pediátrica (coloca 93% a 95%), subdoseia o SABA inalatório (2 jatos), coloca o corticoide sistêmico como opcional, propõe observação inadequada na própria unidade básica para um quadro com indicação de transferência e mantém a beclometasona em dose baixa (200 mcg/dia) no tratamento profilático.
 </details>
 
 ---
@@ -43301,18 +44032,19 @@ Um lactente com 2 anos, previamente hígido, com história de um dia de febre, t
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A apresentação clínica de pródromos virais (febre baixa, tosse e coriza) evoluindo agudamente com tosse ladrante, desconforto respiratório (tiragem de fúrcula moderada) e estridor inspiratório ao repouso em uma criança de 2 anos é clássica de Laringotraqueobronquite Viral Aguda (Crupe Viral), mais frequentemente causada pelo vírus Parainfluenza.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Segundo os consensos da Sociedade Brasileira de Pediatria (SBP) e diretrizes internacionais:
-- A presença de estridor ao repouso e tiragem subcostal/fúrcula classifica o crupe como moderado a grave (escala de Westley ou similar).
-- O tratamento de escolha envolve a associação imediata de um corticoide sistêmico e nebulização com adrenalina (epinefrina).
-  1. Corticoterapia: A dexametasona (0,15 a 0,6 mg/kg, dose única, via oral, intramuscular ou endovenosa) é o corticoide padrão-ouro devido à sua potente ação anti-inflamatória, rápido início de ação e meia-vida longa, reduzindo hospitalizações, tempo de internação e necessidade de reintubação.
-  2. Nebulização com Epinefrina (Adrenalina 1:1.000): Indicada quando há estridor em repouso e/ou sinais de desconforto respiratório moderado/grave. Atua por meio da vasoconstrição de receptores alfa-1 adrenérgicos na mucosa subglótica, reduzindo rapidamente o edema da via aérea superior e a resistência ao fluxo aéreo (efeito em 10-30 minutos). A criança deve permanecer em observação por 2 a 4 horas após a nebulização devido ao risco de efeito rebote.
+1. **Quadro Clínico e Gravidade:** O paciente apresenta pródromos de infecção viral de vias aéreas superiores seguidos de obstrução respiratória alta, tosse, tiragem de fúrcula moderada e estridor ao repouso. Esse conjunto de achados em uma criança de 2 anos define o diagnóstico de **laringotraqueobronquite viral aguda** (crupe viral), mais comumente causada pelo vírus Parainfluenza. Pela classificação de gravidade (escala de Westley), a presença de estridor audível em repouso associada a tiragens moderadas categoriza o episódio como moderado a grave, indicando risco de progressão para insuficiência respiratória por edema da região subglótica.
 
-Análise das alternativas incorretas:
-- A (Incorreta): O salmeterol é um beta-2 agonista de longa ação (LABA) indicado no manejo de manutenção da asma; a claritromicina é um macrolídeo indicado para infecções bacterianas atípicas (ex.: coqueluche, pneumonia). O crupe é uma afecção viral e de vias aéreas superiores, não havendo indicação de LABA ou antibioticoterapia de rotina.
-- B (Incorreta): O salbutamol (SABA) atua no músculo liso bronquial das vias aéreas inferiores (útil em broncoespasmo/asma), não tendo eficácia sobre o edema subglótico cartilaginoso do crupe.
-- D (Incorreta): Embora a prednisolona oral seja uma alternativa aceitável na ausência de dexametasona em casos leves, a presença de estridor ao repouso e tiragem de fúrcula exige obrigatoriamente nebulização com epinefrina para rápido alívio do edema subglótico. A inalação apenas com soro fisiológico não altera o desfecho clínico nem reverte a obstrução respiratória alta.
+2. **Terapêutica Farmacológica:** O manejo padrão-ouro para casos moderados a graves consiste na associação de **dexametasona e nebulização com epinefrina**. A epinefrina em micronebulização (solução padrão 1:1.000, 0,5 mL/kg, dose máxima de 5 mL) atua diretamente sobre os receptores alfa-1 adrenérgicos da mucosa laríngea, promovendo vasoconstrição capilar imediata, com regressão acentuada do edema subglótico e melhora clínica em 10 a 30 minutos. Concomitantemente, a dexametasona (0,15 a 0,6 mg/kg, dose única por via oral ou parenteral) confere ação anti-inflamatória potente e duradoura (meia-vida de 36 a 72 horas), sustentando o alívio sintomático à medida que o efeito da epinefrina declina e prevenindo o efeito rebote e novas intervenções hospitalares.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** o salmeterol é um broncodilatador beta-2 agonista de longa ação indicado para o tratamento crônico da asma, sem qualquer papel na emergência ou sobre vias aéreas superiores. A claritromicina é um antibiótico macrolídeo desnecessário, visto que o crupe tem etiologia viral e não bacteriana.
+
+• **B) Incorreta:** o salbutamol atua relaxando a musculatura lisa dos brônquios e bronquíolos em afecções de vias aéreas inferiores (como broncoespasmo na crise de asma), não apresentando eficácia contra o edema inflamatório cartilaginoso da região subglótica. A metilprednisolona não é o corticoide de primeira linha preconizado nas diretrizes, sendo superada pela dexametasona.
+
+• **D) Incorreta:** embora a prednisolona seja um corticoide viável quando não há dexametasona disponível, a nebulização simples com soro fisiológico não possui eficácia clínica comprovada para desobstrução da via aérea e não substitui a nebulização com adrenalina, elemento crucial e de ação imediata para pacientes com estridor em repouso.
 </details>
 
 ---
@@ -43766,12 +44498,19 @@ Uma mulher leva sua filha de 6 anos para uma consulta na unidade básica de saú
 
 > **Gabarito Oficial:** Alternativa **(A)**
 >
-> **Comentário Médica:** A alternativa (A) é a correta. Dados epidemiológicos consolidados pelo Ministério da Saúde, Sociedade Brasileira de Pediatria (SBP) e Organização Mundial da Saúde (OMS) apontam que, na vasta maioria dos casos de violência sexual contra crianças e adolescentes, o agressor é uma pessoa conhecida da vítima ou membro do seu círculo familiar/doméstico (pais, padrastos, tios, vizinhos ou cuidadores). O vínculo afetivo e a relação de confiança estabelecida entre o perpetrador e a criança facilitam o acesso, a manipulação psicológica (como a imposição de 'segredos' ou 'brincadeiras'), a coação e o silenciamento, promovendo a cronicidade e a repetição dos atos abusivos ao longo do tempo.
+> **Comentário Médica:** **Raciocínio Clínico e Epidemiológico:**
 
-Análise das demais alternativas (distratores):
-- Alternativa B está incorreta: Estudos epidemiológicos e dados de vigilância (como os do SINAN/MS) demonstram que meninas são as principais vítimas notificadas de abuso sexual infantil em todas as faixas etárias, respondendo pela maioria expressiva dos casos registrados, embora meninos também sofram violência e enfrentem subnotificação decorrente de estigmas socioculturais.
-- Alternativa C está incorreta: O abuso sexual infantil é um evento estressor tóxico que provoca impactos biopsicossociais profundos e duradouros. Mesmo quando ocorrido em idades precoces, associa-se a alterações neurobiológicas e elevado risco de transtornos psiquiátricos na vida adulta (como transtorno de estresse pós-traumático, depressão, ideação suicida, transtornos por uso de substâncias), além de disfunções sexuais e queixas somáticas crônicas, não sendo esquecido ou inócuo.
-- Alternativa D está incorreta: De acordo com o Estatuto da Criança e do Adolescente (ECA - Lei Federal nº 8.069/1990) e as diretrizes do Ministério da Saúde, a notificação de suspeita ou confirmação de violência contra a criança é de caráter compulsório pelos profissionais de saúde. A equipe de saúde tem o dever legal e ético de comunicar o caso ao Conselho Tutelar (e/ou autoridades competentes), bem como de articular o cuidado em rede (proteção social e jurídica) e preencher a Ficha de Notificação Compulsória do SINAN, não podendo se restringir aos cuidados biomédicos.
+A violência sexual contra crianças e adolescentes constitui um grave problema de saúde pública e de violação de direitos humanos. No âmbito epidemiológico, dados consolidados pelo Ministério da Saúde, pela Sociedade Brasileira de Pediatria e pela Organização Mundial da Saúde evidenciam que o **abuso sexual infantil** ocorre predominantemente no ambiente intrafamiliar ou doméstico. Em mais de 70% a 80% dos casos registrados, o agressor é uma **pessoa conhecida** ou membro da própria família (pais, padrastos, tios, avós, primos ou cuidadores diretos).
+
+Essa dinâmica relacional de proximidade confere ao agressor amplo acesso à criança em momentos de vulnerabilidade e privacidade, facilitando o processo conhecido como aliciamento (grooming). Por meio de manipulação afetiva, pactos de lealdade, chantagens emocionais, ameaças veladas e imposição de falsas "brincadeiras" sob a égide do segredo, a vítima é mantida em silêncio. Como consequência direta do laço de dependência e da relação assimétrica de poder, a agressão raramente constitui um evento isolado, caracterizando-se pela cronicidade e pela repetição continuada ao longo do tempo.
+
+**Análise das alternativas incorretas:**
+
+• **Alternativa B:** Incorreta. Os dados epidemiológicos nacionais do Sistema de Informação de Agravos de Notificação e internacionais demonstram que as meninas constituem a expressiva maioria das vítimas notificadas de violência sexual em todas as faixas etárias, perfazendo cerca de três quartos dos registros. Embora exista subnotificação relevante entre indivíduos do sexo masculino em virtude de estigmas sociais e barreiras de gênero, os casos contra meninas permanecem sendo significativamente mais prevalentes e recorrentes na casuística observada.
+
+• **Alternativa C:** Incorreta. A vivência de traumas sexuais em fases precoces do desenvolvimento infantil associa-se a alterações neurobiológicas permanentes no eixo hipotálamo-hipófise-adrenal, alterações estruturais em áreas como hipocampo e amígdala, além de um risco expressivamente elevado de transtornos psiquiátricos ao longo da vida. Não ocorre esquecimento inócuo; pelo contrário, o trauma repercute na idade adulta na forma de transtorno de estresse pós-traumático, depressão maior, ideação suicida, transtornos por uso de substâncias, dor pélvica crônica e disfunções sexuais e de vinculação afetiva.
+
+• **Alternativa D:** Incorreta. A atuação da equipe de atenção primária não pode ser puramente biomédica ou restrita ao cuidado curativo. O Estatuto da Criança e do Adolescente determina expressamente a obrigatoriedade da notificação compulsória de casos suspeitos ou confirmados de maus-tratos e violência sexual contra menores ao Conselho Tutelar da respectiva localidade, além do preenchimento da ficha do Sinan. A omissão de comunicação por parte do profissional de saúde constitui infração administrativa e ética, visto que o setor de saúde é membro fulcral da rede de garantia de direitos e proteção integral da infância.
 </details>
 
 ---
@@ -43794,15 +44533,17 @@ Esse tipo de queimadura caracteriza
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) é a correta. Segundo a Sociedade Brasileira de Pediatria (SBP) e as diretrizes do Ministério da Saúde voltadas à prevenção de lesões não intencionais na infância, o conceito de 'acidente' como um evento puramente fortuito e imprevisível está superado. A grande maioria dos traumas pediátricos é previsível e passível de prevenção. No caso descrito, a criança de 2 anos (em plena fase de desenvolvimento motor e curiosidade ativa, mas sem noção de perigo) teve acesso livre à cozinha e a uma panela no fogão com o cabo voltado para fora. A omissão dos cuidadores em garantir um ambiente seguro e em exercer a vigilância adequada constitui uma negligência (falha em prover supervisão e proteção contra riscos ambientais evitáveis), que culminou na queimadura por escaldadura.
+> **Comentário Médica:** Uma criança com dois anos de idade encontra-se em plena fase de exploração motora e curiosidade ambiental (fase de lactente tardio/toddler), sem capacidade cognitiva para reconhecer perigos iminentes. Nesse contexto, a ocorrência de queimaduras por escaldadura decorrente da tração do cabo de uma panela acessível sobre o fogão reflete uma falha direta dos responsáveis em prover um ambiente seguro e vigilância adequada para a faixa etária.
 
-Análise das alternativas incorretas:
+A Sociedade Brasileira de Pediatria e o Ministério da Saúde enfatizam que a visão tradicional de que eventos traumáticos na infância são fruto do mero acaso, da fatalidade ou da má sorte está cientificamente superada. Atualmente, a literatura médica e a saúde pública adotam o conceito de **lesões não intencionais**, reconhecendo que esses episódios decorrem de cadeias de eventos previsíveis e amplamente evitáveis por meio de medidas básicas de proteção passiva (como cozinhar nas bocas posteriores do fogão e manter os cabos voltados para dentro) e supervisão ativa. A omissão dos responsáveis em mitigar riscos ambientais manifestos configura **negligência**, caracterizada pela falha crônica ou aguda em atender às necessidades básicas de proteção e segurança da criança.
 
-- Alternativa A: Incorreta. A definição de acidente como 'evento fortuito que ocorreu ao acaso' é conceitualmente inadequada na pediatria moderna. Lesões não intencionais decorrem de uma cadeia de eventos com fatores de risco identificáveis e modificáveis; portanto, não ocorrem 'por mero acaso'.
+**Análise das alternativas incorretas:**
 
-- Alternativa B: Incorreta. O padrão de queimadura por derramamento de líquido quente (escaldadura em tronco com fluxo descendente decorrente de puxar o cabo da panela) é compatível com mecanismo não intencional secundário à negligência. Sinais de maus-tratos físicos intencionais incluem queimaduras por imersão (com linha de demarcação nítida, padrão em 'luva' ou 'bota', poupando dobras e sem respingos) ou queimaduras de contato com formato do objeto (ex.: ferro de passar, ponta de cigarro).
+• **A) Incorreta:** A concepção de acidente como um evento estritamente fortuito, imprevisível e aleatório não é aceita pela pediatria moderna. Os traumas domésticos na infância apresentam determinantes epidemiológicos conhecidos e são evitáveis mediante modificações comportamentais e do ambiente doméstico.
 
-- Alternativa D: Incorreta. Embora a negligência seja considerada uma das formas de violência contra a criança (especificamente violência por omissão), a alternativa restringe erroneamente o quadro a 'violência doméstica devido às características epidemiológicas', quando na verdade o mecanismo epidemiológico (escaldadura por puxar panela) é clássico de trauma não intencional associado à falha de supervisão/prevenção no ambiente doméstico (negligência).
+• **B) Incorreta:** As características clínicas descritas (queimadura em tronco decorrente do derramamento de líquido quente de cima para baixo) são típicas de escaldadura acidental/não intencional com padrão de escorrimento e respingos. Queimaduras por maus-tratos ou agressão física direta costumam apresentar padrões geométricos bem delimitados (como queimadura de contato em ferro de passar ou cigarro) ou lesões por imersão forçada em bota ou luva, com margens nítidas, ausência de respingos e poupamento de dobras de flexão.
+
+• **D) Incorreta:** A etiologia da lesão está relacionada à negligência por omissão de cuidados e supervisão em um ambiente inseguro. As características epidemiológicas de escaldadura por puxar panelas são os mecanismos mais prevalentes de traumas térmicos não intencionais domiciliares na faixa etária pré-escolar, não sugerindo violência doméstica ativa ou intencional.
 </details>
 
 ---
@@ -44153,15 +44894,19 @@ Acerca da introdução alimentar nesse caso, assinale a opção correta.
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** A alternativa (B) é a correta. De acordo com o Guia Alimentar para Crianças Brasileiras Menores de 2 Anos (Ministério da Saúde, 2019) e o Departamento de Nutrologia da Sociedade Brasileira de Pediatria (SBP), a alimentação complementar aos 6 meses deve ser iniciada de forma gradual, mantendo-se o aleitamento materno. As frutas devem ser oferecidas in natura, preferencialmente raspadas, amassadas com garfo ou cortadas em pedaços pequenos/tiras (de acordo com a prontidão motora da criança), servindo como excelentes fontes de água, vitaminas, minerais e fibras alimentares, além de estimularem a mastigação e o desenvolvimento sensorial e motor oral.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (B)**. Conforme o **Guia Alimentar para Crianças Brasileiras Menores de 2 Anos** (Ministério da Saúde, 2019) e o Departamento de Nutrologia da **Sociedade Brasileira de Pediatria (SBP)**, as frutas devem ser ofertadas *in natura*, raspadas, amassadas ou em pedaços pequenos, constituindo excelentes fontes de água, micronutrientes e fibras alimentares, além de estimularem a mastigação e o desenvolvimento neuromotor.
 
-Análise das alternativas incorretas:
+**Raciocínio Clínico e Fisiopatológico:**
 
-- Alternativa (A) está incorreta: Alimentos não devem ser liquidificados, triturados nem peneirados. A consistência deve ser espessa/pastosa inicialmente (amassada com garfo) e progredir para pedaços pequenos, a fim de estimular a musculatura orofacial, a mastigação e a aceitação de diferentes texturas. Peneirar ou liquidificar dilui a densidade energética, reduz o teor de fibras e desfavorece o desenvolvimento sensório-motor oral.
+1. **Diagnóstico da Afecção/Quadro:** Lactente hígido de 6 meses em transição de **aleitamento materno exclusivo** para **introdução alimentar complementar**, marco fisiológico e do desenvolvimento neuromotor em que se inicia a oferta gradual de alimentos semissólidos e sólidos.
+2. **Critério Clínico / Fisiopatologia:** Aos 6 meses de vida, a criança já apresenta maturidade fisiológica (capacidade de deglutição, sustentação cefálica e desaparecimento do **reflexo de protrusão da língua**). A textura dos alimentos deve acompanhar a evolução da musculatura orofacial; liquidificar ou peneirar remove as **fibras alimentares**, reduz a densidade calórica e prejudica a discriminação sensorial e o estímulo à mastigação.
+3. **Indicação de Conduta:** Deve-se manter o **leite materno até 2 anos ou mais** e iniciar a alimentação complementar com frutas e refeições principais (almoço e jantar) amassadas com garfo, raspadas ou picadas em pedaços macios, sem adição de sal, açúcar ou gorduras desnecessárias.
 
-- Alternativa (C) está incorreta: O Ministério da Saúde e a SBP contraindicam a oferta de qualquer tipo de suco (mesmo natural ou sem açúcar) para lactentes menores de 1 ano de idade. Os sucos concentram frutose livre, têm baixo teor de fibras em comparação com a fruta inteira, aumentam o risco de sobrepeso, cárie dentária precoce e podem saciar a criança precocemente, competindo com alimentos mais nutritivos e com o leite materno.
+**Análise dos Distratores:**
 
-- Alternativa (D) está incorreta: Evidências científicas atuais demonstram que o ovo deve ser oferecido inteiro (clara e gema bem cozidas) já a partir dos 6 meses de idade. A antiga recomendação de postergar a introdução de alimentos potencialmente alergênicos (como clara de ovo, peixe e glúten) para além dos 12 meses foi abandonada, pois a introdução oportuna a partir dos 6 meses promove tolerância imunológica e reduz o risco de alergias alimentares.
+• **Alternativa A (Incorreta):** Alimentos **não devem ser peneirados nem liquidificados/triturados**, mesmo carnes. A carne deve ser picada finamente ou desfiada e oferecida na consistência pastosa/amassada, pois o uso de peneiras retém os resíduos fibrosos, reduz o valor nutricional e priva o lactente do estímulo mastigatório.
+• **Alternativa C (Incorreta):** Sucos de frutas (mesmo naturais e integrais) são **contraindicados antes de 1 ano de idade** pela SBP e Ministério da Saúde. O suco possui alta densidade de frutose livre e baixa quantidade de fibras, elevando o risco de **cárie precoce da infância**, sobrepeso e redução da ingesta de leite materno.
+• **Alternativa D (Incorreta):** A recomendação contemporânea preconiza a introdução do **ovo inteiro** (gema e clara bem cozidas) já a partir dos 6 meses. O adiamento de alimentos potencialmente alergênicos para além dos 12 meses não previne atopia e contraria o conceito atual de **janela de oportunidade imunológica** para indução de tolerância oral.
 </details>
 
 ---
@@ -44238,17 +44983,19 @@ Lactente do sexo masculino, de 1 ano, foi levado à unidade básica de saúde pe
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A prevenção de acidentes (causas externas) na infância deve estar intrinsecamente correlacionada aos marcos do desenvolvimento neuropsicomotor da faixa etária avaliada, conforme preconizam o Ministério da Saúde e a Sociedade Brasileira de Pediatria (SBP).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. De acordo com as diretrizes da **Sociedade Brasileira de Pediatria (SBP)** e do **Ministério da Saúde**, a prevenção de acidentes na infância baseia-se nos marcos do desenvolvimento neuropsicomotor; aos **12 meses de vida**, os acidentes predominantes decorrem de **quedas**, **asfixias** e **aspiração de corpo estranho**.
 
-1. **Justificativa da alternativa correta (C):**
-Aos 12 meses de vida, a criança atinge grande autonomia motora (engatinha com agilidade, fica em pé com apoio ou inicia os primeiros passos sem apoio), associada a uma curiosidade exploratória intensa e à persistência da fase oral (hábito de levar objetos à boca para reconhecimento do meio), sem qualquer percepção de risco. Em decorrência dessa combinação biocomportamental:
-- **Quedas:** São os acidentes mais frequentes, resultantes da exploração de móveis, escadas e superfícies elevadas no momento em que a criança adquire marcha.
-- **Asfixia e Aspiração de Corpo Estranho:** Decorrem diretamente da fase oral somada à preensão em pinça bem desenvolvida, permitindo que a criança colete pequenos objetos do chão (moedas, peças de brinquedos, grãos, baterias) ou alimentos de consistência inadequada e os introduza nas vias aéreas/digestivas.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** Perfil epidemiológico de **injúrias não intencionais (acidentes domésticos)** no lactente em transição para a primeira infância (**1 ano de vida**).
+2. **Critério Clínico / Fisiopatologia:** Nessa faixa etária, a criança desenvolve maior autonomia motora (**engatinhar ágil**, **ortostase** e início da **marcha independente**), aliada à intensa curiosidade exploratória e **ausência total de noção de perigo**. Concomitantemente, a persistência da **fase oral** e o domínio da **preensão em pinça** levam o lactente a colher e introduzir pequenos objetos e alimentos diretamente na cavidade oral. Dessa forma, destacam-se:
+   - **Quedas:** Mecanismo mais comum de trauma, decorrente da instabilidade motora na tentativa de escalar móveis, berços e descer degraus.
+   - **Asfixia e Aspiração de Corpo Estranho:** Risco elevado pela manipulação e ingestão acidental de brinquedos pequenos, grãos, moedas ou alimentos inteiros.
+3. **Indicação de Conduta:** Realizar **orientação antecipatória** na puericultura, indicando medidas preventivas primárias como instalação de **telas de proteção** em janelas, portões de contenção em escadas, manutenção do berço livre de protetores fofos/travesseiros e restrição rigorosa ao acesso a objetos com diâmetro inferior a 3 cm.
 
-2. **Análise dos distratores:**
-- **Alternativa A (Incorreta):** O atropelamento é uma causa de trauma típica de faixas etárias mais velhas (idade pré-escolar e escolar), nas quais a criança circula na via pública e tem maior independência de deslocamento fora do domicílio.
-- **Alternativa B (Incorreta):** Embora quedas de equipamentos possam ocorrer, o atropelamento não é predominante no lactente de 1 ano, pois este se encontra sob supervisão direta e dependência estrita dos cuidadores quanto à locomoção externa.
-- **Alternativa D (Incorreta):** Queimaduras térmicas (inclusive por água quente) são acidentes domésticos possíveis, contudo a tríade de quedas, asfixia e aspiração de corpos estranhos constitui o perfil epidemiológico clássico e prevalente de morbimortalidade acidental no lactente em transição para a primeira infância.
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** O **atropelamento** é uma causa prevalente em faixas etárias posteriores (**fase pré-escolar** e **escolar**), quando a criança ganha autonomia para transitar em vias públicas; a **queimadura solar** é passível de prevenção primária por fotoproteção, mas não configura o acidente predominante nessa faixa etária.
+• **Alternativa B (Incorreta):** Quedas de equipamentos podem ocorrer, mas o **atropelamento** é incorreto para o lactente de 1 ano, cuja locomoção fora do domicílio é estritamente passiva e tutelada pelos cuidadores.
+• **Alternativa D (Incorreta):** Queimaduras térmicas domiciliares são relevantes, mas a tríade epidemiológica clássica de maior incidência e gravidade aos 12 meses é composta por **quedas**, **asfixia** e **aspiração de corpos estranhos**, sendo incorreto omitir as quedas do espectro predominante.
 </details>
 
 ---
@@ -44331,12 +45078,19 @@ A respeito da avaliação nutricional de crianças com síndrome de Down, assina
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) é a correta. Crianças com síndrome de Down (trissomia do cromossomo 21) apresentam particularidades genéticas e fenotípicas próprias no seu padrão de crescimento e desenvolvimento estatural e ponderal, tais como menor velocidade de crescimento linear, hipotonia muscular generalizada e predisposição fisiopatológica ao ganho ponderal e sobrepeso/obesidade (secundária a menor taxa metabólica basal, hipotireoidismo e padrão de mobilidade reduzido). Por essas razões, as curvas padrão da Organização Mundial da Saúde (OMS), aplicáveis à população pediátrica geral, subestimariam ou distorceriam os parâmetros de diagnóstico nutricional nessa população. As diretrizes do Ministério da Saúde do Brasil e da Sociedade Brasileira de Pediatria (SBP) recomendam expressamente a utilização de curvas antropométricas de crescimento específicas para crianças com síndrome de Down (como as curvas de Cronk et al., de Mustacchi ou as do CDC adaptadas) para a correta monitorização do peso, estatura e índice de massa corporal (IMC) por idade.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-Análise dos distratores:
-- Alternativa (A) está incorreta: O cálculo das necessidades energéticas e de macronutrientes na criança com síndrome de Down e obesidade não se fundamenta simplesmente em fórmulas atreladas ao "peso ideal" isolado, devendo-se considerar o gasto energético real (que costuma ser inferior ao de crianças típicas da mesma idade devido à redução da taxa metabólica basal), a composição corporal e a intervenção qualitativa no estilo de vida.
-- Alternativa (B) está incorreta: O peso corporal total reflete a somatória indiscriminada de todos os compartimentos corporais (massa gorda, água corporal total, massa óssea e massa magra/isenta de gordura). Portanto, o peso isolado é um marcador global e indireto, e não direto, da massa proteica e dos compartimentos de reserva energética. Parâmetros como a circunferência muscular do braço (CMB) e pregas cutâneas (como a tricipital e subescapular) avaliam esses compartimentos com maior especificidade.
-- Alternativa (D) está incorreta: A estimativa de estatura por segmentos (como a altura do joelho ou comprimento tíbia/perna) é uma técnica reservada para indivíduos restritos ao leito, com contraturas articulares graves ou deformidades esqueléticas acentuadas (como na paralisia cerebral grave). Crianças de 2 anos com síndrome de Down devem ter seu comprimento/estatura aferido diretamente por meio de estadiômetro (em decúbito horizontal com antropômetro infantil/infantômetro até os 2 anos, ou vertical se colaboradores e > 2 anos).
+A avaliação do crescimento e do estado nutricional de crianças com **síndrome de Down** requer ferramentas adaptadas às suas particularidades genéticas, fenotípicas e metabólicas. Essas crianças exibem menor velocidade de crescimento linear estatural, membros proporcionalmente mais curtos, tônus muscular diminuído (hipotonia global), menor gasto energético de repouso e risco aumentado para endocrinopatias (como hipotireoidismo) e cardiopatias congênitas, fatores que alteram o padrão ponderoestatural típico da população geral.
+
+Por esses motivos, o uso das curvas de crescimento padrão da Organização Mundial da Saúde (OMS) pode levar a diagnósticos incorretos, como falsa baixa estatura ou superestimação de desnutrição crônica. As diretrizes do Ministério da Saúde e da Sociedade Brasileira de Pediatria recomendam a utilização de **curvas de crescimento específicas** (como as desenvolvidas por Cronk ou as do CDC/Zemel adaptadas para trissomia do 21), permitindo o acompanhamento longitudinal adequado do peso, comprimento/estatura e índice de massa corporal para a idade.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** Em crianças com trissomia do 21 que apresentam excesso ponderal, o cálculo das necessidades energéticas não se apoia de forma simplista no peso ideal. Crianças com essa condição apresentam taxa metabólica basal significativamente reduzida decorrente da menor proporção de massa livre de gordura e hipotonia, necessitando de equações preditivas adaptadas ou ajuste individualizado da densidade calórica para evitar superalimentação.
+
+• **B) Incorreta:** O peso corporal total reflete a soma indistinta de todos os compartimentos corpóreos (massa gorda, água corporal total, massa óssea e massa muscular esquelética). Portanto, ele constitui um marcador indireto e global, e não direto, da massa proteica somática e das reservas energéticas. A avaliação direta da massa magra e adiposa exige métodos complementares, como bioimpedanciometria, dobras cutâneas ou absortometria por dupla emissão de raios X.
+
+• **D) Incorreta:** A estimativa de altura por segmentos corporais, como a extensão perna-joelho, é uma técnica de exceção reservada para pacientes acamados, portadores de deformidades ósseas graves ou contraturas articulares impeditivas. Para crianças de 2 anos com trissomia do 21, a mensuração deve ser realizada de forma direta por meio de infantômetro horizontal (se menor de 24 meses ou com dificuldade para ortostase) ou estadiômetro vertical padrão.
 </details>
 
 ---
@@ -44868,12 +45622,17 @@ Conforme o quadro clínico apresentado, trata-se de intoxicação por
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A alternativa (D) é a correta. O quadro clínico descrito no pré-escolar — agitação psicomotora, midríase, boca seca (anidrose/xerostomia) e rubor facial — é a apresentação clássica da síndrome anticolinérgica (antimuscarínica). Os sinais e sintomas decorrem do bloqueio competitivo da acetilcolina nos receptores muscarínicos pós-sinápticos centrais e periféricos. O mnemônico clássico ilustra essa síndrome: 'cego como um morcego' (midríase), 'vermelho como uma beterraba' (rubor cutâneo por vasodilatação periférica reflexa para dissipar calor), 'seco como um osso' (boca seca, pele seca por anidrose), 'louco como um chapeleiro' (agitação psicomotora, alucinações, delírio) e 'quente como uma lebre' (hipertermia). A dexclorfeniramina é um anti-histamínico de primeira geração (anti-H1 clássico) amplamente disponível em formulações pediátricas (xaropes), com elevada toxicidade antimuscarínica quando ingerido em doses tóxicas, constituindo uma das causas mais prevalentes de síndrome anticolinérgica acidental na faixa etária pediátrica, conforme diretrizes da Sociedade Brasileira de Pediatria (SBP).
+> **Comentário Médica:** O gabarito correto é a **Alternativa (D)**. O quadro clínico apresentado é compatível com a **síndrome anticolinérgica** aguda desencadeada pela ingestão acidental de **dexclorfeniramina**, um anti-histamínico de primeira geração com potente ação antimuscarínica, em conformidade com as diretrizes da **Sociedade Brasileira de Pediatria (SBP)**.
 
-Análise dos distratores:
-- Alternativa (A) está incorreta. A intoxicação aguda por dipirona geralmente cursa com manifestações gastrointestinais (náuseas, vômitos, dor abdominal), hipotensão arterial, hipotermia e, em doses maciças, acidose metabólica e depressão do sistema nervoso central, não provocando a síndrome anticolinérgica.
-- Alternativa (B) está incorreta. O salbutamol é um agonista beta-2-adrenérgico. Sua intoxicação determina manifestações da síndrome simpaticomimética, destacando-se taquicardia sinusal, tremores de extremidades, palpitações, hipocalemia e hiperglicemia, sem causar xerostomia acentuada com rubor facial e midríase típica.
-- Alternativa (C) está incorreta. Embora a clorpromazina (antipsicótico típico) possua atividade anticolinérgica fraca, sua toxicidade clínica é dominada pelo bloqueio dopaminérgico e alfa-1-adrenérgico, manifestando-se primordialmente por depressão do sistema nervoso central (sedação profunda, coma), hipotensão arterial, miose (ou pupilas em tamanho intermediário) e reações extrapiramidais (como distonias agudas), quadro distinto do padrão hiperativo anticolinérgico puro apresentado pelo paciente.
+**Raciocínio Clínico e Fisiopatológico:**
+1. **Diagnóstico da Afecção/Quadro:** **Síndrome anticolinérgica** (ou antimuscarínica) aguda exógena.
+2. **Critério Clínico / Fisiopatologia:** A afecção resulta do bloqueio competitivo da acetilcolina nos **receptores muscarínicos** periféricos e centrais. O quadro é caracterizado pelo mnemônico toxicológico clássico: *blind as a bat* (**midríase** e fotofobia), *red as a beet* (**rubor facial** por vasodilatação cutânea reflexa), *dry as a bone* (**boca seca** e anidrose) e *mad as a hatter* (**agitação psicomotora**, delírio e alucinações).
+3. **Indicação de Conduta:** A **dexclorfeniramina** é um bloqueador dos receptores H1 de primeira geração de fácil acesso domiciliar (xaropes pediátricos palatáveis), sendo agente comum de intoxicação acidental infantil. A conduta baseia-se em suporte intensivo, controle térmico, hidratação venosa e, nas manifestações graves com delírio refratário ou arritmias, avaliação do antídoto inibidor da acetilcolinesterase (**salicilato de fisostigmina**).
+
+**Análise dos Distratores:**
+• **Alternativa A (Incorreta):** A intoxicação aguda por **dipirona** manifesta-se predominantemente por sintomas gastrintestinais (**náuseas**, **vômitos**), **hipotermia**, **hipotensão arterial** e depressão do sistema nervoso central, sem apresentar a constelação anticolinérgica de midríase e anidrose.
+• **Alternativa B (Incorreta):** O **salbutamol** é um agonista beta-2-adrenérgico cujo perfil tóxico caracteriza a **síndrome simpaticomimética**, cursando com **tremores de extremidades**, **taquicardia sinusal**, sudorese profusa (diaforese, em vez de pele seca), **hipocalemia** e **hiperglicemia**.
+• **Alternativa C (Incorreta):** A **clorpromazina** é um antipsicótico fenotiazínico cujo quadro tóxico é dominado pelo bloqueio dopaminérgico e alfa-1-adrenérgico, manifestando-se com **depressão neurológica** (sonolência profunda a coma), **hipotensão arterial**, **miose** (ou pupilas intermediárias) e **sintomas extrapiramidais** (distonia aguda), divergindo da agitação com midríase descrita.
 </details>
 
 ---
@@ -44924,13 +45683,19 @@ Pré-escolar de 3 anos e 4 meses de idade deu entrada no pronto-socorro apresent
 
 > **Gabarito Oficial:** Alternativa **(C)**
 >
-> **Comentário Médica:** A alternativa (C) é a correta. O quadro clínico expõe duas crianças pré-escolares (primos) que apresentaram subitamente manifestações neurológicas e autonômicas idênticas (rigidez muscular, espasmos e hipertermia) após permanecerem no mesmo ambiente (casa da avó materna). O dado epidemiológico de que a avó realiza tratamento para esquizofrenia e hipertensão arterial aponta diretamente para a hipótese de intoxicação exógena acidental compartilhada por psicotrópicos, com destaque para o haloperidol (um antipsicótico típico de alta potência, amplamente utilizado na esquizofrenia). O haloperidol atua como antagonista dos receptores dopaminérgicos D2 na via nigroestriatal. Sua toxicidade aguda ou reação idiossincrática em crianças desencadeia sintomas extrapiramidais acentuados (distonias agudas, espasmos musculares, crises oculogíricas e rigidez muscular) e pode culminar na Síndrome Neuroléptica Maligna (SNM), caracterizada pela tríade/tétrade de hipertermia, rigidez muscular ("em cano de chumbo"), instabilidade autonômica e alteração do estado mental.
+> **Comentário Médica:** O gabarito correto é a **Alternativa (C)**. O quadro clínico e epidemiológico aponta para **intoxicação exógena aguda por haloperidol**, antipsicótico típico de alta potência utilizado pela avó esquizofrênica, gerando **reação distônica aguda** e/ou **síndrome neuroléptica maligna**, conforme diretrizes de toxicologia pediátrica da **Sociedade Brasileira de Pediatria (SBP)**.
 
-Análise das alternativas incorretas:
+**Raciocínio Clínico e Fisiopatológico:**
 
-- Alternativa A está incorreta: O aparecimento agudo e simultâneo de sintomas em duas crianças previamente hígidas descarta cardiopatia congênita. Além disso, o exame cardiovascular era normal e não havia história prévia de cianose ou descompensação cardíaca.
-- Alternativa B está incorreta: A intoxicação por inibidores da ECA (como o captopril) cursa classicamente com vasodilatação sistêmica, hipotensão arterial, tontura, bradicardia ou taquicardia reflexa e, raramente, tosse ou angioedema. Não produz rigidez muscular, espasmos ou hipertermia.
-- Alternativa D está incorreta: A síndrome sedativo-hipnótica decorrente de benzodiazepínicos caracteriza-se por depressão do sistema nervoso central, hipotonia muscular, ataxia, sedação, sonolência, miose/midríase e depressão respiratória, cursando tipicamente com hiporreflexia e normo ou hipotermia, e não com espasmos, hipertonia ou hipertermia.
+1. **Diagnóstico da Afecção/Quadro:** **Intoxicação exógena por antipsicóticos típicos (haloperidol)**. O início agudo e simultâneo de sinais extrapiramidais e disautonomia em duas crianças após contato com medicação domiciliar para esquizofrenia estabelece o nexo causal epidemiológico e toxicológico.
+2. **Critério Clínico / Fisiopatologia:** O **haloperidol** atua por meio do **bloqueio potente de receptores dopaminérgicos D2** na via nigroestriatal. Essa inibição dopaminérgica gera desequilíbrio colinérgico-dopaminérgico agudo, manifestando-se como **sintomas extrapiramidais** (**distonia aguda**, **crises oculogíricas**, **rigidez muscular** e **trismo**) e, em casos mais graves, **síndrome neuroléptica maligna** (SNM), caracterizada pela tétrade de **hipertermia**, **rigidez em cano de chumbo**, **instabilidade autonômica** e alteração do nível de consciência.
+3. **Indicação de Conduta:** A abordagem imediata consiste no suporte intensivo, monitorização cardiorrespiratória e uso de antídotos específicos/bloqueadores colinérgicos centrais, como o **biperideno** ou **difenidramina**, além de medidas de resfriamento corporal ativo e hidratação vigorosa para prevenção de rabdomiólise.
+
+**Análise dos Distratores:**
+
+• **Alternativa A (Incorreta):** O acometimento agudo e simultâneo de dois primos previamente hígidos afasta causa congênita. Além disso, a ausculta cardíaca era normal e não havia história prévia de sopros ou **cianose central** compatíveis com **cardiopatia congênita cianótica**.
+• **Alternativa B (Incorreta):** A intoxicação por **captopril** (inibidor da ECA) cursa primariamente com manifestações cardiovasculares, tais como **hipotensão arterial**, tontura e taquicardia reflexa, não determinando **rigidez muscular**, **espasmos** ou **hipertermia**.
+• **Alternativa D (Incorreta):** A intoxicação por **benzodiazepínicos** produz a clássica **síndrome sedativo-hipnótica**, caracterizada por **depressão do sistema nervoso central**, **hipotonia muscular**, **hiporreflexia**, ataxia e tendência à **hipotermia**, divergindo completamente da hipertonia e hipertermia observadas.
 </details>
 
 ---
@@ -44951,15 +45716,21 @@ Um menino com 2 anos chega para atendimento no serviço de urgência com a mãe,
 
 > **Gabarito Oficial:** Alternativa **(D)**
 >
-> **Comentário Médica:** A conduta padrão para a suspeita de ingestão de produtos químicos domésticos, como desinfetantes (que frequentemente contêm substâncias cáusticas leves, quaternários de amônio ou hidrocarbonetos), é a avaliação clínica criteriosa e observação, sendo a alternativa (D) a correta.
+> **Comentário Médica:** **Raciocínio Clínico e Fisiopatológico:**
 
-1. Justificativa da Alternativa Correta (D):
-Segundo as diretrizes da Sociedade Brasileira de Pediatria (SBP) e dos Centros de Informação e Assistência Toxicológica (CIATox), em casos de ingestão acidental de produtos cáusticos ou saneantes por pacientes clinicamente estáveis, a primeira medida consiste na inspeção minuciosa da cavidade oral, lábios, língua e orofaringe em busca de hiperemia, edema, ulcerações ou placas esbranquiçadas indicativas de queimadura química. A manutenção do paciente em observação clínica por um período de 2 a 4 (podendo estender-se até 6) horas é fundamental para monitorar o aparecimento de sinais de alarme como estridor, sialorreia intensa, disfagia, odinofagia, vômitos incoercíveis, dor torácica ou abdominal, os quais indicariam lesão do trato digestivo alto e a necessidade de endoscopia digestiva alta (EDA).
+Acidentes por ingestão de produtos de limpeza doméstica constituem uma das principais causas de intoxicação exógena na faixa etária pediátrica, com pico de incidência entre 1 e 3 anos, fase caracterizada pelo desenvolvimento motor ativo e exploração oral do ambiente. Os desinfetantes de uso domiciliar habitualmente contêm derivados fenólicos, óleo de pinho, cloreto de benzalcônio (compostos de amônio quaternário) ou soluções diluídas de hipoclorito de sódio. 
 
-2. Análise dos Distratores:
-- Alternativa A (Incorreta): O uso de substâncias neutralizantes (ex.: ácidos fracos contra bases ou vice-versa) é estritamente contraindicado, pois a reação de neutralização é exotérmica, liberando calor e provocando dano térmico adicional ao tecido já lesionado. Além disso, a administração forçada de diluentes (água ou leite) pode distender o estômago e induzir êmese, com risco iminente de broncoaspiração.
-- Alternativa B (Incorreta): A lavagem gástrica é formalmente contraindicada na ingestão de corrosivos/cáusticos pelo risco mecânico de perfuração esofágica ou gástrica durante a passagem da sonda. O carvão ativado não adsorve substâncias corrosivas, álcoois ou hidrocarbonetos, não traz benefício terapêutico e, se utilizado, prejudica a visibilidade da mucosa caso uma endoscopia digestiva alta seja necessária.
-- Alternativa C (Incorreta): A indução de vômitos (como pelo xarope de ipeca ou estímulo mecânico) é absolutamente contraindicada. A passagem retrógrada da substância expõe novamente o esôfago e a orofaringe à agressão química e aumenta dramaticamente o risco de aspiração para a via aérea, o que pode causar pneumonite química grave e laringoespasmo.
+No manejo da **ingestão de substâncias químicas** potencialmente cáusticas ou irritativas, a abordagem inicial prioriza a estabilização cardiorrespiratória e a identificação precoce de lesões do trato aerodigestivo superior. Sinais de gravidade incluem estridor, rouquidão, sialorreia intensa, disfagia, odinofagia, dor retroesternal ou epigástrica e vômitos persistentes. No caso apresentado, o lactente encontra-se hemodinamicamente estável, afebril, eupnéico e sem ruídos adventícios, exalando odor característico, o que confirma a exposição.
+
+A conduta prioritária imediata consiste na inspeção detalhada da mucosa oral e da orofaringe em busca de hiperemia, edema, vesículas ou ulcerações, associada à **observação clínica** por um período de 2 a 4 horas. Esse tempo de vigilância hospitalar é fundamental para monitorar a tolerância oral, avaliar a integridade das mucosas e garantir a ausência de sintomas tardios que indiquem dano tecidual significativo. Caso o paciente permaneça assintomático, com mucosas íntegras e consiga ingerir líquidos sem desconforto, a alta hospitalar pode ser programada de forma segura com orientações preventivas à família. A realização de endoscopia digestiva alta fica reservada para pacientes sintomáticos ou quando há ingestão deliberada de cáusticos potentes.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** O uso de substâncias neutralizantes (como ácidos fracos contra bases ou álcalis contra ácidos) é formalmente contraindicado, pois gera reações químicas exotérmicas que liberam calor e agravam a lesão tecidual por queimadura térmica adicional. Além disso, a administração forçada de líquidos diluentes, como leite ou água, aumenta o volume intragástrico e estimula êmese reflexa, elevando o risco de aspiração para as vias aéreas.
+
+• **B) Incorreta:** A passagem de sonda nasogástrica ou orogástrica para realização de lavagem gástrica em exposições a produtos cáusticos ou corrosivos eleva drasticamente o risco de perfuração esofágica ou gástrica iatrogênica em tecidos potencialmente friáveis. Ademais, o carvão ativado é ineficaz para adsorver agentes corrosivos, desinfetantes simples, hidrocarbonetos ou cáusticos, além de impregnar a parede mucosa e prejudicar a avaliação visual caso seja necessária a realização de endoscopia digestiva alta diagnóstica.
+
+• **C) Incorreta:** A indução de vômito (por estímulo mecânico ou administração de xarope de ipeca) é absolutamente contraindicada. A passagem retrógrada da substância química promove uma segunda exposição do esôfago e da orofaringe ao produto irritante, duplicando a extensão das lesões mucosas, além de criar um risco iminente de broncoaspiração maciça com consequente laringoespasmo e pneumonite química.
 </details>
 
 ---
@@ -45011,16 +45782,27 @@ Qual é o principal diagnóstico para o caso desse paciente?
 
 > **Gabarito Oficial:** Alternativa **(B)**
 >
-> **Comentário Médica:** O quadro clínico e o contexto epidemiológico apontam de forma inequívoca para a intoxicação crônica por mercúrio (hidrargirismo/doença de Minamata).
+> **Comentário Médica:** O quadro clínico e o contexto socioambiental apresentados são patognomônicos de **intoxicação por mercúrio**, especificamente a forma orgânica crônica.
 
-1. **Justificativa da alternativa correta (B):**
-- **Contexto Epidemiológico:** A bacia do Rio Tapajós é historicamente impactada pelo garimpo ilegal de ouro, atividade que utiliza mercúrio elementar metálico para a formação de amálgama. Rejeitos de mercúrio lançados nas águas sofrem ação bacteriana e são convertidos em metilmercúrio (forma orgânica altamente tóxica), sofrendo biomagnificação ao longo da cadeia trófica aquática. Populações ribeirinhas que têm no peixe sua principal fonte proteica são o grupo de maior vulnerabilidade para bioacumulação crônica.
-- **Fisiopatologia e Quadro Clínico:** O metilmercúrio atravessa facilmente a barreira hematoencefálica e a membrana neuronal, provocando estresse oxidativo, dano mitocondrial e morte neuronal difusa, com predileção pelo córtex cerebral (especialmente visual e motor) e células de Purkinje no cerebelo. A síndrome clínica clássica consiste em distúrbios sensitivos periféricos (parestesias em extremidades e perioral), ataxia cerebelar (desequilíbrio, incoordenação, tremores), disartria (dificuldade para falar), além de disfunção cognitiva, tontura e alterações comportamentais (irritabilidade), manifestações idênticas às descritas no caso da criança.
+**Raciocínio Clínico e Epidemiológico:**
 
-2. **Análise dos distratores:**
-- **A (Poliomielite):** Apresenta-se tipicamente como paralisia flácida aguda, assimétrica, com arreflexia e ausência de déficit sensitivo objetivo, precedida por pródromos febris e gastrointestinais. Além de o Brasil ter certificação de erradicação da pólio, o quadro da questão é insidioso, bilateral e possui amplo comprometimento cognitivo e cerebelar.
-- **C (Síndrome de Guillain-Barré):** Trata-se de uma polirradiculoneuropatia inflamatória aguda/subaguda pós-infecciosa, classicamente ascendente e motora. Não se associa a alterações cognitivas primárias, tremores crônicos, irritabilidade ou exposição ambiental a garimpo.
-- **D (Intoxicação por organofosforados):** A toxicidade aguda cursa com síndrome colinérgica evidente (miose, sialorreia, broncorreia, broncoespasmo, fasciculações, bradicardia). Embora a neuropatia tardia induzida por organofosforados (OPIDN) possa ocorrer após semanas, a exposição primária associada a garimpos fluviais e consumo de peixes contaminados remete especificamente ao mercúrio, e não a inseticidas agrícolas.
+A bacia do Rio Tapajós, no estado do Pará, é historicamente afetada pelo garimpo ilegal de ouro, no qual o mercúrio elementar metálico é amplamente utilizado no processo de amalgamação. Os resíduos de mercúrio lançados nas águas e no solo sofrem biotransformação por bactérias metanogênicas e sulfatorredutoras presentes no sedimento aquático, convertendo-se em **metilmercúrio**, sua forma orgânica mais tóxica. O composto sofre bioacumulação e biomagnificação ao longo da cadeia trófica, atingindo concentrações elevadíssimas nos peixes carnívoros, base da dieta das comunidades ribeirinhas.
+
+O metilmercúrio é prontamente absorvido pelo trato gastrointestinal e, devido à sua semelhança estrutural com complexos de metionina, atravessa com facilidade a barreira hematoencefálica mediado por transportadores de aminoácidos neutros. O sistema nervoso central é o principal órgão-alvo dessa toxicidade, com dano celular mediado por estresse oxidativo, peroxidação lipídica e disfunção mitocondrial, afetando preferencialmente as células granulares do cerebelo e os neurônios corticais (especialmente no córtex visual calcarino e áreas associativas).
+
+A apresentação clínica clássica mimetiza a Doença de Minamata, caracterizada por:
+1. Distúrbios sensitivos periféricos: parestesias periorais e em extremidades ('em bota e luva');
+2. Disfunção cerebelar: ataxia de marcha, incoordenação motora, dismetria e tremores;
+3. Alterações da fala: disartria progressiva;
+4. Alterações neuropsiquiátricas e cognitivas: irritabilidade, labilidade emocional, déficit de atenção e retardo no aprendizado, achados particularmente evidentes e graves em crianças em fase de desenvolvimento neuropsicomotor.
+
+**Análise das alternativas incorretas:**
+
+• **A) Incorreta:** A poliomielite é uma infecção viral aguda que afeta os neurônios motores do corno anterior da medula espinhal, manifestando-se como paralisia flácida aguda assimétrica, associada a febre inicial, arreflexia e atrofia muscular rápida. Não cursa com acometimento sensitivo (parestesias), disfunção cognitiva, tremores de padrão cerebelar ou caráter crônico-insidioso ligado à exposição ambiental garimpeira.
+
+• **C) Incorreta:** A síndrome de Guillain-Barré é uma polirradiculoneuropatia desmielinizante inflamatória aguda de natureza autoimune, classicamente deflagrada após infecções gastrointestinais ou respiratórias. Seu quadro clínico típico consiste em paresia flácida e arreflexa ascendente com evolução rápida em até quatro semanas, podendo cursar com dissociação proteicocitológica no líquido cefalorraquidiano. Não apresenta etiologia toxicoambiental crônica, tremores ou repercussões cognitivo-comportamentais.
+
+• **D) Incorreta:** A intoxicação por organofosforados decorre da inibição irreversível da acetilcolinesterase por agrotóxicos agrícolas, culminando em síndrome colinérgica aguda ou subaguda com manifestações muscarínicas (miose puntiforme, broncorreia, broncoespasmo, sialorreia, sudorese, bradicardia, cólicas e diarreia) e nicotínicas (fasciculações e fraqueza muscular). O contexto epidemiológico de garimpo em bacia fluvial e a sintomatologia crônica neuropsiquiátrica e cerebelar afastam esse agente.
 </details>
 
 ---
