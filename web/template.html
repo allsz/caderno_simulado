@@ -7,6 +7,11 @@
     <title>Caderno de Questões - Simulado de Estudos Interativo</title>
     <link rel="icon" type="image/svg+xml" href="{{FAVICON_B64}}">
 
+    <!-- Tipografia Moderna (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <!-- Inicializador Instantâneo de Tema (Evita Flash de Tela Branca) -->
     <script>
         (function () {
@@ -43,7 +48,7 @@
     <div class="top-bar">
         <div class="top-bar-title" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
             title="Clique para voltar ao topo">
-            🩺 Simulado Residência Médica
+            Simulado Residência Médica
         </div>
         <div class="progress-container" onclick="irParaEstatisticas()"
             title="Clique para ir direto ao Resumo de Desempenho e Estatísticas">
@@ -96,7 +101,7 @@
             <h1>Caderno de Questões - Simulado Interativo</h1>
             <p>Questões oficiais de bancas categorizadas com Gabarito Oficial e Explicações Médicas.</p>
             <div class="badge-persistence">
-                <span>💾</span> Respostas salvas automaticamente no navegador
+                Respostas salvas automaticamente no navegador
             </div>
         </div>
 
@@ -133,6 +138,13 @@
                     <button type="button" class="filtro-modo-tab" id="tab-modo-prova" onclick="alternarModoFiltro('prova')" role="tab" aria-selected="false">
                         <svg class="filtro-modo-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path><path d="M6 6h10"></path><path d="M6 10h10"></path><path d="M6 14h6"></path></svg>
                         Por Prova, Ano & Questão
+                    </button>
+                    <button type="button" class="filtro-modo-tab tab-modo-simulado" id="tab-modo-simulado" onclick="alternarModoFiltro('simulado')" role="tab" aria-selected="false">
+                        <svg class="filtro-modo-tab-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        Modo Simulado Real
                     </button>
                 </div>
 
@@ -220,6 +232,287 @@
                     <div class="filtro-questao-status" id="filtro-questao-status"></div>
                 </div>
             </div>
+
+            <!-- Painel 3: Modo Simulado Real (Setup & Configuração) -->
+            <div id="painel-filtro-simulado" class="filtro-painel-conteudo" style="display: none;">
+                <div class="simulado-setup-card">
+                    <div class="simulado-setup-header">
+                        <div class="simulado-setup-header-text">
+                            <h2 class="simulado-setup-title">Simulado Real Cronometrado</h2>
+                            <p class="simulado-setup-desc">Treine sob condições de prova com seleção aleatória, contagem regressiva e ambiente anti-distração.</p>
+                        </div>
+                    </div>
+
+                    <!-- Etapa 1: Duração -->
+                    <div class="simulado-step-section">
+                        <label class="simulado-step-label">
+                            Escolha o Tempo da Prova:
+                        </label>
+                        <div class="simulado-pills-grid" id="simulado-tempo-pills">
+                            <button type="button" class="simulado-pill" data-min="30" onclick="selecionarTempoSimulado(30)">
+                                <span class="simulado-pill-time">30 min</span>
+                                <span class="simulado-pill-sub">10 questões</span>
+                            </button>
+                            <button type="button" class="simulado-pill active" data-min="60" onclick="selecionarTempoSimulado(60)">
+                                <span class="simulado-pill-time">1 hora</span>
+                                <span class="simulado-pill-sub">20 questões</span>
+                            </button>
+                            <button type="button" class="simulado-pill" data-min="120" onclick="selecionarTempoSimulado(120)">
+                                <span class="simulado-pill-time">2 horas</span>
+                                <span class="simulado-pill-sub">40 questões</span>
+                            </button>
+                            <button type="button" class="simulado-pill" data-min="180" onclick="selecionarTempoSimulado(180)">
+                                <span class="simulado-pill-time">3 horas</span>
+                                <span class="simulado-pill-sub">60 questões</span>
+                            </button>
+                            <button type="button" class="simulado-pill" data-min="240" onclick="selecionarTempoSimulado(240)">
+                                <span class="simulado-pill-time">4 horas</span>
+                                <span class="simulado-pill-sub">80 questões</span>
+                            </button>
+                            <button type="button" class="simulado-pill" data-min="300" onclick="selecionarTempoSimulado(300)">
+                                <span class="simulado-pill-time">5 horas</span>
+                                <span class="simulado-pill-sub">100 questões</span>
+                            </button>
+                            <button type="button" class="simulado-pill simulado-pill-livre" data-min="0" onclick="selecionarTempoSimulado(0)">
+                                <span class="simulado-pill-time">Livre</span>
+                                <span class="simulado-pill-sub">Sem timer</span>
+                            </button>
+                        </div>
+
+                        <!-- Seletor extra se Modo Livre for selecionado -->
+                        <div id="simulado-livre-opcoes" class="simulado-livre-opcoes" style="display: none;">
+                            <span class="simulado-livre-label">Quantidade de questões no modo livre:</span>
+                            <div class="simulado-livre-pills">
+                                <button type="button" class="simulado-pill-qtd" onclick="selecionarQtdLivre(15)">15</button>
+                                <button type="button" class="simulado-pill-qtd active" onclick="selecionarQtdLivre(30)">30</button>
+                                <button type="button" class="simulado-pill-qtd" onclick="selecionarQtdLivre(50)">50</button>
+                                <button type="button" class="simulado-pill-qtd" onclick="selecionarQtdLivre(100)">100</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Resumo do Cálculo (Regra de 3) -->
+                    <div class="simulado-calculo-box" id="simulado-calculo-box">
+                        <div class="simulado-calc-item">
+                            <div class="simulado-calc-content">
+                                <div class="simulado-calc-header">
+                                    <svg class="simulado-calc-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                    </svg>
+                                    <span class="simulado-calc-label">Total de Questões:</span>
+                                </div>
+                                <strong class="simulado-calc-val" id="simulado-resumo-questoes">20 questões oficiais</strong>
+                            </div>
+                        </div>
+                        <div class="simulado-calc-divider"></div>
+                        <div class="simulado-calc-item">
+                            <div class="simulado-calc-content">
+                                <div class="simulado-calc-header">
+                                    <svg class="simulado-calc-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                    <span class="simulado-calc-label">Tempo Médio Estimado:</span>
+                                </div>
+                                <strong class="simulado-calc-val" id="simulado-resumo-ritmo">3 min por questão</strong>
+                            </div>
+                        </div>
+                        <div class="simulado-calc-divider"></div>
+                        <div class="simulado-calc-item">
+                            <div class="simulado-calc-content">
+                                <div class="simulado-calc-header">
+                                    <svg class="simulado-calc-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path>
+                                    </svg>
+                                    <span class="simulado-calc-label">Critério de Seleção:</span>
+                                </div>
+                                <strong class="simulado-calc-val">Sorteio Aleatório Cego</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Etapa 2: Termo de Ciência e Anti-Cola -->
+                    <div class="simulado-step-section">
+                        <label class="simulado-step-label">
+                            Regras de Prova e Monitoramento Anti-Fraude:
+                        </label>
+                        <div class="simulado-regras-card">
+                            <div class="simulado-regra-row">
+                                <svg class="simulado-regra-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                                </svg>
+                                <span><strong>Detecção de Foco Ativa:</strong> É estritamente proibido trocar de aba, minimizar ou clicar fora da janela. Qualquer saída desclassifica o simulado imediatamente.</span>
+                            </div>
+                            <div class="simulado-regra-row">
+                                <svg class="simulado-regra-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                                <span><strong>Modo Cego:</strong> Gabaritos oficiais e explicações médicas por IA ficam ocultos durante toda a resolução para simular o dia real da prova.</span>
+                            </div>
+                            <div class="simulado-regra-row">
+                                <svg class="simulado-regra-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                                <span><strong>Apuração Automática:</strong> Ao finalizar (ou quando o tempo expirar), um painel completo com taxa de acertos e revisão detalhada será liberado.</span>
+                            </div>
+
+                            <div class="simulado-termo-check-wrap">
+                                <label class="simulado-termo-label">
+                                    <input type="checkbox" id="check-termo-simulado" onchange="atualizarEstadoBotaoIniciarSimulado()">
+                                    <span class="simulado-termo-text">
+                                        Compreendo as regras e <strong>concordo</strong> que perder o foco da tela anulará minha tentativa.
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Ação: Botão Iniciar Simulado -->
+                    <div class="simulado-action-bar">
+                        <button type="button" class="btn-iniciar-simulado" id="btn-iniciar-simulado" disabled onclick="confirmarInicioSimulado()">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                            <span>Iniciar Simulado Cronometrado</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Container Exclusivo do Modo Simulado Ativo (Isolamento de Questões) -->
+        <section id="simulado-ativo-container" class="simulado-ativo-container" style="display: none;" aria-label="Simulado em Andamento">
+            <!-- Header do Simulado Ativo -->
+            <div class="simulado-exam-header" id="simulado-exam-header">
+                <div class="simulado-exam-info">
+                    <div class="simulado-exam-badge">
+                        <span class="simulado-exam-dot"></span>
+                        <span id="simulado-status-texto">Simulado em Andamento</span>
+                    </div>
+                    <h2 class="simulado-exam-title" id="simulado-exam-title">Prova Oficial de Residência Médica</h2>
+                    <div class="simulado-exam-meta" id="simulado-exam-meta">
+                        <span class="simulado-meta-item" id="simulado-tempo-info">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <span id="simulado-tempo-texto">Duração: 1 hora</span>
+                        </span>
+                        <span class="simulado-meta-divider">•</span>
+                        <span class="simulado-meta-item" id="simulado-progresso-badge">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                                <line x1="16" y1="13" x2="8" y2="13"></line>
+                                <line x1="16" y1="17" x2="8" y2="17"></line>
+                                <polyline points="10 9 9 9 8 9"></polyline>
+                            </svg>
+                            <span id="simulado-progresso-texto">0 de 20 respondidas (0%)</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="simulado-exam-actions">
+                    <!-- Relógio Regressivo (Countdown) -->
+                    <div class="simulado-countdown-box" id="simulado-countdown-box">
+                        <div class="simulado-countdown-header">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <span class="simulado-countdown-label" id="simulado-countdown-label">TEMPO RESTANTE</span>
+                        </div>
+                        <div class="simulado-countdown-digits" id="simulado-timer-display">
+                            01:00:00
+                        </div>
+                    </div>
+
+                    <!-- Botão Entregar Prova -->
+                    <button type="button" class="btn-entregar-simulado" id="btn-entregar-simulado" onclick="abrirModalEntregaSimulado()" title="Finalizar e entregar a prova do simulado">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>Entregar Prova</span>
+                    </button>
+
+                    <!-- Botão Ver Resultado (Disponível após entrega) -->
+                    <button type="button" class="btn-resultado-simulado-header" id="btn-ver-resultado-simulado" style="display: none;" onclick="abrirModalResultadoSimulado()" title="Ver resumo oficial do seu resultado">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                        <span>Ver Resultado</span>
+                    </button>
+
+                    <!-- Botão Fazer Novo Simulado (Disponível após entrega) -->
+                    <button type="button" class="btn-novo-simulado-header" id="btn-novo-simulado-header" style="display: none;" onclick="iniciarNovoSimuladoSetup()" title="Configurar e iniciar um novo simulado">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="23 4 23 10 17 10"></polyline>
+                            <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                        </svg>
+                        <span>Novo Simulado</span>
+                    </button>
+
+                    <!-- Botão Abandonar Prova / Sair -->
+                    <button type="button" class="btn-cancelar-simulado" id="btn-cancelar-simulado" onclick="tratarCliqueBotaoSair()" title="Abandonar este simulado e retornar ao caderno">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                        </svg>
+                        <span>Abandonar Prova</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Barra de Progresso Visual do Simulado -->
+            <div class="simulado-progress-bar-wrap">
+                <div class="simulado-progress-bar-fill" id="simulado-progress-bar-fill" style="width: 0%;"></div>
+            </div>
+
+            <!-- Lista Exclusiva das N Questões Sorteadas -->
+            <main id="simulado-questoes-lista" class="questoes-wrapper simulado-questoes-wrapper">
+                <!-- Injetado dinamicamente via JS com os cards isolados -->
+            </main>
+
+            <!-- Barra Inferior de Navegação / Ações do Simulado -->
+            <div class="simulado-bottom-bar" id="simulado-bottom-bar">
+                <div class="simulado-bottom-info">
+                    <span id="simulado-bottom-progresso">0 de 20 questões preenchidas (0%)</span>
+                </div>
+                <div class="simulado-bottom-actions">
+                    <button type="button" class="btn-bottom-action btn-bottom-entregar" id="btn-entregar-bottom" onclick="abrirModalEntregaSimulado()" title="Finalizar e entregar este simulado">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="20 6 9 17 4 12"></polyline>
+                        </svg>
+                        <span>Entregar Simulado</span>
+                    </button>
+                    <button type="button" class="btn-bottom-action btn-bottom-resultado" id="btn-ver-resultado-bottom" style="display: none;" onclick="abrirModalResultadoSimulado()" title="Ver resumo oficial do seu resultado">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="7"></circle>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                        </svg>
+                        <span>Ver Resultado</span>
+                    </button>
+                    <button type="button" class="btn-bottom-action btn-bottom-novo" id="btn-novo-simulado-bottom" style="display: none;" onclick="iniciarNovoSimuladoSetup()" title="Configurar e iniciar um novo simulado">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="23 4 23 10 17 10"></polyline>
+                            <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                        </svg>
+                        <span>Novo Simulado</span>
+                    </button>
+                    <button type="button" class="btn-bottom-action btn-bottom-topo" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="18 15 12 9 6 15"></polyline>
+                        </svg>
+                        <span>Voltar ao Topo</span>
+                    </button>
+                </div>
+            </div>
         </section>
 
         <!-- Barra de Paginação Superior -->
@@ -284,7 +577,7 @@
                     </div>
                     <div class="stat-info">
                         <span class="stat-value" id="stat-taxa">0%</span>
-                        <span class="stat-label">Taxa de Acerto <span class="stat-card-badge stat-card-badge-taxa">Ver Análise 📊</span></span>
+                        <span class="stat-label">Taxa de Acerto <span class="stat-card-badge stat-card-badge-taxa">Ver Análise</span></span>
                     </div>
                 </div>
                 <div class="stat-card stat-card-total">
@@ -379,14 +672,13 @@
             </div>
             <div class="aviso-modal-body">
                 <div class="aviso-alert-box">
-                    <strong><img src="{{IMG_ATENCAO_B64}}" alt="Atenção" class="inline-icon"> Atenção
-                        Estudante:</strong><br>
+                    <strong>Atenção Estudante:</strong><br>
                     Todas as questões possuem o <strong>gabarito oficial das bancas examinadoras</strong>. No entanto,
                     as <strong>explicações e justificativas clínicas detalhadas foram geradas por Inteligência
                         Artificial (Google Gemini)</strong>.
                 </div>
                 <div class="aviso-info-box">
-                    <strong><img src="{{IMG_CHECK_B64}}" alt="Check" class="inline-icon"> Uso Recomendado:</strong><br>
+                    <strong>Uso Recomendado:</strong><br>
                     Utilize as explicações como um guia prático de revisão e raciocínio clínico para consolidar seus
                     estudos. Sempre confirme condutas em diretrizes médicas oficiais e literatura de referência.
                 </div>
@@ -473,6 +765,169 @@
             <div class="confirm-modal-footer">
                 <button type="button" class="btn-confirm-cancel" onclick="fecharConfirmResetModal()">Cancelar</button>
                 <button type="button" class="btn-confirm-proceed" onclick="executarLimparRespostas()">Sim, limpar tudo</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Confirmação para Abandonar o Simulado -->
+    <div class="confirm-modal-overlay" id="confirm-abandonar-simulado-modal-overlay" onclick="fecharConfirmAbandonarModal(event)">
+        <div class="confirm-modal-card" onclick="event.stopPropagation()">
+            <div class="confirm-modal-header">
+                <div class="confirm-modal-title">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                    <span>Abandonar Simulado?</span>
+                </div>
+                <button type="button" class="confirm-modal-close" onclick="fecharConfirmAbandonarModal()">&times;</button>
+            </div>
+            <div class="confirm-modal-body">
+                Você tem certeza de que deseja <strong>abandonar o simulado em andamento</strong> e voltar ao caderno regular?
+                <div class="confirm-modal-warning">
+                    <svg class="warning-icon-minimal" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
+                        <line x1="12" y1="9" x2="12" y2="13"></line>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                    <div><strong>Atenção:</strong> Suas respostas nesta tentativa de simulado serão descartadas e você retornará ao modo de estudos.</div>
+                </div>
+            </div>
+            <div class="confirm-modal-footer">
+                <button type="button" class="btn-confirm-cancel" onclick="fecharConfirmAbandonarModal()">Continuar Simulado</button>
+                <button type="button" class="btn-confirm-proceed" onclick="executarAbandonarSimulado()">Sim, abandonar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Conferência e Entrega do Simulado -->
+    <div class="confirm-modal-overlay" id="confirm-entregar-simulado-modal-overlay" onclick="fecharModalEntregaSimulado(event)" role="dialog" aria-modal="true" aria-labelledby="modal-entrega-titulo">
+        <div class="confirm-modal-card entrega-modal-card" onclick="event.stopPropagation()">
+            <div class="confirm-modal-header">
+                <div class="confirm-modal-title">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <polyline points="9 15 11 17 15 13"></polyline>
+                    </svg>
+                    <span id="modal-entrega-titulo">Finalizar e Entregar Simulado?</span>
+                </div>
+                <button type="button" class="confirm-modal-close" onclick="fecharModalEntregaSimulado()">&times;</button>
+            </div>
+            
+            <div class="confirm-modal-body modal-entrega-body">
+                <!-- Resumo dos Números da Prova -->
+                <div class="entrega-stats-grid">
+                    <div class="entrega-stat-box">
+                        <span class="entrega-stat-rotulo">Total</span>
+                        <span class="entrega-stat-valor" id="entrega-stat-total">0</span>
+                    </div>
+                    <div class="entrega-stat-box stat-respondidas-box">
+                        <span class="entrega-stat-rotulo">Respondidas</span>
+                        <span class="entrega-stat-valor text-emerald" id="entrega-stat-respondidas">0</span>
+                    </div>
+                    <div class="entrega-stat-box stat-pendentes-box" id="entrega-stat-box-pendentes">
+                        <span class="entrega-stat-rotulo">Em Branco</span>
+                        <span class="entrega-stat-valor text-amber" id="entrega-stat-pendentes">0</span>
+                    </div>
+                </div>
+
+                <!-- Alerta Dinâmico: Tudo Preenchido vs Questões Pendentes -->
+                <div class="entrega-feedback-box" id="entrega-feedback-box">
+                    <!-- Preenchido dinamicamente via JS -->
+                </div>
+
+                <!-- Container com Pills das Questões em Branco (se houver) -->
+                <div class="entrega-pendentes-container" id="entrega-pendentes-container" style="display: none;">
+                    <div class="entrega-pendentes-titulo">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="8" x2="12" y2="12"></line>
+                            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                        </svg>
+                        <span>Clique na questão para ir direto até ela:</span>
+                    </div>
+                    <div class="entrega-pills-wrap" id="entrega-pills-wrap">
+                        <!-- Injetado dinamicamente via JS -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="confirm-modal-footer">
+                <button type="button" class="btn-confirm-cancel" onclick="fecharModalEntregaSimulado()">Revisar Questões</button>
+                <button type="button" class="btn-confirm-entrega" onclick="executarEntregaSimulado()">Confirmar e Entregar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Resultados Oficiais e Conclusão do Simulado -->
+    <div class="confirm-modal-overlay resultado-simulado-modal-overlay" id="simulado-resultado-modal-overlay" onclick="fecharModalResultadoSimulado(event)" role="dialog" aria-modal="true" aria-labelledby="modal-resultado-titulo">
+        <div class="confirm-modal-card resultado-modal-card" onclick="event.stopPropagation()">
+            <div class="resultado-modal-header">
+                <h3 class="resultado-modal-title" id="modal-resultado-titulo">Simulado Finalizado!</h3>
+                <p class="resultado-modal-sub" id="resultado-modal-sub">Confira seu desempenho oficial nesta prova</p>
+            </div>
+
+            <div class="resultado-modal-body">
+                <!-- Destaque do Score -->
+                <div class="resultado-score-box">
+                    <div class="resultado-score-taxa" id="resultado-taxa-display">0%</div>
+                    <div class="resultado-score-sub" id="resultado-score-sub">0 de 0 acertos</div>
+                </div>
+
+                <!-- Métricas Detalhadas -->
+                <div class="resultado-grid-metricas">
+                    <div class="resultado-metrica-card">
+                        <span class="resultado-metrica-rotulo">Tempo Utilizado</span>
+                        <span class="resultado-metrica-num" id="resultado-tempo-gasto">00:00</span>
+                    </div>
+                    <div class="resultado-metrica-card">
+                        <span class="resultado-metrica-rotulo">Acertos</span>
+                        <span class="resultado-metrica-num text-emerald" id="resultado-total-acertos">0</span>
+                    </div>
+                    <div class="resultado-metrica-card">
+                        <span class="resultado-metrica-rotulo">Erros</span>
+                        <span class="resultado-metrica-num text-red" id="resultado-total-erros">0</span>
+                    </div>
+                    <div class="resultado-metrica-card">
+                        <span class="resultado-metrica-rotulo">Em Branco</span>
+                        <span class="resultado-metrica-num text-amber" id="resultado-total-branco">0</span>
+                    </div>
+                </div>
+
+                <!-- Box da Regra de Ouro -->
+                <div class="resultado-regra-box" id="resultado-regra-ouro-box" style="display: none;">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 14 14"></polyline>
+                    </svg>
+                    <div id="resultado-regra-ouro-texto">
+                        <strong>Regra de Ouro:</strong> Novas questões incorporadas ao caderno normal!
+                    </div>
+                </div>
+            </div>
+
+            <div class="resultado-modal-footer">
+                <div class="resultado-modal-acoes-principais">
+                    <button type="button" class="btn-resultado-revisar" onclick="liberarModoRevisaoSimulado()">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                        <span>Revisar Gabarito & IA</span>
+                    </button>
+                    <button type="button" class="btn-resultado-novo" onclick="iniciarNovoSimuladoSetup()">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="23 4 23 10 17 10"></polyline>
+                            <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                        </svg>
+                        <span>Fazer Novo Simulado</span>
+                    </button>
+                </div>
+                <button type="button" class="btn-resultado-caderno" onclick="retornarAoCadernoNormal()">
+                    <span>Voltar ao Caderno</span>
+                </button>
             </div>
         </div>
     </div>
