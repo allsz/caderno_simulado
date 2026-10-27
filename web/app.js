@@ -1507,21 +1507,24 @@ function liberarModoRevisaoSimulado() {
             btnResposta.style.display = 'inline-flex';
         }
 
-        // Destaca alternativas
+        // Destaca alternativas apenas se o aluno tiver respondido à questão
+        // Questões em branco permanecem neutras (sem highlight verde de gabarito)
         const labels = cardSim.querySelectorAll('.alternativa');
         labels.forEach(lbl => lbl.classList.remove('correct', 'incorrect'));
 
-        if (gabarito) {
-            const labelGabarito = cardSim.querySelector(`#sim_label_${qId}_${gabarito}`);
-            if (labelGabarito) {
-                labelGabarito.classList.add('correct');
+        if (respDada) {
+            if (gabarito) {
+                const labelGabarito = cardSim.querySelector(`#sim_label_${qId}_${gabarito}`);
+                if (labelGabarito) {
+                    labelGabarito.classList.add('correct');
+                }
             }
-        }
 
-        if (respDada && respDada !== gabarito) {
-            const labelErrada = cardSim.querySelector(`#sim_label_${qId}_${respDada}`);
-            if (labelErrada) {
-                labelErrada.classList.add('incorrect');
+            if (respDada !== gabarito) {
+                const labelErrada = cardSim.querySelector(`#sim_label_${qId}_${respDada}`);
+                if (labelErrada) {
+                    labelErrada.classList.add('incorrect');
+                }
             }
         }
 
