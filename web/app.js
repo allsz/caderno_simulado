@@ -738,6 +738,7 @@ function iniciarSimuladoReal() {
     };
 
     salvarSnapshotSimulado();
+    document.documentElement.classList.add('simulado-sessao-ativa');
     renderizarTelaSimuladoAtivo(false);
 
     if (typeof gtag === 'function') {
@@ -832,11 +833,24 @@ function renderizarTelaSimuladoAtivo(isRestauracao = false) {
         examBadge.style.color = '';
     }
 
+    const badgeAnticola = document.getElementById('simulado-anticola-badge');
+    const textoAnticola = document.getElementById('simulado-anticola-texto');
+    if (badgeAnticola) {
+        badgeAnticola.classList.remove('violacao');
+        badgeAnticola.title = 'Sentinela Anti-Cola: Tolerância Zero para troca de aba ou saída de tela';
+    }
+    if (textoAnticola) {
+        textoAnticola.textContent = 'Anti-Cola Ativo (Tolerância Zero)';
+    }
+
     const countdownBox = document.getElementById('simulado-countdown-box');
     if (countdownBox) countdownBox.classList.remove('urgente');
 
     const listaSimWrap = document.getElementById('simulado-questoes-lista');
-    if (listaSimWrap) listaSimWrap.classList.remove('modo-revisao');
+    if (listaSimWrap) {
+        listaSimWrap.classList.remove('modo-revisao');
+        listaSimWrap.classList.remove('desclassificado');
+    }
 
     // 3. Atualizar metadados do cabeçalho
     const tempoTexto = document.getElementById('simulado-tempo-texto');
@@ -874,7 +888,14 @@ function renderizarTelaSimuladoAtivo(isRestauracao = false) {
     // 6. Iniciar o relógio cronometrado regressivo (Countdown)
     iniciarTimerSimulado();
 
-    // 7. Scroll suave para o topo do simulado
+    // 7. Ativar a Sentinela Anti-Cola & Foco se a prova estiver em andamento
+    if (window.simuladoAtivo.status === 'em_andamento') {
+        ativarSentinelaFoco();
+    } else {
+        desativarSentinelaFoco();
+    }
+
+    // 8. Scroll suave para o topo do simulado
     if (!isRestauracao) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -912,11 +933,15 @@ function renderizarCardQuestaoSimulado(cardOriginal, numeroSimulado, totalSimula
         radio.name = `sim_radio_${qId}`;
         radio.id = `sim_input_${qId}_${letra}`;
         radio.removeAttribute('onchange');
+        radio.disabled = false;
 
         const label = radio.closest('.alternativa');
         if (label) {
             label.id = `sim_label_${qId}_${letra}`;
             label.classList.remove('correct', 'incorrect', 'selected');
+            label.style.pointerEvents = '';
+            label.style.opacity = '';
+            label.style.cursor = 'pointer';
 
             if (respostaSalva && respostaSalva === letra) {
                 radio.checked = true;
@@ -1005,11 +1030,16 @@ function verificarRestauracaoSimulado() {
             console.log(`[Modo Simulado] Restaurando simulado em andamento (${Object.keys(snapshot.respostas || {}).length}/${snapshot.totalQuestoes} respondidas)...`);
             window.simuladoAtivo = snapshot;
             renderizarTelaSimuladoAtivo(true);
-        } else if (snapshot && snapshot.status === 'finalizado' && Array.isArray(snapshot.questoes) && snapshot.questoes.length > 0) {
-            console.log(`[Modo Simulado] Restaurando simulado finalizado para revisão...`);
+        } else if (snapshot && (snapshot.status === 'finalizado' || snapshot.status === 'desclassificado') && Array.isArray(snapshot.questoes) && snapshot.questoes.length > 0) {
+            console.log(`[Modo Simulado] Restaurando simulado ${snapshot.status} para revisão...`);
             window.simuladoAtivo = snapshot;
             renderizarTelaSimuladoAtivo(true);
-            aplicarEstadoFinalizadoUI();
+            if (snapshot.status === 'desclassificado') {
+                aplicarEstadoDesclassificadoUI();
+                abrirModalDesclassificado();
+            } else {
+                aplicarEstadoFinalizadoUI();
+            }
         }
     } catch (e) {
         console.warn('[Modo Simulado] Falha ao restaurar sessão de simulado ativo:', e);
@@ -1018,6 +1048,7 @@ function verificarRestauracaoSimulado() {
 
 // Modal de Confirmação para Abandono do Simulado
 function abrirConfirmAbandonarModal() {
+    marcarInteracaoInternaSegura(true);
     const modal = document.getElementById('confirm-abandonar-simulado-modal-overlay');
     if (modal) {
         modal.classList.add('active');
@@ -1032,11 +1063,13 @@ function fecharConfirmAbandonarModal(e) {
             modal.classList.remove('active');
             document.body.style.overflow = '';
         }
+        setTimeout(() => marcarInteracaoInternaSegura(false), 300);
     }
 }
 
 function executarAbandonarSimulado() {
     fecharConfirmAbandonarModal();
+    desativarSentinelaFoco();
     pararTimerSimulado();
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
@@ -1088,6 +1121,7 @@ function executarAbandonarSimulado() {
 
 function abrirModalEntregaSimulado() {
     if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
+    marcarInteracaoInternaSegura(true);
 
     const total = window.simuladoAtivo.totalQuestoes || (window.simuladoAtivo.questoes ? window.simuladoAtivo.questoes.length : 0);
     const respondidasKeys = Object.keys(window.simuladoAtivo.respostas || {}).filter(k => Boolean(window.simuladoAtivo.respostas[k]));
@@ -1169,6 +1203,7 @@ function fecharModalEntregaSimulado(e) {
             modal.classList.remove('active');
             document.body.style.overflow = '';
         }
+        setTimeout(() => marcarInteracaoInternaSegura(false), 300);
     }
 }
 
@@ -1228,6 +1263,7 @@ function executarEntregaSimulado(porTempo = false) {
 
     if (!window.simuladoAtivo) return;
 
+    desativarSentinelaFoco();
     pararTimerSimulado();
 
     const fimTimestamp = Date.now();
@@ -1301,6 +1337,8 @@ function executarEntregaSimulado(porTempo = false) {
 function aplicarEstadoFinalizadoUI() {
     if (!window.simuladoAtivo) return;
 
+    desativarSentinelaFoco();
+
     // 1. Atualiza badge
     const badgeTexto = document.getElementById('simulado-status-texto');
     const dot = document.querySelector('.simulado-exam-dot');
@@ -1313,6 +1351,17 @@ function aplicarEstadoFinalizadoUI() {
         examBadge.style.borderColor = 'transparent';
         examBadge.style.padding = '0';
         examBadge.style.color = 'var(--text-muted)';
+    }
+
+    // Atualiza status do badge Anti-Cola no cabeçalho
+    const badgeAnticola = document.getElementById('simulado-anticola-badge');
+    const textoAnticola = document.getElementById('simulado-anticola-texto');
+    if (badgeAnticola) {
+        badgeAnticola.classList.remove('violacao');
+        badgeAnticola.title = 'Simulado finalizado sem infrações de tela';
+    }
+    if (textoAnticola) {
+        textoAnticola.textContent = 'Anti-Cola: Concluído';
     }
 
     // 2. Atualiza Timer
@@ -1349,7 +1398,12 @@ function aplicarEstadoFinalizadoUI() {
 }
 
 function abrirModalResultadoSimulado() {
-    if (!window.simuladoAtivo || !window.simuladoAtivo.resultado) return;
+    if (!window.simuladoAtivo) return;
+    if (window.simuladoAtivo.status === 'desclassificado') {
+        abrirModalDesclassificado();
+        return;
+    }
+    if (!window.simuladoAtivo.resultado) return;
 
     const res = window.simuladoAtivo.resultado;
     const total = res.total;
@@ -1419,12 +1473,16 @@ function fecharModalResultadoSimulado(e) {
 
 function liberarModoRevisaoSimulado() {
     fecharModalResultadoSimulado();
+    fecharModalDesclassificado();
 
     if (!window.simuladoAtivo) return;
 
     const listaSim = document.getElementById('simulado-questoes-lista');
     if (listaSim) {
         listaSim.classList.add('modo-revisao');
+        listaSim.classList.remove('desclassificado');
+        const radios = listaSim.querySelectorAll('input[type="radio"]');
+        radios.forEach(r => r.disabled = false);
     }
 
     window.simuladoAtivo.questoes.forEach((qId, idx) => {
@@ -1449,21 +1507,24 @@ function liberarModoRevisaoSimulado() {
             btnResposta.style.display = 'inline-flex';
         }
 
-        // Destaca alternativas
+        // Destaca alternativas apenas se o aluno tiver respondido à questão
+        // Questões em branco permanecem neutras (sem highlight verde de gabarito)
         const labels = cardSim.querySelectorAll('.alternativa');
         labels.forEach(lbl => lbl.classList.remove('correct', 'incorrect'));
 
-        if (gabarito) {
-            const labelGabarito = cardSim.querySelector(`#sim_label_${qId}_${gabarito}`);
-            if (labelGabarito) {
-                labelGabarito.classList.add('correct');
+        if (respDada) {
+            if (gabarito) {
+                const labelGabarito = cardSim.querySelector(`#sim_label_${qId}_${gabarito}`);
+                if (labelGabarito) {
+                    labelGabarito.classList.add('correct');
+                }
             }
-        }
 
-        if (respDada && respDada !== gabarito) {
-            const labelErrada = cardSim.querySelector(`#sim_label_${qId}_${respDada}`);
-            if (labelErrada) {
-                labelErrada.classList.add('incorrect');
+            if (respDada !== gabarito) {
+                const labelErrada = cardSim.querySelector(`#sim_label_${qId}_${respDada}`);
+                if (labelErrada) {
+                    labelErrada.classList.add('incorrect');
+                }
             }
         }
 
@@ -1510,16 +1571,279 @@ function toggleRespostaSimulado(qId) {
     }
 }
 
+// ========================================================
+// Módulo 4: Monitor Anti-Cola & Sentinela de Foco (Tolerância Zero)
+// ========================================================
+
+let sentinelaFocoAtiva = false;
+let sentinelaPollingInterval = null;
+window._interacaoInternaSegura = false;
+window._recarregandoPagina = false;
+
+function marcarInteracaoInternaSegura(ativa = true) {
+    window._interacaoInternaSegura = Boolean(ativa);
+}
+
+function dispararVerificacaoPerdaFoco(origem) {
+    if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
+    if (window._interacaoInternaSegura || window._recarregandoPagina) {
+        console.log(`[Sentinela Anti-Cola] Evento '${origem}' ignorado por ser interação interna segura ou reload de página.`);
+        return;
+    }
+
+    console.warn(`[Sentinela Anti-Cola] Perda de foco confirmada via '${origem}'. Desclassificando prova imediatamente...`);
+    executarDesclassificacaoSimulado();
+}
+
+function handleSentinelaVisibilityChange() {
+    if (document.visibilityState === 'hidden') {
+        dispararVerificacaoPerdaFoco('visibilitychange');
+    }
+}
+
+function handleSentinelaWindowBlur() {
+    dispararVerificacaoPerdaFoco('blur');
+}
+
+function ativarSentinelaFoco() {
+    if (sentinelaFocoAtiva) return;
+    sentinelaFocoAtiva = true;
+
+    // Proteção de 1500ms para acomodar o clique de início de prova ou reload sem disparar micro-blur
+    window._interacaoInternaSegura = true;
+    setTimeout(() => {
+        window._interacaoInternaSegura = false;
+    }, 1500);
+
+    document.addEventListener('visibilitychange', handleSentinelaVisibilityChange);
+    window.addEventListener('blur', handleSentinelaWindowBlur);
+
+    // Camada de Batimento Cardíaco (Heartbeat Polling a cada 200ms)
+    // Garante detecção mesmo se o sistema operacional ou navegador não disparar blur síncrono
+    if (sentinelaPollingInterval) clearInterval(sentinelaPollingInterval);
+    sentinelaPollingInterval = setInterval(() => {
+        if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
+        if (window._interacaoInternaSegura || window._recarregandoPagina) return;
+
+        // Se a janela perdeu o foco (clicou em outro monitor/aplicativo/desktop) ou foi minimizada/trocou de aba
+        if (!document.hasFocus() || document.visibilityState === 'hidden') {
+            dispararVerificacaoPerdaFoco('heartbeat');
+        }
+    }, 200);
+
+    console.log('[Sentinela Anti-Cola] Monitoramento de foco ativado com Tolerância Zero (Eventos + Heartbeat Polling 200ms).');
+}
+
+function desativarSentinelaFoco() {
+    if (!sentinelaFocoAtiva) return;
+    sentinelaFocoAtiva = false;
+    if (sentinelaPollingInterval) {
+        clearInterval(sentinelaPollingInterval);
+        sentinelaPollingInterval = null;
+    }
+    document.removeEventListener('visibilitychange', handleSentinelaVisibilityChange);
+    window.removeEventListener('blur', handleSentinelaWindowBlur);
+    console.log('[Sentinela Anti-Cola] Monitoramento de foco desativado.');
+}
+
+function executarDesclassificacaoSimulado() {
+    if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
+
+    pararTimerSimulado();
+    desativarSentinelaFoco();
+
+    fecharModalEntregaSimulado();
+    fecharConfirmAbandonarModal();
+    fecharZoomImagem();
+
+    const fimTimestamp = Date.now();
+    const tempoGasto = Math.floor((fimTimestamp - (window.simuladoAtivo.inicioTimestamp || fimTimestamp)) / 1000);
+
+    window.simuladoAtivo.status = 'desclassificado';
+    window.simuladoAtivo.motivoDesclassificacao = 'perda_de_foco';
+    window.simuladoAtivo.fimTimestamp = fimTimestamp;
+    window.simuladoAtivo.tempoGastoSegundos = tempoGasto;
+
+    // Apuração dos acertos e erros parciais até o momento do bloqueio
+    const total = window.simuladoAtivo.totalQuestoes;
+    let acertos = 0;
+    let erros = 0;
+    let emBranco = 0;
+    const detalhes = {};
+
+    window.simuladoAtivo.questoes.forEach(qId => {
+        const respDada = window.simuladoAtivo.respostas ? window.simuladoAtivo.respostas[qId] : null;
+        const cardOriginal = document.getElementById('card_' + qId);
+        let gabarito = null;
+
+        if (cardOriginal) {
+            const radio = cardOriginal.querySelector('input[type="radio"]');
+            if (radio) {
+                gabarito = radio.getAttribute('data-gabarito');
+            }
+        }
+
+        if (gabarito === 'ANULADA') {
+            acertos++;
+            detalhes[qId] = { resposta: respDada, gabarito, resultado: 'anulada', correta: true };
+        } else if (!respDada) {
+            emBranco++;
+            erros++;
+            detalhes[qId] = { resposta: null, gabarito, resultado: 'em_branco', correta: false };
+        } else if (gabarito && respDada === gabarito) {
+            acertos++;
+            detalhes[qId] = { resposta: respDada, gabarito, resultado: 'correta', correta: true };
+        } else {
+            erros++;
+            detalhes[qId] = { resposta: respDada, gabarito, resultado: 'incorreta', correta: false };
+        }
+    });
+
+    const taxa = total > 0 ? Math.round((acertos / total) * 100) : 0;
+    window.simuladoAtivo.resultado = {
+        total,
+        acertos,
+        erros,
+        emBranco,
+        taxa,
+        detalhes
+    };
+
+    // Na desclassificação por quebra de regulamento, nenhuma questão é migrada
+    window.simuladoAtivo.questoesMigradasParaCaderno = 0;
+
+    salvarSnapshotSimulado();
+    aplicarEstadoDesclassificadoUI();
+
+    console.warn(`[Sentinela Anti-Cola] Prova DESCLASSIFICADA por perda de foco. Acertos parciais: ${acertos}/${total}.`);
+    abrirModalDesclassificado();
+}
+
+function aplicarEstadoDesclassificadoUI() {
+    if (!window.simuladoAtivo) return;
+
+    desativarSentinelaFoco();
+
+    // 1. Atualiza badge de status principal
+    const badgeTexto = document.getElementById('simulado-status-texto');
+    const dot = document.querySelector('.simulado-exam-dot');
+    const examBadge = document.querySelector('.simulado-exam-badge');
+    if (badgeTexto) badgeTexto.textContent = 'Prova Desclassificada';
+    if (dot) dot.style.display = 'none';
+    if (examBadge) {
+        examBadge.style.background = 'transparent';
+        examBadge.style.border = 'none';
+        examBadge.style.borderColor = 'transparent';
+        examBadge.style.padding = '0';
+        examBadge.style.color = '#ef4444';
+    }
+
+    // 2. Atualiza badge Anti-Cola no cabeçalho
+    const badgeAnticola = document.getElementById('simulado-anticola-badge');
+    const textoAnticola = document.getElementById('simulado-anticola-texto');
+    if (badgeAnticola) {
+        badgeAnticola.classList.add('violacao');
+        badgeAnticola.title = 'Prova anulada: Saída de tela ou troca de aba detectada';
+    }
+    if (textoAnticola) {
+        textoAnticola.textContent = 'Violação de Foco (Anulada)';
+    }
+
+    // 3. Atualiza Timer
+    const labelTimer = document.getElementById('simulado-countdown-label');
+    const timerDisplay = document.getElementById('simulado-timer-display');
+    const countdownBox = document.getElementById('simulado-countdown-box');
+    if (labelTimer) labelTimer.textContent = 'TEMPO DE PROVA';
+    if (timerDisplay) timerDisplay.textContent = formatarTempoTimer(window.simuladoAtivo.tempoGastoSegundos || 0);
+    if (countdownBox) countdownBox.classList.remove('urgente');
+
+    // 4. Bloqueia alternativas e atualiza botões
+    const listaSim = document.getElementById('simulado-questoes-lista');
+    if (listaSim) {
+        listaSim.classList.add('desclassificado');
+        const radios = listaSim.querySelectorAll('input[type="radio"]');
+        radios.forEach(r => r.disabled = true);
+    }
+
+    const btnEntregar = document.getElementById('btn-entregar-simulado');
+    if (btnEntregar) btnEntregar.style.display = 'none';
+    const btnEntregarBottom = document.getElementById('btn-entregar-bottom');
+    if (btnEntregarBottom) btnEntregarBottom.style.display = 'none';
+
+    const btnVerRes = document.getElementById('btn-ver-resultado-simulado');
+    if (btnVerRes) btnVerRes.style.display = 'inline-flex';
+    const btnVerResBottom = document.getElementById('btn-ver-resultado-bottom');
+    if (btnVerResBottom) btnVerResBottom.style.display = 'inline-flex';
+
+    const btnNovo = document.getElementById('btn-novo-simulado-header');
+    if (btnNovo) btnNovo.style.display = 'inline-flex';
+    const btnNovoBottom = document.getElementById('btn-novo-simulado-bottom');
+    if (btnNovoBottom) btnNovoBottom.style.display = 'inline-flex';
+
+    const btnCancelar = document.getElementById('btn-cancelar-simulado');
+    if (btnCancelar) {
+        btnCancelar.style.display = 'inline-flex';
+        btnCancelar.title = 'Sair do simulado e retornar ao modo de estudos';
+        const span = btnCancelar.querySelector('span');
+        if (span) span.textContent = 'Voltar ao Caderno';
+    }
+}
+
+function abrirModalDesclassificado() {
+    if (!window.simuladoAtivo) return;
+
+    const res = window.simuladoAtivo.resultado || {};
+    const total = window.simuladoAtivo.totalQuestoes || 0;
+    const acertos = res.acertos || 0;
+    const erros = res.erros || 0;
+    const respondidas = Object.keys(window.simuladoAtivo.respostas || {}).length;
+    const tempoGasto = window.simuladoAtivo.tempoGastoSegundos || 0;
+
+    const elTempo = document.getElementById('desclassificado-tempo-gasto');
+    const elResp = document.getElementById('desclassificado-total-respondidas');
+    const elAcertos = document.getElementById('desclassificado-total-acertos');
+    const elErros = document.getElementById('desclassificado-total-erros');
+
+    if (elTempo) elTempo.textContent = formatarTempoTimer(tempoGasto);
+    if (elResp) elResp.textContent = `${respondidas} de ${total}`;
+    if (elAcertos) elAcertos.textContent = acertos;
+    if (elErros) elErros.textContent = erros;
+
+    const modal = document.getElementById('simulado-desclassificado-modal-overlay');
+    if (modal) {
+        modal.style.display = 'flex';
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+function fecharModalDesclassificado() {
+    const modal = document.getElementById('simulado-desclassificado-modal-overlay');
+    if (modal) {
+        modal.style.display = 'none';
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}
+
+function liberarModoRevisaoDesclassificado() {
+    fecharModalDesclassificado();
+    liberarModoRevisaoSimulado();
+}
+
 function iniciarNovoSimuladoSetup() {
+    fecharModalDesclassificado();
     fecharModalResultadoSimulado();
     fecharModalEntregaSimulado();
     fecharConfirmAbandonarModal();
+    desativarSentinelaFoco();
     pararTimerSimulado();
 
     // Limpa a sessão
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
     window.simuladoAtivo = null;
+    document.documentElement.classList.remove('simulado-sessao-ativa');
 
     // Ocultar container de simulado ativo
     const containerSimulado = document.getElementById('simulado-ativo-container');
@@ -1529,6 +1853,7 @@ function iniciarNovoSimuladoSetup() {
     if (listaSim) {
         listaSim.innerHTML = '';
         listaSim.classList.remove('modo-revisao');
+        listaSim.classList.remove('desclassificado');
     }
 
     // Restaurar visão
@@ -1554,14 +1879,17 @@ function iniciarNovoSimuladoSetup() {
 }
 
 function retornarAoCadernoNormal() {
+    fecharModalDesclassificado();
     fecharModalResultadoSimulado();
     fecharModalEntregaSimulado();
     fecharConfirmAbandonarModal();
+    desativarSentinelaFoco();
     pararTimerSimulado();
 
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
     window.simuladoAtivo = null;
+    document.documentElement.classList.remove('simulado-sessao-ativa');
 
     // Ocultar container de simulado ativo
     const containerSimulado = document.getElementById('simulado-ativo-container');
@@ -1571,6 +1899,7 @@ function retornarAoCadernoNormal() {
     if (listaSim) {
         listaSim.innerHTML = '';
         listaSim.classList.remove('modo-revisao');
+        listaSim.classList.remove('desclassificado');
     }
 
     // Restaurar visão normal do caderno
@@ -1614,13 +1943,27 @@ function tratarCliqueBotaoSair() {
     }
 }
 
-// Proteção Anti-Perda de Sessão: Alerta ao tentar fechar/recarregar com prova em andamento
-window.addEventListener('beforeunload', function(e) {
+// Proteção Anti-Perda de Sessão: Blindagem para Recarregamento Seguro (F5 / Reload / Navegação)
+function prepararReloadSeguro() {
     if (window.simuladoAtivo && window.simuladoAtivo.status === 'em_andamento') {
-        e.preventDefault();
-        e.returnValue = '';
-        return '';
+        window._recarregandoPagina = true;
+        desativarSentinelaFoco();
+        salvarSnapshotSimulado();
     }
+}
+
+window.addEventListener('keydown', function(e) {
+    if (e.key === 'F5' || (e.key === 'r' && (e.ctrlKey || e.metaKey))) {
+        prepararReloadSeguro();
+    }
+});
+
+window.addEventListener('beforeunload', function(e) {
+    prepararReloadSeguro();
+});
+
+window.addEventListener('pagehide', function(e) {
+    prepararReloadSeguro();
 });
 
 // Delegação global de eventos para interações de alternativas no Modo Simulado
@@ -2575,6 +2918,57 @@ function mudarItensPorPagina(qtd) {
     paginaAtual = 1;
     aplicarFiltroEPaginacao(true);
 }
+
+// Controle do Seletor Customizado de Itens por Página (Dropdown Arredondado com Animação)
+function toggleCustomSelectItens() {
+    const container = document.getElementById('custom-select-itens-wrap');
+    const trigger = document.getElementById('custom-select-trigger');
+    if (!container) return;
+    const isOpen = container.classList.toggle('open');
+    if (trigger) {
+        trigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+}
+
+function selecionarOpcaoItens(valor, rotulo) {
+    const container = document.getElementById('custom-select-itens-wrap');
+    const labelSpan = document.getElementById('custom-select-label');
+    const trigger = document.getElementById('custom-select-trigger');
+    const hiddenSelect = document.getElementById('select-itens-por-pagina');
+
+    if (labelSpan) labelSpan.textContent = rotulo;
+    if (hiddenSelect) hiddenSelect.value = valor;
+
+    // Atualiza classe 'selected' nas opções
+    if (container) {
+        container.querySelectorAll('.custom-select-option').forEach(opt => {
+            if (opt.getAttribute('data-value') === valor) {
+                opt.classList.add('selected');
+            } else {
+                opt.classList.remove('selected');
+            }
+        });
+        container.classList.remove('open');
+    }
+
+    if (trigger) {
+        trigger.setAttribute('aria-expanded', 'false');
+    }
+
+    mudarItensPorPagina(valor);
+}
+
+// Fechar dropdown de itens ao clicar fora
+document.addEventListener('click', (e) => {
+    const container = document.getElementById('custom-select-itens-wrap');
+    if (container && container.classList.contains('open')) {
+        if (!container.contains(e.target)) {
+            container.classList.remove('open');
+            const trigger = document.getElementById('custom-select-trigger');
+            if (trigger) trigger.setAttribute('aria-expanded', 'false');
+        }
+    }
+});
 
 // ========================================================
 // Modal de Confirmação para Limpar Respostas
@@ -3740,6 +4134,7 @@ function resetarZoomImagem(silencioso = false) {
 }
 
 function abrirZoomImagem(src, caption) {
+    marcarInteracaoInternaSegura(true);
     const overlay = document.getElementById('image-zoom-overlay');
     const zoomImg = document.getElementById('image-zoom-img');
     const zoomCaption = document.getElementById('image-zoom-caption');
@@ -3788,6 +4183,7 @@ function fecharZoomImagem(e) {
         viewport.classList.remove('container-expandido');
     }
     document.body.style.overflow = '';
+    setTimeout(() => marcarInteracaoInternaSegura(false), 300);
 }
 
 // Configura eventos de interação rica com o Zoom (Wheel, Drag/Pan, Touch e Duplo Clique)

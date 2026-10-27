@@ -24,6 +24,21 @@
         })();
     </script>
 
+    <!-- Anti-Flash de Restauração de Sessão do Simulado -->
+    <script>
+        (function () {
+            try {
+                const raw = sessionStorage.getItem('caderno_simulado_ativo_snapshot') || localStorage.getItem('caderno_simulado_ativo_snapshot');
+                if (raw) {
+                    const snap = JSON.parse(raw);
+                    if (snap && snap.status && (snap.status === 'em_andamento' || snap.status === 'finalizado' || snap.status === 'desclassificado')) {
+                        document.documentElement.classList.add('simulado-sessao-ativa');
+                    }
+                }
+            } catch (e) { }
+        })();
+    </script>
+
     <!-- Google tag (gtag.js) - Google Analytics 4 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BBHG2JMQW2"></script>
     <script>
@@ -149,8 +164,34 @@
                 </div>
 
                 <div class="paginacao-qtd-select-wrap">
-                    <label for="select-itens-por-pagina">Exibir:</label>
-                    <select id="select-itens-por-pagina" class="paginacao-select" onchange="mudarItensPorPagina(this.value)">
+                    <span class="paginacao-qtd-label">Exibir:</span>
+                    <div class="custom-select-container" id="custom-select-itens-wrap">
+                        <button type="button" class="custom-select-trigger" id="custom-select-trigger" aria-haspopup="listbox" aria-expanded="false" onclick="toggleCustomSelectItens()">
+                            <span id="custom-select-label">25 por página</span>
+                            <svg class="custom-select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                        </button>
+                        <div class="custom-select-dropdown" id="custom-select-dropdown" role="listbox">
+                            <button type="button" class="custom-select-option selected" data-value="25" onclick="selecionarOpcaoItens('25', '25 por página')">
+                                <span>25 por página</span>
+                                <svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </button>
+                            <button type="button" class="custom-select-option" data-value="50" onclick="selecionarOpcaoItens('50', '50 por página')">
+                                <span>50 por página</span>
+                                <svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </button>
+                            <button type="button" class="custom-select-option" data-value="100" onclick="selecionarOpcaoItens('100', '100 por página')">
+                                <span>100 por página</span>
+                                <svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </button>
+                            <button type="button" class="custom-select-option" data-value="all" onclick="selecionarOpcaoItens('all', 'Todas')">
+                                <span>Todas</span>
+                                <svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <select id="select-itens-por-pagina" class="paginacao-select-hidden" style="display: none;" onchange="mudarItensPorPagina(this.value)">
                         <option value="25" selected>25 por página</option>
                         <option value="50">50 por página</option>
                         <option value="100">100 por página</option>
@@ -413,6 +454,13 @@
                                 <polyline points="10 9 9 9 8 9"></polyline>
                             </svg>
                             <span id="simulado-progresso-texto">0 de 20 respondidas (0%)</span>
+                        </span>
+                        <span class="simulado-meta-divider" id="simulado-anticola-divider">•</span>
+                        <span class="simulado-meta-item simulado-meta-anticola" id="simulado-anticola-badge" title="Sentinela Anti-Cola: Tolerância Zero para troca de aba ou saída de tela">
+                            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                            <span id="simulado-anticola-texto">Anti-Cola Ativo (Tolerância Zero)</span>
                         </span>
                     </div>
                 </div>
@@ -925,6 +973,77 @@
                         <span>Fazer Novo Simulado</span>
                     </button>
                 </div>
+                <button type="button" class="btn-resultado-caderno" onclick="retornarAoCadernoNormal()">
+                    <span>Voltar ao Caderno</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Desclassificação por Perda de Foco (Sentinela Anti-Cola Tolerância Zero) -->
+    <div class="confirm-modal-overlay desclassificado-simulado-modal-overlay" id="simulado-desclassificado-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-desclassificado-titulo">
+        <div class="confirm-modal-card desclassificado-modal-card" onclick="event.stopPropagation()">
+            <div class="desclassificado-modal-header">
+                <div class="desclassificado-header-icon-wrap">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                        <line x1="12" y1="9" x2="12" y2="13"></line>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                </div>
+                <h3 class="desclassificado-modal-title" id="modal-desclassificado-titulo">Prova Desclassificada!</h3>
+                <p class="desclassificado-modal-sub">Quebra de foco detectada durante a realização do simulado</p>
+            </div>
+
+            <div class="desclassificado-modal-body">
+                <div class="desclassificado-motivo-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 1px;">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="15" y1="9" x2="9" y2="15"></line>
+                        <line x1="9" y1="9" x2="15" y2="15"></line>
+                    </svg>
+                    <div>
+                        <strong>Regulamento de Tolerância Zero:</strong><br>
+                        Detectamos que a janela ou aba da prova perdeu o foco (mudança de aba ou aplicativo externo). Para garantir a integridade da avaliação oficial, o simulado foi anulado imediatamente.
+                    </div>
+                </div>
+
+                <!-- Métricas Parciais -->
+                <div class="resultado-grid-metricas desclassificado-metricas">
+                    <div class="resultado-metrica-card">
+                        <span class="resultado-metrica-rotulo">Tempo Até Bloqueio</span>
+                        <span class="resultado-metrica-num" id="desclassificado-tempo-gasto">00:00</span>
+                    </div>
+                    <div class="resultado-metrica-card">
+                        <span class="resultado-metrica-rotulo">Preenchidas</span>
+                        <span class="resultado-metrica-num" id="desclassificado-total-respondidas">0</span>
+                    </div>
+                    <div class="resultado-metrica-card">
+                        <span class="resultado-metrica-rotulo">Acertos Parciais</span>
+                        <span class="resultado-metrica-num text-emerald" id="desclassificado-total-acertos">0</span>
+                    </div>
+                    <div class="resultado-metrica-card">
+                        <span class="resultado-metrica-rotulo">Erros / Pendentes</span>
+                        <span class="resultado-metrica-num text-red" id="desclassificado-total-erros">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resultado-modal-footer">
+                <button type="button" class="btn-resultado-revisar" onclick="liberarModoRevisaoDesclassificado()">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                    </svg>
+                    <span>Revisar Questões Realizadas</span>
+                </button>
+                <button type="button" class="btn-resultado-novo" onclick="iniciarNovoSimuladoSetup()">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="23 4 23 10 17 10"></polyline>
+                        <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                    </svg>
+                    <span>Fazer Novo Simulado</span>
+                </button>
                 <button type="button" class="btn-resultado-caderno" onclick="retornarAoCadernoNormal()">
                     <span>Voltar ao Caderno</span>
                 </button>
