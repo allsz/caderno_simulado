@@ -832,6 +832,16 @@ function renderizarTelaSimuladoAtivo(isRestauracao = false) {
         examBadge.style.color = '';
     }
 
+    const badgeAnticola = document.getElementById('simulado-anticola-badge');
+    const textoAnticola = document.getElementById('simulado-anticola-texto');
+    if (badgeAnticola) {
+        badgeAnticola.classList.remove('violacao');
+        badgeAnticola.title = 'Sentinela Anti-Cola: Tolerância Zero para troca de aba ou saída de tela';
+    }
+    if (textoAnticola) {
+        textoAnticola.textContent = 'Anti-Cola Ativo (Tolerância Zero)';
+    }
+
     const countdownBox = document.getElementById('simulado-countdown-box');
     if (countdownBox) countdownBox.classList.remove('urgente');
 
@@ -874,7 +884,14 @@ function renderizarTelaSimuladoAtivo(isRestauracao = false) {
     // 6. Iniciar o relógio cronometrado regressivo (Countdown)
     iniciarTimerSimulado();
 
-    // 7. Scroll suave para o topo do simulado
+    // 7. Ativar a Sentinela Anti-Cola & Foco se a prova estiver em andamento
+    if (window.simuladoAtivo.status === 'em_andamento') {
+        ativarSentinelaFoco();
+    } else {
+        desativarSentinelaFoco();
+    }
+
+    // 8. Scroll suave para o topo do simulado
     if (!isRestauracao) {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
@@ -1005,11 +1022,15 @@ function verificarRestauracaoSimulado() {
             console.log(`[Modo Simulado] Restaurando simulado em andamento (${Object.keys(snapshot.respostas || {}).length}/${snapshot.totalQuestoes} respondidas)...`);
             window.simuladoAtivo = snapshot;
             renderizarTelaSimuladoAtivo(true);
-        } else if (snapshot && snapshot.status === 'finalizado' && Array.isArray(snapshot.questoes) && snapshot.questoes.length > 0) {
-            console.log(`[Modo Simulado] Restaurando simulado finalizado para revisão...`);
+        } else if (snapshot && (snapshot.status === 'finalizado' || snapshot.status === 'desclassificado') && Array.isArray(snapshot.questoes) && snapshot.questoes.length > 0) {
+            console.log(`[Modo Simulado] Restaurando simulado ${snapshot.status} para revisão...`);
             window.simuladoAtivo = snapshot;
             renderizarTelaSimuladoAtivo(true);
-            aplicarEstadoFinalizadoUI();
+            if (snapshot.status === 'desclassificado') {
+                aplicarEstadoDesclassificadoUI();
+            } else {
+                aplicarEstadoFinalizadoUI();
+            }
         }
     } catch (e) {
         console.warn('[Modo Simulado] Falha ao restaurar sessão de simulado ativo:', e);
@@ -1018,6 +1039,7 @@ function verificarRestauracaoSimulado() {
 
 // Modal de Confirmação para Abandono do Simulado
 function abrirConfirmAbandonarModal() {
+    marcarInteracaoInternaSegura(true);
     const modal = document.getElementById('confirm-abandonar-simulado-modal-overlay');
     if (modal) {
         modal.classList.add('active');
@@ -1032,11 +1054,13 @@ function fecharConfirmAbandonarModal(e) {
             modal.classList.remove('active');
             document.body.style.overflow = '';
         }
+        setTimeout(() => marcarInteracaoInternaSegura(false), 300);
     }
 }
 
 function executarAbandonarSimulado() {
     fecharConfirmAbandonarModal();
+    desativarSentinelaFoco();
     pararTimerSimulado();
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
@@ -1088,6 +1112,7 @@ function executarAbandonarSimulado() {
 
 function abrirModalEntregaSimulado() {
     if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
+    marcarInteracaoInternaSegura(true);
 
     const total = window.simuladoAtivo.totalQuestoes || (window.simuladoAtivo.questoes ? window.simuladoAtivo.questoes.length : 0);
     const respondidasKeys = Object.keys(window.simuladoAtivo.respostas || {}).filter(k => Boolean(window.simuladoAtivo.respostas[k]));
@@ -1169,6 +1194,7 @@ function fecharModalEntregaSimulado(e) {
             modal.classList.remove('active');
             document.body.style.overflow = '';
         }
+        setTimeout(() => marcarInteracaoInternaSegura(false), 300);
     }
 }
 
@@ -1228,6 +1254,7 @@ function executarEntregaSimulado(porTempo = false) {
 
     if (!window.simuladoAtivo) return;
 
+    desativarSentinelaFoco();
     pararTimerSimulado();
 
     const fimTimestamp = Date.now();
@@ -1301,6 +1328,8 @@ function executarEntregaSimulado(porTempo = false) {
 function aplicarEstadoFinalizadoUI() {
     if (!window.simuladoAtivo) return;
 
+    desativarSentinelaFoco();
+
     // 1. Atualiza badge
     const badgeTexto = document.getElementById('simulado-status-texto');
     const dot = document.querySelector('.simulado-exam-dot');
@@ -1313,6 +1342,17 @@ function aplicarEstadoFinalizadoUI() {
         examBadge.style.borderColor = 'transparent';
         examBadge.style.padding = '0';
         examBadge.style.color = 'var(--text-muted)';
+    }
+
+    // Atualiza status do badge Anti-Cola no cabeçalho
+    const badgeAnticola = document.getElementById('simulado-anticola-badge');
+    const textoAnticola = document.getElementById('simulado-anticola-texto');
+    if (badgeAnticola) {
+        badgeAnticola.classList.remove('violacao');
+        badgeAnticola.title = 'Simulado finalizado sem infrações de tela';
+    }
+    if (textoAnticola) {
+        textoAnticola.textContent = 'Anti-Cola: Concluído';
     }
 
     // 2. Atualiza Timer
@@ -1349,7 +1389,12 @@ function aplicarEstadoFinalizadoUI() {
 }
 
 function abrirModalResultadoSimulado() {
-    if (!window.simuladoAtivo || !window.simuladoAtivo.resultado) return;
+    if (!window.simuladoAtivo) return;
+    if (window.simuladoAtivo.status === 'desclassificado') {
+        abrirModalDesclassificado();
+        return;
+    }
+    if (!window.simuladoAtivo.resultado) return;
 
     const res = window.simuladoAtivo.resultado;
     const total = res.total;
@@ -1510,10 +1555,273 @@ function toggleRespostaSimulado(qId) {
     }
 }
 
+// ========================================================
+// Módulo 4: Monitor Anti-Cola & Sentinela de Foco (Tolerância Zero)
+// ========================================================
+
+let sentinelaFocoAtiva = false;
+let sentinelaBlurTimeout = null;
+window._interacaoInternaSegura = false;
+
+function marcarInteracaoInternaSegura(ativa = true) {
+    window._interacaoInternaSegura = Boolean(ativa);
+}
+
+function dispararVerificacaoPerdaFoco(origem) {
+    if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
+    if (window._interacaoInternaSegura) {
+        console.log(`[Sentinela Anti-Cola] Evento '${origem}' ignorado por ser interação interna segura.`);
+        return;
+    }
+
+    console.warn(`[Sentinela Anti-Cola] Evento de perda de foco detectado via: ${origem}`);
+
+    if (sentinelaBlurTimeout) {
+        clearTimeout(sentinelaBlurTimeout);
+        sentinelaBlurTimeout = null;
+    }
+
+    if (origem === 'visibilitychange' && document.visibilityState === 'hidden') {
+        // Troca imediata de aba ou minimização comprovada
+        executarDesclassificacaoSimulado();
+        return;
+    }
+
+    // Buffer de 250ms para descarte de micro-perdas acidentais de foco
+    sentinelaBlurTimeout = setTimeout(() => {
+        if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
+        if (window._interacaoInternaSegura) return;
+
+        const perdeuFoco = !document.hasFocus() || document.visibilityState === 'hidden';
+        if (perdeuFoco) {
+            executarDesclassificacaoSimulado();
+        }
+    }, 250);
+}
+
+function handleSentinelaVisibilityChange() {
+    if (document.visibilityState === 'hidden') {
+        dispararVerificacaoPerdaFoco('visibilitychange');
+    }
+}
+
+function handleSentinelaWindowBlur() {
+    dispararVerificacaoPerdaFoco('blur');
+}
+
+function handleSentinelaWindowFocus() {
+    if (sentinelaBlurTimeout) {
+        clearTimeout(sentinelaBlurTimeout);
+        sentinelaBlurTimeout = null;
+    }
+}
+
+function ativarSentinelaFoco() {
+    if (sentinelaFocoAtiva) return;
+    sentinelaFocoAtiva = true;
+    window._interacaoInternaSegura = false;
+
+    document.addEventListener('visibilitychange', handleSentinelaVisibilityChange);
+    window.addEventListener('blur', handleSentinelaWindowBlur);
+    window.addEventListener('focus', handleSentinelaWindowFocus);
+    console.log('[Sentinela Anti-Cola] Monitoramento de foco ativado com Tolerância Zero.');
+}
+
+function desativarSentinelaFoco() {
+    if (!sentinelaFocoAtiva) return;
+    sentinelaFocoAtiva = false;
+    if (sentinelaBlurTimeout) {
+        clearTimeout(sentinelaBlurTimeout);
+        sentinelaBlurTimeout = null;
+    }
+    document.removeEventListener('visibilitychange', handleSentinelaVisibilityChange);
+    window.removeEventListener('blur', handleSentinelaWindowBlur);
+    window.removeEventListener('focus', handleSentinelaWindowFocus);
+    console.log('[Sentinela Anti-Cola] Monitoramento de foco desativado.');
+}
+
+function executarDesclassificacaoSimulado() {
+    if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') return;
+
+    pararTimerSimulado();
+    desativarSentinelaFoco();
+
+    fecharModalEntregaSimulado();
+    fecharConfirmAbandonarModal();
+    fecharZoomImagem();
+
+    const fimTimestamp = Date.now();
+    const tempoGasto = Math.floor((fimTimestamp - (window.simuladoAtivo.inicioTimestamp || fimTimestamp)) / 1000);
+
+    window.simuladoAtivo.status = 'desclassificado';
+    window.simuladoAtivo.motivoDesclassificacao = 'perda_de_foco';
+    window.simuladoAtivo.fimTimestamp = fimTimestamp;
+    window.simuladoAtivo.tempoGastoSegundos = tempoGasto;
+
+    // Apuração dos acertos e erros parciais até o momento do bloqueio
+    const total = window.simuladoAtivo.totalQuestoes;
+    let acertos = 0;
+    let erros = 0;
+    let emBranco = 0;
+    const detalhes = {};
+
+    window.simuladoAtivo.questoes.forEach(qId => {
+        const respDada = window.simuladoAtivo.respostas ? window.simuladoAtivo.respostas[qId] : null;
+        const cardOriginal = document.getElementById('card_' + qId);
+        let gabarito = null;
+
+        if (cardOriginal) {
+            const radio = cardOriginal.querySelector('input[type="radio"]');
+            if (radio) {
+                gabarito = radio.getAttribute('data-gabarito');
+            }
+        }
+
+        if (gabarito === 'ANULADA') {
+            acertos++;
+            detalhes[qId] = { resposta: respDada, gabarito, resultado: 'anulada', correta: true };
+        } else if (!respDada) {
+            emBranco++;
+            erros++;
+            detalhes[qId] = { resposta: null, gabarito, resultado: 'em_branco', correta: false };
+        } else if (gabarito && respDada === gabarito) {
+            acertos++;
+            detalhes[qId] = { resposta: respDada, gabarito, resultado: 'correta', correta: true };
+        } else {
+            erros++;
+            detalhes[qId] = { resposta: respDada, gabarito, resultado: 'incorreta', correta: false };
+        }
+    });
+
+    const taxa = total > 0 ? Math.round((acertos / total) * 100) : 0;
+    window.simuladoAtivo.resultado = {
+        total,
+        acertos,
+        erros,
+        emBranco,
+        taxa,
+        detalhes
+    };
+
+    // Na desclassificação por quebra de regulamento, nenhuma questão é migrada
+    window.simuladoAtivo.questoesMigradasParaCaderno = 0;
+
+    salvarSnapshotSimulado();
+    aplicarEstadoDesclassificadoUI();
+
+    console.warn(`[Sentinela Anti-Cola] Prova DESCLASSIFICADA por perda de foco. Acertos parciais: ${acertos}/${total}.`);
+    abrirModalDesclassificado();
+}
+
+function aplicarEstadoDesclassificadoUI() {
+    if (!window.simuladoAtivo) return;
+
+    desativarSentinelaFoco();
+
+    // 1. Atualiza badge de status principal
+    const badgeTexto = document.getElementById('simulado-status-texto');
+    const dot = document.querySelector('.simulado-exam-dot');
+    const examBadge = document.querySelector('.simulado-exam-badge');
+    if (badgeTexto) badgeTexto.textContent = 'Prova Desclassificada';
+    if (dot) dot.style.display = 'none';
+    if (examBadge) {
+        examBadge.style.background = 'transparent';
+        examBadge.style.border = 'none';
+        examBadge.style.borderColor = 'transparent';
+        examBadge.style.padding = '0';
+        examBadge.style.color = '#ef4444';
+    }
+
+    // 2. Atualiza badge Anti-Cola no cabeçalho
+    const badgeAnticola = document.getElementById('simulado-anticola-badge');
+    const textoAnticola = document.getElementById('simulado-anticola-texto');
+    if (badgeAnticola) {
+        badgeAnticola.classList.add('violacao');
+        badgeAnticola.title = 'Prova anulada: Saída de tela ou troca de aba detectada';
+    }
+    if (textoAnticola) {
+        textoAnticola.textContent = 'Violação de Foco (Anulada)';
+    }
+
+    // 3. Atualiza Timer
+    const labelTimer = document.getElementById('simulado-countdown-label');
+    const timerDisplay = document.getElementById('simulado-timer-display');
+    const countdownBox = document.getElementById('simulado-countdown-box');
+    if (labelTimer) labelTimer.textContent = 'TEMPO DE PROVA';
+    if (timerDisplay) timerDisplay.textContent = formatarTempoTimer(window.simuladoAtivo.tempoGastoSegundos || 0);
+    if (countdownBox) countdownBox.classList.remove('urgente');
+
+    // 4. Atualiza botões
+    const btnEntregar = document.getElementById('btn-entregar-simulado');
+    if (btnEntregar) btnEntregar.style.display = 'none';
+    const btnEntregarBottom = document.getElementById('btn-entregar-bottom');
+    if (btnEntregarBottom) btnEntregarBottom.style.display = 'none';
+
+    const btnVerRes = document.getElementById('btn-ver-resultado-simulado');
+    if (btnVerRes) btnVerRes.style.display = 'inline-flex';
+    const btnVerResBottom = document.getElementById('btn-ver-resultado-bottom');
+    if (btnVerResBottom) btnVerResBottom.style.display = 'inline-flex';
+
+    const btnNovo = document.getElementById('btn-novo-simulado-header');
+    if (btnNovo) btnNovo.style.display = 'inline-flex';
+    const btnNovoBottom = document.getElementById('btn-novo-simulado-bottom');
+    if (btnNovoBottom) btnNovoBottom.style.display = 'inline-flex';
+
+    const btnCancelar = document.getElementById('btn-cancelar-simulado');
+    if (btnCancelar) {
+        btnCancelar.style.display = 'inline-flex';
+        btnCancelar.title = 'Sair do simulado e retornar ao modo de estudos';
+        const span = btnCancelar.querySelector('span');
+        if (span) span.textContent = 'Voltar ao Caderno';
+    }
+}
+
+function abrirModalDesclassificado() {
+    if (!window.simuladoAtivo) return;
+
+    const res = window.simuladoAtivo.resultado || {};
+    const total = window.simuladoAtivo.totalQuestoes || 0;
+    const acertos = res.acertos || 0;
+    const erros = res.erros || 0;
+    const respondidas = Object.keys(window.simuladoAtivo.respostas || {}).length;
+    const tempoGasto = window.simuladoAtivo.tempoGastoSegundos || 0;
+
+    const elTempo = document.getElementById('desclassificado-tempo-gasto');
+    const elResp = document.getElementById('desclassificado-total-respondidas');
+    const elAcertos = document.getElementById('desclassificado-total-acertos');
+    const elErros = document.getElementById('desclassificado-total-erros');
+
+    if (elTempo) elTempo.textContent = formatarTempoTimer(tempoGasto);
+    if (elResp) elResp.textContent = `${respondidas} de ${total}`;
+    if (elAcertos) elAcertos.textContent = acertos;
+    if (elErros) elErros.textContent = erros;
+
+    const modal = document.getElementById('simulado-desclassificado-modal-overlay');
+    if (modal) {
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+}
+
+function fecharModalDesclassificado() {
+    const modal = document.getElementById('simulado-desclassificado-modal-overlay');
+    if (modal) {
+        modal.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}
+
+function liberarModoRevisaoDesclassificado() {
+    fecharModalDesclassificado();
+    liberarModoRevisaoSimulado();
+}
+
 function iniciarNovoSimuladoSetup() {
+    fecharModalDesclassificado();
     fecharModalResultadoSimulado();
     fecharModalEntregaSimulado();
     fecharConfirmAbandonarModal();
+    desativarSentinelaFoco();
     pararTimerSimulado();
 
     // Limpa a sessão
@@ -1554,9 +1862,11 @@ function iniciarNovoSimuladoSetup() {
 }
 
 function retornarAoCadernoNormal() {
+    fecharModalDesclassificado();
     fecharModalResultadoSimulado();
     fecharModalEntregaSimulado();
     fecharConfirmAbandonarModal();
+    desativarSentinelaFoco();
     pararTimerSimulado();
 
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
@@ -3740,6 +4050,7 @@ function resetarZoomImagem(silencioso = false) {
 }
 
 function abrirZoomImagem(src, caption) {
+    marcarInteracaoInternaSegura(true);
     const overlay = document.getElementById('image-zoom-overlay');
     const zoomImg = document.getElementById('image-zoom-img');
     const zoomCaption = document.getElementById('image-zoom-caption');
@@ -3788,6 +4099,7 @@ function fecharZoomImagem(e) {
         viewport.classList.remove('container-expandido');
     }
     document.body.style.overflow = '';
+    setTimeout(() => marcarInteracaoInternaSegura(false), 300);
 }
 
 // Configura eventos de interação rica com o Zoom (Wheel, Drag/Pan, Touch e Duplo Clique)

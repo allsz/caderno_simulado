@@ -2974,11 +2974,66 @@ h1 {
 }
 
 .simulado-termo-label input[type='checkbox'] {
-    width: 18px;
-    height: 18px;
-    accent-color: var(--primary);
+    appearance: none;
+    -webkit-appearance: none;
+    width: 22px;
+    height: 22px;
+    border: 2px solid #94a3b8;
+    border-radius: 6px;
+    background-color: var(--card-bg);
     cursor: pointer;
     flex-shrink: 0;
+    margin: 0;
+    display: inline-grid;
+    place-content: center;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    outline: none;
+}
+
+.simulado-termo-label input[type='checkbox']::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    clip-path: polygon(14% 44%, 0 60%, 38% 98%, 100% 20%, 82% 8%, 38% 66%);
+    transform: scale(0);
+    transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: #ffffff;
+}
+
+.simulado-termo-label input[type='checkbox']:hover {
+    border-color: #0284c7;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.12);
+}
+
+.simulado-termo-label input[type='checkbox']:checked {
+    background-color: #0284c7;
+    border-color: #0284c7;
+    box-shadow: 0 2px 6px rgba(2, 132, 199, 0.35);
+}
+
+.simulado-termo-label input[type='checkbox']:checked::before {
+    transform: scale(1);
+}
+
+.simulado-termo-label input[type='checkbox']:focus-visible {
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.35);
+}
+
+[data-theme='dark'] .simulado-termo-label input[type='checkbox'] {
+    border-color: #64748b;
+    background-color: #1e293b;
+}
+
+[data-theme='dark'] .simulado-termo-label input[type='checkbox']:hover {
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+}
+
+[data-theme='dark'] .simulado-termo-label input[type='checkbox']:checked {
+    background-color: #0284c7;
+    border-color: #0284c7;
+    box-shadow: 0 2px 8px rgba(2, 132, 199, 0.45);
 }
 
 .simulado-termo-text {
@@ -3153,6 +3208,23 @@ h1 {
 
 [data-theme='dark'] #simulado-progresso-texto {
     color: #93c5fd;
+}
+
+.simulado-meta-anticola {
+    font-weight: 600;
+    color: #059669;
+}
+
+[data-theme='dark'] .simulado-meta-anticola {
+    color: #34d399;
+}
+
+.simulado-meta-anticola.violacao {
+    color: #ef4444 !important;
+}
+
+[data-theme='dark'] .simulado-meta-anticola.violacao {
+    color: #f87171 !important;
 }
 
 .simulado-exam-actions {
@@ -3991,6 +4063,92 @@ h1 {
 .btn-resultado-caderno:hover {
     background: var(--alt-bg);
     color: var(--text-main);
+}
+
+/* Modal de Desclassificação por Perda de Foco (Sentinela Anti-Cola) */
+.desclassificado-simulado-modal-overlay {
+    z-index: 10000;
+}
+
+.desclassificado-modal-card {
+    max-width: 520px;
+    width: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.desclassificado-modal-header {
+    background: linear-gradient(135deg, #7f1d1d 0%, #991b1b 100%);
+    color: #ffffff;
+    padding: 26px 24px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.desclassificado-header-icon-wrap {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fee2e2;
+    margin-bottom: 2px;
+}
+
+.desclassificado-modal-title {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0;
+    color: #ffffff;
+    letter-spacing: -0.01em;
+}
+
+.desclassificado-modal-sub {
+    font-size: 13.5px;
+    color: rgba(254, 226, 226, 0.9);
+    margin: 0;
+    line-height: 1.4;
+    max-width: 420px;
+}
+
+.desclassificado-modal-body {
+    padding: 20px 24px 0;
+}
+
+.desclassificado-motivo-box {
+    background: rgba(239, 68, 68, 0.08);
+    border: 1px solid rgba(239, 68, 68, 0.28);
+    border-radius: 12px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #991b1b;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+[data-theme='dark'] .desclassificado-motivo-box {
+    background: rgba(239, 68, 68, 0.15);
+    border-color: rgba(248, 113, 113, 0.35);
+    color: #fca5a5;
+}
+
+.desclassificado-motivo-box strong {
+    color: #7f1d1d;
+    font-weight: 700;
+}
+
+[data-theme='dark'] .desclassificado-motivo-box strong {
+    color: #fecaca;
 }
 
 @media (max-width: 768px) {
