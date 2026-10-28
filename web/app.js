@@ -1143,11 +1143,11 @@ function abrirModalEntregaSimulado() {
         if (feedbackBox) {
             feedbackBox.className = 'entrega-feedback-box feedback-sucesso';
             feedbackBox.innerHTML = `
-                <div style="display: flex; align-items: flex-start; gap: 10px;">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 1px;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <div style="display: flex; align-items: flex-start; gap: 12px;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1e6b5c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 2px;"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
                     <div>
-                        <strong>Excelente! Todas as ${total} questões foram respondidas.</strong><br>
-                        Pronto para finalizar sua prova? Ao confirmar a entrega, o cronômetro será encerrado e o gabarito oficial apurado.
+                        <div class="feedback-alerta-titulo" style="color: #065f46;">Todas as ${total} questões foram respondidas</div>
+                        <div class="feedback-alerta-desc">Pronto para entregar sua prova? Ao confirmar a entrega, o cronômetro será finalizado e o gabarito oficial apurado.</div>
                     </div>
                 </div>
             `;
@@ -1158,11 +1158,11 @@ function abrirModalEntregaSimulado() {
         if (feedbackBox) {
             feedbackBox.className = 'entrega-feedback-box feedback-alerta';
             feedbackBox.innerHTML = `
-                <div style="display: flex; align-items: flex-start; gap: 10px;">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 1px;"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                <div style="display: flex; align-items: flex-start; gap: 12px;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 2px;"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
                     <div>
-                        <strong>Atenção: você possui ${emBranco} questão(ões) em branco.</strong><br>
-                        Questões não respondidas serão computadas como erro na apuração final. Você pode clicar nas questões pendentes abaixo para respondê-las ou confirmar a entrega agora.
+                        <div class="feedback-alerta-titulo">Você tem ${emBranco} ${emBranco === 1 ? 'questão em branco' : 'questões em branco'}</div>
+                        <div class="feedback-alerta-desc">Questões não respondidas serão contadas como erro. Você pode respondê-las agora ou confirmar a entrega.</div>
                     </div>
                 </div>
             `;
@@ -1179,7 +1179,7 @@ function abrirModalEntregaSimulado() {
                     btn.className = 'pill-questao-pendente';
                     btn.setAttribute('title', `Ir diretamente para a Questão ${idx + 1}`);
                     btn.innerHTML = `
-                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+                        <span class="pill-radio-dot"></span>
                         <span>Questão ${idx + 1}</span>
                     `;
                     btn.onclick = () => irParaQuestaoSimulado(qId);
@@ -1425,30 +1425,36 @@ function abrirModalResultadoSimulado() {
     const boxRegra = document.getElementById('resultado-regra-ouro-box');
     const txtRegra = document.getElementById('resultado-regra-ouro-texto');
 
+    const barFill = document.getElementById('resultado-progress-bar');
+    const helperBranco = document.getElementById('resultado-branco-helper-text');
+
     if (elTaxa) elTaxa.textContent = taxa + '%';
     if (elSub) elSub.textContent = `${acertos} de ${total} questões acertadas`;
     if (elTempo) elTempo.textContent = formatarTempoTimer(tempoGasto);
     if (elAcertos) elAcertos.textContent = acertos;
     if (elErros) elErros.textContent = erros;
     if (elBranco) elBranco.textContent = emBranco;
+    if (barFill) barFill.style.width = Math.min(100, Math.max(0, taxa)) + '%';
+
+    if (helperBranco) {
+        if (emBranco > 0) {
+            helperBranco.textContent = `As ${emBranco} ${emBranco === 1 ? 'questão em branco está incluída' : 'questões em branco estão incluídas'} nos ${erros} erros.`;
+            helperBranco.style.display = 'block';
+        } else {
+            helperBranco.textContent = `Todas as ${total} questões foram contabilizadas no seu resultado.`;
+            helperBranco.style.display = 'block';
+        }
+    }
 
     if (elTitulo && elSubTitulo) {
-        if (taxa >= 80) {
-            elTitulo.textContent = 'Desempenho Impecável!';
-            elSubTitulo.textContent = 'Parabéns! Seu rendimento está excelente para as provas de residência médica.';
-        } else if (taxa >= 60) {
-            elTitulo.textContent = 'Bom Desempenho!';
-            elSubTitulo.textContent = 'Você teve um bom aproveitamento. Revise os pontos onde errou para lapidar ainda mais.';
-        } else {
-            elTitulo.textContent = 'Simulado Concluído!';
-            elSubTitulo.textContent = 'Excelente oportunidade de aprendizado! Utilize o modo revisão com IA para fixar os conteúdos.';
-        }
+        elTitulo.textContent = 'Simulado concluído';
+        elSubTitulo.textContent = 'Cada tentativa é uma oportunidade de aprender. Revise os comentários com IA para fixar os conteúdos.';
     }
 
     if (boxRegra && txtRegra) {
         if (novasQuestoes > 0) {
             boxRegra.style.display = 'flex';
-            txtRegra.innerHTML = `<strong>Regra de Ouro:</strong> ${novasQuestoes} nova(s) questão(ões) foram automaticamente adicionadas ao seu progresso no modo normal!`;
+            txtRegra.innerHTML = `<strong>Progresso:</strong> ${novasQuestoes} nova(s) questão(ões) foram automaticamente adicionadas ao seu progresso no modo normal!`;
         } else {
             boxRegra.style.display = 'none';
         }
@@ -3062,7 +3068,7 @@ function abrirApoioModal() {
 }
 
 function fecharApoioModal(e) {
-    if (!e || e.target.id === 'apoio-modal-overlay' || e.target.closest('.kofi-modal-close') || e.target.closest('.btn-aviso-ok')) {
+    if (!e || e.target.id === 'apoio-modal-overlay' || e.target.closest('.kofi-modal-close') || e.target.closest('.modal-close-btn') || e.target.closest('.btn-aviso-ok') || e.target.closest('.btn-modal-secondary')) {
         const modal = document.getElementById('apoio-modal-overlay');
         if (modal) {
             modal.classList.remove('active');

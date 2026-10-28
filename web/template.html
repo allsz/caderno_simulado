@@ -159,7 +159,7 @@
                             <circle cx="12" cy="12" r="10"></circle>
                             <polyline points="12 6 12 12 16 14"></polyline>
                         </svg>
-                        Modo Simulado Real
+                        Modo Simulado
                     </button>
                 </div>
 
@@ -279,7 +279,7 @@
                 <div class="simulado-setup-card">
                     <div class="simulado-setup-header">
                         <div class="simulado-setup-header-text">
-                            <h2 class="simulado-setup-title">Simulado Real Cronometrado</h2>
+                            <h2 class="simulado-setup-title">Simulado Real</h2>
                             <p class="simulado-setup-desc">Treine sob condições de prova com seleção aleatória, contagem regressiva e ambiente anti-distração.</p>
                         </div>
                     </div>
@@ -419,7 +419,7 @@
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                                 <polygon points="5 3 19 12 5 21 5 3"></polygon>
                             </svg>
-                            <span>Iniciar Simulado Cronometrado</span>
+                            <span>Iniciar Simulado</span>
                         </button>
                     </div>
                 </div>
@@ -586,7 +586,6 @@
                     </svg>
                     Resumo Geral de Desempenho
                 </div>
-                <div class="stats-panel-subtitle">Atualizado em tempo real com base nas suas respostas</div>
             </div>
             <div class="stats-grid">
                 <div class="stat-card stat-card-acertos">
@@ -612,7 +611,7 @@
                     </div>
                     <div class="stat-info">
                         <span class="stat-value" id="stat-erros">0</span>
-                        <span class="stat-label">Erros <span class="stat-card-badge stat-card-badge-erros">Revisar ↗</span></span>
+                        <span class="stat-label">Erros <span class="stat-card-badge stat-card-badge-erros">Revisar</span></span>
                     </div>
                 </div>
                 <div class="stat-card stat-card-clickable stat-card-taxa" onclick="abrirDesempenhoModal()" title="Clique para ver o Gráfico de Desempenho e Taxa de Acerto por Especialidade">
@@ -665,75 +664,113 @@
 
     <!-- Modal de Apoio / Pix -->
     <div class="kofi-modal-overlay" id="apoio-modal-overlay" onclick="fecharApoioModal(event)">
-        <div class="kofi-modal-card" onclick="event.stopPropagation()">
-            <div class="kofi-modal-header">
-                <div class="kofi-modal-header-title">
-                    <img src="{{IMG_KOFI_LOGO_B64}}" alt="Café" class="kofi-modal-logo">
-                    <span>Me pague um café</span>
+        <div class="confirm-modal-card apoio-modal-card" onclick="event.stopPropagation()">
+            <div class="modal-top-row">
+                <div class="modal-badge-icon modal-badge-amber">
+                    <img src="{{IMG_KOFI_LOGO_B64}}" alt="Café" class="kofi-badge-icon-img">
                 </div>
-                <button type="button" class="kofi-modal-close" onclick="fecharApoioModal()">&times;</button>
+                <button type="button" class="modal-close-btn kofi-modal-close" onclick="fecharApoioModal()" aria-label="Fechar">&times;</button>
             </div>
-            <div class="aviso-modal-body" style="padding-bottom: 8px;">
-                <p style="margin: 0 0 10px 0; font-size: 14px; color: var(--text-main);">
+
+            <div class="modal-header-text">
+                <h3 class="modal-title">Me pague um café</h3>
+                <p class="modal-subtitle">
                     Este simulado é <strong>100% gratuito e sem anúncios</strong>. Se o material está te ajudando nos
                     seus estudos, qualquer valor de café incentiva a manter o banco de questões e o site sempre
                     atualizados!
                 </p>
-                <div class="pix-box-container">
-                    <span class="pix-badge-tag"><img src="{{IMG_PIX_B64}}" alt="Ícone Pix" class="pix-icon">Pix Copia e Cola / QR Code (R$ 5,00)</span>
+            </div>
 
-                    <div class="pix-qr-wrapper">
-                        <img src="{{IMG_QRCODE_B64}}" alt="QR Code Pix R$ 5,00" class="pix-qr-img">
-                    </div>
+            <div class="pix-box-container">
+                <span class="pix-badge-tag"><img src="{{IMG_PIX_B64}}" alt="Ícone Pix" class="pix-icon">Pix Copia e Cola / QR Code (R$ 5,00)</span>
 
-                    <div class="pix-copy-group">
-                        <input type="text" readonly
-                            value="00020126360014br.gov.bcb.pix0114+551194243700652040000530398654045.005802BR5914Mateus Almeida6009Sao Paulo62230519daqr1832891424829346304D583"
-                            id="pix-key-input" class="pix-key-input" title="Pix Copia e Cola">
-                        <button type="button" class="btn-pix-copy" id="btn-pix-copy" onclick="copiarChavePix()">
-                            <span>Copiar Chave</span>
-                        </button>
-                    </div>
+                <div class="pix-qr-wrapper">
+                    <img src="{{IMG_QRCODE_B64}}" alt="QR Code Pix R$ 5,00" class="pix-qr-img">
                 </div>
 
-                <div class="pix-alt-kofi">
-                    Prefere doar com Cartão Internacional / PayPal? <br>
-                    <a href="https://ko-fi.com/matthewos" target="_blank" rel="noopener noreferrer"
-                        onclick="registrarCliqueKofi()">Abrir Página do Ko-fi ➔</a>
+                <div class="pix-copy-group">
+                    <input type="text" readonly
+                        value="00020126360014br.gov.bcb.pix0114+551194243700652040000530398654045.005802BR5914Mateus Almeida6009Sao Paulo62230519daqr1832891424829346304D583"
+                        id="pix-key-input" class="pix-key-input" title="Pix Copia e Cola">
+                    <button type="button" class="btn-pix-copy" id="btn-pix-copy" onclick="copiarChavePix()">
+                        <span>Copiar Chave</span>
+                    </button>
                 </div>
             </div>
-            <div class="aviso-modal-footer">
-                <button type="button" class="btn-aviso-ok" onclick="fecharApoioModal()">Fechar</button>
+
+            <div class="pix-alt-kofi">
+                Prefere doar com Cartão Internacional / PayPal? <br>
+                <a href="https://ko-fi.com/matthewos" target="_blank" rel="noopener noreferrer"
+                    onclick="registrarCliqueKofi()">Abrir Página do Ko-fi ➔</a>
+            </div>
+
+            <div class="modal-footer-single">
+                <button type="button" class="btn-modal-secondary btn-aviso-ok" onclick="fecharApoioModal()">Fechar</button>
             </div>
         </div>
     </div>
 
     <!-- Modal de Aviso sobre IA e Gabarito -->
+    <!-- Modal de Aviso sobre IA e Gabarito -->
     <div class="aviso-modal-overlay" id="aviso-modal-overlay" onclick="fecharAvisoModal(event)">
         <div class="aviso-modal-card" onclick="event.stopPropagation()">
-            <div class="aviso-modal-header">
-                <div class="aviso-modal-header-title">
-                    <img src="{{IMG_AVISO_B64}}" alt="Aviso" class="modal-header-icon">
-                    <span>Aviso sobre as Questões e Comentários</span>
+            <div class="modal-top-row">
+                <div class="modal-badge-icon modal-badge-teal">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        <path d="m9 12 2 2 4-4"></path>
+                    </svg>
                 </div>
-                <button type="button" class="aviso-modal-close" onclick="fecharAvisoModal()">&times;</button>
+                <button type="button" class="modal-close-btn aviso-modal-close" onclick="fecharAvisoModal()" aria-label="Fechar">&times;</button>
             </div>
+
+            <div class="modal-header-text">
+                <h3 class="modal-title">Sobre as questões e comentários</h3>
+                <p class="modal-subtitle">Conheça a origem do conteúdo e saiba como usá-lo nos seus estudos.</p>
+            </div>
+
             <div class="aviso-modal-body">
-                <div class="aviso-alert-box">
-                    <strong>Atenção Estudante:</strong><br>
-                    Todas as questões possuem o <strong>gabarito oficial das bancas examinadoras</strong>. No entanto,
-                    as <strong>explicações e justificativas clínicas detalhadas foram geradas por Inteligência
-                        Artificial (Google Gemini)</strong>.
+                <div class="aviso-item-row">
+                    <div class="aviso-item-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <div class="aviso-item-content">
+                        <strong>Gabarito oficial das bancas</strong>
+                        <p>Todas as questões possuem o gabarito oficial das bancas examinadoras.</p>
+                    </div>
                 </div>
-                <div class="aviso-info-box">
-                    <strong>Uso Recomendado:</strong><br>
-                    Utilize as explicações como um guia prático de revisão e raciocínio clínico para consolidar seus
-                    estudos. Sempre confirme condutas em diretrizes médicas oficiais e literatura de referência.
+
+                <div class="aviso-item-row">
+                    <div class="aviso-item-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3z"></path>
+                        </svg>
+                    </div>
+                    <div class="aviso-item-content">
+                        <strong>Comentários gerados por IA</strong>
+                        <p>As explicações e justificativas clínicas detalhadas são geradas por Inteligência Artificial <strong>(Google Gemini)</strong>, e não pelas bancas.</p>
+                    </div>
+                </div>
+
+                <div class="aviso-info-box-card">
+                    <div class="aviso-item-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                        </svg>
+                    </div>
+                    <div class="aviso-item-content">
+                        <strong>Use como apoio ao aprendizado</strong>
+                        <p>Utilize as explicações como um guia de revisão e raciocínio clínico. Sempre confirme as condutas em diretrizes médicas oficiais e na literatura de referência.</p>
+                    </div>
                 </div>
             </div>
-            <div class="aviso-modal-footer">
-                <button type="button" class="btn-aviso-ok" onclick="fecharAvisoModal()">Entendi, continuar
-                    estudando</button>
+
+            <div class="modal-footer-single">
+                <button type="button" class="btn-primary-teal btn-aviso-ok" onclick="fecharAvisoModal()">Entendi, continuar estudando</button>
             </div>
         </div>
     </div>
@@ -789,30 +826,42 @@
     </div>
 
     <!-- Modal de Confirmação para Limpar Respostas -->
+    <!-- Modal de Confirmação para Limpar Respostas -->
     <div class="confirm-modal-overlay" id="confirm-reset-modal-overlay" onclick="fecharConfirmResetModal(event)">
         <div class="confirm-modal-card" onclick="event.stopPropagation()">
-            <div class="confirm-modal-header">
-                <div class="confirm-modal-title">
-                    <img src="{{IMG_LIXEIRA_B64}}" alt="Lixeira" class="modal-header-icon">
-                    <span>Limpar Todas as Respostas?</span>
+            <div class="modal-top-row">
+                <div class="modal-badge-icon modal-badge-red">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m7 21-4.3-4.3c-1-1-1-2.5 0-3.4l9.6-9.6c1-1 2.5-1 3.4 0l5.6 5.6c1 1 1 2.5 0 3.4L13 21"></path>
+                        <path d="M22 21H7"></path>
+                        <path d="m5 11 9 9"></path>
+                    </svg>
                 </div>
-                <button type="button" class="confirm-modal-close" onclick="fecharConfirmResetModal()">&times;</button>
+                <button type="button" class="modal-close-btn confirm-modal-close" onclick="fecharConfirmResetModal()" aria-label="Fechar">&times;</button>
             </div>
-            <div class="confirm-modal-body">
-                Você tem certeza de que deseja <strong>apagar todas as alternativas marcadas</strong> e reiniciar seu
-                progresso do simulado?
-                <div class="confirm-modal-warning">
-                    <svg class="warning-icon-minimal" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+
+            <div class="modal-header-text">
+                <h3 class="modal-title">Limpar todas as respostas?</h3>
+                <p class="modal-subtitle">As alternativas marcadas neste simulado serão removidas. Você poderá responder às questões novamente.</p>
+            </div>
+
+            <div class="confirm-modal-body" style="padding: 0;">
+                <div class="confirm-modal-danger-box">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="danger-box-icon">
                         <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
                         <line x1="12" y1="9" x2="12" y2="13"></line>
                         <line x1="12" y1="17" x2="12.01" y2="17"></line>
                     </svg>
-                    <div><strong>Atenção:</strong> Esta ação é irreversível e resetará suas estatísticas e respostas salvas no navegador.</div>
+                    <div class="danger-box-text">
+                        <strong>Esta ação não pode ser desfeita</strong>
+                        <span>Todas as suas respostas serão apagadas de uma só vez.</span>
+                    </div>
                 </div>
             </div>
+
             <div class="confirm-modal-footer">
-                <button type="button" class="btn-confirm-cancel" onclick="fecharConfirmResetModal()">Cancelar</button>
-                <button type="button" class="btn-confirm-proceed" onclick="executarLimparRespostas()">Sim, limpar tudo</button>
+                <button type="button" class="btn-modal-secondary btn-confirm-cancel" onclick="fecharConfirmResetModal()">Cancelar</button>
+                <button type="button" class="btn-modal-danger btn-confirm-proceed" onclick="executarLimparRespostas()">Limpar respostas</button>
             </div>
         </div>
     </div>
@@ -820,31 +869,39 @@
     <!-- Modal de Confirmação para Abandonar o Simulado -->
     <div class="confirm-modal-overlay" id="confirm-abandonar-simulado-modal-overlay" onclick="fecharConfirmAbandonarModal(event)">
         <div class="confirm-modal-card" onclick="event.stopPropagation()">
-            <div class="confirm-modal-header">
-                <div class="confirm-modal-title">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <line x1="15" y1="9" x2="9" y2="15"></line>
-                        <line x1="9" y1="9" x2="15" y2="15"></line>
+            <div class="modal-top-row">
+                <div class="modal-badge-icon modal-badge-red">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                        <polyline points="16 17 21 12 16 7"></polyline>
+                        <line x1="21" y1="12" x2="9" y2="12"></line>
                     </svg>
-                    <span>Abandonar Simulado?</span>
                 </div>
-                <button type="button" class="confirm-modal-close" onclick="fecharConfirmAbandonarModal()">&times;</button>
+                <button type="button" class="modal-close-btn confirm-modal-close" onclick="fecharConfirmAbandonarModal()" aria-label="Fechar">&times;</button>
             </div>
-            <div class="confirm-modal-body">
-                Você tem certeza de que deseja <strong>abandonar o simulado em andamento</strong> e voltar ao caderno regular?
-                <div class="confirm-modal-warning">
-                    <svg class="warning-icon-minimal" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+
+            <div class="modal-header-text">
+                <h3 class="modal-title">Abandonar este simulado?</h3>
+                <p class="modal-subtitle">Você sairá do simulado em andamento e voltará ao caderno regular, no modo de estudos.</p>
+            </div>
+
+            <div class="confirm-modal-body" style="padding: 0;">
+                <div class="confirm-modal-danger-box">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="danger-box-icon">
                         <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path>
                         <line x1="12" y1="9" x2="12" y2="13"></line>
                         <line x1="12" y1="17" x2="12.01" y2="17"></line>
                     </svg>
-                    <div><strong>Atenção:</strong> Suas respostas nesta tentativa de simulado serão descartadas e você retornará ao modo de estudos.</div>
+                    <div class="danger-box-text">
+                        <strong>Suas respostas serão descartadas</strong>
+                        <span>As respostas desta tentativa não serão mantidas ao abandonar o simulado.</span>
+                    </div>
                 </div>
             </div>
+
             <div class="confirm-modal-footer">
-                <button type="button" class="btn-confirm-cancel" onclick="fecharConfirmAbandonarModal()">Continuar Simulado</button>
-                <button type="button" class="btn-confirm-proceed" onclick="executarAbandonarSimulado()">Sim, abandonar</button>
+                <button type="button" class="btn-modal-secondary btn-confirm-cancel" onclick="fecharConfirmAbandonarModal()">Continuar simulado</button>
+                <button type="button" class="btn-modal-danger btn-confirm-proceed" onclick="executarAbandonarSimulado()">Sim, abandonar</button>
             </div>
         </div>
     </div>
@@ -852,32 +909,35 @@
     <!-- Modal de Conferência e Entrega do Simulado -->
     <div class="confirm-modal-overlay" id="confirm-entregar-simulado-modal-overlay" onclick="fecharModalEntregaSimulado(event)" role="dialog" aria-modal="true" aria-labelledby="modal-entrega-titulo">
         <div class="confirm-modal-card entrega-modal-card" onclick="event.stopPropagation()">
-            <div class="confirm-modal-header">
-                <div class="confirm-modal-title">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                        <polyline points="14 2 14 8 20 8"></polyline>
-                        <polyline points="9 15 11 17 15 13"></polyline>
+            <div class="modal-top-row">
+                <div class="modal-badge-icon modal-badge-teal">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
                     </svg>
-                    <span id="modal-entrega-titulo">Finalizar e Entregar Simulado?</span>
                 </div>
-                <button type="button" class="confirm-modal-close" onclick="fecharModalEntregaSimulado()">&times;</button>
+                <button type="button" class="modal-close-btn confirm-modal-close" onclick="fecharModalEntregaSimulado()" aria-label="Fechar">&times;</button>
+            </div>
+
+            <div class="modal-header-text">
+                <h3 class="modal-title" id="modal-entrega-titulo">Pronto para entregar?</h3>
+                <p class="modal-subtitle">Confira suas respostas antes de finalizar o simulado.</p>
             </div>
             
-            <div class="confirm-modal-body modal-entrega-body">
+            <div class="confirm-modal-body modal-entrega-body" style="padding: 0;">
                 <!-- Resumo dos Números da Prova -->
-                <div class="entrega-stats-grid">
+                <div class="entrega-stats-card">
                     <div class="entrega-stat-box">
-                        <span class="entrega-stat-rotulo">Total</span>
                         <span class="entrega-stat-valor" id="entrega-stat-total">0</span>
+                        <span class="entrega-stat-rotulo">Total de questões</span>
                     </div>
                     <div class="entrega-stat-box stat-respondidas-box">
+                        <span class="entrega-stat-valor" id="entrega-stat-respondidas">0</span>
                         <span class="entrega-stat-rotulo">Respondidas</span>
-                        <span class="entrega-stat-valor text-emerald" id="entrega-stat-respondidas">0</span>
                     </div>
                     <div class="entrega-stat-box stat-pendentes-box" id="entrega-stat-box-pendentes">
-                        <span class="entrega-stat-rotulo">Em Branco</span>
-                        <span class="entrega-stat-valor text-amber" id="entrega-stat-pendentes">0</span>
+                        <span class="entrega-stat-valor" id="entrega-stat-pendentes">0</span>
+                        <span class="entrega-stat-rotulo">Em branco</span>
                     </div>
                 </div>
 
@@ -889,12 +949,7 @@
                 <!-- Container com Pills das Questões em Branco (se houver) -->
                 <div class="entrega-pendentes-container" id="entrega-pendentes-container" style="display: none;">
                     <div class="entrega-pendentes-titulo">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"></circle>
-                            <line x1="12" y1="8" x2="12" y2="12"></line>
-                            <line x1="12" y1="16" x2="12.01" y2="16"></line>
-                        </svg>
-                        <span>Clique na questão para ir direto até ela:</span>
+                        <span>Selecione uma questão para voltar a ela:</span>
                     </div>
                     <div class="entrega-pills-wrap" id="entrega-pills-wrap">
                         <!-- Injetado dinamicamente via JS -->
@@ -903,8 +958,8 @@
             </div>
 
             <div class="confirm-modal-footer">
-                <button type="button" class="btn-confirm-cancel" onclick="fecharModalEntregaSimulado()">Revisar Questões</button>
-                <button type="button" class="btn-confirm-entrega" onclick="executarEntregaSimulado()">Confirmar e Entregar</button>
+                <button type="button" class="btn-modal-secondary btn-confirm-cancel" onclick="fecharModalEntregaSimulado()">Continuar simulado</button>
+                <button type="button" class="btn-modal-primary btn-confirm-entrega" onclick="executarEntregaSimulado()">Finalizar e entregar</button>
             </div>
         </div>
     </div>
@@ -912,36 +967,53 @@
     <!-- Modal de Resultados Oficiais e Conclusão do Simulado -->
     <div class="confirm-modal-overlay resultado-simulado-modal-overlay" id="simulado-resultado-modal-overlay" onclick="fecharModalResultadoSimulado(event)" role="dialog" aria-modal="true" aria-labelledby="modal-resultado-titulo">
         <div class="confirm-modal-card resultado-modal-card" onclick="event.stopPropagation()">
-            <div class="resultado-modal-header">
-                <h3 class="resultado-modal-title" id="modal-resultado-titulo">Simulado Finalizado!</h3>
-                <p class="resultado-modal-sub" id="resultado-modal-sub">Confira seu desempenho oficial nesta prova</p>
+            <div class="modal-top-row">
+                <div class="modal-badge-icon modal-badge-teal">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                </div>
+                <button type="button" class="modal-close-btn confirm-modal-close" onclick="fecharModalResultadoSimulado()" aria-label="Fechar">&times;</button>
             </div>
 
-            <div class="resultado-modal-body">
+            <div class="modal-header-text">
+                <h3 class="modal-title" id="modal-resultado-titulo">Simulado concluído</h3>
+                <p class="modal-subtitle" id="resultado-modal-sub">Cada tentativa é uma oportunidade de aprender. Revise os comentários com IA para fixar os conteúdos.</p>
+            </div>
+
+            <div class="resultado-modal-body" style="padding: 0;">
                 <!-- Destaque do Score -->
-                <div class="resultado-score-box">
+                <div class="resultado-score-card">
+                    <span class="resultado-score-header-label">Seu aproveitamento</span>
                     <div class="resultado-score-taxa" id="resultado-taxa-display">0%</div>
-                    <div class="resultado-score-sub" id="resultado-score-sub">0 de 0 acertos</div>
+                    <div class="resultado-score-sub" id="resultado-score-sub">0 de 10 questões acertadas</div>
+                    <div class="resultado-progress-track">
+                        <div class="resultado-progress-bar" id="resultado-progress-bar"></div>
+                    </div>
                 </div>
 
-                <!-- Métricas Detalhadas -->
-                <div class="resultado-grid-metricas">
-                    <div class="resultado-metrica-card">
-                        <span class="resultado-metrica-rotulo">Tempo Utilizado</span>
-                        <span class="resultado-metrica-num" id="resultado-tempo-gasto">00:00</span>
+                <!-- Métricas Detalhadas (4 Colunas) -->
+                <div class="resultado-metrics-row">
+                    <div class="resultado-metric-col">
+                        <span class="resultado-metric-label">Tempo utilizado</span>
+                        <span class="resultado-metric-val" id="resultado-tempo-gasto">00:00</span>
                     </div>
-                    <div class="resultado-metrica-card">
-                        <span class="resultado-metrica-rotulo">Acertos</span>
-                        <span class="resultado-metrica-num text-emerald" id="resultado-total-acertos">0</span>
+                    <div class="resultado-metric-col">
+                        <span class="resultado-metric-label">Acertos</span>
+                        <span class="resultado-metric-val text-emerald" id="resultado-total-acertos">0</span>
                     </div>
-                    <div class="resultado-metrica-card">
-                        <span class="resultado-metrica-rotulo">Erros</span>
-                        <span class="resultado-metrica-num text-red" id="resultado-total-erros">0</span>
+                    <div class="resultado-metric-col">
+                        <span class="resultado-metric-label">Erros</span>
+                        <span class="resultado-metric-val text-red" id="resultado-total-erros">0</span>
                     </div>
-                    <div class="resultado-metrica-card">
-                        <span class="resultado-metrica-rotulo">Em Branco</span>
-                        <span class="resultado-metrica-num text-amber" id="resultado-total-branco">0</span>
+                    <div class="resultado-metric-col">
+                        <span class="resultado-metric-label">Em branco</span>
+                        <span class="resultado-metric-val text-amber" id="resultado-total-branco">0</span>
                     </div>
+                </div>
+
+                <div class="resultado-branco-helper-text" id="resultado-branco-helper-text">
+                    As 0 questões em branco estão incluídas nos erros.
                 </div>
 
                 <!-- Box da Regra de Ouro -->
@@ -951,101 +1023,115 @@
                         <polyline points="12 6 12 12 14 14"></polyline>
                     </svg>
                     <div id="resultado-regra-ouro-texto">
-                        <strong>Regra de Ouro:</strong> Novas questões incorporadas ao caderno normal!
+                        <strong>Progresso:</strong> Novas questões incorporadas ao caderno normal!
                     </div>
                 </div>
             </div>
 
             <div class="resultado-modal-footer">
-                <div class="resultado-modal-acoes-principais">
-                    <button type="button" class="btn-resultado-revisar" onclick="liberarModoRevisaoSimulado()">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
-                            <circle cx="12" cy="12" r="3"></circle>
-                        </svg>
-                        <span>Revisar Gabarito & IA</span>
-                    </button>
-                    <button type="button" class="btn-resultado-novo" onclick="iniciarNovoSimuladoSetup()">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="23 4 23 10 17 10"></polyline>
-                            <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
-                        </svg>
-                        <span>Fazer Novo Simulado</span>
-                    </button>
-                </div>
-                <button type="button" class="btn-resultado-caderno" onclick="retornarAoCadernoNormal()">
-                    <span>Voltar ao Caderno</span>
+                <button type="button" class="btn-resultado-revisar-ia btn-resultado-revisar" onclick="liberarModoRevisaoSimulado()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
+                    <span>Revisar gabarito e comentários com IA</span>
+                </button>
+                <button type="button" class="btn-resultado-novo-simulado btn-resultado-novo" onclick="iniciarNovoSimuladoSetup()">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="23 4 23 10 17 10"></polyline>
+                        <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                    </svg>
+                    <span>Fazer novo simulado</span>
                 </button>
             </div>
         </div>
     </div>
 
-    <!-- Modal de Desclassificação por Perda de Foco (Sentinela Anti-Cola Tolerância Zero) -->
+    <!-- Modal de Desclassificação por Perda de Foco (Redesign Figma Tolerância Zero) -->
     <div class="confirm-modal-overlay desclassificado-simulado-modal-overlay" id="simulado-desclassificado-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-desclassificado-titulo">
         <div class="confirm-modal-card desclassificado-modal-card" onclick="event.stopPropagation()">
-            <div class="desclassificado-modal-header">
-                <div class="desclassificado-header-icon-wrap">
-                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
-                        <line x1="12" y1="9" x2="12" y2="13"></line>
-                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+            <!-- Topo com Ícone Shield e Botão Fechar -->
+            <div class="desclassificado-top-row">
+                <div class="desclassificado-shield-badge">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        <line x1="12" y1="8" x2="12" y2="12"></line>
+                        <line x1="12" y1="16" x2="12.01" y2="16"></line>
                     </svg>
                 </div>
-                <h3 class="desclassificado-modal-title" id="modal-desclassificado-titulo">Prova Desclassificada!</h3>
-                <p class="desclassificado-modal-sub">Quebra de foco detectada durante a realização do simulado</p>
+                <button type="button" class="desclassificado-close-btn" onclick="fecharModalDesclassificado()" aria-label="Fechar" title="Fechar">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
             </div>
 
-            <div class="desclassificado-modal-body">
-                <div class="desclassificado-motivo-box">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 1px;">
+            <!-- Título e Subtítulo -->
+            <div class="desclassificado-header-text">
+                <h3 class="desclassificado-title" id="modal-desclassificado-titulo">Prova Desclassificada!</h3>
+                <p class="desclassificado-subtitle">Quebra de foco detectada durante a realização do simulado.</p>
+            </div>
+
+            <!-- Caixa de Alerta: Regulamento de tolerância zero -->
+            <div class="desclassificado-alert-box">
+                <div class="desclassificado-alert-top">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#dc2626" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="desclassificado-alert-icon">
                         <circle cx="12" cy="12" r="10"></circle>
                         <line x1="15" y1="9" x2="9" y2="15"></line>
                         <line x1="9" y1="9" x2="15" y2="15"></line>
                     </svg>
-                    <div>
-                        <strong>Regulamento de Tolerância Zero:</strong><br>
-                        Detectamos que a janela ou aba da prova perdeu o foco (mudança de aba ou aplicativo externo). Para garantir a integridade da avaliação oficial, o simulado foi anulado imediatamente.
-                    </div>
+                    <strong class="desclassificado-alert-title">Regulamento de tolerância zero</strong>
                 </div>
+                <p class="desclassificado-alert-desc">
+                    A janela ou aba da prova perdeu o foco ao mudar de aba ou aplicativo. Para garantir a integridade da avaliação oficial, o simulado foi anulado imediatamente.
+                </p>
+            </div>
 
-                <!-- Métricas Parciais -->
-                <div class="resultado-grid-metricas desclassificado-metricas">
-                    <div class="resultado-metrica-card">
-                        <span class="resultado-metrica-rotulo">Tempo Até Bloqueio</span>
-                        <span class="resultado-metrica-num" id="desclassificado-tempo-gasto">00:00</span>
+            <!-- Card de Situação no Momento do Bloqueio -->
+            <div class="desclassificado-situacao-box">
+                <span class="desclassificado-situacao-title">Situação no momento do bloqueio</span>
+                <div class="desclassificado-stats-grid">
+                    <div class="desclassificado-stat-item">
+                        <span class="desclassificado-stat-label">Tempo até<br>bloqueio</span>
+                        <span class="desclassificado-stat-val" id="desclassificado-tempo-gasto">00:03</span>
                     </div>
-                    <div class="resultado-metrica-card">
-                        <span class="resultado-metrica-rotulo">Preenchidas</span>
-                        <span class="resultado-metrica-num" id="desclassificado-total-respondidas">0</span>
+                    <div class="desclassificado-stat-item">
+                        <span class="desclassificado-stat-label">Preenchidas</span>
+                        <span class="desclassificado-stat-val" id="desclassificado-total-respondidas">0 de 10</span>
                     </div>
-                    <div class="resultado-metrica-card">
-                        <span class="resultado-metrica-rotulo">Acertos Parciais</span>
-                        <span class="resultado-metrica-num text-emerald" id="desclassificado-total-acertos">0</span>
+                    <div class="desclassificado-stat-item">
+                        <span class="desclassificado-stat-label">Acertos parciais</span>
+                        <span class="desclassificado-stat-val stat-val-acertos" id="desclassificado-total-acertos">0</span>
                     </div>
-                    <div class="resultado-metrica-card">
-                        <span class="resultado-metrica-rotulo">Erros / Pendentes</span>
-                        <span class="resultado-metrica-num text-red" id="desclassificado-total-erros">0</span>
+                    <div class="desclassificado-stat-item">
+                        <span class="desclassificado-stat-label">Erros / pendentes</span>
+                        <span class="desclassificado-stat-val stat-val-erros" id="desclassificado-total-erros">10</span>
                     </div>
                 </div>
             </div>
 
-            <div class="resultado-modal-footer">
-                <button type="button" class="btn-resultado-revisar" onclick="liberarModoRevisaoDesclassificado()">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <!-- Divisor Horizontal -->
+            <div class="desclassificado-divider"></div>
+
+            <!-- Botões de Ação -->
+            <div class="desclassificado-actions">
+                <button type="button" class="btn-desclassificado-revisar" onclick="liberarModoRevisaoDesclassificado()">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
                         <circle cx="12" cy="12" r="3"></circle>
                     </svg>
-                    <span>Revisar Questões Realizadas</span>
+                    <span>Revisar questões realizadas</span>
                 </button>
-                <button type="button" class="btn-resultado-novo" onclick="iniciarNovoSimuladoSetup()">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="23 4 23 10 17 10"></polyline>
-                        <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></path>
+                <button type="button" class="btn-desclassificado-novo" onclick="iniciarNovoSimuladoSetup()">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="1 4 1 10 7 10"></polyline>
+                        <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path>
                     </svg>
-                    <span>Fazer Novo Simulado</span>
+                    <span>Fazer novo simulado</span>
                 </button>
-                <button type="button" class="btn-resultado-caderno" onclick="retornarAoCadernoNormal()">
-                    <span>Voltar ao Caderno</span>
+                <button type="button" class="btn-desclassificado-voltar" onclick="retornarAoCadernoNormal()">
+                    Voltar ao caderno
                 </button>
             </div>
         </div>
