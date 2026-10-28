@@ -33,6 +33,24 @@ function safeStorageRemove(key) {
 }
 
 // ========================================================
+// Helper Universal para Google Analytics 4 (GA4)
+// ========================================================
+function trackGA4Event(eventName, params = {}) {
+    try {
+        if (typeof gtag === 'function') {
+            gtag('event', eventName, params);
+        } else if (window.dataLayer && Array.isArray(window.dataLayer)) {
+            window.dataLayer.push({
+                event: eventName,
+                ...params
+            });
+        }
+    } catch (err) {
+        console.warn('[Analytics] Falha ao registrar evento:', eventName, err);
+    }
+}
+
+// ========================================================
 // Estado da Paginação e Filtros
 // ========================================================
 let modoFiltroAtivo = 'clinico'; // 'clinico' | 'prova'
@@ -481,11 +499,10 @@ function alternarModoFiltro(modo) {
 
         // Sincroniza estado do botão iniciar com o checkbox
         atualizarEstadoBotaoIniciarSimulado();
+        trackGA4Event('simulado_abrir_setup', { origem: 'aba_filtro' });
     }
 
-    if (typeof gtag === 'function') {
-        gtag('event', 'alternar_modo_filtro', { 'modo': modo });
-    }
+    trackGA4Event('alternar_modo_filtro', { 'modo': modo });
 }
 
 function selecionarTempoSimulado(minutos) {
@@ -520,6 +537,13 @@ function selecionarTempoSimulado(minutos) {
         if (resumoQuestoes) resumoQuestoes.textContent = `${qtd} questões oficiais`;
         if (resumoRitmo) resumoRitmo.textContent = '~3 min por questão';
     }
+
+    trackGA4Event('simulado_selecionar_tempo', {
+        tipo_controle: minutos === 0 ? 'livre' : 'tempo_limite',
+        modo_livre: minutos === 0,
+        tempo_minutos: minutos,
+        questoes_estimadas: minutos === 0 ? simuladoConfig.questoesLivre : Math.round(minutos / 3)
+    });
 }
 
 function selecionarQtdLivre(qtd) {
@@ -539,6 +563,10 @@ function selecionarQtdLivre(qtd) {
     if (resumoQuestoes) {
         resumoQuestoes.textContent = `${qtd} questões selecionadas`;
     }
+
+    trackGA4Event('simulado_selecionar_qtd_livre', {
+        qtd_questoes: qtd
+    });
 }
 
 function atualizarEstadoBotaoIniciarSimulado() {
@@ -734,20 +762,21 @@ function iniciarSimuladoReal() {
         questoes: questoesIds,
         respostas: {},
         inicioTimestamp: Date.now(),
-        status: 'em_andamento'
+        status: 'em_andamento',
+        marcosNotificados: {}
     };
 
     salvarSnapshotSimulado();
     document.documentElement.classList.add('simulado-sessao-ativa');
     renderizarTelaSimuladoAtivo(false);
 
-    if (typeof gtag === 'function') {
-        gtag('event', 'iniciar_simulado', {
-            'total_questoes': qtdQuestoes,
-            'modo_livre': simuladoConfig.modoLivre,
-            'tempo_minutos': simuladoConfig.tempoMinutos
-        });
-    }
+    trackGA4Event('iniciar_simulado', {
+        tipo_controle: simuladoConfig.modoLivre ? 'livre' : 'tempo_limite',
+        modo_livre: Boolean(simuladoConfig.modoLivre),
+        total_questoes: qtdQuestoes,
+        tempo_minutos: simuladoConfig.tempoMinutos,
+        tempo_estimado_por_questao: simuladoConfig.modoLivre ? 'livre' : 3
+    });
 }
 
 function renderizarTelaSimuladoAtivo(isRestauracao = false) {
@@ -1018,6 +1047,26 @@ function atualizarProgressoSimulado() {
     if (bottomProgresso) {
         bottomProgresso.textContent = `${respondidas} de ${total} questões preenchidas (${pct}%)`;
     }
+
+    // Telemetria GA4: Marcos de progresso (25%, 50%, 75%, 100%)
+    if (!window.simuladoAtivo.marcosNotificados) {
+        window.simuladoAtivo.marcosNotificados = {};
+    }
+    const marcos = [25, 50, 75, 100];
+    const decorrido = Math.floor((Date.now() - (window.simuladoAtivo.inicioTimestamp || Date.now())) / 1000);
+    marcos.forEach(m => {
+        if (pct >= m && !window.simuladoAtivo.marcosNotificados[m]) {
+            window.simuladoAtivo.marcosNotificados[m] = true;
+            salvarSnapshotSimulado();
+            trackGA4Event('simulado_progresso_milestone', {
+                milestone_percentual: m,
+                respondidas: respondidas,
+                total_questoes: total,
+                tempo_decorrido_segundos: decorrido,
+                tipo_controle: window.simuladoAtivo.modoLivre ? 'livre' : 'tempo_limite'
+            });
+        }
+    });
 }
 
 function verificarRestauracaoSimulado() {
@@ -1068,51 +1117,22 @@ function fecharConfirmAbandonarModal(e) {
 }
 
 function executarAbandonarSimulado() {
-    fecharConfirmAbandonarModal();
-    desativarSentinelaFoco();
-    pararTimerSimulado();
-    sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
-    localStorage.removeItem('caderno_simulado_ativo_snapshot');
-    window.simuladoAtivo = null;
+    if (window.simuladoAtivo) {
+        const decorrido = Math.floor((Date.now() - (window.simuladoAtivo.inicioTimestamp || Date.now())) / 1000);
+        const respondidas = Object.keys(window.simuladoAtivo.respostas || {}).length;
+        const total = window.simuladoAtivo.totalQuestoes || 0;
+        const pct = total > 0 ? Math.round((respondidas / total) * 100) : 0;
 
-    // Ocultar container de simulado
-    const containerSimulado = document.getElementById('simulado-ativo-container');
-    if (containerSimulado) containerSimulado.style.display = 'none';
+        trackGA4Event('simulado_abandonar', {
+            tipo_controle: window.simuladoAtivo.modoLivre ? 'livre' : 'tempo_limite',
+            total_questoes: total,
+            respondidas: respondidas,
+            percentual_concluido: pct,
+            tempo_decorrido_segundos: decorrido
+        });
+    }
 
-    const listaSim = document.getElementById('simulado-questoes-lista');
-    if (listaSim) listaSim.innerHTML = '';
-
-    // Restaurar visão normal do caderno
-    const hero = document.querySelector('.header-hero');
-    if (hero) hero.style.display = '';
-
-    const kofi = document.querySelector('.kofi-banner');
-    if (kofi) kofi.style.display = '';
-
-    const filtroSec = document.querySelector('.filtro-section');
-    if (filtroSec) filtroSec.style.display = '';
-
-    const listaNormal = document.getElementById('lista-questoes-container');
-    if (listaNormal) listaNormal.style.display = '';
-
-    const painelStats = document.getElementById('painel-estatisticas');
-    if (painelStats) painelStats.style.display = '';
-
-    const progressTopbar = document.querySelector('.progress-container');
-    if (progressTopbar) progressTopbar.style.display = '';
-
-    const btnResetTopbar = document.getElementById('btn-reset-respostas');
-    if (btnResetTopbar) btnResetTopbar.style.display = '';
-
-    const btnExportar = document.getElementById('btn-exportar-backup');
-    if (btnExportar) btnExportar.style.display = '';
-
-    const btnImportar = document.getElementById('btn-importar-backup');
-    if (btnImportar) btnImportar.style.display = '';
-
-    // Retorna à aba do simulado (wizard)
-    alternarModoFiltro('simulado');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    retornarAoCadernoNormal();
 }
 
 // ========================================================
@@ -1209,6 +1229,9 @@ function fecharModalEntregaSimulado(e) {
 
 function irParaQuestaoSimulado(qId) {
     fecharModalEntregaSimulado();
+    trackGA4Event('simulado_navegar_questao_pendente', {
+        questao_id: qId
+    });
     const cardSim = document.getElementById(`sim_card_${qId}`);
     if (cardSim) {
         cardSim.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -1318,6 +1341,28 @@ function executarEntregaSimulado(porTempo = false) {
         taxa,
         detalhes
     };
+
+    // Telemetria GA4: Conclusão do simulado com métricas completas
+    const tempoMedioPorQuestao = (total > 0 && tempoGasto > 0) ? Math.round(tempoGasto / total) : 0;
+    let faixaDesempenho = '<50%';
+    if (taxa >= 80) faixaDesempenho = '80%+';
+    else if (taxa >= 70) faixaDesempenho = '70-79%';
+    else if (taxa >= 50) faixaDesempenho = '50-69%';
+
+    trackGA4Event('simulado_concluir', {
+        motivo_finalizacao: porTempo ? 'tempo_esgotado' : 'entrega_voluntaria',
+        tipo_controle: window.simuladoAtivo.modoLivre ? 'livre' : 'tempo_limite',
+        modo_livre: Boolean(window.simuladoAtivo.modoLivre),
+        total_questoes: total,
+        respondidas: total - emBranco,
+        em_branco: emBranco,
+        acertos: acertos,
+        erros: erros,
+        taxa_acerto: taxa,
+        faixa_desempenho: faixaDesempenho,
+        tempo_gasto_segundos: tempoGasto,
+        tempo_medio_por_questao_segundos: tempoMedioPorQuestao
+    });
 
     // Aplica a Regra de Ouro de Progressão
     const novasQuestoes = migrarProgressoSimuladoParaModoNormal();
@@ -1483,6 +1528,14 @@ function liberarModoRevisaoSimulado() {
 
     if (!window.simuladoAtivo) return;
 
+    const res = window.simuladoAtivo.resultado || {};
+    trackGA4Event('simulado_iniciar_revisao', {
+        status_simulado: window.simuladoAtivo.status || 'finalizado',
+        taxa_acerto: res.taxa || 0,
+        total_questoes: window.simuladoAtivo.totalQuestoes || 0,
+        tipo_controle: window.simuladoAtivo.modoLivre ? 'livre' : 'tempo_limite'
+    });
+
     const listaSim = document.getElementById('simulado-questoes-lista');
     if (listaSim) {
         listaSim.classList.add('modo-revisao');
@@ -1574,6 +1627,18 @@ function toggleRespostaSimulado(qId) {
     if (box) {
         const isHidden = (box.style.display === 'none' || box.style.display === '');
         box.style.display = isHidden ? 'block' : 'none';
+
+        if (isHidden) {
+            let statusResp = 'sem_resposta';
+            if (window.simuladoAtivo && window.simuladoAtivo.resultado && window.simuladoAtivo.resultado.detalhes) {
+                const det = window.simuladoAtivo.resultado.detalhes[qId];
+                if (det) statusResp = det.resultado;
+            }
+            trackGA4Event('simulado_ver_explicacao_ia', {
+                questao_id: qId,
+                status_resposta: statusResp
+            });
+        }
     }
 }
 
@@ -1597,6 +1662,9 @@ function dispararVerificacaoPerdaFoco(origem) {
         return;
     }
 
+    if (window.simuladoAtivo) {
+        window.simuladoAtivo.origemPerdaFoco = origem;
+    }
     console.warn(`[Sentinela Anti-Cola] Perda de foco confirmada via '${origem}'. Desclassificando prova imediatamente...`);
     executarDesclassificacaoSimulado();
 }
@@ -1721,6 +1789,21 @@ function executarDesclassificacaoSimulado() {
     salvarSnapshotSimulado();
     aplicarEstadoDesclassificadoUI();
 
+    const respondidasCount = Object.keys(window.simuladoAtivo.respostas || {}).length;
+    const pctConcluido = total > 0 ? Math.round((respondidasCount / total) * 100) : 0;
+
+    trackGA4Event('simulado_desclassificado', {
+        motivo: 'perda_de_foco',
+        origem_deteccao: window.simuladoAtivo.origemPerdaFoco || 'sentinela',
+        tipo_controle: window.simuladoAtivo.modoLivre ? 'livre' : 'tempo_limite',
+        total_questoes: total,
+        respondidas: respondidasCount,
+        acertos_parciais: acertos,
+        erros_parciais: erros,
+        tempo_ate_bloqueio_segundos: tempoGasto,
+        percentual_respondido: pctConcluido
+    });
+
     console.warn(`[Sentinela Anti-Cola] Prova DESCLASSIFICADA por perda de foco. Acertos parciais: ${acertos}/${total}.`);
     abrirModalDesclassificado();
 }
@@ -1838,6 +1921,10 @@ function liberarModoRevisaoDesclassificado() {
 }
 
 function iniciarNovoSimuladoSetup() {
+    trackGA4Event('simulado_novo_clique', {
+        origem: (window.simuladoAtivo && window.simuladoAtivo.status) || 'setup'
+    });
+
     fecharModalDesclassificado();
     fecharModalResultadoSimulado();
     fecharModalEntregaSimulado();
@@ -1885,6 +1972,10 @@ function iniciarNovoSimuladoSetup() {
 }
 
 function retornarAoCadernoNormal() {
+    trackGA4Event('simulado_voltar_caderno', {
+        status_simulado: (window.simuladoAtivo && window.simuladoAtivo.status) || 'encerrado'
+    });
+
     fecharModalDesclassificado();
     fecharModalResultadoSimulado();
     fecharModalEntregaSimulado();
