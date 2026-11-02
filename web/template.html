@@ -63,7 +63,7 @@
     <div class="top-bar">
         <div class="top-bar-title" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
             title="Clique para voltar ao topo">
-            Simulado Residência Médica
+            Simulado<span class="topbar-title-complemento"> Residência Médica</span>
         </div>
         <div class="progress-container" onclick="irParaEstatisticas()"
             title="Clique para ir direto ao Resumo de Desempenho e Estatísticas">
@@ -75,7 +75,8 @@
                 <div class="progress-bar-fill" id="progress-bar"></div>
             </div>
         </div>
-        <div style="display: flex; gap: 8px; align-items: center;">
+        <!-- Ações do Topbar para Desktop (Visíveis em Telas > 640px) -->
+        <div class="topbar-actions-desktop">
             <button type="button" class="btn-icon-topbar" id="btn-exportar-backup" onclick="exportarBackupRespostas()"
                 title="Exportar Backup das Respostas (Download JSON)">
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -108,6 +109,52 @@
                     <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg>
             </button>
+        </div>
+
+        <!-- Menu Flutuante Mobile (Visível em Telas <= 640px) -->
+        <div class="topbar-mobile-menu-wrap" id="topbar-mobile-menu-wrap">
+            <button type="button" class="btn-icon-topbar topbar-hamburger-btn" id="topbar-hamburger-btn"
+                aria-label="Abrir menu de opções" aria-haspopup="true" aria-expanded="false" onclick="toggleTopbarMenuMobile(event)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <div class="topbar-dropdown-menu" id="topbar-dropdown-menu" role="menu">
+                <button type="button" class="topbar-dropdown-item" id="btn-theme-mobile" onclick="toggleTheme(); fecharTopbarMenuMobile();" role="menuitem">
+                    <img src="{{IMG_DARK_B64}}" alt="Tema" id="theme-icon-img-mobile" class="theme-icon-img topbar-dropdown-icon">
+                    <span id="theme-dropdown-label">Alternar Tema</span>
+                </button>
+                <button type="button" class="topbar-dropdown-item hide-on-simulado" onclick="exportarBackupRespostas(); fecharTopbarMenuMobile();" role="menuitem">
+                    <svg class="topbar-dropdown-svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    <span>Exportar Backup (JSON)</span>
+                </button>
+                <button type="button" class="topbar-dropdown-item hide-on-simulado" onclick="dispararSeletorImportarBackup(); fecharTopbarMenuMobile();" role="menuitem">
+                    <svg class="topbar-dropdown-svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    <span>Importar Backup (JSON)</span>
+                </button>
+                <button type="button" class="topbar-dropdown-item" onclick="abrirAvisoModal(); fecharTopbarMenuMobile();" role="menuitem">
+                    <img src="{{IMG_AVISO_B64}}" alt="Aviso" class="aviso-icon-img topbar-dropdown-icon">
+                    <span>Aviso IA e Gabarito</span>
+                </button>
+                <div class="topbar-dropdown-divider hide-on-simulado"></div>
+                <button type="button" class="topbar-dropdown-item topbar-dropdown-danger hide-on-simulado" onclick="abrirConfirmResetModal(); fecharTopbarMenuMobile();" role="menuitem">
+                    <svg class="topbar-dropdown-svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                    <span>Limpar Respostas</span>
+                </button>
+            </div>
         </div>
     </div>
 

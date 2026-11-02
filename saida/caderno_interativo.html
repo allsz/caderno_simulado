@@ -159,8 +159,9 @@ button, input, select, textarea {
     top: 0;
     background: var(--topbar-bg);
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--border-color);
-    padding: 12px 24px;
+    padding: max(12px, env(safe-area-inset-top)) 24px 12px 24px;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -168,6 +169,119 @@ button, input, select, textarea {
     gap: 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
     transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.topbar-actions-desktop {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.topbar-mobile-menu-wrap {
+    display: none;
+    position: relative;
+}
+
+.topbar-hamburger-btn {
+    color: var(--text-main);
+}
+
+.topbar-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 220px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.08);
+    padding: 6px;
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+    z-index: 1005;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.topbar-mobile-menu-wrap.open .topbar-dropdown-menu {
+    display: flex;
+    animation: customSelectOpen 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.topbar-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 9px 12px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--text-main);
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+    font-family: inherit;
+    user-select: none;
+}
+
+.topbar-dropdown-item:hover,
+.topbar-dropdown-item:active {
+    background: #eff6ff;
+    color: #2563eb;
+}
+
+.topbar-dropdown-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.topbar-dropdown-svg {
+    stroke: currentColor;
+    flex-shrink: 0;
+}
+
+.topbar-dropdown-divider {
+    height: 1px;
+    background: var(--border-color);
+    margin: 4px 6px;
+}
+
+.topbar-dropdown-danger {
+    color: #ef4444;
+}
+
+.topbar-dropdown-danger:hover,
+.topbar-dropdown-danger:active {
+    background: #fef2f2 !important;
+    color: #dc2626 !important;
+}
+
+[data-theme='dark'] .topbar-dropdown-menu {
+    background: #1e293b;
+    border-color: #334155;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme='dark'] .topbar-dropdown-item:hover,
+[data-theme='dark'] .topbar-dropdown-item:active {
+    background: #334155;
+    color: #93c5fd;
+}
+
+[data-theme='dark'] .topbar-dropdown-danger {
+    color: #f87171;
+}
+
+[data-theme='dark'] .topbar-dropdown-danger:hover,
+[data-theme='dark'] .topbar-dropdown-danger:active {
+    background: rgba(239, 68, 68, 0.18) !important;
+    color: #fca5a5 !important;
 }
 
 .top-bar-title {
@@ -604,6 +718,10 @@ h1 {
 }
 
 .questao-imagem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin: 16px 0;
     background: var(--img-container-bg);
@@ -611,16 +729,24 @@ h1 {
     border-radius: 8px;
     border: 1px solid var(--border-color);
     position: relative;
+    max-width: 100%;
+    box-sizing: border-box;
+    gap: 12px;
 }
 
 .img-questao {
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
+    width: auto;
+    height: auto;
     max-height: 480px;
+    object-fit: contain;
     border-radius: 6px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-    display: inline-block;
     cursor: zoom-in;
     transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.22s ease, filter 0.22s ease;
+    box-sizing: border-box;
 }
 
 .img-questao:hover {
@@ -3786,11 +3912,37 @@ h1 {
     }
     .simulado-calculo-box {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
+        align-items: stretch;
+        gap: 14px;
+        padding: 16px 14px;
     }
     .simulado-calc-divider {
         display: none;
+    }
+    .simulado-calc-item {
+        width: 100%;
+        justify-content: flex-start;
+        text-align: left;
+    }
+    .simulado-calc-content {
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
+        gap: 3px;
+    }
+    .simulado-calc-header {
+        justify-content: flex-start;
+        gap: 8px;
+    }
+    .simulado-calc-label {
+        text-align: left;
+    }
+    .simulado-calc-val {
+        padding-left: 24px;
+        text-align: left;
+    }
+    .simulado-pill-livre {
+        grid-column: 1 / -1;
     }
 }
 
@@ -4776,7 +4928,9 @@ html.simulado-sessao-ativa #paginacao-bottom,
 html.simulado-sessao-ativa #painel-estatisticas,
 html.simulado-sessao-ativa #btn-reset-respostas,
 html.simulado-sessao-ativa #btn-exportar-backup,
-html.simulado-sessao-ativa #btn-importar-backup {
+html.simulado-sessao-ativa #btn-importar-backup,
+html.simulado-sessao-ativa .topbar-dropdown-item.hide-on-simulado,
+html.simulado-sessao-ativa .topbar-dropdown-divider.hide-on-simulado {
     display: none !important;
 }
 
@@ -5308,9 +5462,87 @@ html.simulado-sessao-ativa #simulado-ativo-container {
 }
 
 @media (max-width: 640px) {
+    .topbar-actions-desktop {
+        display: none !important;
+    }
+
+    .topbar-mobile-menu-wrap {
+        display: inline-block !important;
+    }
+
+    .top-bar {
+        padding: max(10px, env(safe-area-inset-top)) 14px 10px 14px;
+        gap: 10px;
+    }
+
+    .top-bar-title {
+        font-size: 14.5px;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .topbar-title-complemento {
+        display: none !important;
+    }
+
+    .progress-container {
+        min-width: 0;
+    }
+
+    .progress-labels {
+        font-size: 11px;
+        gap: 4px;
+    }
+
+    .progress-labels span:first-child {
+        display: none;
+    }
+
+    .container {
+        padding: 0 12px;
+        margin: 12px auto;
+    }
+
+    .card-questao {
+        padding: 16px 14px;
+        border-radius: 12px;
+    }
+
+    .questao-imagem-container {
+        padding: 8px;
+        margin: 12px 0;
+        border-radius: 8px;
+    }
+
+    .img-questao {
+        max-height: 360px;
+    }
+
+    .filtro-modo-nav {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+    }
+
+    .filtro-modo-nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .filtro-modo-tab {
+        flex-shrink: 0;
+        white-space: nowrap;
+        padding: 7px 11px;
+        font-size: 12px;
+    }
+
     .filtro-header-row {
         flex-direction: column;
         align-items: flex-start;
+        gap: 10px;
     }
     
     .paginacao-qtd-select-wrap {
@@ -6433,7 +6665,7 @@ html.simulado-sessao-ativa #simulado-ativo-container {
     <div class="top-bar">
         <div class="top-bar-title" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
             title="Clique para voltar ao topo">
-            Simulado Residência Médica
+            Simulado<span class="topbar-title-complemento"> Residência Médica</span>
         </div>
         <div class="progress-container" onclick="irParaEstatisticas()"
             title="Clique para ir direto ao Resumo de Desempenho e Estatísticas">
@@ -6445,7 +6677,8 @@ html.simulado-sessao-ativa #simulado-ativo-container {
                 <div class="progress-bar-fill" id="progress-bar"></div>
             </div>
         </div>
-        <div style="display: flex; gap: 8px; align-items: center;">
+        <!-- Ações do Topbar para Desktop (Visíveis em Telas > 640px) -->
+        <div class="topbar-actions-desktop">
             <button type="button" class="btn-icon-topbar" id="btn-exportar-backup" onclick="exportarBackupRespostas()"
                 title="Exportar Backup das Respostas (Download JSON)">
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -6478,6 +6711,52 @@ html.simulado-sessao-ativa #simulado-ativo-container {
                     <line x1="6" y1="6" x2="18" y2="18"></line>
                 </svg>
             </button>
+        </div>
+
+        <!-- Menu Flutuante Mobile (Visível em Telas <= 640px) -->
+        <div class="topbar-mobile-menu-wrap" id="topbar-mobile-menu-wrap">
+            <button type="button" class="btn-icon-topbar topbar-hamburger-btn" id="topbar-hamburger-btn"
+                aria-label="Abrir menu de opções" aria-haspopup="true" aria-expanded="false" onclick="toggleTopbarMenuMobile(event)">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <div class="topbar-dropdown-menu" id="topbar-dropdown-menu" role="menu">
+                <button type="button" class="topbar-dropdown-item" id="btn-theme-mobile" onclick="toggleTheme(); fecharTopbarMenuMobile();" role="menuitem">
+                    <img src="data:image/png;base64,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" alt="Tema" id="theme-icon-img-mobile" class="theme-icon-img topbar-dropdown-icon">
+                    <span id="theme-dropdown-label">Alternar Tema</span>
+                </button>
+                <button type="button" class="topbar-dropdown-item hide-on-simulado" onclick="exportarBackupRespostas(); fecharTopbarMenuMobile();" role="menuitem">
+                    <svg class="topbar-dropdown-svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    <span>Exportar Backup (JSON)</span>
+                </button>
+                <button type="button" class="topbar-dropdown-item hide-on-simulado" onclick="dispararSeletorImportarBackup(); fecharTopbarMenuMobile();" role="menuitem">
+                    <svg class="topbar-dropdown-svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    <span>Importar Backup (JSON)</span>
+                </button>
+                <button type="button" class="topbar-dropdown-item" onclick="abrirAvisoModal(); fecharTopbarMenuMobile();" role="menuitem">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAA8UlEQVR4nO2VsQ7BQByHP2FF6C4WTLyNiKcwYiBGu8kDGMwmER6AF7DZJAyGTobKySU3SLV3114Hgy/5Lc39v9/l0mvhRygAXWCj0lXPnCkCA+ACiFCuwAyopBHXgTnwiBCH4wNLoGkjrgFrILAQi1ACNSsdsZxSiEUoR13ByzBcBTzDGumIxbS7pOu++BcIU4GfQcFTV3DOoOCqK9gbhj2L1/SgKxhbnK8wZKgraGRQ0MLAzuEmb7Ggo/nYeZoCOdPGkmmKo5mQgBywSiBfqZlE5IGFhXzp+vvsA/cI8Q3ouYg/Kas7Im+6zAgoZSV34g3v8RnVTURSHAAAAABJRU5ErkJggg==" alt="Aviso" class="aviso-icon-img topbar-dropdown-icon">
+                    <span>Aviso IA e Gabarito</span>
+                </button>
+                <div class="topbar-dropdown-divider hide-on-simulado"></div>
+                <button type="button" class="topbar-dropdown-item topbar-dropdown-danger hide-on-simulado" onclick="abrirConfirmResetModal(); fecharTopbarMenuMobile();" role="menuitem">
+                    <svg class="topbar-dropdown-svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                    <span>Limpar Respostas</span>
+                </button>
+            </div>
         </div>
     </div>
 
@@ -37858,6 +38137,9 @@ let simuladoConfig = {
 function restaurarElementosInterfaceGlobal() {
     // 1. Remove qualquer bloqueio de layout de sessão ativa do Simulado
     document.documentElement.classList.remove('simulado-sessao-ativa');
+    if (typeof fecharTopbarMenuMobile === 'function') {
+        fecharTopbarMenuMobile();
+    }
 
     // 2. Garante a restauração completa de todos os componentes do Topbar e Header
     const progressTopbar = document.querySelector('.progress-container');
@@ -40725,6 +41007,29 @@ function selecionarOpcaoItens(valor, rotulo) {
     mudarItensPorPagina(valor);
 }
 
+// Controle do Menu Flutuante Mobile do Topbar
+function toggleTopbarMenuMobile(e) {
+    if (e) {
+        e.stopPropagation();
+    }
+    const wrap = document.getElementById('topbar-mobile-menu-wrap');
+    const btn = document.getElementById('topbar-hamburger-btn');
+    if (!wrap) return;
+    const isOpen = wrap.classList.toggle('open');
+    if (btn) {
+        btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+}
+
+function fecharTopbarMenuMobile() {
+    const wrap = document.getElementById('topbar-mobile-menu-wrap');
+    const btn = document.getElementById('topbar-hamburger-btn');
+    if (wrap && wrap.classList.contains('open')) {
+        wrap.classList.remove('open');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+    }
+}
+
 // Fechar dropdowns customizados ao clicar fora
 document.addEventListener('click', (e) => {
     const container = document.getElementById('custom-select-itens-wrap');
@@ -40742,6 +41047,13 @@ document.addEventListener('click', (e) => {
             wrapSimulado.classList.remove('open');
             const triggerSimulado = document.getElementById('simulado-custom-select-trigger');
             if (triggerSimulado) triggerSimulado.setAttribute('aria-expanded', 'false');
+        }
+    }
+
+    const wrapTopbarMobile = document.getElementById('topbar-mobile-menu-wrap');
+    if (wrapTopbarMobile && wrapTopbarMobile.classList.contains('open')) {
+        if (!wrapTopbarMobile.contains(e.target)) {
+            fecharTopbarMenuMobile();
         }
     }
 });
@@ -40792,17 +41104,34 @@ function setTheme(theme, skipTransition = true) {
         document.documentElement.classList.add('disable-transitions');
     }
     const img = document.getElementById('theme-icon-img');
+    const imgMobile = document.getElementById('theme-icon-img-mobile');
+    const themeLabelMobile = document.getElementById('theme-dropdown-label');
+
     if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
         if (img && window.IMG_CLARO_B64) {
             img.src = window.IMG_CLARO_B64;
             img.alt = 'Alternar para Modo Claro';
         }
+        if (imgMobile && window.IMG_CLARO_B64) {
+            imgMobile.src = window.IMG_CLARO_B64;
+            imgMobile.alt = 'Alternar para Modo Claro';
+        }
+        if (themeLabelMobile) {
+            themeLabelMobile.textContent = 'Modo Claro';
+        }
     } else {
         document.documentElement.removeAttribute('data-theme');
         if (img && window.IMG_DARK_B64) {
             img.src = window.IMG_DARK_B64;
             img.alt = 'Alternar para Modo Escuro';
+        }
+        if (imgMobile && window.IMG_DARK_B64) {
+            imgMobile.src = window.IMG_DARK_B64;
+            imgMobile.alt = 'Alternar para Modo Escuro';
+        }
+        if (themeLabelMobile) {
+            themeLabelMobile.textContent = 'Modo Escuro';
         }
     }
     localStorage.setItem('simulado_theme_preference', theme);
@@ -42094,6 +42423,7 @@ document.addEventListener('keydown', function(e) {
     }
 
     if (e.key === 'Escape') {
+        fecharTopbarMenuMobile();
         const apoioModal = document.getElementById('apoio-modal-overlay');
         if (apoioModal && apoioModal.classList.contains('active')) {
             fecharApoioModal();
