@@ -2241,7 +2241,8 @@ h1 {
 }
 
 .filtro-painel-conteudo {
-    animation: fadeIn 0.2s ease-out;
+    animation: fadeIn 0.15s ease-out;
+    contain: layout style;
 }
 
 .filtro-label {

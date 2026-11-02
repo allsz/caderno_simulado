@@ -2293,7 +2293,8 @@ h1 {
 }
 
 .filtro-painel-conteudo {
-    animation: fadeIn 0.2s ease-out;
+    animation: fadeIn 0.15s ease-out;
+    contain: layout style;
 }
 
 .filtro-label {
@@ -37735,6 +37736,8 @@ let numeroQuestaoFiltro = '';
 let paginaAtual = 1;
 let itensPorPagina = 25;
 let todosCards = [];
+let cardsMetadata = [];
+let cardsVisiveisAtuais = new Set();
 let cardsFiltrados = [];
 let taxonomiaEspecialidades = {};
 let taxonomiaProvas = {};
@@ -38178,65 +38181,77 @@ function restaurarElementosInterfaceGlobal() {
 }
 
 function alternarModoFiltro(modo) {
+    if (modoFiltroAtivo === modo) return;
     modoFiltroAtivo = modo;
     paginaAtual = 1;
 
-    // Se não houver simulado em andamento ativo, assegura a integridade do cabeçalho e elementos globais
-    if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') {
-        restaurarElementosInterfaceGlobal();
-    }
-
+    // Feedback tátil visual instantâneo (0ms de atraso percebido na tela)
     const tabClinico = document.getElementById('tab-modo-clinico');
     const tabProva = document.getElementById('tab-modo-prova');
     const tabSimulado = document.getElementById('tab-modo-simulado');
-    const painelClinico = document.getElementById('painel-filtro-clinico');
-    const painelProva = document.getElementById('painel-filtro-prova');
-    const painelSimulado = document.getElementById('painel-filtro-simulado');
-    const paginacaoQtdWrap = document.querySelector('.paginacao-qtd-select-wrap');
-    const listaQuestoes = document.getElementById('lista-questoes-container');
-    const paginacaoTop = document.getElementById('paginacao-top');
-    const paginacaoBottom = document.getElementById('paginacao-bottom');
 
-    if (modo === 'clinico') {
-        if (tabClinico) { tabClinico.classList.add('active'); tabClinico.setAttribute('aria-selected', 'true'); }
-        if (tabProva) { tabProva.classList.remove('active'); tabProva.setAttribute('aria-selected', 'false'); }
-        if (tabSimulado) { tabSimulado.classList.remove('active'); tabSimulado.setAttribute('aria-selected', 'false'); }
-        if (painelClinico) painelClinico.style.display = 'block';
-        if (painelProva) painelProva.style.display = 'none';
-        if (painelSimulado) painelSimulado.style.display = 'none';
-        if (paginacaoQtdWrap) paginacaoQtdWrap.style.display = 'flex';
-        if (listaQuestoes) listaQuestoes.style.display = '';
-        aplicarFiltroEPaginacao(false);
-    } else if (modo === 'prova') {
-        if (tabClinico) { tabClinico.classList.remove('active'); tabClinico.setAttribute('aria-selected', 'false'); }
-        if (tabProva) { tabProva.classList.add('active'); tabProva.setAttribute('aria-selected', 'true'); }
-        if (tabSimulado) { tabSimulado.classList.remove('active'); tabSimulado.setAttribute('aria-selected', 'false'); }
-        if (painelClinico) painelClinico.style.display = 'none';
-        if (painelProva) painelProva.style.display = 'block';
-        if (painelSimulado) painelSimulado.style.display = 'none';
-        if (paginacaoQtdWrap) paginacaoQtdWrap.style.display = 'flex';
-        if (listaQuestoes) listaQuestoes.style.display = '';
-        aplicarFiltroEPaginacao(false);
-    } else if (modo === 'simulado') {
-        if (tabClinico) { tabClinico.classList.remove('active'); tabClinico.setAttribute('aria-selected', 'false'); }
-        if (tabProva) { tabProva.classList.remove('active'); tabProva.setAttribute('aria-selected', 'false'); }
-        if (tabSimulado) { tabSimulado.classList.add('active'); tabSimulado.setAttribute('aria-selected', 'true'); }
-        if (painelClinico) painelClinico.style.display = 'none';
-        if (painelProva) painelProva.style.display = 'none';
-        if (painelSimulado) painelSimulado.style.display = 'block';
-        if (paginacaoQtdWrap) paginacaoQtdWrap.style.display = 'none';
-        if (paginacaoTop) paginacaoTop.style.display = 'none';
-        if (paginacaoBottom) paginacaoBottom.style.display = 'none';
-        if (listaQuestoes) listaQuestoes.style.display = 'none';
-
-        // Sincroniza estado do botão iniciar com o checkbox
-        atualizarEstadoBotaoIniciarSimulado();
-        popularSelectEdicoesSimulado();
-        atualizarResumoSimulado();
-        trackGA4Event('simulado_abrir_setup', { origem: 'aba_filtro' });
+    if (tabClinico) {
+        const isClinico = (modo === 'clinico');
+        tabClinico.classList.toggle('active', isClinico);
+        tabClinico.setAttribute('aria-selected', isClinico ? 'true' : 'false');
+    }
+    if (tabProva) {
+        const isProva = (modo === 'prova');
+        tabProva.classList.toggle('active', isProva);
+        tabProva.setAttribute('aria-selected', isProva ? 'true' : 'false');
+    }
+    if (tabSimulado) {
+        const isSimulado = (modo === 'simulado');
+        tabSimulado.classList.toggle('active', isSimulado);
+        tabSimulado.setAttribute('aria-selected', isSimulado ? 'true' : 'false');
     }
 
-    trackGA4Event('alternar_modo_filtro', { 'modo': modo });
+    // Transição suave de painéis agendada no próximo quadro (evita bloqueio da thread no mobile)
+    requestAnimationFrame(() => {
+        const painelClinico = document.getElementById('painel-filtro-clinico');
+        const painelProva = document.getElementById('painel-filtro-prova');
+        const painelSimulado = document.getElementById('painel-filtro-simulado');
+        const paginacaoQtdWrap = document.querySelector('.paginacao-qtd-select-wrap');
+        const listaQuestoes = document.getElementById('lista-questoes-container');
+        const paginacaoTop = document.getElementById('paginacao-top');
+        const paginacaoBottom = document.getElementById('paginacao-bottom');
+
+        if (modo === 'clinico') {
+            if (painelClinico) painelClinico.style.display = 'block';
+            if (painelProva) painelProva.style.display = 'none';
+            if (painelSimulado) painelSimulado.style.display = 'none';
+            if (paginacaoQtdWrap) paginacaoQtdWrap.style.display = 'flex';
+            if (listaQuestoes) listaQuestoes.style.display = '';
+            aplicarFiltroEPaginacao(false);
+        } else if (modo === 'prova') {
+            if (painelClinico) painelClinico.style.display = 'none';
+            if (painelProva) painelProva.style.display = 'block';
+            if (painelSimulado) painelSimulado.style.display = 'none';
+            if (paginacaoQtdWrap) paginacaoQtdWrap.style.display = 'flex';
+            if (listaQuestoes) listaQuestoes.style.display = '';
+            aplicarFiltroEPaginacao(false);
+        } else if (modo === 'simulado') {
+            if (painelClinico) painelClinico.style.display = 'none';
+            if (painelProva) painelProva.style.display = 'none';
+            if (painelSimulado) painelSimulado.style.display = 'block';
+            if (paginacaoQtdWrap) paginacaoQtdWrap.style.display = 'none';
+            if (paginacaoTop) paginacaoTop.style.display = 'none';
+            if (paginacaoBottom) paginacaoBottom.style.display = 'none';
+            if (listaQuestoes) listaQuestoes.style.display = 'none';
+
+            // Sincroniza estado do botão iniciar com o checkbox e presets
+            atualizarEstadoBotaoIniciarSimulado();
+            popularSelectEdicoesSimulado();
+            atualizarResumoSimulado();
+            if (typeof trackGA4Event === 'function') {
+                trackGA4Event('simulado_abrir_setup', { origem: 'aba_filtro' });
+            }
+        }
+
+        if (typeof trackGA4Event === 'function') {
+            trackGA4Event('alternar_modo_filtro', { 'modo': modo });
+        }
+    });
 }
 
 function selecionarOrigemSimulado(tipo) {
@@ -38322,7 +38337,25 @@ function popularSelectEdicoesSimulado(resetEdicao = false) {
         simuladoConfig.edicao = edicoesKeys[0];
     }
 
+    // Se já foi populado para esta mesma banca, apenas atualiza seleção sem recriar nós do DOM
+    if (dropdown.getAttribute('data-banca-carregada') === simuladoConfig.banca && dropdown.children.length > 0 && !resetEdicao) {
+        const activeItem = bancaData.edicoes[simuladoConfig.edicao];
+        const activeLabel = activeItem ? `${simuladoConfig.edicao} (${activeItem.total} questões)` : simuladoConfig.edicao;
+        if (labelSpan) labelSpan.textContent = activeLabel;
+        if (hiddenInput) hiddenInput.value = simuladoConfig.edicao;
+        dropdown.querySelectorAll('.custom-select-option').forEach(btn => {
+            const isSelected = (btn.getAttribute('data-value') === simuladoConfig.edicao);
+            btn.classList.toggle('selected', isSelected);
+            btn.setAttribute('aria-selected', isSelected ? 'true' : 'false');
+        });
+        atualizarInfoEdicaoSimulado();
+        return;
+    }
+
+    dropdown.setAttribute('data-banca-carregada', simuladoConfig.banca);
     dropdown.innerHTML = '';
+    const fragment = document.createDocumentFragment();
+
     edicoesKeys.forEach(rotulo => {
         const item = bancaData.edicoes[rotulo];
         const isSelected = rotulo === simuladoConfig.edicao;
@@ -38336,8 +38369,10 @@ function popularSelectEdicoesSimulado(resetEdicao = false) {
         btn.onclick = () => selecionarEdicaoSimulado(rotulo);
         btn.innerHTML = `<span>${rotulo} (${item.total} questões)</span><svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
 
-        dropdown.appendChild(btn);
+        fragment.appendChild(btn);
     });
+
+    dropdown.appendChild(fragment);
 
     const activeItem = bancaData.edicoes[simuladoConfig.edicao];
     const activeLabel = activeItem ? `${simuladoConfig.edicao} (${activeItem.total} questões)` : simuladoConfig.edicao;
@@ -40033,13 +40068,31 @@ function inicializarPaginacaoEFiltros() {
     todosCards = Array.from(document.querySelectorAll('.card-questao'));
     if (todosCards.length === 0) return;
 
-    // 1. Constrói taxonomia clínica (Especialidade -> Temas -> Subtemas)
+    // 1. Constrói metadata em memória em um único loop O(N) para alta performance
+    cardsMetadata = new Array(todosCards.length);
     taxonomiaEspecialidades = {};
-    todosCards.forEach(card => {
-        const esp = card.getAttribute('data-especialidade') || 'Outros / Não Categorizados';
-        const tema = card.getAttribute('data-tema') || 'Geral';
-        const subtema = card.getAttribute('data-subtema') || 'Diversos';
-        
+
+    for (let i = 0; i < todosCards.length; i++) {
+        const card = todosCards[i];
+        const esp = (card.getAttribute('data-especialidade') || 'Outros / Não Categorizados').trim();
+        const tema = (card.getAttribute('data-tema') || 'Geral').trim();
+        const subtema = (card.getAttribute('data-subtema') || 'Diversos').trim();
+        const banca = (card.getAttribute('data-banca') || 'Outros').toUpperCase().trim();
+        const rotuloEdicao = (card.getAttribute('data-rotulo-edicao') || card.getAttribute('data-origem') || 'Geral').trim();
+        const ano = (card.getAttribute('data-ano') || '2026').trim();
+        const numero = (card.getAttribute('data-numero') || '').trim();
+
+        cardsMetadata[i] = {
+            card,
+            esp,
+            tema,
+            subtema,
+            banca,
+            rotuloEdicao,
+            ano,
+            numero
+        };
+
         if (!taxonomiaEspecialidades[esp]) {
             taxonomiaEspecialidades[esp] = { total: 0, temas: {} };
         }
@@ -40050,7 +40103,7 @@ function inicializarPaginacaoEFiltros() {
         }
         taxonomiaEspecialidades[esp].temas[tema].total++;
         taxonomiaEspecialidades[esp].temas[tema].subtemas[subtema] = (taxonomiaEspecialidades[esp].temas[tema].subtemas[subtema] || 0) + 1;
-    });
+    }
 
     // Monta abas de Especialidades
     const containerPills = document.getElementById('filtro-pills-container');
@@ -40109,10 +40162,12 @@ function inicializarTaxonomiaProvas() {
         'REVALIDA': { total: 0, edicoes: {} }
     };
 
-    todosCards.forEach(card => {
-        const banca = (card.getAttribute('data-banca') || 'Outros').toUpperCase();
-        const rotuloEdicao = card.getAttribute('data-rotulo-edicao') || card.getAttribute('data-origem') || 'Geral';
-        const ano = card.getAttribute('data-ano') || '2026';
+    const source = (cardsMetadata && cardsMetadata.length > 0) ? cardsMetadata : todosCards;
+    for (let i = 0; i < source.length; i++) {
+        const item = source[i];
+        const banca = item.banca || (item.getAttribute ? (item.getAttribute('data-banca') || 'Outros').toUpperCase().trim() : 'Outros');
+        const rotuloEdicao = item.rotuloEdicao || (item.getAttribute ? (item.getAttribute('data-rotulo-edicao') || item.getAttribute('data-origem') || 'Geral').trim() : 'Geral');
+        const ano = item.ano || (item.getAttribute ? (item.getAttribute('data-ano') || '2026').trim() : '2026');
         
         if (!taxonomiaProvas[banca]) {
             taxonomiaProvas[banca] = { total: 0, edicoes: {} };
@@ -40123,7 +40178,7 @@ function inicializarTaxonomiaProvas() {
             taxonomiaProvas[banca].edicoes[rotuloEdicao] = { total: 0, ano: ano, rotulo: rotuloEdicao };
         }
         taxonomiaProvas[banca].edicoes[rotuloEdicao].total++;
-    });
+    }
 
     // Renderiza pills de bancas (Todas as Provas, ENARE, REVALIDA)
     const containerBancas = document.getElementById('filtro-bancas-pills');
@@ -40785,32 +40840,50 @@ function aplicarFiltroEPaginacao(scroll = false) {
         const temaFiltro = (temaAtivo || 'TODOS').trim();
         const subtemaFiltro = (subtemaAtivo || 'TODOS').trim();
 
-        cardsFiltrados = todosCards.filter(card => {
-            const esp = (card.getAttribute('data-especialidade') || '').trim();
-            const tema = (card.getAttribute('data-tema') || '').trim();
-            const subtema = (card.getAttribute('data-subtema') || '').trim();
+        if (cardsMetadata && cardsMetadata.length > 0) {
+            cardsFiltrados = cardsMetadata.filter(item => {
+                if (espFiltro !== 'TODAS' && item.esp !== espFiltro) return false;
+                if (temaFiltro !== 'TODOS' && item.tema !== temaFiltro) return false;
+                if (subtemaFiltro !== 'TODOS' && item.subtema !== subtemaFiltro) return false;
+                return true;
+            }).map(item => item.card);
+        } else {
+            cardsFiltrados = todosCards.filter(card => {
+                const esp = (card.getAttribute('data-especialidade') || '').trim();
+                const tema = (card.getAttribute('data-tema') || '').trim();
+                const subtema = (card.getAttribute('data-subtema') || '').trim();
 
-            if (espFiltro !== 'TODAS' && esp !== espFiltro) return false;
-            if (temaFiltro !== 'TODOS' && tema !== temaFiltro) return false;
-            if (subtemaFiltro !== 'TODOS' && subtema !== subtemaFiltro) return false;
-            return true;
-        });
+                if (espFiltro !== 'TODAS' && esp !== espFiltro) return false;
+                if (temaFiltro !== 'TODOS' && tema !== temaFiltro) return false;
+                if (subtemaFiltro !== 'TODOS' && subtema !== subtemaFiltro) return false;
+                return true;
+            });
+        }
     } else {
         // Modo Prova (Banca > Ano/Edição > Questão)
         const bancaFiltro = (bancaAtiva || 'TODAS').toUpperCase();
         const edicaoFiltro = (edicaoAtiva || 'TODAS').trim();
         const numFiltro = (numeroQuestaoFiltro || '').trim();
 
-        cardsFiltrados = todosCards.filter(card => {
-            const cardBanca = (card.getAttribute('data-banca') || '').toUpperCase();
-            const cardRotulo = (card.getAttribute('data-rotulo-edicao') || card.getAttribute('data-origem') || '').trim();
-            const cardNum = (card.getAttribute('data-numero') || '').trim();
+        if (cardsMetadata && cardsMetadata.length > 0) {
+            cardsFiltrados = cardsMetadata.filter(item => {
+                if (bancaFiltro !== 'TODAS' && item.banca !== bancaFiltro) return false;
+                if (edicaoFiltro !== 'TODAS' && item.rotuloEdicao !== edicaoFiltro) return false;
+                if (numFiltro !== '' && item.numero !== numFiltro) return false;
+                return true;
+            }).map(item => item.card);
+        } else {
+            cardsFiltrados = todosCards.filter(card => {
+                const cardBanca = (card.getAttribute('data-banca') || '').toUpperCase();
+                const cardRotulo = (card.getAttribute('data-rotulo-edicao') || card.getAttribute('data-origem') || '').trim();
+                const cardNum = (card.getAttribute('data-numero') || '').trim();
 
-            if (bancaFiltro !== 'TODAS' && cardBanca !== bancaFiltro) return false;
-            if (edicaoFiltro !== 'TODAS' && cardRotulo !== edicaoFiltro) return false;
-            if (numFiltro !== '' && cardNum !== numFiltro) return false;
-            return true;
-        });
+                if (bancaFiltro !== 'TODAS' && cardBanca !== bancaFiltro) return false;
+                if (edicaoFiltro !== 'TODAS' && cardRotulo !== edicaoFiltro) return false;
+                if (numFiltro !== '' && cardNum !== numFiltro) return false;
+                return true;
+            });
+        }
 
         // Atualiza status textual da busca por questão
         const statusEl = document.getElementById('filtro-questao-status');
@@ -40845,13 +40918,29 @@ function aplicarFiltroEPaginacao(scroll = false) {
         wrapper.setAttribute('data-cards-visiveis', setVisiveis.size.toString());
     }
 
-    todosCards.forEach(card => {
-        if (setVisiveis.has(card)) {
-            card.classList.remove('paginacao-oculto');
-        } else {
-            card.classList.add('paginacao-oculto');
-        }
-    });
+    // Otimização DOM de alta performance: Diffing de visibilidade
+    // Evita percorrer todos os 1444 cards e mutar classList forçando reflow global
+    if (!cardsVisiveisAtuais || cardsVisiveisAtuais.size === 0) {
+        todosCards.forEach(card => {
+            if (setVisiveis.has(card)) {
+                card.classList.remove('paginacao-oculto');
+            } else {
+                card.classList.add('paginacao-oculto');
+            }
+        });
+    } else {
+        cardsVisiveisAtuais.forEach(card => {
+            if (!setVisiveis.has(card)) {
+                card.classList.add('paginacao-oculto');
+            }
+        });
+        setVisiveis.forEach(card => {
+            if (!cardsVisiveisAtuais.has(card)) {
+                card.classList.remove('paginacao-oculto');
+            }
+        });
+    }
+    cardsVisiveisAtuais = setVisiveis;
 
     // Renderiza barras de paginação
     renderizarBarrasPaginacao(totalItens, totalPaginas, inicio + 1, fim);
