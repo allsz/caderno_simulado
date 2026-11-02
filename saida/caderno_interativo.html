@@ -37505,9 +37505,63 @@ let simuladoConfig = {
     termoAceito: false
 };
 
+// ========================================================
+// Restauração Centralizada da Interface Global do Caderno
+// ========================================================
+function restaurarElementosInterfaceGlobal() {
+    // 1. Remove qualquer bloqueio de layout de sessão ativa do Simulado
+    document.documentElement.classList.remove('simulado-sessao-ativa');
+
+    // 2. Garante a restauração completa de todos os componentes do Topbar e Header
+    const progressTopbar = document.querySelector('.progress-container');
+    if (progressTopbar) progressTopbar.style.display = '';
+
+    const btnResetTopbar = document.getElementById('btn-reset-respostas');
+    if (btnResetTopbar) btnResetTopbar.style.display = '';
+
+    const btnExportar = document.getElementById('btn-exportar-backup');
+    if (btnExportar) btnExportar.style.display = '';
+
+    const btnImportar = document.getElementById('btn-importar-backup');
+    if (btnImportar) btnImportar.style.display = '';
+
+    const btnAviso = document.getElementById('btn-aviso-toggle');
+    if (btnAviso) btnAviso.style.display = '';
+
+    const btnDark = document.getElementById('btn-toggle-darkmode');
+    if (btnDark) btnDark.style.display = '';
+
+    // 3. Restaura blocos estruturais da página principal
+    const hero = document.querySelector('.header-hero');
+    if (hero) hero.style.display = '';
+
+    const kofi = document.querySelector('.kofi-banner');
+    if (kofi) kofi.style.display = '';
+
+    const filtroSec = document.querySelector('.filtro-section');
+    if (filtroSec) filtroSec.style.display = '';
+
+    const painelStats = document.getElementById('painel-estatisticas');
+    if (painelStats) painelStats.style.display = '';
+
+    // 4. Oculta com segurança a casca do simulado ativo
+    const containerSimulado = document.getElementById('simulado-ativo-container');
+    if (containerSimulado) containerSimulado.style.display = 'none';
+
+    // 5. Atualiza a barra de progresso do topo com os dados atuais
+    if (typeof atualizarEstatisticas === 'function') {
+        atualizarEstatisticas();
+    }
+}
+
 function alternarModoFiltro(modo) {
     modoFiltroAtivo = modo;
     paginaAtual = 1;
+
+    // Se não houver simulado em andamento ativo, assegura a integridade do cabeçalho e elementos globais
+    if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') {
+        restaurarElementosInterfaceGlobal();
+    }
 
     const tabClinico = document.getElementById('tab-modo-clinico');
     const tabProva = document.getElementById('tab-modo-prova');
@@ -38991,11 +39045,6 @@ function iniciarNovoSimuladoSetup() {
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
     window.simuladoAtivo = null;
-    document.documentElement.classList.remove('simulado-sessao-ativa');
-
-    // Ocultar container de simulado ativo
-    const containerSimulado = document.getElementById('simulado-ativo-container');
-    if (containerSimulado) containerSimulado.style.display = 'none';
 
     const listaSim = document.getElementById('simulado-questoes-lista');
     if (listaSim) {
@@ -39004,15 +39053,8 @@ function iniciarNovoSimuladoSetup() {
         listaSim.classList.remove('desclassificado');
     }
 
-    // Restaurar visão
-    const hero = document.querySelector('.header-hero');
-    if (hero) hero.style.display = '';
-
-    const kofi = document.querySelector('.kofi-banner');
-    if (kofi) kofi.style.display = '';
-
-    const filtroSec = document.querySelector('.filtro-section');
-    if (filtroSec) filtroSec.style.display = '';
+    // Restaura interface global e controles do header
+    restaurarElementosInterfaceGlobal();
 
     // Entra na aba do simulado (Wizard)
     alternarModoFiltro('simulado');
@@ -39041,11 +39083,6 @@ function retornarAoCadernoNormal() {
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
     window.simuladoAtivo = null;
-    document.documentElement.classList.remove('simulado-sessao-ativa');
-
-    // Ocultar container de simulado ativo
-    const containerSimulado = document.getElementById('simulado-ativo-container');
-    if (containerSimulado) containerSimulado.style.display = 'none';
 
     const listaSim = document.getElementById('simulado-questoes-lista');
     if (listaSim) {
@@ -39054,33 +39091,11 @@ function retornarAoCadernoNormal() {
         listaSim.classList.remove('desclassificado');
     }
 
-    // Restaurar visão normal do caderno
-    const hero = document.querySelector('.header-hero');
-    if (hero) hero.style.display = '';
-
-    const kofi = document.querySelector('.kofi-banner');
-    if (kofi) kofi.style.display = '';
-
-    const filtroSec = document.querySelector('.filtro-section');
-    if (filtroSec) filtroSec.style.display = '';
+    // Restaura visão normal do caderno e controles globais do header
+    restaurarElementosInterfaceGlobal();
 
     const listaNormal = document.getElementById('lista-questoes-container');
     if (listaNormal) listaNormal.style.display = '';
-
-    const painelStats = document.getElementById('painel-estatisticas');
-    if (painelStats) painelStats.style.display = '';
-
-    const progressTopbar = document.querySelector('.progress-container');
-    if (progressTopbar) progressTopbar.style.display = '';
-
-    const btnResetTopbar = document.getElementById('btn-reset-respostas');
-    if (btnResetTopbar) btnResetTopbar.style.display = '';
-
-    const btnExportar = document.getElementById('btn-exportar-backup');
-    if (btnExportar) btnExportar.style.display = '';
-
-    const btnImportar = document.getElementById('btn-importar-backup');
-    if (btnImportar) btnImportar.style.display = '';
 
     // Retorna ao modo clínico (estudos normais)
     alternarModoFiltro('clinico');
