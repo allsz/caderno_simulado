@@ -5249,6 +5249,45 @@ window.testarEfeitoSimulado = function(cenario = 1) {
     dispararEfeitoFinalizacao(cenario, { total, acertos, taxa }, true);
 };
 
+// ========================================================
+// Warm-up Silencioso da Interface em Segundo Plano (Background Idle)
+// ========================================================
+function iniciarWarmUpInterfaceIdle() {
+    const executarWarmUp = () => {
+        // 1. Pré-aquece os painéis de filtro ('prova' e 'simulado') de forma invisível
+        // para que a engine do navegador (Blink/WebKit) pré-calcule estilos, layouts e layers da GPU
+        // antes do primeiro clique do usuário, eliminando o travamento de 'Cold Start'.
+        const painelProva = document.getElementById('painel-filtro-prova');
+        const painelSimulado = document.getElementById('painel-filtro-simulado');
+
+        [painelProva, painelSimulado].forEach(p => {
+            if (p && p.style.display === 'none') {
+                p.style.visibility = 'hidden';
+                p.style.position = 'absolute';
+                p.style.display = 'block';
+                void p.offsetHeight; // Força resolução de layout e estilos no style cache do navegador
+                p.style.display = 'none';
+                p.style.position = '';
+                p.style.visibility = '';
+            }
+        });
+
+        // 2. Pré-aquece dados e estrutura do modo simulado
+        if (typeof popularSelectEdicoesSimulado === 'function') {
+            popularSelectEdicoesSimulado();
+        }
+        if (typeof atualizarResumoSimulado === 'function') {
+            atualizarResumoSimulado();
+        }
+    };
+
+    if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(executarWarmUp, { timeout: 1000 });
+    } else {
+        setTimeout(executarWarmUp, 150);
+    }
+}
+
 // Inicialização completa
 initTheme();
 window.addEventListener('DOMContentLoaded', () => {
@@ -5256,6 +5295,7 @@ window.addEventListener('DOMContentLoaded', () => {
     inicializarPaginacaoEFiltros();
     configurarInteracoesZoom();
     verificarRestauracaoSimulado();
+    iniciarWarmUpInterfaceIdle();
 });
 if (document.readyState !== 'loading') {
     configurarInteracoesZoom();

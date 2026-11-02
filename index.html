@@ -532,6 +532,7 @@ h1 {
     justify-content: center;
     gap: 22px;
     width: 100%;
+    contain: layout;
 }
 
 /* Card da Questão com Otimização de Performance */
@@ -547,6 +548,7 @@ h1 {
     transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.25s ease, transform 0.25s ease;
     content-visibility: auto;
     contain-intrinsic-size: auto 320px;
+    contain: layout style;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
 
@@ -5454,6 +5456,7 @@ html.simulado-sessao-ativa #simulado-ativo-container {
 /* Ocultação limpa de cards fora da página ativa */
 .card-questao.paginacao-oculto {
     display: none !important;
+    content-visibility: hidden !important;
 }
 
 .especialidade.paginacao-oculto,
@@ -42922,6 +42925,45 @@ window.testarEfeitoSimulado = function(cenario = 1) {
     dispararEfeitoFinalizacao(cenario, { total, acertos, taxa }, true);
 };
 
+// ========================================================
+// Warm-up Silencioso da Interface em Segundo Plano (Background Idle)
+// ========================================================
+function iniciarWarmUpInterfaceIdle() {
+    const executarWarmUp = () => {
+        // 1. Pré-aquece os painéis de filtro ('prova' e 'simulado') de forma invisível
+        // para que a engine do navegador (Blink/WebKit) pré-calcule estilos, layouts e layers da GPU
+        // antes do primeiro clique do usuário, eliminando o travamento de 'Cold Start'.
+        const painelProva = document.getElementById('painel-filtro-prova');
+        const painelSimulado = document.getElementById('painel-filtro-simulado');
+
+        [painelProva, painelSimulado].forEach(p => {
+            if (p && p.style.display === 'none') {
+                p.style.visibility = 'hidden';
+                p.style.position = 'absolute';
+                p.style.display = 'block';
+                void p.offsetHeight; // Força resolução de layout e estilos no style cache do navegador
+                p.style.display = 'none';
+                p.style.position = '';
+                p.style.visibility = '';
+            }
+        });
+
+        // 2. Pré-aquece dados e estrutura do modo simulado
+        if (typeof popularSelectEdicoesSimulado === 'function') {
+            popularSelectEdicoesSimulado();
+        }
+        if (typeof atualizarResumoSimulado === 'function') {
+            atualizarResumoSimulado();
+        }
+    };
+
+    if ('requestIdleCallback' in window) {
+        window.requestIdleCallback(executarWarmUp, { timeout: 1000 });
+    } else {
+        setTimeout(executarWarmUp, 150);
+    }
+}
+
 // Inicialização completa
 initTheme();
 window.addEventListener('DOMContentLoaded', () => {
@@ -42929,6 +42971,7 @@ window.addEventListener('DOMContentLoaded', () => {
     inicializarPaginacaoEFiltros();
     configurarInteracoesZoom();
     verificarRestauracaoSimulado();
+    iniciarWarmUpInterfaceIdle();
 });
 if (document.readyState !== 'loading') {
     configurarInteracoesZoom();
