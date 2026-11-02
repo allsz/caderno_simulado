@@ -494,8 +494,6 @@ h1 {
     margin-bottom: 0;
     height: auto;
     transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.25s ease, transform 0.25s ease;
-    content-visibility: auto;
-    contain-intrinsic-size: auto 320px;
     contain: layout style;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
@@ -623,16 +621,14 @@ h1 {
     touch-action: manipulation;
 }
 
-.alternativa.selected,
-.alternativa:has(input[type="radio"]:checked):not(.correct):not(.incorrect) {
+.alternativa.selected:not(.correct):not(.incorrect) {
     background: #eff6ff !important;
     border-color: #3b82f6 !important;
     color: #1e40af !important;
     font-weight: 600 !important;
 }
 
-[data-theme="dark"] .alternativa.selected,
-[data-theme="dark"] .alternativa:has(input[type="radio"]:checked):not(.correct):not(.incorrect) {
+[data-theme="dark"] .alternativa.selected:not(.correct):not(.incorrect) {
     background: #1e3a8a !important;
     border-color: #3b82f6 !important;
     color: #ffffff !important;
@@ -4261,7 +4257,6 @@ h1 {
 
 /* Blind Mode: Alternativas selecionadas neutras sem indicação de certo/errado durante a prova */
 .card-questao-simulado:not(.modo-revisao) .alternativa.selected,
-.card-questao-simulado:not(.modo-revisao) .alternativa:has(input[type="radio"]:checked),
 .card-questao-simulado:not(.modo-revisao) .alternativa.correct,
 .card-questao-simulado:not(.modo-revisao) .alternativa.incorrect {
     background: #eff6ff !important;
@@ -4271,7 +4266,6 @@ h1 {
 }
 
 [data-theme="dark"] .card-questao-simulado:not(.modo-revisao) .alternativa.selected,
-[data-theme="dark"] .card-questao-simulado:not(.modo-revisao) .alternativa:has(input[type="radio"]:checked),
 [data-theme="dark"] .card-questao-simulado:not(.modo-revisao) .alternativa.correct,
 [data-theme="dark"] .card-questao-simulado:not(.modo-revisao) .alternativa.incorrect {
     background: #1e3a8a !important;
@@ -6048,16 +6042,14 @@ html.simulado-sessao-ativa #simulado-ativo-container {
     background: var(--alt-hover-bg);
 }
 
-.erro-item-expandido-container .alternativa.selected:not(.correct):not(.incorrect),
-.erro-item-expandido-container .alternativa:has(input[type="radio"]:checked):not(.correct):not(.incorrect) {
+.erro-item-expandido-container .alternativa.selected:not(.correct):not(.incorrect) {
     border-color: #3b82f6 !important;
     background: #eff6ff !important;
     color: #1e40af !important;
     font-weight: 600 !important;
 }
 
-[data-theme='dark'] .erro-item-expandido-container .alternativa.selected:not(.correct):not(.incorrect),
-[data-theme='dark'] .erro-item-expandido-container .alternativa:has(input[type="radio"]:checked):not(.correct):not(.incorrect) {
+[data-theme='dark'] .erro-item-expandido-container .alternativa.selected:not(.correct):not(.incorrect) {
     background: #1e3a8a !important;
     border-color: #3b82f6 !important;
     color: #ffffff !important;

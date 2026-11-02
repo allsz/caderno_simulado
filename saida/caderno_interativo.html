@@ -546,8 +546,6 @@ h1 {
     margin-bottom: 0;
     height: auto;
     transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.25s ease, transform 0.25s ease;
-    content-visibility: auto;
-    contain-intrinsic-size: auto 320px;
     contain: layout style;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
 }
@@ -675,16 +673,14 @@ h1 {
     touch-action: manipulation;
 }
 
-.alternativa.selected,
-.alternativa:has(input[type="radio"]:checked):not(.correct):not(.incorrect) {
+.alternativa.selected:not(.correct):not(.incorrect) {
     background: #eff6ff !important;
     border-color: #3b82f6 !important;
     color: #1e40af !important;
     font-weight: 600 !important;
 }
 
-[data-theme="dark"] .alternativa.selected,
-[data-theme="dark"] .alternativa:has(input[type="radio"]:checked):not(.correct):not(.incorrect) {
+[data-theme="dark"] .alternativa.selected:not(.correct):not(.incorrect) {
     background: #1e3a8a !important;
     border-color: #3b82f6 !important;
     color: #ffffff !important;
@@ -4313,7 +4309,6 @@ h1 {
 
 /* Blind Mode: Alternativas selecionadas neutras sem indicação de certo/errado durante a prova */
 .card-questao-simulado:not(.modo-revisao) .alternativa.selected,
-.card-questao-simulado:not(.modo-revisao) .alternativa:has(input[type="radio"]:checked),
 .card-questao-simulado:not(.modo-revisao) .alternativa.correct,
 .card-questao-simulado:not(.modo-revisao) .alternativa.incorrect {
     background: #eff6ff !important;
@@ -4323,7 +4318,6 @@ h1 {
 }
 
 [data-theme="dark"] .card-questao-simulado:not(.modo-revisao) .alternativa.selected,
-[data-theme="dark"] .card-questao-simulado:not(.modo-revisao) .alternativa:has(input[type="radio"]:checked),
 [data-theme="dark"] .card-questao-simulado:not(.modo-revisao) .alternativa.correct,
 [data-theme="dark"] .card-questao-simulado:not(.modo-revisao) .alternativa.incorrect {
     background: #1e3a8a !important;
@@ -6100,16 +6094,14 @@ html.simulado-sessao-ativa #simulado-ativo-container {
     background: var(--alt-hover-bg);
 }
 
-.erro-item-expandido-container .alternativa.selected:not(.correct):not(.incorrect),
-.erro-item-expandido-container .alternativa:has(input[type="radio"]:checked):not(.correct):not(.incorrect) {
+.erro-item-expandido-container .alternativa.selected:not(.correct):not(.incorrect) {
     border-color: #3b82f6 !important;
     background: #eff6ff !important;
     color: #1e40af !important;
     font-weight: 600 !important;
 }
 
-[data-theme='dark'] .erro-item-expandido-container .alternativa.selected:not(.correct):not(.incorrect),
-[data-theme='dark'] .erro-item-expandido-container .alternativa:has(input[type="radio"]:checked):not(.correct):not(.incorrect) {
+[data-theme='dark'] .erro-item-expandido-container .alternativa.selected:not(.correct):not(.incorrect) {
     background: #1e3a8a !important;
     border-color: #3b82f6 !important;
     color: #ffffff !important;
@@ -37801,8 +37793,8 @@ const _mapaCardsPorId = new Map();
 function construirIndicesDOMSeNecessario() {
     if (_indicesDOMConstruidos && _mapaRadiosPorNomeEValor.size > 0) return;
 
-    // Indexa todos os cards presentes no DOM
-    const cards = document.querySelectorAll('.card-questao');
+    // Indexa todos os cards (tanto do array em memória quanto do DOM inicial)
+    const cards = (todosCards && todosCards.length > 0) ? todosCards : document.querySelectorAll('.card-questao');
     for (let i = 0; i < cards.length; i++) {
         const card = cards[i];
         if (card.id) {
@@ -37817,24 +37809,46 @@ function construirIndicesDOMSeNecessario() {
                 _mapaCardsPorId.set('card_' + baseClean, card);
             }
         }
+
+        // Indexa os inputs de radio pertencentes ao card (funciona mesmo com card desanexado do DOM)
+        const radiosCard = card.querySelectorAll ? card.querySelectorAll('input[type="radio"]') : [];
+        for (let j = 0; j < radiosCard.length; j++) {
+            const r = radiosCard[j];
+            const name = r.name;
+            const val = r.value;
+            if (!name) continue;
+
+            _mapaRadiosPorNomeEValor.set(`${name}:::${val}`, r);
+            if (!_mapaRadiosPorNome.has(name)) {
+                _mapaRadiosPorNome.set(name, r);
+                const clean = name.replace(/^q_/, '');
+                _mapaRadiosPorCleanKey.set(clean, name);
+                const baseClean = extrairBaseIdAntigo(clean);
+                if (baseClean !== clean) {
+                    _mapaRadiosPorCleanKey.set(baseClean, name);
+                }
+            }
+        }
     }
 
-    // Indexa todos os inputs de radio de alternativas
-    const radios = document.querySelectorAll('input[type="radio"]');
-    for (let i = 0; i < radios.length; i++) {
-        const r = radios[i];
-        const name = r.name;
-        const val = r.value;
-        if (!name) continue;
+    // Fallback caso haja radios avulsos no documento
+    if (_mapaRadiosPorNomeEValor.size === 0) {
+        const radios = document.querySelectorAll('input[type="radio"]');
+        for (let i = 0; i < radios.length; i++) {
+            const r = radios[i];
+            const name = r.name;
+            const val = r.value;
+            if (!name) continue;
 
-        _mapaRadiosPorNomeEValor.set(`${name}:::${val}`, r);
-        if (!_mapaRadiosPorNome.has(name)) {
-            _mapaRadiosPorNome.set(name, r);
-            const clean = name.replace(/^q_/, '');
-            _mapaRadiosPorCleanKey.set(clean, name);
-            const baseClean = extrairBaseIdAntigo(clean);
-            if (baseClean !== clean) {
-                _mapaRadiosPorCleanKey.set(baseClean, name);
+            _mapaRadiosPorNomeEValor.set(`${name}:::${val}`, r);
+            if (!_mapaRadiosPorNome.has(name)) {
+                _mapaRadiosPorNome.set(name, r);
+                const clean = name.replace(/^q_/, '');
+                _mapaRadiosPorCleanKey.set(clean, name);
+                const baseClean = extrairBaseIdAntigo(clean);
+                if (baseClean !== clean) {
+                    _mapaRadiosPorCleanKey.set(baseClean, name);
+                }
             }
         }
     }
@@ -37983,7 +37997,7 @@ function atualizarEstatisticas() {
 function toggleResposta(qId) {
     const card = typeof encontrarCardQuestao === 'function' ? encontrarCardQuestao(qId) : document.getElementById('card_' + qId);
     const realQId = card ? card.id.replace(/^card_/, '') : qId;
-    const box = document.getElementById('box_' + realQId) || document.getElementById('box_' + qId);
+    const box = document.getElementById('box_' + realQId) || document.getElementById('box_' + qId) || (card && card.querySelector ? card.querySelector('.gabarito-box') : null);
     if (box) {
         const isHidden = (box.style.display === 'none' || box.style.display === '');
         box.style.display = isHidden ? 'block' : 'none';
@@ -38075,40 +38089,46 @@ function salvarResposta(qId, valor, gabarito) {
 
 
 function atualizarEstiloQuestao(qId, valor, gabarito) {
-    const card = document.getElementById('card_' + qId);
-    if (card) card.classList.add('answered');
+    const card = _mapaCardsPorId.get('card_' + qId) || _mapaCardsPorId.get(qId) || document.getElementById('card_' + qId);
+    if (card && card.classList) card.classList.add('answered');
     
-    document.querySelectorAll(`input[name="${qId}"]`).forEach(r => {
-        const lbl = document.getElementById(`label_${qId}_${r.value}`);
-        if (lbl) lbl.classList.remove('selected', 'correct', 'incorrect');
+    const radios = (card && card.querySelectorAll) ? card.querySelectorAll('input[type="radio"]') : document.querySelectorAll(`input[name="${qId}"]`);
+    radios.forEach(r => {
+        const lbl = (r.closest ? r.closest('.alternativa') : null) || document.getElementById(`label_${qId}_${r.value}`);
+        if (lbl && lbl.classList) lbl.classList.remove('selected', 'correct', 'incorrect');
     });
 
-    const labelSelecionada = document.getElementById(`label_${qId}_${valor}`);
-    if (labelSelecionada) labelSelecionada.classList.add('selected');
+    const rSel = _mapaRadiosPorNomeEValor.get(`${qId}:::${valor}`);
+    const labelSelecionada = (rSel && rSel.closest ? rSel.closest('.alternativa') : null) || document.getElementById(`label_${qId}_${valor}`);
+    if (labelSelecionada && labelSelecionada.classList) labelSelecionada.classList.add('selected');
 
-    const box = document.getElementById('box_' + qId);
-    if (box && box.style.display === 'block') {
+    const box = (card && card.querySelector ? card.querySelector('.gabarito-box') : null) || document.getElementById('box_' + qId);
+    if (box && box.style && box.style.display === 'block') {
         revelarFeedbackGabarito(qId);
     }
 }
 
 function revelarFeedbackGabarito(qId) {
-    const radioSelecionado = document.querySelector(`input[name="${qId}"]:checked`);
+    const card = _mapaCardsPorId.get('card_' + qId) || _mapaCardsPorId.get(qId) || document.getElementById('card_' + qId);
+    const root = (card && card.querySelector) ? card : document;
+    const radioSelecionado = root.querySelector(`input[name="${qId}"]:checked`);
     const valor = radioSelecionado ? radioSelecionado.value : null;
-    const radioQualquer = document.querySelector(`input[name="${qId}"]`);
+    const radioQualquer = root.querySelector(`input[name="${qId}"]`);
     const gabarito = radioQualquer ? radioQualquer.getAttribute('data-gabarito') : null;
 
     if (!gabarito || gabarito === 'N/A' || gabarito === 'ANULADA') return;
 
-    const labelCorreta = document.getElementById(`label_${qId}_${gabarito}`);
-    if (labelCorreta) labelCorreta.classList.add('correct');
+    const rCorreta = _mapaRadiosPorNomeEValor.get(`${qId}:::${gabarito}`);
+    const labelCorreta = (rCorreta && rCorreta.closest ? rCorreta.closest('.alternativa') : null) || document.getElementById(`label_${qId}_${gabarito}`);
+    if (labelCorreta && labelCorreta.classList) labelCorreta.classList.add('correct');
 
     if (valor) {
-        const labelSelecionada = document.getElementById(`label_${qId}_${valor}`);
+        const rSel = _mapaRadiosPorNomeEValor.get(`${qId}:::${valor}`);
+        const labelSelecionada = (rSel && rSel.closest ? rSel.closest('.alternativa') : null) || document.getElementById(`label_${qId}_${valor}`);
         if (valor === gabarito) {
-            if (labelSelecionada) labelSelecionada.classList.add('correct');
+            if (labelSelecionada && labelSelecionada.classList) labelSelecionada.classList.add('correct');
         } else {
-            if (labelSelecionada) labelSelecionada.classList.add('incorrect');
+            if (labelSelecionada && labelSelecionada.classList) labelSelecionada.classList.add('incorrect');
         }
     }
 }
@@ -38922,7 +38942,7 @@ function renderizarTelaSimuladoAtivo(isRestauracao = false) {
         const fragment = document.createDocumentFragment();
 
         window.simuladoAtivo.questoes.forEach((qId, idx) => {
-            const cardOriginal = document.getElementById('card_' + qId);
+            const cardOriginal = _mapaCardsPorId.get('card_' + qId) || document.getElementById('card_' + qId) || encontrarCardQuestao(qId);
             if (cardOriginal) {
                 const respSalva = window.simuladoAtivo.respostas ? window.simuladoAtivo.respostas[qId] : null;
                 const cardClonado = renderizarCardQuestaoSimulado(cardOriginal, idx + 1, window.simuladoAtivo.totalQuestoes, respSalva);
@@ -39328,7 +39348,7 @@ function executarEntregaSimulado(porTempo = false) {
 
     window.simuladoAtivo.questoes.forEach(qId => {
         const respDada = window.simuladoAtivo.respostas ? window.simuladoAtivo.respostas[qId] : null;
-        const cardOriginal = document.getElementById('card_' + qId);
+        const cardOriginal = _mapaCardsPorId.get('card_' + qId) || document.getElementById('card_' + qId) || encontrarCardQuestao(qId);
         let gabarito = null;
 
         if (cardOriginal) {
@@ -39578,7 +39598,7 @@ function liberarModoRevisaoSimulado() {
         cardSim.classList.add('modo-revisao');
 
         // Descobre gabarito oficial do card original
-        const cardOriginal = document.getElementById('card_' + qId);
+        const cardOriginal = _mapaCardsPorId.get('card_' + qId) || document.getElementById('card_' + qId) || encontrarCardQuestao(qId);
         let gabarito = null;
         if (cardOriginal) {
             const radio = cardOriginal.querySelector('input[type="radio"]');
@@ -39774,7 +39794,7 @@ function executarDesclassificacaoSimulado() {
 
     window.simuladoAtivo.questoes.forEach(qId => {
         const respDada = window.simuladoAtivo.respostas ? window.simuladoAtivo.respostas[qId] : null;
-        const cardOriginal = document.getElementById('card_' + qId);
+        const cardOriginal = _mapaCardsPorId.get('card_' + qId) || document.getElementById('card_' + qId) || encontrarCardQuestao(qId);
         let gabarito = null;
 
         if (cardOriginal) {
@@ -40075,6 +40095,9 @@ document.addEventListener('click', function(e) {
 function inicializarPaginacaoEFiltros() {
     todosCards = Array.from(document.querySelectorAll('.card-questao'));
     if (todosCards.length === 0) return;
+
+    // Indexa todos os cards e inputs em memória antes de virtualizar o DOM
+    construirIndicesDOMSeNecessario();
 
     // Inicializa o Set com os primeiros 25 cards que já vêm visíveis diretamente do HTML
     cardsVisiveisAtuais = new Set(todosCards.slice(0, itensPorPagina));
@@ -40921,33 +40944,52 @@ function aplicarFiltroEPaginacao(scroll = false) {
         fim = Math.min(inicio + itensPorPagina, totalItens);
     }
 
-    const setVisiveis = new Set(cardsFiltrados.slice(inicio, fim));
+    const cardsPagina = cardsFiltrados.slice(inicio, fim);
+    const setVisiveis = new Set(cardsPagina);
 
-    // Aplica visibilidade nos cards e atualiza contagem visível no container
+    // Virtualização DOM de alta performance:
+    // Mantém montados no DOM ativo (#lista-questoes-container) APENAS os cards da página atual (~25 cards),
+    // mantendo os demais ~1.419 cards em memória (todosCards / _mapaCardsPorId).
+    // Isso reduz a árvore DOM ativa em 98.3% e elimina o congelamento de Layout/Accessibility no mobile e desktop.
     const wrapper = document.getElementById('lista-questoes-container');
     if (wrapper) {
-        wrapper.setAttribute('data-cards-visiveis', setVisiveis.size.toString());
-    }
+        const qtdStr = cardsPagina.length.toString();
+        if (wrapper.getAttribute('data-cards-visiveis') !== qtdStr) {
+            wrapper.setAttribute('data-cards-visiveis', qtdStr);
+        }
 
-    // Otimização DOM de alta performance: Diffing de visibilidade
-    // Evita percorrer todos os 1444 cards e mutar classList forçando reflow global
-    if (!cardsVisiveisAtuais || cardsVisiveisAtuais.size === 0) {
+        let precisaAtualizarDOM = !wrapper.children || wrapper.children.length !== cardsPagina.length;
+        if (!precisaAtualizarDOM) {
+            for (let i = 0; i < cardsPagina.length; i++) {
+                if (wrapper.children[i] !== cardsPagina[i]) {
+                    precisaAtualizarDOM = true;
+                    break;
+                }
+            }
+        }
+
+        if (precisaAtualizarDOM) {
+            for (let i = 0; i < cardsPagina.length; i++) {
+                if (cardsPagina[i].classList) {
+                    cardsPagina[i].classList.remove('paginacao-oculto');
+                }
+            }
+            if (typeof wrapper.replaceChildren === 'function') {
+                wrapper.replaceChildren(...cardsPagina);
+            } else {
+                wrapper.innerHTML = '';
+                if (Array.isArray(wrapper.children)) wrapper.children.length = 0;
+                for (let i = 0; i < cardsPagina.length; i++) {
+                    wrapper.appendChild(cardsPagina[i]);
+                }
+            }
+        }
+    } else {
         todosCards.forEach(card => {
             if (setVisiveis.has(card)) {
                 card.classList.remove('paginacao-oculto');
             } else {
                 card.classList.add('paginacao-oculto');
-            }
-        });
-    } else {
-        cardsVisiveisAtuais.forEach(card => {
-            if (!setVisiveis.has(card)) {
-                card.classList.add('paginacao-oculto');
-            }
-        });
-        setVisiveis.forEach(card => {
-            if (!cardsVisiveisAtuais.has(card)) {
-                card.classList.remove('paginacao-oculto');
             }
         });
     }
@@ -41175,10 +41217,15 @@ function fecharConfirmResetModal(e) {
 
 function executarLimparRespostas() {
     localStorage.removeItem(STORAGE_KEY);
-    document.querySelectorAll('input[type="radio"]').forEach(r => r.checked = false);
-    document.querySelectorAll('.card-questao').forEach(c => c.classList.remove('answered'));
-    document.querySelectorAll('.alternativa').forEach(l => l.classList.remove('selected', 'correct', 'incorrect'));
-    document.querySelectorAll('.gabarito-box').forEach(b => b.style.display = 'none');
+    const fonteCards = (todosCards && todosCards.length > 0) ? todosCards : document.querySelectorAll('.card-questao');
+    fonteCards.forEach(c => {
+        if (c.classList) c.classList.remove('answered');
+        if (c.querySelectorAll) {
+            c.querySelectorAll('input[type="radio"]').forEach(r => { r.checked = false; });
+            c.querySelectorAll('.alternativa').forEach(l => l.classList.remove('selected', 'correct', 'incorrect'));
+            c.querySelectorAll('.gabarito-box').forEach(b => { b.style.display = 'none'; });
+        }
+    });
     atualizarBarra(0);
     atualizarEstatisticas();
     encerrarEfeitosSimulado(true);
@@ -41343,7 +41390,7 @@ function encontrarCardQuestao(qId) {
     if (!qId) return null;
     if (_cardDOMCache.has(qId)) {
         const cached = _cardDOMCache.get(qId);
-        if (cached && document.body.contains(cached)) return cached;
+        if (cached) return cached;
     }
 
     construirIndicesDOMSeNecessario();
@@ -41407,25 +41454,27 @@ function coletarErrosHierarquicos() {
             const esp = card.getAttribute('data-especialidade') || 'Cirurgia Geral';
             const tema = card.getAttribute('data-tema') || 'Geral';
             
-            // Extração infalível da tag
+            // Extração infalível da tag (suporta cards destacados do DOM via textContent)
             let tagTexto = '';
             const tagOrigemEl = card.querySelector('.tag-origem');
-            if (tagOrigemEl && tagOrigemEl.innerText.trim()) {
-                tagTexto = tagOrigemEl.innerText.replace(/\s+/g, ' ').trim();
+            const rawTag = tagOrigemEl ? (tagOrigemEl.textContent || tagOrigemEl.innerText || '') : '';
+            if (rawTag.trim()) {
+                tagTexto = rawTag.replace(/\s+/g, ' ').trim();
             } else {
                 tagTexto = `${card.id.replace('card_q_', '').replace('card_', '')} • ${tema}`;
             }
 
-            // Extração infalível do enunciado
+            // Extração infalível do enunciado (suporta cards destacados do DOM via textContent)
             let enuncTexto = '';
             const enuncEl = card.querySelector('.enunciado');
-            if (enuncEl && enuncEl.innerText.trim()) {
-                enuncTexto = enuncEl.innerText.replace(/\s+/g, ' ').trim();
+            const rawEnunc = enuncEl ? (enuncEl.textContent || enuncEl.innerText || '') : '';
+            if (rawEnunc.trim()) {
+                enuncTexto = rawEnunc.replace(/\s+/g, ' ').trim();
             }
             if (!enuncTexto) {
                 const clone = card.cloneNode(true);
                 clone.querySelectorAll('.alternativas-container, .gabarito-box, button, .tag-origem').forEach(el => el.remove());
-                enuncTexto = clone.innerText.replace(/\s+/g, ' ').trim();
+                enuncTexto = (clone.textContent || clone.innerText || '').replace(/\s+/g, ' ').trim();
             }
             if (!enuncTexto) {
                 enuncTexto = 'Clique em "Ver Questão 🔍" para visualizar esta questão completa no simulado.';
@@ -42936,8 +42985,8 @@ window.testarEfeitoSimulado = function(cenario = 1) {
 // Inicialização completa
 initTheme();
 window.addEventListener('DOMContentLoaded', () => {
-    carregarRespostas();
     inicializarPaginacaoEFiltros();
+    carregarRespostas();
     configurarInteracoesZoom();
     verificarRestauracaoSimulado();
 });
