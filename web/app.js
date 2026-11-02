@@ -2395,6 +2395,9 @@ function inicializarPaginacaoEFiltros() {
     todosCards = Array.from(document.querySelectorAll('.card-questao'));
     if (todosCards.length === 0) return;
 
+    // Inicializa o Set com os primeiros 25 cards que já vêm visíveis diretamente do HTML
+    cardsVisiveisAtuais = new Set(todosCards.slice(0, itensPorPagina));
+
     // 1. Constrói metadata em memória em um único loop O(N) para alta performance
     cardsMetadata = new Array(todosCards.length);
     taxonomiaEspecialidades = {};

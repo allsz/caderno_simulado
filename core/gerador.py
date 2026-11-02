@@ -156,7 +156,8 @@ def gerar_cards_questoes_html(banco_questoes, cache_explicacoes=None, tem_api_ke
                             else:
                                 exp = "Gabarito não fornecido no PDF da prova. (Configure sua GEMINI_API_KEY no arquivo .env para gerar gabarito e explicação por IA)."
 
-                    html_parts.append(f"<div class='card-questao' id='card_{q_id}' data-especialidade='{esp_attr}' data-tema='{tema_attr}' data-subtema='{subtema_attr}' data-banca='{banca_attr}' data-ano='{ano_attr}' data-edicao='{edicao_attr}' data-rotulo-edicao='{rotulo_attr}' data-numero='{num_attr}' data-origem='{origem_attr}' data-idx='{q_global_idx}'>\n")
+                    classe_card = "card-questao" if q_global_idx <= 25 else "card-questao paginacao-oculto"
+                    html_parts.append(f"<div class='{classe_card}' id='card_{q_id}' data-especialidade='{esp_attr}' data-tema='{tema_attr}' data-subtema='{subtema_attr}' data-banca='{banca_attr}' data-ano='{ano_attr}' data-edicao='{edicao_attr}' data-rotulo-edicao='{rotulo_attr}' data-numero='{num_attr}' data-origem='{origem_attr}' data-idx='{q_global_idx}'>\n")
                     html_parts.append("  <div class='card-header-tags'>\n")
                     html_parts.append(f"    <span class='tag-origem'>{rotulo_edicao} | Questão {q['numero']}</span>\n")
                     html_parts.append(f"    <span class='tag-tema'>{tema}</span>\n")
