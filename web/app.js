@@ -459,6 +459,9 @@ let simuladoConfig = {
 function restaurarElementosInterfaceGlobal() {
     // 1. Remove qualquer bloqueio de layout de sessão ativa do Simulado
     document.documentElement.classList.remove('simulado-sessao-ativa');
+    if (typeof fecharTopbarMenuMobile === 'function') {
+        fecharTopbarMenuMobile();
+    }
 
     // 2. Garante a restauração completa de todos os componentes do Topbar e Header
     const progressTopbar = document.querySelector('.progress-container');
@@ -3326,6 +3329,29 @@ function selecionarOpcaoItens(valor, rotulo) {
     mudarItensPorPagina(valor);
 }
 
+// Controle do Menu Flutuante Mobile do Topbar
+function toggleTopbarMenuMobile(e) {
+    if (e) {
+        e.stopPropagation();
+    }
+    const wrap = document.getElementById('topbar-mobile-menu-wrap');
+    const btn = document.getElementById('topbar-hamburger-btn');
+    if (!wrap) return;
+    const isOpen = wrap.classList.toggle('open');
+    if (btn) {
+        btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+}
+
+function fecharTopbarMenuMobile() {
+    const wrap = document.getElementById('topbar-mobile-menu-wrap');
+    const btn = document.getElementById('topbar-hamburger-btn');
+    if (wrap && wrap.classList.contains('open')) {
+        wrap.classList.remove('open');
+        if (btn) btn.setAttribute('aria-expanded', 'false');
+    }
+}
+
 // Fechar dropdowns customizados ao clicar fora
 document.addEventListener('click', (e) => {
     const container = document.getElementById('custom-select-itens-wrap');
@@ -3343,6 +3369,13 @@ document.addEventListener('click', (e) => {
             wrapSimulado.classList.remove('open');
             const triggerSimulado = document.getElementById('simulado-custom-select-trigger');
             if (triggerSimulado) triggerSimulado.setAttribute('aria-expanded', 'false');
+        }
+    }
+
+    const wrapTopbarMobile = document.getElementById('topbar-mobile-menu-wrap');
+    if (wrapTopbarMobile && wrapTopbarMobile.classList.contains('open')) {
+        if (!wrapTopbarMobile.contains(e.target)) {
+            fecharTopbarMenuMobile();
         }
     }
 });
@@ -3393,17 +3426,34 @@ function setTheme(theme, skipTransition = true) {
         document.documentElement.classList.add('disable-transitions');
     }
     const img = document.getElementById('theme-icon-img');
+    const imgMobile = document.getElementById('theme-icon-img-mobile');
+    const themeLabelMobile = document.getElementById('theme-dropdown-label');
+
     if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'dark');
         if (img && window.IMG_CLARO_B64) {
             img.src = window.IMG_CLARO_B64;
             img.alt = 'Alternar para Modo Claro';
         }
+        if (imgMobile && window.IMG_CLARO_B64) {
+            imgMobile.src = window.IMG_CLARO_B64;
+            imgMobile.alt = 'Alternar para Modo Claro';
+        }
+        if (themeLabelMobile) {
+            themeLabelMobile.textContent = 'Modo Claro';
+        }
     } else {
         document.documentElement.removeAttribute('data-theme');
         if (img && window.IMG_DARK_B64) {
             img.src = window.IMG_DARK_B64;
             img.alt = 'Alternar para Modo Escuro';
+        }
+        if (imgMobile && window.IMG_DARK_B64) {
+            imgMobile.src = window.IMG_DARK_B64;
+            imgMobile.alt = 'Alternar para Modo Escuro';
+        }
+        if (themeLabelMobile) {
+            themeLabelMobile.textContent = 'Modo Escuro';
         }
     }
     localStorage.setItem('simulado_theme_preference', theme);
@@ -4695,6 +4745,7 @@ document.addEventListener('keydown', function(e) {
     }
 
     if (e.key === 'Escape') {
+        fecharTopbarMenuMobile();
         const apoioModal = document.getElementById('apoio-modal-overlay');
         if (apoioModal && apoioModal.classList.contains('active')) {
             fecharApoioModal();

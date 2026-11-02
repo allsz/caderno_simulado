@@ -107,8 +107,9 @@ button, input, select, textarea {
     top: 0;
     background: var(--topbar-bg);
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--border-color);
-    padding: 12px 24px;
+    padding: max(12px, env(safe-area-inset-top)) 24px 12px 24px;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -116,6 +117,119 @@ button, input, select, textarea {
     gap: 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
     transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.topbar-actions-desktop {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.topbar-mobile-menu-wrap {
+    display: none;
+    position: relative;
+}
+
+.topbar-hamburger-btn {
+    color: var(--text-main);
+}
+
+.topbar-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    min-width: 220px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15), 0 8px 10px -6px rgba(0, 0, 0, 0.08);
+    padding: 6px;
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+    z-index: 1005;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.topbar-mobile-menu-wrap.open .topbar-dropdown-menu {
+    display: flex;
+    animation: customSelectOpen 0.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.topbar-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 9px 12px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--text-main);
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+    font-family: inherit;
+    user-select: none;
+}
+
+.topbar-dropdown-item:hover,
+.topbar-dropdown-item:active {
+    background: #eff6ff;
+    color: #2563eb;
+}
+
+.topbar-dropdown-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.topbar-dropdown-svg {
+    stroke: currentColor;
+    flex-shrink: 0;
+}
+
+.topbar-dropdown-divider {
+    height: 1px;
+    background: var(--border-color);
+    margin: 4px 6px;
+}
+
+.topbar-dropdown-danger {
+    color: #ef4444;
+}
+
+.topbar-dropdown-danger:hover,
+.topbar-dropdown-danger:active {
+    background: #fef2f2 !important;
+    color: #dc2626 !important;
+}
+
+[data-theme='dark'] .topbar-dropdown-menu {
+    background: #1e293b;
+    border-color: #334155;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+[data-theme='dark'] .topbar-dropdown-item:hover,
+[data-theme='dark'] .topbar-dropdown-item:active {
+    background: #334155;
+    color: #93c5fd;
+}
+
+[data-theme='dark'] .topbar-dropdown-danger {
+    color: #f87171;
+}
+
+[data-theme='dark'] .topbar-dropdown-danger:hover,
+[data-theme='dark'] .topbar-dropdown-danger:active {
+    background: rgba(239, 68, 68, 0.18) !important;
+    color: #fca5a5 !important;
 }
 
 .top-bar-title {
@@ -552,6 +666,10 @@ h1 {
 }
 
 .questao-imagem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin: 16px 0;
     background: var(--img-container-bg);
@@ -559,16 +677,24 @@ h1 {
     border-radius: 8px;
     border: 1px solid var(--border-color);
     position: relative;
+    max-width: 100%;
+    box-sizing: border-box;
+    gap: 12px;
 }
 
 .img-questao {
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
+    width: auto;
+    height: auto;
     max-height: 480px;
+    object-fit: contain;
     border-radius: 6px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-    display: inline-block;
     cursor: zoom-in;
     transition: transform 0.22s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.22s ease, filter 0.22s ease;
+    box-sizing: border-box;
 }
 
 .img-questao:hover {
@@ -3734,11 +3860,37 @@ h1 {
     }
     .simulado-calculo-box {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
+        align-items: stretch;
+        gap: 14px;
+        padding: 16px 14px;
     }
     .simulado-calc-divider {
         display: none;
+    }
+    .simulado-calc-item {
+        width: 100%;
+        justify-content: flex-start;
+        text-align: left;
+    }
+    .simulado-calc-content {
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
+        gap: 3px;
+    }
+    .simulado-calc-header {
+        justify-content: flex-start;
+        gap: 8px;
+    }
+    .simulado-calc-label {
+        text-align: left;
+    }
+    .simulado-calc-val {
+        padding-left: 24px;
+        text-align: left;
+    }
+    .simulado-pill-livre {
+        grid-column: 1 / -1;
     }
 }
 
@@ -4724,7 +4876,9 @@ html.simulado-sessao-ativa #paginacao-bottom,
 html.simulado-sessao-ativa #painel-estatisticas,
 html.simulado-sessao-ativa #btn-reset-respostas,
 html.simulado-sessao-ativa #btn-exportar-backup,
-html.simulado-sessao-ativa #btn-importar-backup {
+html.simulado-sessao-ativa #btn-importar-backup,
+html.simulado-sessao-ativa .topbar-dropdown-item.hide-on-simulado,
+html.simulado-sessao-ativa .topbar-dropdown-divider.hide-on-simulado {
     display: none !important;
 }
 
@@ -5256,9 +5410,87 @@ html.simulado-sessao-ativa #simulado-ativo-container {
 }
 
 @media (max-width: 640px) {
+    .topbar-actions-desktop {
+        display: none !important;
+    }
+
+    .topbar-mobile-menu-wrap {
+        display: inline-block !important;
+    }
+
+    .top-bar {
+        padding: max(10px, env(safe-area-inset-top)) 14px 10px 14px;
+        gap: 10px;
+    }
+
+    .top-bar-title {
+        font-size: 14.5px;
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .topbar-title-complemento {
+        display: none !important;
+    }
+
+    .progress-container {
+        min-width: 0;
+    }
+
+    .progress-labels {
+        font-size: 11px;
+        gap: 4px;
+    }
+
+    .progress-labels span:first-child {
+        display: none;
+    }
+
+    .container {
+        padding: 0 12px;
+        margin: 12px auto;
+    }
+
+    .card-questao {
+        padding: 16px 14px;
+        border-radius: 12px;
+    }
+
+    .questao-imagem-container {
+        padding: 8px;
+        margin: 12px 0;
+        border-radius: 8px;
+    }
+
+    .img-questao {
+        max-height: 360px;
+    }
+
+    .filtro-modo-nav {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+    }
+
+    .filtro-modo-nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    .filtro-modo-tab {
+        flex-shrink: 0;
+        white-space: nowrap;
+        padding: 7px 11px;
+        font-size: 12px;
+    }
+
     .filtro-header-row {
         flex-direction: column;
         align-items: flex-start;
+        gap: 10px;
     }
     
     .paginacao-qtd-select-wrap {
