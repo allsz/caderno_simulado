@@ -3191,6 +3191,245 @@ h1 {
     user-select: none;
 }
 
+/* Seletor de Origem do Simulado (Aleatório vs Prova Oficial) */
+.simulado-origem-toggle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 12px;
+}
+
+.simulado-origem-btn {
+    background: var(--alt-bg);
+    border: 1.5px solid var(--border-color);
+    border-radius: 14px;
+    padding: 14px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-align: left;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: inherit;
+    position: relative;
+    user-select: none;
+}
+
+.simulado-origem-btn:hover {
+    background: var(--alt-hover-bg);
+    border-color: var(--primary);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.simulado-origem-btn.active {
+    background: #eff6ff;
+    border: 1.5px solid #2563eb;
+    box-shadow: 0 4px 14px rgba(37, 99, 235, 0.16);
+}
+
+.simulado-origem-icon-wrap {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+}
+
+.simulado-origem-btn:hover .simulado-origem-icon-wrap {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.simulado-origem-btn.active .simulado-origem-icon-wrap {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #ffffff;
+}
+
+.simulado-origem-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.simulado-origem-title {
+    font-size: 13.5px;
+    font-weight: 700;
+    color: var(--text-main);
+    line-height: 1.3;
+}
+
+.simulado-origem-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+    line-height: 1.35;
+}
+
+.simulado-origem-btn.active .simulado-origem-title {
+    color: #1e40af;
+}
+
+.simulado-origem-btn.active .simulado-origem-sub {
+    color: #2563eb;
+    font-weight: 500;
+}
+
+[data-theme='dark'] .simulado-origem-btn.active {
+    background: rgba(37, 99, 235, 0.15);
+    border-color: #3b82f6;
+    box-shadow: 0 4px 14px rgba(59, 130, 246, 0.25);
+}
+
+[data-theme='dark'] .simulado-origem-btn.active .simulado-origem-icon-wrap {
+    background: #3b82f6;
+    border-color: #3b82f6;
+    color: #ffffff;
+}
+
+[data-theme='dark'] .simulado-origem-btn.active .simulado-origem-title {
+    color: #ffffff;
+}
+
+[data-theme='dark'] .simulado-origem-btn.active .simulado-origem-sub {
+    color: #93c5fd;
+}
+
+/* Container de Seleção da Prova Oficial */
+.simulado-seletor-prova-wrap {
+    margin-top: 14px;
+    padding: 16px 18px;
+    background: var(--alt-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.simulado-seletor-grid {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.simulado-seletor-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.simulado-seletor-field-grow {
+    flex: 1;
+    min-width: 250px;
+}
+
+.simulado-field-label {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.simulado-banca-pills {
+    display: flex;
+    gap: 6px;
+}
+
+.simulado-banca-pill {
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    background: var(--card-bg);
+    color: var(--text-main);
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: inherit;
+    user-select: none;
+}
+
+.simulado-banca-pill:hover {
+    border-color: var(--primary);
+    background: var(--alt-hover-bg);
+}
+
+.simulado-banca-pill.active {
+    background: #2563eb;
+    border-color: #2563eb;
+    color: #ffffff;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
+}
+
+[data-theme='dark'] .simulado-banca-pill.active {
+    background: #3b82f6;
+    border-color: #3b82f6;
+    color: #ffffff;
+}
+
+.simulado-custom-select-container {
+    width: 100%;
+}
+
+.simulado-edicao-trigger {
+    width: 100%;
+    min-width: 0;
+    padding: 9px 14px;
+    font-size: 13.5px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.simulado-custom-select-dropdown {
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: 100%;
+    max-height: 280px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border-color) transparent;
+}
+
+.simulado-custom-select-dropdown::-webkit-scrollbar {
+    width: 6px;
+}
+
+.simulado-custom-select-dropdown::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+
+.simulado-prova-meta-bar {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.simulado-meta-disponivel {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2563eb;
+    background: rgba(37, 99, 235, 0.08);
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+[data-theme='dark'] .simulado-meta-disponivel {
+    background: rgba(59, 130, 246, 0.15);
+    color: #93c5fd;
+}
+
 .simulado-pills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(115px, 1fr));
@@ -3534,6 +3773,16 @@ h1 {
 @media (max-width: 768px) {
     .simulado-setup-card {
         padding: 18px 16px;
+    }
+    .simulado-origem-toggle-grid {
+        grid-template-columns: 1fr;
+    }
+    .simulado-seletor-grid {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .simulado-seletor-field-grow {
+        min-width: 100%;
     }
     .simulado-calculo-box {
         flex-direction: column;
@@ -6401,13 +6650,101 @@ html.simulado-sessao-ativa #simulado-ativo-container {
                     <div class="simulado-setup-header">
                         <div class="simulado-setup-header-text">
                             <h2 class="simulado-setup-title">Simulado Real</h2>
-                            <p class="simulado-setup-desc">Treine sob condições de prova com seleção aleatória, contagem regressiva e ambiente anti-distração.</p>
+                            <p class="simulado-setup-desc">Treine sob condições de prova com seleção aleatória ou prova oficial, contagem regressiva e ambiente anti-distração.</p>
                         </div>
                     </div>
 
-                    <!-- Etapa 1: Duração -->
+                    <!-- Etapa 1: Origem das Questões -->
                     <div class="simulado-step-section">
                         <label class="simulado-step-label">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect x="3" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="3" width="7" height="7"></rect>
+                                <rect x="14" y="14" width="7" height="7"></rect>
+                                <rect x="3" y="14" width="7" height="7"></rect>
+                            </svg>
+                            Origem das Questões:
+                        </label>
+                        <div class="simulado-origem-toggle-grid">
+                            <button type="button" class="simulado-origem-btn active" id="btn-origem-aleatorio" onclick="selecionarOrigemSimulado('aleatorio')">
+                                <div class="simulado-origem-icon-wrap">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <polyline points="16 3 21 3 21 8"></polyline>
+                                        <line x1="4" y1="20" x2="21" y2="3"></line>
+                                        <polyline points="21 16 21 21 16 21"></polyline>
+                                        <line x1="15" y1="15" x2="21" y2="21"></line>
+                                        <line x1="4" y1="4" x2="9" y2="9"></line>
+                                    </svg>
+                                </div>
+                                <div class="simulado-origem-info">
+                                    <span class="simulado-origem-title">Banco Geral Aleatório (Modo Cego)</span>
+                                    <span class="simulado-origem-sub">Sorteio randômico entre todas as 1.444 questões</span>
+                                </div>
+                            </button>
+
+                            <button type="button" class="simulado-origem-btn" id="btn-origem-prova" onclick="selecionarOrigemSimulado('prova')">
+                                <div class="simulado-origem-icon-wrap">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                                        <polyline points="14 2 14 8 20 8"></polyline>
+                                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                                        <polyline points="10 9 9 9 8 9"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="simulado-origem-info">
+                                    <span class="simulado-origem-title">Prova Oficial Específica (Dia de Prova)</span>
+                                    <span class="simulado-origem-sub">Simule uma edição real com questões embaralhadas</span>
+                                </div>
+                            </button>
+                        </div>
+
+                        <!-- Seletor em Cascata quando 'Prova Oficial Específica' for selecionada -->
+                        <div id="simulado-seletor-prova-wrap" class="simulado-seletor-prova-wrap" style="display: none;">
+                            <div class="simulado-seletor-grid">
+                                <div class="simulado-seletor-field">
+                                    <label class="simulado-field-label">1. Escolha a Banca:</label>
+                                    <div class="simulado-banca-pills" id="simulado-banca-pills">
+                                        <button type="button" class="simulado-banca-pill active" data-banca="REVALIDA" onclick="selecionarBancaSimulado('REVALIDA')">REVALIDA</button>
+                                        <button type="button" class="simulado-banca-pill" data-banca="ENARE" onclick="selecionarBancaSimulado('ENARE')">ENARE</button>
+                                    </div>
+                                </div>
+                                <div class="simulado-seletor-field simulado-seletor-field-grow">
+                                    <label class="simulado-field-label">2. Escolha o Caderno / Edição:</label>
+                                    <div class="custom-select-container simulado-custom-select-container" id="simulado-custom-select-wrap">
+                                        <button type="button" class="custom-select-trigger simulado-edicao-trigger" id="simulado-custom-select-trigger" aria-haspopup="listbox" aria-expanded="false" onclick="toggleCustomSelectEdicaoSimulado()">
+                                            <span id="simulado-custom-select-label">Selecione uma edição...</span>
+                                            <svg class="custom-select-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                                <polyline points="6 9 12 15 18 9"></polyline>
+                                            </svg>
+                                        </button>
+                                        <div class="custom-select-dropdown simulado-custom-select-dropdown" id="simulado-custom-select-dropdown" role="listbox">
+                                            <!-- Populado dinamicamente via JS -->
+                                        </div>
+                                        <input type="hidden" id="simulado-select-edicao" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="simulado-prova-meta-bar" id="simulado-prova-meta-bar">
+                                <span class="simulado-meta-disponivel" id="simulado-edicao-info-questoes">
+                                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="12" y1="16" x2="12" y2="12"></line>
+                                        <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                                    </svg>
+                                    <span id="simulado-edicao-qtd-texto">Carregando edições...</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Etapa 2: Duração -->
+                    <div class="simulado-step-section">
+                        <label class="simulado-step-label">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
                             Escolha o Tempo da Prova:
                         </label>
                         <div class="simulado-pills-grid" id="simulado-tempo-pills">
@@ -6444,11 +6781,12 @@ html.simulado-sessao-ativa #simulado-ativo-container {
                         <!-- Seletor extra se Modo Livre for selecionado -->
                         <div id="simulado-livre-opcoes" class="simulado-livre-opcoes" style="display: none;">
                             <span class="simulado-livre-label">Quantidade de questões no modo livre:</span>
-                            <div class="simulado-livre-pills">
+                            <div class="simulado-livre-pills" id="simulado-livre-pills-container">
                                 <button type="button" class="simulado-pill-qtd" onclick="selecionarQtdLivre(15)">15</button>
                                 <button type="button" class="simulado-pill-qtd active" onclick="selecionarQtdLivre(30)">30</button>
                                 <button type="button" class="simulado-pill-qtd" onclick="selecionarQtdLivre(50)">50</button>
                                 <button type="button" class="simulado-pill-qtd" onclick="selecionarQtdLivre(100)">100</button>
+                                <button type="button" class="simulado-pill-qtd" id="simulado-pill-toda-prova" style="display: none;" onclick="selecionarQtdLivre('todas')">Toda a Prova</button>
                             </div>
                         </div>
                     </div>
@@ -6489,7 +6827,7 @@ html.simulado-sessao-ativa #simulado-ativo-container {
                                     </svg>
                                     <span class="simulado-calc-label">Critério de Seleção:</span>
                                 </div>
-                                <strong class="simulado-calc-val">Sorteio Aleatório Cego</strong>
+                                <strong class="simulado-calc-val" id="simulado-resumo-criterio">Sorteio Aleatório Cego</strong>
                             </div>
                         </div>
                     </div>
@@ -37504,6 +37842,9 @@ function revelarFeedbackGabarito(qId) {
 // Estado e Funções do Modo Simulado Real (Etapa 1)
 // ========================================================
 let simuladoConfig = {
+    origemTipo: 'aleatorio', // 'aleatorio' | 'prova'
+    banca: 'REVALIDA',
+    edicao: '',
     tempoMinutos: 60,
     totalQuestoes: 20,
     modoLivre: false,
@@ -37511,9 +37852,63 @@ let simuladoConfig = {
     termoAceito: false
 };
 
+// ========================================================
+// Restauração Centralizada da Interface Global do Caderno
+// ========================================================
+function restaurarElementosInterfaceGlobal() {
+    // 1. Remove qualquer bloqueio de layout de sessão ativa do Simulado
+    document.documentElement.classList.remove('simulado-sessao-ativa');
+
+    // 2. Garante a restauração completa de todos os componentes do Topbar e Header
+    const progressTopbar = document.querySelector('.progress-container');
+    if (progressTopbar) progressTopbar.style.display = '';
+
+    const btnResetTopbar = document.getElementById('btn-reset-respostas');
+    if (btnResetTopbar) btnResetTopbar.style.display = '';
+
+    const btnExportar = document.getElementById('btn-exportar-backup');
+    if (btnExportar) btnExportar.style.display = '';
+
+    const btnImportar = document.getElementById('btn-importar-backup');
+    if (btnImportar) btnImportar.style.display = '';
+
+    const btnAviso = document.getElementById('btn-aviso-toggle');
+    if (btnAviso) btnAviso.style.display = '';
+
+    const btnDark = document.getElementById('btn-toggle-darkmode');
+    if (btnDark) btnDark.style.display = '';
+
+    // 3. Restaura blocos estruturais da página principal
+    const hero = document.querySelector('.header-hero');
+    if (hero) hero.style.display = '';
+
+    const kofi = document.querySelector('.kofi-banner');
+    if (kofi) kofi.style.display = '';
+
+    const filtroSec = document.querySelector('.filtro-section');
+    if (filtroSec) filtroSec.style.display = '';
+
+    const painelStats = document.getElementById('painel-estatisticas');
+    if (painelStats) painelStats.style.display = '';
+
+    // 4. Oculta com segurança a casca do simulado ativo
+    const containerSimulado = document.getElementById('simulado-ativo-container');
+    if (containerSimulado) containerSimulado.style.display = 'none';
+
+    // 5. Atualiza a barra de progresso do topo com os dados atuais
+    if (typeof atualizarEstatisticas === 'function') {
+        atualizarEstatisticas();
+    }
+}
+
 function alternarModoFiltro(modo) {
     modoFiltroAtivo = modo;
     paginaAtual = 1;
+
+    // Se não houver simulado em andamento ativo, assegura a integridade do cabeçalho e elementos globais
+    if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') {
+        restaurarElementosInterfaceGlobal();
+    }
 
     const tabClinico = document.getElementById('tab-modo-clinico');
     const tabProva = document.getElementById('tab-modo-prova');
@@ -37560,10 +37955,231 @@ function alternarModoFiltro(modo) {
 
         // Sincroniza estado do botão iniciar com o checkbox
         atualizarEstadoBotaoIniciarSimulado();
+        popularSelectEdicoesSimulado();
+        atualizarResumoSimulado();
         trackGA4Event('simulado_abrir_setup', { origem: 'aba_filtro' });
     }
 
     trackGA4Event('alternar_modo_filtro', { 'modo': modo });
+}
+
+function selecionarOrigemSimulado(tipo) {
+    simuladoConfig.origemTipo = tipo;
+
+    const btnAleatorio = document.getElementById('btn-origem-aleatorio');
+    const btnProva = document.getElementById('btn-origem-prova');
+    const seletorWrap = document.getElementById('simulado-seletor-prova-wrap');
+    const pillTodaProva = document.getElementById('simulado-pill-toda-prova');
+
+    if (tipo === 'prova') {
+        if (btnAleatorio) btnAleatorio.classList.remove('active');
+        if (btnProva) btnProva.classList.add('active');
+        if (seletorWrap) seletorWrap.style.display = 'block';
+        if (pillTodaProva) pillTodaProva.style.display = 'inline-block';
+        popularSelectEdicoesSimulado();
+    } else {
+        if (btnAleatorio) btnAleatorio.classList.add('active');
+        if (btnProva) btnProva.classList.remove('active');
+        if (seletorWrap) seletorWrap.style.display = 'none';
+        if (pillTodaProva) pillTodaProva.style.display = 'none';
+        if (simuladoConfig.questoesLivre === 'todas') {
+            selecionarQtdLivre(30);
+        }
+    }
+
+    atualizarResumoSimulado();
+
+    trackGA4Event('simulado_selecionar_origem', {
+        tipo_origem: tipo,
+        banca: simuladoConfig.banca,
+        edicao: simuladoConfig.edicao
+    });
+}
+
+function selecionarBancaSimulado(banca) {
+    simuladoConfig.banca = banca;
+
+    const pills = document.querySelectorAll('#simulado-banca-pills .simulado-banca-pill');
+    pills.forEach(p => {
+        if (p.getAttribute('data-banca') === banca) {
+            p.classList.add('active');
+        } else {
+            p.classList.remove('active');
+        }
+    });
+
+    popularSelectEdicoesSimulado(true);
+    atualizarResumoSimulado();
+
+    trackGA4Event('simulado_selecionar_banca', {
+        banca: banca
+    });
+}
+
+function toggleCustomSelectEdicaoSimulado() {
+    const wrap = document.getElementById('simulado-custom-select-wrap');
+    const trigger = document.getElementById('simulado-custom-select-trigger');
+    if (!wrap) return;
+    const isOpen = wrap.classList.toggle('open');
+    if (trigger) {
+        trigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+}
+
+function popularSelectEdicoesSimulado(resetEdicao = false) {
+    const dropdown = document.getElementById('simulado-custom-select-dropdown');
+    const labelSpan = document.getElementById('simulado-custom-select-label');
+    const hiddenInput = document.getElementById('simulado-select-edicao');
+    if (!dropdown) return;
+
+    if (!taxonomiaProvas || Object.keys(taxonomiaProvas).length === 0) {
+        inicializarTaxonomiaProvas();
+    }
+
+    const bancaData = taxonomiaProvas && taxonomiaProvas[simuladoConfig.banca];
+    if (!bancaData || !bancaData.edicoes) return;
+
+    const edicoesKeys = Object.keys(bancaData.edicoes).sort((a, b) => b.localeCompare(a));
+    if (edicoesKeys.length === 0) return;
+
+    if (resetEdicao || !simuladoConfig.edicao || !bancaData.edicoes[simuladoConfig.edicao]) {
+        simuladoConfig.edicao = edicoesKeys[0];
+    }
+
+    dropdown.innerHTML = '';
+    edicoesKeys.forEach(rotulo => {
+        const item = bancaData.edicoes[rotulo];
+        const isSelected = rotulo === simuladoConfig.edicao;
+
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'custom-select-option' + (isSelected ? ' selected' : '');
+        btn.setAttribute('data-value', rotulo);
+        btn.setAttribute('role', 'option');
+        btn.setAttribute('aria-selected', isSelected ? 'true' : 'false');
+        btn.onclick = () => selecionarEdicaoSimulado(rotulo);
+        btn.innerHTML = `<span>${rotulo} (${item.total} questões)</span><svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+
+        dropdown.appendChild(btn);
+    });
+
+    const activeItem = bancaData.edicoes[simuladoConfig.edicao];
+    const activeLabel = activeItem ? `${simuladoConfig.edicao} (${activeItem.total} questões)` : simuladoConfig.edicao;
+
+    if (labelSpan) labelSpan.textContent = activeLabel;
+    if (hiddenInput) hiddenInput.value = simuladoConfig.edicao;
+
+    atualizarInfoEdicaoSimulado();
+}
+
+function selecionarEdicaoSimulado(rotulo) {
+    simuladoConfig.edicao = rotulo;
+
+    const wrap = document.getElementById('simulado-custom-select-wrap');
+    const trigger = document.getElementById('simulado-custom-select-trigger');
+    const labelSpan = document.getElementById('simulado-custom-select-label');
+    const hiddenInput = document.getElementById('simulado-select-edicao');
+    const dropdown = document.getElementById('simulado-custom-select-dropdown');
+
+    const bancaData = taxonomiaProvas && taxonomiaProvas[simuladoConfig.banca];
+    const edicaoItem = bancaData && bancaData.edicoes && bancaData.edicoes[rotulo];
+    const labelText = edicaoItem ? `${rotulo} (${edicaoItem.total} questões)` : rotulo;
+
+    if (labelSpan) labelSpan.textContent = labelText;
+    if (hiddenInput) hiddenInput.value = rotulo;
+
+    if (dropdown) {
+        dropdown.querySelectorAll('.custom-select-option').forEach(opt => {
+            const isMatch = opt.getAttribute('data-value') === rotulo;
+            if (isMatch) {
+                opt.classList.add('selected');
+                opt.setAttribute('aria-selected', 'true');
+            } else {
+                opt.classList.remove('selected');
+                opt.setAttribute('aria-selected', 'false');
+            }
+        });
+    }
+
+    if (wrap) wrap.classList.remove('open');
+    if (trigger) trigger.setAttribute('aria-expanded', 'false');
+
+    atualizarInfoEdicaoSimulado();
+    atualizarResumoSimulado();
+
+    trackGA4Event('simulado_selecionar_edicao', {
+        edicao: rotulo,
+        banca: simuladoConfig.banca
+    });
+}
+
+function atualizarInfoEdicaoSimulado() {
+    const txtQtd = document.getElementById('simulado-edicao-qtd-texto');
+    if (!txtQtd) return;
+
+    const bancaData = taxonomiaProvas && taxonomiaProvas[simuladoConfig.banca];
+    const edicaoItem = bancaData && bancaData.edicoes && bancaData.edicoes[simuladoConfig.edicao];
+    const total = edicaoItem ? edicaoItem.total : 0;
+
+    txtQtd.textContent = `${total} questões oficiais disponíveis nesta edição`;
+}
+
+function atualizarResumoSimulado() {
+    const resumoQuestoes = document.getElementById('simulado-resumo-questoes');
+    const resumoRitmo = document.getElementById('simulado-resumo-ritmo');
+    const resumoCriterio = document.getElementById('simulado-resumo-criterio');
+    const pillToda = document.getElementById('simulado-pill-toda-prova');
+
+    let totalDisponivel = todosCards ? todosCards.length : 1444;
+
+    if (simuladoConfig.origemTipo === 'prova') {
+        const bancaData = taxonomiaProvas && taxonomiaProvas[simuladoConfig.banca];
+        const edicaoItem = bancaData && bancaData.edicoes && bancaData.edicoes[simuladoConfig.edicao];
+        if (edicaoItem) {
+            totalDisponivel = edicaoItem.total;
+        }
+    }
+
+    if (pillToda) {
+        pillToda.textContent = `Toda a Prova (${totalDisponivel} q.)`;
+    }
+
+    let qtdFinal = 20;
+
+    if (simuladoConfig.modoLivre) {
+        if (simuladoConfig.questoesLivre === 'todas') {
+            qtdFinal = totalDisponivel;
+        } else {
+            qtdFinal = Math.min(Number(simuladoConfig.questoesLivre) || 30, totalDisponivel);
+        }
+        simuladoConfig.totalQuestoes = qtdFinal;
+
+        if (resumoQuestoes) {
+            resumoQuestoes.textContent = `${qtdFinal} questões ${simuladoConfig.origemTipo === 'prova' ? 'da prova' : 'selecionadas'}`;
+        }
+        if (resumoRitmo) {
+            resumoRitmo.textContent = 'Sem cronômetro (Livre)';
+        }
+    } else {
+        const proporcao = Math.round(simuladoConfig.tempoMinutos / 3);
+        qtdFinal = Math.min(proporcao, totalDisponivel);
+        simuladoConfig.totalQuestoes = qtdFinal;
+
+        if (resumoQuestoes) {
+            resumoQuestoes.textContent = `${qtdFinal} questões oficiais`;
+        }
+        if (resumoRitmo) {
+            resumoRitmo.textContent = '~3 min por questão';
+        }
+    }
+
+    if (resumoCriterio) {
+        if (simuladoConfig.origemTipo === 'prova') {
+            resumoCriterio.textContent = `${simuladoConfig.edicao || 'Prova Oficial'} • Posições Randomizadas`;
+        } else {
+            resumoCriterio.textContent = 'Sorteio Aleatório Cego (Geral)';
+        }
+    }
 }
 
 function selecionarTempoSimulado(minutos) {
@@ -37580,50 +38196,39 @@ function selecionarTempoSimulado(minutos) {
     });
 
     const livreOpcoes = document.getElementById('simulado-livre-opcoes');
-    const resumoQuestoes = document.getElementById('simulado-resumo-questoes');
-    const resumoRitmo = document.getElementById('simulado-resumo-ritmo');
-
     if (minutos === 0) {
         simuladoConfig.modoLivre = true;
-        simuladoConfig.totalQuestoes = simuladoConfig.questoesLivre;
         if (livreOpcoes) livreOpcoes.style.display = 'flex';
-        if (resumoQuestoes) resumoQuestoes.textContent = `${simuladoConfig.questoesLivre} questões selecionadas`;
-        if (resumoRitmo) resumoRitmo.textContent = 'Sem cronômetro (Livre)';
     } else {
         simuladoConfig.modoLivre = false;
         if (livreOpcoes) livreOpcoes.style.display = 'none';
-        // Regra de 3: 300 min (5h) = 100 questões -> 3 min por questão
-        const qtd = Math.round(minutos / 3);
-        simuladoConfig.totalQuestoes = qtd;
-        if (resumoQuestoes) resumoQuestoes.textContent = `${qtd} questões oficiais`;
-        if (resumoRitmo) resumoRitmo.textContent = '~3 min por questão';
     }
+
+    atualizarResumoSimulado();
 
     trackGA4Event('simulado_selecionar_tempo', {
         tipo_controle: minutos === 0 ? 'livre' : 'tempo_limite',
         modo_livre: minutos === 0,
         tempo_minutos: minutos,
-        questoes_estimadas: minutos === 0 ? simuladoConfig.questoesLivre : Math.round(minutos / 3)
+        questoes_estimadas: simuladoConfig.totalQuestoes
     });
 }
 
 function selecionarQtdLivre(qtd) {
     simuladoConfig.questoesLivre = qtd;
-    simuladoConfig.totalQuestoes = qtd;
 
     const pills = document.querySelectorAll('#simulado-livre-opcoes .simulado-pill-qtd');
     pills.forEach(p => {
-        if (parseInt(p.textContent.trim(), 10) === qtd) {
+        if (qtd === 'todas' && p.id === 'simulado-pill-toda-prova') {
+            p.classList.add('active');
+        } else if (parseInt(p.textContent.trim(), 10) === qtd) {
             p.classList.add('active');
         } else {
             p.classList.remove('active');
         }
     });
 
-    const resumoQuestoes = document.getElementById('simulado-resumo-questoes');
-    if (resumoQuestoes) {
-        resumoQuestoes.textContent = `${qtd} questões selecionadas`;
-    }
+    atualizarResumoSimulado();
 
     trackGA4Event('simulado_selecionar_qtd_livre', {
         qtd_questoes: qtd
@@ -37676,7 +38281,14 @@ function obterCardsCandidatosSimulado() {
     }
     return todosCards.filter(card => {
         const radios = card.querySelectorAll('input[type="radio"]');
-        return radios && radios.length > 0;
+        if (!radios || radios.length === 0) return false;
+
+        if (simuladoConfig.origemTipo === 'prova') {
+            const rotuloCard = card.getAttribute('data-rotulo-edicao') || card.getAttribute('data-origem') || '';
+            return rotuloCard === simuladoConfig.edicao;
+        }
+
+        return true;
     });
 }
 
@@ -37797,24 +38409,43 @@ function iniciarSimuladoReal() {
 
     const candidatos = obterCardsCandidatosSimulado();
     if (!candidatos || candidatos.length === 0) {
-        alert('Nenhuma questão válida encontrada no banco para sortear.');
+        const msg = simuladoConfig.origemTipo === 'prova'
+            ? `Nenhuma questão encontrada para a prova "${simuladoConfig.edicao}".`
+            : 'Nenhuma questão válida encontrada no banco para sortear.';
+        alert(msg);
         return;
     }
 
     // Calcula N questões
-    let qtdQuestoes = simuladoConfig.modoLivre ? (simuladoConfig.questoesLivre || 30) : (simuladoConfig.totalQuestoes || 20);
-    if (qtdQuestoes > candidatos.length) {
-        qtdQuestoes = candidatos.length;
+    let qtdDesejada = 20;
+    if (simuladoConfig.modoLivre) {
+        if (simuladoConfig.questoesLivre === 'todas') {
+            qtdDesejada = candidatos.length;
+        } else {
+            qtdDesejada = Number(simuladoConfig.questoesLivre) || 30;
+        }
+    } else {
+        qtdDesejada = simuladoConfig.totalQuestoes || Math.round(simuladoConfig.tempoMinutos / 3);
     }
 
-    // Embaralhamento matemático uniforme Fisher-Yates
+    let qtdQuestoes = Math.min(qtdDesejada, candidatos.length);
+
+    // Embaralhamento matemático uniforme Fisher-Yates sobre as questões candidatas
+    // Randomiza tanto a seleção quanto a posição de cada uma das X questões
     const sorteados = shuffleArrayFisherYates(candidatos).slice(0, qtdQuestoes);
     const questoesIds = sorteados.map(c => c.id.replace(/^card_/, ''));
 
     const duracaoSegundos = simuladoConfig.modoLivre ? 0 : (simuladoConfig.tempoMinutos * 60);
 
+    const isModoProva = simuladoConfig.origemTipo === 'prova';
+    const nomeExame = isModoProva ? simuladoConfig.edicao : 'Simulado Real — Modo Cego';
+
     window.simuladoAtivo = {
         id: 'sim_' + Date.now(),
+        origemTipo: simuladoConfig.origemTipo,
+        banca: isModoProva ? simuladoConfig.banca : null,
+        edicao: isModoProva ? simuladoConfig.edicao : null,
+        nomeExame: nomeExame,
         tempoTotalSegundos: duracaoSegundos,
         tempoRestanteSegundos: duracaoSegundos,
         modoLivre: simuladoConfig.modoLivre,
@@ -37834,6 +38465,8 @@ function iniciarSimuladoReal() {
     trackGA4Event('iniciar_simulado', {
         tipo_controle: simuladoConfig.modoLivre ? 'livre' : 'tempo_limite',
         modo_livre: Boolean(simuladoConfig.modoLivre),
+        tipo_origem: simuladoConfig.origemTipo,
+        edicao: isModoProva ? simuladoConfig.edicao : 'geral_aleatorio',
         total_questoes: qtdQuestoes,
         tempo_minutos: simuladoConfig.tempoMinutos,
         tempo_estimado_por_questao: simuladoConfig.modoLivre ? 'livre' : 3
@@ -37943,6 +38576,15 @@ function renderizarTelaSimuladoAtivo(isRestauracao = false) {
     }
 
     // 3. Atualizar metadados do cabeçalho
+    const examTitle = document.getElementById('simulado-exam-title');
+    if (examTitle) {
+        if (window.simuladoAtivo.origemTipo === 'prova' && window.simuladoAtivo.edicao) {
+            examTitle.textContent = `${window.simuladoAtivo.edicao} — Simulado Real`;
+        } else {
+            examTitle.textContent = 'Prova Oficial de Residência Médica';
+        }
+    }
+
     const tempoTexto = document.getElementById('simulado-tempo-texto');
     if (tempoTexto) {
         if (window.simuladoAtivo.modoLivre) {
@@ -38553,8 +39195,13 @@ function abrirModalResultadoSimulado() {
     }
 
     if (elTitulo && elSubTitulo) {
-        elTitulo.textContent = 'Simulado concluído';
-        elSubTitulo.textContent = 'Cada tentativa é uma oportunidade de aprender. Revise os comentários com IA para fixar os conteúdos.';
+        if (window.simuladoAtivo.origemTipo === 'prova' && window.simuladoAtivo.edicao) {
+            elTitulo.textContent = 'Simulado Concluído';
+            elSubTitulo.textContent = `Prova realizada: ${window.simuladoAtivo.edicao}. Revise os comentários com IA para fixar os conteúdos.`;
+        } else {
+            elTitulo.textContent = 'Simulado concluído';
+            elSubTitulo.textContent = 'Cada tentativa é uma oportunidade de aprender. Revise os comentários com IA para fixar os conteúdos.';
+        }
     }
 
     if (boxRegra && txtRegra) {
@@ -38997,11 +39644,6 @@ function iniciarNovoSimuladoSetup() {
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
     window.simuladoAtivo = null;
-    document.documentElement.classList.remove('simulado-sessao-ativa');
-
-    // Ocultar container de simulado ativo
-    const containerSimulado = document.getElementById('simulado-ativo-container');
-    if (containerSimulado) containerSimulado.style.display = 'none';
 
     const listaSim = document.getElementById('simulado-questoes-lista');
     if (listaSim) {
@@ -39010,15 +39652,8 @@ function iniciarNovoSimuladoSetup() {
         listaSim.classList.remove('desclassificado');
     }
 
-    // Restaurar visão
-    const hero = document.querySelector('.header-hero');
-    if (hero) hero.style.display = '';
-
-    const kofi = document.querySelector('.kofi-banner');
-    if (kofi) kofi.style.display = '';
-
-    const filtroSec = document.querySelector('.filtro-section');
-    if (filtroSec) filtroSec.style.display = '';
+    // Restaura interface global e controles do header
+    restaurarElementosInterfaceGlobal();
 
     // Entra na aba do simulado (Wizard)
     alternarModoFiltro('simulado');
@@ -39047,11 +39682,6 @@ function retornarAoCadernoNormal() {
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
     window.simuladoAtivo = null;
-    document.documentElement.classList.remove('simulado-sessao-ativa');
-
-    // Ocultar container de simulado ativo
-    const containerSimulado = document.getElementById('simulado-ativo-container');
-    if (containerSimulado) containerSimulado.style.display = 'none';
 
     const listaSim = document.getElementById('simulado-questoes-lista');
     if (listaSim) {
@@ -39060,33 +39690,11 @@ function retornarAoCadernoNormal() {
         listaSim.classList.remove('desclassificado');
     }
 
-    // Restaurar visão normal do caderno
-    const hero = document.querySelector('.header-hero');
-    if (hero) hero.style.display = '';
-
-    const kofi = document.querySelector('.kofi-banner');
-    if (kofi) kofi.style.display = '';
-
-    const filtroSec = document.querySelector('.filtro-section');
-    if (filtroSec) filtroSec.style.display = '';
+    // Restaura visão normal do caderno e controles globais do header
+    restaurarElementosInterfaceGlobal();
 
     const listaNormal = document.getElementById('lista-questoes-container');
     if (listaNormal) listaNormal.style.display = '';
-
-    const painelStats = document.getElementById('painel-estatisticas');
-    if (painelStats) painelStats.style.display = '';
-
-    const progressTopbar = document.querySelector('.progress-container');
-    if (progressTopbar) progressTopbar.style.display = '';
-
-    const btnResetTopbar = document.getElementById('btn-reset-respostas');
-    if (btnResetTopbar) btnResetTopbar.style.display = '';
-
-    const btnExportar = document.getElementById('btn-exportar-backup');
-    if (btnExportar) btnExportar.style.display = '';
-
-    const btnImportar = document.getElementById('btn-importar-backup');
-    if (btnImportar) btnImportar.style.display = '';
 
     // Retorna ao modo clínico (estudos normais)
     alternarModoFiltro('clinico');
@@ -39270,6 +39878,7 @@ function inicializarTaxonomiaProvas() {
     }
 
     renderizarPillsEdicoes();
+    popularSelectEdicoesSimulado();
 }
 
 function renderizarPillsEdicoes() {
@@ -40116,7 +40725,7 @@ function selecionarOpcaoItens(valor, rotulo) {
     mudarItensPorPagina(valor);
 }
 
-// Fechar dropdown de itens ao clicar fora
+// Fechar dropdowns customizados ao clicar fora
 document.addEventListener('click', (e) => {
     const container = document.getElementById('custom-select-itens-wrap');
     if (container && container.classList.contains('open')) {
@@ -40124,6 +40733,15 @@ document.addEventListener('click', (e) => {
             container.classList.remove('open');
             const trigger = document.getElementById('custom-select-trigger');
             if (trigger) trigger.setAttribute('aria-expanded', 'false');
+        }
+    }
+
+    const wrapSimulado = document.getElementById('simulado-custom-select-wrap');
+    if (wrapSimulado && wrapSimulado.classList.contains('open')) {
+        if (!wrapSimulado.contains(e.target)) {
+            wrapSimulado.classList.remove('open');
+            const triggerSimulado = document.getElementById('simulado-custom-select-trigger');
+            if (triggerSimulado) triggerSimulado.setAttribute('aria-expanded', 'false');
         }
     }
 });

@@ -443,6 +443,9 @@ function revelarFeedbackGabarito(qId) {
 // Estado e Funções do Modo Simulado Real (Etapa 1)
 // ========================================================
 let simuladoConfig = {
+    origemTipo: 'aleatorio', // 'aleatorio' | 'prova'
+    banca: 'REVALIDA',
+    edicao: '',
     tempoMinutos: 60,
     totalQuestoes: 20,
     modoLivre: false,
@@ -450,9 +453,63 @@ let simuladoConfig = {
     termoAceito: false
 };
 
+// ========================================================
+// Restauração Centralizada da Interface Global do Caderno
+// ========================================================
+function restaurarElementosInterfaceGlobal() {
+    // 1. Remove qualquer bloqueio de layout de sessão ativa do Simulado
+    document.documentElement.classList.remove('simulado-sessao-ativa');
+
+    // 2. Garante a restauração completa de todos os componentes do Topbar e Header
+    const progressTopbar = document.querySelector('.progress-container');
+    if (progressTopbar) progressTopbar.style.display = '';
+
+    const btnResetTopbar = document.getElementById('btn-reset-respostas');
+    if (btnResetTopbar) btnResetTopbar.style.display = '';
+
+    const btnExportar = document.getElementById('btn-exportar-backup');
+    if (btnExportar) btnExportar.style.display = '';
+
+    const btnImportar = document.getElementById('btn-importar-backup');
+    if (btnImportar) btnImportar.style.display = '';
+
+    const btnAviso = document.getElementById('btn-aviso-toggle');
+    if (btnAviso) btnAviso.style.display = '';
+
+    const btnDark = document.getElementById('btn-toggle-darkmode');
+    if (btnDark) btnDark.style.display = '';
+
+    // 3. Restaura blocos estruturais da página principal
+    const hero = document.querySelector('.header-hero');
+    if (hero) hero.style.display = '';
+
+    const kofi = document.querySelector('.kofi-banner');
+    if (kofi) kofi.style.display = '';
+
+    const filtroSec = document.querySelector('.filtro-section');
+    if (filtroSec) filtroSec.style.display = '';
+
+    const painelStats = document.getElementById('painel-estatisticas');
+    if (painelStats) painelStats.style.display = '';
+
+    // 4. Oculta com segurança a casca do simulado ativo
+    const containerSimulado = document.getElementById('simulado-ativo-container');
+    if (containerSimulado) containerSimulado.style.display = 'none';
+
+    // 5. Atualiza a barra de progresso do topo com os dados atuais
+    if (typeof atualizarEstatisticas === 'function') {
+        atualizarEstatisticas();
+    }
+}
+
 function alternarModoFiltro(modo) {
     modoFiltroAtivo = modo;
     paginaAtual = 1;
+
+    // Se não houver simulado em andamento ativo, assegura a integridade do cabeçalho e elementos globais
+    if (!window.simuladoAtivo || window.simuladoAtivo.status !== 'em_andamento') {
+        restaurarElementosInterfaceGlobal();
+    }
 
     const tabClinico = document.getElementById('tab-modo-clinico');
     const tabProva = document.getElementById('tab-modo-prova');
@@ -499,10 +556,231 @@ function alternarModoFiltro(modo) {
 
         // Sincroniza estado do botão iniciar com o checkbox
         atualizarEstadoBotaoIniciarSimulado();
+        popularSelectEdicoesSimulado();
+        atualizarResumoSimulado();
         trackGA4Event('simulado_abrir_setup', { origem: 'aba_filtro' });
     }
 
     trackGA4Event('alternar_modo_filtro', { 'modo': modo });
+}
+
+function selecionarOrigemSimulado(tipo) {
+    simuladoConfig.origemTipo = tipo;
+
+    const btnAleatorio = document.getElementById('btn-origem-aleatorio');
+    const btnProva = document.getElementById('btn-origem-prova');
+    const seletorWrap = document.getElementById('simulado-seletor-prova-wrap');
+    const pillTodaProva = document.getElementById('simulado-pill-toda-prova');
+
+    if (tipo === 'prova') {
+        if (btnAleatorio) btnAleatorio.classList.remove('active');
+        if (btnProva) btnProva.classList.add('active');
+        if (seletorWrap) seletorWrap.style.display = 'block';
+        if (pillTodaProva) pillTodaProva.style.display = 'inline-block';
+        popularSelectEdicoesSimulado();
+    } else {
+        if (btnAleatorio) btnAleatorio.classList.add('active');
+        if (btnProva) btnProva.classList.remove('active');
+        if (seletorWrap) seletorWrap.style.display = 'none';
+        if (pillTodaProva) pillTodaProva.style.display = 'none';
+        if (simuladoConfig.questoesLivre === 'todas') {
+            selecionarQtdLivre(30);
+        }
+    }
+
+    atualizarResumoSimulado();
+
+    trackGA4Event('simulado_selecionar_origem', {
+        tipo_origem: tipo,
+        banca: simuladoConfig.banca,
+        edicao: simuladoConfig.edicao
+    });
+}
+
+function selecionarBancaSimulado(banca) {
+    simuladoConfig.banca = banca;
+
+    const pills = document.querySelectorAll('#simulado-banca-pills .simulado-banca-pill');
+    pills.forEach(p => {
+        if (p.getAttribute('data-banca') === banca) {
+            p.classList.add('active');
+        } else {
+            p.classList.remove('active');
+        }
+    });
+
+    popularSelectEdicoesSimulado(true);
+    atualizarResumoSimulado();
+
+    trackGA4Event('simulado_selecionar_banca', {
+        banca: banca
+    });
+}
+
+function toggleCustomSelectEdicaoSimulado() {
+    const wrap = document.getElementById('simulado-custom-select-wrap');
+    const trigger = document.getElementById('simulado-custom-select-trigger');
+    if (!wrap) return;
+    const isOpen = wrap.classList.toggle('open');
+    if (trigger) {
+        trigger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
+}
+
+function popularSelectEdicoesSimulado(resetEdicao = false) {
+    const dropdown = document.getElementById('simulado-custom-select-dropdown');
+    const labelSpan = document.getElementById('simulado-custom-select-label');
+    const hiddenInput = document.getElementById('simulado-select-edicao');
+    if (!dropdown) return;
+
+    if (!taxonomiaProvas || Object.keys(taxonomiaProvas).length === 0) {
+        inicializarTaxonomiaProvas();
+    }
+
+    const bancaData = taxonomiaProvas && taxonomiaProvas[simuladoConfig.banca];
+    if (!bancaData || !bancaData.edicoes) return;
+
+    const edicoesKeys = Object.keys(bancaData.edicoes).sort((a, b) => b.localeCompare(a));
+    if (edicoesKeys.length === 0) return;
+
+    if (resetEdicao || !simuladoConfig.edicao || !bancaData.edicoes[simuladoConfig.edicao]) {
+        simuladoConfig.edicao = edicoesKeys[0];
+    }
+
+    dropdown.innerHTML = '';
+    edicoesKeys.forEach(rotulo => {
+        const item = bancaData.edicoes[rotulo];
+        const isSelected = rotulo === simuladoConfig.edicao;
+
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'custom-select-option' + (isSelected ? ' selected' : '');
+        btn.setAttribute('data-value', rotulo);
+        btn.setAttribute('role', 'option');
+        btn.setAttribute('aria-selected', isSelected ? 'true' : 'false');
+        btn.onclick = () => selecionarEdicaoSimulado(rotulo);
+        btn.innerHTML = `<span>${rotulo} (${item.total} questões)</span><svg class="custom-opt-check" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+
+        dropdown.appendChild(btn);
+    });
+
+    const activeItem = bancaData.edicoes[simuladoConfig.edicao];
+    const activeLabel = activeItem ? `${simuladoConfig.edicao} (${activeItem.total} questões)` : simuladoConfig.edicao;
+
+    if (labelSpan) labelSpan.textContent = activeLabel;
+    if (hiddenInput) hiddenInput.value = simuladoConfig.edicao;
+
+    atualizarInfoEdicaoSimulado();
+}
+
+function selecionarEdicaoSimulado(rotulo) {
+    simuladoConfig.edicao = rotulo;
+
+    const wrap = document.getElementById('simulado-custom-select-wrap');
+    const trigger = document.getElementById('simulado-custom-select-trigger');
+    const labelSpan = document.getElementById('simulado-custom-select-label');
+    const hiddenInput = document.getElementById('simulado-select-edicao');
+    const dropdown = document.getElementById('simulado-custom-select-dropdown');
+
+    const bancaData = taxonomiaProvas && taxonomiaProvas[simuladoConfig.banca];
+    const edicaoItem = bancaData && bancaData.edicoes && bancaData.edicoes[rotulo];
+    const labelText = edicaoItem ? `${rotulo} (${edicaoItem.total} questões)` : rotulo;
+
+    if (labelSpan) labelSpan.textContent = labelText;
+    if (hiddenInput) hiddenInput.value = rotulo;
+
+    if (dropdown) {
+        dropdown.querySelectorAll('.custom-select-option').forEach(opt => {
+            const isMatch = opt.getAttribute('data-value') === rotulo;
+            if (isMatch) {
+                opt.classList.add('selected');
+                opt.setAttribute('aria-selected', 'true');
+            } else {
+                opt.classList.remove('selected');
+                opt.setAttribute('aria-selected', 'false');
+            }
+        });
+    }
+
+    if (wrap) wrap.classList.remove('open');
+    if (trigger) trigger.setAttribute('aria-expanded', 'false');
+
+    atualizarInfoEdicaoSimulado();
+    atualizarResumoSimulado();
+
+    trackGA4Event('simulado_selecionar_edicao', {
+        edicao: rotulo,
+        banca: simuladoConfig.banca
+    });
+}
+
+function atualizarInfoEdicaoSimulado() {
+    const txtQtd = document.getElementById('simulado-edicao-qtd-texto');
+    if (!txtQtd) return;
+
+    const bancaData = taxonomiaProvas && taxonomiaProvas[simuladoConfig.banca];
+    const edicaoItem = bancaData && bancaData.edicoes && bancaData.edicoes[simuladoConfig.edicao];
+    const total = edicaoItem ? edicaoItem.total : 0;
+
+    txtQtd.textContent = `${total} questões oficiais disponíveis nesta edição`;
+}
+
+function atualizarResumoSimulado() {
+    const resumoQuestoes = document.getElementById('simulado-resumo-questoes');
+    const resumoRitmo = document.getElementById('simulado-resumo-ritmo');
+    const resumoCriterio = document.getElementById('simulado-resumo-criterio');
+    const pillToda = document.getElementById('simulado-pill-toda-prova');
+
+    let totalDisponivel = todosCards ? todosCards.length : 1444;
+
+    if (simuladoConfig.origemTipo === 'prova') {
+        const bancaData = taxonomiaProvas && taxonomiaProvas[simuladoConfig.banca];
+        const edicaoItem = bancaData && bancaData.edicoes && bancaData.edicoes[simuladoConfig.edicao];
+        if (edicaoItem) {
+            totalDisponivel = edicaoItem.total;
+        }
+    }
+
+    if (pillToda) {
+        pillToda.textContent = `Toda a Prova (${totalDisponivel} q.)`;
+    }
+
+    let qtdFinal = 20;
+
+    if (simuladoConfig.modoLivre) {
+        if (simuladoConfig.questoesLivre === 'todas') {
+            qtdFinal = totalDisponivel;
+        } else {
+            qtdFinal = Math.min(Number(simuladoConfig.questoesLivre) || 30, totalDisponivel);
+        }
+        simuladoConfig.totalQuestoes = qtdFinal;
+
+        if (resumoQuestoes) {
+            resumoQuestoes.textContent = `${qtdFinal} questões ${simuladoConfig.origemTipo === 'prova' ? 'da prova' : 'selecionadas'}`;
+        }
+        if (resumoRitmo) {
+            resumoRitmo.textContent = 'Sem cronômetro (Livre)';
+        }
+    } else {
+        const proporcao = Math.round(simuladoConfig.tempoMinutos / 3);
+        qtdFinal = Math.min(proporcao, totalDisponivel);
+        simuladoConfig.totalQuestoes = qtdFinal;
+
+        if (resumoQuestoes) {
+            resumoQuestoes.textContent = `${qtdFinal} questões oficiais`;
+        }
+        if (resumoRitmo) {
+            resumoRitmo.textContent = '~3 min por questão';
+        }
+    }
+
+    if (resumoCriterio) {
+        if (simuladoConfig.origemTipo === 'prova') {
+            resumoCriterio.textContent = `${simuladoConfig.edicao || 'Prova Oficial'} • Posições Randomizadas`;
+        } else {
+            resumoCriterio.textContent = 'Sorteio Aleatório Cego (Geral)';
+        }
+    }
 }
 
 function selecionarTempoSimulado(minutos) {
@@ -519,50 +797,39 @@ function selecionarTempoSimulado(minutos) {
     });
 
     const livreOpcoes = document.getElementById('simulado-livre-opcoes');
-    const resumoQuestoes = document.getElementById('simulado-resumo-questoes');
-    const resumoRitmo = document.getElementById('simulado-resumo-ritmo');
-
     if (minutos === 0) {
         simuladoConfig.modoLivre = true;
-        simuladoConfig.totalQuestoes = simuladoConfig.questoesLivre;
         if (livreOpcoes) livreOpcoes.style.display = 'flex';
-        if (resumoQuestoes) resumoQuestoes.textContent = `${simuladoConfig.questoesLivre} questões selecionadas`;
-        if (resumoRitmo) resumoRitmo.textContent = 'Sem cronômetro (Livre)';
     } else {
         simuladoConfig.modoLivre = false;
         if (livreOpcoes) livreOpcoes.style.display = 'none';
-        // Regra de 3: 300 min (5h) = 100 questões -> 3 min por questão
-        const qtd = Math.round(minutos / 3);
-        simuladoConfig.totalQuestoes = qtd;
-        if (resumoQuestoes) resumoQuestoes.textContent = `${qtd} questões oficiais`;
-        if (resumoRitmo) resumoRitmo.textContent = '~3 min por questão';
     }
+
+    atualizarResumoSimulado();
 
     trackGA4Event('simulado_selecionar_tempo', {
         tipo_controle: minutos === 0 ? 'livre' : 'tempo_limite',
         modo_livre: minutos === 0,
         tempo_minutos: minutos,
-        questoes_estimadas: minutos === 0 ? simuladoConfig.questoesLivre : Math.round(minutos / 3)
+        questoes_estimadas: simuladoConfig.totalQuestoes
     });
 }
 
 function selecionarQtdLivre(qtd) {
     simuladoConfig.questoesLivre = qtd;
-    simuladoConfig.totalQuestoes = qtd;
 
     const pills = document.querySelectorAll('#simulado-livre-opcoes .simulado-pill-qtd');
     pills.forEach(p => {
-        if (parseInt(p.textContent.trim(), 10) === qtd) {
+        if (qtd === 'todas' && p.id === 'simulado-pill-toda-prova') {
+            p.classList.add('active');
+        } else if (parseInt(p.textContent.trim(), 10) === qtd) {
             p.classList.add('active');
         } else {
             p.classList.remove('active');
         }
     });
 
-    const resumoQuestoes = document.getElementById('simulado-resumo-questoes');
-    if (resumoQuestoes) {
-        resumoQuestoes.textContent = `${qtd} questões selecionadas`;
-    }
+    atualizarResumoSimulado();
 
     trackGA4Event('simulado_selecionar_qtd_livre', {
         qtd_questoes: qtd
@@ -615,7 +882,14 @@ function obterCardsCandidatosSimulado() {
     }
     return todosCards.filter(card => {
         const radios = card.querySelectorAll('input[type="radio"]');
-        return radios && radios.length > 0;
+        if (!radios || radios.length === 0) return false;
+
+        if (simuladoConfig.origemTipo === 'prova') {
+            const rotuloCard = card.getAttribute('data-rotulo-edicao') || card.getAttribute('data-origem') || '';
+            return rotuloCard === simuladoConfig.edicao;
+        }
+
+        return true;
     });
 }
 
@@ -736,24 +1010,43 @@ function iniciarSimuladoReal() {
 
     const candidatos = obterCardsCandidatosSimulado();
     if (!candidatos || candidatos.length === 0) {
-        alert('Nenhuma questão válida encontrada no banco para sortear.');
+        const msg = simuladoConfig.origemTipo === 'prova'
+            ? `Nenhuma questão encontrada para a prova "${simuladoConfig.edicao}".`
+            : 'Nenhuma questão válida encontrada no banco para sortear.';
+        alert(msg);
         return;
     }
 
     // Calcula N questões
-    let qtdQuestoes = simuladoConfig.modoLivre ? (simuladoConfig.questoesLivre || 30) : (simuladoConfig.totalQuestoes || 20);
-    if (qtdQuestoes > candidatos.length) {
-        qtdQuestoes = candidatos.length;
+    let qtdDesejada = 20;
+    if (simuladoConfig.modoLivre) {
+        if (simuladoConfig.questoesLivre === 'todas') {
+            qtdDesejada = candidatos.length;
+        } else {
+            qtdDesejada = Number(simuladoConfig.questoesLivre) || 30;
+        }
+    } else {
+        qtdDesejada = simuladoConfig.totalQuestoes || Math.round(simuladoConfig.tempoMinutos / 3);
     }
 
-    // Embaralhamento matemático uniforme Fisher-Yates
+    let qtdQuestoes = Math.min(qtdDesejada, candidatos.length);
+
+    // Embaralhamento matemático uniforme Fisher-Yates sobre as questões candidatas
+    // Randomiza tanto a seleção quanto a posição de cada uma das X questões
     const sorteados = shuffleArrayFisherYates(candidatos).slice(0, qtdQuestoes);
     const questoesIds = sorteados.map(c => c.id.replace(/^card_/, ''));
 
     const duracaoSegundos = simuladoConfig.modoLivre ? 0 : (simuladoConfig.tempoMinutos * 60);
 
+    const isModoProva = simuladoConfig.origemTipo === 'prova';
+    const nomeExame = isModoProva ? simuladoConfig.edicao : 'Simulado Real — Modo Cego';
+
     window.simuladoAtivo = {
         id: 'sim_' + Date.now(),
+        origemTipo: simuladoConfig.origemTipo,
+        banca: isModoProva ? simuladoConfig.banca : null,
+        edicao: isModoProva ? simuladoConfig.edicao : null,
+        nomeExame: nomeExame,
         tempoTotalSegundos: duracaoSegundos,
         tempoRestanteSegundos: duracaoSegundos,
         modoLivre: simuladoConfig.modoLivre,
@@ -773,6 +1066,8 @@ function iniciarSimuladoReal() {
     trackGA4Event('iniciar_simulado', {
         tipo_controle: simuladoConfig.modoLivre ? 'livre' : 'tempo_limite',
         modo_livre: Boolean(simuladoConfig.modoLivre),
+        tipo_origem: simuladoConfig.origemTipo,
+        edicao: isModoProva ? simuladoConfig.edicao : 'geral_aleatorio',
         total_questoes: qtdQuestoes,
         tempo_minutos: simuladoConfig.tempoMinutos,
         tempo_estimado_por_questao: simuladoConfig.modoLivre ? 'livre' : 3
@@ -882,6 +1177,15 @@ function renderizarTelaSimuladoAtivo(isRestauracao = false) {
     }
 
     // 3. Atualizar metadados do cabeçalho
+    const examTitle = document.getElementById('simulado-exam-title');
+    if (examTitle) {
+        if (window.simuladoAtivo.origemTipo === 'prova' && window.simuladoAtivo.edicao) {
+            examTitle.textContent = `${window.simuladoAtivo.edicao} — Simulado Real`;
+        } else {
+            examTitle.textContent = 'Prova Oficial de Residência Médica';
+        }
+    }
+
     const tempoTexto = document.getElementById('simulado-tempo-texto');
     if (tempoTexto) {
         if (window.simuladoAtivo.modoLivre) {
@@ -1492,8 +1796,13 @@ function abrirModalResultadoSimulado() {
     }
 
     if (elTitulo && elSubTitulo) {
-        elTitulo.textContent = 'Simulado concluído';
-        elSubTitulo.textContent = 'Cada tentativa é uma oportunidade de aprender. Revise os comentários com IA para fixar os conteúdos.';
+        if (window.simuladoAtivo.origemTipo === 'prova' && window.simuladoAtivo.edicao) {
+            elTitulo.textContent = 'Simulado Concluído';
+            elSubTitulo.textContent = `Prova realizada: ${window.simuladoAtivo.edicao}. Revise os comentários com IA para fixar os conteúdos.`;
+        } else {
+            elTitulo.textContent = 'Simulado concluído';
+            elSubTitulo.textContent = 'Cada tentativa é uma oportunidade de aprender. Revise os comentários com IA para fixar os conteúdos.';
+        }
     }
 
     if (boxRegra && txtRegra) {
@@ -1936,11 +2245,6 @@ function iniciarNovoSimuladoSetup() {
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
     window.simuladoAtivo = null;
-    document.documentElement.classList.remove('simulado-sessao-ativa');
-
-    // Ocultar container de simulado ativo
-    const containerSimulado = document.getElementById('simulado-ativo-container');
-    if (containerSimulado) containerSimulado.style.display = 'none';
 
     const listaSim = document.getElementById('simulado-questoes-lista');
     if (listaSim) {
@@ -1949,15 +2253,8 @@ function iniciarNovoSimuladoSetup() {
         listaSim.classList.remove('desclassificado');
     }
 
-    // Restaurar visão
-    const hero = document.querySelector('.header-hero');
-    if (hero) hero.style.display = '';
-
-    const kofi = document.querySelector('.kofi-banner');
-    if (kofi) kofi.style.display = '';
-
-    const filtroSec = document.querySelector('.filtro-section');
-    if (filtroSec) filtroSec.style.display = '';
+    // Restaura interface global e controles do header
+    restaurarElementosInterfaceGlobal();
 
     // Entra na aba do simulado (Wizard)
     alternarModoFiltro('simulado');
@@ -1986,11 +2283,6 @@ function retornarAoCadernoNormal() {
     sessionStorage.removeItem('caderno_simulado_ativo_snapshot');
     localStorage.removeItem('caderno_simulado_ativo_snapshot');
     window.simuladoAtivo = null;
-    document.documentElement.classList.remove('simulado-sessao-ativa');
-
-    // Ocultar container de simulado ativo
-    const containerSimulado = document.getElementById('simulado-ativo-container');
-    if (containerSimulado) containerSimulado.style.display = 'none';
 
     const listaSim = document.getElementById('simulado-questoes-lista');
     if (listaSim) {
@@ -1999,33 +2291,11 @@ function retornarAoCadernoNormal() {
         listaSim.classList.remove('desclassificado');
     }
 
-    // Restaurar visão normal do caderno
-    const hero = document.querySelector('.header-hero');
-    if (hero) hero.style.display = '';
-
-    const kofi = document.querySelector('.kofi-banner');
-    if (kofi) kofi.style.display = '';
-
-    const filtroSec = document.querySelector('.filtro-section');
-    if (filtroSec) filtroSec.style.display = '';
+    // Restaura visão normal do caderno e controles globais do header
+    restaurarElementosInterfaceGlobal();
 
     const listaNormal = document.getElementById('lista-questoes-container');
     if (listaNormal) listaNormal.style.display = '';
-
-    const painelStats = document.getElementById('painel-estatisticas');
-    if (painelStats) painelStats.style.display = '';
-
-    const progressTopbar = document.querySelector('.progress-container');
-    if (progressTopbar) progressTopbar.style.display = '';
-
-    const btnResetTopbar = document.getElementById('btn-reset-respostas');
-    if (btnResetTopbar) btnResetTopbar.style.display = '';
-
-    const btnExportar = document.getElementById('btn-exportar-backup');
-    if (btnExportar) btnExportar.style.display = '';
-
-    const btnImportar = document.getElementById('btn-importar-backup');
-    if (btnImportar) btnImportar.style.display = '';
 
     // Retorna ao modo clínico (estudos normais)
     alternarModoFiltro('clinico');
@@ -2209,6 +2479,7 @@ function inicializarTaxonomiaProvas() {
     }
 
     renderizarPillsEdicoes();
+    popularSelectEdicoesSimulado();
 }
 
 function renderizarPillsEdicoes() {
@@ -3055,7 +3326,7 @@ function selecionarOpcaoItens(valor, rotulo) {
     mudarItensPorPagina(valor);
 }
 
-// Fechar dropdown de itens ao clicar fora
+// Fechar dropdowns customizados ao clicar fora
 document.addEventListener('click', (e) => {
     const container = document.getElementById('custom-select-itens-wrap');
     if (container && container.classList.contains('open')) {
@@ -3063,6 +3334,15 @@ document.addEventListener('click', (e) => {
             container.classList.remove('open');
             const trigger = document.getElementById('custom-select-trigger');
             if (trigger) trigger.setAttribute('aria-expanded', 'false');
+        }
+    }
+
+    const wrapSimulado = document.getElementById('simulado-custom-select-wrap');
+    if (wrapSimulado && wrapSimulado.classList.contains('open')) {
+        if (!wrapSimulado.contains(e.target)) {
+            wrapSimulado.classList.remove('open');
+            const triggerSimulado = document.getElementById('simulado-custom-select-trigger');
+            if (triggerSimulado) triggerSimulado.setAttribute('aria-expanded', 'false');
         }
     }
 });
