@@ -15,7 +15,6 @@ from core import (
     carregar_cache_explicacoes,
     carregar_mapa_gabaritos_revalida,
     exportar_caderno_html,
-    exportar_caderno_markdown,
     extrair_gabarito_pdf,
     extrair_questoes_do_texto,
     extrair_texto_pdf,
@@ -142,11 +141,10 @@ def main():
 
     # Caminhos finais de saída
     caminho_md = pasta_saida / "caderno_de_questoes_estudo.md"
-    caminho_html = pasta_saida / "caderno_interativo.html"
+    caminho_html = base_dir / "index.html"
     caminho_root_index = BASE_DIR / "index.html"
     
     print("\n[*] Compilando arquivos finais a partir dos templates modulares (web/)...")
-    exportar_caderno_markdown(banco_hierarquico, caminho_md, cache_explicacoes, tem_api_key=bool(api_key))
     exportar_caderno_html(banco_hierarquico, caminho_html, cache_explicacoes, tem_api_key=bool(api_key), base_dir=BASE_DIR)
     exportar_caderno_html(banco_hierarquico, caminho_root_index, cache_explicacoes, tem_api_key=bool(api_key), base_dir=BASE_DIR)
 

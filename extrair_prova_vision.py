@@ -26,7 +26,6 @@ SCRATCH_DIR = BASE_DIR / "scratch" / "vision_temp"
 # Importa módulos internos
 from core.classificador import classificar_questao
 from core.extrator import extrair_gabarito_pdf, carregar_mapa_gabaritos_revalida
-from core.gerador import exportar_caderno_html, exportar_caderno_markdown
 from core.utils import salvar_json_atomico
 
 MODELOS_GEMINI = [
@@ -319,8 +318,6 @@ def mesclar_com_banco_questoes(novas_questoes_dict, origem, recompilar_html=True
         cache_exp = json.loads(caminho_cache_exp.read_text(encoding="utf-8")) if caminho_cache_exp.exists() else {}
         
         exportar_caderno_html(banco_hierarquico, BASE_DIR / "index.html", cache_exp, tem_api_key=True, base_dir=BASE_DIR)
-        exportar_caderno_html(banco_hierarquico, SAIDA_DIR / "caderno_interativo.html", cache_exp, tem_api_key=True, base_dir=BASE_DIR)
-        exportar_caderno_markdown(banco_hierarquico, SAIDA_DIR / "caderno_de_questoes_estudo.md", cache_exp, tem_api_key=True)
         print("[✓] Simulado e HTMLs recompilados com sucesso!")
     except Exception as e:
         print(f"[!] Erro ao recompilar HTML: {e}")

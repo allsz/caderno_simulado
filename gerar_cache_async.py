@@ -24,7 +24,6 @@ PASTA_SAIDA = BASE_DIR / "saida"
 CACHE_PATH = PASTA_SAIDA / "cache_explicacoes.json"
 BANCO_PATH = PASTA_SAIDA / "banco_questoes_cache.json"
 
-from core.gerador import exportar_caderno_html, exportar_caderno_markdown
 from core.utils import salvar_json_atomico, carregar_json_seguro
 
 
@@ -265,14 +264,13 @@ def main():
         banco_hierarquico.setdefault(esp, {}).setdefault(tema, {}).setdefault(subtema, []).append(q)
 
     caminho_md = PASTA_SAIDA / "caderno_de_questoes_estudo.md"
-    caminho_html = PASTA_SAIDA / "caderno_interativo.html"
+    caminho_html = BASE_DIR / "index.html"
     caminho_root_index = BASE_DIR / "index.html"
 
-    exportar_caderno_markdown(banco_hierarquico, caminho_md, cache_explicacoes, tem_api_key=True)
     exportar_caderno_html(banco_hierarquico, caminho_html, cache_explicacoes, tem_api_key=True, base_dir=BASE_DIR)
     exportar_caderno_html(banco_hierarquico, caminho_root_index, cache_explicacoes, tem_api_key=True, base_dir=BASE_DIR)
 
-    print(f"[✓] 'caderno_interativo.html' e 'index.html' atualizados com 100% de sucesso!")
+    print(f"[✓] 'index.html' e 'index.html' atualizados com 100% de sucesso!")
 
 
 if __name__ == "__main__":

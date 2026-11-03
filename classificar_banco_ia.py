@@ -134,7 +134,7 @@ def main():
 
     # Recompila os cadernos se solicitado
     if not args.sem_compilar:
-        print("\n[*] Recompilando index.html e caderno_interativo.html...")
+        print("\n[*] Recompilando index.html...")
         base_dir = Path(".")
         pasta_saida = Path("saida")
         cache_explicacoes = carregar_cache_explicacoes(pasta_saida / "cache_explicacoes.json")
@@ -148,10 +148,8 @@ def main():
             subtema = q.get("subtema", "Diversos")
             banco_hierarquico.setdefault(esp, {}).setdefault(tema, {}).setdefault(subtema, []).append(q)
 
-        exportar_caderno_html(banco_hierarquico, pasta_saida / "caderno_interativo.html", cache_explicacoes, tem_api_key=bool(chave_primaria), base_dir=base_dir)
         exportar_caderno_html(banco_hierarquico, base_dir / "index.html", cache_explicacoes, tem_api_key=bool(chave_primaria), base_dir=base_dir)
-        exportar_caderno_markdown(banco_hierarquico, pasta_saida / "caderno_de_questoes_estudo.md", cache_explicacoes, tem_api_key=bool(chave_primaria))
-        print("[OK] Cadernos e index.html recompilados com sucesso!")
+        print("[OK] index.html recompilado com sucesso!")
 
     print("\n[SUCESSO] Operação concluída com êxito.")
 

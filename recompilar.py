@@ -26,9 +26,6 @@ def recompilar():
     print("[*] Recompilando index.html...")
     exportar_caderno_html(banco_hierarquico, base_dir / 'index.html', cache_exp, tem_api_key=True, base_dir=base_dir)
 
-    print("[*] Recompilando saida/caderno_interativo.html...")
-    exportar_caderno_html(banco_hierarquico, base_dir / 'saida' / 'caderno_interativo.html', cache_exp, tem_api_key=True, base_dir=base_dir)
-
     print("[✓] Recompilação concluída com sucesso!")
 
 if __name__ == '__main__':
