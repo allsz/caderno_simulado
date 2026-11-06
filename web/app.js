@@ -525,6 +525,9 @@ function restaurarElementosInterfaceGlobal() {
     const painelStats = document.getElementById('painel-estatisticas');
     if (painelStats) painelStats.style.display = '';
 
+    const appFooter = document.getElementById('app-footer');
+    if (appFooter) appFooter.style.display = '';
+
     // 4. Oculta com segurança a casca do simulado ativo
     const containerSimulado = document.getElementById('simulado-ativo-container');
     if (containerSimulado) containerSimulado.style.display = 'none';
@@ -1168,6 +1171,9 @@ function renderizarTelaSimuladoAtivo(isRestauracao = false) {
 
     const painelStats = document.getElementById('painel-estatisticas');
     if (painelStats) painelStats.style.display = 'none';
+
+    const appFooter = document.getElementById('app-footer');
+    if (appFooter) appFooter.style.display = 'none';
 
     const progressTopbar = document.querySelector('.progress-container');
     if (progressTopbar) progressTopbar.style.display = 'none';

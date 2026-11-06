@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caderno de Questões - Simulado de Estudos Interativo</title>
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+DQogIDxkZWZzPg0KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icmVkR3JhZCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+DQogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmY0YjRiIi8+DQogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkYzI2MjYiLz4NCiAgICA8L2xpbmVhckdyYWRpZW50Pg0KICAgIDxmaWx0ZXIgaWQ9InNoYWRvdyIgeD0iLTEwJSIgeT0iLTEwJSIgd2lkdGg9IjEzMCUiIGhlaWdodD0iMTMwJSI+DQogICAgICA8ZmVEcm9wU2hhZG93IGR4PSIwIiBkeT0iMiIgc3RkRGV2aWF0aW9uPSIyIiBmbG9vZC1jb2xvcj0iIzk5MWIxYiIgZmxvb2Qtb3BhY2l0eT0iMC4zIi8+DQogICAgPC9maWx0ZXI+DQogIDwvZGVmcz4NCiAgPGcgZmlsdGVyPSJ1cmwoI3NoYWRvdykiPg0KICAgIDwhLS0gQmFycmEgdmVydGljYWwgLS0+DQogICAgPHJlY3QgeD0iMjIiIHk9IjYiIHdpZHRoPSIyMCIgaGVpZ2h0PSI1MiIgcng9IjYiIGZpbGw9InVybCgjcmVkR3JhZCkiLz4NCiAgICA8IS0tIEJhcnJhIGhvcml6b250YWwgLS0+DQogICAgPHJlY3QgeD0iNiIgeT0iMjIiIHdpZHRoPSI1MiIgaGVpZ2h0PSIyMCIgcng9IjYiIGZpbGw9InVybCgjcmVkR3JhZCkiLz4NCiAgPC9nPg0KPC9zdmc+DQo=">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InJlZEdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmY0YjRiIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RjMjYyNiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxmaWx0ZXIgaWQ9InNoYWRvdyIgeD0iLTEwJSIgeT0iLTEwJSIgd2lkdGg9IjEzMCUiIGhlaWdodD0iMTMwJSI+CiAgICAgIDxmZURyb3BTaGFkb3cgZHg9IjAiIGR5PSIyIiBzdGREZXZpYXRpb249IjIiIGZsb29kLWNvbG9yPSIjOTkxYjFiIiBmbG9vZC1vcGFjaXR5PSIwLjMiLz4KICAgIDwvZmlsdGVyPgogIDwvZGVmcz4KICA8ZyBmaWx0ZXI9InVybCgjc2hhZG93KSI+CiAgICA8IS0tIEJhcnJhIHZlcnRpY2FsIC0tPgogICAgPHJlY3QgeD0iMjIiIHk9IjYiIHdpZHRoPSIyMCIgaGVpZ2h0PSI1MiIgcng9IjYiIGZpbGw9InVybCgjcmVkR3JhZCkiLz4KICAgIDwhLS0gQmFycmEgaG9yaXpvbnRhbCAtLT4KICAgIDxyZWN0IHg9IjYiIHk9IjIyIiB3aWR0aD0iNTIiIGhlaWdodD0iMjAiIHJ4PSI2IiBmaWxsPSJ1cmwoI3JlZEdyYWQpIi8+CiAgPC9nPgo8L3N2Zz4K">
 
     <!-- Tipografia Moderna (Inter) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -144,7 +144,7 @@ body {
     background: var(--bg-main);
     color: var(--text-main);
     margin: 0;
-    padding: 0 0 60px 0;
+    padding: 0;
     line-height: 1.6;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -451,7 +451,7 @@ button, input, select, textarea {
 .container {
     max-width: 1720px;
     width: 100%;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     padding: 0 clamp(16px, 3.5vw, 48px);
 }
 
@@ -2003,7 +2003,7 @@ h1 {
     border: 1px solid var(--border-color);
     border-radius: 16px;
     padding: 24px 20px;
-    margin: 36px 0 20px 0;
+    margin: 36px 0 0 0;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease;
 }
@@ -4926,6 +4926,7 @@ html.simulado-sessao-ativa #painel-estatisticas,
 html.simulado-sessao-ativa #btn-reset-respostas,
 html.simulado-sessao-ativa #btn-exportar-backup,
 html.simulado-sessao-ativa #btn-importar-backup,
+html.simulado-sessao-ativa #app-footer,
 html.simulado-sessao-ativa .topbar-dropdown-item.hide-on-simulado,
 html.simulado-sessao-ativa .topbar-dropdown-divider.hide-on-simulado {
     display: none !important;
@@ -6651,6 +6652,66 @@ html.simulado-sessao-ativa #simulado-ativo-container {
 .cenario-critico .btn-concluido-okay {
     background: linear-gradient(135deg, #475569 0%, #334155 100%);
     box-shadow: 0 10px 20px -5px rgba(71, 85, 105, 0.3);
+}
+
+/* ========================================================
+   Footer Discreto e Minimalista (Inspirado no Design System)
+   ======================================================== */
+.app-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 16px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.app-footer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: var(--text-muted, #64748b);
+    opacity: 0.55;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.app-footer-icon {
+    flex-shrink: 0;
+    stroke: currentColor;
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.app-footer-link:hover {
+    opacity: 0.95;
+    color: var(--text-main, #0f172a);
+    background: rgba(0, 0, 0, 0.035);
+    border-color: rgba(0, 0, 0, 0.06);
+    transform: translateY(-1px);
+}
+
+[data-theme="dark"] .app-footer-link {
+    color: #94a3b8;
+    opacity: 0.45;
+}
+
+[data-theme="dark"] .app-footer-link:hover {
+    opacity: 0.95;
+    color: #f1f5f9;
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.app-footer-link:active {
+    transform: translateY(0);
 }
 
     </style>
@@ -37125,6 +37186,16 @@ html.simulado-sessao-ativa #simulado-ativo-container {
                 </div>
             </div>
         </div>
+
+        <!-- Rodapé Minimalista e Elegante -->
+        <footer class="app-footer" id="app-footer">
+            <a href="https://github.com/allsz/caderno_simulado" target="_blank" rel="noopener noreferrer" class="app-footer-link" title="Repositório no GitHub">
+                <svg class="app-footer-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>Criado por Allsz © 2026</span>
+            </a>
+        </footer>
     </div>
 
     <!-- Modal de Apoio / Pix -->
@@ -38193,6 +38264,9 @@ function restaurarElementosInterfaceGlobal() {
     const painelStats = document.getElementById('painel-estatisticas');
     if (painelStats) painelStats.style.display = '';
 
+    const appFooter = document.getElementById('app-footer');
+    if (appFooter) appFooter.style.display = '';
+
     // 4. Oculta com segurança a casca do simulado ativo
     const containerSimulado = document.getElementById('simulado-ativo-container');
     if (containerSimulado) containerSimulado.style.display = 'none';
@@ -38836,6 +38910,9 @@ function renderizarTelaSimuladoAtivo(isRestauracao = false) {
 
     const painelStats = document.getElementById('painel-estatisticas');
     if (painelStats) painelStats.style.display = 'none';
+
+    const appFooter = document.getElementById('app-footer');
+    if (appFooter) appFooter.style.display = 'none';
 
     const progressTopbar = document.querySelector('.progress-container');
     if (progressTopbar) progressTopbar.style.display = 'none';

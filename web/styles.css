@@ -92,7 +92,7 @@ body {
     background: var(--bg-main);
     color: var(--text-main);
     margin: 0;
-    padding: 0 0 60px 0;
+    padding: 0;
     line-height: 1.6;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -399,7 +399,7 @@ button, input, select, textarea {
 .container {
     max-width: 1720px;
     width: 100%;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     padding: 0 clamp(16px, 3.5vw, 48px);
 }
 
@@ -1951,7 +1951,7 @@ h1 {
     border: 1px solid var(--border-color);
     border-radius: 16px;
     padding: 24px 20px;
-    margin: 36px 0 20px 0;
+    margin: 36px 0 0 0;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
     transition: all 0.3s ease;
 }
@@ -4874,6 +4874,7 @@ html.simulado-sessao-ativa #painel-estatisticas,
 html.simulado-sessao-ativa #btn-reset-respostas,
 html.simulado-sessao-ativa #btn-exportar-backup,
 html.simulado-sessao-ativa #btn-importar-backup,
+html.simulado-sessao-ativa #app-footer,
 html.simulado-sessao-ativa .topbar-dropdown-item.hide-on-simulado,
 html.simulado-sessao-ativa .topbar-dropdown-divider.hide-on-simulado {
     display: none !important;
@@ -6599,4 +6600,64 @@ html.simulado-sessao-ativa #simulado-ativo-container {
 .cenario-critico .btn-concluido-okay {
     background: linear-gradient(135deg, #475569 0%, #334155 100%);
     box-shadow: 0 10px 20px -5px rgba(71, 85, 105, 0.3);
+}
+
+/* ========================================================
+   Footer Discreto e Minimalista (Inspirado no Design System)
+   ======================================================== */
+.app-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 16px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.app-footer-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    color: var(--text-muted, #64748b);
+    opacity: 0.55;
+    padding: 6px 14px;
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.app-footer-icon {
+    flex-shrink: 0;
+    stroke: currentColor;
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.app-footer-link:hover {
+    opacity: 0.95;
+    color: var(--text-main, #0f172a);
+    background: rgba(0, 0, 0, 0.035);
+    border-color: rgba(0, 0, 0, 0.06);
+    transform: translateY(-1px);
+}
+
+[data-theme="dark"] .app-footer-link {
+    color: #94a3b8;
+    opacity: 0.45;
+}
+
+[data-theme="dark"] .app-footer-link:hover {
+    opacity: 0.95;
+    color: #f1f5f9;
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+.app-footer-link:active {
+    transform: translateY(0);
 }
